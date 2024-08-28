@@ -1,4 +1,3 @@
-
 maximize cost: 249 x5dcae + 62 x5dcbd + 16 x5dcbe + 33 x5dcd6
  + 86 x5dcc5 + 39 x5dcc6 + 32 x5dcd8 + 62 x5dccd + 16 x5dcce
  + 2 x5dce6 + 15 x5dce9 + 12 x5dcea + 56 x5dd34 + 61 x5dcf0
@@ -4969,19 +4968,10 @@ maximize cost: 249 x5dcae + 62 x5dcbd + 16 x5dcbe + 33 x5dcd6
  + 238 x7b940 + 64 x7b943 + 64 x7b944 + 52 x7b94d + 50 x7b95a
  + 30 x7b968 + 16 x7b96f + 16 x7b970 + 35 x7b979 + 25 x7b97e
  + 16 x7b9c4
-
 subject to
-
 z = 0
-
-
 o = 1
-
-
 +1 x5dcae = +1
-
-
-
 +1 x5dd41 +1 x5dd48 +1 x5dd54 +1 x5dd5b +1 x5dd6b +1 x6007d +1 x60430 +1 x6048d
 +1 x604ea +1 x60547 +1 x605a4 +1 x60601 +1 x627e7 +1 x62848 +1 x6284f +1 x6285f
 +1 x62f83 +1 x636ab +1 x63715 +1 x6371c +1 x6372c +1 x65918 +1 x65ccb +1 x65d28
@@ -5061,36399 +5051,18759 @@ o = 1
 +1 x7b855 +1 x7b857 +1 x7b864 +1 x7b865 +1 x7b881 +1 x7b888 +1 x7b8a0 +1 x7b8a7
 +1 x7b8b4 +1 x7b8bb +1 x7b8e6 +1 x7b8ed +1 x7b903 +1 x7b90a +1 x7b930 +1 x7b937
 +1 x7b944 +1 x7b94b +1 x7b970 +1 x7b977 +1 x7b981 +1 x7b9c4 = +1
-
-
-
 +1 x5dcae -1 x5dcbd -1 x5dcbe = +0
-
 +1 x5dcbe +1 x5dcce -1 x5dcd6 +0 x5dcd7 = +0
-
 +1 x5dcbd -1 x5dcc5 -1 x5dcc6 = +0
-
 +1 x5dcc6 -1 x5dcd8 +0 x5dcd9 = +0
-
 +1 x5dcc5 -1 x5dccc +1 x5dccd = +0
-
 +1 x5dccc -1 x5dccd -1 x5dcce = +0
-
 +1 x5dcd6 +1 x5dcd8 -1 x5dce6 = +0
-
 +1 x5dce6 -1 x5dce9 -1 x5dcea = +0
-
 +1 x5dcea +1 x5dd1f -1 x5dd34 +0 x5dd35 = +0
-
 +1 x5dce9 -1 x5dcf0 -1 x5dcf1 = +0
-
 +1 x5dcf0 -1 x5dcf7 +1 x5dd26 = +0
-
 +1 x5dcf7 -1 x5dcf8 -1 x5dcf9 = +0
-
 +1 x5dcf9 -1 x5dd08 +0 x5dd09 = +0
-
 +1 x5dcf8 -1 x5dcff +1 x5dd00 = +0
-
 +1 x5dcff -1 x5dd00 -1 x5dd01 = +0
-
 +1 x5dd01 -1 x5dd0a +0 x5dd0b = +0
-
 +1 x5dcf1 +1 x5dd08 +1 x5dd0a -1 x5dd1b = +0
-
 +1 x5dd1b -1 x5dd1d +1 x5dd27 = +0
-
 +1 x5dd1d -1 x5dd1e -1 x5dd1f = +0
-
 +1 x5dd1e -1 x5dd26 -1 x5dd27 = +0
-
 +1 x5dd34 -1 x5dd40 -1 x5dd41 = +0
-
 +1 x5dd40 -1 x5dd48 -1 x5dd4a = +0
-
 +1 x5dd4a -1 x5dd53 -1 x5dd54 = +0
-
 +1 x5dd53 -1 x5dd5b -1 x5dd5d = +0
-
 +1 x5dd5d -1 x5dd63 -1 x5dd64 = +0
-
 +1 x5dd63 -1 x5dd6b -1 x5dd6c = +0
-
 +1 x5dd6c -1 x5dd7b -1 x5dd7c = +0
-
 +1 x5dd7b -1 x5dda9 -1 x5ddaa = +0
-
 +1 x5dda9 +1 x5ddaa -1 x5ddb7 = +0
-
 +1 x5ddb7 -1 x5ddba -1 x5ddbb = +0
-
 +1 x5ddbb +1 x77048 -1 x7709e +0 x7709f = +0
-
 +1 x5ddba -1 x5ddd0 -1 x5ddd1 = +0
-
 +1 x5ddd0 -1 x5ddda -1 x5dddb = +0
-
 +1 x5ddda +1 x77001 -1 x77025 = +0
-
 +1 x5dddb -1 x5ddde -1 x5dddf -1 x5dde0 -1 x5dde1 -1 x5dde2 -1 x5dde3 -1 x5dde4
 -1 x5dde5 -1 x5dde6 -1 x5dde7 -1 x5dde8 -1 x5dde9 -1 x5ddea -1 x5ddeb -1 x5ddec
 -1 x5dded = +0
-
 +1 x5ddde -1 x5ddfd +1 x77005 +1 x77073 +1 x7799e +1 x7824b = +0
-
 +1 x5dddf -1 x5de0c +1 x77006 +1 x77074 +1 x7799f +1 x7824c = +0
-
 +1 x5dde0 -1 x5de1b +1 x77007 +1 x77075 +1 x779a0 +1 x7824d = +0
-
 +1 x5dde1 -1 x5de2a +1 x77008 +1 x77076 +1 x779a1 +1 x7824e = +0
-
 +1 x5dde2 -1 x5de39 +1 x77009 +1 x77077 +1 x779a2 +1 x7824f = +0
-
 +1 x5dde3 -1 x5de48 +1 x7700a +1 x77078 +1 x779a3 +1 x78250 = +0
-
 +1 x5dde4 -1 x5de57 +1 x7700b +1 x77079 +1 x779a4 +1 x78251 = +0
-
 +1 x5dde5 -1 x5de66 +1 x7700c +1 x7707a +1 x779a5 +1 x78252 = +0
-
 +1 x5dde6 -1 x5de75 +1 x7700d +1 x7707b +1 x779a6 +1 x78253 = +0
-
 +1 x5dde7 -1 x5de84 +1 x7700e +1 x7707c +1 x779a7 +1 x78254 = +0
-
 +1 x5dde8 -1 x5de93 +1 x7700f +1 x7707d +1 x779a8 +1 x78255 = +0
-
 +1 x5dde9 -1 x5dea2 +1 x77010 +1 x7707e +1 x779a9 +1 x78256 = +0
-
 +1 x5ddea -1 x5deb1 +1 x77011 +1 x7707f +1 x779aa +1 x78257 = +0
-
 +1 x5ddeb -1 x5dec0 +1 x77012 +1 x77080 +1 x779ab +1 x78258 = +0
-
 +1 x5ddec -1 x5decf +1 x77013 +1 x77081 +1 x779ac +1 x78259 = +0
-
 +1 x5dded -1 x5dede +1 x77014 +1 x77082 +1 x779ad +1 x7825a = +0
-
 +1 x5ddfd -1 x5df02 -1 x5df03 = +0
-
 +1 x5df03 -1 x5df4f +0 x5df50 = +0
-
 +1 x5df02 -1 x5df0e -1 x5df0f = +0
-
 +1 x5df0e -1 x5df1a -1 x5df1b = +0
-
 +1 x5df1a +1 x5df40 +1 x5e265 +1 x5e28e +1 x5e5c4 +1 x5e5ed +1 x5e923 +1 x5e94c
 +1 x5ec82 +1 x5ecab +1 x5efe1 +1 x5f00a +1 x5f340 +1 x5f369 +1 x5f69f +1 x5f6c8
 -1 x76fa7 = +0
-
 +1 x5df0f +1 x5df1b -1 x5df25 = +0
-
 +1 x5df25 -1 x5df27 +1 x5df4c -1 x5e273 = +0
-
 +1 x5df27 -1 x5df28 -1 x5df29 = +0
-
 +1 x5df29 -1 x5df51 +0 x5df52 -1 x5e29d = +0
-
 +1 x5df28 -1 x5df34 -1 x5df35 = +0
-
 +1 x5df34 -1 x5df40 -1 x5df41 = +0
-
 +1 x5df35 +1 x5df41 -1 x5df4c = +0
-
 +1 x5df4f +1 x5df51 -1 x5df5f = +0
-
 +1 x5df5f -1 x5df61 -1 x5e2a8 = +0
-
 +1 x5df61 -1 x5df62 -1 x5df63 = +0
-
 +1 x5df63 +1 x5e005 -1 x5e031 +0 x5e032 -1 x5e37f = +0
-
 +1 x5df62 -1 x5df73 -1 x5df74 = +0
-
 +1 x5df73 -1 x5df7f -1 x5df80 = +0
-
 +1 x5df7f +1 x5e022 -1 x5e2d0 = +0
-
 +1 x5df74 +1 x5df80 -1 x5df8a = +0
-
 +1 x5df8a -1 x5df8c +1 x5e02e -1 x5e2d5 = +0
-
 +1 x5df8c -1 x5df8d -1 x5df8e = +0
-
 +1 x5df8e +1 x5dfc3 -1 x5dff9 +0 x5dffa -1 x5e345 = +0
-
 +1 x5df8d -1 x5df99 -1 x5df9a = +0
-
 +1 x5df99 -1 x5dfa5 -1 x5dfa6 = +0
-
 +1 x5dfa5 -1 x5dfa9 -1 x5dfaa = +0
-
 +1 x5dfa9 -1 x5dfad -1 x5dfae = +0
-
 +1 x5dfad -1 x5dfb1 -1 x5dfb2 = +0
-
 +1 x5dfaa +1 x5dfae +1 x5dfb2 -1 x5dfb7 = +0
-
 +1 x5dfb7 +1 x5dfed -1 x5e303 = +0
-
 +1 x5df9a +1 x5dfa6 +1 x5dfb1 -1 x5dfbf = +0
-
 +1 x5dfbf -1 x5dfc1 +1 x5dff6 -1 x5e30c = +0
-
 +1 x5dfc1 -1 x5dfc2 -1 x5dfc3 = +0
-
 +1 x5dfc2 -1 x5dfcf -1 x5dfd0 = +0
-
 +1 x5dfcf -1 x5dfdb -1 x5dfdc = +0
-
 +1 x5dfdb -1 x5dfdf -1 x5dfe0 = +0
-
 +1 x5dfdf -1 x5dfe3 -1 x5dfe4 = +0
-
 +1 x5dfe3 -1 x5dfe7 -1 x5dfe8 = +0
-
 +1 x5dfe0 +1 x5dfe4 +1 x5dfe8 -1 x5dfed = +0
-
 +1 x5dfd0 +1 x5dfdc +1 x5dfe7 -1 x5dff6 = +0
-
 +1 x5dff9 -1 x5e003 -1 x5e350 = +0
-
 +1 x5e003 -1 x5e004 -1 x5e005 = +0
-
 +1 x5e004 -1 x5e016 -1 x5e017 = +0
-
 +1 x5e016 -1 x5e022 -1 x5e023 = +0
-
 +1 x5e017 +1 x5e023 -1 x5e02e = +0
-
 +1 x5e031 -1 x5e040 -1 x5e041 = +0
-
 +1 x5e041 -1 x5e045 -1 x5e046 = +0
-
 +1 x5e040 -1 x5e047 -1 x5e048 = +0
-
 +1 x5e046 +1 x5e048 -1 x5e04e -1 x5e04f = +0
-
 +1 x5e045 +1 x5e047 -1 x5e04d = +0
-
 +1 x5e04d -1 x5e050 -1 x5e051 = +0
-
 +1 x5e04f +1 x5e051 -1 x5e05c = +0
-
 +1 x5e04e +1 x5e050 -1 x5e060 = +0
-
 +1 x5e05c +1 x5e060 -1 x5e065 = +0
-
 +1 x5e065 -1 x5e068 -1 x5e069 = +0
-
 +1 x5e068 +1 x5e069 -1 x5e079 = +0
-
 +1 x5e079 -1 x5e087 -1 x5e088 = +0
-
 +1 x5e087 -1 x5e093 -1 x5e094 = +0
-
 +1 x5e088 +1 x5e093 +1 x5e094 -1 x5e0a2 = +0
-
 +1 x5e0a2 -1 x5e0a4 -1 x5e3f3 = +0
-
 +1 x5e0a4 -1 x5e0a5 -1 x5e0a6 = +0
-
 +1 x5e0a6 +1 x5e0cc -1 x5e0f3 +0 x5e0f4 -1 x5e445 = +0
-
 +1 x5e0a5 -1 x5e0b1 -1 x5e0b2 = +0
-
 +1 x5e0b1 -1 x5e0bd -1 x5e0be = +0
-
 +1 x5e0bd +1 x5e0e4 +1 x5e40d +1 x5e436 +1 x5e76c +1 x5e795 +1 x5eacb +1 x5eaf4
 +1 x5ee2a +1 x5ee53 +1 x5f189 +1 x5f1b2 +1 x5f4e8 +1 x5f511 +1 x5f847 +1 x5f870
 -1 x749de = +0
-
 +1 x5e0b2 +1 x5e0be -1 x5e0c8 = +0
-
 +1 x5e0c8 -1 x5e0ca +1 x5e0f0 -1 x5e41b = +0
-
 +1 x5e0ca -1 x5e0cb -1 x5e0cc = +0
-
 +1 x5e0cb -1 x5e0d8 -1 x5e0d9 = +0
-
 +1 x5e0d8 -1 x5e0e4 -1 x5e0e5 = +0
-
 +1 x5e0d9 +1 x5e0e5 -1 x5e0f0 = +0
-
 +1 x5e0f3 -1 x5e0fd -1 x5e450 = +0
-
 +1 x5e0fd -1 x5e0fe -1 x5e0ff = +0
-
 +1 x5e0ff +1 x5e1a1 -1 x5e1cd +0 x5e1ce -1 x5e527 = +0
-
 +1 x5e0fe -1 x5e10f -1 x5e110 = +0
-
 +1 x5e10f -1 x5e11b -1 x5e11c = +0
-
 +1 x5e11b +1 x5e1be -1 x5e478 = +0
-
 +1 x5e110 +1 x5e11c -1 x5e126 = +0
-
 +1 x5e126 -1 x5e128 +1 x5e1ca -1 x5e47d = +0
-
 +1 x5e128 -1 x5e129 -1 x5e12a = +0
-
 +1 x5e12a +1 x5e15f -1 x5e195 +0 x5e196 -1 x5e4ed = +0
-
 +1 x5e129 -1 x5e135 -1 x5e136 = +0
-
 +1 x5e135 -1 x5e141 -1 x5e142 = +0
-
 +1 x5e141 -1 x5e145 -1 x5e146 = +0
-
 +1 x5e145 -1 x5e149 -1 x5e14a = +0
-
 +1 x5e149 -1 x5e14d -1 x5e14e = +0
-
 +1 x5e146 +1 x5e14a +1 x5e14e -1 x5e153 = +0
-
 +1 x5e153 +1 x5e189 -1 x5e4ab = +0
-
 +1 x5e136 +1 x5e142 +1 x5e14d -1 x5e15b = +0
-
 +1 x5e15b -1 x5e15d +1 x5e192 -1 x5e4b4 = +0
-
 +1 x5e15d -1 x5e15e -1 x5e15f = +0
-
 +1 x5e15e -1 x5e16b -1 x5e16c = +0
-
 +1 x5e16b -1 x5e177 -1 x5e178 = +0
-
 +1 x5e177 -1 x5e17b -1 x5e17c = +0
-
 +1 x5e17b -1 x5e17f -1 x5e180 = +0
-
 +1 x5e17f -1 x5e183 -1 x5e184 = +0
-
 +1 x5e17c +1 x5e180 +1 x5e184 -1 x5e189 = +0
-
 +1 x5e16c +1 x5e178 +1 x5e183 -1 x5e192 = +0
-
 +1 x5e195 -1 x5e19f -1 x5e4f8 = +0
-
 +1 x5e19f -1 x5e1a0 -1 x5e1a1 = +0
-
 +1 x5e1a0 -1 x5e1b2 -1 x5e1b3 = +0
-
 +1 x5e1b2 -1 x5e1be -1 x5e1bf = +0
-
 +1 x5e1b3 +1 x5e1bf -1 x5e1ca = +0
-
 +1 x5e1cd -1 x5e1dc -1 x5e1dd = +0
-
 +1 x5e1dd -1 x5e1e1 -1 x5e1e2 = +0
-
 +1 x5e1dc -1 x5e1e3 -1 x5e1e4 = +0
-
 +1 x5e1e2 -1 x5e1eb -1 x5e1ec = +0
-
 +1 x5e1e4 -1 x5e1ed -1 x5e1ee = +0
-
 +1 x5e1e3 -1 x5e1ef -1 x5e1f0 = +0
-
 +1 x5e1e1 -1 x5e1f1 -1 x5e1f2 = +0
-
 +1 x5e1eb +1 x5e1ed -1 x5e1f6 = +0
-
 +1 x5e1ec +1 x5e1ee -1 x5e1f3 = +0
-
 +1 x5e1f0 +1 x5e1f2 -1 x5e1fd = +0
-
 +1 x5e1f3 +1 x5e1fd -1 x5e201 = +0
-
 +1 x5e1ef +1 x5e1f1 -1 x5e203 = +0
-
 +1 x5e1f6 +1 x5e203 -1 x5e205 = +0
-
 +1 x5e201 -1 x5e208 -1 x5e209 = +0
-
 +1 x5e205 -1 x5e20a -1 x5e20b = +0
-
 +1 x5e208 +1 x5e20a -1 x5e567 = +0
-
 +1 x5e209 +1 x5e20b -1 x5e20c = +0
-
 +1 x5e20c -1 x5e210 -1 x5e56c = +0
-
 +1 x5e210 -1 x5e211 -1 x5e212 = +0
-
 +1 x5e211 -1 x5e22f -1 x5e230 = +0
-
 +1 x5e22f -1 x5e23b -1 x5e23c = +0
-
 +1 x5e230 +1 x5e23b +1 x5e23c -1 x5e24a = +0
-
 +1 x5e24a -1 x5e24c -1 x5e5aa = +0
-
 +1 x5e24c -1 x5e24d -1 x5e24e = +0
-
 +1 x5e24d -1 x5e259 -1 x5e25a = +0
-
 +1 x5e259 -1 x5e265 -1 x5e266 = +0
-
 +1 x5e25a +1 x5e266 -1 x5e271 = +0
-
 +1 x5e271 +1 x5e273 -1 x5e274 +1 x5e29a -1 x5e5d2 = +0
-
 +1 x5e274 -1 x5e275 -1 x5e276 = +0
-
 +1 x5e24e +1 x5e276 +1 x5e29d -1 x5e29e +0 x5e29f -1 x5e5fc = +0
-
 +1 x5e275 -1 x5e282 -1 x5e283 = +0
-
 +1 x5e282 -1 x5e28e -1 x5e28f = +0
-
 +1 x5e283 +1 x5e28f -1 x5e29a = +0
-
 +1 x5e29e +1 x5e2a8 -1 x5e2a9 -1 x5e607 = +0
-
 +1 x5e2a9 -1 x5e2aa -1 x5e2ab = +0
-
 +1 x5e2ab +1 x5e353 +1 x5e37f -1 x5e380 +0 x5e381 -1 x5e6de = +0
-
 +1 x5e2aa -1 x5e2bb -1 x5e2bc = +0
-
 +1 x5e2bb -1 x5e2c7 -1 x5e2c8 = +0
-
 +1 x5e2c7 +1 x5e2d0 +1 x5e370 -1 x5e62f = +0
-
 +1 x5e2bc +1 x5e2c8 -1 x5e2d3 = +0
-
 +1 x5e2d3 +1 x5e2d5 -1 x5e2d6 +1 x5e37c -1 x5e634 = +0
-
 +1 x5e2d6 -1 x5e2d7 -1 x5e2d8 = +0
-
 +1 x5e2d8 +1 x5e30f +1 x5e345 -1 x5e346 +0 x5e347 -1 x5e6a4 = +0
-
 +1 x5e2d7 -1 x5e2e3 -1 x5e2e4 = +0
-
 +1 x5e2e3 -1 x5e2ef -1 x5e2f0 = +0
-
 +1 x5e2ef -1 x5e2f3 -1 x5e2f4 = +0
-
 +1 x5e2f3 -1 x5e2f7 -1 x5e2f8 = +0
-
 +1 x5e2f7 -1 x5e2fb -1 x5e2fc = +0
-
 +1 x5e2f4 +1 x5e2f8 +1 x5e2fc -1 x5e301 = +0
-
 +1 x5e301 +1 x5e303 +1 x5e339 -1 x5e662 = +0
-
 +1 x5e2e4 +1 x5e2f0 +1 x5e2fb -1 x5e30a = +0
-
 +1 x5e30a +1 x5e30c -1 x5e30d +1 x5e342 -1 x5e66b = +0
-
 +1 x5e30d -1 x5e30e -1 x5e30f = +0
-
 +1 x5e30e -1 x5e31b -1 x5e31c = +0
-
 +1 x5e31b -1 x5e327 -1 x5e328 = +0
-
 +1 x5e327 -1 x5e32b -1 x5e32c = +0
-
 +1 x5e32b -1 x5e32f -1 x5e330 = +0
-
 +1 x5e32f -1 x5e333 -1 x5e334 = +0
-
 +1 x5e32c +1 x5e330 +1 x5e334 -1 x5e339 = +0
-
 +1 x5e31c +1 x5e328 +1 x5e333 -1 x5e342 = +0
-
 +1 x5e346 +1 x5e350 -1 x5e351 -1 x5e6af = +0
-
 +1 x5e351 -1 x5e352 -1 x5e353 = +0
-
 +1 x5e352 -1 x5e364 -1 x5e365 = +0
-
 +1 x5e364 -1 x5e370 -1 x5e371 = +0
-
 +1 x5e365 +1 x5e371 -1 x5e37c = +0
-
 +1 x5e380 -1 x5e38f -1 x5e390 = +0
-
 +1 x5e390 -1 x5e394 -1 x5e395 = +0
-
 +1 x5e38f -1 x5e396 -1 x5e397 = +0
-
 +1 x5e395 +1 x5e397 -1 x5e39d -1 x5e39e = +0
-
 +1 x5e394 +1 x5e396 -1 x5e39c = +0
-
 +1 x5e39c -1 x5e39f -1 x5e3a0 = +0
-
 +1 x5e39e +1 x5e3a0 -1 x5e3ab = +0
-
 +1 x5e39d +1 x5e39f -1 x5e3af = +0
-
 +1 x5e3ab +1 x5e3af -1 x5e3b4 = +0
-
 +1 x5e3b4 -1 x5e3b7 -1 x5e3b8 = +0
-
 +1 x5e3b7 +1 x5e3b8 -1 x5e3c8 = +0
-
 +1 x5e3c8 -1 x5e3d6 -1 x5e3d7 = +0
-
 +1 x5e3d6 -1 x5e3e2 -1 x5e3e3 = +0
-
 +1 x5e3d7 +1 x5e3e2 +1 x5e3e3 -1 x5e3f1 = +0
-
 +1 x5e3f1 +1 x5e3f3 -1 x5e3f4 -1 x5e752 = +0
-
 +1 x5e3f4 -1 x5e3f5 -1 x5e3f6 = +0
-
 +1 x5e3f6 +1 x5e41e +1 x5e445 -1 x5e446 +0 x5e447 -1 x5e7a4 = +0
-
 +1 x5e3f5 -1 x5e401 -1 x5e402 = +0
-
 +1 x5e401 -1 x5e40d -1 x5e40e = +0
-
 +1 x5e402 +1 x5e40e -1 x5e419 = +0
-
 +1 x5e419 +1 x5e41b -1 x5e41c +1 x5e442 -1 x5e77a = +0
-
 +1 x5e41c -1 x5e41d -1 x5e41e = +0
-
 +1 x5e41d -1 x5e42a -1 x5e42b = +0
-
 +1 x5e42a -1 x5e436 -1 x5e437 = +0
-
 +1 x5e42b +1 x5e437 -1 x5e442 = +0
-
 +1 x5e446 +1 x5e450 -1 x5e451 -1 x5e7af = +0
-
 +1 x5e451 -1 x5e452 -1 x5e453 = +0
-
 +1 x5e453 +1 x5e4fb +1 x5e527 -1 x5e528 +0 x5e529 -1 x5e886 = +0
-
 +1 x5e452 -1 x5e463 -1 x5e464 = +0
-
 +1 x5e463 -1 x5e46f -1 x5e470 = +0
-
 +1 x5e46f +1 x5e478 +1 x5e518 -1 x5e7d7 = +0
-
 +1 x5e464 +1 x5e470 -1 x5e47b = +0
-
 +1 x5e47b +1 x5e47d -1 x5e47e +1 x5e524 -1 x5e7dc = +0
-
 +1 x5e47e -1 x5e47f -1 x5e480 = +0
-
 +1 x5e480 +1 x5e4b7 +1 x5e4ed -1 x5e4ee +0 x5e4ef -1 x5e84c = +0
-
 +1 x5e47f -1 x5e48b -1 x5e48c = +0
-
 +1 x5e48b -1 x5e497 -1 x5e498 = +0
-
 +1 x5e497 -1 x5e49b -1 x5e49c = +0
-
 +1 x5e49b -1 x5e49f -1 x5e4a0 = +0
-
 +1 x5e49f -1 x5e4a3 -1 x5e4a4 = +0
-
 +1 x5e49c +1 x5e4a0 +1 x5e4a4 -1 x5e4a9 = +0
-
 +1 x5e4a9 +1 x5e4ab +1 x5e4e1 -1 x5e80a = +0
-
 +1 x5e48c +1 x5e498 +1 x5e4a3 -1 x5e4b2 = +0
-
 +1 x5e4b2 +1 x5e4b4 -1 x5e4b5 +1 x5e4ea -1 x5e813 = +0
-
 +1 x5e4b5 -1 x5e4b6 -1 x5e4b7 = +0
-
 +1 x5e4b6 -1 x5e4c3 -1 x5e4c4 = +0
-
 +1 x5e4c3 -1 x5e4cf -1 x5e4d0 = +0
-
 +1 x5e4cf -1 x5e4d3 -1 x5e4d4 = +0
-
 +1 x5e4d3 -1 x5e4d7 -1 x5e4d8 = +0
-
 +1 x5e4d7 -1 x5e4db -1 x5e4dc = +0
-
 +1 x5e4d4 +1 x5e4d8 +1 x5e4dc -1 x5e4e1 = +0
-
 +1 x5e4c4 +1 x5e4d0 +1 x5e4db -1 x5e4ea = +0
-
 +1 x5e4ee +1 x5e4f8 -1 x5e4f9 -1 x5e857 = +0
-
 +1 x5e4f9 -1 x5e4fa -1 x5e4fb = +0
-
 +1 x5e4fa -1 x5e50c -1 x5e50d = +0
-
 +1 x5e50c -1 x5e518 -1 x5e519 = +0
-
 +1 x5e50d +1 x5e519 -1 x5e524 = +0
-
 +1 x5e528 -1 x5e537 -1 x5e538 = +0
-
 +1 x5e538 -1 x5e53c -1 x5e53d = +0
-
 +1 x5e537 -1 x5e53e -1 x5e53f = +0
-
 +1 x5e53d -1 x5e546 -1 x5e547 = +0
-
 +1 x5e53f -1 x5e548 -1 x5e549 = +0
-
 +1 x5e53e -1 x5e54a -1 x5e54b = +0
-
 +1 x5e53c -1 x5e54c -1 x5e54d = +0
-
 +1 x5e546 +1 x5e548 -1 x5e551 = +0
-
 +1 x5e547 +1 x5e549 -1 x5e54e = +0
-
 +1 x5e54b +1 x5e54d -1 x5e558 = +0
-
 +1 x5e54e +1 x5e558 -1 x5e55c = +0
-
 +1 x5e54a +1 x5e54c -1 x5e55e = +0
-
 +1 x5e551 +1 x5e55e -1 x5e560 = +0
-
 +1 x5e55c -1 x5e563 -1 x5e564 = +0
-
 +1 x5e560 -1 x5e565 -1 x5e566 = +0
-
 +1 x5e563 +1 x5e565 +1 x5e567 -1 x5e8c6 = +0
-
 +1 x5e564 +1 x5e566 -1 x5e568 = +0
-
 +1 x5e568 +1 x5e56c -1 x5e56d -1 x5e8cb = +0
-
 +1 x5e56d -1 x5e56e -1 x5e56f = +0
-
 +1 x5e212 +1 x5e56f -1 x5e8d0 = +0
-
 +1 x5e56e -1 x5e58d -1 x5e58e = +0
-
 +1 x5e58d -1 x5e599 -1 x5e59a = +0
-
 +1 x5e58e +1 x5e599 +1 x5e59a -1 x5e5a8 = +0
-
 +1 x5e5a8 +1 x5e5aa -1 x5e5ab -1 x5e909 = +0
-
 +1 x5e5ab -1 x5e5ac -1 x5e5ad = +0
-
 +1 x5e5ac -1 x5e5b8 -1 x5e5b9 = +0
-
 +1 x5e5b8 -1 x5e5c4 -1 x5e5c5 = +0
-
 +1 x5e5b9 +1 x5e5c5 -1 x5e5d0 = +0
-
 +1 x5e5d0 +1 x5e5d2 -1 x5e5d3 +1 x5e5f9 -1 x5e931 = +0
-
 +1 x5e5d3 -1 x5e5d4 -1 x5e5d5 = +0
-
 +1 x5e5ad +1 x5e5d5 +1 x5e5fc -1 x5e5fd +0 x5e5fe -1 x5e95b = +0
-
 +1 x5e5d4 -1 x5e5e1 -1 x5e5e2 = +0
-
 +1 x5e5e1 -1 x5e5ed -1 x5e5ee = +0
-
 +1 x5e5e2 +1 x5e5ee -1 x5e5f9 = +0
-
 +1 x5e5fd +1 x5e607 -1 x5e608 -1 x5e966 = +0
-
 +1 x5e608 -1 x5e609 -1 x5e60a = +0
-
 +1 x5e60a +1 x5e6b2 +1 x5e6de -1 x5e6df +0 x5e6e0 -1 x5ea3d = +0
-
 +1 x5e609 -1 x5e61a -1 x5e61b = +0
-
 +1 x5e61a -1 x5e626 -1 x5e627 = +0
-
 +1 x5e626 +1 x5e62f +1 x5e6cf -1 x5e98e = +0
-
 +1 x5e61b +1 x5e627 -1 x5e632 = +0
-
 +1 x5e632 +1 x5e634 -1 x5e635 +1 x5e6db -1 x5e993 = +0
-
 +1 x5e635 -1 x5e636 -1 x5e637 = +0
-
 +1 x5e637 +1 x5e66e +1 x5e6a4 -1 x5e6a5 +0 x5e6a6 -1 x5ea03 = +0
-
 +1 x5e636 -1 x5e642 -1 x5e643 = +0
-
 +1 x5e642 -1 x5e64e -1 x5e64f = +0
-
 +1 x5e64e -1 x5e652 -1 x5e653 = +0
-
 +1 x5e652 -1 x5e656 -1 x5e657 = +0
-
 +1 x5e656 -1 x5e65a -1 x5e65b = +0
-
 +1 x5e653 +1 x5e657 +1 x5e65b -1 x5e660 = +0
-
 +1 x5e660 +1 x5e662 +1 x5e698 -1 x5e9c1 = +0
-
 +1 x5e643 +1 x5e64f +1 x5e65a -1 x5e669 = +0
-
 +1 x5e669 +1 x5e66b -1 x5e66c +1 x5e6a1 -1 x5e9ca = +0
-
 +1 x5e66c -1 x5e66d -1 x5e66e = +0
-
 +1 x5e66d -1 x5e67a -1 x5e67b = +0
-
 +1 x5e67a -1 x5e686 -1 x5e687 = +0
-
 +1 x5e686 -1 x5e68a -1 x5e68b = +0
-
 +1 x5e68a -1 x5e68e -1 x5e68f = +0
-
 +1 x5e68e -1 x5e692 -1 x5e693 = +0
-
 +1 x5e68b +1 x5e68f +1 x5e693 -1 x5e698 = +0
-
 +1 x5e67b +1 x5e687 +1 x5e692 -1 x5e6a1 = +0
-
 +1 x5e6a5 +1 x5e6af -1 x5e6b0 -1 x5ea0e = +0
-
 +1 x5e6b0 -1 x5e6b1 -1 x5e6b2 = +0
-
 +1 x5e6b1 -1 x5e6c3 -1 x5e6c4 = +0
-
 +1 x5e6c3 -1 x5e6cf -1 x5e6d0 = +0
-
 +1 x5e6c4 +1 x5e6d0 -1 x5e6db = +0
-
 +1 x5e6df -1 x5e6ee -1 x5e6ef = +0
-
 +1 x5e6ef -1 x5e6f3 -1 x5e6f4 = +0
-
 +1 x5e6ee -1 x5e6f5 -1 x5e6f6 = +0
-
 +1 x5e6f4 +1 x5e6f6 -1 x5e6fc -1 x5e6fd = +0
-
 +1 x5e6f3 +1 x5e6f5 -1 x5e6fb = +0
-
 +1 x5e6fb -1 x5e6fe -1 x5e6ff = +0
-
 +1 x5e6fd +1 x5e6ff -1 x5e70a = +0
-
 +1 x5e6fc +1 x5e6fe -1 x5e70e = +0
-
 +1 x5e70a +1 x5e70e -1 x5e713 = +0
-
 +1 x5e713 -1 x5e716 -1 x5e717 = +0
-
 +1 x5e716 +1 x5e717 -1 x5e727 = +0
-
 +1 x5e727 -1 x5e735 -1 x5e736 = +0
-
 +1 x5e735 -1 x5e741 -1 x5e742 = +0
-
 +1 x5e736 +1 x5e741 +1 x5e742 -1 x5e750 = +0
-
 +1 x5e750 +1 x5e752 -1 x5e753 -1 x5eab1 = +0
-
 +1 x5e753 -1 x5e754 -1 x5e755 = +0
-
 +1 x5e755 +1 x5e77d +1 x5e7a4 -1 x5e7a5 +0 x5e7a6 -1 x5eb03 = +0
-
 +1 x5e754 -1 x5e760 -1 x5e761 = +0
-
 +1 x5e760 -1 x5e76c -1 x5e76d = +0
-
 +1 x5e761 +1 x5e76d -1 x5e778 = +0
-
 +1 x5e778 +1 x5e77a -1 x5e77b +1 x5e7a1 -1 x5ead9 = +0
-
 +1 x5e77b -1 x5e77c -1 x5e77d = +0
-
 +1 x5e77c -1 x5e789 -1 x5e78a = +0
-
 +1 x5e789 -1 x5e795 -1 x5e796 = +0
-
 +1 x5e78a +1 x5e796 -1 x5e7a1 = +0
-
 +1 x5e7a5 +1 x5e7af -1 x5e7b0 -1 x5eb0e = +0
-
 +1 x5e7b0 -1 x5e7b1 -1 x5e7b2 = +0
-
 +1 x5e7b2 +1 x5e85a +1 x5e886 -1 x5e887 +0 x5e888 -1 x5ebe5 = +0
-
 +1 x5e7b1 -1 x5e7c2 -1 x5e7c3 = +0
-
 +1 x5e7c2 -1 x5e7ce -1 x5e7cf = +0
-
 +1 x5e7ce +1 x5e7d7 +1 x5e877 -1 x5eb36 = +0
-
 +1 x5e7c3 +1 x5e7cf -1 x5e7da = +0
-
 +1 x5e7da +1 x5e7dc -1 x5e7dd +1 x5e883 -1 x5eb3b = +0
-
 +1 x5e7dd -1 x5e7de -1 x5e7df = +0
-
 +1 x5e7df +1 x5e816 +1 x5e84c -1 x5e84d +0 x5e84e -1 x5ebab = +0
-
 +1 x5e7de -1 x5e7ea -1 x5e7eb = +0
-
 +1 x5e7ea -1 x5e7f6 -1 x5e7f7 = +0
-
 +1 x5e7f6 -1 x5e7fa -1 x5e7fb = +0
-
 +1 x5e7fa -1 x5e7fe -1 x5e7ff = +0
-
 +1 x5e7fe -1 x5e802 -1 x5e803 = +0
-
 +1 x5e7fb +1 x5e7ff +1 x5e803 -1 x5e808 = +0
-
 +1 x5e808 +1 x5e80a +1 x5e840 -1 x5eb69 = +0
-
 +1 x5e7eb +1 x5e7f7 +1 x5e802 -1 x5e811 = +0
-
 +1 x5e811 +1 x5e813 -1 x5e814 +1 x5e849 -1 x5eb72 = +0
-
 +1 x5e814 -1 x5e815 -1 x5e816 = +0
-
 +1 x5e815 -1 x5e822 -1 x5e823 = +0
-
 +1 x5e822 -1 x5e82e -1 x5e82f = +0
-
 +1 x5e82e -1 x5e832 -1 x5e833 = +0
-
 +1 x5e832 -1 x5e836 -1 x5e837 = +0
-
 +1 x5e836 -1 x5e83a -1 x5e83b = +0
-
 +1 x5e833 +1 x5e837 +1 x5e83b -1 x5e840 = +0
-
 +1 x5e823 +1 x5e82f +1 x5e83a -1 x5e849 = +0
-
 +1 x5e84d +1 x5e857 -1 x5e858 -1 x5ebb6 = +0
-
 +1 x5e858 -1 x5e859 -1 x5e85a = +0
-
 +1 x5e859 -1 x5e86b -1 x5e86c = +0
-
 +1 x5e86b -1 x5e877 -1 x5e878 = +0
-
 +1 x5e86c +1 x5e878 -1 x5e883 = +0
-
 +1 x5e887 -1 x5e896 -1 x5e897 = +0
-
 +1 x5e897 -1 x5e89b -1 x5e89c = +0
-
 +1 x5e896 -1 x5e89d -1 x5e89e = +0
-
 +1 x5e89c -1 x5e8a5 -1 x5e8a6 = +0
-
 +1 x5e89e -1 x5e8a7 -1 x5e8a8 = +0
-
 +1 x5e89d -1 x5e8a9 -1 x5e8aa = +0
-
 +1 x5e89b -1 x5e8ab -1 x5e8ac = +0
-
 +1 x5e8a5 +1 x5e8a7 -1 x5e8b0 = +0
-
 +1 x5e8a6 +1 x5e8a8 -1 x5e8ad = +0
-
 +1 x5e8aa +1 x5e8ac -1 x5e8b7 = +0
-
 +1 x5e8ad +1 x5e8b7 -1 x5e8bb = +0
-
 +1 x5e8a9 +1 x5e8ab -1 x5e8bd = +0
-
 +1 x5e8b0 +1 x5e8bd -1 x5e8bf = +0
-
 +1 x5e8bb -1 x5e8c2 -1 x5e8c3 = +0
-
 +1 x5e8bf -1 x5e8c4 -1 x5e8c5 = +0
-
 +1 x5e8c2 +1 x5e8c4 +1 x5e8c6 -1 x5ec25 = +0
-
 +1 x5e8c3 +1 x5e8c5 -1 x5e8c7 = +0
-
 +1 x5e8c7 +1 x5e8cb -1 x5e8cc -1 x5ec2a = +0
-
 +1 x5e8cc -1 x5e8cd -1 x5e8ce = +0
-
 +1 x5e8ce +1 x5e8d0 -1 x5ec2f = +0
-
 +1 x5e8cd -1 x5e8ec -1 x5e8ed = +0
-
 +1 x5e8ec -1 x5e8f8 -1 x5e8f9 = +0
-
 +1 x5e8ed +1 x5e8f8 +1 x5e8f9 -1 x5e907 = +0
-
 +1 x5e907 +1 x5e909 -1 x5e90a -1 x5ec68 = +0
-
 +1 x5e90a -1 x5e90b -1 x5e90c = +0
-
 +1 x5e90b -1 x5e917 -1 x5e918 = +0
-
 +1 x5e917 -1 x5e923 -1 x5e924 = +0
-
 +1 x5e918 +1 x5e924 -1 x5e92f = +0
-
 +1 x5e92f +1 x5e931 -1 x5e932 +1 x5e958 -1 x5ec90 = +0
-
 +1 x5e932 -1 x5e933 -1 x5e934 = +0
-
 +1 x5e90c +1 x5e934 +1 x5e95b -1 x5e95c +0 x5e95d -1 x5ecba = +0
-
 +1 x5e933 -1 x5e940 -1 x5e941 = +0
-
 +1 x5e940 -1 x5e94c -1 x5e94d = +0
-
 +1 x5e941 +1 x5e94d -1 x5e958 = +0
-
 +1 x5e95c +1 x5e966 -1 x5e967 -1 x5ecc5 = +0
-
 +1 x5e967 -1 x5e968 -1 x5e969 = +0
-
 +1 x5e969 +1 x5ea11 +1 x5ea3d -1 x5ea3e +0 x5ea3f -1 x5ed9c = +0
-
 +1 x5e968 -1 x5e979 -1 x5e97a = +0
-
 +1 x5e979 -1 x5e985 -1 x5e986 = +0
-
 +1 x5e985 +1 x5e98e +1 x5ea2e -1 x5eced = +0
-
 +1 x5e97a +1 x5e986 -1 x5e991 = +0
-
 +1 x5e991 +1 x5e993 -1 x5e994 +1 x5ea3a -1 x5ecf2 = +0
-
 +1 x5e994 -1 x5e995 -1 x5e996 = +0
-
 +1 x5e996 +1 x5e9cd +1 x5ea03 -1 x5ea04 +0 x5ea05 -1 x5ed62 = +0
-
 +1 x5e995 -1 x5e9a1 -1 x5e9a2 = +0
-
 +1 x5e9a1 -1 x5e9ad -1 x5e9ae = +0
-
 +1 x5e9ad -1 x5e9b1 -1 x5e9b2 = +0
-
 +1 x5e9b1 -1 x5e9b5 -1 x5e9b6 = +0
-
 +1 x5e9b5 -1 x5e9b9 -1 x5e9ba = +0
-
 +1 x5e9b2 +1 x5e9b6 +1 x5e9ba -1 x5e9bf = +0
-
 +1 x5e9bf +1 x5e9c1 +1 x5e9f7 -1 x5ed20 = +0
-
 +1 x5e9a2 +1 x5e9ae +1 x5e9b9 -1 x5e9c8 = +0
-
 +1 x5e9c8 +1 x5e9ca -1 x5e9cb +1 x5ea00 -1 x5ed29 = +0
-
 +1 x5e9cb -1 x5e9cc -1 x5e9cd = +0
-
 +1 x5e9cc -1 x5e9d9 -1 x5e9da = +0
-
 +1 x5e9d9 -1 x5e9e5 -1 x5e9e6 = +0
-
 +1 x5e9e5 -1 x5e9e9 -1 x5e9ea = +0
-
 +1 x5e9e9 -1 x5e9ed -1 x5e9ee = +0
-
 +1 x5e9ed -1 x5e9f1 -1 x5e9f2 = +0
-
 +1 x5e9ea +1 x5e9ee +1 x5e9f2 -1 x5e9f7 = +0
-
 +1 x5e9da +1 x5e9e6 +1 x5e9f1 -1 x5ea00 = +0
-
 +1 x5ea04 +1 x5ea0e -1 x5ea0f -1 x5ed6d = +0
-
 +1 x5ea0f -1 x5ea10 -1 x5ea11 = +0
-
 +1 x5ea10 -1 x5ea22 -1 x5ea23 = +0
-
 +1 x5ea22 -1 x5ea2e -1 x5ea2f = +0
-
 +1 x5ea23 +1 x5ea2f -1 x5ea3a = +0
-
 +1 x5ea3e -1 x5ea4d -1 x5ea4e = +0
-
 +1 x5ea4e -1 x5ea52 -1 x5ea53 = +0
-
 +1 x5ea4d -1 x5ea54 -1 x5ea55 = +0
-
 +1 x5ea53 +1 x5ea55 -1 x5ea5b -1 x5ea5c = +0
-
 +1 x5ea52 +1 x5ea54 -1 x5ea5a = +0
-
 +1 x5ea5a -1 x5ea5d -1 x5ea5e = +0
-
 +1 x5ea5c +1 x5ea5e -1 x5ea69 = +0
-
 +1 x5ea5b +1 x5ea5d -1 x5ea6d = +0
-
 +1 x5ea69 +1 x5ea6d -1 x5ea72 = +0
-
 +1 x5ea72 -1 x5ea75 -1 x5ea76 = +0
-
 +1 x5ea75 +1 x5ea76 -1 x5ea86 = +0
-
 +1 x5ea86 -1 x5ea94 -1 x5ea95 = +0
-
 +1 x5ea94 -1 x5eaa0 -1 x5eaa1 = +0
-
 +1 x5ea95 +1 x5eaa0 +1 x5eaa1 -1 x5eaaf = +0
-
 +1 x5eaaf +1 x5eab1 -1 x5eab2 -1 x5ee10 = +0
-
 +1 x5eab2 -1 x5eab3 -1 x5eab4 = +0
-
 +1 x5eab4 +1 x5eadc +1 x5eb03 -1 x5eb04 +0 x5eb05 -1 x5ee62 = +0
-
 +1 x5eab3 -1 x5eabf -1 x5eac0 = +0
-
 +1 x5eabf -1 x5eacb -1 x5eacc = +0
-
 +1 x5eac0 +1 x5eacc -1 x5ead7 = +0
-
 +1 x5ead7 +1 x5ead9 -1 x5eada +1 x5eb00 -1 x5ee38 = +0
-
 +1 x5eada -1 x5eadb -1 x5eadc = +0
-
 +1 x5eadb -1 x5eae8 -1 x5eae9 = +0
-
 +1 x5eae8 -1 x5eaf4 -1 x5eaf5 = +0
-
 +1 x5eae9 +1 x5eaf5 -1 x5eb00 = +0
-
 +1 x5eb04 +1 x5eb0e -1 x5eb0f -1 x5ee6d = +0
-
 +1 x5eb0f -1 x5eb10 -1 x5eb11 = +0
-
 +1 x5eb11 +1 x5ebb9 +1 x5ebe5 -1 x5ebe6 +0 x5ebe7 -1 x5ef44 = +0
-
 +1 x5eb10 -1 x5eb21 -1 x5eb22 = +0
-
 +1 x5eb21 -1 x5eb2d -1 x5eb2e = +0
-
 +1 x5eb2d +1 x5eb36 +1 x5ebd6 -1 x5ee95 = +0
-
 +1 x5eb22 +1 x5eb2e -1 x5eb39 = +0
-
 +1 x5eb39 +1 x5eb3b -1 x5eb3c +1 x5ebe2 -1 x5ee9a = +0
-
 +1 x5eb3c -1 x5eb3d -1 x5eb3e = +0
-
 +1 x5eb3e +1 x5eb75 +1 x5ebab -1 x5ebac +0 x5ebad -1 x5ef0a = +0
-
 +1 x5eb3d -1 x5eb49 -1 x5eb4a = +0
-
 +1 x5eb49 -1 x5eb55 -1 x5eb56 = +0
-
 +1 x5eb55 -1 x5eb59 -1 x5eb5a = +0
-
 +1 x5eb59 -1 x5eb5d -1 x5eb5e = +0
-
 +1 x5eb5d -1 x5eb61 -1 x5eb62 = +0
-
 +1 x5eb5a +1 x5eb5e +1 x5eb62 -1 x5eb67 = +0
-
 +1 x5eb67 +1 x5eb69 +1 x5eb9f -1 x5eec8 = +0
-
 +1 x5eb4a +1 x5eb56 +1 x5eb61 -1 x5eb70 = +0
-
 +1 x5eb70 +1 x5eb72 -1 x5eb73 +1 x5eba8 -1 x5eed1 = +0
-
 +1 x5eb73 -1 x5eb74 -1 x5eb75 = +0
-
 +1 x5eb74 -1 x5eb81 -1 x5eb82 = +0
-
 +1 x5eb81 -1 x5eb8d -1 x5eb8e = +0
-
 +1 x5eb8d -1 x5eb91 -1 x5eb92 = +0
-
 +1 x5eb91 -1 x5eb95 -1 x5eb96 = +0
-
 +1 x5eb95 -1 x5eb99 -1 x5eb9a = +0
-
 +1 x5eb92 +1 x5eb96 +1 x5eb9a -1 x5eb9f = +0
-
 +1 x5eb82 +1 x5eb8e +1 x5eb99 -1 x5eba8 = +0
-
 +1 x5ebac +1 x5ebb6 -1 x5ebb7 -1 x5ef15 = +0
-
 +1 x5ebb7 -1 x5ebb8 -1 x5ebb9 = +0
-
 +1 x5ebb8 -1 x5ebca -1 x5ebcb = +0
-
 +1 x5ebca -1 x5ebd6 -1 x5ebd7 = +0
-
 +1 x5ebcb +1 x5ebd7 -1 x5ebe2 = +0
-
 +1 x5ebe6 -1 x5ebf5 -1 x5ebf6 = +0
-
 +1 x5ebf6 -1 x5ebfa -1 x5ebfb = +0
-
 +1 x5ebf5 -1 x5ebfc -1 x5ebfd = +0
-
 +1 x5ebfb -1 x5ec04 -1 x5ec05 = +0
-
 +1 x5ebfd -1 x5ec06 -1 x5ec07 = +0
-
 +1 x5ebfc -1 x5ec08 -1 x5ec09 = +0
-
 +1 x5ebfa -1 x5ec0a -1 x5ec0b = +0
-
 +1 x5ec04 +1 x5ec06 -1 x5ec0f = +0
-
 +1 x5ec05 +1 x5ec07 -1 x5ec0c = +0
-
 +1 x5ec09 +1 x5ec0b -1 x5ec16 = +0
-
 +1 x5ec0c +1 x5ec16 -1 x5ec1a = +0
-
 +1 x5ec08 +1 x5ec0a -1 x5ec1c = +0
-
 +1 x5ec0f +1 x5ec1c -1 x5ec1e = +0
-
 +1 x5ec1a -1 x5ec21 -1 x5ec22 = +0
-
 +1 x5ec1e -1 x5ec23 -1 x5ec24 = +0
-
 +1 x5ec21 +1 x5ec23 +1 x5ec25 -1 x5ef84 = +0
-
 +1 x5ec22 +1 x5ec24 -1 x5ec26 = +0
-
 +1 x5ec26 +1 x5ec2a -1 x5ec2b -1 x5ef89 = +0
-
 +1 x5ec2b -1 x5ec2c -1 x5ec2d = +0
-
 +1 x5ec2d +1 x5ec2f -1 x5ef8e = +0
-
 +1 x5ec2c -1 x5ec4b -1 x5ec4c = +0
-
 +1 x5ec4b -1 x5ec57 -1 x5ec58 = +0
-
 +1 x5ec4c +1 x5ec57 +1 x5ec58 -1 x5ec66 = +0
-
 +1 x5ec66 +1 x5ec68 -1 x5ec69 -1 x5efc7 = +0
-
 +1 x5ec69 -1 x5ec6a -1 x5ec6b = +0
-
 +1 x5ec6a -1 x5ec76 -1 x5ec77 = +0
-
 +1 x5ec76 -1 x5ec82 -1 x5ec83 = +0
-
 +1 x5ec77 +1 x5ec83 -1 x5ec8e = +0
-
 +1 x5ec8e +1 x5ec90 -1 x5ec91 +1 x5ecb7 -1 x5efef = +0
-
 +1 x5ec91 -1 x5ec92 -1 x5ec93 = +0
-
 +1 x5ec6b +1 x5ec93 +1 x5ecba -1 x5ecbb +0 x5ecbc -1 x5f019 = +0
-
 +1 x5ec92 -1 x5ec9f -1 x5eca0 = +0
-
 +1 x5ec9f -1 x5ecab -1 x5ecac = +0
-
 +1 x5eca0 +1 x5ecac -1 x5ecb7 = +0
-
 +1 x5ecbb +1 x5ecc5 -1 x5ecc6 -1 x5f024 = +0
-
 +1 x5ecc6 -1 x5ecc7 -1 x5ecc8 = +0
-
 +1 x5ecc8 +1 x5ed70 +1 x5ed9c -1 x5ed9d +0 x5ed9e -1 x5f0fb = +0
-
 +1 x5ecc7 -1 x5ecd8 -1 x5ecd9 = +0
-
 +1 x5ecd8 -1 x5ece4 -1 x5ece5 = +0
-
 +1 x5ece4 +1 x5eced +1 x5ed8d -1 x5f04c = +0
-
 +1 x5ecd9 +1 x5ece5 -1 x5ecf0 = +0
-
 +1 x5ecf0 +1 x5ecf2 -1 x5ecf3 +1 x5ed99 -1 x5f051 = +0
-
 +1 x5ecf3 -1 x5ecf4 -1 x5ecf5 = +0
-
 +1 x5ecf5 +1 x5ed2c +1 x5ed62 -1 x5ed63 +0 x5ed64 -1 x5f0c1 = +0
-
 +1 x5ecf4 -1 x5ed00 -1 x5ed01 = +0
-
 +1 x5ed00 -1 x5ed0c -1 x5ed0d = +0
-
 +1 x5ed0c -1 x5ed10 -1 x5ed11 = +0
-
 +1 x5ed10 -1 x5ed14 -1 x5ed15 = +0
-
 +1 x5ed14 -1 x5ed18 -1 x5ed19 = +0
-
 +1 x5ed11 +1 x5ed15 +1 x5ed19 -1 x5ed1e = +0
-
 +1 x5ed1e +1 x5ed20 +1 x5ed56 -1 x5f07f = +0
-
 +1 x5ed01 +1 x5ed0d +1 x5ed18 -1 x5ed27 = +0
-
 +1 x5ed27 +1 x5ed29 -1 x5ed2a +1 x5ed5f -1 x5f088 = +0
-
 +1 x5ed2a -1 x5ed2b -1 x5ed2c = +0
-
 +1 x5ed2b -1 x5ed38 -1 x5ed39 = +0
-
 +1 x5ed38 -1 x5ed44 -1 x5ed45 = +0
-
 +1 x5ed44 -1 x5ed48 -1 x5ed49 = +0
-
 +1 x5ed48 -1 x5ed4c -1 x5ed4d = +0
-
 +1 x5ed4c -1 x5ed50 -1 x5ed51 = +0
-
 +1 x5ed49 +1 x5ed4d +1 x5ed51 -1 x5ed56 = +0
-
 +1 x5ed39 +1 x5ed45 +1 x5ed50 -1 x5ed5f = +0
-
 +1 x5ed63 +1 x5ed6d -1 x5ed6e -1 x5f0cc = +0
-
 +1 x5ed6e -1 x5ed6f -1 x5ed70 = +0
-
 +1 x5ed6f -1 x5ed81 -1 x5ed82 = +0
-
 +1 x5ed81 -1 x5ed8d -1 x5ed8e = +0
-
 +1 x5ed82 +1 x5ed8e -1 x5ed99 = +0
-
 +1 x5ed9d -1 x5edac -1 x5edad = +0
-
 +1 x5edad -1 x5edb1 -1 x5edb2 = +0
-
 +1 x5edac -1 x5edb3 -1 x5edb4 = +0
-
 +1 x5edb2 +1 x5edb4 -1 x5edba -1 x5edbb = +0
-
 +1 x5edb1 +1 x5edb3 -1 x5edb9 = +0
-
 +1 x5edb9 -1 x5edbc -1 x5edbd = +0
-
 +1 x5edbb +1 x5edbd -1 x5edc8 = +0
-
 +1 x5edba +1 x5edbc -1 x5edcc = +0
-
 +1 x5edc8 +1 x5edcc -1 x5edd1 = +0
-
 +1 x5edd1 -1 x5edd4 -1 x5edd5 = +0
-
 +1 x5edd4 +1 x5edd5 -1 x5ede5 = +0
-
 +1 x5ede5 -1 x5edf3 -1 x5edf4 = +0
-
 +1 x5edf3 -1 x5edff -1 x5ee00 = +0
-
 +1 x5edf4 +1 x5edff +1 x5ee00 -1 x5ee0e = +0
-
 +1 x5ee0e +1 x5ee10 -1 x5ee11 -1 x5f16f = +0
-
 +1 x5ee11 -1 x5ee12 -1 x5ee13 = +0
-
 +1 x5ee13 +1 x5ee3b +1 x5ee62 -1 x5ee63 +0 x5ee64 -1 x5f1c1 = +0
-
 +1 x5ee12 -1 x5ee1e -1 x5ee1f = +0
-
 +1 x5ee1e -1 x5ee2a -1 x5ee2b = +0
-
 +1 x5ee1f +1 x5ee2b -1 x5ee36 = +0
-
 +1 x5ee36 +1 x5ee38 -1 x5ee39 +1 x5ee5f -1 x5f197 = +0
-
 +1 x5ee39 -1 x5ee3a -1 x5ee3b = +0
-
 +1 x5ee3a -1 x5ee47 -1 x5ee48 = +0
-
 +1 x5ee47 -1 x5ee53 -1 x5ee54 = +0
-
 +1 x5ee48 +1 x5ee54 -1 x5ee5f = +0
-
 +1 x5ee63 +1 x5ee6d -1 x5ee6e -1 x5f1cc = +0
-
 +1 x5ee6e -1 x5ee6f -1 x5ee70 = +0
-
 +1 x5ee70 +1 x5ef18 +1 x5ef44 -1 x5ef45 +0 x5ef46 -1 x5f2a3 = +0
-
 +1 x5ee6f -1 x5ee80 -1 x5ee81 = +0
-
 +1 x5ee80 -1 x5ee8c -1 x5ee8d = +0
-
 +1 x5ee8c +1 x5ee95 +1 x5ef35 -1 x5f1f4 = +0
-
 +1 x5ee81 +1 x5ee8d -1 x5ee98 = +0
-
 +1 x5ee98 +1 x5ee9a -1 x5ee9b +1 x5ef41 -1 x5f1f9 = +0
-
 +1 x5ee9b -1 x5ee9c -1 x5ee9d = +0
-
 +1 x5ee9d +1 x5eed4 +1 x5ef0a -1 x5ef0b +0 x5ef0c -1 x5f269 = +0
-
 +1 x5ee9c -1 x5eea8 -1 x5eea9 = +0
-
 +1 x5eea8 -1 x5eeb4 -1 x5eeb5 = +0
-
 +1 x5eeb4 -1 x5eeb8 -1 x5eeb9 = +0
-
 +1 x5eeb8 -1 x5eebc -1 x5eebd = +0
-
 +1 x5eebc -1 x5eec0 -1 x5eec1 = +0
-
 +1 x5eeb9 +1 x5eebd +1 x5eec1 -1 x5eec6 = +0
-
 +1 x5eec6 +1 x5eec8 +1 x5eefe -1 x5f227 = +0
-
 +1 x5eea9 +1 x5eeb5 +1 x5eec0 -1 x5eecf = +0
-
 +1 x5eecf +1 x5eed1 -1 x5eed2 +1 x5ef07 -1 x5f230 = +0
-
 +1 x5eed2 -1 x5eed3 -1 x5eed4 = +0
-
 +1 x5eed3 -1 x5eee0 -1 x5eee1 = +0
-
 +1 x5eee0 -1 x5eeec -1 x5eeed = +0
-
 +1 x5eeec -1 x5eef0 -1 x5eef1 = +0
-
 +1 x5eef0 -1 x5eef4 -1 x5eef5 = +0
-
 +1 x5eef4 -1 x5eef8 -1 x5eef9 = +0
-
 +1 x5eef1 +1 x5eef5 +1 x5eef9 -1 x5eefe = +0
-
 +1 x5eee1 +1 x5eeed +1 x5eef8 -1 x5ef07 = +0
-
 +1 x5ef0b +1 x5ef15 -1 x5ef16 -1 x5f274 = +0
-
 +1 x5ef16 -1 x5ef17 -1 x5ef18 = +0
-
 +1 x5ef17 -1 x5ef29 -1 x5ef2a = +0
-
 +1 x5ef29 -1 x5ef35 -1 x5ef36 = +0
-
 +1 x5ef2a +1 x5ef36 -1 x5ef41 = +0
-
 +1 x5ef45 -1 x5ef54 -1 x5ef55 = +0
-
 +1 x5ef55 -1 x5ef59 -1 x5ef5a = +0
-
 +1 x5ef54 -1 x5ef5b -1 x5ef5c = +0
-
 +1 x5ef5a -1 x5ef63 -1 x5ef64 = +0
-
 +1 x5ef5c -1 x5ef65 -1 x5ef66 = +0
-
 +1 x5ef5b -1 x5ef67 -1 x5ef68 = +0
-
 +1 x5ef59 -1 x5ef69 -1 x5ef6a = +0
-
 +1 x5ef63 +1 x5ef65 -1 x5ef6e = +0
-
 +1 x5ef64 +1 x5ef66 -1 x5ef6b = +0
-
 +1 x5ef68 +1 x5ef6a -1 x5ef75 = +0
-
 +1 x5ef6b +1 x5ef75 -1 x5ef79 = +0
-
 +1 x5ef67 +1 x5ef69 -1 x5ef7b = +0
-
 +1 x5ef6e +1 x5ef7b -1 x5ef7d = +0
-
 +1 x5ef79 -1 x5ef80 -1 x5ef81 = +0
-
 +1 x5ef7d -1 x5ef82 -1 x5ef83 = +0
-
 +1 x5ef80 +1 x5ef82 +1 x5ef84 -1 x5f2e3 = +0
-
 +1 x5ef81 +1 x5ef83 -1 x5ef85 = +0
-
 +1 x5ef85 +1 x5ef89 -1 x5ef8a -1 x5f2e8 = +0
-
 +1 x5ef8a -1 x5ef8b -1 x5ef8c = +0
-
 +1 x5ef8c +1 x5ef8e -1 x5f2ed = +0
-
 +1 x5ef8b -1 x5efaa -1 x5efab = +0
-
 +1 x5efaa -1 x5efb6 -1 x5efb7 = +0
-
 +1 x5efab +1 x5efb6 +1 x5efb7 -1 x5efc5 = +0
-
 +1 x5efc5 +1 x5efc7 -1 x5efc8 -1 x5f326 = +0
-
 +1 x5efc8 -1 x5efc9 -1 x5efca = +0
-
 +1 x5efc9 -1 x5efd5 -1 x5efd6 = +0
-
 +1 x5efd5 -1 x5efe1 -1 x5efe2 = +0
-
 +1 x5efd6 +1 x5efe2 -1 x5efed = +0
-
 +1 x5efed +1 x5efef -1 x5eff0 +1 x5f016 -1 x5f34e = +0
-
 +1 x5eff0 -1 x5eff1 -1 x5eff2 = +0
-
 +1 x5efca +1 x5eff2 +1 x5f019 -1 x5f01a +0 x5f01b -1 x5f378 = +0
-
 +1 x5eff1 -1 x5effe -1 x5efff = +0
-
 +1 x5effe -1 x5f00a -1 x5f00b = +0
-
 +1 x5efff +1 x5f00b -1 x5f016 = +0
-
 +1 x5f01a +1 x5f024 -1 x5f025 -1 x5f383 = +0
-
 +1 x5f025 -1 x5f026 -1 x5f027 = +0
-
 +1 x5f027 +1 x5f0cf +1 x5f0fb -1 x5f0fc +0 x5f0fd -1 x5f45a = +0
-
 +1 x5f026 -1 x5f037 -1 x5f038 = +0
-
 +1 x5f037 -1 x5f043 -1 x5f044 = +0
-
 +1 x5f043 +1 x5f04c +1 x5f0ec -1 x5f3ab = +0
-
 +1 x5f038 +1 x5f044 -1 x5f04f = +0
-
 +1 x5f04f +1 x5f051 -1 x5f052 +1 x5f0f8 -1 x5f3b0 = +0
-
 +1 x5f052 -1 x5f053 -1 x5f054 = +0
-
 +1 x5f054 +1 x5f08b +1 x5f0c1 -1 x5f0c2 +0 x5f0c3 -1 x5f420 = +0
-
 +1 x5f053 -1 x5f05f -1 x5f060 = +0
-
 +1 x5f05f -1 x5f06b -1 x5f06c = +0
-
 +1 x5f06b -1 x5f06f -1 x5f070 = +0
-
 +1 x5f06f -1 x5f073 -1 x5f074 = +0
-
 +1 x5f073 -1 x5f077 -1 x5f078 = +0
-
 +1 x5f070 +1 x5f074 +1 x5f078 -1 x5f07d = +0
-
 +1 x5f07d +1 x5f07f +1 x5f0b5 -1 x5f3de = +0
-
 +1 x5f060 +1 x5f06c +1 x5f077 -1 x5f086 = +0
-
 +1 x5f086 +1 x5f088 -1 x5f089 +1 x5f0be -1 x5f3e7 = +0
-
 +1 x5f089 -1 x5f08a -1 x5f08b = +0
-
 +1 x5f08a -1 x5f097 -1 x5f098 = +0
-
 +1 x5f097 -1 x5f0a3 -1 x5f0a4 = +0
-
 +1 x5f0a3 -1 x5f0a7 -1 x5f0a8 = +0
-
 +1 x5f0a7 -1 x5f0ab -1 x5f0ac = +0
-
 +1 x5f0ab -1 x5f0af -1 x5f0b0 = +0
-
 +1 x5f0a8 +1 x5f0ac +1 x5f0b0 -1 x5f0b5 = +0
-
 +1 x5f098 +1 x5f0a4 +1 x5f0af -1 x5f0be = +0
-
 +1 x5f0c2 +1 x5f0cc -1 x5f0cd -1 x5f42b = +0
-
 +1 x5f0cd -1 x5f0ce -1 x5f0cf = +0
-
 +1 x5f0ce -1 x5f0e0 -1 x5f0e1 = +0
-
 +1 x5f0e0 -1 x5f0ec -1 x5f0ed = +0
-
 +1 x5f0e1 +1 x5f0ed -1 x5f0f8 = +0
-
 +1 x5f0fc -1 x5f10b -1 x5f10c = +0
-
 +1 x5f10c -1 x5f110 -1 x5f111 = +0
-
 +1 x5f10b -1 x5f112 -1 x5f113 = +0
-
 +1 x5f111 +1 x5f113 -1 x5f119 -1 x5f11a = +0
-
 +1 x5f110 +1 x5f112 -1 x5f118 = +0
-
 +1 x5f118 -1 x5f11b -1 x5f11c = +0
-
 +1 x5f11a +1 x5f11c -1 x5f127 = +0
-
 +1 x5f119 +1 x5f11b -1 x5f12b = +0
-
 +1 x5f127 +1 x5f12b -1 x5f130 = +0
-
 +1 x5f130 -1 x5f133 -1 x5f134 = +0
-
 +1 x5f133 +1 x5f134 -1 x5f144 = +0
-
 +1 x5f144 -1 x5f152 -1 x5f153 = +0
-
 +1 x5f152 -1 x5f15e -1 x5f15f = +0
-
 +1 x5f153 +1 x5f15e +1 x5f15f -1 x5f16d = +0
-
 +1 x5f16d +1 x5f16f -1 x5f170 -1 x5f4ce = +0
-
 +1 x5f170 -1 x5f171 -1 x5f172 = +0
-
 +1 x5f172 +1 x5f19a +1 x5f1c1 -1 x5f1c2 +0 x5f1c3 -1 x5f520 = +0
-
 +1 x5f171 -1 x5f17d -1 x5f17e = +0
-
 +1 x5f17d -1 x5f189 -1 x5f18a = +0
-
 +1 x5f17e +1 x5f18a -1 x5f195 = +0
-
 +1 x5f195 +1 x5f197 -1 x5f198 +1 x5f1be -1 x5f4f6 = +0
-
 +1 x5f198 -1 x5f199 -1 x5f19a = +0
-
 +1 x5f199 -1 x5f1a6 -1 x5f1a7 = +0
-
 +1 x5f1a6 -1 x5f1b2 -1 x5f1b3 = +0
-
 +1 x5f1a7 +1 x5f1b3 -1 x5f1be = +0
-
 +1 x5f1c2 +1 x5f1cc -1 x5f1cd -1 x5f52b = +0
-
 +1 x5f1cd -1 x5f1ce -1 x5f1cf = +0
-
 +1 x5f1cf +1 x5f277 +1 x5f2a3 -1 x5f2a4 +0 x5f2a5 -1 x5f602 = +0
-
 +1 x5f1ce -1 x5f1df -1 x5f1e0 = +0
-
 +1 x5f1df -1 x5f1eb -1 x5f1ec = +0
-
 +1 x5f1eb +1 x5f1f4 +1 x5f294 -1 x5f553 = +0
-
 +1 x5f1e0 +1 x5f1ec -1 x5f1f7 = +0
-
 +1 x5f1f7 +1 x5f1f9 -1 x5f1fa +1 x5f2a0 -1 x5f558 = +0
-
 +1 x5f1fa -1 x5f1fb -1 x5f1fc = +0
-
 +1 x5f1fc +1 x5f233 +1 x5f269 -1 x5f26a +0 x5f26b -1 x5f5c8 = +0
-
 +1 x5f1fb -1 x5f207 -1 x5f208 = +0
-
 +1 x5f207 -1 x5f213 -1 x5f214 = +0
-
 +1 x5f213 -1 x5f217 -1 x5f218 = +0
-
 +1 x5f217 -1 x5f21b -1 x5f21c = +0
-
 +1 x5f21b -1 x5f21f -1 x5f220 = +0
-
 +1 x5f218 +1 x5f21c +1 x5f220 -1 x5f225 = +0
-
 +1 x5f225 +1 x5f227 +1 x5f25d -1 x5f586 = +0
-
 +1 x5f208 +1 x5f214 +1 x5f21f -1 x5f22e = +0
-
 +1 x5f22e +1 x5f230 -1 x5f231 +1 x5f266 -1 x5f58f = +0
-
 +1 x5f231 -1 x5f232 -1 x5f233 = +0
-
 +1 x5f232 -1 x5f23f -1 x5f240 = +0
-
 +1 x5f23f -1 x5f24b -1 x5f24c = +0
-
 +1 x5f24b -1 x5f24f -1 x5f250 = +0
-
 +1 x5f24f -1 x5f253 -1 x5f254 = +0
-
 +1 x5f253 -1 x5f257 -1 x5f258 = +0
-
 +1 x5f250 +1 x5f254 +1 x5f258 -1 x5f25d = +0
-
 +1 x5f240 +1 x5f24c +1 x5f257 -1 x5f266 = +0
-
 +1 x5f26a +1 x5f274 -1 x5f275 -1 x5f5d3 = +0
-
 +1 x5f275 -1 x5f276 -1 x5f277 = +0
-
 +1 x5f276 -1 x5f288 -1 x5f289 = +0
-
 +1 x5f288 -1 x5f294 -1 x5f295 = +0
-
 +1 x5f289 +1 x5f295 -1 x5f2a0 = +0
-
 +1 x5f2a4 -1 x5f2b3 -1 x5f2b4 = +0
-
 +1 x5f2b4 -1 x5f2b8 -1 x5f2b9 = +0
-
 +1 x5f2b3 -1 x5f2ba -1 x5f2bb = +0
-
 +1 x5f2b9 -1 x5f2c2 -1 x5f2c3 = +0
-
 +1 x5f2bb -1 x5f2c4 -1 x5f2c5 = +0
-
 +1 x5f2ba -1 x5f2c6 -1 x5f2c7 = +0
-
 +1 x5f2b8 -1 x5f2c8 -1 x5f2c9 = +0
-
 +1 x5f2c2 +1 x5f2c4 -1 x5f2cd = +0
-
 +1 x5f2c3 +1 x5f2c5 -1 x5f2ca = +0
-
 +1 x5f2c7 +1 x5f2c9 -1 x5f2d4 = +0
-
 +1 x5f2ca +1 x5f2d4 -1 x5f2d8 = +0
-
 +1 x5f2c6 +1 x5f2c8 -1 x5f2da = +0
-
 +1 x5f2cd +1 x5f2da -1 x5f2dc = +0
-
 +1 x5f2d8 -1 x5f2df -1 x5f2e0 = +0
-
 +1 x5f2dc -1 x5f2e1 -1 x5f2e2 = +0
-
 +1 x5f2df +1 x5f2e1 +1 x5f2e3 -1 x5f642 = +0
-
 +1 x5f2e0 +1 x5f2e2 -1 x5f2e4 = +0
-
 +1 x5f2e4 +1 x5f2e8 -1 x5f2e9 -1 x5f647 = +0
-
 +1 x5f2e9 -1 x5f2ea -1 x5f2eb = +0
-
 +1 x5f2eb +1 x5f2ed -1 x5f64c = +0
-
 +1 x5f2ea -1 x5f309 -1 x5f30a = +0
-
 +1 x5f309 -1 x5f315 -1 x5f316 = +0
-
 +1 x5f30a +1 x5f315 +1 x5f316 -1 x5f324 = +0
-
 +1 x5f324 +1 x5f326 -1 x5f327 -1 x5f685 = +0
-
 +1 x5f327 -1 x5f328 -1 x5f329 = +0
-
 +1 x5f328 -1 x5f334 -1 x5f335 = +0
-
 +1 x5f334 -1 x5f340 -1 x5f341 = +0
-
 +1 x5f335 +1 x5f341 -1 x5f34c = +0
-
 +1 x5f34c +1 x5f34e -1 x5f34f +1 x5f375 -1 x5f6ad = +0
-
 +1 x5f34f -1 x5f350 -1 x5f351 = +0
-
 +1 x5f329 +1 x5f351 +1 x5f378 -1 x5f379 +0 x5f37a -1 x5f6d7 = +0
-
 +1 x5f350 -1 x5f35d -1 x5f35e = +0
-
 +1 x5f35d -1 x5f369 -1 x5f36a = +0
-
 +1 x5f35e +1 x5f36a -1 x5f375 = +0
-
 +1 x5f379 +1 x5f383 -1 x5f384 -1 x5f6e2 = +0
-
 +1 x5f384 -1 x5f385 -1 x5f386 = +0
-
 +1 x5f386 +1 x5f42e +1 x5f45a -1 x5f45b +0 x5f45c -1 x5f7b9 = +0
-
 +1 x5f385 -1 x5f396 -1 x5f397 = +0
-
 +1 x5f396 -1 x5f3a2 -1 x5f3a3 = +0
-
 +1 x5f3a2 +1 x5f3ab +1 x5f44b -1 x5f70a = +0
-
 +1 x5f397 +1 x5f3a3 -1 x5f3ae = +0
-
 +1 x5f3ae +1 x5f3b0 -1 x5f3b1 +1 x5f457 -1 x5f70f = +0
-
 +1 x5f3b1 -1 x5f3b2 -1 x5f3b3 = +0
-
 +1 x5f3b3 +1 x5f3ea +1 x5f420 -1 x5f421 +0 x5f422 -1 x5f77f = +0
-
 +1 x5f3b2 -1 x5f3be -1 x5f3bf = +0
-
 +1 x5f3be -1 x5f3ca -1 x5f3cb = +0
-
 +1 x5f3ca -1 x5f3ce -1 x5f3cf = +0
-
 +1 x5f3ce -1 x5f3d2 -1 x5f3d3 = +0
-
 +1 x5f3d2 -1 x5f3d6 -1 x5f3d7 = +0
-
 +1 x5f3cf +1 x5f3d3 +1 x5f3d7 -1 x5f3dc = +0
-
 +1 x5f3dc +1 x5f3de +1 x5f414 -1 x5f73d = +0
-
 +1 x5f3bf +1 x5f3cb +1 x5f3d6 -1 x5f3e5 = +0
-
 +1 x5f3e5 +1 x5f3e7 -1 x5f3e8 +1 x5f41d -1 x5f746 = +0
-
 +1 x5f3e8 -1 x5f3e9 -1 x5f3ea = +0
-
 +1 x5f3e9 -1 x5f3f6 -1 x5f3f7 = +0
-
 +1 x5f3f6 -1 x5f402 -1 x5f403 = +0
-
 +1 x5f402 -1 x5f406 -1 x5f407 = +0
-
 +1 x5f406 -1 x5f40a -1 x5f40b = +0
-
 +1 x5f40a -1 x5f40e -1 x5f40f = +0
-
 +1 x5f407 +1 x5f40b +1 x5f40f -1 x5f414 = +0
-
 +1 x5f3f7 +1 x5f403 +1 x5f40e -1 x5f41d = +0
-
 +1 x5f421 +1 x5f42b -1 x5f42c -1 x5f78a = +0
-
 +1 x5f42c -1 x5f42d -1 x5f42e = +0
-
 +1 x5f42d -1 x5f43f -1 x5f440 = +0
-
 +1 x5f43f -1 x5f44b -1 x5f44c = +0
-
 +1 x5f440 +1 x5f44c -1 x5f457 = +0
-
 +1 x5f45b -1 x5f46a -1 x5f46b = +0
-
 +1 x5f46b -1 x5f46f -1 x5f470 = +0
-
 +1 x5f46a -1 x5f471 -1 x5f472 = +0
-
 +1 x5f470 +1 x5f472 -1 x5f478 -1 x5f479 = +0
-
 +1 x5f46f +1 x5f471 -1 x5f477 = +0
-
 +1 x5f477 -1 x5f47a -1 x5f47b = +0
-
 +1 x5f479 +1 x5f47b -1 x5f486 = +0
-
 +1 x5f478 +1 x5f47a -1 x5f48a = +0
-
 +1 x5f486 +1 x5f48a -1 x5f48f = +0
-
 +1 x5f48f -1 x5f492 -1 x5f493 = +0
-
 +1 x5f492 +1 x5f493 -1 x5f4a3 = +0
-
 +1 x5f4a3 -1 x5f4b1 -1 x5f4b2 = +0
-
 +1 x5f4b1 -1 x5f4bd -1 x5f4be = +0
-
 +1 x5f4b2 +1 x5f4bd +1 x5f4be -1 x5f4cc = +0
-
 +1 x5f4cc +1 x5f4ce -1 x5f4cf -1 x5f82d = +0
-
 +1 x5f4cf -1 x5f4d0 -1 x5f4d1 = +0
-
 +1 x5f4d1 +1 x5f4f9 +1 x5f520 -1 x5f521 +0 x5f522 -1 x5f87f = +0
-
 +1 x5f4d0 -1 x5f4dc -1 x5f4dd = +0
-
 +1 x5f4dc -1 x5f4e8 -1 x5f4e9 = +0
-
 +1 x5f4dd +1 x5f4e9 -1 x5f4f4 = +0
-
 +1 x5f4f4 +1 x5f4f6 -1 x5f4f7 +1 x5f51d -1 x5f855 = +0
-
 +1 x5f4f7 -1 x5f4f8 -1 x5f4f9 = +0
-
 +1 x5f4f8 -1 x5f505 -1 x5f506 = +0
-
 +1 x5f505 -1 x5f511 -1 x5f512 = +0
-
 +1 x5f506 +1 x5f512 -1 x5f51d = +0
-
 +1 x5f521 +1 x5f52b -1 x5f52c -1 x5f88a = +0
-
 +1 x5f52c -1 x5f52d -1 x5f52e = +0
-
 +1 x5f52e +1 x5f5d6 +1 x5f602 -1 x5f603 +0 x5f604 -1 x5f961 = +0
-
 +1 x5f52d -1 x5f53e -1 x5f53f = +0
-
 +1 x5f53e -1 x5f54a -1 x5f54b = +0
-
 +1 x5f54a +1 x5f553 +1 x5f5f3 -1 x5f8b2 = +0
-
 +1 x5f53f +1 x5f54b -1 x5f556 = +0
-
 +1 x5f556 +1 x5f558 -1 x5f559 +1 x5f5ff -1 x5f8b7 = +0
-
 +1 x5f559 -1 x5f55a -1 x5f55b = +0
-
 +1 x5f55b +1 x5f592 +1 x5f5c8 -1 x5f5c9 +0 x5f5ca -1 x5f927 = +0
-
 +1 x5f55a -1 x5f566 -1 x5f567 = +0
-
 +1 x5f566 -1 x5f572 -1 x5f573 = +0
-
 +1 x5f572 -1 x5f576 -1 x5f577 = +0
-
 +1 x5f576 -1 x5f57a -1 x5f57b = +0
-
 +1 x5f57a -1 x5f57e -1 x5f57f = +0
-
 +1 x5f577 +1 x5f57b +1 x5f57f -1 x5f584 = +0
-
 +1 x5f584 +1 x5f586 +1 x5f5bc -1 x5f8e5 = +0
-
 +1 x5f567 +1 x5f573 +1 x5f57e -1 x5f58d = +0
-
 +1 x5f58d +1 x5f58f -1 x5f590 +1 x5f5c5 -1 x5f8ee = +0
-
 +1 x5f590 -1 x5f591 -1 x5f592 = +0
-
 +1 x5f591 -1 x5f59e -1 x5f59f = +0
-
 +1 x5f59e -1 x5f5aa -1 x5f5ab = +0
-
 +1 x5f5aa -1 x5f5ae -1 x5f5af = +0
-
 +1 x5f5ae -1 x5f5b2 -1 x5f5b3 = +0
-
 +1 x5f5b2 -1 x5f5b6 -1 x5f5b7 = +0
-
 +1 x5f5af +1 x5f5b3 +1 x5f5b7 -1 x5f5bc = +0
-
 +1 x5f59f +1 x5f5ab +1 x5f5b6 -1 x5f5c5 = +0
-
 +1 x5f5c9 +1 x5f5d3 -1 x5f5d4 -1 x5f932 = +0
-
 +1 x5f5d4 -1 x5f5d5 -1 x5f5d6 = +0
-
 +1 x5f5d5 -1 x5f5e7 -1 x5f5e8 = +0
-
 +1 x5f5e7 -1 x5f5f3 -1 x5f5f4 = +0
-
 +1 x5f5e8 +1 x5f5f4 -1 x5f5ff = +0
-
 +1 x5f603 -1 x5f612 -1 x5f613 = +0
-
 +1 x5f613 -1 x5f617 -1 x5f618 = +0
-
 +1 x5f612 -1 x5f619 -1 x5f61a = +0
-
 +1 x5f618 -1 x5f621 -1 x5f622 = +0
-
 +1 x5f61a -1 x5f623 -1 x5f624 = +0
-
 +1 x5f619 -1 x5f625 -1 x5f626 = +0
-
 +1 x5f617 -1 x5f627 -1 x5f628 = +0
-
 +1 x5f621 +1 x5f623 -1 x5f62c = +0
-
 +1 x5f622 +1 x5f624 -1 x5f629 = +0
-
 +1 x5f626 +1 x5f628 -1 x5f633 = +0
-
 +1 x5f629 +1 x5f633 -1 x5f637 = +0
-
 +1 x5f625 +1 x5f627 -1 x5f639 = +0
-
 +1 x5f62c +1 x5f639 -1 x5f63b = +0
-
 +1 x5f637 -1 x5f63e -1 x5f63f = +0
-
 +1 x5f63b -1 x5f640 -1 x5f641 = +0
-
 +1 x5f63e +1 x5f640 +1 x5f642 -1 x5f9a1 = +0
-
 +1 x5f63f +1 x5f641 -1 x5f643 = +0
-
 +1 x5f643 +1 x5f647 -1 x5f648 -1 x5f9a6 = +0
-
 +1 x5f648 -1 x5f649 -1 x5f64a = +0
-
 +1 x5f64a +1 x5f64c -1 x5f9ab = +0
-
 +1 x5f649 -1 x5f668 -1 x5f669 = +0
-
 +1 x5f668 -1 x5f674 -1 x5f675 = +0
-
 +1 x5f669 +1 x5f674 +1 x5f675 -1 x5f683 = +0
-
 +1 x5f683 +1 x5f685 -1 x5f686 -1 x5f9e4 = +0
-
 +1 x5f686 -1 x5f687 -1 x5f688 = +0
-
 +1 x5f687 -1 x5f693 -1 x5f694 = +0
-
 +1 x5f693 -1 x5f69f -1 x5f6a0 = +0
-
 +1 x5f694 +1 x5f6a0 -1 x5f6ab = +0
-
 +1 x5f6ab +1 x5f6ad -1 x5f6ae +1 x5f6d4 -1 x5fa0b = +0
-
 +1 x5f6ae -1 x5f6af -1 x5f6b0 = +0
-
 +1 x5f688 +1 x5f6b0 +1 x5f6d7 -1 x5f6d8 +0 x5f6d9 -1 x5fa35 = +0
-
 +1 x5f6af -1 x5f6bc -1 x5f6bd = +0
-
 +1 x5f6bc -1 x5f6c8 -1 x5f6c9 = +0
-
 +1 x5f6bd +1 x5f6c9 -1 x5f6d4 = +0
-
 +1 x5f6d8 +1 x5f6e2 -1 x5f6e3 -1 x5fa40 = +0
-
 +1 x5f6e3 -1 x5f6e4 -1 x5f6e5 = +0
-
 +1 x5f6e5 +1 x5f78d +1 x5f7b9 -1 x5f7ba +0 x5f7bb -1 x5fb17 = +0
-
 +1 x5f6e4 -1 x5f6f5 -1 x5f6f6 = +0
-
 +1 x5f6f5 -1 x5f701 -1 x5f702 = +0
-
 +1 x5f701 +1 x5f70a +1 x5f7aa -1 x5fa68 = +0
-
 +1 x5f6f6 +1 x5f702 -1 x5f70d = +0
-
 +1 x5f70d +1 x5f70f -1 x5f710 +1 x5f7b6 -1 x5fa6d = +0
-
 +1 x5f710 -1 x5f711 -1 x5f712 = +0
-
 +1 x5f712 +1 x5f749 +1 x5f77f -1 x5f780 +0 x5f781 -1 x5fadd = +0
-
 +1 x5f711 -1 x5f71d -1 x5f71e = +0
-
 +1 x5f71d -1 x5f729 -1 x5f72a = +0
-
 +1 x5f729 -1 x5f72d -1 x5f72e = +0
-
 +1 x5f72d -1 x5f731 -1 x5f732 = +0
-
 +1 x5f731 -1 x5f735 -1 x5f736 = +0
-
 +1 x5f72e +1 x5f732 +1 x5f736 -1 x5f73b = +0
-
 +1 x5f73b +1 x5f73d +1 x5f773 -1 x5fa9b = +0
-
 +1 x5f71e +1 x5f72a +1 x5f735 -1 x5f744 = +0
-
 +1 x5f744 +1 x5f746 -1 x5f747 +1 x5f77c -1 x5faa4 = +0
-
 +1 x5f747 -1 x5f748 -1 x5f749 = +0
-
 +1 x5f748 -1 x5f755 -1 x5f756 = +0
-
 +1 x5f755 -1 x5f761 -1 x5f762 = +0
-
 +1 x5f761 -1 x5f765 -1 x5f766 = +0
-
 +1 x5f765 -1 x5f769 -1 x5f76a = +0
-
 +1 x5f769 -1 x5f76d -1 x5f76e = +0
-
 +1 x5f766 +1 x5f76a +1 x5f76e -1 x5f773 = +0
-
 +1 x5f756 +1 x5f762 +1 x5f76d -1 x5f77c = +0
-
 +1 x5f780 +1 x5f78a -1 x5f78b -1 x5fae8 = +0
-
 +1 x5f78b -1 x5f78c -1 x5f78d = +0
-
 +1 x5f78c -1 x5f79e -1 x5f79f = +0
-
 +1 x5f79e -1 x5f7aa -1 x5f7ab = +0
-
 +1 x5f79f +1 x5f7ab -1 x5f7b6 = +0
-
 +1 x5f7ba -1 x5f7c9 -1 x5f7ca = +0
-
 +1 x5f7ca -1 x5f7ce -1 x5f7cf = +0
-
 +1 x5f7c9 -1 x5f7d0 -1 x5f7d1 = +0
-
 +1 x5f7cf +1 x5f7d1 -1 x5f7d7 -1 x5f7d8 = +0
-
 +1 x5f7ce +1 x5f7d0 -1 x5f7d6 = +0
-
 +1 x5f7d6 -1 x5f7d9 -1 x5f7da = +0
-
 +1 x5f7d8 +1 x5f7da -1 x5f7e5 = +0
-
 +1 x5f7d7 +1 x5f7d9 -1 x5f7e9 = +0
-
 +1 x5f7e5 +1 x5f7e9 -1 x5f7ee = +0
-
 +1 x5f7ee -1 x5f7f1 -1 x5f7f2 = +0
-
 +1 x5f7f1 +1 x5f7f2 -1 x5f802 = +0
-
 +1 x5f802 -1 x5f810 -1 x5f811 = +0
-
 +1 x5f810 -1 x5f81c -1 x5f81d = +0
-
 +1 x5f811 +1 x5f81c +1 x5f81d -1 x5f82b = +0
-
 +1 x5f82b +1 x5f82d -1 x5f82e -1 x5fb8b = +0
-
 +1 x5f82e -1 x5f82f -1 x5f830 = +0
-
 +1 x5f830 +1 x5f858 +1 x5f87f -1 x5f880 +0 x5f881 -1 x5fbdc = +0
-
 +1 x5f82f -1 x5f83b -1 x5f83c = +0
-
 +1 x5f83b -1 x5f847 -1 x5f848 = +0
-
 +1 x5f83c +1 x5f848 -1 x5f853 = +0
-
 +1 x5f853 +1 x5f855 -1 x5f856 +1 x5f87c -1 x5fbb2 = +0
-
 +1 x5f856 -1 x5f857 -1 x5f858 = +0
-
 +1 x5f857 -1 x5f864 -1 x5f865 = +0
-
 +1 x5f864 -1 x5f870 -1 x5f871 = +0
-
 +1 x5f865 +1 x5f871 -1 x5f87c = +0
-
 +1 x5f880 +1 x5f88a -1 x5f88b -1 x5fbe7 = +0
-
 +1 x5f88b -1 x5f88c -1 x5f88d = +0
-
 +1 x5f88d +1 x5f935 +1 x5f961 -1 x5f962 +0 x5f963 -1 x5fcbe = +0
-
 +1 x5f88c -1 x5f89d -1 x5f89e = +0
-
 +1 x5f89d -1 x5f8a9 -1 x5f8aa = +0
-
 +1 x5f8a9 +1 x5f8b2 +1 x5f952 -1 x5fc0f = +0
-
 +1 x5f89e +1 x5f8aa -1 x5f8b5 = +0
-
 +1 x5f8b5 +1 x5f8b7 -1 x5f8b8 +1 x5f95e -1 x5fc14 = +0
-
 +1 x5f8b8 -1 x5f8b9 -1 x5f8ba = +0
-
 +1 x5f8ba +1 x5f8f1 +1 x5f927 -1 x5f928 +0 x5f929 -1 x5fc84 = +0
-
 +1 x5f8b9 -1 x5f8c5 -1 x5f8c6 = +0
-
 +1 x5f8c5 -1 x5f8d1 -1 x5f8d2 = +0
-
 +1 x5f8d1 -1 x5f8d5 -1 x5f8d6 = +0
-
 +1 x5f8d5 -1 x5f8d9 -1 x5f8da = +0
-
 +1 x5f8d9 -1 x5f8dd -1 x5f8de = +0
-
 +1 x5f8d6 +1 x5f8da +1 x5f8de -1 x5f8e3 = +0
-
 +1 x5f8e3 +1 x5f8e5 +1 x5f91b -1 x5fc42 = +0
-
 +1 x5f8c6 +1 x5f8d2 +1 x5f8dd -1 x5f8ec = +0
-
 +1 x5f8ec +1 x5f8ee -1 x5f8ef +1 x5f924 -1 x5fc4b = +0
-
 +1 x5f8ef -1 x5f8f0 -1 x5f8f1 = +0
-
 +1 x5f8f0 -1 x5f8fd -1 x5f8fe = +0
-
 +1 x5f8fd -1 x5f909 -1 x5f90a = +0
-
 +1 x5f909 -1 x5f90d -1 x5f90e = +0
-
 +1 x5f90d -1 x5f911 -1 x5f912 = +0
-
 +1 x5f911 -1 x5f915 -1 x5f916 = +0
-
 +1 x5f90e +1 x5f912 +1 x5f916 -1 x5f91b = +0
-
 +1 x5f8fe +1 x5f90a +1 x5f915 -1 x5f924 = +0
-
 +1 x5f928 +1 x5f932 -1 x5f933 -1 x5fc8f = +0
-
 +1 x5f933 -1 x5f934 -1 x5f935 = +0
-
 +1 x5f934 -1 x5f946 -1 x5f947 = +0
-
 +1 x5f946 -1 x5f952 -1 x5f953 = +0
-
 +1 x5f947 +1 x5f953 -1 x5f95e = +0
-
 +1 x5f962 -1 x5f971 -1 x5f972 = +0
-
 +1 x5f972 -1 x5f976 -1 x5f977 = +0
-
 +1 x5f971 -1 x5f978 -1 x5f979 = +0
-
 +1 x5f977 -1 x5f980 -1 x5f981 = +0
-
 +1 x5f979 -1 x5f982 -1 x5f983 = +0
-
 +1 x5f978 -1 x5f984 -1 x5f985 = +0
-
 +1 x5f976 -1 x5f986 -1 x5f987 = +0
-
 +1 x5f980 +1 x5f982 -1 x5f98b = +0
-
 +1 x5f981 +1 x5f983 -1 x5f988 = +0
-
 +1 x5f985 +1 x5f987 -1 x5f992 = +0
-
 +1 x5f988 +1 x5f992 -1 x5f996 = +0
-
 +1 x5f984 +1 x5f986 -1 x5f998 = +0
-
 +1 x5f98b +1 x5f998 -1 x5f99a = +0
-
 +1 x5f996 -1 x5f99d -1 x5f99e = +0
-
 +1 x5f99a -1 x5f99f -1 x5f9a0 = +0
-
 +1 x5f99d +1 x5f99f +1 x5f9a1 +1 x5fcfe -1 x5fd04 = +0
-
 +1 x5f99e +1 x5f9a0 -1 x5f9a2 = +0
-
 +1 x5f9a2 +1 x5f9a6 -1 x5f9a7 +1 x5fcff -1 x63641 = +0
-
 +1 x5f9a7 -1 x5f9a8 -1 x5f9a9 = +0
-
 +1 x5f9a9 +1 x5f9ab -1 x5fd05 +0 x5fd06 +1 x60024 +1 x603de -1 x63681 = +0
-
 +1 x5f9a8 -1 x5f9c7 -1 x5f9c8 = +0
-
 +1 x5f9c7 -1 x5f9d3 -1 x5f9d4 = +0
-
 +1 x5f9c8 +1 x5f9d3 +1 x5f9d4 -1 x5f9e2 = +0
-
 +1 x5f9e2 +1 x5f9e4 -1 x5f9e5 +1 x6005c +1 x60416 -1 x63321 = +0
-
 +1 x5f9e5 -1 x5f9e6 -1 x5f9e7 = +0
-
 +1 x5f9e6 -1 x5f9f2 -1 x5f9f3 = +0
-
 +1 x5f9f2 -1 x5f9fe -1 x5f9ff = +0
-
 +1 x5f9f3 +1 x5f9ff -1 x5fa09 = +0
-
 +1 x5fa09 +1 x5fa0b -1 x5fa0c +1 x5fa32 -1 x63349 = +0
-
 +1 x5fa0c -1 x5fa0d -1 x5fa0e = +0
-
 +1 x5f9e7 +1 x5fa0e +1 x5fa35 -1 x5fa36 +0 x5fa37 -1 x63373 = +0
-
 +1 x5fa0d -1 x5fa1a -1 x5fa1b = +0
-
 +1 x5fa1a -1 x5fa26 -1 x5fa27 = +0
-
 +1 x5f9fe +1 x5fa26 -1 x63344 = +0
-
 +1 x5fa1b +1 x5fa27 -1 x5fa32 = +0
-
 +1 x5fa36 +1 x5fa40 -1 x5fa41 -1 x6337e = +0
-
 +1 x5fa41 -1 x5fa42 -1 x5fa43 = +0
-
 +1 x5fa43 +1 x5faeb +1 x5fb17 -1 x5fb18 +0 x5fb19 -1 x63455 = +0
-
 +1 x5fa42 -1 x5fa53 -1 x5fa54 = +0
-
 +1 x5fa53 -1 x5fa5f -1 x5fa60 = +0
-
 +1 x5fa5f +1 x5fa68 +1 x5fb08 -1 x633a6 = +0
-
 +1 x5fa54 +1 x5fa60 -1 x5fa6b = +0
-
 +1 x5fa6b +1 x5fa6d -1 x5fa6e +1 x5fb14 -1 x633ab = +0
-
 +1 x5fa6e -1 x5fa6f -1 x5fa70 = +0
-
 +1 x5fa70 +1 x5faa7 +1 x5fadd -1 x5fade +0 x5fadf -1 x6341b = +0
-
 +1 x5fa6f -1 x5fa7b -1 x5fa7c = +0
-
 +1 x5fa7b -1 x5fa87 -1 x5fa88 = +0
-
 +1 x5fa87 -1 x5fa8b -1 x5fa8c = +0
-
 +1 x5fa8b -1 x5fa8f -1 x5fa90 = +0
-
 +1 x5fa8f -1 x5fa93 -1 x5fa94 = +0
-
 +1 x5fa8c +1 x5fa90 +1 x5fa94 -1 x5fa99 = +0
-
 +1 x5fa99 +1 x5fa9b +1 x5fad1 -1 x633d9 = +0
-
 +1 x5fa7c +1 x5fa88 +1 x5fa93 -1 x5faa2 = +0
-
 +1 x5faa2 +1 x5faa4 -1 x5faa5 +1 x5fada -1 x633e2 = +0
-
 +1 x5faa5 -1 x5faa6 -1 x5faa7 = +0
-
 +1 x5faa6 -1 x5fab3 -1 x5fab4 = +0
-
 +1 x5fab3 -1 x5fabf -1 x5fac0 = +0
-
 +1 x5fabf -1 x5fac3 -1 x5fac4 = +0
-
 +1 x5fac3 -1 x5fac7 -1 x5fac8 = +0
-
 +1 x5fac7 -1 x5facb -1 x5facc = +0
-
 +1 x5fac4 +1 x5fac8 +1 x5facc -1 x5fad1 = +0
-
 +1 x5fab4 +1 x5fac0 +1 x5facb -1 x5fada = +0
-
 +1 x5fade +1 x5fae8 -1 x5fae9 -1 x63426 = +0
-
 +1 x5fae9 -1 x5faea -1 x5faeb = +0
-
 +1 x5faea -1 x5fafc -1 x5fafd = +0
-
 +1 x5fafc -1 x5fb08 -1 x5fb09 = +0
-
 +1 x5fafd +1 x5fb09 -1 x5fb14 = +0
-
 +1 x5fb18 -1 x5fb27 -1 x5fb28 = +0
-
 +1 x5fb28 -1 x5fb2c -1 x5fb2d = +0
-
 +1 x5fb27 -1 x5fb2e -1 x5fb2f = +0
-
 +1 x5fb2d +1 x5fb2f -1 x5fb35 -1 x5fb36 = +0
-
 +1 x5fb2c +1 x5fb2e -1 x5fb34 = +0
-
 +1 x5fb34 -1 x5fb37 -1 x5fb38 = +0
-
 +1 x5fb36 +1 x5fb38 -1 x5fb43 = +0
-
 +1 x5fb35 +1 x5fb37 -1 x5fb47 = +0
-
 +1 x5fb43 +1 x5fb47 -1 x5fb4c = +0
-
 +1 x5fb4c -1 x5fb4f -1 x5fb50 = +0
-
 +1 x5fb4f +1 x5fb50 -1 x5fb60 = +0
-
 +1 x5fb60 -1 x5fb6e -1 x5fb6f = +0
-
 +1 x5fb6e -1 x5fb7a -1 x5fb7b = +0
-
 +1 x5fb6f +1 x5fb7a +1 x5fb7b -1 x5fb89 = +0
-
 +1 x5fb89 +1 x5fb8b -1 x5fb8c -1 x634c9 = +0
-
 +1 x5fb8c -1 x5fb8d -1 x5fb8e = +0
-
 +1 x5fb8e +1 x5fbb5 +1 x5fbdc -1 x5fbdd +0 x5fbde -1 x6351b = +0
-
 +1 x5fb8d -1 x5fb99 -1 x5fb9a = +0
-
 +1 x5fb99 -1 x5fba5 -1 x5fba6 = +0
-
 +1 x5fba5 +1 x5fbcd -1 x634ec = +0
-
 +1 x5fb9a +1 x5fba6 -1 x5fbb0 = +0
-
 +1 x5fbb0 +1 x5fbb2 -1 x5fbb3 +1 x5fbd9 -1 x634f1 = +0
-
 +1 x5fbb3 -1 x5fbb4 -1 x5fbb5 = +0
-
 +1 x5fbb4 -1 x5fbc1 -1 x5fbc2 = +0
-
 +1 x5fbc1 -1 x5fbcd -1 x5fbce = +0
-
 +1 x5fbc2 +1 x5fbce -1 x5fbd9 = +0
-
 +1 x5fbdd +1 x5fbe7 -1 x5fbe8 -1 x63526 = +0
-
 +1 x5fbe8 -1 x5fbe9 -1 x5fbea = +0
-
 +1 x5fbea +1 x5fc92 +1 x5fcbe -1 x5fcbf +0 x5fcc0 -1 x635fd = +0
-
 +1 x5fbe9 -1 x5fbfa -1 x5fbfb = +0
-
 +1 x5fbfa -1 x5fc06 -1 x5fc07 = +0
-
 +1 x5fc06 +1 x5fc0f +1 x5fcaf -1 x6354e = +0
-
 +1 x5fbfb +1 x5fc07 -1 x5fc12 = +0
-
 +1 x5fc12 +1 x5fc14 -1 x5fc15 +1 x5fcbb -1 x63553 = +0
-
 +1 x5fc15 -1 x5fc16 -1 x5fc17 = +0
-
 +1 x5fc17 +1 x5fc4e +1 x5fc84 -1 x5fc85 +0 x5fc86 -1 x635c3 = +0
-
 +1 x5fc16 -1 x5fc22 -1 x5fc23 = +0
-
 +1 x5fc22 -1 x5fc2e -1 x5fc2f = +0
-
 +1 x5fc2e -1 x5fc32 -1 x5fc33 = +0
-
 +1 x5fc32 -1 x5fc36 -1 x5fc37 = +0
-
 +1 x5fc36 -1 x5fc3a -1 x5fc3b = +0
-
 +1 x5fc33 +1 x5fc37 +1 x5fc3b -1 x5fc40 = +0
-
 +1 x5fc40 +1 x5fc42 +1 x5fc78 -1 x63581 = +0
-
 +1 x5fc23 +1 x5fc2f +1 x5fc3a -1 x5fc49 = +0
-
 +1 x5fc49 +1 x5fc4b -1 x5fc4c +1 x5fc81 -1 x6358a = +0
-
 +1 x5fc4c -1 x5fc4d -1 x5fc4e = +0
-
 +1 x5fc4d -1 x5fc5a -1 x5fc5b = +0
-
 +1 x5fc5a -1 x5fc66 -1 x5fc67 = +0
-
 +1 x5fc66 -1 x5fc6a -1 x5fc6b = +0
-
 +1 x5fc6a -1 x5fc6e -1 x5fc6f = +0
-
 +1 x5fc6e -1 x5fc72 -1 x5fc73 = +0
-
 +1 x5fc6b +1 x5fc6f +1 x5fc73 -1 x5fc78 = +0
-
 +1 x5fc5b +1 x5fc67 +1 x5fc72 -1 x5fc81 = +0
-
 +1 x5fc85 +1 x5fc8f -1 x5fc90 -1 x635ce = +0
-
 +1 x5fc90 -1 x5fc91 -1 x5fc92 = +0
-
 +1 x5fc91 -1 x5fca3 -1 x5fca4 = +0
-
 +1 x5fca3 -1 x5fcaf -1 x5fcb0 = +0
-
 +1 x5fca4 +1 x5fcb0 -1 x5fcbb = +0
-
 +1 x5fcbf -1 x5fcce -1 x5fccf = +0
-
 +1 x5fccf -1 x5fcd3 -1 x5fcd4 = +0
-
 +1 x5fcce -1 x5fcd5 -1 x5fcd6 = +0
-
 +1 x5fcd4 -1 x5fcdd -1 x5fcde = +0
-
 +1 x5fcd6 -1 x5fcdf -1 x5fce0 = +0
-
 +1 x5fcd5 -1 x5fce1 -1 x5fce2 = +0
-
 +1 x5fcd3 -1 x5fce3 -1 x5fce4 = +0
-
 +1 x5fcdd +1 x5fcdf -1 x5fce8 = +0
-
 +1 x5fcde +1 x5fce0 -1 x5fce5 = +0
-
 +1 x5fce2 +1 x5fce4 -1 x5fcef = +0
-
 +1 x5fce5 +1 x5fcef -1 x5fcf3 = +0
-
 +1 x5fce1 +1 x5fce3 -1 x5fcf5 = +0
-
 +1 x5fce8 +1 x5fcf5 -1 x5fcf7 = +0
-
 +1 x5fcf3 -1 x5fcfa -1 x5fcfb = +0
-
 +1 x5fcf7 -1 x5fcfc -1 x5fcfd = +0
-
 +1 x5fcfa +1 x5fcfc -1 x5fcfe = +0
-
 +1 x5fcfb +1 x5fcfd -1 x5fcff = +0
-
 +1 x5fd04 -1 x5fd07 +0 x5fd08 -1 x63682 = +0
-
 +1 x5de0c -1 x5fd21 -1 x5fd22 = +0
-
 +1 x5fd22 -1 x5fd68 +0 x5fd69 = +0
-
 +1 x5fd21 -1 x5fd37 -1 x5fd38 = +0
-
 +1 x5fd37 +1 x5fd5a -1 x76fa8 = +0
-
 +1 x5fd38 -1 x5fd43 +1 x5fd5b -1 x600ee = +0
-
 +1 x5fd43 -1 x5fd44 -1 x5fd45 = +0
-
 +1 x5fd45 -1 x5fd6a +0 x5fd6b -1 x60115 = +0
-
 +1 x5fd44 -1 x5fd5a -1 x5fd5b = +0
-
 +1 x5fd68 +1 x5fd6a -1 x5fd78 = +0
-
 +1 x5fd78 -1 x5fd7a -1 x60120 = +0
-
 +1 x5fd7a -1 x5fd7b -1 x5fd7c = +0
-
 +1 x5fd7c +1 x5fe1e -1 x5fe4a +0 x5fe4b -1 x601f7 = +0
-
 +1 x5fd7b -1 x5fd8c -1 x5fd8d = +0
-
 +1 x5fd8c -1 x5fd98 -1 x5fd99 = +0
-
 +1 x5fd98 +1 x5fe3b -1 x60148 = +0
-
 +1 x5fd8d +1 x5fd99 -1 x5fda3 = +0
-
 +1 x5fda3 -1 x5fda5 +1 x5fe47 -1 x6014d = +0
-
 +1 x5fda5 -1 x5fda6 -1 x5fda7 = +0
-
 +1 x5fda7 +1 x5fddc -1 x5fe12 +0 x5fe13 -1 x601bd = +0
-
 +1 x5fda6 -1 x5fdb2 -1 x5fdb3 = +0
-
 +1 x5fdb2 -1 x5fdbe -1 x5fdbf = +0
-
 +1 x5fdbe -1 x5fdc2 -1 x5fdc3 = +0
-
 +1 x5fdc2 -1 x5fdc6 -1 x5fdc7 = +0
-
 +1 x5fdc6 -1 x5fdca -1 x5fdcb = +0
-
 +1 x5fdc3 +1 x5fdc7 +1 x5fdcb -1 x5fdd0 = +0
-
 +1 x5fdd0 +1 x5fe06 -1 x6017b = +0
-
 +1 x5fdb3 +1 x5fdbf +1 x5fdca -1 x5fdd8 = +0
-
 +1 x5fdd8 -1 x5fdda +1 x5fe0f -1 x60184 = +0
-
 +1 x5fdda -1 x5fddb -1 x5fddc = +0
-
 +1 x5fddb -1 x5fde8 -1 x5fde9 = +0
-
 +1 x5fde8 -1 x5fdf4 -1 x5fdf5 = +0
-
 +1 x5fdf4 -1 x5fdf8 -1 x5fdf9 = +0
-
 +1 x5fdf8 -1 x5fdfc -1 x5fdfd = +0
-
 +1 x5fdfc -1 x5fe00 -1 x5fe01 = +0
-
 +1 x5fdf9 +1 x5fdfd +1 x5fe01 -1 x5fe06 = +0
-
 +1 x5fde9 +1 x5fdf5 +1 x5fe00 -1 x5fe0f = +0
-
 +1 x5fe12 -1 x5fe1c -1 x601c8 = +0
-
 +1 x5fe1c -1 x5fe1d -1 x5fe1e = +0
-
 +1 x5fe1d -1 x5fe2f -1 x5fe30 = +0
-
 +1 x5fe2f -1 x5fe3b -1 x5fe3c = +0
-
 +1 x5fe30 +1 x5fe3c -1 x5fe47 = +0
-
 +1 x5fe4a -1 x5fe59 -1 x5fe5a = +0
-
 +1 x5fe5a -1 x5fe5e -1 x5fe5f = +0
-
 +1 x5fe59 -1 x5fe60 -1 x5fe61 = +0
-
 +1 x5fe5f +1 x5fe61 -1 x5fe67 -1 x5fe68 = +0
-
 +1 x5fe5e +1 x5fe60 -1 x5fe66 = +0
-
 +1 x5fe66 -1 x5fe69 -1 x5fe6a = +0
-
 +1 x5fe68 +1 x5fe6a -1 x5fe75 = +0
-
 +1 x5fe67 +1 x5fe69 -1 x5fe79 = +0
-
 +1 x5fe75 +1 x5fe79 -1 x5fe7e = +0
-
 +1 x5fe7e -1 x5fe81 -1 x5fe82 = +0
-
 +1 x5fe81 +1 x5fe82 -1 x5fe94 = +0
-
 +1 x5fe94 -1 x5feac -1 x5fead = +0
-
 +1 x5feac +1 x5fead -1 x5feba = +0
-
 +1 x5feba -1 x5febc -1 x6026a = +0
-
 +1 x5febc -1 x5febd -1 x5febe = +0
-
 +1 x5febe +1 x5fee1 -1 x5ff05 +0 x5ff06 -1 x602b5 = +0
-
 +1 x5febd -1 x5fed3 -1 x5fed4 = +0
-
 +1 x5fed3 +1 x5fef7 -1 x749df = +0
-
 +1 x5fed4 -1 x5fedf +1 x5fef8 -1 x6028e = +0
-
 +1 x5fedf -1 x5fee0 -1 x5fee1 = +0
-
 +1 x5fee0 -1 x5fef7 -1 x5fef8 = +0
-
 +1 x5ff05 -1 x5ff0f -1 x602c0 = +0
-
 +1 x5ff0f -1 x5ff10 -1 x5ff11 = +0
-
 +1 x5ff11 +1 x5ffb3 -1 x5ffdf +0 x5ffe0 -1 x60397 = +0
-
 +1 x5ff10 -1 x5ff21 -1 x5ff22 = +0
-
 +1 x5ff21 -1 x5ff2d -1 x5ff2e = +0
-
 +1 x5ff2d +1 x5ffd0 -1 x602e8 = +0
-
 +1 x5ff22 +1 x5ff2e -1 x5ff38 = +0
-
 +1 x5ff38 -1 x5ff3a +1 x5ffdc -1 x602ed = +0
-
 +1 x5ff3a -1 x5ff3b -1 x5ff3c = +0
-
 +1 x5ff3c +1 x5ff71 -1 x5ffa7 +0 x5ffa8 -1 x6035d = +0
-
 +1 x5ff3b -1 x5ff47 -1 x5ff48 = +0
-
 +1 x5ff47 -1 x5ff53 -1 x5ff54 = +0
-
 +1 x5ff53 -1 x5ff57 -1 x5ff58 = +0
-
 +1 x5ff57 -1 x5ff5b -1 x5ff5c = +0
-
 +1 x5ff5b -1 x5ff5f -1 x5ff60 = +0
-
 +1 x5ff58 +1 x5ff5c +1 x5ff60 -1 x5ff65 = +0
-
 +1 x5ff65 +1 x5ff9b -1 x6031b = +0
-
 +1 x5ff48 +1 x5ff54 +1 x5ff5f -1 x5ff6d = +0
-
 +1 x5ff6d -1 x5ff6f +1 x5ffa4 -1 x60324 = +0
-
 +1 x5ff6f -1 x5ff70 -1 x5ff71 = +0
-
 +1 x5ff70 -1 x5ff7d -1 x5ff7e = +0
-
 +1 x5ff7d -1 x5ff89 -1 x5ff8a = +0
-
 +1 x5ff89 -1 x5ff8d -1 x5ff8e = +0
-
 +1 x5ff8d -1 x5ff91 -1 x5ff92 = +0
-
 +1 x5ff91 -1 x5ff95 -1 x5ff96 = +0
-
 +1 x5ff8e +1 x5ff92 +1 x5ff96 -1 x5ff9b = +0
-
 +1 x5ff7e +1 x5ff8a +1 x5ff95 -1 x5ffa4 = +0
-
 +1 x5ffa7 -1 x5ffb1 -1 x60368 = +0
-
 +1 x5ffb1 -1 x5ffb2 -1 x5ffb3 = +0
-
 +1 x5ffb2 -1 x5ffc4 -1 x5ffc5 = +0
-
 +1 x5ffc4 -1 x5ffd0 -1 x5ffd1 = +0
-
 +1 x5ffc5 +1 x5ffd1 -1 x5ffdc = +0
-
 +1 x5ffdf -1 x5ffee -1 x5ffef = +0
-
 +1 x5ffef -1 x5fff3 -1 x5fff4 = +0
-
 +1 x5ffee -1 x5fff5 -1 x5fff6 = +0
-
 +1 x5fff4 -1 x5fffd -1 x5fffe = +0
-
 +1 x5fff6 -1 x5ffff -1 x60000 = +0
-
 +1 x5fff5 -1 x60001 -1 x60002 = +0
-
 +1 x5fff3 -1 x60003 -1 x60004 = +0
-
 +1 x5fffd +1 x5ffff -1 x60008 = +0
-
 +1 x5fffe +1 x60000 -1 x60005 = +0
-
 +1 x60002 +1 x60004 -1 x6000f = +0
-
 +1 x60005 +1 x6000f -1 x60013 = +0
-
 +1 x60001 +1 x60003 -1 x60015 = +0
-
 +1 x60008 +1 x60015 -1 x60017 = +0
-
 +1 x60013 -1 x6001a -1 x6001b = +0
-
 +1 x60017 -1 x6001c -1 x6001d = +0
-
 +1 x6001a +1 x6001c -1 x60062 = +0
-
 +1 x6001b +1 x6001d -1 x6001e = +0
-
 +1 x6001e -1 x60022 -1 x603db = +0
-
 +1 x60022 -1 x60023 -1 x60024 = +0
-
 +1 x60023 -1 x60041 -1 x60042 = +0
-
 +1 x60041 -1 x6004d -1 x6004e = +0
-
 +1 x60042 +1 x6004d +1 x6004e -1 x6005c = +0
-
 +1 x5fd07 +1 x60062 -1 x6006e = +0
-
 +1 x5fd05 +1 x6006e -1 x60073 = +0
-
 +1 x60073 -1 x60074 -1 x60425 = +0
-
 +1 x60074 -1 x60075 -1 x60076 = +0
-
 +1 x60075 -1 x6007d -1 x6007e = +0
-
 +1 x6007e -1 x6008d -1 x6008e = +0
-
 +1 x6008d -1 x600bb -1 x600bc = +0
-
 +1 x600bb +1 x600bc -1 x600c9 = +0
-
 +1 x600c9 -1 x600cb +1 x6047c +1 x604d9 +1 x60536 +1 x60593 +1 x605f0 +1 x6064d
 +1 x62833 -1 x62fd1 = +0
-
 +1 x600cb -1 x600cc -1 x600cd = +0
-
 +1 x600cc -1 x600e2 -1 x600e3 = +0
-
 +1 x600e3 +1 x600ee -1 x600ef +1 x60108 -1 x62ff6 = +0
-
 +1 x600ef -1 x600f0 -1 x600f1 = +0
-
 +1 x600cd +1 x600f1 +1 x60115 -1 x60116 +0 x60117 -1 x6301d = +0
-
 +1 x600f0 -1 x60107 -1 x60108 = +0
-
 +1 x600e2 +1 x60107 -1 x62ff2 = +0
-
 +1 x60116 +1 x60120 -1 x60121 -1 x63028 = +0
-
 +1 x60121 -1 x60122 -1 x60123 = +0
-
 +1 x60123 +1 x601cb +1 x601f7 -1 x601f8 +0 x601f9 -1 x630ff = +0
-
 +1 x60122 -1 x60133 -1 x60134 = +0
-
 +1 x60133 -1 x6013f -1 x60140 = +0
-
 +1 x6013f +1 x60148 +1 x601e8 -1 x63050 = +0
-
 +1 x60134 +1 x60140 -1 x6014b = +0
-
 +1 x6014b +1 x6014d -1 x6014e +1 x601f4 -1 x63055 = +0
-
 +1 x6014e -1 x6014f -1 x60150 = +0
-
 +1 x60150 +1 x60187 +1 x601bd -1 x601be +0 x601bf -1 x630c5 = +0
-
 +1 x6014f -1 x6015b -1 x6015c = +0
-
 +1 x6015b -1 x60167 -1 x60168 = +0
-
 +1 x60167 -1 x6016b -1 x6016c = +0
-
 +1 x6016b -1 x6016f -1 x60170 = +0
-
 +1 x6016f -1 x60173 -1 x60174 = +0
-
 +1 x6016c +1 x60170 +1 x60174 -1 x60179 = +0
-
 +1 x60179 +1 x6017b +1 x601b1 -1 x63083 = +0
-
 +1 x6015c +1 x60168 +1 x60173 -1 x60182 = +0
-
 +1 x60182 +1 x60184 -1 x60185 +1 x601ba -1 x6308c = +0
-
 +1 x60185 -1 x60186 -1 x60187 = +0
-
 +1 x60186 -1 x60193 -1 x60194 = +0
-
 +1 x60193 -1 x6019f -1 x601a0 = +0
-
 +1 x6019f -1 x601a3 -1 x601a4 = +0
-
 +1 x601a3 -1 x601a7 -1 x601a8 = +0
-
 +1 x601a7 -1 x601ab -1 x601ac = +0
-
 +1 x601a4 +1 x601a8 +1 x601ac -1 x601b1 = +0
-
 +1 x60194 +1 x601a0 +1 x601ab -1 x601ba = +0
-
 +1 x601be +1 x601c8 -1 x601c9 -1 x630d0 = +0
-
 +1 x601c9 -1 x601ca -1 x601cb = +0
-
 +1 x601ca -1 x601dc -1 x601dd = +0
-
 +1 x601dc -1 x601e8 -1 x601e9 = +0
-
 +1 x601dd +1 x601e9 -1 x601f4 = +0
-
 +1 x601f8 -1 x60207 -1 x60208 = +0
-
 +1 x60208 -1 x6020c -1 x6020d = +0
-
 +1 x60207 -1 x6020e -1 x6020f = +0
-
 +1 x6020d +1 x6020f -1 x60215 -1 x60216 = +0
-
 +1 x6020c +1 x6020e -1 x60214 = +0
-
 +1 x60214 -1 x60217 -1 x60218 = +0
-
 +1 x60216 +1 x60218 -1 x60223 = +0
-
 +1 x60215 +1 x60217 -1 x60227 = +0
-
 +1 x60223 +1 x60227 -1 x6022c = +0
-
 +1 x6022c -1 x6022f -1 x60230 = +0
-
 +1 x6022f +1 x60230 -1 x60242 = +0
-
 +1 x60242 -1 x6025a -1 x6025b = +0
-
 +1 x6025a +1 x6025b -1 x60268 = +0
-
 +1 x60268 +1 x6026a -1 x6026b -1 x63172 = +0
-
 +1 x6026b -1 x6026c -1 x6026d = +0
-
 +1 x6026d +1 x60291 +1 x602b5 -1 x602b6 +0 x602b7 -1 x631be = +0
-
 +1 x6026c -1 x60282 -1 x60283 = +0
-
 +1 x60282 +1 x602a7 -1 x63193 = +0
-
 +1 x60283 +1 x6028e -1 x6028f +1 x602a8 -1 x63197 = +0
-
 +1 x6028f -1 x60290 -1 x60291 = +0
-
 +1 x60290 -1 x602a7 -1 x602a8 = +0
-
 +1 x602b6 +1 x602c0 -1 x602c1 -1 x631c9 = +0
-
 +1 x602c1 -1 x602c2 -1 x602c3 = +0
-
 +1 x602c3 +1 x6036b +1 x60397 -1 x60398 +0 x60399 -1 x632a0 = +0
-
 +1 x602c2 -1 x602d3 -1 x602d4 = +0
-
 +1 x602d3 -1 x602df -1 x602e0 = +0
-
 +1 x602df +1 x602e8 +1 x60388 -1 x631f1 = +0
-
 +1 x602d4 +1 x602e0 -1 x602eb = +0
-
 +1 x602eb +1 x602ed -1 x602ee +1 x60394 -1 x631f6 = +0
-
 +1 x602ee -1 x602ef -1 x602f0 = +0
-
 +1 x602f0 +1 x60327 +1 x6035d -1 x6035e +0 x6035f -1 x63266 = +0
-
 +1 x602ef -1 x602fb -1 x602fc = +0
-
 +1 x602fb -1 x60307 -1 x60308 = +0
-
 +1 x60307 -1 x6030b -1 x6030c = +0
-
 +1 x6030b -1 x6030f -1 x60310 = +0
-
 +1 x6030f -1 x60313 -1 x60314 = +0
-
 +1 x6030c +1 x60310 +1 x60314 -1 x60319 = +0
-
 +1 x60319 +1 x6031b +1 x60351 -1 x63224 = +0
-
 +1 x602fc +1 x60308 +1 x60313 -1 x60322 = +0
-
 +1 x60322 +1 x60324 -1 x60325 +1 x6035a -1 x6322d = +0
-
 +1 x60325 -1 x60326 -1 x60327 = +0
-
 +1 x60326 -1 x60333 -1 x60334 = +0
-
 +1 x60333 -1 x6033f -1 x60340 = +0
-
 +1 x6033f -1 x60343 -1 x60344 = +0
-
 +1 x60343 -1 x60347 -1 x60348 = +0
-
 +1 x60347 -1 x6034b -1 x6034c = +0
-
 +1 x60344 +1 x60348 +1 x6034c -1 x60351 = +0
-
 +1 x60334 +1 x60340 +1 x6034b -1 x6035a = +0
-
 +1 x6035e +1 x60368 -1 x60369 -1 x63271 = +0
-
 +1 x60369 -1 x6036a -1 x6036b = +0
-
 +1 x6036a -1 x6037c -1 x6037d = +0
-
 +1 x6037c -1 x60388 -1 x60389 = +0
-
 +1 x6037d +1 x60389 -1 x60394 = +0
-
 +1 x60398 -1 x603a7 -1 x603a8 = +0
-
 +1 x603a8 -1 x603ac -1 x603ad = +0
-
 +1 x603a7 -1 x603ae -1 x603af = +0
-
 +1 x603ad -1 x603b6 -1 x603b7 = +0
-
 +1 x603af -1 x603b8 -1 x603b9 = +0
-
 +1 x603ae -1 x603ba -1 x603bb = +0
-
 +1 x603ac -1 x603bc -1 x603bd = +0
-
 +1 x603b6 +1 x603b8 -1 x603c1 = +0
-
 +1 x603b7 +1 x603b9 -1 x603be = +0
-
 +1 x603bb +1 x603bd -1 x603c8 = +0
-
 +1 x603be +1 x603c8 -1 x603cc = +0
-
 +1 x603ba +1 x603bc -1 x603ce = +0
-
 +1 x603c1 +1 x603ce -1 x603d0 = +0
-
 +1 x603cc -1 x603d3 -1 x603d4 = +0
-
 +1 x603d0 -1 x603d5 -1 x603d6 = +0
-
 +1 x603d3 +1 x603d5 -1 x6041a = +0
-
 +1 x603d4 +1 x603d6 -1 x603d7 = +0
-
 +1 x603d7 +1 x603db -1 x603dc -1 x632e4 = +0
-
 +1 x603dc -1 x603dd -1 x603de = +0
-
 +1 x603dd -1 x603fb -1 x603fc = +0
-
 +1 x603fb -1 x60407 -1 x60408 = +0
-
 +1 x603fc +1 x60407 +1 x60408 -1 x60416 = +0
-
 +1 x6008e +1 x6041a -1 x60424 = +0
-
 +1 x60424 +1 x60425 -1 x60426 -1 x60482 = +0
-
 +1 x60426 -1 x60427 -1 x60428 = +0
-
 +1 x60076 +1 x60428 -1 x60487 = +0
-
 +1 x60427 -1 x60430 -1 x60431 = +0
-
 +1 x60431 -1 x60440 -1 x60441 = +0
-
 +1 x60440 -1 x6046e -1 x6046f = +0
-
 +1 x6046e +1 x6046f -1 x6047c = +0
-
 +1 x60441 +1 x60482 -1 x60483 -1 x604df = +0
-
 +1 x60483 -1 x60484 -1 x60485 = +0
-
 +1 x60485 +1 x60487 -1 x604e4 = +0
-
 +1 x60484 -1 x6048d -1 x6048e = +0
-
 +1 x6048e -1 x6049d -1 x6049e = +0
-
 +1 x6049d -1 x604cb -1 x604cc = +0
-
 +1 x604cb +1 x604cc -1 x604d9 = +0
-
 +1 x6049e +1 x604df -1 x604e0 -1 x6053c = +0
-
 +1 x604e0 -1 x604e1 -1 x604e2 = +0
-
 +1 x604e2 +1 x604e4 -1 x60541 = +0
-
 +1 x604e1 -1 x604ea -1 x604eb = +0
-
 +1 x604eb -1 x604fa -1 x604fb = +0
-
 +1 x604fa -1 x60528 -1 x60529 = +0
-
 +1 x60528 +1 x60529 -1 x60536 = +0
-
 +1 x604fb +1 x6053c -1 x6053d -1 x60599 = +0
-
 +1 x6053d -1 x6053e -1 x6053f = +0
-
 +1 x6053f +1 x60541 -1 x6059e = +0
-
 +1 x6053e -1 x60547 -1 x60548 = +0
-
 +1 x60548 -1 x60557 -1 x60558 = +0
-
 +1 x60557 -1 x60585 -1 x60586 = +0
-
 +1 x60585 +1 x60586 -1 x60593 = +0
-
 +1 x60558 +1 x60599 -1 x6059a -1 x605f6 = +0
-
 +1 x6059a -1 x6059b -1 x6059c = +0
-
 +1 x6059c +1 x6059e -1 x605fb = +0
-
 +1 x6059b -1 x605a4 -1 x605a5 = +0
-
 +1 x605a5 -1 x605b4 -1 x605b5 = +0
-
 +1 x605b4 -1 x605e2 -1 x605e3 = +0
-
 +1 x605e2 +1 x605e3 -1 x605f0 = +0
-
 +1 x605b5 +1 x605f6 -1 x605f7 +1 x60612 +1 x627f8 -1 x636a0 = +0
-
 +1 x605f7 -1 x605f8 -1 x605f9 = +0
-
 +1 x605f9 +1 x605fb -1 x60654 +0 x60655 +1 x627e0 -1 x636fe = +0
-
 +1 x605f8 -1 x60601 -1 x60602 = +0
-
 +1 x60602 -1 x60611 -1 x60612 = +0
-
 +1 x60611 -1 x6063f -1 x60640 = +0
-
 +1 x6063f +1 x60640 -1 x6064d = +0
-
 +1 x5de1b -1 x6066c -1 x6066d = +0
-
 +1 x6066d -1 x606b9 +0 x606ba = +0
-
 +1 x6066c -1 x60678 -1 x60679 = +0
-
 +1 x60678 -1 x60684 -1 x60685 = +0
-
 +1 x60684 +1 x606aa +1 x609cf +1 x609f8 +1 x60d2e +1 x60d57 +1 x6108d +1 x610b6
 +1 x613ec +1 x61415 +1 x6174b +1 x61774 +1 x61aaa +1 x61ad3 +1 x61e09 +1 x61e32
 -1 x76fa9 = +0
-
 +1 x60679 +1 x60685 -1 x6068f = +0
-
 +1 x6068f -1 x60691 +1 x606b6 -1 x609dd = +0
-
 +1 x60691 -1 x60692 -1 x60693 = +0
-
 +1 x60693 -1 x606bb +0 x606bc -1 x60a07 = +0
-
 +1 x60692 -1 x6069e -1 x6069f = +0
-
 +1 x6069e -1 x606aa -1 x606ab = +0
-
 +1 x6069f +1 x606ab -1 x606b6 = +0
-
 +1 x606b9 +1 x606bb -1 x606c9 = +0
-
 +1 x606c9 -1 x606cb -1 x60a12 = +0
-
 +1 x606cb -1 x606cc -1 x606cd = +0
-
 +1 x606cd +1 x6076f -1 x6079b +0 x6079c -1 x60ae9 = +0
-
 +1 x606cc -1 x606dd -1 x606de = +0
-
 +1 x606dd -1 x606e9 -1 x606ea = +0
-
 +1 x606e9 +1 x6078c -1 x60a3a = +0
-
 +1 x606de +1 x606ea -1 x606f4 = +0
-
 +1 x606f4 -1 x606f6 +1 x60798 -1 x60a3f = +0
-
 +1 x606f6 -1 x606f7 -1 x606f8 = +0
-
 +1 x606f8 +1 x6072d -1 x60763 +0 x60764 -1 x60aaf = +0
-
 +1 x606f7 -1 x60703 -1 x60704 = +0
-
 +1 x60703 -1 x6070f -1 x60710 = +0
-
 +1 x6070f -1 x60713 -1 x60714 = +0
-
 +1 x60713 -1 x60717 -1 x60718 = +0
-
 +1 x60717 -1 x6071b -1 x6071c = +0
-
 +1 x60714 +1 x60718 +1 x6071c -1 x60721 = +0
-
 +1 x60721 +1 x60757 -1 x60a6d = +0
-
 +1 x60704 +1 x60710 +1 x6071b -1 x60729 = +0
-
 +1 x60729 -1 x6072b +1 x60760 -1 x60a76 = +0
-
 +1 x6072b -1 x6072c -1 x6072d = +0
-
 +1 x6072c -1 x60739 -1 x6073a = +0
-
 +1 x60739 -1 x60745 -1 x60746 = +0
-
 +1 x60745 -1 x60749 -1 x6074a = +0
-
 +1 x60749 -1 x6074d -1 x6074e = +0
-
 +1 x6074d -1 x60751 -1 x60752 = +0
-
 +1 x6074a +1 x6074e +1 x60752 -1 x60757 = +0
-
 +1 x6073a +1 x60746 +1 x60751 -1 x60760 = +0
-
 +1 x60763 -1 x6076d -1 x60aba = +0
-
 +1 x6076d -1 x6076e -1 x6076f = +0
-
 +1 x6076e -1 x60780 -1 x60781 = +0
-
 +1 x60780 -1 x6078c -1 x6078d = +0
-
 +1 x60781 +1 x6078d -1 x60798 = +0
-
 +1 x6079b -1 x607aa -1 x607ab = +0
-
 +1 x607ab -1 x607af -1 x607b0 = +0
-
 +1 x607aa -1 x607b1 -1 x607b2 = +0
-
 +1 x607b0 +1 x607b2 -1 x607b8 -1 x607b9 = +0
-
 +1 x607af +1 x607b1 -1 x607b7 = +0
-
 +1 x607b7 -1 x607ba -1 x607bb = +0
-
 +1 x607b9 +1 x607bb -1 x607c6 = +0
-
 +1 x607b8 +1 x607ba -1 x607ca = +0
-
 +1 x607c6 +1 x607ca -1 x607cf = +0
-
 +1 x607cf -1 x607d2 -1 x607d3 = +0
-
 +1 x607d2 +1 x607d3 -1 x607e3 = +0
-
 +1 x607e3 -1 x607f1 -1 x607f2 = +0
-
 +1 x607f1 -1 x607fd -1 x607fe = +0
-
 +1 x607f2 +1 x607fd +1 x607fe -1 x6080c = +0
-
 +1 x6080c -1 x6080e -1 x60b5d = +0
-
 +1 x6080e -1 x6080f -1 x60810 = +0
-
 +1 x60810 +1 x60836 -1 x6085d +0 x6085e -1 x60baf = +0
-
 +1 x6080f -1 x6081b -1 x6081c = +0
-
 +1 x6081b -1 x60827 -1 x60828 = +0
-
 +1 x60827 +1 x6084e +1 x60b77 +1 x60ba0 +1 x60ed6 +1 x60eff +1 x61235 +1 x6125e
 +1 x61594 +1 x615bd +1 x618f3 +1 x6191c +1 x61c52 +1 x61c7b +1 x61fb1 +1 x61fda
 -1 x749e0 = +0
-
 +1 x6081c +1 x60828 -1 x60832 = +0
-
 +1 x60832 -1 x60834 +1 x6085a -1 x60b85 = +0
-
 +1 x60834 -1 x60835 -1 x60836 = +0
-
 +1 x60835 -1 x60842 -1 x60843 = +0
-
 +1 x60842 -1 x6084e -1 x6084f = +0
-
 +1 x60843 +1 x6084f -1 x6085a = +0
-
 +1 x6085d -1 x60867 -1 x60bba = +0
-
 +1 x60867 -1 x60868 -1 x60869 = +0
-
 +1 x60869 +1 x6090b -1 x60937 +0 x60938 -1 x60c91 = +0
-
 +1 x60868 -1 x60879 -1 x6087a = +0
-
 +1 x60879 -1 x60885 -1 x60886 = +0
-
 +1 x60885 +1 x60928 -1 x60be2 = +0
-
 +1 x6087a +1 x60886 -1 x60890 = +0
-
 +1 x60890 -1 x60892 +1 x60934 -1 x60be7 = +0
-
 +1 x60892 -1 x60893 -1 x60894 = +0
-
 +1 x60894 +1 x608c9 -1 x608ff +0 x60900 -1 x60c57 = +0
-
 +1 x60893 -1 x6089f -1 x608a0 = +0
-
 +1 x6089f -1 x608ab -1 x608ac = +0
-
 +1 x608ab -1 x608af -1 x608b0 = +0
-
 +1 x608af -1 x608b3 -1 x608b4 = +0
-
 +1 x608b3 -1 x608b7 -1 x608b8 = +0
-
 +1 x608b0 +1 x608b4 +1 x608b8 -1 x608bd = +0
-
 +1 x608bd +1 x608f3 -1 x60c15 = +0
-
 +1 x608a0 +1 x608ac +1 x608b7 -1 x608c5 = +0
-
 +1 x608c5 -1 x608c7 +1 x608fc -1 x60c1e = +0
-
 +1 x608c7 -1 x608c8 -1 x608c9 = +0
-
 +1 x608c8 -1 x608d5 -1 x608d6 = +0
-
 +1 x608d5 -1 x608e1 -1 x608e2 = +0
-
 +1 x608e1 -1 x608e5 -1 x608e6 = +0
-
 +1 x608e5 -1 x608e9 -1 x608ea = +0
-
 +1 x608e9 -1 x608ed -1 x608ee = +0
-
 +1 x608e6 +1 x608ea +1 x608ee -1 x608f3 = +0
-
 +1 x608d6 +1 x608e2 +1 x608ed -1 x608fc = +0
-
 +1 x608ff -1 x60909 -1 x60c62 = +0
-
 +1 x60909 -1 x6090a -1 x6090b = +0
-
 +1 x6090a -1 x6091c -1 x6091d = +0
-
 +1 x6091c -1 x60928 -1 x60929 = +0
-
 +1 x6091d +1 x60929 -1 x60934 = +0
-
 +1 x60937 -1 x60946 -1 x60947 = +0
-
 +1 x60947 -1 x6094b -1 x6094c = +0
-
 +1 x60946 -1 x6094d -1 x6094e = +0
-
 +1 x6094c -1 x60955 -1 x60956 = +0
-
 +1 x6094e -1 x60957 -1 x60958 = +0
-
 +1 x6094d -1 x60959 -1 x6095a = +0
-
 +1 x6094b -1 x6095b -1 x6095c = +0
-
 +1 x60955 +1 x60957 -1 x60960 = +0
-
 +1 x60956 +1 x60958 -1 x6095d = +0
-
 +1 x6095a +1 x6095c -1 x60967 = +0
-
 +1 x6095d +1 x60967 -1 x6096b = +0
-
 +1 x60959 +1 x6095b -1 x6096d = +0
-
 +1 x60960 +1 x6096d -1 x6096f = +0
-
 +1 x6096b -1 x60972 -1 x60973 = +0
-
 +1 x6096f -1 x60974 -1 x60975 = +0
-
 +1 x60972 +1 x60974 -1 x60cd1 = +0
-
 +1 x60973 +1 x60975 -1 x60976 = +0
-
 +1 x60976 -1 x6097a -1 x60cd6 = +0
-
 +1 x6097a -1 x6097b -1 x6097c = +0
-
 +1 x6097b -1 x60999 -1 x6099a = +0
-
 +1 x60999 -1 x609a5 -1 x609a6 = +0
-
 +1 x6099a +1 x609a5 +1 x609a6 -1 x609b4 = +0
-
 +1 x609b4 -1 x609b6 -1 x60d14 = +0
-
 +1 x609b6 -1 x609b7 -1 x609b8 = +0
-
 +1 x609b7 -1 x609c3 -1 x609c4 = +0
-
 +1 x609c3 -1 x609cf -1 x609d0 = +0
-
 +1 x609c4 +1 x609d0 -1 x609db = +0
-
 +1 x609db +1 x609dd -1 x609de +1 x60a04 -1 x60d3c = +0
-
 +1 x609de -1 x609df -1 x609e0 = +0
-
 +1 x609b8 +1 x609e0 +1 x60a07 -1 x60a08 +0 x60a09 -1 x60d66 = +0
-
 +1 x609df -1 x609ec -1 x609ed = +0
-
 +1 x609ec -1 x609f8 -1 x609f9 = +0
-
 +1 x609ed +1 x609f9 -1 x60a04 = +0
-
 +1 x60a08 +1 x60a12 -1 x60a13 -1 x60d71 = +0
-
 +1 x60a13 -1 x60a14 -1 x60a15 = +0
-
 +1 x60a15 +1 x60abd +1 x60ae9 -1 x60aea +0 x60aeb -1 x60e48 = +0
-
 +1 x60a14 -1 x60a25 -1 x60a26 = +0
-
 +1 x60a25 -1 x60a31 -1 x60a32 = +0
-
 +1 x60a31 +1 x60a3a +1 x60ada -1 x60d99 = +0
-
 +1 x60a26 +1 x60a32 -1 x60a3d = +0
-
 +1 x60a3d +1 x60a3f -1 x60a40 +1 x60ae6 -1 x60d9e = +0
-
 +1 x60a40 -1 x60a41 -1 x60a42 = +0
-
 +1 x60a42 +1 x60a79 +1 x60aaf -1 x60ab0 +0 x60ab1 -1 x60e0e = +0
-
 +1 x60a41 -1 x60a4d -1 x60a4e = +0
-
 +1 x60a4d -1 x60a59 -1 x60a5a = +0
-
 +1 x60a59 -1 x60a5d -1 x60a5e = +0
-
 +1 x60a5d -1 x60a61 -1 x60a62 = +0
-
 +1 x60a61 -1 x60a65 -1 x60a66 = +0
-
 +1 x60a5e +1 x60a62 +1 x60a66 -1 x60a6b = +0
-
 +1 x60a6b +1 x60a6d +1 x60aa3 -1 x60dcc = +0
-
 +1 x60a4e +1 x60a5a +1 x60a65 -1 x60a74 = +0
-
 +1 x60a74 +1 x60a76 -1 x60a77 +1 x60aac -1 x60dd5 = +0
-
 +1 x60a77 -1 x60a78 -1 x60a79 = +0
-
 +1 x60a78 -1 x60a85 -1 x60a86 = +0
-
 +1 x60a85 -1 x60a91 -1 x60a92 = +0
-
 +1 x60a91 -1 x60a95 -1 x60a96 = +0
-
 +1 x60a95 -1 x60a99 -1 x60a9a = +0
-
 +1 x60a99 -1 x60a9d -1 x60a9e = +0
-
 +1 x60a96 +1 x60a9a +1 x60a9e -1 x60aa3 = +0
-
 +1 x60a86 +1 x60a92 +1 x60a9d -1 x60aac = +0
-
 +1 x60ab0 +1 x60aba -1 x60abb -1 x60e19 = +0
-
 +1 x60abb -1 x60abc -1 x60abd = +0
-
 +1 x60abc -1 x60ace -1 x60acf = +0
-
 +1 x60ace -1 x60ada -1 x60adb = +0
-
 +1 x60acf +1 x60adb -1 x60ae6 = +0
-
 +1 x60aea -1 x60af9 -1 x60afa = +0
-
 +1 x60afa -1 x60afe -1 x60aff = +0
-
 +1 x60af9 -1 x60b00 -1 x60b01 = +0
-
 +1 x60aff +1 x60b01 -1 x60b07 -1 x60b08 = +0
-
 +1 x60afe +1 x60b00 -1 x60b06 = +0
-
 +1 x60b06 -1 x60b09 -1 x60b0a = +0
-
 +1 x60b08 +1 x60b0a -1 x60b15 = +0
-
 +1 x60b07 +1 x60b09 -1 x60b19 = +0
-
 +1 x60b15 +1 x60b19 -1 x60b1e = +0
-
 +1 x60b1e -1 x60b21 -1 x60b22 = +0
-
 +1 x60b21 +1 x60b22 -1 x60b32 = +0
-
 +1 x60b32 -1 x60b40 -1 x60b41 = +0
-
 +1 x60b40 -1 x60b4c -1 x60b4d = +0
-
 +1 x60b41 +1 x60b4c +1 x60b4d -1 x60b5b = +0
-
 +1 x60b5b +1 x60b5d -1 x60b5e -1 x60ebc = +0
-
 +1 x60b5e -1 x60b5f -1 x60b60 = +0
-
 +1 x60b60 +1 x60b88 +1 x60baf -1 x60bb0 +0 x60bb1 -1 x60f0e = +0
-
 +1 x60b5f -1 x60b6b -1 x60b6c = +0
-
 +1 x60b6b -1 x60b77 -1 x60b78 = +0
-
 +1 x60b6c +1 x60b78 -1 x60b83 = +0
-
 +1 x60b83 +1 x60b85 -1 x60b86 +1 x60bac -1 x60ee4 = +0
-
 +1 x60b86 -1 x60b87 -1 x60b88 = +0
-
 +1 x60b87 -1 x60b94 -1 x60b95 = +0
-
 +1 x60b94 -1 x60ba0 -1 x60ba1 = +0
-
 +1 x60b95 +1 x60ba1 -1 x60bac = +0
-
 +1 x60bb0 +1 x60bba -1 x60bbb -1 x60f19 = +0
-
 +1 x60bbb -1 x60bbc -1 x60bbd = +0
-
 +1 x60bbd +1 x60c65 +1 x60c91 -1 x60c92 +0 x60c93 -1 x60ff0 = +0
-
 +1 x60bbc -1 x60bcd -1 x60bce = +0
-
 +1 x60bcd -1 x60bd9 -1 x60bda = +0
-
 +1 x60bd9 +1 x60be2 +1 x60c82 -1 x60f41 = +0
-
 +1 x60bce +1 x60bda -1 x60be5 = +0
-
 +1 x60be5 +1 x60be7 -1 x60be8 +1 x60c8e -1 x60f46 = +0
-
 +1 x60be8 -1 x60be9 -1 x60bea = +0
-
 +1 x60bea +1 x60c21 +1 x60c57 -1 x60c58 +0 x60c59 -1 x60fb6 = +0
-
 +1 x60be9 -1 x60bf5 -1 x60bf6 = +0
-
 +1 x60bf5 -1 x60c01 -1 x60c02 = +0
-
 +1 x60c01 -1 x60c05 -1 x60c06 = +0
-
 +1 x60c05 -1 x60c09 -1 x60c0a = +0
-
 +1 x60c09 -1 x60c0d -1 x60c0e = +0
-
 +1 x60c06 +1 x60c0a +1 x60c0e -1 x60c13 = +0
-
 +1 x60c13 +1 x60c15 +1 x60c4b -1 x60f74 = +0
-
 +1 x60bf6 +1 x60c02 +1 x60c0d -1 x60c1c = +0
-
 +1 x60c1c +1 x60c1e -1 x60c1f +1 x60c54 -1 x60f7d = +0
-
 +1 x60c1f -1 x60c20 -1 x60c21 = +0
-
 +1 x60c20 -1 x60c2d -1 x60c2e = +0
-
 +1 x60c2d -1 x60c39 -1 x60c3a = +0
-
 +1 x60c39 -1 x60c3d -1 x60c3e = +0
-
 +1 x60c3d -1 x60c41 -1 x60c42 = +0
-
 +1 x60c41 -1 x60c45 -1 x60c46 = +0
-
 +1 x60c3e +1 x60c42 +1 x60c46 -1 x60c4b = +0
-
 +1 x60c2e +1 x60c3a +1 x60c45 -1 x60c54 = +0
-
 +1 x60c58 +1 x60c62 -1 x60c63 -1 x60fc1 = +0
-
 +1 x60c63 -1 x60c64 -1 x60c65 = +0
-
 +1 x60c64 -1 x60c76 -1 x60c77 = +0
-
 +1 x60c76 -1 x60c82 -1 x60c83 = +0
-
 +1 x60c77 +1 x60c83 -1 x60c8e = +0
-
 +1 x60c92 -1 x60ca1 -1 x60ca2 = +0
-
 +1 x60ca2 -1 x60ca6 -1 x60ca7 = +0
-
 +1 x60ca1 -1 x60ca8 -1 x60ca9 = +0
-
 +1 x60ca7 -1 x60cb0 -1 x60cb1 = +0
-
 +1 x60ca9 -1 x60cb2 -1 x60cb3 = +0
-
 +1 x60ca8 -1 x60cb4 -1 x60cb5 = +0
-
 +1 x60ca6 -1 x60cb6 -1 x60cb7 = +0
-
 +1 x60cb0 +1 x60cb2 -1 x60cbb = +0
-
 +1 x60cb1 +1 x60cb3 -1 x60cb8 = +0
-
 +1 x60cb5 +1 x60cb7 -1 x60cc2 = +0
-
 +1 x60cb8 +1 x60cc2 -1 x60cc6 = +0
-
 +1 x60cb4 +1 x60cb6 -1 x60cc8 = +0
-
 +1 x60cbb +1 x60cc8 -1 x60cca = +0
-
 +1 x60cc6 -1 x60ccd -1 x60cce = +0
-
 +1 x60cca -1 x60ccf -1 x60cd0 = +0
-
 +1 x60ccd +1 x60ccf +1 x60cd1 -1 x61030 = +0
-
 +1 x60cce +1 x60cd0 -1 x60cd2 = +0
-
 +1 x60cd2 +1 x60cd6 -1 x60cd7 -1 x61035 = +0
-
 +1 x60cd7 -1 x60cd8 -1 x60cd9 = +0
-
 +1 x6097c +1 x60cd9 -1 x6103a = +0
-
 +1 x60cd8 -1 x60cf7 -1 x60cf8 = +0
-
 +1 x60cf7 -1 x60d03 -1 x60d04 = +0
-
 +1 x60cf8 +1 x60d03 +1 x60d04 -1 x60d12 = +0
-
 +1 x60d12 +1 x60d14 -1 x60d15 -1 x61073 = +0
-
 +1 x60d15 -1 x60d16 -1 x60d17 = +0
-
 +1 x60d16 -1 x60d22 -1 x60d23 = +0
-
 +1 x60d22 -1 x60d2e -1 x60d2f = +0
-
 +1 x60d23 +1 x60d2f -1 x60d3a = +0
-
 +1 x60d3a +1 x60d3c -1 x60d3d +1 x60d63 -1 x6109b = +0
-
 +1 x60d3d -1 x60d3e -1 x60d3f = +0
-
 +1 x60d17 +1 x60d3f +1 x60d66 -1 x60d67 +0 x60d68 -1 x610c5 = +0
-
 +1 x60d3e -1 x60d4b -1 x60d4c = +0
-
 +1 x60d4b -1 x60d57 -1 x60d58 = +0
-
 +1 x60d4c +1 x60d58 -1 x60d63 = +0
-
 +1 x60d67 +1 x60d71 -1 x60d72 -1 x610d0 = +0
-
 +1 x60d72 -1 x60d73 -1 x60d74 = +0
-
 +1 x60d74 +1 x60e1c +1 x60e48 -1 x60e49 +0 x60e4a -1 x611a7 = +0
-
 +1 x60d73 -1 x60d84 -1 x60d85 = +0
-
 +1 x60d84 -1 x60d90 -1 x60d91 = +0
-
 +1 x60d90 +1 x60d99 +1 x60e39 -1 x610f8 = +0
-
 +1 x60d85 +1 x60d91 -1 x60d9c = +0
-
 +1 x60d9c +1 x60d9e -1 x60d9f +1 x60e45 -1 x610fd = +0
-
 +1 x60d9f -1 x60da0 -1 x60da1 = +0
-
 +1 x60da1 +1 x60dd8 +1 x60e0e -1 x60e0f +0 x60e10 -1 x6116d = +0
-
 +1 x60da0 -1 x60dac -1 x60dad = +0
-
 +1 x60dac -1 x60db8 -1 x60db9 = +0
-
 +1 x60db8 -1 x60dbc -1 x60dbd = +0
-
 +1 x60dbc -1 x60dc0 -1 x60dc1 = +0
-
 +1 x60dc0 -1 x60dc4 -1 x60dc5 = +0
-
 +1 x60dbd +1 x60dc1 +1 x60dc5 -1 x60dca = +0
-
 +1 x60dca +1 x60dcc +1 x60e02 -1 x6112b = +0
-
 +1 x60dad +1 x60db9 +1 x60dc4 -1 x60dd3 = +0
-
 +1 x60dd3 +1 x60dd5 -1 x60dd6 +1 x60e0b -1 x61134 = +0
-
 +1 x60dd6 -1 x60dd7 -1 x60dd8 = +0
-
 +1 x60dd7 -1 x60de4 -1 x60de5 = +0
-
 +1 x60de4 -1 x60df0 -1 x60df1 = +0
-
 +1 x60df0 -1 x60df4 -1 x60df5 = +0
-
 +1 x60df4 -1 x60df8 -1 x60df9 = +0
-
 +1 x60df8 -1 x60dfc -1 x60dfd = +0
-
 +1 x60df5 +1 x60df9 +1 x60dfd -1 x60e02 = +0
-
 +1 x60de5 +1 x60df1 +1 x60dfc -1 x60e0b = +0
-
 +1 x60e0f +1 x60e19 -1 x60e1a -1 x61178 = +0
-
 +1 x60e1a -1 x60e1b -1 x60e1c = +0
-
 +1 x60e1b -1 x60e2d -1 x60e2e = +0
-
 +1 x60e2d -1 x60e39 -1 x60e3a = +0
-
 +1 x60e2e +1 x60e3a -1 x60e45 = +0
-
 +1 x60e49 -1 x60e58 -1 x60e59 = +0
-
 +1 x60e59 -1 x60e5d -1 x60e5e = +0
-
 +1 x60e58 -1 x60e5f -1 x60e60 = +0
-
 +1 x60e5e +1 x60e60 -1 x60e66 -1 x60e67 = +0
-
 +1 x60e5d +1 x60e5f -1 x60e65 = +0
-
 +1 x60e65 -1 x60e68 -1 x60e69 = +0
-
 +1 x60e67 +1 x60e69 -1 x60e74 = +0
-
 +1 x60e66 +1 x60e68 -1 x60e78 = +0
-
 +1 x60e74 +1 x60e78 -1 x60e7d = +0
-
 +1 x60e7d -1 x60e80 -1 x60e81 = +0
-
 +1 x60e80 +1 x60e81 -1 x60e91 = +0
-
 +1 x60e91 -1 x60e9f -1 x60ea0 = +0
-
 +1 x60e9f -1 x60eab -1 x60eac = +0
-
 +1 x60ea0 +1 x60eab +1 x60eac -1 x60eba = +0
-
 +1 x60eba +1 x60ebc -1 x60ebd -1 x6121b = +0
-
 +1 x60ebd -1 x60ebe -1 x60ebf = +0
-
 +1 x60ebf +1 x60ee7 +1 x60f0e -1 x60f0f +0 x60f10 -1 x6126d = +0
-
 +1 x60ebe -1 x60eca -1 x60ecb = +0
-
 +1 x60eca -1 x60ed6 -1 x60ed7 = +0
-
 +1 x60ecb +1 x60ed7 -1 x60ee2 = +0
-
 +1 x60ee2 +1 x60ee4 -1 x60ee5 +1 x60f0b -1 x61243 = +0
-
 +1 x60ee5 -1 x60ee6 -1 x60ee7 = +0
-
 +1 x60ee6 -1 x60ef3 -1 x60ef4 = +0
-
 +1 x60ef3 -1 x60eff -1 x60f00 = +0
-
 +1 x60ef4 +1 x60f00 -1 x60f0b = +0
-
 +1 x60f0f +1 x60f19 -1 x60f1a -1 x61278 = +0
-
 +1 x60f1a -1 x60f1b -1 x60f1c = +0
-
 +1 x60f1c +1 x60fc4 +1 x60ff0 -1 x60ff1 +0 x60ff2 -1 x6134f = +0
-
 +1 x60f1b -1 x60f2c -1 x60f2d = +0
-
 +1 x60f2c -1 x60f38 -1 x60f39 = +0
-
 +1 x60f38 +1 x60f41 +1 x60fe1 -1 x612a0 = +0
-
 +1 x60f2d +1 x60f39 -1 x60f44 = +0
-
 +1 x60f44 +1 x60f46 -1 x60f47 +1 x60fed -1 x612a5 = +0
-
 +1 x60f47 -1 x60f48 -1 x60f49 = +0
-
 +1 x60f49 +1 x60f80 +1 x60fb6 -1 x60fb7 +0 x60fb8 -1 x61315 = +0
-
 +1 x60f48 -1 x60f54 -1 x60f55 = +0
-
 +1 x60f54 -1 x60f60 -1 x60f61 = +0
-
 +1 x60f60 -1 x60f64 -1 x60f65 = +0
-
 +1 x60f64 -1 x60f68 -1 x60f69 = +0
-
 +1 x60f68 -1 x60f6c -1 x60f6d = +0
-
 +1 x60f65 +1 x60f69 +1 x60f6d -1 x60f72 = +0
-
 +1 x60f72 +1 x60f74 +1 x60faa -1 x612d3 = +0
-
 +1 x60f55 +1 x60f61 +1 x60f6c -1 x60f7b = +0
-
 +1 x60f7b +1 x60f7d -1 x60f7e +1 x60fb3 -1 x612dc = +0
-
 +1 x60f7e -1 x60f7f -1 x60f80 = +0
-
 +1 x60f7f -1 x60f8c -1 x60f8d = +0
-
 +1 x60f8c -1 x60f98 -1 x60f99 = +0
-
 +1 x60f98 -1 x60f9c -1 x60f9d = +0
-
 +1 x60f9c -1 x60fa0 -1 x60fa1 = +0
-
 +1 x60fa0 -1 x60fa4 -1 x60fa5 = +0
-
 +1 x60f9d +1 x60fa1 +1 x60fa5 -1 x60faa = +0
-
 +1 x60f8d +1 x60f99 +1 x60fa4 -1 x60fb3 = +0
-
 +1 x60fb7 +1 x60fc1 -1 x60fc2 -1 x61320 = +0
-
 +1 x60fc2 -1 x60fc3 -1 x60fc4 = +0
-
 +1 x60fc3 -1 x60fd5 -1 x60fd6 = +0
-
 +1 x60fd5 -1 x60fe1 -1 x60fe2 = +0
-
 +1 x60fd6 +1 x60fe2 -1 x60fed = +0
-
 +1 x60ff1 -1 x61000 -1 x61001 = +0
-
 +1 x61001 -1 x61005 -1 x61006 = +0
-
 +1 x61000 -1 x61007 -1 x61008 = +0
-
 +1 x61006 -1 x6100f -1 x61010 = +0
-
 +1 x61008 -1 x61011 -1 x61012 = +0
-
 +1 x61007 -1 x61013 -1 x61014 = +0
-
 +1 x61005 -1 x61015 -1 x61016 = +0
-
 +1 x6100f +1 x61011 -1 x6101a = +0
-
 +1 x61010 +1 x61012 -1 x61017 = +0
-
 +1 x61014 +1 x61016 -1 x61021 = +0
-
 +1 x61017 +1 x61021 -1 x61025 = +0
-
 +1 x61013 +1 x61015 -1 x61027 = +0
-
 +1 x6101a +1 x61027 -1 x61029 = +0
-
 +1 x61025 -1 x6102c -1 x6102d = +0
-
 +1 x61029 -1 x6102e -1 x6102f = +0
-
 +1 x6102c +1 x6102e +1 x61030 -1 x6138f = +0
-
 +1 x6102d +1 x6102f -1 x61031 = +0
-
 +1 x61031 +1 x61035 -1 x61036 -1 x61394 = +0
-
 +1 x61036 -1 x61037 -1 x61038 = +0
-
 +1 x61038 +1 x6103a -1 x61399 = +0
-
 +1 x61037 -1 x61056 -1 x61057 = +0
-
 +1 x61056 -1 x61062 -1 x61063 = +0
-
 +1 x61057 +1 x61062 +1 x61063 -1 x61071 = +0
-
 +1 x61071 +1 x61073 -1 x61074 -1 x613d2 = +0
-
 +1 x61074 -1 x61075 -1 x61076 = +0
-
 +1 x61075 -1 x61081 -1 x61082 = +0
-
 +1 x61081 -1 x6108d -1 x6108e = +0
-
 +1 x61082 +1 x6108e -1 x61099 = +0
-
 +1 x61099 +1 x6109b -1 x6109c +1 x610c2 -1 x613fa = +0
-
 +1 x6109c -1 x6109d -1 x6109e = +0
-
 +1 x61076 +1 x6109e +1 x610c5 -1 x610c6 +0 x610c7 -1 x61424 = +0
-
 +1 x6109d -1 x610aa -1 x610ab = +0
-
 +1 x610aa -1 x610b6 -1 x610b7 = +0
-
 +1 x610ab +1 x610b7 -1 x610c2 = +0
-
 +1 x610c6 +1 x610d0 -1 x610d1 -1 x6142f = +0
-
 +1 x610d1 -1 x610d2 -1 x610d3 = +0
-
 +1 x610d3 +1 x6117b +1 x611a7 -1 x611a8 +0 x611a9 -1 x61506 = +0
-
 +1 x610d2 -1 x610e3 -1 x610e4 = +0
-
 +1 x610e3 -1 x610ef -1 x610f0 = +0
-
 +1 x610ef +1 x610f8 +1 x61198 -1 x61457 = +0
-
 +1 x610e4 +1 x610f0 -1 x610fb = +0
-
 +1 x610fb +1 x610fd -1 x610fe +1 x611a4 -1 x6145c = +0
-
 +1 x610fe -1 x610ff -1 x61100 = +0
-
 +1 x61100 +1 x61137 +1 x6116d -1 x6116e +0 x6116f -1 x614cc = +0
-
 +1 x610ff -1 x6110b -1 x6110c = +0
-
 +1 x6110b -1 x61117 -1 x61118 = +0
-
 +1 x61117 -1 x6111b -1 x6111c = +0
-
 +1 x6111b -1 x6111f -1 x61120 = +0
-
 +1 x6111f -1 x61123 -1 x61124 = +0
-
 +1 x6111c +1 x61120 +1 x61124 -1 x61129 = +0
-
 +1 x61129 +1 x6112b +1 x61161 -1 x6148a = +0
-
 +1 x6110c +1 x61118 +1 x61123 -1 x61132 = +0
-
 +1 x61132 +1 x61134 -1 x61135 +1 x6116a -1 x61493 = +0
-
 +1 x61135 -1 x61136 -1 x61137 = +0
-
 +1 x61136 -1 x61143 -1 x61144 = +0
-
 +1 x61143 -1 x6114f -1 x61150 = +0
-
 +1 x6114f -1 x61153 -1 x61154 = +0
-
 +1 x61153 -1 x61157 -1 x61158 = +0
-
 +1 x61157 -1 x6115b -1 x6115c = +0
-
 +1 x61154 +1 x61158 +1 x6115c -1 x61161 = +0
-
 +1 x61144 +1 x61150 +1 x6115b -1 x6116a = +0
-
 +1 x6116e +1 x61178 -1 x61179 -1 x614d7 = +0
-
 +1 x61179 -1 x6117a -1 x6117b = +0
-
 +1 x6117a -1 x6118c -1 x6118d = +0
-
 +1 x6118c -1 x61198 -1 x61199 = +0
-
 +1 x6118d +1 x61199 -1 x611a4 = +0
-
 +1 x611a8 -1 x611b7 -1 x611b8 = +0
-
 +1 x611b8 -1 x611bc -1 x611bd = +0
-
 +1 x611b7 -1 x611be -1 x611bf = +0
-
 +1 x611bd +1 x611bf -1 x611c5 -1 x611c6 = +0
-
 +1 x611bc +1 x611be -1 x611c4 = +0
-
 +1 x611c4 -1 x611c7 -1 x611c8 = +0
-
 +1 x611c6 +1 x611c8 -1 x611d3 = +0
-
 +1 x611c5 +1 x611c7 -1 x611d7 = +0
-
 +1 x611d3 +1 x611d7 -1 x611dc = +0
-
 +1 x611dc -1 x611df -1 x611e0 = +0
-
 +1 x611df +1 x611e0 -1 x611f0 = +0
-
 +1 x611f0 -1 x611fe -1 x611ff = +0
-
 +1 x611fe -1 x6120a -1 x6120b = +0
-
 +1 x611ff +1 x6120a +1 x6120b -1 x61219 = +0
-
 +1 x61219 +1 x6121b -1 x6121c -1 x6157a = +0
-
 +1 x6121c -1 x6121d -1 x6121e = +0
-
 +1 x6121e +1 x61246 +1 x6126d -1 x6126e +0 x6126f -1 x615cc = +0
-
 +1 x6121d -1 x61229 -1 x6122a = +0
-
 +1 x61229 -1 x61235 -1 x61236 = +0
-
 +1 x6122a +1 x61236 -1 x61241 = +0
-
 +1 x61241 +1 x61243 -1 x61244 +1 x6126a -1 x615a2 = +0
-
 +1 x61244 -1 x61245 -1 x61246 = +0
-
 +1 x61245 -1 x61252 -1 x61253 = +0
-
 +1 x61252 -1 x6125e -1 x6125f = +0
-
 +1 x61253 +1 x6125f -1 x6126a = +0
-
 +1 x6126e +1 x61278 -1 x61279 -1 x615d7 = +0
-
 +1 x61279 -1 x6127a -1 x6127b = +0
-
 +1 x6127b +1 x61323 +1 x6134f -1 x61350 +0 x61351 -1 x616ae = +0
-
 +1 x6127a -1 x6128b -1 x6128c = +0
-
 +1 x6128b -1 x61297 -1 x61298 = +0
-
 +1 x61297 +1 x612a0 +1 x61340 -1 x615ff = +0
-
 +1 x6128c +1 x61298 -1 x612a3 = +0
-
 +1 x612a3 +1 x612a5 -1 x612a6 +1 x6134c -1 x61604 = +0
-
 +1 x612a6 -1 x612a7 -1 x612a8 = +0
-
 +1 x612a8 +1 x612df +1 x61315 -1 x61316 +0 x61317 -1 x61674 = +0
-
 +1 x612a7 -1 x612b3 -1 x612b4 = +0
-
 +1 x612b3 -1 x612bf -1 x612c0 = +0
-
 +1 x612bf -1 x612c3 -1 x612c4 = +0
-
 +1 x612c3 -1 x612c7 -1 x612c8 = +0
-
 +1 x612c7 -1 x612cb -1 x612cc = +0
-
 +1 x612c4 +1 x612c8 +1 x612cc -1 x612d1 = +0
-
 +1 x612d1 +1 x612d3 +1 x61309 -1 x61632 = +0
-
 +1 x612b4 +1 x612c0 +1 x612cb -1 x612da = +0
-
 +1 x612da +1 x612dc -1 x612dd +1 x61312 -1 x6163b = +0
-
 +1 x612dd -1 x612de -1 x612df = +0
-
 +1 x612de -1 x612eb -1 x612ec = +0
-
 +1 x612eb -1 x612f7 -1 x612f8 = +0
-
 +1 x612f7 -1 x612fb -1 x612fc = +0
-
 +1 x612fb -1 x612ff -1 x61300 = +0
-
 +1 x612ff -1 x61303 -1 x61304 = +0
-
 +1 x612fc +1 x61300 +1 x61304 -1 x61309 = +0
-
 +1 x612ec +1 x612f8 +1 x61303 -1 x61312 = +0
-
 +1 x61316 +1 x61320 -1 x61321 -1 x6167f = +0
-
 +1 x61321 -1 x61322 -1 x61323 = +0
-
 +1 x61322 -1 x61334 -1 x61335 = +0
-
 +1 x61334 -1 x61340 -1 x61341 = +0
-
 +1 x61335 +1 x61341 -1 x6134c = +0
-
 +1 x61350 -1 x6135f -1 x61360 = +0
-
 +1 x61360 -1 x61364 -1 x61365 = +0
-
 +1 x6135f -1 x61366 -1 x61367 = +0
-
 +1 x61365 -1 x6136e -1 x6136f = +0
-
 +1 x61367 -1 x61370 -1 x61371 = +0
-
 +1 x61366 -1 x61372 -1 x61373 = +0
-
 +1 x61364 -1 x61374 -1 x61375 = +0
-
 +1 x6136e +1 x61370 -1 x61379 = +0
-
 +1 x6136f +1 x61371 -1 x61376 = +0
-
 +1 x61373 +1 x61375 -1 x61380 = +0
-
 +1 x61376 +1 x61380 -1 x61384 = +0
-
 +1 x61372 +1 x61374 -1 x61386 = +0
-
 +1 x61379 +1 x61386 -1 x61388 = +0
-
 +1 x61384 -1 x6138b -1 x6138c = +0
-
 +1 x61388 -1 x6138d -1 x6138e = +0
-
 +1 x6138b +1 x6138d +1 x6138f -1 x616ee = +0
-
 +1 x6138c +1 x6138e -1 x61390 = +0
-
 +1 x61390 +1 x61394 -1 x61395 -1 x616f3 = +0
-
 +1 x61395 -1 x61396 -1 x61397 = +0
-
 +1 x61397 +1 x61399 -1 x616f8 = +0
-
 +1 x61396 -1 x613b5 -1 x613b6 = +0
-
 +1 x613b5 -1 x613c1 -1 x613c2 = +0
-
 +1 x613b6 +1 x613c1 +1 x613c2 -1 x613d0 = +0
-
 +1 x613d0 +1 x613d2 -1 x613d3 -1 x61731 = +0
-
 +1 x613d3 -1 x613d4 -1 x613d5 = +0
-
 +1 x613d4 -1 x613e0 -1 x613e1 = +0
-
 +1 x613e0 -1 x613ec -1 x613ed = +0
-
 +1 x613e1 +1 x613ed -1 x613f8 = +0
-
 +1 x613f8 +1 x613fa -1 x613fb +1 x61421 -1 x61759 = +0
-
 +1 x613fb -1 x613fc -1 x613fd = +0
-
 +1 x613d5 +1 x613fd +1 x61424 -1 x61425 +0 x61426 -1 x61783 = +0
-
 +1 x613fc -1 x61409 -1 x6140a = +0
-
 +1 x61409 -1 x61415 -1 x61416 = +0
-
 +1 x6140a +1 x61416 -1 x61421 = +0
-
 +1 x61425 +1 x6142f -1 x61430 -1 x6178e = +0
-
 +1 x61430 -1 x61431 -1 x61432 = +0
-
 +1 x61432 +1 x614da +1 x61506 -1 x61507 +0 x61508 -1 x61865 = +0
-
 +1 x61431 -1 x61442 -1 x61443 = +0
-
 +1 x61442 -1 x6144e -1 x6144f = +0
-
 +1 x6144e +1 x61457 +1 x614f7 -1 x617b6 = +0
-
 +1 x61443 +1 x6144f -1 x6145a = +0
-
 +1 x6145a +1 x6145c -1 x6145d +1 x61503 -1 x617bb = +0
-
 +1 x6145d -1 x6145e -1 x6145f = +0
-
 +1 x6145f +1 x61496 +1 x614cc -1 x614cd +0 x614ce -1 x6182b = +0
-
 +1 x6145e -1 x6146a -1 x6146b = +0
-
 +1 x6146a -1 x61476 -1 x61477 = +0
-
 +1 x61476 -1 x6147a -1 x6147b = +0
-
 +1 x6147a -1 x6147e -1 x6147f = +0
-
 +1 x6147e -1 x61482 -1 x61483 = +0
-
 +1 x6147b +1 x6147f +1 x61483 -1 x61488 = +0
-
 +1 x61488 +1 x6148a +1 x614c0 -1 x617e9 = +0
-
 +1 x6146b +1 x61477 +1 x61482 -1 x61491 = +0
-
 +1 x61491 +1 x61493 -1 x61494 +1 x614c9 -1 x617f2 = +0
-
 +1 x61494 -1 x61495 -1 x61496 = +0
-
 +1 x61495 -1 x614a2 -1 x614a3 = +0
-
 +1 x614a2 -1 x614ae -1 x614af = +0
-
 +1 x614ae -1 x614b2 -1 x614b3 = +0
-
 +1 x614b2 -1 x614b6 -1 x614b7 = +0
-
 +1 x614b6 -1 x614ba -1 x614bb = +0
-
 +1 x614b3 +1 x614b7 +1 x614bb -1 x614c0 = +0
-
 +1 x614a3 +1 x614af +1 x614ba -1 x614c9 = +0
-
 +1 x614cd +1 x614d7 -1 x614d8 -1 x61836 = +0
-
 +1 x614d8 -1 x614d9 -1 x614da = +0
-
 +1 x614d9 -1 x614eb -1 x614ec = +0
-
 +1 x614eb -1 x614f7 -1 x614f8 = +0
-
 +1 x614ec +1 x614f8 -1 x61503 = +0
-
 +1 x61507 -1 x61516 -1 x61517 = +0
-
 +1 x61517 -1 x6151b -1 x6151c = +0
-
 +1 x61516 -1 x6151d -1 x6151e = +0
-
 +1 x6151c +1 x6151e -1 x61524 -1 x61525 = +0
-
 +1 x6151b +1 x6151d -1 x61523 = +0
-
 +1 x61523 -1 x61526 -1 x61527 = +0
-
 +1 x61525 +1 x61527 -1 x61532 = +0
-
 +1 x61524 +1 x61526 -1 x61536 = +0
-
 +1 x61532 +1 x61536 -1 x6153b = +0
-
 +1 x6153b -1 x6153e -1 x6153f = +0
-
 +1 x6153e +1 x6153f -1 x6154f = +0
-
 +1 x6154f -1 x6155d -1 x6155e = +0
-
 +1 x6155d -1 x61569 -1 x6156a = +0
-
 +1 x6155e +1 x61569 +1 x6156a -1 x61578 = +0
-
 +1 x61578 +1 x6157a -1 x6157b -1 x618d9 = +0
-
 +1 x6157b -1 x6157c -1 x6157d = +0
-
 +1 x6157d +1 x615a5 +1 x615cc -1 x615cd +0 x615ce -1 x6192b = +0
-
 +1 x6157c -1 x61588 -1 x61589 = +0
-
 +1 x61588 -1 x61594 -1 x61595 = +0
-
 +1 x61589 +1 x61595 -1 x615a0 = +0
-
 +1 x615a0 +1 x615a2 -1 x615a3 +1 x615c9 -1 x61901 = +0
-
 +1 x615a3 -1 x615a4 -1 x615a5 = +0
-
 +1 x615a4 -1 x615b1 -1 x615b2 = +0
-
 +1 x615b1 -1 x615bd -1 x615be = +0
-
 +1 x615b2 +1 x615be -1 x615c9 = +0
-
 +1 x615cd +1 x615d7 -1 x615d8 -1 x61936 = +0
-
 +1 x615d8 -1 x615d9 -1 x615da = +0
-
 +1 x615da +1 x61682 +1 x616ae -1 x616af +0 x616b0 -1 x61a0d = +0
-
 +1 x615d9 -1 x615ea -1 x615eb = +0
-
 +1 x615ea -1 x615f6 -1 x615f7 = +0
-
 +1 x615f6 +1 x615ff +1 x6169f -1 x6195e = +0
-
 +1 x615eb +1 x615f7 -1 x61602 = +0
-
 +1 x61602 +1 x61604 -1 x61605 +1 x616ab -1 x61963 = +0
-
 +1 x61605 -1 x61606 -1 x61607 = +0
-
 +1 x61607 +1 x6163e +1 x61674 -1 x61675 +0 x61676 -1 x619d3 = +0
-
 +1 x61606 -1 x61612 -1 x61613 = +0
-
 +1 x61612 -1 x6161e -1 x6161f = +0
-
 +1 x6161e -1 x61622 -1 x61623 = +0
-
 +1 x61622 -1 x61626 -1 x61627 = +0
-
 +1 x61626 -1 x6162a -1 x6162b = +0
-
 +1 x61623 +1 x61627 +1 x6162b -1 x61630 = +0
-
 +1 x61630 +1 x61632 +1 x61668 -1 x61991 = +0
-
 +1 x61613 +1 x6161f +1 x6162a -1 x61639 = +0
-
 +1 x61639 +1 x6163b -1 x6163c +1 x61671 -1 x6199a = +0
-
 +1 x6163c -1 x6163d -1 x6163e = +0
-
 +1 x6163d -1 x6164a -1 x6164b = +0
-
 +1 x6164a -1 x61656 -1 x61657 = +0
-
 +1 x61656 -1 x6165a -1 x6165b = +0
-
 +1 x6165a -1 x6165e -1 x6165f = +0
-
 +1 x6165e -1 x61662 -1 x61663 = +0
-
 +1 x6165b +1 x6165f +1 x61663 -1 x61668 = +0
-
 +1 x6164b +1 x61657 +1 x61662 -1 x61671 = +0
-
 +1 x61675 +1 x6167f -1 x61680 -1 x619de = +0
-
 +1 x61680 -1 x61681 -1 x61682 = +0
-
 +1 x61681 -1 x61693 -1 x61694 = +0
-
 +1 x61693 -1 x6169f -1 x616a0 = +0
-
 +1 x61694 +1 x616a0 -1 x616ab = +0
-
 +1 x616af -1 x616be -1 x616bf = +0
-
 +1 x616bf -1 x616c3 -1 x616c4 = +0
-
 +1 x616be -1 x616c5 -1 x616c6 = +0
-
 +1 x616c4 -1 x616cd -1 x616ce = +0
-
 +1 x616c6 -1 x616cf -1 x616d0 = +0
-
 +1 x616c5 -1 x616d1 -1 x616d2 = +0
-
 +1 x616c3 -1 x616d3 -1 x616d4 = +0
-
 +1 x616cd +1 x616cf -1 x616d8 = +0
-
 +1 x616ce +1 x616d0 -1 x616d5 = +0
-
 +1 x616d2 +1 x616d4 -1 x616df = +0
-
 +1 x616d5 +1 x616df -1 x616e3 = +0
-
 +1 x616d1 +1 x616d3 -1 x616e5 = +0
-
 +1 x616d8 +1 x616e5 -1 x616e7 = +0
-
 +1 x616e3 -1 x616ea -1 x616eb = +0
-
 +1 x616e7 -1 x616ec -1 x616ed = +0
-
 +1 x616ea +1 x616ec +1 x616ee -1 x61a4d = +0
-
 +1 x616eb +1 x616ed -1 x616ef = +0
-
 +1 x616ef +1 x616f3 -1 x616f4 -1 x61a52 = +0
-
 +1 x616f4 -1 x616f5 -1 x616f6 = +0
-
 +1 x616f6 +1 x616f8 -1 x61a57 = +0
-
 +1 x616f5 -1 x61714 -1 x61715 = +0
-
 +1 x61714 -1 x61720 -1 x61721 = +0
-
 +1 x61715 +1 x61720 +1 x61721 -1 x6172f = +0
-
 +1 x6172f +1 x61731 -1 x61732 -1 x61a90 = +0
-
 +1 x61732 -1 x61733 -1 x61734 = +0
-
 +1 x61733 -1 x6173f -1 x61740 = +0
-
 +1 x6173f -1 x6174b -1 x6174c = +0
-
 +1 x61740 +1 x6174c -1 x61757 = +0
-
 +1 x61757 +1 x61759 -1 x6175a +1 x61780 -1 x61ab8 = +0
-
 +1 x6175a -1 x6175b -1 x6175c = +0
-
 +1 x61734 +1 x6175c +1 x61783 -1 x61784 +0 x61785 -1 x61ae2 = +0
-
 +1 x6175b -1 x61768 -1 x61769 = +0
-
 +1 x61768 -1 x61774 -1 x61775 = +0
-
 +1 x61769 +1 x61775 -1 x61780 = +0
-
 +1 x61784 +1 x6178e -1 x6178f -1 x61aed = +0
-
 +1 x6178f -1 x61790 -1 x61791 = +0
-
 +1 x61791 +1 x61839 +1 x61865 -1 x61866 +0 x61867 -1 x61bc4 = +0
-
 +1 x61790 -1 x617a1 -1 x617a2 = +0
-
 +1 x617a1 -1 x617ad -1 x617ae = +0
-
 +1 x617ad +1 x617b6 +1 x61856 -1 x61b15 = +0
-
 +1 x617a2 +1 x617ae -1 x617b9 = +0
-
 +1 x617b9 +1 x617bb -1 x617bc +1 x61862 -1 x61b1a = +0
-
 +1 x617bc -1 x617bd -1 x617be = +0
-
 +1 x617be +1 x617f5 +1 x6182b -1 x6182c +0 x6182d -1 x61b8a = +0
-
 +1 x617bd -1 x617c9 -1 x617ca = +0
-
 +1 x617c9 -1 x617d5 -1 x617d6 = +0
-
 +1 x617d5 -1 x617d9 -1 x617da = +0
-
 +1 x617d9 -1 x617dd -1 x617de = +0
-
 +1 x617dd -1 x617e1 -1 x617e2 = +0
-
 +1 x617da +1 x617de +1 x617e2 -1 x617e7 = +0
-
 +1 x617e7 +1 x617e9 +1 x6181f -1 x61b48 = +0
-
 +1 x617ca +1 x617d6 +1 x617e1 -1 x617f0 = +0
-
 +1 x617f0 +1 x617f2 -1 x617f3 +1 x61828 -1 x61b51 = +0
-
 +1 x617f3 -1 x617f4 -1 x617f5 = +0
-
 +1 x617f4 -1 x61801 -1 x61802 = +0
-
 +1 x61801 -1 x6180d -1 x6180e = +0
-
 +1 x6180d -1 x61811 -1 x61812 = +0
-
 +1 x61811 -1 x61815 -1 x61816 = +0
-
 +1 x61815 -1 x61819 -1 x6181a = +0
-
 +1 x61812 +1 x61816 +1 x6181a -1 x6181f = +0
-
 +1 x61802 +1 x6180e +1 x61819 -1 x61828 = +0
-
 +1 x6182c +1 x61836 -1 x61837 -1 x61b95 = +0
-
 +1 x61837 -1 x61838 -1 x61839 = +0
-
 +1 x61838 -1 x6184a -1 x6184b = +0
-
 +1 x6184a -1 x61856 -1 x61857 = +0
-
 +1 x6184b +1 x61857 -1 x61862 = +0
-
 +1 x61866 -1 x61875 -1 x61876 = +0
-
 +1 x61876 -1 x6187a -1 x6187b = +0
-
 +1 x61875 -1 x6187c -1 x6187d = +0
-
 +1 x6187b +1 x6187d -1 x61883 -1 x61884 = +0
-
 +1 x6187a +1 x6187c -1 x61882 = +0
-
 +1 x61882 -1 x61885 -1 x61886 = +0
-
 +1 x61884 +1 x61886 -1 x61891 = +0
-
 +1 x61883 +1 x61885 -1 x61895 = +0
-
 +1 x61891 +1 x61895 -1 x6189a = +0
-
 +1 x6189a -1 x6189d -1 x6189e = +0
-
 +1 x6189d +1 x6189e -1 x618ae = +0
-
 +1 x618ae -1 x618bc -1 x618bd = +0
-
 +1 x618bc -1 x618c8 -1 x618c9 = +0
-
 +1 x618bd +1 x618c8 +1 x618c9 -1 x618d7 = +0
-
 +1 x618d7 +1 x618d9 -1 x618da -1 x61c38 = +0
-
 +1 x618da -1 x618db -1 x618dc = +0
-
 +1 x618dc +1 x61904 +1 x6192b -1 x6192c +0 x6192d -1 x61c8a = +0
-
 +1 x618db -1 x618e7 -1 x618e8 = +0
-
 +1 x618e7 -1 x618f3 -1 x618f4 = +0
-
 +1 x618e8 +1 x618f4 -1 x618ff = +0
-
 +1 x618ff +1 x61901 -1 x61902 +1 x61928 -1 x61c60 = +0
-
 +1 x61902 -1 x61903 -1 x61904 = +0
-
 +1 x61903 -1 x61910 -1 x61911 = +0
-
 +1 x61910 -1 x6191c -1 x6191d = +0
-
 +1 x61911 +1 x6191d -1 x61928 = +0
-
 +1 x6192c +1 x61936 -1 x61937 -1 x61c95 = +0
-
 +1 x61937 -1 x61938 -1 x61939 = +0
-
 +1 x61939 +1 x619e1 +1 x61a0d -1 x61a0e +0 x61a0f -1 x61d6c = +0
-
 +1 x61938 -1 x61949 -1 x6194a = +0
-
 +1 x61949 -1 x61955 -1 x61956 = +0
-
 +1 x61955 +1 x6195e +1 x619fe -1 x61cbd = +0
-
 +1 x6194a +1 x61956 -1 x61961 = +0
-
 +1 x61961 +1 x61963 -1 x61964 +1 x61a0a -1 x61cc2 = +0
-
 +1 x61964 -1 x61965 -1 x61966 = +0
-
 +1 x61966 +1 x6199d +1 x619d3 -1 x619d4 +0 x619d5 -1 x61d32 = +0
-
 +1 x61965 -1 x61971 -1 x61972 = +0
-
 +1 x61971 -1 x6197d -1 x6197e = +0
-
 +1 x6197d -1 x61981 -1 x61982 = +0
-
 +1 x61981 -1 x61985 -1 x61986 = +0
-
 +1 x61985 -1 x61989 -1 x6198a = +0
-
 +1 x61982 +1 x61986 +1 x6198a -1 x6198f = +0
-
 +1 x6198f +1 x61991 +1 x619c7 -1 x61cf0 = +0
-
 +1 x61972 +1 x6197e +1 x61989 -1 x61998 = +0
-
 +1 x61998 +1 x6199a -1 x6199b +1 x619d0 -1 x61cf9 = +0
-
 +1 x6199b -1 x6199c -1 x6199d = +0
-
 +1 x6199c -1 x619a9 -1 x619aa = +0
-
 +1 x619a9 -1 x619b5 -1 x619b6 = +0
-
 +1 x619b5 -1 x619b9 -1 x619ba = +0
-
 +1 x619b9 -1 x619bd -1 x619be = +0
-
 +1 x619bd -1 x619c1 -1 x619c2 = +0
-
 +1 x619ba +1 x619be +1 x619c2 -1 x619c7 = +0
-
 +1 x619aa +1 x619b6 +1 x619c1 -1 x619d0 = +0
-
 +1 x619d4 +1 x619de -1 x619df -1 x61d3d = +0
-
 +1 x619df -1 x619e0 -1 x619e1 = +0
-
 +1 x619e0 -1 x619f2 -1 x619f3 = +0
-
 +1 x619f2 -1 x619fe -1 x619ff = +0
-
 +1 x619f3 +1 x619ff -1 x61a0a = +0
-
 +1 x61a0e -1 x61a1d -1 x61a1e = +0
-
 +1 x61a1e -1 x61a22 -1 x61a23 = +0
-
 +1 x61a1d -1 x61a24 -1 x61a25 = +0
-
 +1 x61a23 -1 x61a2c -1 x61a2d = +0
-
 +1 x61a25 -1 x61a2e -1 x61a2f = +0
-
 +1 x61a24 -1 x61a30 -1 x61a31 = +0
-
 +1 x61a22 -1 x61a32 -1 x61a33 = +0
-
 +1 x61a2c +1 x61a2e -1 x61a37 = +0
-
 +1 x61a2d +1 x61a2f -1 x61a34 = +0
-
 +1 x61a31 +1 x61a33 -1 x61a3e = +0
-
 +1 x61a34 +1 x61a3e -1 x61a42 = +0
-
 +1 x61a30 +1 x61a32 -1 x61a44 = +0
-
 +1 x61a37 +1 x61a44 -1 x61a46 = +0
-
 +1 x61a42 -1 x61a49 -1 x61a4a = +0
-
 +1 x61a46 -1 x61a4b -1 x61a4c = +0
-
 +1 x61a49 +1 x61a4b +1 x61a4d -1 x61dac = +0
-
 +1 x61a4a +1 x61a4c -1 x61a4e = +0
-
 +1 x61a4e +1 x61a52 -1 x61a53 -1 x61db1 = +0
-
 +1 x61a53 -1 x61a54 -1 x61a55 = +0
-
 +1 x61a55 +1 x61a57 -1 x61db6 = +0
-
 +1 x61a54 -1 x61a73 -1 x61a74 = +0
-
 +1 x61a73 -1 x61a7f -1 x61a80 = +0
-
 +1 x61a74 +1 x61a7f +1 x61a80 -1 x61a8e = +0
-
 +1 x61a8e +1 x61a90 -1 x61a91 -1 x61def = +0
-
 +1 x61a91 -1 x61a92 -1 x61a93 = +0
-
 +1 x61a92 -1 x61a9e -1 x61a9f = +0
-
 +1 x61a9e -1 x61aaa -1 x61aab = +0
-
 +1 x61a9f +1 x61aab -1 x61ab6 = +0
-
 +1 x61ab6 +1 x61ab8 -1 x61ab9 +1 x61adf -1 x61e17 = +0
-
 +1 x61ab9 -1 x61aba -1 x61abb = +0
-
 +1 x61a93 +1 x61abb +1 x61ae2 -1 x61ae3 +0 x61ae4 -1 x61e41 = +0
-
 +1 x61aba -1 x61ac7 -1 x61ac8 = +0
-
 +1 x61ac7 -1 x61ad3 -1 x61ad4 = +0
-
 +1 x61ac8 +1 x61ad4 -1 x61adf = +0
-
 +1 x61ae3 +1 x61aed -1 x61aee -1 x61e4c = +0
-
 +1 x61aee -1 x61aef -1 x61af0 = +0
-
 +1 x61af0 +1 x61b98 +1 x61bc4 -1 x61bc5 +0 x61bc6 -1 x61f23 = +0
-
 +1 x61aef -1 x61b00 -1 x61b01 = +0
-
 +1 x61b00 -1 x61b0c -1 x61b0d = +0
-
 +1 x61b0c +1 x61b15 +1 x61bb5 -1 x61e74 = +0
-
 +1 x61b01 +1 x61b0d -1 x61b18 = +0
-
 +1 x61b18 +1 x61b1a -1 x61b1b +1 x61bc1 -1 x61e79 = +0
-
 +1 x61b1b -1 x61b1c -1 x61b1d = +0
-
 +1 x61b1d +1 x61b54 +1 x61b8a -1 x61b8b +0 x61b8c -1 x61ee9 = +0
-
 +1 x61b1c -1 x61b28 -1 x61b29 = +0
-
 +1 x61b28 -1 x61b34 -1 x61b35 = +0
-
 +1 x61b34 -1 x61b38 -1 x61b39 = +0
-
 +1 x61b38 -1 x61b3c -1 x61b3d = +0
-
 +1 x61b3c -1 x61b40 -1 x61b41 = +0
-
 +1 x61b39 +1 x61b3d +1 x61b41 -1 x61b46 = +0
-
 +1 x61b46 +1 x61b48 +1 x61b7e -1 x61ea7 = +0
-
 +1 x61b29 +1 x61b35 +1 x61b40 -1 x61b4f = +0
-
 +1 x61b4f +1 x61b51 -1 x61b52 +1 x61b87 -1 x61eb0 = +0
-
 +1 x61b52 -1 x61b53 -1 x61b54 = +0
-
 +1 x61b53 -1 x61b60 -1 x61b61 = +0
-
 +1 x61b60 -1 x61b6c -1 x61b6d = +0
-
 +1 x61b6c -1 x61b70 -1 x61b71 = +0
-
 +1 x61b70 -1 x61b74 -1 x61b75 = +0
-
 +1 x61b74 -1 x61b78 -1 x61b79 = +0
-
 +1 x61b71 +1 x61b75 +1 x61b79 -1 x61b7e = +0
-
 +1 x61b61 +1 x61b6d +1 x61b78 -1 x61b87 = +0
-
 +1 x61b8b +1 x61b95 -1 x61b96 -1 x61ef4 = +0
-
 +1 x61b96 -1 x61b97 -1 x61b98 = +0
-
 +1 x61b97 -1 x61ba9 -1 x61baa = +0
-
 +1 x61ba9 -1 x61bb5 -1 x61bb6 = +0
-
 +1 x61baa +1 x61bb6 -1 x61bc1 = +0
-
 +1 x61bc5 -1 x61bd4 -1 x61bd5 = +0
-
 +1 x61bd5 -1 x61bd9 -1 x61bda = +0
-
 +1 x61bd4 -1 x61bdb -1 x61bdc = +0
-
 +1 x61bda +1 x61bdc -1 x61be2 -1 x61be3 = +0
-
 +1 x61bd9 +1 x61bdb -1 x61be1 = +0
-
 +1 x61be1 -1 x61be4 -1 x61be5 = +0
-
 +1 x61be3 +1 x61be5 -1 x61bf0 = +0
-
 +1 x61be2 +1 x61be4 -1 x61bf4 = +0
-
 +1 x61bf0 +1 x61bf4 -1 x61bf9 = +0
-
 +1 x61bf9 -1 x61bfc -1 x61bfd = +0
-
 +1 x61bfc +1 x61bfd -1 x61c0d = +0
-
 +1 x61c0d -1 x61c1b -1 x61c1c = +0
-
 +1 x61c1b -1 x61c27 -1 x61c28 = +0
-
 +1 x61c1c +1 x61c27 +1 x61c28 -1 x61c36 = +0
-
 +1 x61c36 +1 x61c38 -1 x61c39 -1 x61f97 = +0
-
 +1 x61c39 -1 x61c3a -1 x61c3b = +0
-
 +1 x61c3b +1 x61c63 +1 x61c8a -1 x61c8b +0 x61c8c -1 x61fe9 = +0
-
 +1 x61c3a -1 x61c46 -1 x61c47 = +0
-
 +1 x61c46 -1 x61c52 -1 x61c53 = +0
-
 +1 x61c47 +1 x61c53 -1 x61c5e = +0
-
 +1 x61c5e +1 x61c60 -1 x61c61 +1 x61c87 -1 x61fbf = +0
-
 +1 x61c61 -1 x61c62 -1 x61c63 = +0
-
 +1 x61c62 -1 x61c6f -1 x61c70 = +0
-
 +1 x61c6f -1 x61c7b -1 x61c7c = +0
-
 +1 x61c70 +1 x61c7c -1 x61c87 = +0
-
 +1 x61c8b +1 x61c95 -1 x61c96 -1 x61ff4 = +0
-
 +1 x61c96 -1 x61c97 -1 x61c98 = +0
-
 +1 x61c98 +1 x61d40 +1 x61d6c -1 x61d6d +0 x61d6e -1 x620cb = +0
-
 +1 x61c97 -1 x61ca8 -1 x61ca9 = +0
-
 +1 x61ca8 -1 x61cb4 -1 x61cb5 = +0
-
 +1 x61cb4 +1 x61cbd +1 x61d5d -1 x6201c = +0
-
 +1 x61ca9 +1 x61cb5 -1 x61cc0 = +0
-
 +1 x61cc0 +1 x61cc2 -1 x61cc3 +1 x61d69 -1 x62021 = +0
-
 +1 x61cc3 -1 x61cc4 -1 x61cc5 = +0
-
 +1 x61cc5 +1 x61cfc +1 x61d32 -1 x61d33 +0 x61d34 -1 x62091 = +0
-
 +1 x61cc4 -1 x61cd0 -1 x61cd1 = +0
-
 +1 x61cd0 -1 x61cdc -1 x61cdd = +0
-
 +1 x61cdc -1 x61ce0 -1 x61ce1 = +0
-
 +1 x61ce0 -1 x61ce4 -1 x61ce5 = +0
-
 +1 x61ce4 -1 x61ce8 -1 x61ce9 = +0
-
 +1 x61ce1 +1 x61ce5 +1 x61ce9 -1 x61cee = +0
-
 +1 x61cee +1 x61cf0 +1 x61d26 -1 x6204f = +0
-
 +1 x61cd1 +1 x61cdd +1 x61ce8 -1 x61cf7 = +0
-
 +1 x61cf7 +1 x61cf9 -1 x61cfa +1 x61d2f -1 x62058 = +0
-
 +1 x61cfa -1 x61cfb -1 x61cfc = +0
-
 +1 x61cfb -1 x61d08 -1 x61d09 = +0
-
 +1 x61d08 -1 x61d14 -1 x61d15 = +0
-
 +1 x61d14 -1 x61d18 -1 x61d19 = +0
-
 +1 x61d18 -1 x61d1c -1 x61d1d = +0
-
 +1 x61d1c -1 x61d20 -1 x61d21 = +0
-
 +1 x61d19 +1 x61d1d +1 x61d21 -1 x61d26 = +0
-
 +1 x61d09 +1 x61d15 +1 x61d20 -1 x61d2f = +0
-
 +1 x61d33 +1 x61d3d -1 x61d3e -1 x6209c = +0
-
 +1 x61d3e -1 x61d3f -1 x61d40 = +0
-
 +1 x61d3f -1 x61d51 -1 x61d52 = +0
-
 +1 x61d51 -1 x61d5d -1 x61d5e = +0
-
 +1 x61d52 +1 x61d5e -1 x61d69 = +0
-
 +1 x61d6d -1 x61d7c -1 x61d7d = +0
-
 +1 x61d7d -1 x61d81 -1 x61d82 = +0
-
 +1 x61d7c -1 x61d83 -1 x61d84 = +0
-
 +1 x61d82 -1 x61d8b -1 x61d8c = +0
-
 +1 x61d84 -1 x61d8d -1 x61d8e = +0
-
 +1 x61d83 -1 x61d8f -1 x61d90 = +0
-
 +1 x61d81 -1 x61d91 -1 x61d92 = +0
-
 +1 x61d8b +1 x61d8d -1 x61d96 = +0
-
 +1 x61d8c +1 x61d8e -1 x61d93 = +0
-
 +1 x61d90 +1 x61d92 -1 x61d9d = +0
-
 +1 x61d93 +1 x61d9d -1 x61da1 = +0
-
 +1 x61d8f +1 x61d91 -1 x61da3 = +0
-
 +1 x61d96 +1 x61da3 -1 x61da5 = +0
-
 +1 x61da1 -1 x61da8 -1 x61da9 = +0
-
 +1 x61da5 -1 x61daa -1 x61dab = +0
-
 +1 x61da8 +1 x61daa +1 x61dac -1 x6210b = +0
-
 +1 x61da9 +1 x61dab -1 x61dad = +0
-
 +1 x61dad +1 x61db1 -1 x61db2 -1 x62110 = +0
-
 +1 x61db2 -1 x61db3 -1 x61db4 = +0
-
 +1 x61db4 +1 x61db6 -1 x62115 = +0
-
 +1 x61db3 -1 x61dd2 -1 x61dd3 = +0
-
 +1 x61dd2 -1 x61dde -1 x61ddf = +0
-
 +1 x61dd3 +1 x61dde +1 x61ddf -1 x61ded = +0
-
 +1 x61ded +1 x61def -1 x61df0 -1 x6214e = +0
-
 +1 x61df0 -1 x61df1 -1 x61df2 = +0
-
 +1 x61df1 -1 x61dfd -1 x61dfe = +0
-
 +1 x61dfd -1 x61e09 -1 x61e0a = +0
-
 +1 x61dfe +1 x61e0a -1 x61e15 = +0
-
 +1 x61e15 +1 x61e17 -1 x61e18 +1 x61e3e -1 x62175 = +0
-
 +1 x61e18 -1 x61e19 -1 x61e1a = +0
-
 +1 x61df2 +1 x61e1a +1 x61e41 -1 x61e42 +0 x61e43 -1 x6219f = +0
-
 +1 x61e19 -1 x61e26 -1 x61e27 = +0
-
 +1 x61e26 -1 x61e32 -1 x61e33 = +0
-
 +1 x61e27 +1 x61e33 -1 x61e3e = +0
-
 +1 x61e42 +1 x61e4c -1 x61e4d -1 x621aa = +0
-
 +1 x61e4d -1 x61e4e -1 x61e4f = +0
-
 +1 x61e4f +1 x61ef7 +1 x61f23 -1 x61f24 +0 x61f25 -1 x62281 = +0
-
 +1 x61e4e -1 x61e5f -1 x61e60 = +0
-
 +1 x61e5f -1 x61e6b -1 x61e6c = +0
-
 +1 x61e6b +1 x61e74 +1 x61f14 -1 x621d2 = +0
-
 +1 x61e60 +1 x61e6c -1 x61e77 = +0
-
 +1 x61e77 +1 x61e79 -1 x61e7a +1 x61f20 -1 x621d7 = +0
-
 +1 x61e7a -1 x61e7b -1 x61e7c = +0
-
 +1 x61e7c +1 x61eb3 +1 x61ee9 -1 x61eea +0 x61eeb -1 x62247 = +0
-
 +1 x61e7b -1 x61e87 -1 x61e88 = +0
-
 +1 x61e87 -1 x61e93 -1 x61e94 = +0
-
 +1 x61e93 -1 x61e97 -1 x61e98 = +0
-
 +1 x61e97 -1 x61e9b -1 x61e9c = +0
-
 +1 x61e9b -1 x61e9f -1 x61ea0 = +0
-
 +1 x61e98 +1 x61e9c +1 x61ea0 -1 x61ea5 = +0
-
 +1 x61ea5 +1 x61ea7 +1 x61edd -1 x62205 = +0
-
 +1 x61e88 +1 x61e94 +1 x61e9f -1 x61eae = +0
-
 +1 x61eae +1 x61eb0 -1 x61eb1 +1 x61ee6 -1 x6220e = +0
-
 +1 x61eb1 -1 x61eb2 -1 x61eb3 = +0
-
 +1 x61eb2 -1 x61ebf -1 x61ec0 = +0
-
 +1 x61ebf -1 x61ecb -1 x61ecc = +0
-
 +1 x61ecb -1 x61ecf -1 x61ed0 = +0
-
 +1 x61ecf -1 x61ed3 -1 x61ed4 = +0
-
 +1 x61ed3 -1 x61ed7 -1 x61ed8 = +0
-
 +1 x61ed0 +1 x61ed4 +1 x61ed8 -1 x61edd = +0
-
 +1 x61ec0 +1 x61ecc +1 x61ed7 -1 x61ee6 = +0
-
 +1 x61eea +1 x61ef4 -1 x61ef5 -1 x62252 = +0
-
 +1 x61ef5 -1 x61ef6 -1 x61ef7 = +0
-
 +1 x61ef6 -1 x61f08 -1 x61f09 = +0
-
 +1 x61f08 -1 x61f14 -1 x61f15 = +0
-
 +1 x61f09 +1 x61f15 -1 x61f20 = +0
-
 +1 x61f24 -1 x61f33 -1 x61f34 = +0
-
 +1 x61f34 -1 x61f38 -1 x61f39 = +0
-
 +1 x61f33 -1 x61f3a -1 x61f3b = +0
-
 +1 x61f39 +1 x61f3b -1 x61f41 -1 x61f42 = +0
-
 +1 x61f38 +1 x61f3a -1 x61f40 = +0
-
 +1 x61f40 -1 x61f43 -1 x61f44 = +0
-
 +1 x61f42 +1 x61f44 -1 x61f4f = +0
-
 +1 x61f41 +1 x61f43 -1 x61f53 = +0
-
 +1 x61f4f +1 x61f53 -1 x61f58 = +0
-
 +1 x61f58 -1 x61f5b -1 x61f5c = +0
-
 +1 x61f5b +1 x61f5c -1 x61f6c = +0
-
 +1 x61f6c -1 x61f7a -1 x61f7b = +0
-
 +1 x61f7a -1 x61f86 -1 x61f87 = +0
-
 +1 x61f7b +1 x61f86 +1 x61f87 -1 x61f95 = +0
-
 +1 x61f95 +1 x61f97 -1 x61f98 -1 x622f5 = +0
-
 +1 x61f98 -1 x61f99 -1 x61f9a = +0
-
 +1 x61f9a +1 x61fc2 +1 x61fe9 -1 x61fea +0 x61feb -1 x62346 = +0
-
 +1 x61f99 -1 x61fa5 -1 x61fa6 = +0
-
 +1 x61fa5 -1 x61fb1 -1 x61fb2 = +0
-
 +1 x61fa6 +1 x61fb2 -1 x61fbd = +0
-
 +1 x61fbd +1 x61fbf -1 x61fc0 +1 x61fe6 -1 x6231c = +0
-
 +1 x61fc0 -1 x61fc1 -1 x61fc2 = +0
-
 +1 x61fc1 -1 x61fce -1 x61fcf = +0
-
 +1 x61fce -1 x61fda -1 x61fdb = +0
-
 +1 x61fcf +1 x61fdb -1 x61fe6 = +0
-
 +1 x61fea +1 x61ff4 -1 x61ff5 -1 x62351 = +0
-
 +1 x61ff5 -1 x61ff6 -1 x61ff7 = +0
-
 +1 x61ff7 +1 x6209f +1 x620cb -1 x620cc +0 x620cd -1 x62428 = +0
-
 +1 x61ff6 -1 x62007 -1 x62008 = +0
-
 +1 x62007 -1 x62013 -1 x62014 = +0
-
 +1 x62013 +1 x6201c +1 x620bc -1 x62379 = +0
-
 +1 x62008 +1 x62014 -1 x6201f = +0
-
 +1 x6201f +1 x62021 -1 x62022 +1 x620c8 -1 x6237e = +0
-
 +1 x62022 -1 x62023 -1 x62024 = +0
-
 +1 x62024 +1 x6205b +1 x62091 -1 x62092 +0 x62093 -1 x623ee = +0
-
 +1 x62023 -1 x6202f -1 x62030 = +0
-
 +1 x6202f -1 x6203b -1 x6203c = +0
-
 +1 x6203b -1 x6203f -1 x62040 = +0
-
 +1 x6203f -1 x62043 -1 x62044 = +0
-
 +1 x62043 -1 x62047 -1 x62048 = +0
-
 +1 x62040 +1 x62044 +1 x62048 -1 x6204d = +0
-
 +1 x6204d +1 x6204f +1 x62085 -1 x623ac = +0
-
 +1 x62030 +1 x6203c +1 x62047 -1 x62056 = +0
-
 +1 x62056 +1 x62058 -1 x62059 +1 x6208e -1 x623b5 = +0
-
 +1 x62059 -1 x6205a -1 x6205b = +0
-
 +1 x6205a -1 x62067 -1 x62068 = +0
-
 +1 x62067 -1 x62073 -1 x62074 = +0
-
 +1 x62073 -1 x62077 -1 x62078 = +0
-
 +1 x62077 -1 x6207b -1 x6207c = +0
-
 +1 x6207b -1 x6207f -1 x62080 = +0
-
 +1 x62078 +1 x6207c +1 x62080 -1 x62085 = +0
-
 +1 x62068 +1 x62074 +1 x6207f -1 x6208e = +0
-
 +1 x62092 +1 x6209c -1 x6209d -1 x623f9 = +0
-
 +1 x6209d -1 x6209e -1 x6209f = +0
-
 +1 x6209e -1 x620b0 -1 x620b1 = +0
-
 +1 x620b0 -1 x620bc -1 x620bd = +0
-
 +1 x620b1 +1 x620bd -1 x620c8 = +0
-
 +1 x620cc -1 x620db -1 x620dc = +0
-
 +1 x620dc -1 x620e0 -1 x620e1 = +0
-
 +1 x620db -1 x620e2 -1 x620e3 = +0
-
 +1 x620e1 -1 x620ea -1 x620eb = +0
-
 +1 x620e3 -1 x620ec -1 x620ed = +0
-
 +1 x620e2 -1 x620ee -1 x620ef = +0
-
 +1 x620e0 -1 x620f0 -1 x620f1 = +0
-
 +1 x620ea +1 x620ec -1 x620f5 = +0
-
 +1 x620eb +1 x620ed -1 x620f2 = +0
-
 +1 x620ef +1 x620f1 -1 x620fc = +0
-
 +1 x620f2 +1 x620fc -1 x62100 = +0
-
 +1 x620ee +1 x620f0 -1 x62102 = +0
-
 +1 x620f5 +1 x62102 -1 x62104 = +0
-
 +1 x62100 -1 x62107 -1 x62108 = +0
-
 +1 x62104 -1 x62109 -1 x6210a = +0
-
 +1 x62107 +1 x62109 +1 x6210b +1 x62468 -1 x6246e = +0
-
 +1 x62108 +1 x6210a -1 x6210c = +0
-
 +1 x6210c +1 x62110 -1 x62111 +1 x62469 -1 x62f1a = +0
-
 +1 x62111 -1 x62112 -1 x62113 = +0
-
 +1 x62113 +1 x62115 -1 x6246f +0 x62470 +1 x6278e -1 x62f5a = +0
-
 +1 x62112 -1 x62131 -1 x62132 = +0
-
 +1 x62131 -1 x6213d -1 x6213e = +0
-
 +1 x62132 +1 x6213d +1 x6213e -1 x6214c = +0
-
 +1 x6214c +1 x6214e -1 x6214f +1 x627c6 -1 x62bfa = +0
-
 +1 x6214f -1 x62150 -1 x62151 = +0
-
 +1 x62150 -1 x6215c -1 x6215d = +0
-
 +1 x6215c -1 x62168 -1 x62169 = +0
-
 +1 x6215d +1 x62169 -1 x62173 = +0
-
 +1 x62173 +1 x62175 -1 x62176 +1 x6219c -1 x62c22 = +0
-
 +1 x62176 -1 x62177 -1 x62178 = +0
-
 +1 x62151 +1 x62178 +1 x6219f -1 x621a0 +0 x621a1 -1 x62c4c = +0
-
 +1 x62177 -1 x62184 -1 x62185 = +0
-
 +1 x62184 -1 x62190 -1 x62191 = +0
-
 +1 x62168 +1 x62190 -1 x62c1d = +0
-
 +1 x62185 +1 x62191 -1 x6219c = +0
-
 +1 x621a0 +1 x621aa -1 x621ab -1 x62c57 = +0
-
 +1 x621ab -1 x621ac -1 x621ad = +0
-
 +1 x621ad +1 x62255 +1 x62281 -1 x62282 +0 x62283 -1 x62d2e = +0
-
 +1 x621ac -1 x621bd -1 x621be = +0
-
 +1 x621bd -1 x621c9 -1 x621ca = +0
-
 +1 x621c9 +1 x621d2 +1 x62272 -1 x62c7f = +0
-
 +1 x621be +1 x621ca -1 x621d5 = +0
-
 +1 x621d5 +1 x621d7 -1 x621d8 +1 x6227e -1 x62c84 = +0
-
 +1 x621d8 -1 x621d9 -1 x621da = +0
-
 +1 x621da +1 x62211 +1 x62247 -1 x62248 +0 x62249 -1 x62cf4 = +0
-
 +1 x621d9 -1 x621e5 -1 x621e6 = +0
-
 +1 x621e5 -1 x621f1 -1 x621f2 = +0
-
 +1 x621f1 -1 x621f5 -1 x621f6 = +0
-
 +1 x621f5 -1 x621f9 -1 x621fa = +0
-
 +1 x621f9 -1 x621fd -1 x621fe = +0
-
 +1 x621f6 +1 x621fa +1 x621fe -1 x62203 = +0
-
 +1 x62203 +1 x62205 +1 x6223b -1 x62cb2 = +0
-
 +1 x621e6 +1 x621f2 +1 x621fd -1 x6220c = +0
-
 +1 x6220c +1 x6220e -1 x6220f +1 x62244 -1 x62cbb = +0
-
 +1 x6220f -1 x62210 -1 x62211 = +0
-
 +1 x62210 -1 x6221d -1 x6221e = +0
-
 +1 x6221d -1 x62229 -1 x6222a = +0
-
 +1 x62229 -1 x6222d -1 x6222e = +0
-
 +1 x6222d -1 x62231 -1 x62232 = +0
-
 +1 x62231 -1 x62235 -1 x62236 = +0
-
 +1 x6222e +1 x62232 +1 x62236 -1 x6223b = +0
-
 +1 x6221e +1 x6222a +1 x62235 -1 x62244 = +0
-
 +1 x62248 +1 x62252 -1 x62253 -1 x62cff = +0
-
 +1 x62253 -1 x62254 -1 x62255 = +0
-
 +1 x62254 -1 x62266 -1 x62267 = +0
-
 +1 x62266 -1 x62272 -1 x62273 = +0
-
 +1 x62267 +1 x62273 -1 x6227e = +0
-
 +1 x62282 -1 x62291 -1 x62292 = +0
-
 +1 x62292 -1 x62296 -1 x62297 = +0
-
 +1 x62291 -1 x62298 -1 x62299 = +0
-
 +1 x62297 +1 x62299 -1 x6229f -1 x622a0 = +0
-
 +1 x62296 +1 x62298 -1 x6229e = +0
-
 +1 x6229e -1 x622a1 -1 x622a2 = +0
-
 +1 x622a0 +1 x622a2 -1 x622ad = +0
-
 +1 x6229f +1 x622a1 -1 x622b1 = +0
-
 +1 x622ad +1 x622b1 -1 x622b6 = +0
-
 +1 x622b6 -1 x622b9 -1 x622ba = +0
-
 +1 x622b9 +1 x622ba -1 x622ca = +0
-
 +1 x622ca -1 x622d8 -1 x622d9 = +0
-
 +1 x622d8 -1 x622e4 -1 x622e5 = +0
-
 +1 x622d9 +1 x622e4 +1 x622e5 -1 x622f3 = +0
-
 +1 x622f3 +1 x622f5 -1 x622f6 -1 x62da2 = +0
-
 +1 x622f6 -1 x622f7 -1 x622f8 = +0
-
 +1 x622f8 +1 x6231f +1 x62346 -1 x62347 +0 x62348 -1 x62df4 = +0
-
 +1 x622f7 -1 x62303 -1 x62304 = +0
-
 +1 x62303 -1 x6230f -1 x62310 = +0
-
 +1 x6230f +1 x62337 -1 x62dc5 = +0
-
 +1 x62304 +1 x62310 -1 x6231a = +0
-
 +1 x6231a +1 x6231c -1 x6231d +1 x62343 -1 x62dca = +0
-
 +1 x6231d -1 x6231e -1 x6231f = +0
-
 +1 x6231e -1 x6232b -1 x6232c = +0
-
 +1 x6232b -1 x62337 -1 x62338 = +0
-
 +1 x6232c +1 x62338 -1 x62343 = +0
-
 +1 x62347 +1 x62351 -1 x62352 -1 x62dff = +0
-
 +1 x62352 -1 x62353 -1 x62354 = +0
-
 +1 x62354 +1 x623fc +1 x62428 -1 x62429 +0 x6242a -1 x62ed6 = +0
-
 +1 x62353 -1 x62364 -1 x62365 = +0
-
 +1 x62364 -1 x62370 -1 x62371 = +0
-
 +1 x62370 +1 x62379 +1 x62419 -1 x62e27 = +0
-
 +1 x62365 +1 x62371 -1 x6237c = +0
-
 +1 x6237c +1 x6237e -1 x6237f +1 x62425 -1 x62e2c = +0
-
 +1 x6237f -1 x62380 -1 x62381 = +0
-
 +1 x62381 +1 x623b8 +1 x623ee -1 x623ef +0 x623f0 -1 x62e9c = +0
-
 +1 x62380 -1 x6238c -1 x6238d = +0
-
 +1 x6238c -1 x62398 -1 x62399 = +0
-
 +1 x62398 -1 x6239c -1 x6239d = +0
-
 +1 x6239c -1 x623a0 -1 x623a1 = +0
-
 +1 x623a0 -1 x623a4 -1 x623a5 = +0
-
 +1 x6239d +1 x623a1 +1 x623a5 -1 x623aa = +0
-
 +1 x623aa +1 x623ac +1 x623e2 -1 x62e5a = +0
-
 +1 x6238d +1 x62399 +1 x623a4 -1 x623b3 = +0
-
 +1 x623b3 +1 x623b5 -1 x623b6 +1 x623eb -1 x62e63 = +0
-
 +1 x623b6 -1 x623b7 -1 x623b8 = +0
-
 +1 x623b7 -1 x623c4 -1 x623c5 = +0
-
 +1 x623c4 -1 x623d0 -1 x623d1 = +0
-
 +1 x623d0 -1 x623d4 -1 x623d5 = +0
-
 +1 x623d4 -1 x623d8 -1 x623d9 = +0
-
 +1 x623d8 -1 x623dc -1 x623dd = +0
-
 +1 x623d5 +1 x623d9 +1 x623dd -1 x623e2 = +0
-
 +1 x623c5 +1 x623d1 +1 x623dc -1 x623eb = +0
-
 +1 x623ef +1 x623f9 -1 x623fa -1 x62ea7 = +0
-
 +1 x623fa -1 x623fb -1 x623fc = +0
-
 +1 x623fb -1 x6240d -1 x6240e = +0
-
 +1 x6240d -1 x62419 -1 x6241a = +0
-
 +1 x6240e +1 x6241a -1 x62425 = +0
-
 +1 x62429 -1 x62438 -1 x62439 = +0
-
 +1 x62439 -1 x6243d -1 x6243e = +0
-
 +1 x62438 -1 x6243f -1 x62440 = +0
-
 +1 x6243e -1 x62447 -1 x62448 = +0
-
 +1 x62440 -1 x62449 -1 x6244a = +0
-
 +1 x6243f -1 x6244b -1 x6244c = +0
-
 +1 x6243d -1 x6244d -1 x6244e = +0
-
 +1 x62447 +1 x62449 -1 x62452 = +0
-
 +1 x62448 +1 x6244a -1 x6244f = +0
-
 +1 x6244c +1 x6244e -1 x62459 = +0
-
 +1 x6244f +1 x62459 -1 x6245d = +0
-
 +1 x6244b +1 x6244d -1 x6245f = +0
-
 +1 x62452 +1 x6245f -1 x62461 = +0
-
 +1 x6245d -1 x62464 -1 x62465 = +0
-
 +1 x62461 -1 x62466 -1 x62467 = +0
-
 +1 x62464 +1 x62466 -1 x62468 = +0
-
 +1 x62465 +1 x62467 -1 x62469 = +0
-
 +1 x6246e -1 x62471 +0 x62472 -1 x62f5b = +0
-
 +1 x5de2a -1 x6248b -1 x6248c = +0
-
 +1 x6248c -1 x624d2 +0 x624d3 = +0
-
 +1 x6248b -1 x624a1 -1 x624a2 = +0
-
 +1 x624a1 +1 x624c4 -1 x76faa = +0
-
 +1 x624a2 -1 x624ad +1 x624c5 -1 x628d0 = +0
-
 +1 x624ad -1 x624ae -1 x624af = +0
-
 +1 x624af -1 x624d4 +0 x624d5 -1 x628f7 = +0
-
 +1 x624ae -1 x624c4 -1 x624c5 = +0
-
 +1 x624d2 +1 x624d4 -1 x624e2 = +0
-
 +1 x624e2 -1 x624e4 -1 x62902 = +0
-
 +1 x624e4 -1 x624e5 -1 x624e6 = +0
-
 +1 x624e6 +1 x62588 -1 x625b4 +0 x625b5 -1 x629d9 = +0
-
 +1 x624e5 -1 x624f6 -1 x624f7 = +0
-
 +1 x624f6 -1 x62502 -1 x62503 = +0
-
 +1 x62502 +1 x625a5 -1 x6292a = +0
-
 +1 x624f7 +1 x62503 -1 x6250d = +0
-
 +1 x6250d -1 x6250f +1 x625b1 -1 x6292f = +0
-
 +1 x6250f -1 x62510 -1 x62511 = +0
-
 +1 x62511 +1 x62546 -1 x6257c +0 x6257d -1 x6299f = +0
-
 +1 x62510 -1 x6251c -1 x6251d = +0
-
 +1 x6251c -1 x62528 -1 x62529 = +0
-
 +1 x62528 -1 x6252c -1 x6252d = +0
-
 +1 x6252c -1 x62530 -1 x62531 = +0
-
 +1 x62530 -1 x62534 -1 x62535 = +0
-
 +1 x6252d +1 x62531 +1 x62535 -1 x6253a = +0
-
 +1 x6253a +1 x62570 -1 x6295d = +0
-
 +1 x6251d +1 x62529 +1 x62534 -1 x62542 = +0
-
 +1 x62542 -1 x62544 +1 x62579 -1 x62966 = +0
-
 +1 x62544 -1 x62545 -1 x62546 = +0
-
 +1 x62545 -1 x62552 -1 x62553 = +0
-
 +1 x62552 -1 x6255e -1 x6255f = +0
-
 +1 x6255e -1 x62562 -1 x62563 = +0
-
 +1 x62562 -1 x62566 -1 x62567 = +0
-
 +1 x62566 -1 x6256a -1 x6256b = +0
-
 +1 x62563 +1 x62567 +1 x6256b -1 x62570 = +0
-
 +1 x62553 +1 x6255f +1 x6256a -1 x62579 = +0
-
 +1 x6257c -1 x62586 -1 x629aa = +0
-
 +1 x62586 -1 x62587 -1 x62588 = +0
-
 +1 x62587 -1 x62599 -1 x6259a = +0
-
 +1 x62599 -1 x625a5 -1 x625a6 = +0
-
 +1 x6259a +1 x625a6 -1 x625b1 = +0
-
 +1 x625b4 -1 x625c3 -1 x625c4 = +0
-
 +1 x625c4 -1 x625c8 -1 x625c9 = +0
-
 +1 x625c3 -1 x625ca -1 x625cb = +0
-
 +1 x625c9 +1 x625cb -1 x625d1 -1 x625d2 = +0
-
 +1 x625c8 +1 x625ca -1 x625d0 = +0
-
 +1 x625d0 -1 x625d3 -1 x625d4 = +0
-
 +1 x625d2 +1 x625d4 -1 x625df = +0
-
 +1 x625d1 +1 x625d3 -1 x625e3 = +0
-
 +1 x625df +1 x625e3 -1 x625e8 = +0
-
 +1 x625e8 -1 x625eb -1 x625ec = +0
-
 +1 x625eb +1 x625ec -1 x625fe = +0
-
 +1 x625fe -1 x62616 -1 x62617 = +0
-
 +1 x62616 +1 x62617 -1 x62624 = +0
-
 +1 x62624 -1 x62626 -1 x62a4c = +0
-
 +1 x62626 -1 x62627 -1 x62628 = +0
-
 +1 x62628 +1 x6264b -1 x6266f +0 x62670 -1 x62a97 = +0
-
 +1 x62627 -1 x6263d -1 x6263e = +0
-
 +1 x6263d +1 x62661 -1 x749e1 = +0
-
 +1 x6263e -1 x62649 +1 x62662 -1 x62a70 = +0
-
 +1 x62649 -1 x6264a -1 x6264b = +0
-
 +1 x6264a -1 x62661 -1 x62662 = +0
-
 +1 x6266f -1 x62679 -1 x62aa2 = +0
-
 +1 x62679 -1 x6267a -1 x6267b = +0
-
 +1 x6267b +1 x6271d -1 x62749 +0 x6274a -1 x62b79 = +0
-
 +1 x6267a -1 x6268b -1 x6268c = +0
-
 +1 x6268b -1 x62697 -1 x62698 = +0
-
 +1 x62697 +1 x6273a -1 x62aca = +0
-
 +1 x6268c +1 x62698 -1 x626a2 = +0
-
 +1 x626a2 -1 x626a4 +1 x62746 -1 x62acf = +0
-
 +1 x626a4 -1 x626a5 -1 x626a6 = +0
-
 +1 x626a6 +1 x626db -1 x62711 +0 x62712 -1 x62b3f = +0
-
 +1 x626a5 -1 x626b1 -1 x626b2 = +0
-
 +1 x626b1 -1 x626bd -1 x626be = +0
-
 +1 x626bd -1 x626c1 -1 x626c2 = +0
-
 +1 x626c1 -1 x626c5 -1 x626c6 = +0
-
 +1 x626c5 -1 x626c9 -1 x626ca = +0
-
 +1 x626c2 +1 x626c6 +1 x626ca -1 x626cf = +0
-
 +1 x626cf +1 x62705 -1 x62afd = +0
-
 +1 x626b2 +1 x626be +1 x626c9 -1 x626d7 = +0
-
 +1 x626d7 -1 x626d9 +1 x6270e -1 x62b06 = +0
-
 +1 x626d9 -1 x626da -1 x626db = +0
-
 +1 x626da -1 x626e7 -1 x626e8 = +0
-
 +1 x626e7 -1 x626f3 -1 x626f4 = +0
-
 +1 x626f3 -1 x626f7 -1 x626f8 = +0
-
 +1 x626f7 -1 x626fb -1 x626fc = +0
-
 +1 x626fb -1 x626ff -1 x62700 = +0
-
 +1 x626f8 +1 x626fc +1 x62700 -1 x62705 = +0
-
 +1 x626e8 +1 x626f4 +1 x626ff -1 x6270e = +0
-
 +1 x62711 -1 x6271b -1 x62b4a = +0
-
 +1 x6271b -1 x6271c -1 x6271d = +0
-
 +1 x6271c -1 x6272e -1 x6272f = +0
-
 +1 x6272e -1 x6273a -1 x6273b = +0
-
 +1 x6272f +1 x6273b -1 x62746 = +0
-
 +1 x62749 -1 x62758 -1 x62759 = +0
-
 +1 x62759 -1 x6275d -1 x6275e = +0
-
 +1 x62758 -1 x6275f -1 x62760 = +0
-
 +1 x6275e -1 x62767 -1 x62768 = +0
-
 +1 x62760 -1 x62769 -1 x6276a = +0
-
 +1 x6275f -1 x6276b -1 x6276c = +0
-
 +1 x6275d -1 x6276d -1 x6276e = +0
-
 +1 x62767 +1 x62769 -1 x62772 = +0
-
 +1 x62768 +1 x6276a -1 x6276f = +0
-
 +1 x6276c +1 x6276e -1 x62779 = +0
-
 +1 x6276f +1 x62779 -1 x6277d = +0
-
 +1 x6276b +1 x6276d -1 x6277f = +0
-
 +1 x62772 +1 x6277f -1 x62781 = +0
-
 +1 x6277d -1 x62784 -1 x62785 = +0
-
 +1 x62781 -1 x62786 -1 x62787 = +0
-
 +1 x62784 +1 x62786 -1 x627cc = +0
-
 +1 x62785 +1 x62787 -1 x62788 = +0
-
 +1 x62788 -1 x6278c -1 x62bbd = +0
-
 +1 x6278c -1 x6278d -1 x6278e = +0
-
 +1 x6278d -1 x627ab -1 x627ac = +0
-
 +1 x627ab -1 x627b7 -1 x627b8 = +0
-
 +1 x627ac +1 x627b7 +1 x627b8 -1 x627c6 = +0
-
 +1 x62471 +1 x627cc -1 x627d8 = +0
-
 +1 x6246f +1 x627d8 -1 x627dd = +0
-
 +1 x627dd -1 x627de -1 x62f79 = +0
-
 +1 x627de -1 x627df -1 x627e0 = +0
-
 +1 x627df -1 x627e7 -1 x627e8 = +0
-
 +1 x627e8 -1 x627f7 -1 x627f8 = +0
-
 +1 x627f7 -1 x62825 -1 x62826 = +0
-
 +1 x62825 +1 x62826 -1 x62833 = +0
-
 +1 x60654 -1 x62841 -1 x6370c = +0
-
 +1 x62841 -1 x62842 -1 x62843 = +0
-
 +1 x62842 -1 x62847 -1 x62848 = +0
-
 +1 x62847 -1 x6284f -1 x62851 = +0
-
 +1 x62851 -1 x62857 -1 x62858 = +0
-
 +1 x62857 -1 x6285f -1 x62860 = +0
-
 +1 x62860 -1 x6286f -1 x62870 = +0
-
 +1 x6286f -1 x6289d -1 x6289e = +0
-
 +1 x6289d +1 x6289e -1 x628ab = +0
-
 +1 x628ab -1 x628ad +1 x63778 +1 x68146 +1 x690dd = +0
-
 +1 x628ad -1 x628ae -1 x628af = +0
-
 +1 x628ae -1 x628c4 -1 x628c5 = +0
-
 +1 x628c5 +1 x628d0 -1 x628d1 +1 x628ea = +0
-
 +1 x628d1 -1 x628d2 -1 x628d3 = +0
-
 +1 x628af +1 x628d3 +1 x628f7 -1 x628f8 +0 x628f9 = +0
-
 +1 x628d2 -1 x628e9 -1 x628ea = +0
-
 +1 x628c4 +1 x628e9 -1 x76fab = +0
-
 +1 x628f8 +1 x62902 -1 x62903 = +0
-
 +1 x62903 -1 x62904 -1 x62905 = +0
-
 +1 x62905 +1 x629ad +1 x629d9 -1 x629da +0 x629db = +0
-
 +1 x62904 -1 x62915 -1 x62916 = +0
-
 +1 x62915 -1 x62921 -1 x62922 = +0
-
 +1 x62921 +1 x6292a +1 x629ca -1 x762bf = +0
-
 +1 x62916 +1 x62922 -1 x6292d = +0
-
 +1 x6292d +1 x6292f -1 x62930 +1 x629d6 = +0
-
 +1 x62930 -1 x62931 -1 x62932 = +0
-
 +1 x62932 +1 x62969 +1 x6299f -1 x629a0 +0 x629a1 +1 x75e08 +1 x76b62 = +0
-
 +1 x62931 -1 x6293d -1 x6293e = +0
-
 +1 x6293d -1 x62949 -1 x6294a = +0
-
 +1 x62949 -1 x6294d -1 x6294e = +0
-
 +1 x6294d -1 x62951 -1 x62952 = +0
-
 +1 x62951 -1 x62955 -1 x62956 = +0
-
 +1 x6294e +1 x62952 +1 x62956 -1 x6295b = +0
-
 +1 x6295b +1 x6295d +1 x62993 -1 x755a9 = +0
-
 +1 x6293e +1 x6294a +1 x62955 -1 x62964 = +0
-
 +1 x62964 +1 x62966 -1 x62967 +1 x6299c +1 x7582b +1 x75e39 +1 x76523 +1 x76b93
 = +0
-
 +1 x62967 -1 x62968 -1 x62969 = +0
-
 +1 x62968 -1 x62975 -1 x62976 = +0
-
 +1 x62975 -1 x62981 -1 x62982 = +0
-
 +1 x62981 -1 x62985 -1 x62986 = +0
-
 +1 x62985 -1 x62989 -1 x6298a = +0
-
 +1 x62989 -1 x6298d -1 x6298e = +0
-
 +1 x62986 +1 x6298a +1 x6298e -1 x62993 = +0
-
 +1 x62976 +1 x62982 +1 x6298d -1 x6299c = +0
-
 +1 x629a0 +1 x629aa -1 x629ab +1 x7582e = +0
-
 +1 x629ab -1 x629ac -1 x629ad = +0
-
 +1 x629ac -1 x629be -1 x629bf = +0
-
 +1 x629be -1 x629ca -1 x629cb = +0
-
 +1 x629bf +1 x629cb -1 x629d6 = +0
-
 +1 x629da -1 x629e9 -1 x629ea = +0
-
 +1 x629ea -1 x629ee -1 x629ef = +0
-
 +1 x629e9 -1 x629f0 -1 x629f1 = +0
-
 +1 x629ef +1 x629f1 -1 x629f7 -1 x629f8 = +0
-
 +1 x629ee +1 x629f0 -1 x629f6 = +0
-
 +1 x629f6 -1 x629f9 -1 x629fa = +0
-
 +1 x629f8 +1 x629fa -1 x62a05 = +0
-
 +1 x629f7 +1 x629f9 -1 x62a09 = +0
-
 +1 x62a05 +1 x62a09 -1 x62a0e = +0
-
 +1 x62a0e -1 x62a11 -1 x62a12 = +0
-
 +1 x62a11 +1 x62a12 -1 x62a24 = +0
-
 +1 x62a24 -1 x62a3c -1 x62a3d = +0
-
 +1 x62a3c +1 x62a3d -1 x62a4a = +0
-
 +1 x62a4a +1 x62a4c -1 x62a4d = +0
-
 +1 x62a4d -1 x62a4e -1 x62a4f = +0
-
 +1 x62a4f +1 x62a73 +1 x62a97 -1 x62a98 +0 x62a99 +1 x75144 = +0
-
 +1 x62a4e -1 x62a64 -1 x62a65 = +0
-
 +1 x62a64 +1 x62a89 -1 x749e2 = +0
-
 +1 x62a65 +1 x62a70 -1 x62a71 +1 x62a8a +1 x74c42 +1 x7515a = +0
-
 +1 x62a71 -1 x62a72 -1 x62a73 = +0
-
 +1 x62a72 -1 x62a89 -1 x62a8a = +0
-
 +1 x62a98 +1 x62aa2 -1 x62aa3 +1 x74c4e = +0
-
 +1 x62aa3 -1 x62aa4 -1 x62aa5 = +0
-
 +1 x62aa5 +1 x62b4d +1 x62b79 -1 x62b7a +0 x62b7b = +0
-
 +1 x62aa4 -1 x62ab5 -1 x62ab6 = +0
-
 +1 x62ab5 -1 x62ac1 -1 x62ac2 = +0
-
 +1 x62ac1 +1 x62aca +1 x62b6a -1 x73cf6 = +0
-
 +1 x62ab6 +1 x62ac2 -1 x62acd = +0
-
 +1 x62acd +1 x62acf -1 x62ad0 +1 x62b76 = +0
-
 +1 x62ad0 -1 x62ad1 -1 x62ad2 = +0
-
 +1 x62ad2 +1 x62b09 +1 x62b3f -1 x62b40 +0 x62b41 +1 x7383f +1 x74599 = +0
-
 +1 x62ad1 -1 x62add -1 x62ade = +0
-
 +1 x62add -1 x62ae9 -1 x62aea = +0
-
 +1 x62ae9 -1 x62aed -1 x62aee = +0
-
 +1 x62aed -1 x62af1 -1 x62af2 = +0
-
 +1 x62af1 -1 x62af5 -1 x62af6 = +0
-
 +1 x62aee +1 x62af2 +1 x62af6 -1 x62afb = +0
-
 +1 x62afb +1 x62afd +1 x62b33 -1 x72fe0 = +0
-
 +1 x62ade +1 x62aea +1 x62af5 -1 x62b04 = +0
-
 +1 x62b04 +1 x62b06 -1 x62b07 +1 x62b3c +1 x73262 +1 x73870 +1 x73f5a +1 x745ca
 = +0
-
 +1 x62b07 -1 x62b08 -1 x62b09 = +0
-
 +1 x62b08 -1 x62b15 -1 x62b16 = +0
-
 +1 x62b15 -1 x62b21 -1 x62b22 = +0
-
 +1 x62b21 -1 x62b25 -1 x62b26 = +0
-
 +1 x62b25 -1 x62b29 -1 x62b2a = +0
-
 +1 x62b29 -1 x62b2d -1 x62b2e = +0
-
 +1 x62b26 +1 x62b2a +1 x62b2e -1 x62b33 = +0
-
 +1 x62b16 +1 x62b22 +1 x62b2d -1 x62b3c = +0
-
 +1 x62b40 +1 x62b4a -1 x62b4b +1 x73265 = +0
-
 +1 x62b4b -1 x62b4c -1 x62b4d = +0
-
 +1 x62b4c -1 x62b5e -1 x62b5f = +0
-
 +1 x62b5e -1 x62b6a -1 x62b6b = +0
-
 +1 x62b5f +1 x62b6b -1 x62b76 = +0
-
 +1 x62b7a -1 x62b89 -1 x62b8a = +0
-
 +1 x62b8a -1 x62b8e -1 x62b8f = +0
-
 +1 x62b89 -1 x62b90 -1 x62b91 = +0
-
 +1 x62b8f -1 x62b98 -1 x62b99 = +0
-
 +1 x62b91 -1 x62b9a -1 x62b9b = +0
-
 +1 x62b90 -1 x62b9c -1 x62b9d = +0
-
 +1 x62b8e -1 x62b9e -1 x62b9f = +0
-
 +1 x62b98 +1 x62b9a -1 x62ba3 = +0
-
 +1 x62b99 +1 x62b9b -1 x62ba0 = +0
-
 +1 x62b9d +1 x62b9f -1 x62baa = +0
-
 +1 x62ba0 +1 x62baa -1 x62bae = +0
-
 +1 x62b9c +1 x62b9e -1 x62bb0 = +0
-
 +1 x62ba3 +1 x62bb0 -1 x62bb2 = +0
-
 +1 x62bae -1 x62bb5 -1 x62bb6 = +0
-
 +1 x62bb2 -1 x62bb7 -1 x62bb8 = +0
-
 +1 x62bb5 +1 x62bb7 -1 x62f66 = +0
-
 +1 x62bb6 +1 x62bb8 -1 x62bb9 = +0
-
 +1 x62bb9 +1 x62bbd -1 x62bbe = +0
-
 +1 x62bbe -1 x62bbf -1 x62bc0 = +0
-
 +1 x62bc0 +1 x62f1d +1 x62f5a -1 x62f5c +0 x62f5d = +0
-
 +1 x62bbf -1 x62bdd -1 x62bde = +0
-
 +1 x62bdd -1 x62be9 -1 x62bea = +0
-
 +1 x62bde +1 x62be9 +1 x62bea -1 x62bf8 = +0
-
 +1 x62bf8 +1 x62bfa -1 x62bfb +1 x62f56 = +0
-
 +1 x62bfb -1 x62bfc -1 x62bfd = +0
-
 +1 x62bfc -1 x62c08 -1 x62c09 = +0
-
 +1 x62c08 -1 x62c14 -1 x62c15 = +0
-
 +1 x62c14 +1 x62c1d +1 x62c3d -1 x76fac = +0
-
 +1 x62c09 +1 x62c15 -1 x62c20 = +0
-
 +1 x62c20 +1 x62c22 -1 x62c23 +1 x62c49 = +0
-
 +1 x62c23 -1 x62c24 -1 x62c25 = +0
-
 +1 x62bfd +1 x62c25 +1 x62c4c -1 x62c4d +0 x62c4e = +0
-
 +1 x62c24 -1 x62c31 -1 x62c32 = +0
-
 +1 x62c31 -1 x62c3d -1 x62c3e = +0
-
 +1 x62c32 +1 x62c3e -1 x62c49 = +0
-
 +1 x62c4d +1 x62c57 -1 x62c58 = +0
-
 +1 x62c58 -1 x62c59 -1 x62c5a = +0
-
 +1 x62c5a +1 x62d02 +1 x62d2e -1 x62d2f +0 x62d30 = +0
-
 +1 x62c59 -1 x62c6a -1 x62c6b = +0
-
 +1 x62c6a -1 x62c76 -1 x62c77 = +0
-
 +1 x62c76 +1 x62c7f +1 x62d1f -1 x762c0 = +0
-
 +1 x62c6b +1 x62c77 -1 x62c82 = +0
-
 +1 x62c82 +1 x62c84 -1 x62c85 +1 x62d2b = +0
-
 +1 x62c85 -1 x62c86 -1 x62c87 = +0
-
 +1 x62c87 +1 x62cbe +1 x62cf4 -1 x62cf5 +0 x62cf6 +1 x75dbe +1 x76b18 = +0
-
 +1 x62c86 -1 x62c92 -1 x62c93 = +0
-
 +1 x62c92 -1 x62c9e -1 x62c9f = +0
-
 +1 x62c9e -1 x62ca2 -1 x62ca3 = +0
-
 +1 x62ca2 -1 x62ca6 -1 x62ca7 = +0
-
 +1 x62ca6 -1 x62caa -1 x62cab = +0
-
 +1 x62ca3 +1 x62ca7 +1 x62cab -1 x62cb0 = +0
-
 +1 x62cb0 +1 x62cb2 +1 x62ce8 -1 x755aa = +0
-
 +1 x62c93 +1 x62c9f +1 x62caa -1 x62cb9 = +0
-
 +1 x62cb9 +1 x62cbb -1 x62cbc +1 x62cf1 +1 x757d7 +1 x75def +1 x764d9 +1 x76b49
 = +0
-
 +1 x62cbc -1 x62cbd -1 x62cbe = +0
-
 +1 x62cbd -1 x62cca -1 x62ccb = +0
-
 +1 x62cca -1 x62cd6 -1 x62cd7 = +0
-
 +1 x62cd6 -1 x62cda -1 x62cdb = +0
-
 +1 x62cda -1 x62cde -1 x62cdf = +0
-
 +1 x62cde -1 x62ce2 -1 x62ce3 = +0
-
 +1 x62cdb +1 x62cdf +1 x62ce3 -1 x62ce8 = +0
-
 +1 x62ccb +1 x62cd7 +1 x62ce2 -1 x62cf1 = +0
-
 +1 x62cf5 +1 x62cff -1 x62d00 +1 x757da = +0
-
 +1 x62d00 -1 x62d01 -1 x62d02 = +0
-
 +1 x62d01 -1 x62d13 -1 x62d14 = +0
-
 +1 x62d13 -1 x62d1f -1 x62d20 = +0
-
 +1 x62d14 +1 x62d20 -1 x62d2b = +0
-
 +1 x62d2f -1 x62d3e -1 x62d3f = +0
-
 +1 x62d3f -1 x62d43 -1 x62d44 = +0
-
 +1 x62d3e -1 x62d45 -1 x62d46 = +0
-
 +1 x62d44 +1 x62d46 -1 x62d4c -1 x62d4d = +0
-
 +1 x62d43 +1 x62d45 -1 x62d4b = +0
-
 +1 x62d4b -1 x62d4e -1 x62d4f = +0
-
 +1 x62d4d +1 x62d4f -1 x62d5a = +0
-
 +1 x62d4c +1 x62d4e -1 x62d5e = +0
-
 +1 x62d5a +1 x62d5e -1 x62d63 = +0
-
 +1 x62d63 -1 x62d66 -1 x62d67 = +0
-
 +1 x62d66 +1 x62d67 -1 x62d77 = +0
-
 +1 x62d77 -1 x62d85 -1 x62d86 = +0
-
 +1 x62d85 -1 x62d91 -1 x62d92 = +0
-
 +1 x62d86 +1 x62d91 +1 x62d92 -1 x62da0 = +0
-
 +1 x62da0 +1 x62da2 -1 x62da3 = +0
-
 +1 x62da3 -1 x62da4 -1 x62da5 = +0
-
 +1 x62da5 +1 x62dcd +1 x62df4 -1 x62df5 +0 x62df6 +1 x75109 = +0
-
 +1 x62da4 -1 x62db0 -1 x62db1 = +0
-
 +1 x62db0 -1 x62dbc -1 x62dbd = +0
-
 +1 x62dbc +1 x62dc5 +1 x62de5 -1 x749e3 = +0
-
 +1 x62db1 +1 x62dbd -1 x62dc8 = +0
-
 +1 x62dc8 +1 x62dca -1 x62dcb +1 x62df1 +1 x74c09 +1 x7512b = +0
-
 +1 x62dcb -1 x62dcc -1 x62dcd = +0
-
 +1 x62dcc -1 x62dd9 -1 x62dda = +0
-
 +1 x62dd9 -1 x62de5 -1 x62de6 = +0
-
 +1 x62dda +1 x62de6 -1 x62df1 = +0
-
 +1 x62df5 +1 x62dff -1 x62e00 +1 x74c0c = +0
-
 +1 x62e00 -1 x62e01 -1 x62e02 = +0
-
 +1 x62e02 +1 x62eaa +1 x62ed6 -1 x62ed7 +0 x62ed8 = +0
-
 +1 x62e01 -1 x62e12 -1 x62e13 = +0
-
 +1 x62e12 -1 x62e1e -1 x62e1f = +0
-
 +1 x62e1e +1 x62e27 +1 x62ec7 -1 x73cf7 = +0
-
 +1 x62e13 +1 x62e1f -1 x62e2a = +0
-
 +1 x62e2a +1 x62e2c -1 x62e2d +1 x62ed3 = +0
-
 +1 x62e2d -1 x62e2e -1 x62e2f = +0
-
 +1 x62e2f +1 x62e66 +1 x62e9c -1 x62e9d +0 x62e9e +1 x737f5 +1 x7454f = +0
-
 +1 x62e2e -1 x62e3a -1 x62e3b = +0
-
 +1 x62e3a -1 x62e46 -1 x62e47 = +0
-
 +1 x62e46 -1 x62e4a -1 x62e4b = +0
-
 +1 x62e4a -1 x62e4e -1 x62e4f = +0
-
 +1 x62e4e -1 x62e52 -1 x62e53 = +0
-
 +1 x62e4b +1 x62e4f +1 x62e53 -1 x62e58 = +0
-
 +1 x62e58 +1 x62e5a +1 x62e90 -1 x72fe1 = +0
-
 +1 x62e3b +1 x62e47 +1 x62e52 -1 x62e61 = +0
-
 +1 x62e61 +1 x62e63 -1 x62e64 +1 x62e99 +1 x7320e +1 x73826 +1 x73f10 +1 x74580
 = +0
-
 +1 x62e64 -1 x62e65 -1 x62e66 = +0
-
 +1 x62e65 -1 x62e72 -1 x62e73 = +0
-
 +1 x62e72 -1 x62e7e -1 x62e7f = +0
-
 +1 x62e7e -1 x62e82 -1 x62e83 = +0
-
 +1 x62e82 -1 x62e86 -1 x62e87 = +0
-
 +1 x62e86 -1 x62e8a -1 x62e8b = +0
-
 +1 x62e83 +1 x62e87 +1 x62e8b -1 x62e90 = +0
-
 +1 x62e73 +1 x62e7f +1 x62e8a -1 x62e99 = +0
-
 +1 x62e9d +1 x62ea7 -1 x62ea8 +1 x73211 = +0
-
 +1 x62ea8 -1 x62ea9 -1 x62eaa = +0
-
 +1 x62ea9 -1 x62ebb -1 x62ebc = +0
-
 +1 x62ebb -1 x62ec7 -1 x62ec8 = +0
-
 +1 x62ebc +1 x62ec8 -1 x62ed3 = +0
-
 +1 x62ed7 -1 x62ee6 -1 x62ee7 = +0
-
 +1 x62ee7 -1 x62eeb -1 x62eec = +0
-
 +1 x62ee6 -1 x62eed -1 x62eee = +0
-
 +1 x62eec -1 x62ef5 -1 x62ef6 = +0
-
 +1 x62eee -1 x62ef7 -1 x62ef8 = +0
-
 +1 x62eed -1 x62ef9 -1 x62efa = +0
-
 +1 x62eeb -1 x62efb -1 x62efc = +0
-
 +1 x62ef5 +1 x62ef7 -1 x62f00 = +0
-
 +1 x62ef6 +1 x62ef8 -1 x62efd = +0
-
 +1 x62efa +1 x62efc -1 x62f07 = +0
-
 +1 x62efd +1 x62f07 -1 x62f0b = +0
-
 +1 x62ef9 +1 x62efb -1 x62f0d = +0
-
 +1 x62f00 +1 x62f0d -1 x62f0f = +0
-
 +1 x62f0b -1 x62f12 -1 x62f13 = +0
-
 +1 x62f0f -1 x62f14 -1 x62f15 = +0
-
 +1 x62f12 +1 x62f14 -1 x62f59 = +0
-
 +1 x62f13 +1 x62f15 -1 x62f16 = +0
-
 +1 x62f16 +1 x62f1a -1 x62f1b = +0
-
 +1 x62f1b -1 x62f1c -1 x62f1d = +0
-
 +1 x62f1c -1 x62f3b -1 x62f3c = +0
-
 +1 x62f3b -1 x62f47 -1 x62f48 = +0
-
 +1 x62f3c +1 x62f47 +1 x62f48 -1 x62f56 = +0
-
 +1 x62f59 +1 x62f5b -1 x62f5e +0 x62f5f = +0
-
 +1 x62f5e +1 x62f66 -1 x62f72 = +0
-
 +1 x62870 +1 x62f5c -1 x62f77 = +0
-
 +1 x62f72 +1 x62f77 -1 x62f78 = +0
-
 +1 x62f78 +1 x62f79 -1 x62f7a +1 x6373d +1 x6810b +1 x690a2 = +0
-
 +1 x62f7a -1 x62f7b -1 x62f7c = +0
-
 +1 x62f7c +1 x636a3 +1 x636fe -1 x636ff +0 x63700 = +0
-
 +1 x62f7b -1 x62f83 -1 x62f84 = +0
-
 +1 x62f84 -1 x62f93 -1 x62f94 = +0
-
 +1 x62f93 -1 x62fc1 -1 x62fc2 = +0
-
 +1 x62fc1 +1 x62fc2 -1 x62fcf = +0
-
 +1 x62fcf +1 x62fd1 -1 x62fd2 +1 x636f7 = +0
-
 +1 x62fd2 -1 x62fd3 -1 x62fd4 = +0
-
 +1 x62fd3 -1 x62fe9 -1 x62fea = +0
-
 +1 x62fe9 +1 x62ff2 +1 x6300f -1 x76fad = +0
-
 +1 x62fea +1 x62ff6 -1 x62ff7 +1 x63010 = +0
-
 +1 x62ff7 -1 x62ff8 -1 x62ff9 = +0
-
 +1 x62fd4 +1 x62ff9 +1 x6301d -1 x6301e +0 x6301f = +0
-
 +1 x62ff8 -1 x6300f -1 x63010 = +0
-
 +1 x6301e +1 x63028 -1 x63029 = +0
-
 +1 x63029 -1 x6302a -1 x6302b = +0
-
 +1 x6302b +1 x630d3 +1 x630ff -1 x63100 +0 x63101 = +0
-
 +1 x6302a -1 x6303b -1 x6303c = +0
-
 +1 x6303b -1 x63047 -1 x63048 = +0
-
 +1 x63047 +1 x63050 +1 x630f0 -1 x762c1 = +0
-
 +1 x6303c +1 x63048 -1 x63053 = +0
-
 +1 x63053 +1 x63055 -1 x63056 +1 x630fc = +0
-
 +1 x63056 -1 x63057 -1 x63058 = +0
-
 +1 x63058 +1 x6308f +1 x630c5 -1 x630c6 +0 x630c7 +1 x75d74 +1 x76ace = +0
-
 +1 x63057 -1 x63063 -1 x63064 = +0
-
 +1 x63063 -1 x6306f -1 x63070 = +0
-
 +1 x6306f -1 x63073 -1 x63074 = +0
-
 +1 x63073 -1 x63077 -1 x63078 = +0
-
 +1 x63077 -1 x6307b -1 x6307c = +0
-
 +1 x63074 +1 x63078 +1 x6307c -1 x63081 = +0
-
 +1 x63081 +1 x63083 +1 x630b9 -1 x755ab = +0
-
 +1 x63064 +1 x63070 +1 x6307b -1 x6308a = +0
-
 +1 x6308a +1 x6308c -1 x6308d +1 x630c2 +1 x75783 +1 x75da5 +1 x7648f +1 x76aff
 = +0
-
 +1 x6308d -1 x6308e -1 x6308f = +0
-
 +1 x6308e -1 x6309b -1 x6309c = +0
-
 +1 x6309b -1 x630a7 -1 x630a8 = +0
-
 +1 x630a7 -1 x630ab -1 x630ac = +0
-
 +1 x630ab -1 x630af -1 x630b0 = +0
-
 +1 x630af -1 x630b3 -1 x630b4 = +0
-
 +1 x630ac +1 x630b0 +1 x630b4 -1 x630b9 = +0
-
 +1 x6309c +1 x630a8 +1 x630b3 -1 x630c2 = +0
-
 +1 x630c6 +1 x630d0 -1 x630d1 +1 x75786 = +0
-
 +1 x630d1 -1 x630d2 -1 x630d3 = +0
-
 +1 x630d2 -1 x630e4 -1 x630e5 = +0
-
 +1 x630e4 -1 x630f0 -1 x630f1 = +0
-
 +1 x630e5 +1 x630f1 -1 x630fc = +0
-
 +1 x63100 -1 x6310f -1 x63110 = +0
-
 +1 x63110 -1 x63114 -1 x63115 = +0
-
 +1 x6310f -1 x63116 -1 x63117 = +0
-
 +1 x63115 +1 x63117 -1 x6311d -1 x6311e = +0
-
 +1 x63114 +1 x63116 -1 x6311c = +0
-
 +1 x6311c -1 x6311f -1 x63120 = +0
-
 +1 x6311e +1 x63120 -1 x6312b = +0
-
 +1 x6311d +1 x6311f -1 x6312f = +0
-
 +1 x6312b +1 x6312f -1 x63134 = +0
-
 +1 x63134 -1 x63137 -1 x63138 = +0
-
 +1 x63137 +1 x63138 -1 x6314a = +0
-
 +1 x6314a -1 x63162 -1 x63163 = +0
-
 +1 x63162 +1 x63163 -1 x63170 = +0
-
 +1 x63170 +1 x63172 -1 x63173 = +0
-
 +1 x63173 -1 x63174 -1 x63175 = +0
-
 +1 x63175 +1 x6319a +1 x631be -1 x631bf +0 x631c0 +1 x750d1 = +0
-
 +1 x63174 -1 x6318a -1 x6318b = +0
-
 +1 x6318a +1 x63193 +1 x631b0 -1 x749e4 = +0
-
 +1 x6318b +1 x63197 -1 x63198 +1 x631b1 +1 x74bbb +1 x750e7 = +0
-
 +1 x63198 -1 x63199 -1 x6319a = +0
-
 +1 x63199 -1 x631b0 -1 x631b1 = +0
-
 +1 x631bf +1 x631c9 -1 x631ca +1 x74bc7 = +0
-
 +1 x631ca -1 x631cb -1 x631cc = +0
-
 +1 x631cc +1 x63274 +1 x632a0 -1 x632a1 +0 x632a2 = +0
-
 +1 x631cb -1 x631dc -1 x631dd = +0
-
 +1 x631dc -1 x631e8 -1 x631e9 = +0
-
 +1 x631e8 +1 x631f1 +1 x63291 -1 x73cf8 = +0
-
 +1 x631dd +1 x631e9 -1 x631f4 = +0
-
 +1 x631f4 +1 x631f6 -1 x631f7 +1 x6329d = +0
-
 +1 x631f7 -1 x631f8 -1 x631f9 = +0
-
 +1 x631f9 +1 x63230 +1 x63266 -1 x63267 +0 x63268 +1 x737ab +1 x74505 = +0
-
 +1 x631f8 -1 x63204 -1 x63205 = +0
-
 +1 x63204 -1 x63210 -1 x63211 = +0
-
 +1 x63210 -1 x63214 -1 x63215 = +0
-
 +1 x63214 -1 x63218 -1 x63219 = +0
-
 +1 x63218 -1 x6321c -1 x6321d = +0
-
 +1 x63215 +1 x63219 +1 x6321d -1 x63222 = +0
-
 +1 x63222 +1 x63224 +1 x6325a -1 x72fe2 = +0
-
 +1 x63205 +1 x63211 +1 x6321c -1 x6322b = +0
-
 +1 x6322b +1 x6322d -1 x6322e +1 x63263 +1 x731ba +1 x737dc +1 x73ec6 +1 x74536
 = +0
-
 +1 x6322e -1 x6322f -1 x63230 = +0
-
 +1 x6322f -1 x6323c -1 x6323d = +0
-
 +1 x6323c -1 x63248 -1 x63249 = +0
-
 +1 x63248 -1 x6324c -1 x6324d = +0
-
 +1 x6324c -1 x63250 -1 x63251 = +0
-
 +1 x63250 -1 x63254 -1 x63255 = +0
-
 +1 x6324d +1 x63251 +1 x63255 -1 x6325a = +0
-
 +1 x6323d +1 x63249 +1 x63254 -1 x63263 = +0
-
 +1 x63267 +1 x63271 -1 x63272 +1 x731bd = +0
-
 +1 x63272 -1 x63273 -1 x63274 = +0
-
 +1 x63273 -1 x63285 -1 x63286 = +0
-
 +1 x63285 -1 x63291 -1 x63292 = +0
-
 +1 x63286 +1 x63292 -1 x6329d = +0
-
 +1 x632a1 -1 x632b0 -1 x632b1 = +0
-
 +1 x632b1 -1 x632b5 -1 x632b6 = +0
-
 +1 x632b0 -1 x632b7 -1 x632b8 = +0
-
 +1 x632b6 -1 x632bf -1 x632c0 = +0
-
 +1 x632b8 -1 x632c1 -1 x632c2 = +0
-
 +1 x632b7 -1 x632c3 -1 x632c4 = +0
-
 +1 x632b5 -1 x632c5 -1 x632c6 = +0
-
 +1 x632bf +1 x632c1 -1 x632ca = +0
-
 +1 x632c0 +1 x632c2 -1 x632c7 = +0
-
 +1 x632c4 +1 x632c6 -1 x632d1 = +0
-
 +1 x632c7 +1 x632d1 -1 x632d5 = +0
-
 +1 x632c3 +1 x632c5 -1 x632d7 = +0
-
 +1 x632ca +1 x632d7 -1 x632d9 = +0
-
 +1 x632d5 -1 x632dc -1 x632dd = +0
-
 +1 x632d9 -1 x632de -1 x632df = +0
-
 +1 x632dc +1 x632de -1 x6368d = +0
-
 +1 x632dd +1 x632df -1 x632e0 = +0
-
 +1 x632e0 +1 x632e4 -1 x632e5 = +0
-
 +1 x632e5 -1 x632e6 -1 x632e7 = +0
-
 +1 x632e7 +1 x63644 +1 x63681 -1 x63683 +0 x63684 = +0
-
 +1 x632e6 -1 x63304 -1 x63305 = +0
-
 +1 x63304 -1 x63310 -1 x63311 = +0
-
 +1 x63305 +1 x63310 +1 x63311 -1 x6331f = +0
-
 +1 x6331f +1 x63321 -1 x63322 +1 x6367d = +0
-
 +1 x63322 -1 x63323 -1 x63324 = +0
-
 +1 x63323 -1 x6332f -1 x63330 = +0
-
 +1 x6332f -1 x6333b -1 x6333c = +0
-
 +1 x6333b +1 x63344 +1 x63364 -1 x76fae = +0
-
 +1 x63330 +1 x6333c -1 x63347 = +0
-
 +1 x63347 +1 x63349 -1 x6334a +1 x63370 = +0
-
 +1 x6334a -1 x6334b -1 x6334c = +0
-
 +1 x63324 +1 x6334c +1 x63373 -1 x63374 +0 x63375 = +0
-
 +1 x6334b -1 x63358 -1 x63359 = +0
-
 +1 x63358 -1 x63364 -1 x63365 = +0
-
 +1 x63359 +1 x63365 -1 x63370 = +0
-
 +1 x63374 +1 x6337e -1 x6337f = +0
-
 +1 x6337f -1 x63380 -1 x63381 = +0
-
 +1 x63381 +1 x63429 +1 x63455 -1 x63456 +0 x63457 = +0
-
 +1 x63380 -1 x63391 -1 x63392 = +0
-
 +1 x63391 -1 x6339d -1 x6339e = +0
-
 +1 x6339d +1 x633a6 +1 x63446 -1 x762c2 = +0
-
 +1 x63392 +1 x6339e -1 x633a9 = +0
-
 +1 x633a9 +1 x633ab -1 x633ac +1 x63452 = +0
-
 +1 x633ac -1 x633ad -1 x633ae = +0
-
 +1 x633ae +1 x633e5 +1 x6341b -1 x6341c +0 x6341d +1 x75d2a +1 x76a84 = +0
-
 +1 x633ad -1 x633b9 -1 x633ba = +0
-
 +1 x633b9 -1 x633c5 -1 x633c6 = +0
-
 +1 x633c5 -1 x633c9 -1 x633ca = +0
-
 +1 x633c9 -1 x633cd -1 x633ce = +0
-
 +1 x633cd -1 x633d1 -1 x633d2 = +0
-
 +1 x633ca +1 x633ce +1 x633d2 -1 x633d7 = +0
-
 +1 x633d7 +1 x633d9 +1 x6340f -1 x755ac = +0
-
 +1 x633ba +1 x633c6 +1 x633d1 -1 x633e0 = +0
-
 +1 x633e0 +1 x633e2 -1 x633e3 +1 x63418 +1 x7572f +1 x75d5b +1 x76445 +1 x76ab5
 = +0
-
 +1 x633e3 -1 x633e4 -1 x633e5 = +0
-
 +1 x633e4 -1 x633f1 -1 x633f2 = +0
-
 +1 x633f1 -1 x633fd -1 x633fe = +0
-
 +1 x633fd -1 x63401 -1 x63402 = +0
-
 +1 x63401 -1 x63405 -1 x63406 = +0
-
 +1 x63405 -1 x63409 -1 x6340a = +0
-
 +1 x63402 +1 x63406 +1 x6340a -1 x6340f = +0
-
 +1 x633f2 +1 x633fe +1 x63409 -1 x63418 = +0
-
 +1 x6341c +1 x63426 -1 x63427 +1 x75732 = +0
-
 +1 x63427 -1 x63428 -1 x63429 = +0
-
 +1 x63428 -1 x6343a -1 x6343b = +0
-
 +1 x6343a -1 x63446 -1 x63447 = +0
-
 +1 x6343b +1 x63447 -1 x63452 = +0
-
 +1 x63456 -1 x63465 -1 x63466 = +0
-
 +1 x63466 -1 x6346a -1 x6346b = +0
-
 +1 x63465 -1 x6346c -1 x6346d = +0
-
 +1 x6346b +1 x6346d -1 x63473 -1 x63474 = +0
-
 +1 x6346a +1 x6346c -1 x63472 = +0
-
 +1 x63472 -1 x63475 -1 x63476 = +0
-
 +1 x63474 +1 x63476 -1 x63481 = +0
-
 +1 x63473 +1 x63475 -1 x63485 = +0
-
 +1 x63481 +1 x63485 -1 x6348a = +0
-
 +1 x6348a -1 x6348d -1 x6348e = +0
-
 +1 x6348d +1 x6348e -1 x6349e = +0
-
 +1 x6349e -1 x634ac -1 x634ad = +0
-
 +1 x634ac -1 x634b8 -1 x634b9 = +0
-
 +1 x634ad +1 x634b8 +1 x634b9 -1 x634c7 = +0
-
 +1 x634c7 +1 x634c9 -1 x634ca = +0
-
 +1 x634ca -1 x634cb -1 x634cc = +0
-
 +1 x634cc +1 x634f4 +1 x6351b -1 x6351c +0 x6351d +1 x75096 = +0
-
 +1 x634cb -1 x634d7 -1 x634d8 = +0
-
 +1 x634d7 -1 x634e3 -1 x634e4 = +0
-
 +1 x634e3 +1 x634ec +1 x6350c -1 x749e5 = +0
-
 +1 x634d8 +1 x634e4 -1 x634ef = +0
-
 +1 x634ef +1 x634f1 -1 x634f2 +1 x63518 +1 x74b82 +1 x750b8 = +0
-
 +1 x634f2 -1 x634f3 -1 x634f4 = +0
-
 +1 x634f3 -1 x63500 -1 x63501 = +0
-
 +1 x63500 -1 x6350c -1 x6350d = +0
-
 +1 x63501 +1 x6350d -1 x63518 = +0
-
 +1 x6351c +1 x63526 -1 x63527 +1 x74b85 = +0
-
 +1 x63527 -1 x63528 -1 x63529 = +0
-
 +1 x63529 +1 x635d1 +1 x635fd -1 x635fe +0 x635ff = +0
-
 +1 x63528 -1 x63539 -1 x6353a = +0
-
 +1 x63539 -1 x63545 -1 x63546 = +0
-
 +1 x63545 +1 x6354e +1 x635ee -1 x73cf9 = +0
-
 +1 x6353a +1 x63546 -1 x63551 = +0
-
 +1 x63551 +1 x63553 -1 x63554 +1 x635fa = +0
-
 +1 x63554 -1 x63555 -1 x63556 = +0
-
 +1 x63556 +1 x6358d +1 x635c3 -1 x635c4 +0 x635c5 +1 x73761 +1 x744bb = +0
-
 +1 x63555 -1 x63561 -1 x63562 = +0
-
 +1 x63561 -1 x6356d -1 x6356e = +0
-
 +1 x6356d -1 x63571 -1 x63572 = +0
-
 +1 x63571 -1 x63575 -1 x63576 = +0
-
 +1 x63575 -1 x63579 -1 x6357a = +0
-
 +1 x63572 +1 x63576 +1 x6357a -1 x6357f = +0
-
 +1 x6357f +1 x63581 +1 x635b7 -1 x72fe3 = +0
-
 +1 x63562 +1 x6356e +1 x63579 -1 x63588 = +0
-
 +1 x63588 +1 x6358a -1 x6358b +1 x635c0 +1 x73166 +1 x73792 +1 x73e7c +1 x744ec
 = +0
-
 +1 x6358b -1 x6358c -1 x6358d = +0
-
 +1 x6358c -1 x63599 -1 x6359a = +0
-
 +1 x63599 -1 x635a5 -1 x635a6 = +0
-
 +1 x635a5 -1 x635a9 -1 x635aa = +0
-
 +1 x635a9 -1 x635ad -1 x635ae = +0
-
 +1 x635ad -1 x635b1 -1 x635b2 = +0
-
 +1 x635aa +1 x635ae +1 x635b2 -1 x635b7 = +0
-
 +1 x6359a +1 x635a6 +1 x635b1 -1 x635c0 = +0
-
 +1 x635c4 +1 x635ce -1 x635cf +1 x73169 = +0
-
 +1 x635cf -1 x635d0 -1 x635d1 = +0
-
 +1 x635d0 -1 x635e2 -1 x635e3 = +0
-
 +1 x635e2 -1 x635ee -1 x635ef = +0
-
 +1 x635e3 +1 x635ef -1 x635fa = +0
-
 +1 x635fe -1 x6360d -1 x6360e = +0
-
 +1 x6360e -1 x63612 -1 x63613 = +0
-
 +1 x6360d -1 x63614 -1 x63615 = +0
-
 +1 x63613 -1 x6361c -1 x6361d = +0
-
 +1 x63615 -1 x6361e -1 x6361f = +0
-
 +1 x63614 -1 x63620 -1 x63621 = +0
-
 +1 x63612 -1 x63622 -1 x63623 = +0
-
 +1 x6361c +1 x6361e -1 x63627 = +0
-
 +1 x6361d +1 x6361f -1 x63624 = +0
-
 +1 x63621 +1 x63623 -1 x6362e = +0
-
 +1 x63624 +1 x6362e -1 x63632 = +0
-
 +1 x63620 +1 x63622 -1 x63634 = +0
-
 +1 x63627 +1 x63634 -1 x63636 = +0
-
 +1 x63632 -1 x63639 -1 x6363a = +0
-
 +1 x63636 -1 x6363b -1 x6363c = +0
-
 +1 x63639 +1 x6363b -1 x63680 = +0
-
 +1 x6363a +1 x6363c -1 x6363d = +0
-
 +1 x6363d +1 x63641 -1 x63642 = +0
-
 +1 x63642 -1 x63643 -1 x63644 = +0
-
 +1 x63643 -1 x63662 -1 x63663 = +0
-
 +1 x63662 -1 x6366e -1 x6366f = +0
-
 +1 x63663 +1 x6366e +1 x6366f -1 x6367d = +0
-
 +1 x63680 +1 x63682 -1 x63685 +0 x63686 = +0
-
 +1 x63685 +1 x6368d -1 x63699 = +0
-
 +1 x62f94 +1 x63683 -1 x6369e = +0
-
 +1 x63699 +1 x6369e -1 x6369f = +0
-
 +1 x6369f +1 x636a0 -1 x636a1 +1 x636bc = +0
-
 +1 x636a1 -1 x636a2 -1 x636a3 = +0
-
 +1 x636a2 -1 x636ab -1 x636ac = +0
-
 +1 x636ac -1 x636bb -1 x636bc = +0
-
 +1 x636bb -1 x636e9 -1 x636ea = +0
-
 +1 x636e9 +1 x636ea -1 x636f7 = +0
-
 +1 x62858 +1 x636ff -1 x6370a = +0
-
 +1 x6370a +1 x6370c -1 x6370d +1 x63725 +1 x680f3 +1 x6908a = +0
-
 +1 x6370d -1 x6370e -1 x6370f = +0
-
 +1 x62843 +1 x6370f -1 x63785 +0 x63786 +1 x680de -1 x690ea = +0
-
 +1 x6370e -1 x63714 -1 x63715 = +0
-
 +1 x63714 -1 x6371c -1 x6371e = +0
-
 +1 x6371e -1 x63724 -1 x63725 = +0
-
 +1 x63724 -1 x6372c -1 x6372d = +0
-
 +1 x6372d -1 x6373c -1 x6373d = +0
-
 +1 x6373c -1 x6376a -1 x6376b = +0
-
 +1 x6376a +1 x6376b -1 x63778 = +0
-
 +1 x5de39 -1 x6379d -1 x6379e = +0
-
 +1 x6379e -1 x637ea +0 x637eb = +0
-
 +1 x6379d -1 x637a9 -1 x637aa = +0
-
 +1 x637a9 -1 x637b5 -1 x637b6 = +0
-
 +1 x637b5 +1 x637db +1 x63b00 +1 x63b29 +1 x63e5f +1 x63e88 +1 x641be +1 x641e7
 +1 x6451d +1 x64546 +1 x6487c +1 x648a5 +1 x64bdb +1 x64c04 +1 x64f3a +1 x64f63
 -1 x76faf = +0
-
 +1 x637aa +1 x637b6 -1 x637c0 = +0
-
 +1 x637c0 -1 x637c2 +1 x637e7 -1 x63b0e = +0
-
 +1 x637c2 -1 x637c3 -1 x637c4 = +0
-
 +1 x637c4 -1 x637ec +0 x637ed -1 x63b38 = +0
-
 +1 x637c3 -1 x637cf -1 x637d0 = +0
-
 +1 x637cf -1 x637db -1 x637dc = +0
-
 +1 x637d0 +1 x637dc -1 x637e7 = +0
-
 +1 x637ea +1 x637ec -1 x637fa = +0
-
 +1 x637fa -1 x637fc -1 x63b43 = +0
-
 +1 x637fc -1 x637fd -1 x637fe = +0
-
 +1 x637fe +1 x638a0 -1 x638cc +0 x638cd -1 x63c1a = +0
-
 +1 x637fd -1 x6380e -1 x6380f = +0
-
 +1 x6380e -1 x6381a -1 x6381b = +0
-
 +1 x6381a +1 x638bd -1 x63b6b = +0
-
 +1 x6380f +1 x6381b -1 x63825 = +0
-
 +1 x63825 -1 x63827 +1 x638c9 -1 x63b70 = +0
-
 +1 x63827 -1 x63828 -1 x63829 = +0
-
 +1 x63829 +1 x6385e -1 x63894 +0 x63895 -1 x63be0 = +0
-
 +1 x63828 -1 x63834 -1 x63835 = +0
-
 +1 x63834 -1 x63840 -1 x63841 = +0
-
 +1 x63840 -1 x63844 -1 x63845 = +0
-
 +1 x63844 -1 x63848 -1 x63849 = +0
-
 +1 x63848 -1 x6384c -1 x6384d = +0
-
 +1 x63845 +1 x63849 +1 x6384d -1 x63852 = +0
-
 +1 x63852 +1 x63888 -1 x63b9e = +0
-
 +1 x63835 +1 x63841 +1 x6384c -1 x6385a = +0
-
 +1 x6385a -1 x6385c +1 x63891 -1 x63ba7 = +0
-
 +1 x6385c -1 x6385d -1 x6385e = +0
-
 +1 x6385d -1 x6386a -1 x6386b = +0
-
 +1 x6386a -1 x63876 -1 x63877 = +0
-
 +1 x63876 -1 x6387a -1 x6387b = +0
-
 +1 x6387a -1 x6387e -1 x6387f = +0
-
 +1 x6387e -1 x63882 -1 x63883 = +0
-
 +1 x6387b +1 x6387f +1 x63883 -1 x63888 = +0
-
 +1 x6386b +1 x63877 +1 x63882 -1 x63891 = +0
-
 +1 x63894 -1 x6389e -1 x63beb = +0
-
 +1 x6389e -1 x6389f -1 x638a0 = +0
-
 +1 x6389f -1 x638b1 -1 x638b2 = +0
-
 +1 x638b1 -1 x638bd -1 x638be = +0
-
 +1 x638b2 +1 x638be -1 x638c9 = +0
-
 +1 x638cc -1 x638db -1 x638dc = +0
-
 +1 x638dc -1 x638e0 -1 x638e1 = +0
-
 +1 x638db -1 x638e2 -1 x638e3 = +0
-
 +1 x638e1 +1 x638e3 -1 x638e9 -1 x638ea = +0
-
 +1 x638e0 +1 x638e2 -1 x638e8 = +0
-
 +1 x638e8 -1 x638eb -1 x638ec = +0
-
 +1 x638ea +1 x638ec -1 x638f7 = +0
-
 +1 x638e9 +1 x638eb -1 x638fb = +0
-
 +1 x638f7 +1 x638fb -1 x63900 = +0
-
 +1 x63900 -1 x63903 -1 x63904 = +0
-
 +1 x63903 +1 x63904 -1 x63914 = +0
-
 +1 x63914 -1 x63922 -1 x63923 = +0
-
 +1 x63922 -1 x6392e -1 x6392f = +0
-
 +1 x63923 +1 x6392e +1 x6392f -1 x6393d = +0
-
 +1 x6393d -1 x6393f -1 x63c8e = +0
-
 +1 x6393f -1 x63940 -1 x63941 = +0
-
 +1 x63941 +1 x63967 -1 x6398e +0 x6398f -1 x63ce0 = +0
-
 +1 x63940 -1 x6394c -1 x6394d = +0
-
 +1 x6394c -1 x63958 -1 x63959 = +0
-
 +1 x63958 +1 x6397f +1 x63ca8 +1 x63cd1 +1 x64007 +1 x64030 +1 x64366 +1 x6438f
 +1 x646c5 +1 x646ee +1 x64a24 +1 x64a4d +1 x64d83 +1 x64dac +1 x650e2 +1 x6510b
 -1 x749e6 = +0
-
 +1 x6394d +1 x63959 -1 x63963 = +0
-
 +1 x63963 -1 x63965 +1 x6398b -1 x63cb6 = +0
-
 +1 x63965 -1 x63966 -1 x63967 = +0
-
 +1 x63966 -1 x63973 -1 x63974 = +0
-
 +1 x63973 -1 x6397f -1 x63980 = +0
-
 +1 x63974 +1 x63980 -1 x6398b = +0
-
 +1 x6398e -1 x63998 -1 x63ceb = +0
-
 +1 x63998 -1 x63999 -1 x6399a = +0
-
 +1 x6399a +1 x63a3c -1 x63a68 +0 x63a69 -1 x63dc2 = +0
-
 +1 x63999 -1 x639aa -1 x639ab = +0
-
 +1 x639aa -1 x639b6 -1 x639b7 = +0
-
 +1 x639b6 +1 x63a59 -1 x63d13 = +0
-
 +1 x639ab +1 x639b7 -1 x639c1 = +0
-
 +1 x639c1 -1 x639c3 +1 x63a65 -1 x63d18 = +0
-
 +1 x639c3 -1 x639c4 -1 x639c5 = +0
-
 +1 x639c5 +1 x639fa -1 x63a30 +0 x63a31 -1 x63d88 = +0
-
 +1 x639c4 -1 x639d0 -1 x639d1 = +0
-
 +1 x639d0 -1 x639dc -1 x639dd = +0
-
 +1 x639dc -1 x639e0 -1 x639e1 = +0
-
 +1 x639e0 -1 x639e4 -1 x639e5 = +0
-
 +1 x639e4 -1 x639e8 -1 x639e9 = +0
-
 +1 x639e1 +1 x639e5 +1 x639e9 -1 x639ee = +0
-
 +1 x639ee +1 x63a24 -1 x63d46 = +0
-
 +1 x639d1 +1 x639dd +1 x639e8 -1 x639f6 = +0
-
 +1 x639f6 -1 x639f8 +1 x63a2d -1 x63d4f = +0
-
 +1 x639f8 -1 x639f9 -1 x639fa = +0
-
 +1 x639f9 -1 x63a06 -1 x63a07 = +0
-
 +1 x63a06 -1 x63a12 -1 x63a13 = +0
-
 +1 x63a12 -1 x63a16 -1 x63a17 = +0
-
 +1 x63a16 -1 x63a1a -1 x63a1b = +0
-
 +1 x63a1a -1 x63a1e -1 x63a1f = +0
-
 +1 x63a17 +1 x63a1b +1 x63a1f -1 x63a24 = +0
-
 +1 x63a07 +1 x63a13 +1 x63a1e -1 x63a2d = +0
-
 +1 x63a30 -1 x63a3a -1 x63d93 = +0
-
 +1 x63a3a -1 x63a3b -1 x63a3c = +0
-
 +1 x63a3b -1 x63a4d -1 x63a4e = +0
-
 +1 x63a4d -1 x63a59 -1 x63a5a = +0
-
 +1 x63a4e +1 x63a5a -1 x63a65 = +0
-
 +1 x63a68 -1 x63a77 -1 x63a78 = +0
-
 +1 x63a78 -1 x63a7c -1 x63a7d = +0
-
 +1 x63a77 -1 x63a7e -1 x63a7f = +0
-
 +1 x63a7d -1 x63a86 -1 x63a87 = +0
-
 +1 x63a7f -1 x63a88 -1 x63a89 = +0
-
 +1 x63a7e -1 x63a8a -1 x63a8b = +0
-
 +1 x63a7c -1 x63a8c -1 x63a8d = +0
-
 +1 x63a86 +1 x63a88 -1 x63a91 = +0
-
 +1 x63a87 +1 x63a89 -1 x63a8e = +0
-
 +1 x63a8b +1 x63a8d -1 x63a98 = +0
-
 +1 x63a8e +1 x63a98 -1 x63a9c = +0
-
 +1 x63a8a +1 x63a8c -1 x63a9e = +0
-
 +1 x63a91 +1 x63a9e -1 x63aa0 = +0
-
 +1 x63a9c -1 x63aa3 -1 x63aa4 = +0
-
 +1 x63aa0 -1 x63aa5 -1 x63aa6 = +0
-
 +1 x63aa3 +1 x63aa5 -1 x63e02 = +0
-
 +1 x63aa4 +1 x63aa6 -1 x63aa7 = +0
-
 +1 x63aa7 -1 x63aab -1 x63e07 = +0
-
 +1 x63aab -1 x63aac -1 x63aad = +0
-
 +1 x63aac -1 x63aca -1 x63acb = +0
-
 +1 x63aca -1 x63ad6 -1 x63ad7 = +0
-
 +1 x63acb +1 x63ad6 +1 x63ad7 -1 x63ae5 = +0
-
 +1 x63ae5 -1 x63ae7 -1 x63e45 = +0
-
 +1 x63ae7 -1 x63ae8 -1 x63ae9 = +0
-
 +1 x63ae8 -1 x63af4 -1 x63af5 = +0
-
 +1 x63af4 -1 x63b00 -1 x63b01 = +0
-
 +1 x63af5 +1 x63b01 -1 x63b0c = +0
-
 +1 x63b0c +1 x63b0e -1 x63b0f +1 x63b35 -1 x63e6d = +0
-
 +1 x63b0f -1 x63b10 -1 x63b11 = +0
-
 +1 x63ae9 +1 x63b11 +1 x63b38 -1 x63b39 +0 x63b3a -1 x63e97 = +0
-
 +1 x63b10 -1 x63b1d -1 x63b1e = +0
-
 +1 x63b1d -1 x63b29 -1 x63b2a = +0
-
 +1 x63b1e +1 x63b2a -1 x63b35 = +0
-
 +1 x63b39 +1 x63b43 -1 x63b44 -1 x63ea2 = +0
-
 +1 x63b44 -1 x63b45 -1 x63b46 = +0
-
 +1 x63b46 +1 x63bee +1 x63c1a -1 x63c1b +0 x63c1c -1 x63f79 = +0
-
 +1 x63b45 -1 x63b56 -1 x63b57 = +0
-
 +1 x63b56 -1 x63b62 -1 x63b63 = +0
-
 +1 x63b62 +1 x63b6b +1 x63c0b -1 x63eca = +0
-
 +1 x63b57 +1 x63b63 -1 x63b6e = +0
-
 +1 x63b6e +1 x63b70 -1 x63b71 +1 x63c17 -1 x63ecf = +0
-
 +1 x63b71 -1 x63b72 -1 x63b73 = +0
-
 +1 x63b73 +1 x63baa +1 x63be0 -1 x63be1 +0 x63be2 -1 x63f3f = +0
-
 +1 x63b72 -1 x63b7e -1 x63b7f = +0
-
 +1 x63b7e -1 x63b8a -1 x63b8b = +0
-
 +1 x63b8a -1 x63b8e -1 x63b8f = +0
-
 +1 x63b8e -1 x63b92 -1 x63b93 = +0
-
 +1 x63b92 -1 x63b96 -1 x63b97 = +0
-
 +1 x63b8f +1 x63b93 +1 x63b97 -1 x63b9c = +0
-
 +1 x63b9c +1 x63b9e +1 x63bd4 -1 x63efd = +0
-
 +1 x63b7f +1 x63b8b +1 x63b96 -1 x63ba5 = +0
-
 +1 x63ba5 +1 x63ba7 -1 x63ba8 +1 x63bdd -1 x63f06 = +0
-
 +1 x63ba8 -1 x63ba9 -1 x63baa = +0
-
 +1 x63ba9 -1 x63bb6 -1 x63bb7 = +0
-
 +1 x63bb6 -1 x63bc2 -1 x63bc3 = +0
-
 +1 x63bc2 -1 x63bc6 -1 x63bc7 = +0
-
 +1 x63bc6 -1 x63bca -1 x63bcb = +0
-
 +1 x63bca -1 x63bce -1 x63bcf = +0
-
 +1 x63bc7 +1 x63bcb +1 x63bcf -1 x63bd4 = +0
-
 +1 x63bb7 +1 x63bc3 +1 x63bce -1 x63bdd = +0
-
 +1 x63be1 +1 x63beb -1 x63bec -1 x63f4a = +0
-
 +1 x63bec -1 x63bed -1 x63bee = +0
-
 +1 x63bed -1 x63bff -1 x63c00 = +0
-
 +1 x63bff -1 x63c0b -1 x63c0c = +0
-
 +1 x63c00 +1 x63c0c -1 x63c17 = +0
-
 +1 x63c1b -1 x63c2a -1 x63c2b = +0
-
 +1 x63c2b -1 x63c2f -1 x63c30 = +0
-
 +1 x63c2a -1 x63c31 -1 x63c32 = +0
-
 +1 x63c30 +1 x63c32 -1 x63c38 -1 x63c39 = +0
-
 +1 x63c2f +1 x63c31 -1 x63c37 = +0
-
 +1 x63c37 -1 x63c3a -1 x63c3b = +0
-
 +1 x63c39 +1 x63c3b -1 x63c46 = +0
-
 +1 x63c38 +1 x63c3a -1 x63c4a = +0
-
 +1 x63c46 +1 x63c4a -1 x63c4f = +0
-
 +1 x63c4f -1 x63c52 -1 x63c53 = +0
-
 +1 x63c52 +1 x63c53 -1 x63c63 = +0
-
 +1 x63c63 -1 x63c71 -1 x63c72 = +0
-
 +1 x63c71 -1 x63c7d -1 x63c7e = +0
-
 +1 x63c72 +1 x63c7d +1 x63c7e -1 x63c8c = +0
-
 +1 x63c8c +1 x63c8e -1 x63c8f -1 x63fed = +0
-
 +1 x63c8f -1 x63c90 -1 x63c91 = +0
-
 +1 x63c91 +1 x63cb9 +1 x63ce0 -1 x63ce1 +0 x63ce2 -1 x6403f = +0
-
 +1 x63c90 -1 x63c9c -1 x63c9d = +0
-
 +1 x63c9c -1 x63ca8 -1 x63ca9 = +0
-
 +1 x63c9d +1 x63ca9 -1 x63cb4 = +0
-
 +1 x63cb4 +1 x63cb6 -1 x63cb7 +1 x63cdd -1 x64015 = +0
-
 +1 x63cb7 -1 x63cb8 -1 x63cb9 = +0
-
 +1 x63cb8 -1 x63cc5 -1 x63cc6 = +0
-
 +1 x63cc5 -1 x63cd1 -1 x63cd2 = +0
-
 +1 x63cc6 +1 x63cd2 -1 x63cdd = +0
-
 +1 x63ce1 +1 x63ceb -1 x63cec -1 x6404a = +0
-
 +1 x63cec -1 x63ced -1 x63cee = +0
-
 +1 x63cee +1 x63d96 +1 x63dc2 -1 x63dc3 +0 x63dc4 -1 x64121 = +0
-
 +1 x63ced -1 x63cfe -1 x63cff = +0
-
 +1 x63cfe -1 x63d0a -1 x63d0b = +0
-
 +1 x63d0a +1 x63d13 +1 x63db3 -1 x64072 = +0
-
 +1 x63cff +1 x63d0b -1 x63d16 = +0
-
 +1 x63d16 +1 x63d18 -1 x63d19 +1 x63dbf -1 x64077 = +0
-
 +1 x63d19 -1 x63d1a -1 x63d1b = +0
-
 +1 x63d1b +1 x63d52 +1 x63d88 -1 x63d89 +0 x63d8a -1 x640e7 = +0
-
 +1 x63d1a -1 x63d26 -1 x63d27 = +0
-
 +1 x63d26 -1 x63d32 -1 x63d33 = +0
-
 +1 x63d32 -1 x63d36 -1 x63d37 = +0
-
 +1 x63d36 -1 x63d3a -1 x63d3b = +0
-
 +1 x63d3a -1 x63d3e -1 x63d3f = +0
-
 +1 x63d37 +1 x63d3b +1 x63d3f -1 x63d44 = +0
-
 +1 x63d44 +1 x63d46 +1 x63d7c -1 x640a5 = +0
-
 +1 x63d27 +1 x63d33 +1 x63d3e -1 x63d4d = +0
-
 +1 x63d4d +1 x63d4f -1 x63d50 +1 x63d85 -1 x640ae = +0
-
 +1 x63d50 -1 x63d51 -1 x63d52 = +0
-
 +1 x63d51 -1 x63d5e -1 x63d5f = +0
-
 +1 x63d5e -1 x63d6a -1 x63d6b = +0
-
 +1 x63d6a -1 x63d6e -1 x63d6f = +0
-
 +1 x63d6e -1 x63d72 -1 x63d73 = +0
-
 +1 x63d72 -1 x63d76 -1 x63d77 = +0
-
 +1 x63d6f +1 x63d73 +1 x63d77 -1 x63d7c = +0
-
 +1 x63d5f +1 x63d6b +1 x63d76 -1 x63d85 = +0
-
 +1 x63d89 +1 x63d93 -1 x63d94 -1 x640f2 = +0
-
 +1 x63d94 -1 x63d95 -1 x63d96 = +0
-
 +1 x63d95 -1 x63da7 -1 x63da8 = +0
-
 +1 x63da7 -1 x63db3 -1 x63db4 = +0
-
 +1 x63da8 +1 x63db4 -1 x63dbf = +0
-
 +1 x63dc3 -1 x63dd2 -1 x63dd3 = +0
-
 +1 x63dd3 -1 x63dd7 -1 x63dd8 = +0
-
 +1 x63dd2 -1 x63dd9 -1 x63dda = +0
-
 +1 x63dd8 -1 x63de1 -1 x63de2 = +0
-
 +1 x63dda -1 x63de3 -1 x63de4 = +0
-
 +1 x63dd9 -1 x63de5 -1 x63de6 = +0
-
 +1 x63dd7 -1 x63de7 -1 x63de8 = +0
-
 +1 x63de1 +1 x63de3 -1 x63dec = +0
-
 +1 x63de2 +1 x63de4 -1 x63de9 = +0
-
 +1 x63de6 +1 x63de8 -1 x63df3 = +0
-
 +1 x63de9 +1 x63df3 -1 x63df7 = +0
-
 +1 x63de5 +1 x63de7 -1 x63df9 = +0
-
 +1 x63dec +1 x63df9 -1 x63dfb = +0
-
 +1 x63df7 -1 x63dfe -1 x63dff = +0
-
 +1 x63dfb -1 x63e00 -1 x63e01 = +0
-
 +1 x63dfe +1 x63e00 +1 x63e02 -1 x64161 = +0
-
 +1 x63dff +1 x63e01 -1 x63e03 = +0
-
 +1 x63e03 +1 x63e07 -1 x63e08 -1 x64166 = +0
-
 +1 x63e08 -1 x63e09 -1 x63e0a = +0
-
 +1 x63aad +1 x63e0a -1 x6416b = +0
-
 +1 x63e09 -1 x63e28 -1 x63e29 = +0
-
 +1 x63e28 -1 x63e34 -1 x63e35 = +0
-
 +1 x63e29 +1 x63e34 +1 x63e35 -1 x63e43 = +0
-
 +1 x63e43 +1 x63e45 -1 x63e46 -1 x641a4 = +0
-
 +1 x63e46 -1 x63e47 -1 x63e48 = +0
-
 +1 x63e47 -1 x63e53 -1 x63e54 = +0
-
 +1 x63e53 -1 x63e5f -1 x63e60 = +0
-
 +1 x63e54 +1 x63e60 -1 x63e6b = +0
-
 +1 x63e6b +1 x63e6d -1 x63e6e +1 x63e94 -1 x641cc = +0
-
 +1 x63e6e -1 x63e6f -1 x63e70 = +0
-
 +1 x63e48 +1 x63e70 +1 x63e97 -1 x63e98 +0 x63e99 -1 x641f6 = +0
-
 +1 x63e6f -1 x63e7c -1 x63e7d = +0
-
 +1 x63e7c -1 x63e88 -1 x63e89 = +0
-
 +1 x63e7d +1 x63e89 -1 x63e94 = +0
-
 +1 x63e98 +1 x63ea2 -1 x63ea3 -1 x64201 = +0
-
 +1 x63ea3 -1 x63ea4 -1 x63ea5 = +0
-
 +1 x63ea5 +1 x63f4d +1 x63f79 -1 x63f7a +0 x63f7b -1 x642d8 = +0
-
 +1 x63ea4 -1 x63eb5 -1 x63eb6 = +0
-
 +1 x63eb5 -1 x63ec1 -1 x63ec2 = +0
-
 +1 x63ec1 +1 x63eca +1 x63f6a -1 x64229 = +0
-
 +1 x63eb6 +1 x63ec2 -1 x63ecd = +0
-
 +1 x63ecd +1 x63ecf -1 x63ed0 +1 x63f76 -1 x6422e = +0
-
 +1 x63ed0 -1 x63ed1 -1 x63ed2 = +0
-
 +1 x63ed2 +1 x63f09 +1 x63f3f -1 x63f40 +0 x63f41 -1 x6429e = +0
-
 +1 x63ed1 -1 x63edd -1 x63ede = +0
-
 +1 x63edd -1 x63ee9 -1 x63eea = +0
-
 +1 x63ee9 -1 x63eed -1 x63eee = +0
-
 +1 x63eed -1 x63ef1 -1 x63ef2 = +0
-
 +1 x63ef1 -1 x63ef5 -1 x63ef6 = +0
-
 +1 x63eee +1 x63ef2 +1 x63ef6 -1 x63efb = +0
-
 +1 x63efb +1 x63efd +1 x63f33 -1 x6425c = +0
-
 +1 x63ede +1 x63eea +1 x63ef5 -1 x63f04 = +0
-
 +1 x63f04 +1 x63f06 -1 x63f07 +1 x63f3c -1 x64265 = +0
-
 +1 x63f07 -1 x63f08 -1 x63f09 = +0
-
 +1 x63f08 -1 x63f15 -1 x63f16 = +0
-
 +1 x63f15 -1 x63f21 -1 x63f22 = +0
-
 +1 x63f21 -1 x63f25 -1 x63f26 = +0
-
 +1 x63f25 -1 x63f29 -1 x63f2a = +0
-
 +1 x63f29 -1 x63f2d -1 x63f2e = +0
-
 +1 x63f26 +1 x63f2a +1 x63f2e -1 x63f33 = +0
-
 +1 x63f16 +1 x63f22 +1 x63f2d -1 x63f3c = +0
-
 +1 x63f40 +1 x63f4a -1 x63f4b -1 x642a9 = +0
-
 +1 x63f4b -1 x63f4c -1 x63f4d = +0
-
 +1 x63f4c -1 x63f5e -1 x63f5f = +0
-
 +1 x63f5e -1 x63f6a -1 x63f6b = +0
-
 +1 x63f5f +1 x63f6b -1 x63f76 = +0
-
 +1 x63f7a -1 x63f89 -1 x63f8a = +0
-
 +1 x63f8a -1 x63f8e -1 x63f8f = +0
-
 +1 x63f89 -1 x63f90 -1 x63f91 = +0
-
 +1 x63f8f +1 x63f91 -1 x63f97 -1 x63f98 = +0
-
 +1 x63f8e +1 x63f90 -1 x63f96 = +0
-
 +1 x63f96 -1 x63f99 -1 x63f9a = +0
-
 +1 x63f98 +1 x63f9a -1 x63fa5 = +0
-
 +1 x63f97 +1 x63f99 -1 x63fa9 = +0
-
 +1 x63fa5 +1 x63fa9 -1 x63fae = +0
-
 +1 x63fae -1 x63fb1 -1 x63fb2 = +0
-
 +1 x63fb1 +1 x63fb2 -1 x63fc2 = +0
-
 +1 x63fc2 -1 x63fd0 -1 x63fd1 = +0
-
 +1 x63fd0 -1 x63fdc -1 x63fdd = +0
-
 +1 x63fd1 +1 x63fdc +1 x63fdd -1 x63feb = +0
-
 +1 x63feb +1 x63fed -1 x63fee -1 x6434c = +0
-
 +1 x63fee -1 x63fef -1 x63ff0 = +0
-
 +1 x63ff0 +1 x64018 +1 x6403f -1 x64040 +0 x64041 -1 x6439e = +0
-
 +1 x63fef -1 x63ffb -1 x63ffc = +0
-
 +1 x63ffb -1 x64007 -1 x64008 = +0
-
 +1 x63ffc +1 x64008 -1 x64013 = +0
-
 +1 x64013 +1 x64015 -1 x64016 +1 x6403c -1 x64374 = +0
-
 +1 x64016 -1 x64017 -1 x64018 = +0
-
 +1 x64017 -1 x64024 -1 x64025 = +0
-
 +1 x64024 -1 x64030 -1 x64031 = +0
-
 +1 x64025 +1 x64031 -1 x6403c = +0
-
 +1 x64040 +1 x6404a -1 x6404b -1 x643a9 = +0
-
 +1 x6404b -1 x6404c -1 x6404d = +0
-
 +1 x6404d +1 x640f5 +1 x64121 -1 x64122 +0 x64123 -1 x64480 = +0
-
 +1 x6404c -1 x6405d -1 x6405e = +0
-
 +1 x6405d -1 x64069 -1 x6406a = +0
-
 +1 x64069 +1 x64072 +1 x64112 -1 x643d1 = +0
-
 +1 x6405e +1 x6406a -1 x64075 = +0
-
 +1 x64075 +1 x64077 -1 x64078 +1 x6411e -1 x643d6 = +0
-
 +1 x64078 -1 x64079 -1 x6407a = +0
-
 +1 x6407a +1 x640b1 +1 x640e7 -1 x640e8 +0 x640e9 -1 x64446 = +0
-
 +1 x64079 -1 x64085 -1 x64086 = +0
-
 +1 x64085 -1 x64091 -1 x64092 = +0
-
 +1 x64091 -1 x64095 -1 x64096 = +0
-
 +1 x64095 -1 x64099 -1 x6409a = +0
-
 +1 x64099 -1 x6409d -1 x6409e = +0
-
 +1 x64096 +1 x6409a +1 x6409e -1 x640a3 = +0
-
 +1 x640a3 +1 x640a5 +1 x640db -1 x64404 = +0
-
 +1 x64086 +1 x64092 +1 x6409d -1 x640ac = +0
-
 +1 x640ac +1 x640ae -1 x640af +1 x640e4 -1 x6440d = +0
-
 +1 x640af -1 x640b0 -1 x640b1 = +0
-
 +1 x640b0 -1 x640bd -1 x640be = +0
-
 +1 x640bd -1 x640c9 -1 x640ca = +0
-
 +1 x640c9 -1 x640cd -1 x640ce = +0
-
 +1 x640cd -1 x640d1 -1 x640d2 = +0
-
 +1 x640d1 -1 x640d5 -1 x640d6 = +0
-
 +1 x640ce +1 x640d2 +1 x640d6 -1 x640db = +0
-
 +1 x640be +1 x640ca +1 x640d5 -1 x640e4 = +0
-
 +1 x640e8 +1 x640f2 -1 x640f3 -1 x64451 = +0
-
 +1 x640f3 -1 x640f4 -1 x640f5 = +0
-
 +1 x640f4 -1 x64106 -1 x64107 = +0
-
 +1 x64106 -1 x64112 -1 x64113 = +0
-
 +1 x64107 +1 x64113 -1 x6411e = +0
-
 +1 x64122 -1 x64131 -1 x64132 = +0
-
 +1 x64132 -1 x64136 -1 x64137 = +0
-
 +1 x64131 -1 x64138 -1 x64139 = +0
-
 +1 x64137 -1 x64140 -1 x64141 = +0
-
 +1 x64139 -1 x64142 -1 x64143 = +0
-
 +1 x64138 -1 x64144 -1 x64145 = +0
-
 +1 x64136 -1 x64146 -1 x64147 = +0
-
 +1 x64140 +1 x64142 -1 x6414b = +0
-
 +1 x64141 +1 x64143 -1 x64148 = +0
-
 +1 x64145 +1 x64147 -1 x64152 = +0
-
 +1 x64148 +1 x64152 -1 x64156 = +0
-
 +1 x64144 +1 x64146 -1 x64158 = +0
-
 +1 x6414b +1 x64158 -1 x6415a = +0
-
 +1 x64156 -1 x6415d -1 x6415e = +0
-
 +1 x6415a -1 x6415f -1 x64160 = +0
-
 +1 x6415d +1 x6415f +1 x64161 -1 x644c0 = +0
-
 +1 x6415e +1 x64160 -1 x64162 = +0
-
 +1 x64162 +1 x64166 -1 x64167 -1 x644c5 = +0
-
 +1 x64167 -1 x64168 -1 x64169 = +0
-
 +1 x64169 +1 x6416b -1 x644ca = +0
-
 +1 x64168 -1 x64187 -1 x64188 = +0
-
 +1 x64187 -1 x64193 -1 x64194 = +0
-
 +1 x64188 +1 x64193 +1 x64194 -1 x641a2 = +0
-
 +1 x641a2 +1 x641a4 -1 x641a5 -1 x64503 = +0
-
 +1 x641a5 -1 x641a6 -1 x641a7 = +0
-
 +1 x641a6 -1 x641b2 -1 x641b3 = +0
-
 +1 x641b2 -1 x641be -1 x641bf = +0
-
 +1 x641b3 +1 x641bf -1 x641ca = +0
-
 +1 x641ca +1 x641cc -1 x641cd +1 x641f3 -1 x6452b = +0
-
 +1 x641cd -1 x641ce -1 x641cf = +0
-
 +1 x641a7 +1 x641cf +1 x641f6 -1 x641f7 +0 x641f8 -1 x64555 = +0
-
 +1 x641ce -1 x641db -1 x641dc = +0
-
 +1 x641db -1 x641e7 -1 x641e8 = +0
-
 +1 x641dc +1 x641e8 -1 x641f3 = +0
-
 +1 x641f7 +1 x64201 -1 x64202 -1 x64560 = +0
-
 +1 x64202 -1 x64203 -1 x64204 = +0
-
 +1 x64204 +1 x642ac +1 x642d8 -1 x642d9 +0 x642da -1 x64637 = +0
-
 +1 x64203 -1 x64214 -1 x64215 = +0
-
 +1 x64214 -1 x64220 -1 x64221 = +0
-
 +1 x64220 +1 x64229 +1 x642c9 -1 x64588 = +0
-
 +1 x64215 +1 x64221 -1 x6422c = +0
-
 +1 x6422c +1 x6422e -1 x6422f +1 x642d5 -1 x6458d = +0
-
 +1 x6422f -1 x64230 -1 x64231 = +0
-
 +1 x64231 +1 x64268 +1 x6429e -1 x6429f +0 x642a0 -1 x645fd = +0
-
 +1 x64230 -1 x6423c -1 x6423d = +0
-
 +1 x6423c -1 x64248 -1 x64249 = +0
-
 +1 x64248 -1 x6424c -1 x6424d = +0
-
 +1 x6424c -1 x64250 -1 x64251 = +0
-
 +1 x64250 -1 x64254 -1 x64255 = +0
-
 +1 x6424d +1 x64251 +1 x64255 -1 x6425a = +0
-
 +1 x6425a +1 x6425c +1 x64292 -1 x645bb = +0
-
 +1 x6423d +1 x64249 +1 x64254 -1 x64263 = +0
-
 +1 x64263 +1 x64265 -1 x64266 +1 x6429b -1 x645c4 = +0
-
 +1 x64266 -1 x64267 -1 x64268 = +0
-
 +1 x64267 -1 x64274 -1 x64275 = +0
-
 +1 x64274 -1 x64280 -1 x64281 = +0
-
 +1 x64280 -1 x64284 -1 x64285 = +0
-
 +1 x64284 -1 x64288 -1 x64289 = +0
-
 +1 x64288 -1 x6428c -1 x6428d = +0
-
 +1 x64285 +1 x64289 +1 x6428d -1 x64292 = +0
-
 +1 x64275 +1 x64281 +1 x6428c -1 x6429b = +0
-
 +1 x6429f +1 x642a9 -1 x642aa -1 x64608 = +0
-
 +1 x642aa -1 x642ab -1 x642ac = +0
-
 +1 x642ab -1 x642bd -1 x642be = +0
-
 +1 x642bd -1 x642c9 -1 x642ca = +0
-
 +1 x642be +1 x642ca -1 x642d5 = +0
-
 +1 x642d9 -1 x642e8 -1 x642e9 = +0
-
 +1 x642e9 -1 x642ed -1 x642ee = +0
-
 +1 x642e8 -1 x642ef -1 x642f0 = +0
-
 +1 x642ee +1 x642f0 -1 x642f6 -1 x642f7 = +0
-
 +1 x642ed +1 x642ef -1 x642f5 = +0
-
 +1 x642f5 -1 x642f8 -1 x642f9 = +0
-
 +1 x642f7 +1 x642f9 -1 x64304 = +0
-
 +1 x642f6 +1 x642f8 -1 x64308 = +0
-
 +1 x64304 +1 x64308 -1 x6430d = +0
-
 +1 x6430d -1 x64310 -1 x64311 = +0
-
 +1 x64310 +1 x64311 -1 x64321 = +0
-
 +1 x64321 -1 x6432f -1 x64330 = +0
-
 +1 x6432f -1 x6433b -1 x6433c = +0
-
 +1 x64330 +1 x6433b +1 x6433c -1 x6434a = +0
-
 +1 x6434a +1 x6434c -1 x6434d -1 x646ab = +0
-
 +1 x6434d -1 x6434e -1 x6434f = +0
-
 +1 x6434f +1 x64377 +1 x6439e -1 x6439f +0 x643a0 -1 x646fd = +0
-
 +1 x6434e -1 x6435a -1 x6435b = +0
-
 +1 x6435a -1 x64366 -1 x64367 = +0
-
 +1 x6435b +1 x64367 -1 x64372 = +0
-
 +1 x64372 +1 x64374 -1 x64375 +1 x6439b -1 x646d3 = +0
-
 +1 x64375 -1 x64376 -1 x64377 = +0
-
 +1 x64376 -1 x64383 -1 x64384 = +0
-
 +1 x64383 -1 x6438f -1 x64390 = +0
-
 +1 x64384 +1 x64390 -1 x6439b = +0
-
 +1 x6439f +1 x643a9 -1 x643aa -1 x64708 = +0
-
 +1 x643aa -1 x643ab -1 x643ac = +0
-
 +1 x643ac +1 x64454 +1 x64480 -1 x64481 +0 x64482 -1 x647df = +0
-
 +1 x643ab -1 x643bc -1 x643bd = +0
-
 +1 x643bc -1 x643c8 -1 x643c9 = +0
-
 +1 x643c8 +1 x643d1 +1 x64471 -1 x64730 = +0
-
 +1 x643bd +1 x643c9 -1 x643d4 = +0
-
 +1 x643d4 +1 x643d6 -1 x643d7 +1 x6447d -1 x64735 = +0
-
 +1 x643d7 -1 x643d8 -1 x643d9 = +0
-
 +1 x643d9 +1 x64410 +1 x64446 -1 x64447 +0 x64448 -1 x647a5 = +0
-
 +1 x643d8 -1 x643e4 -1 x643e5 = +0
-
 +1 x643e4 -1 x643f0 -1 x643f1 = +0
-
 +1 x643f0 -1 x643f4 -1 x643f5 = +0
-
 +1 x643f4 -1 x643f8 -1 x643f9 = +0
-
 +1 x643f8 -1 x643fc -1 x643fd = +0
-
 +1 x643f5 +1 x643f9 +1 x643fd -1 x64402 = +0
-
 +1 x64402 +1 x64404 +1 x6443a -1 x64763 = +0
-
 +1 x643e5 +1 x643f1 +1 x643fc -1 x6440b = +0
-
 +1 x6440b +1 x6440d -1 x6440e +1 x64443 -1 x6476c = +0
-
 +1 x6440e -1 x6440f -1 x64410 = +0
-
 +1 x6440f -1 x6441c -1 x6441d = +0
-
 +1 x6441c -1 x64428 -1 x64429 = +0
-
 +1 x64428 -1 x6442c -1 x6442d = +0
-
 +1 x6442c -1 x64430 -1 x64431 = +0
-
 +1 x64430 -1 x64434 -1 x64435 = +0
-
 +1 x6442d +1 x64431 +1 x64435 -1 x6443a = +0
-
 +1 x6441d +1 x64429 +1 x64434 -1 x64443 = +0
-
 +1 x64447 +1 x64451 -1 x64452 -1 x647b0 = +0
-
 +1 x64452 -1 x64453 -1 x64454 = +0
-
 +1 x64453 -1 x64465 -1 x64466 = +0
-
 +1 x64465 -1 x64471 -1 x64472 = +0
-
 +1 x64466 +1 x64472 -1 x6447d = +0
-
 +1 x64481 -1 x64490 -1 x64491 = +0
-
 +1 x64491 -1 x64495 -1 x64496 = +0
-
 +1 x64490 -1 x64497 -1 x64498 = +0
-
 +1 x64496 -1 x6449f -1 x644a0 = +0
-
 +1 x64498 -1 x644a1 -1 x644a2 = +0
-
 +1 x64497 -1 x644a3 -1 x644a4 = +0
-
 +1 x64495 -1 x644a5 -1 x644a6 = +0
-
 +1 x6449f +1 x644a1 -1 x644aa = +0
-
 +1 x644a0 +1 x644a2 -1 x644a7 = +0
-
 +1 x644a4 +1 x644a6 -1 x644b1 = +0
-
 +1 x644a7 +1 x644b1 -1 x644b5 = +0
-
 +1 x644a3 +1 x644a5 -1 x644b7 = +0
-
 +1 x644aa +1 x644b7 -1 x644b9 = +0
-
 +1 x644b5 -1 x644bc -1 x644bd = +0
-
 +1 x644b9 -1 x644be -1 x644bf = +0
-
 +1 x644bc +1 x644be +1 x644c0 -1 x6481f = +0
-
 +1 x644bd +1 x644bf -1 x644c1 = +0
-
 +1 x644c1 +1 x644c5 -1 x644c6 -1 x64824 = +0
-
 +1 x644c6 -1 x644c7 -1 x644c8 = +0
-
 +1 x644c8 +1 x644ca -1 x64829 = +0
-
 +1 x644c7 -1 x644e6 -1 x644e7 = +0
-
 +1 x644e6 -1 x644f2 -1 x644f3 = +0
-
 +1 x644e7 +1 x644f2 +1 x644f3 -1 x64501 = +0
-
 +1 x64501 +1 x64503 -1 x64504 -1 x64862 = +0
-
 +1 x64504 -1 x64505 -1 x64506 = +0
-
 +1 x64505 -1 x64511 -1 x64512 = +0
-
 +1 x64511 -1 x6451d -1 x6451e = +0
-
 +1 x64512 +1 x6451e -1 x64529 = +0
-
 +1 x64529 +1 x6452b -1 x6452c +1 x64552 -1 x6488a = +0
-
 +1 x6452c -1 x6452d -1 x6452e = +0
-
 +1 x64506 +1 x6452e +1 x64555 -1 x64556 +0 x64557 -1 x648b4 = +0
-
 +1 x6452d -1 x6453a -1 x6453b = +0
-
 +1 x6453a -1 x64546 -1 x64547 = +0
-
 +1 x6453b +1 x64547 -1 x64552 = +0
-
 +1 x64556 +1 x64560 -1 x64561 -1 x648bf = +0
-
 +1 x64561 -1 x64562 -1 x64563 = +0
-
 +1 x64563 +1 x6460b +1 x64637 -1 x64638 +0 x64639 -1 x64996 = +0
-
 +1 x64562 -1 x64573 -1 x64574 = +0
-
 +1 x64573 -1 x6457f -1 x64580 = +0
-
 +1 x6457f +1 x64588 +1 x64628 -1 x648e7 = +0
-
 +1 x64574 +1 x64580 -1 x6458b = +0
-
 +1 x6458b +1 x6458d -1 x6458e +1 x64634 -1 x648ec = +0
-
 +1 x6458e -1 x6458f -1 x64590 = +0
-
 +1 x64590 +1 x645c7 +1 x645fd -1 x645fe +0 x645ff -1 x6495c = +0
-
 +1 x6458f -1 x6459b -1 x6459c = +0
-
 +1 x6459b -1 x645a7 -1 x645a8 = +0
-
 +1 x645a7 -1 x645ab -1 x645ac = +0
-
 +1 x645ab -1 x645af -1 x645b0 = +0
-
 +1 x645af -1 x645b3 -1 x645b4 = +0
-
 +1 x645ac +1 x645b0 +1 x645b4 -1 x645b9 = +0
-
 +1 x645b9 +1 x645bb +1 x645f1 -1 x6491a = +0
-
 +1 x6459c +1 x645a8 +1 x645b3 -1 x645c2 = +0
-
 +1 x645c2 +1 x645c4 -1 x645c5 +1 x645fa -1 x64923 = +0
-
 +1 x645c5 -1 x645c6 -1 x645c7 = +0
-
 +1 x645c6 -1 x645d3 -1 x645d4 = +0
-
 +1 x645d3 -1 x645df -1 x645e0 = +0
-
 +1 x645df -1 x645e3 -1 x645e4 = +0
-
 +1 x645e3 -1 x645e7 -1 x645e8 = +0
-
 +1 x645e7 -1 x645eb -1 x645ec = +0
-
 +1 x645e4 +1 x645e8 +1 x645ec -1 x645f1 = +0
-
 +1 x645d4 +1 x645e0 +1 x645eb -1 x645fa = +0
-
 +1 x645fe +1 x64608 -1 x64609 -1 x64967 = +0
-
 +1 x64609 -1 x6460a -1 x6460b = +0
-
 +1 x6460a -1 x6461c -1 x6461d = +0
-
 +1 x6461c -1 x64628 -1 x64629 = +0
-
 +1 x6461d +1 x64629 -1 x64634 = +0
-
 +1 x64638 -1 x64647 -1 x64648 = +0
-
 +1 x64648 -1 x6464c -1 x6464d = +0
-
 +1 x64647 -1 x6464e -1 x6464f = +0
-
 +1 x6464d +1 x6464f -1 x64655 -1 x64656 = +0
-
 +1 x6464c +1 x6464e -1 x64654 = +0
-
 +1 x64654 -1 x64657 -1 x64658 = +0
-
 +1 x64656 +1 x64658 -1 x64663 = +0
-
 +1 x64655 +1 x64657 -1 x64667 = +0
-
 +1 x64663 +1 x64667 -1 x6466c = +0
-
 +1 x6466c -1 x6466f -1 x64670 = +0
-
 +1 x6466f +1 x64670 -1 x64680 = +0
-
 +1 x64680 -1 x6468e -1 x6468f = +0
-
 +1 x6468e -1 x6469a -1 x6469b = +0
-
 +1 x6468f +1 x6469a +1 x6469b -1 x646a9 = +0
-
 +1 x646a9 +1 x646ab -1 x646ac -1 x64a0a = +0
-
 +1 x646ac -1 x646ad -1 x646ae = +0
-
 +1 x646ae +1 x646d6 +1 x646fd -1 x646fe +0 x646ff -1 x64a5c = +0
-
 +1 x646ad -1 x646b9 -1 x646ba = +0
-
 +1 x646b9 -1 x646c5 -1 x646c6 = +0
-
 +1 x646ba +1 x646c6 -1 x646d1 = +0
-
 +1 x646d1 +1 x646d3 -1 x646d4 +1 x646fa -1 x64a32 = +0
-
 +1 x646d4 -1 x646d5 -1 x646d6 = +0
-
 +1 x646d5 -1 x646e2 -1 x646e3 = +0
-
 +1 x646e2 -1 x646ee -1 x646ef = +0
-
 +1 x646e3 +1 x646ef -1 x646fa = +0
-
 +1 x646fe +1 x64708 -1 x64709 -1 x64a67 = +0
-
 +1 x64709 -1 x6470a -1 x6470b = +0
-
 +1 x6470b +1 x647b3 +1 x647df -1 x647e0 +0 x647e1 -1 x64b3e = +0
-
 +1 x6470a -1 x6471b -1 x6471c = +0
-
 +1 x6471b -1 x64727 -1 x64728 = +0
-
 +1 x64727 +1 x64730 +1 x647d0 -1 x64a8f = +0
-
 +1 x6471c +1 x64728 -1 x64733 = +0
-
 +1 x64733 +1 x64735 -1 x64736 +1 x647dc -1 x64a94 = +0
-
 +1 x64736 -1 x64737 -1 x64738 = +0
-
 +1 x64738 +1 x6476f +1 x647a5 -1 x647a6 +0 x647a7 -1 x64b04 = +0
-
 +1 x64737 -1 x64743 -1 x64744 = +0
-
 +1 x64743 -1 x6474f -1 x64750 = +0
-
 +1 x6474f -1 x64753 -1 x64754 = +0
-
 +1 x64753 -1 x64757 -1 x64758 = +0
-
 +1 x64757 -1 x6475b -1 x6475c = +0
-
 +1 x64754 +1 x64758 +1 x6475c -1 x64761 = +0
-
 +1 x64761 +1 x64763 +1 x64799 -1 x64ac2 = +0
-
 +1 x64744 +1 x64750 +1 x6475b -1 x6476a = +0
-
 +1 x6476a +1 x6476c -1 x6476d +1 x647a2 -1 x64acb = +0
-
 +1 x6476d -1 x6476e -1 x6476f = +0
-
 +1 x6476e -1 x6477b -1 x6477c = +0
-
 +1 x6477b -1 x64787 -1 x64788 = +0
-
 +1 x64787 -1 x6478b -1 x6478c = +0
-
 +1 x6478b -1 x6478f -1 x64790 = +0
-
 +1 x6478f -1 x64793 -1 x64794 = +0
-
 +1 x6478c +1 x64790 +1 x64794 -1 x64799 = +0
-
 +1 x6477c +1 x64788 +1 x64793 -1 x647a2 = +0
-
 +1 x647a6 +1 x647b0 -1 x647b1 -1 x64b0f = +0
-
 +1 x647b1 -1 x647b2 -1 x647b3 = +0
-
 +1 x647b2 -1 x647c4 -1 x647c5 = +0
-
 +1 x647c4 -1 x647d0 -1 x647d1 = +0
-
 +1 x647c5 +1 x647d1 -1 x647dc = +0
-
 +1 x647e0 -1 x647ef -1 x647f0 = +0
-
 +1 x647f0 -1 x647f4 -1 x647f5 = +0
-
 +1 x647ef -1 x647f6 -1 x647f7 = +0
-
 +1 x647f5 -1 x647fe -1 x647ff = +0
-
 +1 x647f7 -1 x64800 -1 x64801 = +0
-
 +1 x647f6 -1 x64802 -1 x64803 = +0
-
 +1 x647f4 -1 x64804 -1 x64805 = +0
-
 +1 x647fe +1 x64800 -1 x64809 = +0
-
 +1 x647ff +1 x64801 -1 x64806 = +0
-
 +1 x64803 +1 x64805 -1 x64810 = +0
-
 +1 x64806 +1 x64810 -1 x64814 = +0
-
 +1 x64802 +1 x64804 -1 x64816 = +0
-
 +1 x64809 +1 x64816 -1 x64818 = +0
-
 +1 x64814 -1 x6481b -1 x6481c = +0
-
 +1 x64818 -1 x6481d -1 x6481e = +0
-
 +1 x6481b +1 x6481d +1 x6481f -1 x64b7e = +0
-
 +1 x6481c +1 x6481e -1 x64820 = +0
-
 +1 x64820 +1 x64824 -1 x64825 -1 x64b83 = +0
-
 +1 x64825 -1 x64826 -1 x64827 = +0
-
 +1 x64827 +1 x64829 -1 x64b88 = +0
-
 +1 x64826 -1 x64845 -1 x64846 = +0
-
 +1 x64845 -1 x64851 -1 x64852 = +0
-
 +1 x64846 +1 x64851 +1 x64852 -1 x64860 = +0
-
 +1 x64860 +1 x64862 -1 x64863 -1 x64bc1 = +0
-
 +1 x64863 -1 x64864 -1 x64865 = +0
-
 +1 x64864 -1 x64870 -1 x64871 = +0
-
 +1 x64870 -1 x6487c -1 x6487d = +0
-
 +1 x64871 +1 x6487d -1 x64888 = +0
-
 +1 x64888 +1 x6488a -1 x6488b +1 x648b1 -1 x64be9 = +0
-
 +1 x6488b -1 x6488c -1 x6488d = +0
-
 +1 x64865 +1 x6488d +1 x648b4 -1 x648b5 +0 x648b6 -1 x64c13 = +0
-
 +1 x6488c -1 x64899 -1 x6489a = +0
-
 +1 x64899 -1 x648a5 -1 x648a6 = +0
-
 +1 x6489a +1 x648a6 -1 x648b1 = +0
-
 +1 x648b5 +1 x648bf -1 x648c0 -1 x64c1e = +0
-
 +1 x648c0 -1 x648c1 -1 x648c2 = +0
-
 +1 x648c2 +1 x6496a +1 x64996 -1 x64997 +0 x64998 -1 x64cf5 = +0
-
 +1 x648c1 -1 x648d2 -1 x648d3 = +0
-
 +1 x648d2 -1 x648de -1 x648df = +0
-
 +1 x648de +1 x648e7 +1 x64987 -1 x64c46 = +0
-
 +1 x648d3 +1 x648df -1 x648ea = +0
-
 +1 x648ea +1 x648ec -1 x648ed +1 x64993 -1 x64c4b = +0
-
 +1 x648ed -1 x648ee -1 x648ef = +0
-
 +1 x648ef +1 x64926 +1 x6495c -1 x6495d +0 x6495e -1 x64cbb = +0
-
 +1 x648ee -1 x648fa -1 x648fb = +0
-
 +1 x648fa -1 x64906 -1 x64907 = +0
-
 +1 x64906 -1 x6490a -1 x6490b = +0
-
 +1 x6490a -1 x6490e -1 x6490f = +0
-
 +1 x6490e -1 x64912 -1 x64913 = +0
-
 +1 x6490b +1 x6490f +1 x64913 -1 x64918 = +0
-
 +1 x64918 +1 x6491a +1 x64950 -1 x64c79 = +0
-
 +1 x648fb +1 x64907 +1 x64912 -1 x64921 = +0
-
 +1 x64921 +1 x64923 -1 x64924 +1 x64959 -1 x64c82 = +0
-
 +1 x64924 -1 x64925 -1 x64926 = +0
-
 +1 x64925 -1 x64932 -1 x64933 = +0
-
 +1 x64932 -1 x6493e -1 x6493f = +0
-
 +1 x6493e -1 x64942 -1 x64943 = +0
-
 +1 x64942 -1 x64946 -1 x64947 = +0
-
 +1 x64946 -1 x6494a -1 x6494b = +0
-
 +1 x64943 +1 x64947 +1 x6494b -1 x64950 = +0
-
 +1 x64933 +1 x6493f +1 x6494a -1 x64959 = +0
-
 +1 x6495d +1 x64967 -1 x64968 -1 x64cc6 = +0
-
 +1 x64968 -1 x64969 -1 x6496a = +0
-
 +1 x64969 -1 x6497b -1 x6497c = +0
-
 +1 x6497b -1 x64987 -1 x64988 = +0
-
 +1 x6497c +1 x64988 -1 x64993 = +0
-
 +1 x64997 -1 x649a6 -1 x649a7 = +0
-
 +1 x649a7 -1 x649ab -1 x649ac = +0
-
 +1 x649a6 -1 x649ad -1 x649ae = +0
-
 +1 x649ac +1 x649ae -1 x649b4 -1 x649b5 = +0
-
 +1 x649ab +1 x649ad -1 x649b3 = +0
-
 +1 x649b3 -1 x649b6 -1 x649b7 = +0
-
 +1 x649b5 +1 x649b7 -1 x649c2 = +0
-
 +1 x649b4 +1 x649b6 -1 x649c6 = +0
-
 +1 x649c2 +1 x649c6 -1 x649cb = +0
-
 +1 x649cb -1 x649ce -1 x649cf = +0
-
 +1 x649ce +1 x649cf -1 x649df = +0
-
 +1 x649df -1 x649ed -1 x649ee = +0
-
 +1 x649ed -1 x649f9 -1 x649fa = +0
-
 +1 x649ee +1 x649f9 +1 x649fa -1 x64a08 = +0
-
 +1 x64a08 +1 x64a0a -1 x64a0b -1 x64d69 = +0
-
 +1 x64a0b -1 x64a0c -1 x64a0d = +0
-
 +1 x64a0d +1 x64a35 +1 x64a5c -1 x64a5d +0 x64a5e -1 x64dbb = +0
-
 +1 x64a0c -1 x64a18 -1 x64a19 = +0
-
 +1 x64a18 -1 x64a24 -1 x64a25 = +0
-
 +1 x64a19 +1 x64a25 -1 x64a30 = +0
-
 +1 x64a30 +1 x64a32 -1 x64a33 +1 x64a59 -1 x64d91 = +0
-
 +1 x64a33 -1 x64a34 -1 x64a35 = +0
-
 +1 x64a34 -1 x64a41 -1 x64a42 = +0
-
 +1 x64a41 -1 x64a4d -1 x64a4e = +0
-
 +1 x64a42 +1 x64a4e -1 x64a59 = +0
-
 +1 x64a5d +1 x64a67 -1 x64a68 -1 x64dc6 = +0
-
 +1 x64a68 -1 x64a69 -1 x64a6a = +0
-
 +1 x64a6a +1 x64b12 +1 x64b3e -1 x64b3f +0 x64b40 -1 x64e9d = +0
-
 +1 x64a69 -1 x64a7a -1 x64a7b = +0
-
 +1 x64a7a -1 x64a86 -1 x64a87 = +0
-
 +1 x64a86 +1 x64a8f +1 x64b2f -1 x64dee = +0
-
 +1 x64a7b +1 x64a87 -1 x64a92 = +0
-
 +1 x64a92 +1 x64a94 -1 x64a95 +1 x64b3b -1 x64df3 = +0
-
 +1 x64a95 -1 x64a96 -1 x64a97 = +0
-
 +1 x64a97 +1 x64ace +1 x64b04 -1 x64b05 +0 x64b06 -1 x64e63 = +0
-
 +1 x64a96 -1 x64aa2 -1 x64aa3 = +0
-
 +1 x64aa2 -1 x64aae -1 x64aaf = +0
-
 +1 x64aae -1 x64ab2 -1 x64ab3 = +0
-
 +1 x64ab2 -1 x64ab6 -1 x64ab7 = +0
-
 +1 x64ab6 -1 x64aba -1 x64abb = +0
-
 +1 x64ab3 +1 x64ab7 +1 x64abb -1 x64ac0 = +0
-
 +1 x64ac0 +1 x64ac2 +1 x64af8 -1 x64e21 = +0
-
 +1 x64aa3 +1 x64aaf +1 x64aba -1 x64ac9 = +0
-
 +1 x64ac9 +1 x64acb -1 x64acc +1 x64b01 -1 x64e2a = +0
-
 +1 x64acc -1 x64acd -1 x64ace = +0
-
 +1 x64acd -1 x64ada -1 x64adb = +0
-
 +1 x64ada -1 x64ae6 -1 x64ae7 = +0
-
 +1 x64ae6 -1 x64aea -1 x64aeb = +0
-
 +1 x64aea -1 x64aee -1 x64aef = +0
-
 +1 x64aee -1 x64af2 -1 x64af3 = +0
-
 +1 x64aeb +1 x64aef +1 x64af3 -1 x64af8 = +0
-
 +1 x64adb +1 x64ae7 +1 x64af2 -1 x64b01 = +0
-
 +1 x64b05 +1 x64b0f -1 x64b10 -1 x64e6e = +0
-
 +1 x64b10 -1 x64b11 -1 x64b12 = +0
-
 +1 x64b11 -1 x64b23 -1 x64b24 = +0
-
 +1 x64b23 -1 x64b2f -1 x64b30 = +0
-
 +1 x64b24 +1 x64b30 -1 x64b3b = +0
-
 +1 x64b3f -1 x64b4e -1 x64b4f = +0
-
 +1 x64b4f -1 x64b53 -1 x64b54 = +0
-
 +1 x64b4e -1 x64b55 -1 x64b56 = +0
-
 +1 x64b54 -1 x64b5d -1 x64b5e = +0
-
 +1 x64b56 -1 x64b5f -1 x64b60 = +0
-
 +1 x64b55 -1 x64b61 -1 x64b62 = +0
-
 +1 x64b53 -1 x64b63 -1 x64b64 = +0
-
 +1 x64b5d +1 x64b5f -1 x64b68 = +0
-
 +1 x64b5e +1 x64b60 -1 x64b65 = +0
-
 +1 x64b62 +1 x64b64 -1 x64b6f = +0
-
 +1 x64b65 +1 x64b6f -1 x64b73 = +0
-
 +1 x64b61 +1 x64b63 -1 x64b75 = +0
-
 +1 x64b68 +1 x64b75 -1 x64b77 = +0
-
 +1 x64b73 -1 x64b7a -1 x64b7b = +0
-
 +1 x64b77 -1 x64b7c -1 x64b7d = +0
-
 +1 x64b7a +1 x64b7c +1 x64b7e -1 x64edd = +0
-
 +1 x64b7b +1 x64b7d -1 x64b7f = +0
-
 +1 x64b7f +1 x64b83 -1 x64b84 -1 x64ee2 = +0
-
 +1 x64b84 -1 x64b85 -1 x64b86 = +0
-
 +1 x64b86 +1 x64b88 -1 x64ee7 = +0
-
 +1 x64b85 -1 x64ba4 -1 x64ba5 = +0
-
 +1 x64ba4 -1 x64bb0 -1 x64bb1 = +0
-
 +1 x64ba5 +1 x64bb0 +1 x64bb1 -1 x64bbf = +0
-
 +1 x64bbf +1 x64bc1 -1 x64bc2 -1 x64f20 = +0
-
 +1 x64bc2 -1 x64bc3 -1 x64bc4 = +0
-
 +1 x64bc3 -1 x64bcf -1 x64bd0 = +0
-
 +1 x64bcf -1 x64bdb -1 x64bdc = +0
-
 +1 x64bd0 +1 x64bdc -1 x64be7 = +0
-
 +1 x64be7 +1 x64be9 -1 x64bea +1 x64c10 -1 x64f48 = +0
-
 +1 x64bea -1 x64beb -1 x64bec = +0
-
 +1 x64bc4 +1 x64bec +1 x64c13 -1 x64c14 +0 x64c15 -1 x64f72 = +0
-
 +1 x64beb -1 x64bf8 -1 x64bf9 = +0
-
 +1 x64bf8 -1 x64c04 -1 x64c05 = +0
-
 +1 x64bf9 +1 x64c05 -1 x64c10 = +0
-
 +1 x64c14 +1 x64c1e -1 x64c1f -1 x64f7d = +0
-
 +1 x64c1f -1 x64c20 -1 x64c21 = +0
-
 +1 x64c21 +1 x64cc9 +1 x64cf5 -1 x64cf6 +0 x64cf7 -1 x65054 = +0
-
 +1 x64c20 -1 x64c31 -1 x64c32 = +0
-
 +1 x64c31 -1 x64c3d -1 x64c3e = +0
-
 +1 x64c3d +1 x64c46 +1 x64ce6 -1 x64fa5 = +0
-
 +1 x64c32 +1 x64c3e -1 x64c49 = +0
-
 +1 x64c49 +1 x64c4b -1 x64c4c +1 x64cf2 -1 x64faa = +0
-
 +1 x64c4c -1 x64c4d -1 x64c4e = +0
-
 +1 x64c4e +1 x64c85 +1 x64cbb -1 x64cbc +0 x64cbd -1 x6501a = +0
-
 +1 x64c4d -1 x64c59 -1 x64c5a = +0
-
 +1 x64c59 -1 x64c65 -1 x64c66 = +0
-
 +1 x64c65 -1 x64c69 -1 x64c6a = +0
-
 +1 x64c69 -1 x64c6d -1 x64c6e = +0
-
 +1 x64c6d -1 x64c71 -1 x64c72 = +0
-
 +1 x64c6a +1 x64c6e +1 x64c72 -1 x64c77 = +0
-
 +1 x64c77 +1 x64c79 +1 x64caf -1 x64fd8 = +0
-
 +1 x64c5a +1 x64c66 +1 x64c71 -1 x64c80 = +0
-
 +1 x64c80 +1 x64c82 -1 x64c83 +1 x64cb8 -1 x64fe1 = +0
-
 +1 x64c83 -1 x64c84 -1 x64c85 = +0
-
 +1 x64c84 -1 x64c91 -1 x64c92 = +0
-
 +1 x64c91 -1 x64c9d -1 x64c9e = +0
-
 +1 x64c9d -1 x64ca1 -1 x64ca2 = +0
-
 +1 x64ca1 -1 x64ca5 -1 x64ca6 = +0
-
 +1 x64ca5 -1 x64ca9 -1 x64caa = +0
-
 +1 x64ca2 +1 x64ca6 +1 x64caa -1 x64caf = +0
-
 +1 x64c92 +1 x64c9e +1 x64ca9 -1 x64cb8 = +0
-
 +1 x64cbc +1 x64cc6 -1 x64cc7 -1 x65025 = +0
-
 +1 x64cc7 -1 x64cc8 -1 x64cc9 = +0
-
 +1 x64cc8 -1 x64cda -1 x64cdb = +0
-
 +1 x64cda -1 x64ce6 -1 x64ce7 = +0
-
 +1 x64cdb +1 x64ce7 -1 x64cf2 = +0
-
 +1 x64cf6 -1 x64d05 -1 x64d06 = +0
-
 +1 x64d06 -1 x64d0a -1 x64d0b = +0
-
 +1 x64d05 -1 x64d0c -1 x64d0d = +0
-
 +1 x64d0b +1 x64d0d -1 x64d13 -1 x64d14 = +0
-
 +1 x64d0a +1 x64d0c -1 x64d12 = +0
-
 +1 x64d12 -1 x64d15 -1 x64d16 = +0
-
 +1 x64d14 +1 x64d16 -1 x64d21 = +0
-
 +1 x64d13 +1 x64d15 -1 x64d25 = +0
-
 +1 x64d21 +1 x64d25 -1 x64d2a = +0
-
 +1 x64d2a -1 x64d2d -1 x64d2e = +0
-
 +1 x64d2d +1 x64d2e -1 x64d3e = +0
-
 +1 x64d3e -1 x64d4c -1 x64d4d = +0
-
 +1 x64d4c -1 x64d58 -1 x64d59 = +0
-
 +1 x64d4d +1 x64d58 +1 x64d59 -1 x64d67 = +0
-
 +1 x64d67 +1 x64d69 -1 x64d6a -1 x650c8 = +0
-
 +1 x64d6a -1 x64d6b -1 x64d6c = +0
-
 +1 x64d6c +1 x64d94 +1 x64dbb -1 x64dbc +0 x64dbd -1 x6511a = +0
-
 +1 x64d6b -1 x64d77 -1 x64d78 = +0
-
 +1 x64d77 -1 x64d83 -1 x64d84 = +0
-
 +1 x64d78 +1 x64d84 -1 x64d8f = +0
-
 +1 x64d8f +1 x64d91 -1 x64d92 +1 x64db8 -1 x650f0 = +0
-
 +1 x64d92 -1 x64d93 -1 x64d94 = +0
-
 +1 x64d93 -1 x64da0 -1 x64da1 = +0
-
 +1 x64da0 -1 x64dac -1 x64dad = +0
-
 +1 x64da1 +1 x64dad -1 x64db8 = +0
-
 +1 x64dbc +1 x64dc6 -1 x64dc7 -1 x65125 = +0
-
 +1 x64dc7 -1 x64dc8 -1 x64dc9 = +0
-
 +1 x64dc9 +1 x64e71 +1 x64e9d -1 x64e9e +0 x64e9f -1 x651fc = +0
-
 +1 x64dc8 -1 x64dd9 -1 x64dda = +0
-
 +1 x64dd9 -1 x64de5 -1 x64de6 = +0
-
 +1 x64de5 +1 x64dee +1 x64e8e -1 x6514d = +0
-
 +1 x64dda +1 x64de6 -1 x64df1 = +0
-
 +1 x64df1 +1 x64df3 -1 x64df4 +1 x64e9a -1 x65152 = +0
-
 +1 x64df4 -1 x64df5 -1 x64df6 = +0
-
 +1 x64df6 +1 x64e2d +1 x64e63 -1 x64e64 +0 x64e65 -1 x651c2 = +0
-
 +1 x64df5 -1 x64e01 -1 x64e02 = +0
-
 +1 x64e01 -1 x64e0d -1 x64e0e = +0
-
 +1 x64e0d -1 x64e11 -1 x64e12 = +0
-
 +1 x64e11 -1 x64e15 -1 x64e16 = +0
-
 +1 x64e15 -1 x64e19 -1 x64e1a = +0
-
 +1 x64e12 +1 x64e16 +1 x64e1a -1 x64e1f = +0
-
 +1 x64e1f +1 x64e21 +1 x64e57 -1 x65180 = +0
-
 +1 x64e02 +1 x64e0e +1 x64e19 -1 x64e28 = +0
-
 +1 x64e28 +1 x64e2a -1 x64e2b +1 x64e60 -1 x65189 = +0
-
 +1 x64e2b -1 x64e2c -1 x64e2d = +0
-
 +1 x64e2c -1 x64e39 -1 x64e3a = +0
-
 +1 x64e39 -1 x64e45 -1 x64e46 = +0
-
 +1 x64e45 -1 x64e49 -1 x64e4a = +0
-
 +1 x64e49 -1 x64e4d -1 x64e4e = +0
-
 +1 x64e4d -1 x64e51 -1 x64e52 = +0
-
 +1 x64e4a +1 x64e4e +1 x64e52 -1 x64e57 = +0
-
 +1 x64e3a +1 x64e46 +1 x64e51 -1 x64e60 = +0
-
 +1 x64e64 +1 x64e6e -1 x64e6f -1 x651cd = +0
-
 +1 x64e6f -1 x64e70 -1 x64e71 = +0
-
 +1 x64e70 -1 x64e82 -1 x64e83 = +0
-
 +1 x64e82 -1 x64e8e -1 x64e8f = +0
-
 +1 x64e83 +1 x64e8f -1 x64e9a = +0
-
 +1 x64e9e -1 x64ead -1 x64eae = +0
-
 +1 x64eae -1 x64eb2 -1 x64eb3 = +0
-
 +1 x64ead -1 x64eb4 -1 x64eb5 = +0
-
 +1 x64eb3 -1 x64ebc -1 x64ebd = +0
-
 +1 x64eb5 -1 x64ebe -1 x64ebf = +0
-
 +1 x64eb4 -1 x64ec0 -1 x64ec1 = +0
-
 +1 x64eb2 -1 x64ec2 -1 x64ec3 = +0
-
 +1 x64ebc +1 x64ebe -1 x64ec7 = +0
-
 +1 x64ebd +1 x64ebf -1 x64ec4 = +0
-
 +1 x64ec1 +1 x64ec3 -1 x64ece = +0
-
 +1 x64ec4 +1 x64ece -1 x64ed2 = +0
-
 +1 x64ec0 +1 x64ec2 -1 x64ed4 = +0
-
 +1 x64ec7 +1 x64ed4 -1 x64ed6 = +0
-
 +1 x64ed2 -1 x64ed9 -1 x64eda = +0
-
 +1 x64ed6 -1 x64edb -1 x64edc = +0
-
 +1 x64ed9 +1 x64edb +1 x64edd -1 x6523c = +0
-
 +1 x64eda +1 x64edc -1 x64ede = +0
-
 +1 x64ede +1 x64ee2 -1 x64ee3 -1 x65241 = +0
-
 +1 x64ee3 -1 x64ee4 -1 x64ee5 = +0
-
 +1 x64ee5 +1 x64ee7 -1 x65246 = +0
-
 +1 x64ee4 -1 x64f03 -1 x64f04 = +0
-
 +1 x64f03 -1 x64f0f -1 x64f10 = +0
-
 +1 x64f04 +1 x64f0f +1 x64f10 -1 x64f1e = +0
-
 +1 x64f1e +1 x64f20 -1 x64f21 -1 x6527f = +0
-
 +1 x64f21 -1 x64f22 -1 x64f23 = +0
-
 +1 x64f22 -1 x64f2e -1 x64f2f = +0
-
 +1 x64f2e -1 x64f3a -1 x64f3b = +0
-
 +1 x64f2f +1 x64f3b -1 x64f46 = +0
-
 +1 x64f46 +1 x64f48 -1 x64f49 +1 x64f6f -1 x652a6 = +0
-
 +1 x64f49 -1 x64f4a -1 x64f4b = +0
-
 +1 x64f23 +1 x64f4b +1 x64f72 -1 x64f73 +0 x64f74 -1 x652d0 = +0
-
 +1 x64f4a -1 x64f57 -1 x64f58 = +0
-
 +1 x64f57 -1 x64f63 -1 x64f64 = +0
-
 +1 x64f58 +1 x64f64 -1 x64f6f = +0
-
 +1 x64f73 +1 x64f7d -1 x64f7e -1 x652db = +0
-
 +1 x64f7e -1 x64f7f -1 x64f80 = +0
-
 +1 x64f80 +1 x65028 +1 x65054 -1 x65055 +0 x65056 -1 x653b2 = +0
-
 +1 x64f7f -1 x64f90 -1 x64f91 = +0
-
 +1 x64f90 -1 x64f9c -1 x64f9d = +0
-
 +1 x64f9c +1 x64fa5 +1 x65045 -1 x65303 = +0
-
 +1 x64f91 +1 x64f9d -1 x64fa8 = +0
-
 +1 x64fa8 +1 x64faa -1 x64fab +1 x65051 -1 x65308 = +0
-
 +1 x64fab -1 x64fac -1 x64fad = +0
-
 +1 x64fad +1 x64fe4 +1 x6501a -1 x6501b +0 x6501c -1 x65378 = +0
-
 +1 x64fac -1 x64fb8 -1 x64fb9 = +0
-
 +1 x64fb8 -1 x64fc4 -1 x64fc5 = +0
-
 +1 x64fc4 -1 x64fc8 -1 x64fc9 = +0
-
 +1 x64fc8 -1 x64fcc -1 x64fcd = +0
-
 +1 x64fcc -1 x64fd0 -1 x64fd1 = +0
-
 +1 x64fc9 +1 x64fcd +1 x64fd1 -1 x64fd6 = +0
-
 +1 x64fd6 +1 x64fd8 +1 x6500e -1 x65336 = +0
-
 +1 x64fb9 +1 x64fc5 +1 x64fd0 -1 x64fdf = +0
-
 +1 x64fdf +1 x64fe1 -1 x64fe2 +1 x65017 -1 x6533f = +0
-
 +1 x64fe2 -1 x64fe3 -1 x64fe4 = +0
-
 +1 x64fe3 -1 x64ff0 -1 x64ff1 = +0
-
 +1 x64ff0 -1 x64ffc -1 x64ffd = +0
-
 +1 x64ffc -1 x65000 -1 x65001 = +0
-
 +1 x65000 -1 x65004 -1 x65005 = +0
-
 +1 x65004 -1 x65008 -1 x65009 = +0
-
 +1 x65001 +1 x65005 +1 x65009 -1 x6500e = +0
-
 +1 x64ff1 +1 x64ffd +1 x65008 -1 x65017 = +0
-
 +1 x6501b +1 x65025 -1 x65026 -1 x65383 = +0
-
 +1 x65026 -1 x65027 -1 x65028 = +0
-
 +1 x65027 -1 x65039 -1 x6503a = +0
-
 +1 x65039 -1 x65045 -1 x65046 = +0
-
 +1 x6503a +1 x65046 -1 x65051 = +0
-
 +1 x65055 -1 x65064 -1 x65065 = +0
-
 +1 x65065 -1 x65069 -1 x6506a = +0
-
 +1 x65064 -1 x6506b -1 x6506c = +0
-
 +1 x6506a +1 x6506c -1 x65072 -1 x65073 = +0
-
 +1 x65069 +1 x6506b -1 x65071 = +0
-
 +1 x65071 -1 x65074 -1 x65075 = +0
-
 +1 x65073 +1 x65075 -1 x65080 = +0
-
 +1 x65072 +1 x65074 -1 x65084 = +0
-
 +1 x65080 +1 x65084 -1 x65089 = +0
-
 +1 x65089 -1 x6508c -1 x6508d = +0
-
 +1 x6508c +1 x6508d -1 x6509d = +0
-
 +1 x6509d -1 x650ab -1 x650ac = +0
-
 +1 x650ab -1 x650b7 -1 x650b8 = +0
-
 +1 x650ac +1 x650b7 +1 x650b8 -1 x650c6 = +0
-
 +1 x650c6 +1 x650c8 -1 x650c9 -1 x65426 = +0
-
 +1 x650c9 -1 x650ca -1 x650cb = +0
-
 +1 x650cb +1 x650f3 +1 x6511a -1 x6511b +0 x6511c -1 x65477 = +0
-
 +1 x650ca -1 x650d6 -1 x650d7 = +0
-
 +1 x650d6 -1 x650e2 -1 x650e3 = +0
-
 +1 x650d7 +1 x650e3 -1 x650ee = +0
-
 +1 x650ee +1 x650f0 -1 x650f1 +1 x65117 -1 x6544d = +0
-
 +1 x650f1 -1 x650f2 -1 x650f3 = +0
-
 +1 x650f2 -1 x650ff -1 x65100 = +0
-
 +1 x650ff -1 x6510b -1 x6510c = +0
-
 +1 x65100 +1 x6510c -1 x65117 = +0
-
 +1 x6511b +1 x65125 -1 x65126 -1 x65482 = +0
-
 +1 x65126 -1 x65127 -1 x65128 = +0
-
 +1 x65128 +1 x651d0 +1 x651fc -1 x651fd +0 x651fe -1 x65559 = +0
-
 +1 x65127 -1 x65138 -1 x65139 = +0
-
 +1 x65138 -1 x65144 -1 x65145 = +0
-
 +1 x65144 +1 x6514d +1 x651ed -1 x654aa = +0
-
 +1 x65139 +1 x65145 -1 x65150 = +0
-
 +1 x65150 +1 x65152 -1 x65153 +1 x651f9 -1 x654af = +0
-
 +1 x65153 -1 x65154 -1 x65155 = +0
-
 +1 x65155 +1 x6518c +1 x651c2 -1 x651c3 +0 x651c4 -1 x6551f = +0
-
 +1 x65154 -1 x65160 -1 x65161 = +0
-
 +1 x65160 -1 x6516c -1 x6516d = +0
-
 +1 x6516c -1 x65170 -1 x65171 = +0
-
 +1 x65170 -1 x65174 -1 x65175 = +0
-
 +1 x65174 -1 x65178 -1 x65179 = +0
-
 +1 x65171 +1 x65175 +1 x65179 -1 x6517e = +0
-
 +1 x6517e +1 x65180 +1 x651b6 -1 x654dd = +0
-
 +1 x65161 +1 x6516d +1 x65178 -1 x65187 = +0
-
 +1 x65187 +1 x65189 -1 x6518a +1 x651bf -1 x654e6 = +0
-
 +1 x6518a -1 x6518b -1 x6518c = +0
-
 +1 x6518b -1 x65198 -1 x65199 = +0
-
 +1 x65198 -1 x651a4 -1 x651a5 = +0
-
 +1 x651a4 -1 x651a8 -1 x651a9 = +0
-
 +1 x651a8 -1 x651ac -1 x651ad = +0
-
 +1 x651ac -1 x651b0 -1 x651b1 = +0
-
 +1 x651a9 +1 x651ad +1 x651b1 -1 x651b6 = +0
-
 +1 x65199 +1 x651a5 +1 x651b0 -1 x651bf = +0
-
 +1 x651c3 +1 x651cd -1 x651ce -1 x6552a = +0
-
 +1 x651ce -1 x651cf -1 x651d0 = +0
-
 +1 x651cf -1 x651e1 -1 x651e2 = +0
-
 +1 x651e1 -1 x651ed -1 x651ee = +0
-
 +1 x651e2 +1 x651ee -1 x651f9 = +0
-
 +1 x651fd -1 x6520c -1 x6520d = +0
-
 +1 x6520d -1 x65211 -1 x65212 = +0
-
 +1 x6520c -1 x65213 -1 x65214 = +0
-
 +1 x65212 -1 x6521b -1 x6521c = +0
-
 +1 x65214 -1 x6521d -1 x6521e = +0
-
 +1 x65213 -1 x6521f -1 x65220 = +0
-
 +1 x65211 -1 x65221 -1 x65222 = +0
-
 +1 x6521b +1 x6521d -1 x65226 = +0
-
 +1 x6521c +1 x6521e -1 x65223 = +0
-
 +1 x65220 +1 x65222 -1 x6522d = +0
-
 +1 x65223 +1 x6522d -1 x65231 = +0
-
 +1 x6521f +1 x65221 -1 x65233 = +0
-
 +1 x65226 +1 x65233 -1 x65235 = +0
-
 +1 x65231 -1 x65238 -1 x65239 = +0
-
 +1 x65235 -1 x6523a -1 x6523b = +0
-
 +1 x65238 +1 x6523a +1 x6523c +1 x65599 -1 x6559f = +0
-
 +1 x65239 +1 x6523b -1 x6523d = +0
-
 +1 x6523d +1 x65241 -1 x65242 +1 x6559a -1 x68fa7 = +0
-
 +1 x65242 -1 x65243 -1 x65244 = +0
-
 +1 x65244 +1 x65246 -1 x655a0 +0 x655a1 +1 x658bf +1 x65c79 -1 x68fe7 = +0
-
 +1 x65243 -1 x65262 -1 x65263 = +0
-
 +1 x65262 -1 x6526e -1 x6526f = +0
-
 +1 x65263 +1 x6526e +1 x6526f -1 x6527d = +0
-
 +1 x6527d +1 x6527f -1 x65280 +1 x658f7 +1 x65cb1 -1 x68c87 = +0
-
 +1 x65280 -1 x65281 -1 x65282 = +0
-
 +1 x65281 -1 x6528d -1 x6528e = +0
-
 +1 x6528d -1 x65299 -1 x6529a = +0
-
 +1 x6528e +1 x6529a -1 x652a4 = +0
-
 +1 x652a4 +1 x652a6 -1 x652a7 +1 x652cd -1 x68caf = +0
-
 +1 x652a7 -1 x652a8 -1 x652a9 = +0
-
 +1 x65282 +1 x652a9 +1 x652d0 -1 x652d1 +0 x652d2 -1 x68cd9 = +0
-
 +1 x652a8 -1 x652b5 -1 x652b6 = +0
-
 +1 x652b5 -1 x652c1 -1 x652c2 = +0
-
 +1 x65299 +1 x652c1 -1 x68caa = +0
-
 +1 x652b6 +1 x652c2 -1 x652cd = +0
-
 +1 x652d1 +1 x652db -1 x652dc -1 x68ce4 = +0
-
 +1 x652dc -1 x652dd -1 x652de = +0
-
 +1 x652de +1 x65386 +1 x653b2 -1 x653b3 +0 x653b4 -1 x68dbb = +0
-
 +1 x652dd -1 x652ee -1 x652ef = +0
-
 +1 x652ee -1 x652fa -1 x652fb = +0
-
 +1 x652fa +1 x65303 +1 x653a3 -1 x68d0c = +0
-
 +1 x652ef +1 x652fb -1 x65306 = +0
-
 +1 x65306 +1 x65308 -1 x65309 +1 x653af -1 x68d11 = +0
-
 +1 x65309 -1 x6530a -1 x6530b = +0
-
 +1 x6530b +1 x65342 +1 x65378 -1 x65379 +0 x6537a -1 x68d81 = +0
-
 +1 x6530a -1 x65316 -1 x65317 = +0
-
 +1 x65316 -1 x65322 -1 x65323 = +0
-
 +1 x65322 -1 x65326 -1 x65327 = +0
-
 +1 x65326 -1 x6532a -1 x6532b = +0
-
 +1 x6532a -1 x6532e -1 x6532f = +0
-
 +1 x65327 +1 x6532b +1 x6532f -1 x65334 = +0
-
 +1 x65334 +1 x65336 +1 x6536c -1 x68d3f = +0
-
 +1 x65317 +1 x65323 +1 x6532e -1 x6533d = +0
-
 +1 x6533d +1 x6533f -1 x65340 +1 x65375 -1 x68d48 = +0
-
 +1 x65340 -1 x65341 -1 x65342 = +0
-
 +1 x65341 -1 x6534e -1 x6534f = +0
-
 +1 x6534e -1 x6535a -1 x6535b = +0
-
 +1 x6535a -1 x6535e -1 x6535f = +0
-
 +1 x6535e -1 x65362 -1 x65363 = +0
-
 +1 x65362 -1 x65366 -1 x65367 = +0
-
 +1 x6535f +1 x65363 +1 x65367 -1 x6536c = +0
-
 +1 x6534f +1 x6535b +1 x65366 -1 x65375 = +0
-
 +1 x65379 +1 x65383 -1 x65384 -1 x68d8c = +0
-
 +1 x65384 -1 x65385 -1 x65386 = +0
-
 +1 x65385 -1 x65397 -1 x65398 = +0
-
 +1 x65397 -1 x653a3 -1 x653a4 = +0
-
 +1 x65398 +1 x653a4 -1 x653af = +0
-
 +1 x653b3 -1 x653c2 -1 x653c3 = +0
-
 +1 x653c3 -1 x653c7 -1 x653c8 = +0
-
 +1 x653c2 -1 x653c9 -1 x653ca = +0
-
 +1 x653c8 +1 x653ca -1 x653d0 -1 x653d1 = +0
-
 +1 x653c7 +1 x653c9 -1 x653cf = +0
-
 +1 x653cf -1 x653d2 -1 x653d3 = +0
-
 +1 x653d1 +1 x653d3 -1 x653de = +0
-
 +1 x653d0 +1 x653d2 -1 x653e2 = +0
-
 +1 x653de +1 x653e2 -1 x653e7 = +0
-
 +1 x653e7 -1 x653ea -1 x653eb = +0
-
 +1 x653ea +1 x653eb -1 x653fb = +0
-
 +1 x653fb -1 x65409 -1 x6540a = +0
-
 +1 x65409 -1 x65415 -1 x65416 = +0
-
 +1 x6540a +1 x65415 +1 x65416 -1 x65424 = +0
-
 +1 x65424 +1 x65426 -1 x65427 -1 x68e2f = +0
-
 +1 x65427 -1 x65428 -1 x65429 = +0
-
 +1 x65429 +1 x65450 +1 x65477 -1 x65478 +0 x65479 -1 x68e81 = +0
-
 +1 x65428 -1 x65434 -1 x65435 = +0
-
 +1 x65434 -1 x65440 -1 x65441 = +0
-
 +1 x65440 +1 x65468 -1 x68e52 = +0
-
 +1 x65435 +1 x65441 -1 x6544b = +0
-
 +1 x6544b +1 x6544d -1 x6544e +1 x65474 -1 x68e57 = +0
-
 +1 x6544e -1 x6544f -1 x65450 = +0
-
 +1 x6544f -1 x6545c -1 x6545d = +0
-
 +1 x6545c -1 x65468 -1 x65469 = +0
-
 +1 x6545d +1 x65469 -1 x65474 = +0
-
 +1 x65478 +1 x65482 -1 x65483 -1 x68e8c = +0
-
 +1 x65483 -1 x65484 -1 x65485 = +0
-
 +1 x65485 +1 x6552d +1 x65559 -1 x6555a +0 x6555b -1 x68f63 = +0
-
 +1 x65484 -1 x65495 -1 x65496 = +0
-
 +1 x65495 -1 x654a1 -1 x654a2 = +0
-
 +1 x654a1 +1 x654aa +1 x6554a -1 x68eb4 = +0
-
 +1 x65496 +1 x654a2 -1 x654ad = +0
-
 +1 x654ad +1 x654af -1 x654b0 +1 x65556 -1 x68eb9 = +0
-
 +1 x654b0 -1 x654b1 -1 x654b2 = +0
-
 +1 x654b2 +1 x654e9 +1 x6551f -1 x65520 +0 x65521 -1 x68f29 = +0
-
 +1 x654b1 -1 x654bd -1 x654be = +0
-
 +1 x654bd -1 x654c9 -1 x654ca = +0
-
 +1 x654c9 -1 x654cd -1 x654ce = +0
-
 +1 x654cd -1 x654d1 -1 x654d2 = +0
-
 +1 x654d1 -1 x654d5 -1 x654d6 = +0
-
 +1 x654ce +1 x654d2 +1 x654d6 -1 x654db = +0
-
 +1 x654db +1 x654dd +1 x65513 -1 x68ee7 = +0
-
 +1 x654be +1 x654ca +1 x654d5 -1 x654e4 = +0
-
 +1 x654e4 +1 x654e6 -1 x654e7 +1 x6551c -1 x68ef0 = +0
-
 +1 x654e7 -1 x654e8 -1 x654e9 = +0
-
 +1 x654e8 -1 x654f5 -1 x654f6 = +0
-
 +1 x654f5 -1 x65501 -1 x65502 = +0
-
 +1 x65501 -1 x65505 -1 x65506 = +0
-
 +1 x65505 -1 x65509 -1 x6550a = +0
-
 +1 x65509 -1 x6550d -1 x6550e = +0
-
 +1 x65506 +1 x6550a +1 x6550e -1 x65513 = +0
-
 +1 x654f6 +1 x65502 +1 x6550d -1 x6551c = +0
-
 +1 x65520 +1 x6552a -1 x6552b -1 x68f34 = +0
-
 +1 x6552b -1 x6552c -1 x6552d = +0
-
 +1 x6552c -1 x6553e -1 x6553f = +0
-
 +1 x6553e -1 x6554a -1 x6554b = +0
-
 +1 x6553f +1 x6554b -1 x65556 = +0
-
 +1 x6555a -1 x65569 -1 x6556a = +0
-
 +1 x6556a -1 x6556e -1 x6556f = +0
-
 +1 x65569 -1 x65570 -1 x65571 = +0
-
 +1 x6556f -1 x65578 -1 x65579 = +0
-
 +1 x65571 -1 x6557a -1 x6557b = +0
-
 +1 x65570 -1 x6557c -1 x6557d = +0
-
 +1 x6556e -1 x6557e -1 x6557f = +0
-
 +1 x65578 +1 x6557a -1 x65583 = +0
-
 +1 x65579 +1 x6557b -1 x65580 = +0
-
 +1 x6557d +1 x6557f -1 x6558a = +0
-
 +1 x65580 +1 x6558a -1 x6558e = +0
-
 +1 x6557c +1 x6557e -1 x65590 = +0
-
 +1 x65583 +1 x65590 -1 x65592 = +0
-
 +1 x6558e -1 x65595 -1 x65596 = +0
-
 +1 x65592 -1 x65597 -1 x65598 = +0
-
 +1 x65595 +1 x65597 -1 x65599 = +0
-
 +1 x65596 +1 x65598 -1 x6559a = +0
-
 +1 x6559f -1 x655a2 +0 x655a3 -1 x68fe8 = +0
-
 +1 x5de48 -1 x655bc -1 x655bd = +0
-
 +1 x655bd -1 x65603 +0 x65604 = +0
-
 +1 x655bc -1 x655d2 -1 x655d3 = +0
-
 +1 x655d2 +1 x655f5 -1 x76fb0 = +0
-
 +1 x655d3 -1 x655de +1 x655f6 -1 x65989 = +0
-
 +1 x655de -1 x655df -1 x655e0 = +0
-
 +1 x655e0 -1 x65605 +0 x65606 -1 x659b0 = +0
-
 +1 x655df -1 x655f5 -1 x655f6 = +0
-
 +1 x65603 +1 x65605 -1 x65613 = +0
-
 +1 x65613 -1 x65615 -1 x659bb = +0
-
 +1 x65615 -1 x65616 -1 x65617 = +0
-
 +1 x65617 +1 x656b9 -1 x656e5 +0 x656e6 -1 x65a92 = +0
-
 +1 x65616 -1 x65627 -1 x65628 = +0
-
 +1 x65627 -1 x65633 -1 x65634 = +0
-
 +1 x65633 +1 x656d6 -1 x659e3 = +0
-
 +1 x65628 +1 x65634 -1 x6563e = +0
-
 +1 x6563e -1 x65640 +1 x656e2 -1 x659e8 = +0
-
 +1 x65640 -1 x65641 -1 x65642 = +0
-
 +1 x65642 +1 x65677 -1 x656ad +0 x656ae -1 x65a58 = +0
-
 +1 x65641 -1 x6564d -1 x6564e = +0
-
 +1 x6564d -1 x65659 -1 x6565a = +0
-
 +1 x65659 -1 x6565d -1 x6565e = +0
-
 +1 x6565d -1 x65661 -1 x65662 = +0
-
 +1 x65661 -1 x65665 -1 x65666 = +0
-
 +1 x6565e +1 x65662 +1 x65666 -1 x6566b = +0
-
 +1 x6566b +1 x656a1 -1 x65a16 = +0
-
 +1 x6564e +1 x6565a +1 x65665 -1 x65673 = +0
-
 +1 x65673 -1 x65675 +1 x656aa -1 x65a1f = +0
-
 +1 x65675 -1 x65676 -1 x65677 = +0
-
 +1 x65676 -1 x65683 -1 x65684 = +0
-
 +1 x65683 -1 x6568f -1 x65690 = +0
-
 +1 x6568f -1 x65693 -1 x65694 = +0
-
 +1 x65693 -1 x65697 -1 x65698 = +0
-
 +1 x65697 -1 x6569b -1 x6569c = +0
-
 +1 x65694 +1 x65698 +1 x6569c -1 x656a1 = +0
-
 +1 x65684 +1 x65690 +1 x6569b -1 x656aa = +0
-
 +1 x656ad -1 x656b7 -1 x65a63 = +0
-
 +1 x656b7 -1 x656b8 -1 x656b9 = +0
-
 +1 x656b8 -1 x656ca -1 x656cb = +0
-
 +1 x656ca -1 x656d6 -1 x656d7 = +0
-
 +1 x656cb +1 x656d7 -1 x656e2 = +0
-
 +1 x656e5 -1 x656f4 -1 x656f5 = +0
-
 +1 x656f5 -1 x656f9 -1 x656fa = +0
-
 +1 x656f4 -1 x656fb -1 x656fc = +0
-
 +1 x656fa +1 x656fc -1 x65702 -1 x65703 = +0
-
 +1 x656f9 +1 x656fb -1 x65701 = +0
-
 +1 x65701 -1 x65704 -1 x65705 = +0
-
 +1 x65703 +1 x65705 -1 x65710 = +0
-
 +1 x65702 +1 x65704 -1 x65714 = +0
-
 +1 x65710 +1 x65714 -1 x65719 = +0
-
 +1 x65719 -1 x6571c -1 x6571d = +0
-
 +1 x6571c +1 x6571d -1 x6572f = +0
-
 +1 x6572f -1 x65747 -1 x65748 = +0
-
 +1 x65747 +1 x65748 -1 x65755 = +0
-
 +1 x65755 -1 x65757 -1 x65b05 = +0
-
 +1 x65757 -1 x65758 -1 x65759 = +0
-
 +1 x65759 +1 x6577c -1 x657a0 +0 x657a1 -1 x65b50 = +0
-
 +1 x65758 -1 x6576e -1 x6576f = +0
-
 +1 x6576e +1 x65792 -1 x749e7 = +0
-
 +1 x6576f -1 x6577a +1 x65793 -1 x65b29 = +0
-
 +1 x6577a -1 x6577b -1 x6577c = +0
-
 +1 x6577b -1 x65792 -1 x65793 = +0
-
 +1 x657a0 -1 x657aa -1 x65b5b = +0
-
 +1 x657aa -1 x657ab -1 x657ac = +0
-
 +1 x657ac +1 x6584e -1 x6587a +0 x6587b -1 x65c32 = +0
-
 +1 x657ab -1 x657bc -1 x657bd = +0
-
 +1 x657bc -1 x657c8 -1 x657c9 = +0
-
 +1 x657c8 +1 x6586b -1 x65b83 = +0
-
 +1 x657bd +1 x657c9 -1 x657d3 = +0
-
 +1 x657d3 -1 x657d5 +1 x65877 -1 x65b88 = +0
-
 +1 x657d5 -1 x657d6 -1 x657d7 = +0
-
 +1 x657d7 +1 x6580c -1 x65842 +0 x65843 -1 x65bf8 = +0
-
 +1 x657d6 -1 x657e2 -1 x657e3 = +0
-
 +1 x657e2 -1 x657ee -1 x657ef = +0
-
 +1 x657ee -1 x657f2 -1 x657f3 = +0
-
 +1 x657f2 -1 x657f6 -1 x657f7 = +0
-
 +1 x657f6 -1 x657fa -1 x657fb = +0
-
 +1 x657f3 +1 x657f7 +1 x657fb -1 x65800 = +0
-
 +1 x65800 +1 x65836 -1 x65bb6 = +0
-
 +1 x657e3 +1 x657ef +1 x657fa -1 x65808 = +0
-
 +1 x65808 -1 x6580a +1 x6583f -1 x65bbf = +0
-
 +1 x6580a -1 x6580b -1 x6580c = +0
-
 +1 x6580b -1 x65818 -1 x65819 = +0
-
 +1 x65818 -1 x65824 -1 x65825 = +0
-
 +1 x65824 -1 x65828 -1 x65829 = +0
-
 +1 x65828 -1 x6582c -1 x6582d = +0
-
 +1 x6582c -1 x65830 -1 x65831 = +0
-
 +1 x65829 +1 x6582d +1 x65831 -1 x65836 = +0
-
 +1 x65819 +1 x65825 +1 x65830 -1 x6583f = +0
-
 +1 x65842 -1 x6584c -1 x65c03 = +0
-
 +1 x6584c -1 x6584d -1 x6584e = +0
-
 +1 x6584d -1 x6585f -1 x65860 = +0
-
 +1 x6585f -1 x6586b -1 x6586c = +0
-
 +1 x65860 +1 x6586c -1 x65877 = +0
-
 +1 x6587a -1 x65889 -1 x6588a = +0
-
 +1 x6588a -1 x6588e -1 x6588f = +0
-
 +1 x65889 -1 x65890 -1 x65891 = +0
-
 +1 x6588f -1 x65898 -1 x65899 = +0
-
 +1 x65891 -1 x6589a -1 x6589b = +0
-
 +1 x65890 -1 x6589c -1 x6589d = +0
-
 +1 x6588e -1 x6589e -1 x6589f = +0
-
 +1 x65898 +1 x6589a -1 x658a3 = +0
-
 +1 x65899 +1 x6589b -1 x658a0 = +0
-
 +1 x6589d +1 x6589f -1 x658aa = +0
-
 +1 x658a0 +1 x658aa -1 x658ae = +0
-
 +1 x6589c +1 x6589e -1 x658b0 = +0
-
 +1 x658a3 +1 x658b0 -1 x658b2 = +0
-
 +1 x658ae -1 x658b5 -1 x658b6 = +0
-
 +1 x658b2 -1 x658b7 -1 x658b8 = +0
-
 +1 x658b5 +1 x658b7 -1 x658fd = +0
-
 +1 x658b6 +1 x658b8 -1 x658b9 = +0
-
 +1 x658b9 -1 x658bd -1 x65c76 = +0
-
 +1 x658bd -1 x658be -1 x658bf = +0
-
 +1 x658be -1 x658dc -1 x658dd = +0
-
 +1 x658dc -1 x658e8 -1 x658e9 = +0
-
 +1 x658dd +1 x658e8 +1 x658e9 -1 x658f7 = +0
-
 +1 x655a2 +1 x658fd -1 x65909 = +0
-
 +1 x655a0 +1 x65909 -1 x6590e = +0
-
 +1 x6590e -1 x6590f -1 x65cc0 = +0
-
 +1 x6590f -1 x65910 -1 x65911 = +0
-
 +1 x65910 -1 x65918 -1 x65919 = +0
-
 +1 x65919 -1 x65928 -1 x65929 = +0
-
 +1 x65928 -1 x65956 -1 x65957 = +0
-
 +1 x65956 +1 x65957 -1 x65964 = +0
-
 +1 x65964 -1 x65966 +1 x65d17 +1 x65d74 +1 x65dd1 +1 x65e2e +1 x65e8b +1 x65ee8
 +1 x680ce -1 x68937 = +0
-
 +1 x65966 -1 x65967 -1 x65968 = +0
-
 +1 x65967 -1 x6597d -1 x6597e = +0
-
 +1 x6597e +1 x65989 -1 x6598a +1 x659a3 -1 x6895c = +0
-
 +1 x6598a -1 x6598b -1 x6598c = +0
-
 +1 x65968 +1 x6598c +1 x659b0 -1 x659b1 +0 x659b2 -1 x68983 = +0
-
 +1 x6598b -1 x659a2 -1 x659a3 = +0
-
 +1 x6597d +1 x659a2 -1 x68958 = +0
-
 +1 x659b1 +1 x659bb -1 x659bc -1 x6898e = +0
-
 +1 x659bc -1 x659bd -1 x659be = +0
-
 +1 x659be +1 x65a66 +1 x65a92 -1 x65a93 +0 x65a94 -1 x68a65 = +0
-
 +1 x659bd -1 x659ce -1 x659cf = +0
-
 +1 x659ce -1 x659da -1 x659db = +0
-
 +1 x659da +1 x659e3 +1 x65a83 -1 x689b6 = +0
-
 +1 x659cf +1 x659db -1 x659e6 = +0
-
 +1 x659e6 +1 x659e8 -1 x659e9 +1 x65a8f -1 x689bb = +0
-
 +1 x659e9 -1 x659ea -1 x659eb = +0
-
 +1 x659eb +1 x65a22 +1 x65a58 -1 x65a59 +0 x65a5a -1 x68a2b = +0
-
 +1 x659ea -1 x659f6 -1 x659f7 = +0
-
 +1 x659f6 -1 x65a02 -1 x65a03 = +0
-
 +1 x65a02 -1 x65a06 -1 x65a07 = +0
-
 +1 x65a06 -1 x65a0a -1 x65a0b = +0
-
 +1 x65a0a -1 x65a0e -1 x65a0f = +0
-
 +1 x65a07 +1 x65a0b +1 x65a0f -1 x65a14 = +0
-
 +1 x65a14 +1 x65a16 +1 x65a4c -1 x689e9 = +0
-
 +1 x659f7 +1 x65a03 +1 x65a0e -1 x65a1d = +0
-
 +1 x65a1d +1 x65a1f -1 x65a20 +1 x65a55 -1 x689f2 = +0
-
 +1 x65a20 -1 x65a21 -1 x65a22 = +0
-
 +1 x65a21 -1 x65a2e -1 x65a2f = +0
-
 +1 x65a2e -1 x65a3a -1 x65a3b = +0
-
 +1 x65a3a -1 x65a3e -1 x65a3f = +0
-
 +1 x65a3e -1 x65a42 -1 x65a43 = +0
-
 +1 x65a42 -1 x65a46 -1 x65a47 = +0
-
 +1 x65a3f +1 x65a43 +1 x65a47 -1 x65a4c = +0
-
 +1 x65a2f +1 x65a3b +1 x65a46 -1 x65a55 = +0
-
 +1 x65a59 +1 x65a63 -1 x65a64 -1 x68a36 = +0
-
 +1 x65a64 -1 x65a65 -1 x65a66 = +0
-
 +1 x65a65 -1 x65a77 -1 x65a78 = +0
-
 +1 x65a77 -1 x65a83 -1 x65a84 = +0
-
 +1 x65a78 +1 x65a84 -1 x65a8f = +0
-
 +1 x65a93 -1 x65aa2 -1 x65aa3 = +0
-
 +1 x65aa3 -1 x65aa7 -1 x65aa8 = +0
-
 +1 x65aa2 -1 x65aa9 -1 x65aaa = +0
-
 +1 x65aa8 +1 x65aaa -1 x65ab0 -1 x65ab1 = +0
-
 +1 x65aa7 +1 x65aa9 -1 x65aaf = +0
-
 +1 x65aaf -1 x65ab2 -1 x65ab3 = +0
-
 +1 x65ab1 +1 x65ab3 -1 x65abe = +0
-
 +1 x65ab0 +1 x65ab2 -1 x65ac2 = +0
-
 +1 x65abe +1 x65ac2 -1 x65ac7 = +0
-
 +1 x65ac7 -1 x65aca -1 x65acb = +0
-
 +1 x65aca +1 x65acb -1 x65add = +0
-
 +1 x65add -1 x65af5 -1 x65af6 = +0
-
 +1 x65af5 +1 x65af6 -1 x65b03 = +0
-
 +1 x65b03 +1 x65b05 -1 x65b06 -1 x68ad8 = +0
-
 +1 x65b06 -1 x65b07 -1 x65b08 = +0
-
 +1 x65b08 +1 x65b2c +1 x65b50 -1 x65b51 +0 x65b52 -1 x68b24 = +0
-
 +1 x65b07 -1 x65b1d -1 x65b1e = +0
-
 +1 x65b1d +1 x65b42 -1 x68af9 = +0
-
 +1 x65b1e +1 x65b29 -1 x65b2a +1 x65b43 -1 x68afd = +0
-
 +1 x65b2a -1 x65b2b -1 x65b2c = +0
-
 +1 x65b2b -1 x65b42 -1 x65b43 = +0
-
 +1 x65b51 +1 x65b5b -1 x65b5c -1 x68b2f = +0
-
 +1 x65b5c -1 x65b5d -1 x65b5e = +0
-
 +1 x65b5e +1 x65c06 +1 x65c32 -1 x65c33 +0 x65c34 -1 x68c06 = +0
-
 +1 x65b5d -1 x65b6e -1 x65b6f = +0
-
 +1 x65b6e -1 x65b7a -1 x65b7b = +0
-
 +1 x65b7a +1 x65b83 +1 x65c23 -1 x68b57 = +0
-
 +1 x65b6f +1 x65b7b -1 x65b86 = +0
-
 +1 x65b86 +1 x65b88 -1 x65b89 +1 x65c2f -1 x68b5c = +0
-
 +1 x65b89 -1 x65b8a -1 x65b8b = +0
-
 +1 x65b8b +1 x65bc2 +1 x65bf8 -1 x65bf9 +0 x65bfa -1 x68bcc = +0
-
 +1 x65b8a -1 x65b96 -1 x65b97 = +0
-
 +1 x65b96 -1 x65ba2 -1 x65ba3 = +0
-
 +1 x65ba2 -1 x65ba6 -1 x65ba7 = +0
-
 +1 x65ba6 -1 x65baa -1 x65bab = +0
-
 +1 x65baa -1 x65bae -1 x65baf = +0
-
 +1 x65ba7 +1 x65bab +1 x65baf -1 x65bb4 = +0
-
 +1 x65bb4 +1 x65bb6 +1 x65bec -1 x68b8a = +0
-
 +1 x65b97 +1 x65ba3 +1 x65bae -1 x65bbd = +0
-
 +1 x65bbd +1 x65bbf -1 x65bc0 +1 x65bf5 -1 x68b93 = +0
-
 +1 x65bc0 -1 x65bc1 -1 x65bc2 = +0
-
 +1 x65bc1 -1 x65bce -1 x65bcf = +0
-
 +1 x65bce -1 x65bda -1 x65bdb = +0
-
 +1 x65bda -1 x65bde -1 x65bdf = +0
-
 +1 x65bde -1 x65be2 -1 x65be3 = +0
-
 +1 x65be2 -1 x65be6 -1 x65be7 = +0
-
 +1 x65bdf +1 x65be3 +1 x65be7 -1 x65bec = +0
-
 +1 x65bcf +1 x65bdb +1 x65be6 -1 x65bf5 = +0
-
 +1 x65bf9 +1 x65c03 -1 x65c04 -1 x68bd7 = +0
-
 +1 x65c04 -1 x65c05 -1 x65c06 = +0
-
 +1 x65c05 -1 x65c17 -1 x65c18 = +0
-
 +1 x65c17 -1 x65c23 -1 x65c24 = +0
-
 +1 x65c18 +1 x65c24 -1 x65c2f = +0
-
 +1 x65c33 -1 x65c42 -1 x65c43 = +0
-
 +1 x65c43 -1 x65c47 -1 x65c48 = +0
-
 +1 x65c42 -1 x65c49 -1 x65c4a = +0
-
 +1 x65c48 -1 x65c51 -1 x65c52 = +0
-
 +1 x65c4a -1 x65c53 -1 x65c54 = +0
-
 +1 x65c49 -1 x65c55 -1 x65c56 = +0
-
 +1 x65c47 -1 x65c57 -1 x65c58 = +0
-
 +1 x65c51 +1 x65c53 -1 x65c5c = +0
-
 +1 x65c52 +1 x65c54 -1 x65c59 = +0
-
 +1 x65c56 +1 x65c58 -1 x65c63 = +0
-
 +1 x65c59 +1 x65c63 -1 x65c67 = +0
-
 +1 x65c55 +1 x65c57 -1 x65c69 = +0
-
 +1 x65c5c +1 x65c69 -1 x65c6b = +0
-
 +1 x65c67 -1 x65c6e -1 x65c6f = +0
-
 +1 x65c6b -1 x65c70 -1 x65c71 = +0
-
 +1 x65c6e +1 x65c70 -1 x65cb5 = +0
-
 +1 x65c6f +1 x65c71 -1 x65c72 = +0
-
 +1 x65c72 +1 x65c76 -1 x65c77 -1 x68c4a = +0
-
 +1 x65c77 -1 x65c78 -1 x65c79 = +0
-
 +1 x65c78 -1 x65c96 -1 x65c97 = +0
-
 +1 x65c96 -1 x65ca2 -1 x65ca3 = +0
-
 +1 x65c97 +1 x65ca2 +1 x65ca3 -1 x65cb1 = +0
-
 +1 x65929 +1 x65cb5 -1 x65cbf = +0
-
 +1 x65cbf +1 x65cc0 -1 x65cc1 -1 x65d1d = +0
-
 +1 x65cc1 -1 x65cc2 -1 x65cc3 = +0
-
 +1 x65911 +1 x65cc3 -1 x65d22 = +0
-
 +1 x65cc2 -1 x65ccb -1 x65ccc = +0
-
 +1 x65ccc -1 x65cdb -1 x65cdc = +0
-
 +1 x65cdb -1 x65d09 -1 x65d0a = +0
-
 +1 x65d09 +1 x65d0a -1 x65d17 = +0
-
 +1 x65cdc +1 x65d1d -1 x65d1e -1 x65d7a = +0
-
 +1 x65d1e -1 x65d1f -1 x65d20 = +0
-
 +1 x65d20 +1 x65d22 -1 x65d7f = +0
-
 +1 x65d1f -1 x65d28 -1 x65d29 = +0
-
 +1 x65d29 -1 x65d38 -1 x65d39 = +0
-
 +1 x65d38 -1 x65d66 -1 x65d67 = +0
-
 +1 x65d66 +1 x65d67 -1 x65d74 = +0
-
 +1 x65d39 +1 x65d7a -1 x65d7b -1 x65dd7 = +0
-
 +1 x65d7b -1 x65d7c -1 x65d7d = +0
-
 +1 x65d7d +1 x65d7f -1 x65ddc = +0
-
 +1 x65d7c -1 x65d85 -1 x65d86 = +0
-
 +1 x65d86 -1 x65d95 -1 x65d96 = +0
-
 +1 x65d95 -1 x65dc3 -1 x65dc4 = +0
-
 +1 x65dc3 +1 x65dc4 -1 x65dd1 = +0
-
 +1 x65d96 +1 x65dd7 -1 x65dd8 -1 x65e34 = +0
-
 +1 x65dd8 -1 x65dd9 -1 x65dda = +0
-
 +1 x65dda +1 x65ddc -1 x65e39 = +0
-
 +1 x65dd9 -1 x65de2 -1 x65de3 = +0
-
 +1 x65de3 -1 x65df2 -1 x65df3 = +0
-
 +1 x65df2 -1 x65e20 -1 x65e21 = +0
-
 +1 x65e20 +1 x65e21 -1 x65e2e = +0
-
 +1 x65df3 +1 x65e34 -1 x65e35 -1 x65e91 = +0
-
 +1 x65e35 -1 x65e36 -1 x65e37 = +0
-
 +1 x65e37 +1 x65e39 -1 x65e96 = +0
-
 +1 x65e36 -1 x65e3f -1 x65e40 = +0
-
 +1 x65e40 -1 x65e4f -1 x65e50 = +0
-
 +1 x65e4f -1 x65e7d -1 x65e7e = +0
-
 +1 x65e7d +1 x65e7e -1 x65e8b = +0
-
 +1 x65e50 +1 x65e91 -1 x65e92 +1 x65ead +1 x68093 -1 x69006 = +0
-
 +1 x65e92 -1 x65e93 -1 x65e94 = +0
-
 +1 x65e94 +1 x65e96 -1 x65eef +0 x65ef0 +1 x6807b -1 x69064 = +0
-
 +1 x65e93 -1 x65e9c -1 x65e9d = +0
-
 +1 x65e9d -1 x65eac -1 x65ead = +0
-
 +1 x65eac -1 x65eda -1 x65edb = +0
-
 +1 x65eda +1 x65edb -1 x65ee8 = +0
-
 +1 x5de57 -1 x65f07 -1 x65f08 = +0
-
 +1 x65f08 -1 x65f54 +0 x65f55 = +0
-
 +1 x65f07 -1 x65f13 -1 x65f14 = +0
-
 +1 x65f13 -1 x65f1f -1 x65f20 = +0
-
 +1 x65f1f +1 x65f45 +1 x6626a +1 x66293 +1 x665c9 +1 x665f2 +1 x66928 +1 x66951
 +1 x66c87 +1 x66cb0 +1 x66fe6 +1 x6700f +1 x67345 +1 x6736e +1 x676a4 +1 x676cd
 -1 x76fb1 = +0
-
 +1 x65f14 +1 x65f20 -1 x65f2a = +0
-
 +1 x65f2a -1 x65f2c +1 x65f51 -1 x66278 = +0
-
 +1 x65f2c -1 x65f2d -1 x65f2e = +0
-
 +1 x65f2e -1 x65f56 +0 x65f57 -1 x662a2 = +0
-
 +1 x65f2d -1 x65f39 -1 x65f3a = +0
-
 +1 x65f39 -1 x65f45 -1 x65f46 = +0
-
 +1 x65f3a +1 x65f46 -1 x65f51 = +0
-
 +1 x65f54 +1 x65f56 -1 x65f64 = +0
-
 +1 x65f64 -1 x65f66 -1 x662ad = +0
-
 +1 x65f66 -1 x65f67 -1 x65f68 = +0
-
 +1 x65f68 +1 x6600a -1 x66036 +0 x66037 -1 x66384 = +0
-
 +1 x65f67 -1 x65f78 -1 x65f79 = +0
-
 +1 x65f78 -1 x65f84 -1 x65f85 = +0
-
 +1 x65f84 +1 x66027 -1 x662d5 = +0
-
 +1 x65f79 +1 x65f85 -1 x65f8f = +0
-
 +1 x65f8f -1 x65f91 +1 x66033 -1 x662da = +0
-
 +1 x65f91 -1 x65f92 -1 x65f93 = +0
-
 +1 x65f93 +1 x65fc8 -1 x65ffe +0 x65fff -1 x6634a = +0
-
 +1 x65f92 -1 x65f9e -1 x65f9f = +0
-
 +1 x65f9e -1 x65faa -1 x65fab = +0
-
 +1 x65faa -1 x65fae -1 x65faf = +0
-
 +1 x65fae -1 x65fb2 -1 x65fb3 = +0
-
 +1 x65fb2 -1 x65fb6 -1 x65fb7 = +0
-
 +1 x65faf +1 x65fb3 +1 x65fb7 -1 x65fbc = +0
-
 +1 x65fbc +1 x65ff2 -1 x66308 = +0
-
 +1 x65f9f +1 x65fab +1 x65fb6 -1 x65fc4 = +0
-
 +1 x65fc4 -1 x65fc6 +1 x65ffb -1 x66311 = +0
-
 +1 x65fc6 -1 x65fc7 -1 x65fc8 = +0
-
 +1 x65fc7 -1 x65fd4 -1 x65fd5 = +0
-
 +1 x65fd4 -1 x65fe0 -1 x65fe1 = +0
-
 +1 x65fe0 -1 x65fe4 -1 x65fe5 = +0
-
 +1 x65fe4 -1 x65fe8 -1 x65fe9 = +0
-
 +1 x65fe8 -1 x65fec -1 x65fed = +0
-
 +1 x65fe5 +1 x65fe9 +1 x65fed -1 x65ff2 = +0
-
 +1 x65fd5 +1 x65fe1 +1 x65fec -1 x65ffb = +0
-
 +1 x65ffe -1 x66008 -1 x66355 = +0
-
 +1 x66008 -1 x66009 -1 x6600a = +0
-
 +1 x66009 -1 x6601b -1 x6601c = +0
-
 +1 x6601b -1 x66027 -1 x66028 = +0
-
 +1 x6601c +1 x66028 -1 x66033 = +0
-
 +1 x66036 -1 x66045 -1 x66046 = +0
-
 +1 x66046 -1 x6604a -1 x6604b = +0
-
 +1 x66045 -1 x6604c -1 x6604d = +0
-
 +1 x6604b +1 x6604d -1 x66053 -1 x66054 = +0
-
 +1 x6604a +1 x6604c -1 x66052 = +0
-
 +1 x66052 -1 x66055 -1 x66056 = +0
-
 +1 x66054 +1 x66056 -1 x66061 = +0
-
 +1 x66053 +1 x66055 -1 x66065 = +0
-
 +1 x66061 +1 x66065 -1 x6606a = +0
-
 +1 x6606a -1 x6606d -1 x6606e = +0
-
 +1 x6606d +1 x6606e -1 x6607e = +0
-
 +1 x6607e -1 x6608c -1 x6608d = +0
-
 +1 x6608c -1 x66098 -1 x66099 = +0
-
 +1 x6608d +1 x66098 +1 x66099 -1 x660a7 = +0
-
 +1 x660a7 -1 x660a9 -1 x663f8 = +0
-
 +1 x660a9 -1 x660aa -1 x660ab = +0
-
 +1 x660ab +1 x660d1 -1 x660f8 +0 x660f9 -1 x6644a = +0
-
 +1 x660aa -1 x660b6 -1 x660b7 = +0
-
 +1 x660b6 -1 x660c2 -1 x660c3 = +0
-
 +1 x660c2 +1 x660e9 +1 x66412 +1 x6643b +1 x66771 +1 x6679a +1 x66ad0 +1 x66af9
 +1 x66e2f +1 x66e58 +1 x6718e +1 x671b7 +1 x674ed +1 x67516 +1 x6784c +1 x67875
 -1 x749e8 = +0
-
 +1 x660b7 +1 x660c3 -1 x660cd = +0
-
 +1 x660cd -1 x660cf +1 x660f5 -1 x66420 = +0
-
 +1 x660cf -1 x660d0 -1 x660d1 = +0
-
 +1 x660d0 -1 x660dd -1 x660de = +0
-
 +1 x660dd -1 x660e9 -1 x660ea = +0
-
 +1 x660de +1 x660ea -1 x660f5 = +0
-
 +1 x660f8 -1 x66102 -1 x66455 = +0
-
 +1 x66102 -1 x66103 -1 x66104 = +0
-
 +1 x66104 +1 x661a6 -1 x661d2 +0 x661d3 -1 x6652c = +0
-
 +1 x66103 -1 x66114 -1 x66115 = +0
-
 +1 x66114 -1 x66120 -1 x66121 = +0
-
 +1 x66120 +1 x661c3 -1 x6647d = +0
-
 +1 x66115 +1 x66121 -1 x6612b = +0
-
 +1 x6612b -1 x6612d +1 x661cf -1 x66482 = +0
-
 +1 x6612d -1 x6612e -1 x6612f = +0
-
 +1 x6612f +1 x66164 -1 x6619a +0 x6619b -1 x664f2 = +0
-
 +1 x6612e -1 x6613a -1 x6613b = +0
-
 +1 x6613a -1 x66146 -1 x66147 = +0
-
 +1 x66146 -1 x6614a -1 x6614b = +0
-
 +1 x6614a -1 x6614e -1 x6614f = +0
-
 +1 x6614e -1 x66152 -1 x66153 = +0
-
 +1 x6614b +1 x6614f +1 x66153 -1 x66158 = +0
-
 +1 x66158 +1 x6618e -1 x664b0 = +0
-
 +1 x6613b +1 x66147 +1 x66152 -1 x66160 = +0
-
 +1 x66160 -1 x66162 +1 x66197 -1 x664b9 = +0
-
 +1 x66162 -1 x66163 -1 x66164 = +0
-
 +1 x66163 -1 x66170 -1 x66171 = +0
-
 +1 x66170 -1 x6617c -1 x6617d = +0
-
 +1 x6617c -1 x66180 -1 x66181 = +0
-
 +1 x66180 -1 x66184 -1 x66185 = +0
-
 +1 x66184 -1 x66188 -1 x66189 = +0
-
 +1 x66181 +1 x66185 +1 x66189 -1 x6618e = +0
-
 +1 x66171 +1 x6617d +1 x66188 -1 x66197 = +0
-
 +1 x6619a -1 x661a4 -1 x664fd = +0
-
 +1 x661a4 -1 x661a5 -1 x661a6 = +0
-
 +1 x661a5 -1 x661b7 -1 x661b8 = +0
-
 +1 x661b7 -1 x661c3 -1 x661c4 = +0
-
 +1 x661b8 +1 x661c4 -1 x661cf = +0
-
 +1 x661d2 -1 x661e1 -1 x661e2 = +0
-
 +1 x661e2 -1 x661e6 -1 x661e7 = +0
-
 +1 x661e1 -1 x661e8 -1 x661e9 = +0
-
 +1 x661e7 -1 x661f0 -1 x661f1 = +0
-
 +1 x661e9 -1 x661f2 -1 x661f3 = +0
-
 +1 x661e8 -1 x661f4 -1 x661f5 = +0
-
 +1 x661e6 -1 x661f6 -1 x661f7 = +0
-
 +1 x661f0 +1 x661f2 -1 x661fb = +0
-
 +1 x661f1 +1 x661f3 -1 x661f8 = +0
-
 +1 x661f5 +1 x661f7 -1 x66202 = +0
-
 +1 x661f8 +1 x66202 -1 x66206 = +0
-
 +1 x661f4 +1 x661f6 -1 x66208 = +0
-
 +1 x661fb +1 x66208 -1 x6620a = +0
-
 +1 x66206 -1 x6620d -1 x6620e = +0
-
 +1 x6620a -1 x6620f -1 x66210 = +0
-
 +1 x6620d +1 x6620f -1 x6656c = +0
-
 +1 x6620e +1 x66210 -1 x66211 = +0
-
 +1 x66211 -1 x66215 -1 x66571 = +0
-
 +1 x66215 -1 x66216 -1 x66217 = +0
-
 +1 x66216 -1 x66234 -1 x66235 = +0
-
 +1 x66234 -1 x66240 -1 x66241 = +0
-
 +1 x66235 +1 x66240 +1 x66241 -1 x6624f = +0
-
 +1 x6624f -1 x66251 -1 x665af = +0
-
 +1 x66251 -1 x66252 -1 x66253 = +0
-
 +1 x66252 -1 x6625e -1 x6625f = +0
-
 +1 x6625e -1 x6626a -1 x6626b = +0
-
 +1 x6625f +1 x6626b -1 x66276 = +0
-
 +1 x66276 +1 x66278 -1 x66279 +1 x6629f -1 x665d7 = +0
-
 +1 x66279 -1 x6627a -1 x6627b = +0
-
 +1 x66253 +1 x6627b +1 x662a2 -1 x662a3 +0 x662a4 -1 x66601 = +0
-
 +1 x6627a -1 x66287 -1 x66288 = +0
-
 +1 x66287 -1 x66293 -1 x66294 = +0
-
 +1 x66288 +1 x66294 -1 x6629f = +0
-
 +1 x662a3 +1 x662ad -1 x662ae -1 x6660c = +0
-
 +1 x662ae -1 x662af -1 x662b0 = +0
-
 +1 x662b0 +1 x66358 +1 x66384 -1 x66385 +0 x66386 -1 x666e3 = +0
-
 +1 x662af -1 x662c0 -1 x662c1 = +0
-
 +1 x662c0 -1 x662cc -1 x662cd = +0
-
 +1 x662cc +1 x662d5 +1 x66375 -1 x66634 = +0
-
 +1 x662c1 +1 x662cd -1 x662d8 = +0
-
 +1 x662d8 +1 x662da -1 x662db +1 x66381 -1 x66639 = +0
-
 +1 x662db -1 x662dc -1 x662dd = +0
-
 +1 x662dd +1 x66314 +1 x6634a -1 x6634b +0 x6634c -1 x666a9 = +0
-
 +1 x662dc -1 x662e8 -1 x662e9 = +0
-
 +1 x662e8 -1 x662f4 -1 x662f5 = +0
-
 +1 x662f4 -1 x662f8 -1 x662f9 = +0
-
 +1 x662f8 -1 x662fc -1 x662fd = +0
-
 +1 x662fc -1 x66300 -1 x66301 = +0
-
 +1 x662f9 +1 x662fd +1 x66301 -1 x66306 = +0
-
 +1 x66306 +1 x66308 +1 x6633e -1 x66667 = +0
-
 +1 x662e9 +1 x662f5 +1 x66300 -1 x6630f = +0
-
 +1 x6630f +1 x66311 -1 x66312 +1 x66347 -1 x66670 = +0
-
 +1 x66312 -1 x66313 -1 x66314 = +0
-
 +1 x66313 -1 x66320 -1 x66321 = +0
-
 +1 x66320 -1 x6632c -1 x6632d = +0
-
 +1 x6632c -1 x66330 -1 x66331 = +0
-
 +1 x66330 -1 x66334 -1 x66335 = +0
-
 +1 x66334 -1 x66338 -1 x66339 = +0
-
 +1 x66331 +1 x66335 +1 x66339 -1 x6633e = +0
-
 +1 x66321 +1 x6632d +1 x66338 -1 x66347 = +0
-
 +1 x6634b +1 x66355 -1 x66356 -1 x666b4 = +0
-
 +1 x66356 -1 x66357 -1 x66358 = +0
-
 +1 x66357 -1 x66369 -1 x6636a = +0
-
 +1 x66369 -1 x66375 -1 x66376 = +0
-
 +1 x6636a +1 x66376 -1 x66381 = +0
-
 +1 x66385 -1 x66394 -1 x66395 = +0
-
 +1 x66395 -1 x66399 -1 x6639a = +0
-
 +1 x66394 -1 x6639b -1 x6639c = +0
-
 +1 x6639a +1 x6639c -1 x663a2 -1 x663a3 = +0
-
 +1 x66399 +1 x6639b -1 x663a1 = +0
-
 +1 x663a1 -1 x663a4 -1 x663a5 = +0
-
 +1 x663a3 +1 x663a5 -1 x663b0 = +0
-
 +1 x663a2 +1 x663a4 -1 x663b4 = +0
-
 +1 x663b0 +1 x663b4 -1 x663b9 = +0
-
 +1 x663b9 -1 x663bc -1 x663bd = +0
-
 +1 x663bc +1 x663bd -1 x663cd = +0
-
 +1 x663cd -1 x663db -1 x663dc = +0
-
 +1 x663db -1 x663e7 -1 x663e8 = +0
-
 +1 x663dc +1 x663e7 +1 x663e8 -1 x663f6 = +0
-
 +1 x663f6 +1 x663f8 -1 x663f9 -1 x66757 = +0
-
 +1 x663f9 -1 x663fa -1 x663fb = +0
-
 +1 x663fb +1 x66423 +1 x6644a -1 x6644b +0 x6644c -1 x667a9 = +0
-
 +1 x663fa -1 x66406 -1 x66407 = +0
-
 +1 x66406 -1 x66412 -1 x66413 = +0
-
 +1 x66407 +1 x66413 -1 x6641e = +0
-
 +1 x6641e +1 x66420 -1 x66421 +1 x66447 -1 x6677f = +0
-
 +1 x66421 -1 x66422 -1 x66423 = +0
-
 +1 x66422 -1 x6642f -1 x66430 = +0
-
 +1 x6642f -1 x6643b -1 x6643c = +0
-
 +1 x66430 +1 x6643c -1 x66447 = +0
-
 +1 x6644b +1 x66455 -1 x66456 -1 x667b4 = +0
-
 +1 x66456 -1 x66457 -1 x66458 = +0
-
 +1 x66458 +1 x66500 +1 x6652c -1 x6652d +0 x6652e -1 x6688b = +0
-
 +1 x66457 -1 x66468 -1 x66469 = +0
-
 +1 x66468 -1 x66474 -1 x66475 = +0
-
 +1 x66474 +1 x6647d +1 x6651d -1 x667dc = +0
-
 +1 x66469 +1 x66475 -1 x66480 = +0
-
 +1 x66480 +1 x66482 -1 x66483 +1 x66529 -1 x667e1 = +0
-
 +1 x66483 -1 x66484 -1 x66485 = +0
-
 +1 x66485 +1 x664bc +1 x664f2 -1 x664f3 +0 x664f4 -1 x66851 = +0
-
 +1 x66484 -1 x66490 -1 x66491 = +0
-
 +1 x66490 -1 x6649c -1 x6649d = +0
-
 +1 x6649c -1 x664a0 -1 x664a1 = +0
-
 +1 x664a0 -1 x664a4 -1 x664a5 = +0
-
 +1 x664a4 -1 x664a8 -1 x664a9 = +0
-
 +1 x664a1 +1 x664a5 +1 x664a9 -1 x664ae = +0
-
 +1 x664ae +1 x664b0 +1 x664e6 -1 x6680f = +0
-
 +1 x66491 +1 x6649d +1 x664a8 -1 x664b7 = +0
-
 +1 x664b7 +1 x664b9 -1 x664ba +1 x664ef -1 x66818 = +0
-
 +1 x664ba -1 x664bb -1 x664bc = +0
-
 +1 x664bb -1 x664c8 -1 x664c9 = +0
-
 +1 x664c8 -1 x664d4 -1 x664d5 = +0
-
 +1 x664d4 -1 x664d8 -1 x664d9 = +0
-
 +1 x664d8 -1 x664dc -1 x664dd = +0
-
 +1 x664dc -1 x664e0 -1 x664e1 = +0
-
 +1 x664d9 +1 x664dd +1 x664e1 -1 x664e6 = +0
-
 +1 x664c9 +1 x664d5 +1 x664e0 -1 x664ef = +0
-
 +1 x664f3 +1 x664fd -1 x664fe -1 x6685c = +0
-
 +1 x664fe -1 x664ff -1 x66500 = +0
-
 +1 x664ff -1 x66511 -1 x66512 = +0
-
 +1 x66511 -1 x6651d -1 x6651e = +0
-
 +1 x66512 +1 x6651e -1 x66529 = +0
-
 +1 x6652d -1 x6653c -1 x6653d = +0
-
 +1 x6653d -1 x66541 -1 x66542 = +0
-
 +1 x6653c -1 x66543 -1 x66544 = +0
-
 +1 x66542 -1 x6654b -1 x6654c = +0
-
 +1 x66544 -1 x6654d -1 x6654e = +0
-
 +1 x66543 -1 x6654f -1 x66550 = +0
-
 +1 x66541 -1 x66551 -1 x66552 = +0
-
 +1 x6654b +1 x6654d -1 x66556 = +0
-
 +1 x6654c +1 x6654e -1 x66553 = +0
-
 +1 x66550 +1 x66552 -1 x6655d = +0
-
 +1 x66553 +1 x6655d -1 x66561 = +0
-
 +1 x6654f +1 x66551 -1 x66563 = +0
-
 +1 x66556 +1 x66563 -1 x66565 = +0
-
 +1 x66561 -1 x66568 -1 x66569 = +0
-
 +1 x66565 -1 x6656a -1 x6656b = +0
-
 +1 x66568 +1 x6656a +1 x6656c -1 x668cb = +0
-
 +1 x66569 +1 x6656b -1 x6656d = +0
-
 +1 x6656d +1 x66571 -1 x66572 -1 x668d0 = +0
-
 +1 x66572 -1 x66573 -1 x66574 = +0
-
 +1 x66217 +1 x66574 -1 x668d5 = +0
-
 +1 x66573 -1 x66592 -1 x66593 = +0
-
 +1 x66592 -1 x6659e -1 x6659f = +0
-
 +1 x66593 +1 x6659e +1 x6659f -1 x665ad = +0
-
 +1 x665ad +1 x665af -1 x665b0 -1 x6690e = +0
-
 +1 x665b0 -1 x665b1 -1 x665b2 = +0
-
 +1 x665b1 -1 x665bd -1 x665be = +0
-
 +1 x665bd -1 x665c9 -1 x665ca = +0
-
 +1 x665be +1 x665ca -1 x665d5 = +0
-
 +1 x665d5 +1 x665d7 -1 x665d8 +1 x665fe -1 x66936 = +0
-
 +1 x665d8 -1 x665d9 -1 x665da = +0
-
 +1 x665b2 +1 x665da +1 x66601 -1 x66602 +0 x66603 -1 x66960 = +0
-
 +1 x665d9 -1 x665e6 -1 x665e7 = +0
-
 +1 x665e6 -1 x665f2 -1 x665f3 = +0
-
 +1 x665e7 +1 x665f3 -1 x665fe = +0
-
 +1 x66602 +1 x6660c -1 x6660d -1 x6696b = +0
-
 +1 x6660d -1 x6660e -1 x6660f = +0
-
 +1 x6660f +1 x666b7 +1 x666e3 -1 x666e4 +0 x666e5 -1 x66a42 = +0
-
 +1 x6660e -1 x6661f -1 x66620 = +0
-
 +1 x6661f -1 x6662b -1 x6662c = +0
-
 +1 x6662b +1 x66634 +1 x666d4 -1 x66993 = +0
-
 +1 x66620 +1 x6662c -1 x66637 = +0
-
 +1 x66637 +1 x66639 -1 x6663a +1 x666e0 -1 x66998 = +0
-
 +1 x6663a -1 x6663b -1 x6663c = +0
-
 +1 x6663c +1 x66673 +1 x666a9 -1 x666aa +0 x666ab -1 x66a08 = +0
-
 +1 x6663b -1 x66647 -1 x66648 = +0
-
 +1 x66647 -1 x66653 -1 x66654 = +0
-
 +1 x66653 -1 x66657 -1 x66658 = +0
-
 +1 x66657 -1 x6665b -1 x6665c = +0
-
 +1 x6665b -1 x6665f -1 x66660 = +0
-
 +1 x66658 +1 x6665c +1 x66660 -1 x66665 = +0
-
 +1 x66665 +1 x66667 +1 x6669d -1 x669c6 = +0
-
 +1 x66648 +1 x66654 +1 x6665f -1 x6666e = +0
-
 +1 x6666e +1 x66670 -1 x66671 +1 x666a6 -1 x669cf = +0
-
 +1 x66671 -1 x66672 -1 x66673 = +0
-
 +1 x66672 -1 x6667f -1 x66680 = +0
-
 +1 x6667f -1 x6668b -1 x6668c = +0
-
 +1 x6668b -1 x6668f -1 x66690 = +0
-
 +1 x6668f -1 x66693 -1 x66694 = +0
-
 +1 x66693 -1 x66697 -1 x66698 = +0
-
 +1 x66690 +1 x66694 +1 x66698 -1 x6669d = +0
-
 +1 x66680 +1 x6668c +1 x66697 -1 x666a6 = +0
-
 +1 x666aa +1 x666b4 -1 x666b5 -1 x66a13 = +0
-
 +1 x666b5 -1 x666b6 -1 x666b7 = +0
-
 +1 x666b6 -1 x666c8 -1 x666c9 = +0
-
 +1 x666c8 -1 x666d4 -1 x666d5 = +0
-
 +1 x666c9 +1 x666d5 -1 x666e0 = +0
-
 +1 x666e4 -1 x666f3 -1 x666f4 = +0
-
 +1 x666f4 -1 x666f8 -1 x666f9 = +0
-
 +1 x666f3 -1 x666fa -1 x666fb = +0
-
 +1 x666f9 +1 x666fb -1 x66701 -1 x66702 = +0
-
 +1 x666f8 +1 x666fa -1 x66700 = +0
-
 +1 x66700 -1 x66703 -1 x66704 = +0
-
 +1 x66702 +1 x66704 -1 x6670f = +0
-
 +1 x66701 +1 x66703 -1 x66713 = +0
-
 +1 x6670f +1 x66713 -1 x66718 = +0
-
 +1 x66718 -1 x6671b -1 x6671c = +0
-
 +1 x6671b +1 x6671c -1 x6672c = +0
-
 +1 x6672c -1 x6673a -1 x6673b = +0
-
 +1 x6673a -1 x66746 -1 x66747 = +0
-
 +1 x6673b +1 x66746 +1 x66747 -1 x66755 = +0
-
 +1 x66755 +1 x66757 -1 x66758 -1 x66ab6 = +0
-
 +1 x66758 -1 x66759 -1 x6675a = +0
-
 +1 x6675a +1 x66782 +1 x667a9 -1 x667aa +0 x667ab -1 x66b08 = +0
-
 +1 x66759 -1 x66765 -1 x66766 = +0
-
 +1 x66765 -1 x66771 -1 x66772 = +0
-
 +1 x66766 +1 x66772 -1 x6677d = +0
-
 +1 x6677d +1 x6677f -1 x66780 +1 x667a6 -1 x66ade = +0
-
 +1 x66780 -1 x66781 -1 x66782 = +0
-
 +1 x66781 -1 x6678e -1 x6678f = +0
-
 +1 x6678e -1 x6679a -1 x6679b = +0
-
 +1 x6678f +1 x6679b -1 x667a6 = +0
-
 +1 x667aa +1 x667b4 -1 x667b5 -1 x66b13 = +0
-
 +1 x667b5 -1 x667b6 -1 x667b7 = +0
-
 +1 x667b7 +1 x6685f +1 x6688b -1 x6688c +0 x6688d -1 x66bea = +0
-
 +1 x667b6 -1 x667c7 -1 x667c8 = +0
-
 +1 x667c7 -1 x667d3 -1 x667d4 = +0
-
 +1 x667d3 +1 x667dc +1 x6687c -1 x66b3b = +0
-
 +1 x667c8 +1 x667d4 -1 x667df = +0
-
 +1 x667df +1 x667e1 -1 x667e2 +1 x66888 -1 x66b40 = +0
-
 +1 x667e2 -1 x667e3 -1 x667e4 = +0
-
 +1 x667e4 +1 x6681b +1 x66851 -1 x66852 +0 x66853 -1 x66bb0 = +0
-
 +1 x667e3 -1 x667ef -1 x667f0 = +0
-
 +1 x667ef -1 x667fb -1 x667fc = +0
-
 +1 x667fb -1 x667ff -1 x66800 = +0
-
 +1 x667ff -1 x66803 -1 x66804 = +0
-
 +1 x66803 -1 x66807 -1 x66808 = +0
-
 +1 x66800 +1 x66804 +1 x66808 -1 x6680d = +0
-
 +1 x6680d +1 x6680f +1 x66845 -1 x66b6e = +0
-
 +1 x667f0 +1 x667fc +1 x66807 -1 x66816 = +0
-
 +1 x66816 +1 x66818 -1 x66819 +1 x6684e -1 x66b77 = +0
-
 +1 x66819 -1 x6681a -1 x6681b = +0
-
 +1 x6681a -1 x66827 -1 x66828 = +0
-
 +1 x66827 -1 x66833 -1 x66834 = +0
-
 +1 x66833 -1 x66837 -1 x66838 = +0
-
 +1 x66837 -1 x6683b -1 x6683c = +0
-
 +1 x6683b -1 x6683f -1 x66840 = +0
-
 +1 x66838 +1 x6683c +1 x66840 -1 x66845 = +0
-
 +1 x66828 +1 x66834 +1 x6683f -1 x6684e = +0
-
 +1 x66852 +1 x6685c -1 x6685d -1 x66bbb = +0
-
 +1 x6685d -1 x6685e -1 x6685f = +0
-
 +1 x6685e -1 x66870 -1 x66871 = +0
-
 +1 x66870 -1 x6687c -1 x6687d = +0
-
 +1 x66871 +1 x6687d -1 x66888 = +0
-
 +1 x6688c -1 x6689b -1 x6689c = +0
-
 +1 x6689c -1 x668a0 -1 x668a1 = +0
-
 +1 x6689b -1 x668a2 -1 x668a3 = +0
-
 +1 x668a1 -1 x668aa -1 x668ab = +0
-
 +1 x668a3 -1 x668ac -1 x668ad = +0
-
 +1 x668a2 -1 x668ae -1 x668af = +0
-
 +1 x668a0 -1 x668b0 -1 x668b1 = +0
-
 +1 x668aa +1 x668ac -1 x668b5 = +0
-
 +1 x668ab +1 x668ad -1 x668b2 = +0
-
 +1 x668af +1 x668b1 -1 x668bc = +0
-
 +1 x668b2 +1 x668bc -1 x668c0 = +0
-
 +1 x668ae +1 x668b0 -1 x668c2 = +0
-
 +1 x668b5 +1 x668c2 -1 x668c4 = +0
-
 +1 x668c0 -1 x668c7 -1 x668c8 = +0
-
 +1 x668c4 -1 x668c9 -1 x668ca = +0
-
 +1 x668c7 +1 x668c9 +1 x668cb -1 x66c2a = +0
-
 +1 x668c8 +1 x668ca -1 x668cc = +0
-
 +1 x668cc +1 x668d0 -1 x668d1 -1 x66c2f = +0
-
 +1 x668d1 -1 x668d2 -1 x668d3 = +0
-
 +1 x668d3 +1 x668d5 -1 x66c34 = +0
-
 +1 x668d2 -1 x668f1 -1 x668f2 = +0
-
 +1 x668f1 -1 x668fd -1 x668fe = +0
-
 +1 x668f2 +1 x668fd +1 x668fe -1 x6690c = +0
-
 +1 x6690c +1 x6690e -1 x6690f -1 x66c6d = +0
-
 +1 x6690f -1 x66910 -1 x66911 = +0
-
 +1 x66910 -1 x6691c -1 x6691d = +0
-
 +1 x6691c -1 x66928 -1 x66929 = +0
-
 +1 x6691d +1 x66929 -1 x66934 = +0
-
 +1 x66934 +1 x66936 -1 x66937 +1 x6695d -1 x66c95 = +0
-
 +1 x66937 -1 x66938 -1 x66939 = +0
-
 +1 x66911 +1 x66939 +1 x66960 -1 x66961 +0 x66962 -1 x66cbf = +0
-
 +1 x66938 -1 x66945 -1 x66946 = +0
-
 +1 x66945 -1 x66951 -1 x66952 = +0
-
 +1 x66946 +1 x66952 -1 x6695d = +0
-
 +1 x66961 +1 x6696b -1 x6696c -1 x66cca = +0
-
 +1 x6696c -1 x6696d -1 x6696e = +0
-
 +1 x6696e +1 x66a16 +1 x66a42 -1 x66a43 +0 x66a44 -1 x66da1 = +0
-
 +1 x6696d -1 x6697e -1 x6697f = +0
-
 +1 x6697e -1 x6698a -1 x6698b = +0
-
 +1 x6698a +1 x66993 +1 x66a33 -1 x66cf2 = +0
-
 +1 x6697f +1 x6698b -1 x66996 = +0
-
 +1 x66996 +1 x66998 -1 x66999 +1 x66a3f -1 x66cf7 = +0
-
 +1 x66999 -1 x6699a -1 x6699b = +0
-
 +1 x6699b +1 x669d2 +1 x66a08 -1 x66a09 +0 x66a0a -1 x66d67 = +0
-
 +1 x6699a -1 x669a6 -1 x669a7 = +0
-
 +1 x669a6 -1 x669b2 -1 x669b3 = +0
-
 +1 x669b2 -1 x669b6 -1 x669b7 = +0
-
 +1 x669b6 -1 x669ba -1 x669bb = +0
-
 +1 x669ba -1 x669be -1 x669bf = +0
-
 +1 x669b7 +1 x669bb +1 x669bf -1 x669c4 = +0
-
 +1 x669c4 +1 x669c6 +1 x669fc -1 x66d25 = +0
-
 +1 x669a7 +1 x669b3 +1 x669be -1 x669cd = +0
-
 +1 x669cd +1 x669cf -1 x669d0 +1 x66a05 -1 x66d2e = +0
-
 +1 x669d0 -1 x669d1 -1 x669d2 = +0
-
 +1 x669d1 -1 x669de -1 x669df = +0
-
 +1 x669de -1 x669ea -1 x669eb = +0
-
 +1 x669ea -1 x669ee -1 x669ef = +0
-
 +1 x669ee -1 x669f2 -1 x669f3 = +0
-
 +1 x669f2 -1 x669f6 -1 x669f7 = +0
-
 +1 x669ef +1 x669f3 +1 x669f7 -1 x669fc = +0
-
 +1 x669df +1 x669eb +1 x669f6 -1 x66a05 = +0
-
 +1 x66a09 +1 x66a13 -1 x66a14 -1 x66d72 = +0
-
 +1 x66a14 -1 x66a15 -1 x66a16 = +0
-
 +1 x66a15 -1 x66a27 -1 x66a28 = +0
-
 +1 x66a27 -1 x66a33 -1 x66a34 = +0
-
 +1 x66a28 +1 x66a34 -1 x66a3f = +0
-
 +1 x66a43 -1 x66a52 -1 x66a53 = +0
-
 +1 x66a53 -1 x66a57 -1 x66a58 = +0
-
 +1 x66a52 -1 x66a59 -1 x66a5a = +0
-
 +1 x66a58 +1 x66a5a -1 x66a60 -1 x66a61 = +0
-
 +1 x66a57 +1 x66a59 -1 x66a5f = +0
-
 +1 x66a5f -1 x66a62 -1 x66a63 = +0
-
 +1 x66a61 +1 x66a63 -1 x66a6e = +0
-
 +1 x66a60 +1 x66a62 -1 x66a72 = +0
-
 +1 x66a6e +1 x66a72 -1 x66a77 = +0
-
 +1 x66a77 -1 x66a7a -1 x66a7b = +0
-
 +1 x66a7a +1 x66a7b -1 x66a8b = +0
-
 +1 x66a8b -1 x66a99 -1 x66a9a = +0
-
 +1 x66a99 -1 x66aa5 -1 x66aa6 = +0
-
 +1 x66a9a +1 x66aa5 +1 x66aa6 -1 x66ab4 = +0
-
 +1 x66ab4 +1 x66ab6 -1 x66ab7 -1 x66e15 = +0
-
 +1 x66ab7 -1 x66ab8 -1 x66ab9 = +0
-
 +1 x66ab9 +1 x66ae1 +1 x66b08 -1 x66b09 +0 x66b0a -1 x66e67 = +0
-
 +1 x66ab8 -1 x66ac4 -1 x66ac5 = +0
-
 +1 x66ac4 -1 x66ad0 -1 x66ad1 = +0
-
 +1 x66ac5 +1 x66ad1 -1 x66adc = +0
-
 +1 x66adc +1 x66ade -1 x66adf +1 x66b05 -1 x66e3d = +0
-
 +1 x66adf -1 x66ae0 -1 x66ae1 = +0
-
 +1 x66ae0 -1 x66aed -1 x66aee = +0
-
 +1 x66aed -1 x66af9 -1 x66afa = +0
-
 +1 x66aee +1 x66afa -1 x66b05 = +0
-
 +1 x66b09 +1 x66b13 -1 x66b14 -1 x66e72 = +0
-
 +1 x66b14 -1 x66b15 -1 x66b16 = +0
-
 +1 x66b16 +1 x66bbe +1 x66bea -1 x66beb +0 x66bec -1 x66f49 = +0
-
 +1 x66b15 -1 x66b26 -1 x66b27 = +0
-
 +1 x66b26 -1 x66b32 -1 x66b33 = +0
-
 +1 x66b32 +1 x66b3b +1 x66bdb -1 x66e9a = +0
-
 +1 x66b27 +1 x66b33 -1 x66b3e = +0
-
 +1 x66b3e +1 x66b40 -1 x66b41 +1 x66be7 -1 x66e9f = +0
-
 +1 x66b41 -1 x66b42 -1 x66b43 = +0
-
 +1 x66b43 +1 x66b7a +1 x66bb0 -1 x66bb1 +0 x66bb2 -1 x66f0f = +0
-
 +1 x66b42 -1 x66b4e -1 x66b4f = +0
-
 +1 x66b4e -1 x66b5a -1 x66b5b = +0
-
 +1 x66b5a -1 x66b5e -1 x66b5f = +0
-
 +1 x66b5e -1 x66b62 -1 x66b63 = +0
-
 +1 x66b62 -1 x66b66 -1 x66b67 = +0
-
 +1 x66b5f +1 x66b63 +1 x66b67 -1 x66b6c = +0
-
 +1 x66b6c +1 x66b6e +1 x66ba4 -1 x66ecd = +0
-
 +1 x66b4f +1 x66b5b +1 x66b66 -1 x66b75 = +0
-
 +1 x66b75 +1 x66b77 -1 x66b78 +1 x66bad -1 x66ed6 = +0
-
 +1 x66b78 -1 x66b79 -1 x66b7a = +0
-
 +1 x66b79 -1 x66b86 -1 x66b87 = +0
-
 +1 x66b86 -1 x66b92 -1 x66b93 = +0
-
 +1 x66b92 -1 x66b96 -1 x66b97 = +0
-
 +1 x66b96 -1 x66b9a -1 x66b9b = +0
-
 +1 x66b9a -1 x66b9e -1 x66b9f = +0
-
 +1 x66b97 +1 x66b9b +1 x66b9f -1 x66ba4 = +0
-
 +1 x66b87 +1 x66b93 +1 x66b9e -1 x66bad = +0
-
 +1 x66bb1 +1 x66bbb -1 x66bbc -1 x66f1a = +0
-
 +1 x66bbc -1 x66bbd -1 x66bbe = +0
-
 +1 x66bbd -1 x66bcf -1 x66bd0 = +0
-
 +1 x66bcf -1 x66bdb -1 x66bdc = +0
-
 +1 x66bd0 +1 x66bdc -1 x66be7 = +0
-
 +1 x66beb -1 x66bfa -1 x66bfb = +0
-
 +1 x66bfb -1 x66bff -1 x66c00 = +0
-
 +1 x66bfa -1 x66c01 -1 x66c02 = +0
-
 +1 x66c00 -1 x66c09 -1 x66c0a = +0
-
 +1 x66c02 -1 x66c0b -1 x66c0c = +0
-
 +1 x66c01 -1 x66c0d -1 x66c0e = +0
-
 +1 x66bff -1 x66c0f -1 x66c10 = +0
-
 +1 x66c09 +1 x66c0b -1 x66c14 = +0
-
 +1 x66c0a +1 x66c0c -1 x66c11 = +0
-
 +1 x66c0e +1 x66c10 -1 x66c1b = +0
-
 +1 x66c11 +1 x66c1b -1 x66c1f = +0
-
 +1 x66c0d +1 x66c0f -1 x66c21 = +0
-
 +1 x66c14 +1 x66c21 -1 x66c23 = +0
-
 +1 x66c1f -1 x66c26 -1 x66c27 = +0
-
 +1 x66c23 -1 x66c28 -1 x66c29 = +0
-
 +1 x66c26 +1 x66c28 +1 x66c2a -1 x66f89 = +0
-
 +1 x66c27 +1 x66c29 -1 x66c2b = +0
-
 +1 x66c2b +1 x66c2f -1 x66c30 -1 x66f8e = +0
-
 +1 x66c30 -1 x66c31 -1 x66c32 = +0
-
 +1 x66c32 +1 x66c34 -1 x66f93 = +0
-
 +1 x66c31 -1 x66c50 -1 x66c51 = +0
-
 +1 x66c50 -1 x66c5c -1 x66c5d = +0
-
 +1 x66c51 +1 x66c5c +1 x66c5d -1 x66c6b = +0
-
 +1 x66c6b +1 x66c6d -1 x66c6e -1 x66fcc = +0
-
 +1 x66c6e -1 x66c6f -1 x66c70 = +0
-
 +1 x66c6f -1 x66c7b -1 x66c7c = +0
-
 +1 x66c7b -1 x66c87 -1 x66c88 = +0
-
 +1 x66c7c +1 x66c88 -1 x66c93 = +0
-
 +1 x66c93 +1 x66c95 -1 x66c96 +1 x66cbc -1 x66ff4 = +0
-
 +1 x66c96 -1 x66c97 -1 x66c98 = +0
-
 +1 x66c70 +1 x66c98 +1 x66cbf -1 x66cc0 +0 x66cc1 -1 x6701e = +0
-
 +1 x66c97 -1 x66ca4 -1 x66ca5 = +0
-
 +1 x66ca4 -1 x66cb0 -1 x66cb1 = +0
-
 +1 x66ca5 +1 x66cb1 -1 x66cbc = +0
-
 +1 x66cc0 +1 x66cca -1 x66ccb -1 x67029 = +0
-
 +1 x66ccb -1 x66ccc -1 x66ccd = +0
-
 +1 x66ccd +1 x66d75 +1 x66da1 -1 x66da2 +0 x66da3 -1 x67100 = +0
-
 +1 x66ccc -1 x66cdd -1 x66cde = +0
-
 +1 x66cdd -1 x66ce9 -1 x66cea = +0
-
 +1 x66ce9 +1 x66cf2 +1 x66d92 -1 x67051 = +0
-
 +1 x66cde +1 x66cea -1 x66cf5 = +0
-
 +1 x66cf5 +1 x66cf7 -1 x66cf8 +1 x66d9e -1 x67056 = +0
-
 +1 x66cf8 -1 x66cf9 -1 x66cfa = +0
-
 +1 x66cfa +1 x66d31 +1 x66d67 -1 x66d68 +0 x66d69 -1 x670c6 = +0
-
 +1 x66cf9 -1 x66d05 -1 x66d06 = +0
-
 +1 x66d05 -1 x66d11 -1 x66d12 = +0
-
 +1 x66d11 -1 x66d15 -1 x66d16 = +0
-
 +1 x66d15 -1 x66d19 -1 x66d1a = +0
-
 +1 x66d19 -1 x66d1d -1 x66d1e = +0
-
 +1 x66d16 +1 x66d1a +1 x66d1e -1 x66d23 = +0
-
 +1 x66d23 +1 x66d25 +1 x66d5b -1 x67084 = +0
-
 +1 x66d06 +1 x66d12 +1 x66d1d -1 x66d2c = +0
-
 +1 x66d2c +1 x66d2e -1 x66d2f +1 x66d64 -1 x6708d = +0
-
 +1 x66d2f -1 x66d30 -1 x66d31 = +0
-
 +1 x66d30 -1 x66d3d -1 x66d3e = +0
-
 +1 x66d3d -1 x66d49 -1 x66d4a = +0
-
 +1 x66d49 -1 x66d4d -1 x66d4e = +0
-
 +1 x66d4d -1 x66d51 -1 x66d52 = +0
-
 +1 x66d51 -1 x66d55 -1 x66d56 = +0
-
 +1 x66d4e +1 x66d52 +1 x66d56 -1 x66d5b = +0
-
 +1 x66d3e +1 x66d4a +1 x66d55 -1 x66d64 = +0
-
 +1 x66d68 +1 x66d72 -1 x66d73 -1 x670d1 = +0
-
 +1 x66d73 -1 x66d74 -1 x66d75 = +0
-
 +1 x66d74 -1 x66d86 -1 x66d87 = +0
-
 +1 x66d86 -1 x66d92 -1 x66d93 = +0
-
 +1 x66d87 +1 x66d93 -1 x66d9e = +0
-
 +1 x66da2 -1 x66db1 -1 x66db2 = +0
-
 +1 x66db2 -1 x66db6 -1 x66db7 = +0
-
 +1 x66db1 -1 x66db8 -1 x66db9 = +0
-
 +1 x66db7 +1 x66db9 -1 x66dbf -1 x66dc0 = +0
-
 +1 x66db6 +1 x66db8 -1 x66dbe = +0
-
 +1 x66dbe -1 x66dc1 -1 x66dc2 = +0
-
 +1 x66dc0 +1 x66dc2 -1 x66dcd = +0
-
 +1 x66dbf +1 x66dc1 -1 x66dd1 = +0
-
 +1 x66dcd +1 x66dd1 -1 x66dd6 = +0
-
 +1 x66dd6 -1 x66dd9 -1 x66dda = +0
-
 +1 x66dd9 +1 x66dda -1 x66dea = +0
-
 +1 x66dea -1 x66df8 -1 x66df9 = +0
-
 +1 x66df8 -1 x66e04 -1 x66e05 = +0
-
 +1 x66df9 +1 x66e04 +1 x66e05 -1 x66e13 = +0
-
 +1 x66e13 +1 x66e15 -1 x66e16 -1 x67174 = +0
-
 +1 x66e16 -1 x66e17 -1 x66e18 = +0
-
 +1 x66e18 +1 x66e40 +1 x66e67 -1 x66e68 +0 x66e69 -1 x671c6 = +0
-
 +1 x66e17 -1 x66e23 -1 x66e24 = +0
-
 +1 x66e23 -1 x66e2f -1 x66e30 = +0
-
 +1 x66e24 +1 x66e30 -1 x66e3b = +0
-
 +1 x66e3b +1 x66e3d -1 x66e3e +1 x66e64 -1 x6719c = +0
-
 +1 x66e3e -1 x66e3f -1 x66e40 = +0
-
 +1 x66e3f -1 x66e4c -1 x66e4d = +0
-
 +1 x66e4c -1 x66e58 -1 x66e59 = +0
-
 +1 x66e4d +1 x66e59 -1 x66e64 = +0
-
 +1 x66e68 +1 x66e72 -1 x66e73 -1 x671d1 = +0
-
 +1 x66e73 -1 x66e74 -1 x66e75 = +0
-
 +1 x66e75 +1 x66f1d +1 x66f49 -1 x66f4a +0 x66f4b -1 x672a8 = +0
-
 +1 x66e74 -1 x66e85 -1 x66e86 = +0
-
 +1 x66e85 -1 x66e91 -1 x66e92 = +0
-
 +1 x66e91 +1 x66e9a +1 x66f3a -1 x671f9 = +0
-
 +1 x66e86 +1 x66e92 -1 x66e9d = +0
-
 +1 x66e9d +1 x66e9f -1 x66ea0 +1 x66f46 -1 x671fe = +0
-
 +1 x66ea0 -1 x66ea1 -1 x66ea2 = +0
-
 +1 x66ea2 +1 x66ed9 +1 x66f0f -1 x66f10 +0 x66f11 -1 x6726e = +0
-
 +1 x66ea1 -1 x66ead -1 x66eae = +0
-
 +1 x66ead -1 x66eb9 -1 x66eba = +0
-
 +1 x66eb9 -1 x66ebd -1 x66ebe = +0
-
 +1 x66ebd -1 x66ec1 -1 x66ec2 = +0
-
 +1 x66ec1 -1 x66ec5 -1 x66ec6 = +0
-
 +1 x66ebe +1 x66ec2 +1 x66ec6 -1 x66ecb = +0
-
 +1 x66ecb +1 x66ecd +1 x66f03 -1 x6722c = +0
-
 +1 x66eae +1 x66eba +1 x66ec5 -1 x66ed4 = +0
-
 +1 x66ed4 +1 x66ed6 -1 x66ed7 +1 x66f0c -1 x67235 = +0
-
 +1 x66ed7 -1 x66ed8 -1 x66ed9 = +0
-
 +1 x66ed8 -1 x66ee5 -1 x66ee6 = +0
-
 +1 x66ee5 -1 x66ef1 -1 x66ef2 = +0
-
 +1 x66ef1 -1 x66ef5 -1 x66ef6 = +0
-
 +1 x66ef5 -1 x66ef9 -1 x66efa = +0
-
 +1 x66ef9 -1 x66efd -1 x66efe = +0
-
 +1 x66ef6 +1 x66efa +1 x66efe -1 x66f03 = +0
-
 +1 x66ee6 +1 x66ef2 +1 x66efd -1 x66f0c = +0
-
 +1 x66f10 +1 x66f1a -1 x66f1b -1 x67279 = +0
-
 +1 x66f1b -1 x66f1c -1 x66f1d = +0
-
 +1 x66f1c -1 x66f2e -1 x66f2f = +0
-
 +1 x66f2e -1 x66f3a -1 x66f3b = +0
-
 +1 x66f2f +1 x66f3b -1 x66f46 = +0
-
 +1 x66f4a -1 x66f59 -1 x66f5a = +0
-
 +1 x66f5a -1 x66f5e -1 x66f5f = +0
-
 +1 x66f59 -1 x66f60 -1 x66f61 = +0
-
 +1 x66f5f -1 x66f68 -1 x66f69 = +0
-
 +1 x66f61 -1 x66f6a -1 x66f6b = +0
-
 +1 x66f60 -1 x66f6c -1 x66f6d = +0
-
 +1 x66f5e -1 x66f6e -1 x66f6f = +0
-
 +1 x66f68 +1 x66f6a -1 x66f73 = +0
-
 +1 x66f69 +1 x66f6b -1 x66f70 = +0
-
 +1 x66f6d +1 x66f6f -1 x66f7a = +0
-
 +1 x66f70 +1 x66f7a -1 x66f7e = +0
-
 +1 x66f6c +1 x66f6e -1 x66f80 = +0
-
 +1 x66f73 +1 x66f80 -1 x66f82 = +0
-
 +1 x66f7e -1 x66f85 -1 x66f86 = +0
-
 +1 x66f82 -1 x66f87 -1 x66f88 = +0
-
 +1 x66f85 +1 x66f87 +1 x66f89 -1 x672e8 = +0
-
 +1 x66f86 +1 x66f88 -1 x66f8a = +0
-
 +1 x66f8a +1 x66f8e -1 x66f8f -1 x672ed = +0
-
 +1 x66f8f -1 x66f90 -1 x66f91 = +0
-
 +1 x66f91 +1 x66f93 -1 x672f2 = +0
-
 +1 x66f90 -1 x66faf -1 x66fb0 = +0
-
 +1 x66faf -1 x66fbb -1 x66fbc = +0
-
 +1 x66fb0 +1 x66fbb +1 x66fbc -1 x66fca = +0
-
 +1 x66fca +1 x66fcc -1 x66fcd -1 x6732b = +0
-
 +1 x66fcd -1 x66fce -1 x66fcf = +0
-
 +1 x66fce -1 x66fda -1 x66fdb = +0
-
 +1 x66fda -1 x66fe6 -1 x66fe7 = +0
-
 +1 x66fdb +1 x66fe7 -1 x66ff2 = +0
-
 +1 x66ff2 +1 x66ff4 -1 x66ff5 +1 x6701b -1 x67353 = +0
-
 +1 x66ff5 -1 x66ff6 -1 x66ff7 = +0
-
 +1 x66fcf +1 x66ff7 +1 x6701e -1 x6701f +0 x67020 -1 x6737d = +0
-
 +1 x66ff6 -1 x67003 -1 x67004 = +0
-
 +1 x67003 -1 x6700f -1 x67010 = +0
-
 +1 x67004 +1 x67010 -1 x6701b = +0
-
 +1 x6701f +1 x67029 -1 x6702a -1 x67388 = +0
-
 +1 x6702a -1 x6702b -1 x6702c = +0
-
 +1 x6702c +1 x670d4 +1 x67100 -1 x67101 +0 x67102 -1 x6745f = +0
-
 +1 x6702b -1 x6703c -1 x6703d = +0
-
 +1 x6703c -1 x67048 -1 x67049 = +0
-
 +1 x67048 +1 x67051 +1 x670f1 -1 x673b0 = +0
-
 +1 x6703d +1 x67049 -1 x67054 = +0
-
 +1 x67054 +1 x67056 -1 x67057 +1 x670fd -1 x673b5 = +0
-
 +1 x67057 -1 x67058 -1 x67059 = +0
-
 +1 x67059 +1 x67090 +1 x670c6 -1 x670c7 +0 x670c8 -1 x67425 = +0
-
 +1 x67058 -1 x67064 -1 x67065 = +0
-
 +1 x67064 -1 x67070 -1 x67071 = +0
-
 +1 x67070 -1 x67074 -1 x67075 = +0
-
 +1 x67074 -1 x67078 -1 x67079 = +0
-
 +1 x67078 -1 x6707c -1 x6707d = +0
-
 +1 x67075 +1 x67079 +1 x6707d -1 x67082 = +0
-
 +1 x67082 +1 x67084 +1 x670ba -1 x673e3 = +0
-
 +1 x67065 +1 x67071 +1 x6707c -1 x6708b = +0
-
 +1 x6708b +1 x6708d -1 x6708e +1 x670c3 -1 x673ec = +0
-
 +1 x6708e -1 x6708f -1 x67090 = +0
-
 +1 x6708f -1 x6709c -1 x6709d = +0
-
 +1 x6709c -1 x670a8 -1 x670a9 = +0
-
 +1 x670a8 -1 x670ac -1 x670ad = +0
-
 +1 x670ac -1 x670b0 -1 x670b1 = +0
-
 +1 x670b0 -1 x670b4 -1 x670b5 = +0
-
 +1 x670ad +1 x670b1 +1 x670b5 -1 x670ba = +0
-
 +1 x6709d +1 x670a9 +1 x670b4 -1 x670c3 = +0
-
 +1 x670c7 +1 x670d1 -1 x670d2 -1 x67430 = +0
-
 +1 x670d2 -1 x670d3 -1 x670d4 = +0
-
 +1 x670d3 -1 x670e5 -1 x670e6 = +0
-
 +1 x670e5 -1 x670f1 -1 x670f2 = +0
-
 +1 x670e6 +1 x670f2 -1 x670fd = +0
-
 +1 x67101 -1 x67110 -1 x67111 = +0
-
 +1 x67111 -1 x67115 -1 x67116 = +0
-
 +1 x67110 -1 x67117 -1 x67118 = +0
-
 +1 x67116 +1 x67118 -1 x6711e -1 x6711f = +0
-
 +1 x67115 +1 x67117 -1 x6711d = +0
-
 +1 x6711d -1 x67120 -1 x67121 = +0
-
 +1 x6711f +1 x67121 -1 x6712c = +0
-
 +1 x6711e +1 x67120 -1 x67130 = +0
-
 +1 x6712c +1 x67130 -1 x67135 = +0
-
 +1 x67135 -1 x67138 -1 x67139 = +0
-
 +1 x67138 +1 x67139 -1 x67149 = +0
-
 +1 x67149 -1 x67157 -1 x67158 = +0
-
 +1 x67157 -1 x67163 -1 x67164 = +0
-
 +1 x67158 +1 x67163 +1 x67164 -1 x67172 = +0
-
 +1 x67172 +1 x67174 -1 x67175 -1 x674d3 = +0
-
 +1 x67175 -1 x67176 -1 x67177 = +0
-
 +1 x67177 +1 x6719f +1 x671c6 -1 x671c7 +0 x671c8 -1 x67525 = +0
-
 +1 x67176 -1 x67182 -1 x67183 = +0
-
 +1 x67182 -1 x6718e -1 x6718f = +0
-
 +1 x67183 +1 x6718f -1 x6719a = +0
-
 +1 x6719a +1 x6719c -1 x6719d +1 x671c3 -1 x674fb = +0
-
 +1 x6719d -1 x6719e -1 x6719f = +0
-
 +1 x6719e -1 x671ab -1 x671ac = +0
-
 +1 x671ab -1 x671b7 -1 x671b8 = +0
-
 +1 x671ac +1 x671b8 -1 x671c3 = +0
-
 +1 x671c7 +1 x671d1 -1 x671d2 -1 x67530 = +0
-
 +1 x671d2 -1 x671d3 -1 x671d4 = +0
-
 +1 x671d4 +1 x6727c +1 x672a8 -1 x672a9 +0 x672aa -1 x67607 = +0
-
 +1 x671d3 -1 x671e4 -1 x671e5 = +0
-
 +1 x671e4 -1 x671f0 -1 x671f1 = +0
-
 +1 x671f0 +1 x671f9 +1 x67299 -1 x67558 = +0
-
 +1 x671e5 +1 x671f1 -1 x671fc = +0
-
 +1 x671fc +1 x671fe -1 x671ff +1 x672a5 -1 x6755d = +0
-
 +1 x671ff -1 x67200 -1 x67201 = +0
-
 +1 x67201 +1 x67238 +1 x6726e -1 x6726f +0 x67270 -1 x675cd = +0
-
 +1 x67200 -1 x6720c -1 x6720d = +0
-
 +1 x6720c -1 x67218 -1 x67219 = +0
-
 +1 x67218 -1 x6721c -1 x6721d = +0
-
 +1 x6721c -1 x67220 -1 x67221 = +0
-
 +1 x67220 -1 x67224 -1 x67225 = +0
-
 +1 x6721d +1 x67221 +1 x67225 -1 x6722a = +0
-
 +1 x6722a +1 x6722c +1 x67262 -1 x6758b = +0
-
 +1 x6720d +1 x67219 +1 x67224 -1 x67233 = +0
-
 +1 x67233 +1 x67235 -1 x67236 +1 x6726b -1 x67594 = +0
-
 +1 x67236 -1 x67237 -1 x67238 = +0
-
 +1 x67237 -1 x67244 -1 x67245 = +0
-
 +1 x67244 -1 x67250 -1 x67251 = +0
-
 +1 x67250 -1 x67254 -1 x67255 = +0
-
 +1 x67254 -1 x67258 -1 x67259 = +0
-
 +1 x67258 -1 x6725c -1 x6725d = +0
-
 +1 x67255 +1 x67259 +1 x6725d -1 x67262 = +0
-
 +1 x67245 +1 x67251 +1 x6725c -1 x6726b = +0
-
 +1 x6726f +1 x67279 -1 x6727a -1 x675d8 = +0
-
 +1 x6727a -1 x6727b -1 x6727c = +0
-
 +1 x6727b -1 x6728d -1 x6728e = +0
-
 +1 x6728d -1 x67299 -1 x6729a = +0
-
 +1 x6728e +1 x6729a -1 x672a5 = +0
-
 +1 x672a9 -1 x672b8 -1 x672b9 = +0
-
 +1 x672b9 -1 x672bd -1 x672be = +0
-
 +1 x672b8 -1 x672bf -1 x672c0 = +0
-
 +1 x672be -1 x672c7 -1 x672c8 = +0
-
 +1 x672c0 -1 x672c9 -1 x672ca = +0
-
 +1 x672bf -1 x672cb -1 x672cc = +0
-
 +1 x672bd -1 x672cd -1 x672ce = +0
-
 +1 x672c7 +1 x672c9 -1 x672d2 = +0
-
 +1 x672c8 +1 x672ca -1 x672cf = +0
-
 +1 x672cc +1 x672ce -1 x672d9 = +0
-
 +1 x672cf +1 x672d9 -1 x672dd = +0
-
 +1 x672cb +1 x672cd -1 x672df = +0
-
 +1 x672d2 +1 x672df -1 x672e1 = +0
-
 +1 x672dd -1 x672e4 -1 x672e5 = +0
-
 +1 x672e1 -1 x672e6 -1 x672e7 = +0
-
 +1 x672e4 +1 x672e6 +1 x672e8 -1 x67647 = +0
-
 +1 x672e5 +1 x672e7 -1 x672e9 = +0
-
 +1 x672e9 +1 x672ed -1 x672ee -1 x6764c = +0
-
 +1 x672ee -1 x672ef -1 x672f0 = +0
-
 +1 x672f0 +1 x672f2 -1 x67651 = +0
-
 +1 x672ef -1 x6730e -1 x6730f = +0
-
 +1 x6730e -1 x6731a -1 x6731b = +0
-
 +1 x6730f +1 x6731a +1 x6731b -1 x67329 = +0
-
 +1 x67329 +1 x6732b -1 x6732c -1 x6768a = +0
-
 +1 x6732c -1 x6732d -1 x6732e = +0
-
 +1 x6732d -1 x67339 -1 x6733a = +0
-
 +1 x67339 -1 x67345 -1 x67346 = +0
-
 +1 x6733a +1 x67346 -1 x67351 = +0
-
 +1 x67351 +1 x67353 -1 x67354 +1 x6737a -1 x676b2 = +0
-
 +1 x67354 -1 x67355 -1 x67356 = +0
-
 +1 x6732e +1 x67356 +1 x6737d -1 x6737e +0 x6737f -1 x676dc = +0
-
 +1 x67355 -1 x67362 -1 x67363 = +0
-
 +1 x67362 -1 x6736e -1 x6736f = +0
-
 +1 x67363 +1 x6736f -1 x6737a = +0
-
 +1 x6737e +1 x67388 -1 x67389 -1 x676e7 = +0
-
 +1 x67389 -1 x6738a -1 x6738b = +0
-
 +1 x6738b +1 x67433 +1 x6745f -1 x67460 +0 x67461 -1 x677be = +0
-
 +1 x6738a -1 x6739b -1 x6739c = +0
-
 +1 x6739b -1 x673a7 -1 x673a8 = +0
-
 +1 x673a7 +1 x673b0 +1 x67450 -1 x6770f = +0
-
 +1 x6739c +1 x673a8 -1 x673b3 = +0
-
 +1 x673b3 +1 x673b5 -1 x673b6 +1 x6745c -1 x67714 = +0
-
 +1 x673b6 -1 x673b7 -1 x673b8 = +0
-
 +1 x673b8 +1 x673ef +1 x67425 -1 x67426 +0 x67427 -1 x67784 = +0
-
 +1 x673b7 -1 x673c3 -1 x673c4 = +0
-
 +1 x673c3 -1 x673cf -1 x673d0 = +0
-
 +1 x673cf -1 x673d3 -1 x673d4 = +0
-
 +1 x673d3 -1 x673d7 -1 x673d8 = +0
-
 +1 x673d7 -1 x673db -1 x673dc = +0
-
 +1 x673d4 +1 x673d8 +1 x673dc -1 x673e1 = +0
-
 +1 x673e1 +1 x673e3 +1 x67419 -1 x67742 = +0
-
 +1 x673c4 +1 x673d0 +1 x673db -1 x673ea = +0
-
 +1 x673ea +1 x673ec -1 x673ed +1 x67422 -1 x6774b = +0
-
 +1 x673ed -1 x673ee -1 x673ef = +0
-
 +1 x673ee -1 x673fb -1 x673fc = +0
-
 +1 x673fb -1 x67407 -1 x67408 = +0
-
 +1 x67407 -1 x6740b -1 x6740c = +0
-
 +1 x6740b -1 x6740f -1 x67410 = +0
-
 +1 x6740f -1 x67413 -1 x67414 = +0
-
 +1 x6740c +1 x67410 +1 x67414 -1 x67419 = +0
-
 +1 x673fc +1 x67408 +1 x67413 -1 x67422 = +0
-
 +1 x67426 +1 x67430 -1 x67431 -1 x6778f = +0
-
 +1 x67431 -1 x67432 -1 x67433 = +0
-
 +1 x67432 -1 x67444 -1 x67445 = +0
-
 +1 x67444 -1 x67450 -1 x67451 = +0
-
 +1 x67445 +1 x67451 -1 x6745c = +0
-
 +1 x67460 -1 x6746f -1 x67470 = +0
-
 +1 x67470 -1 x67474 -1 x67475 = +0
-
 +1 x6746f -1 x67476 -1 x67477 = +0
-
 +1 x67475 +1 x67477 -1 x6747d -1 x6747e = +0
-
 +1 x67474 +1 x67476 -1 x6747c = +0
-
 +1 x6747c -1 x6747f -1 x67480 = +0
-
 +1 x6747e +1 x67480 -1 x6748b = +0
-
 +1 x6747d +1 x6747f -1 x6748f = +0
-
 +1 x6748b +1 x6748f -1 x67494 = +0
-
 +1 x67494 -1 x67497 -1 x67498 = +0
-
 +1 x67497 +1 x67498 -1 x674a8 = +0
-
 +1 x674a8 -1 x674b6 -1 x674b7 = +0
-
 +1 x674b6 -1 x674c2 -1 x674c3 = +0
-
 +1 x674b7 +1 x674c2 +1 x674c3 -1 x674d1 = +0
-
 +1 x674d1 +1 x674d3 -1 x674d4 -1 x67832 = +0
-
 +1 x674d4 -1 x674d5 -1 x674d6 = +0
-
 +1 x674d6 +1 x674fe +1 x67525 -1 x67526 +0 x67527 -1 x67884 = +0
-
 +1 x674d5 -1 x674e1 -1 x674e2 = +0
-
 +1 x674e1 -1 x674ed -1 x674ee = +0
-
 +1 x674e2 +1 x674ee -1 x674f9 = +0
-
 +1 x674f9 +1 x674fb -1 x674fc +1 x67522 -1 x6785a = +0
-
 +1 x674fc -1 x674fd -1 x674fe = +0
-
 +1 x674fd -1 x6750a -1 x6750b = +0
-
 +1 x6750a -1 x67516 -1 x67517 = +0
-
 +1 x6750b +1 x67517 -1 x67522 = +0
-
 +1 x67526 +1 x67530 -1 x67531 -1 x6788f = +0
-
 +1 x67531 -1 x67532 -1 x67533 = +0
-
 +1 x67533 +1 x675db +1 x67607 -1 x67608 +0 x67609 -1 x67966 = +0
-
 +1 x67532 -1 x67543 -1 x67544 = +0
-
 +1 x67543 -1 x6754f -1 x67550 = +0
-
 +1 x6754f +1 x67558 +1 x675f8 -1 x678b7 = +0
-
 +1 x67544 +1 x67550 -1 x6755b = +0
-
 +1 x6755b +1 x6755d -1 x6755e +1 x67604 -1 x678bc = +0
-
 +1 x6755e -1 x6755f -1 x67560 = +0
-
 +1 x67560 +1 x67597 +1 x675cd -1 x675ce +0 x675cf -1 x6792c = +0
-
 +1 x6755f -1 x6756b -1 x6756c = +0
-
 +1 x6756b -1 x67577 -1 x67578 = +0
-
 +1 x67577 -1 x6757b -1 x6757c = +0
-
 +1 x6757b -1 x6757f -1 x67580 = +0
-
 +1 x6757f -1 x67583 -1 x67584 = +0
-
 +1 x6757c +1 x67580 +1 x67584 -1 x67589 = +0
-
 +1 x67589 +1 x6758b +1 x675c1 -1 x678ea = +0
-
 +1 x6756c +1 x67578 +1 x67583 -1 x67592 = +0
-
 +1 x67592 +1 x67594 -1 x67595 +1 x675ca -1 x678f3 = +0
-
 +1 x67595 -1 x67596 -1 x67597 = +0
-
 +1 x67596 -1 x675a3 -1 x675a4 = +0
-
 +1 x675a3 -1 x675af -1 x675b0 = +0
-
 +1 x675af -1 x675b3 -1 x675b4 = +0
-
 +1 x675b3 -1 x675b7 -1 x675b8 = +0
-
 +1 x675b7 -1 x675bb -1 x675bc = +0
-
 +1 x675b4 +1 x675b8 +1 x675bc -1 x675c1 = +0
-
 +1 x675a4 +1 x675b0 +1 x675bb -1 x675ca = +0
-
 +1 x675ce +1 x675d8 -1 x675d9 -1 x67937 = +0
-
 +1 x675d9 -1 x675da -1 x675db = +0
-
 +1 x675da -1 x675ec -1 x675ed = +0
-
 +1 x675ec -1 x675f8 -1 x675f9 = +0
-
 +1 x675ed +1 x675f9 -1 x67604 = +0
-
 +1 x67608 -1 x67617 -1 x67618 = +0
-
 +1 x67618 -1 x6761c -1 x6761d = +0
-
 +1 x67617 -1 x6761e -1 x6761f = +0
-
 +1 x6761d -1 x67626 -1 x67627 = +0
-
 +1 x6761f -1 x67628 -1 x67629 = +0
-
 +1 x6761e -1 x6762a -1 x6762b = +0
-
 +1 x6761c -1 x6762c -1 x6762d = +0
-
 +1 x67626 +1 x67628 -1 x67631 = +0
-
 +1 x67627 +1 x67629 -1 x6762e = +0
-
 +1 x6762b +1 x6762d -1 x67638 = +0
-
 +1 x6762e +1 x67638 -1 x6763c = +0
-
 +1 x6762a +1 x6762c -1 x6763e = +0
-
 +1 x67631 +1 x6763e -1 x67640 = +0
-
 +1 x6763c -1 x67643 -1 x67644 = +0
-
 +1 x67640 -1 x67645 -1 x67646 = +0
-
 +1 x67643 +1 x67645 +1 x67647 -1 x679a6 = +0
-
 +1 x67644 +1 x67646 -1 x67648 = +0
-
 +1 x67648 +1 x6764c -1 x6764d -1 x679ab = +0
-
 +1 x6764d -1 x6764e -1 x6764f = +0
-
 +1 x6764f +1 x67651 -1 x679b0 = +0
-
 +1 x6764e -1 x6766d -1 x6766e = +0
-
 +1 x6766d -1 x67679 -1 x6767a = +0
-
 +1 x6766e +1 x67679 +1 x6767a -1 x67688 = +0
-
 +1 x67688 +1 x6768a -1 x6768b -1 x679e9 = +0
-
 +1 x6768b -1 x6768c -1 x6768d = +0
-
 +1 x6768c -1 x67698 -1 x67699 = +0
-
 +1 x67698 -1 x676a4 -1 x676a5 = +0
-
 +1 x67699 +1 x676a5 -1 x676b0 = +0
-
 +1 x676b0 +1 x676b2 -1 x676b3 +1 x676d9 -1 x67a10 = +0
-
 +1 x676b3 -1 x676b4 -1 x676b5 = +0
-
 +1 x6768d +1 x676b5 +1 x676dc -1 x676dd +0 x676de -1 x67a3a = +0
-
 +1 x676b4 -1 x676c1 -1 x676c2 = +0
-
 +1 x676c1 -1 x676cd -1 x676ce = +0
-
 +1 x676c2 +1 x676ce -1 x676d9 = +0
-
 +1 x676dd +1 x676e7 -1 x676e8 -1 x67a45 = +0
-
 +1 x676e8 -1 x676e9 -1 x676ea = +0
-
 +1 x676ea +1 x67792 +1 x677be -1 x677bf +0 x677c0 -1 x67b1c = +0
-
 +1 x676e9 -1 x676fa -1 x676fb = +0
-
 +1 x676fa -1 x67706 -1 x67707 = +0
-
 +1 x67706 +1 x6770f +1 x677af -1 x67a6d = +0
-
 +1 x676fb +1 x67707 -1 x67712 = +0
-
 +1 x67712 +1 x67714 -1 x67715 +1 x677bb -1 x67a72 = +0
-
 +1 x67715 -1 x67716 -1 x67717 = +0
-
 +1 x67717 +1 x6774e +1 x67784 -1 x67785 +0 x67786 -1 x67ae2 = +0
-
 +1 x67716 -1 x67722 -1 x67723 = +0
-
 +1 x67722 -1 x6772e -1 x6772f = +0
-
 +1 x6772e -1 x67732 -1 x67733 = +0
-
 +1 x67732 -1 x67736 -1 x67737 = +0
-
 +1 x67736 -1 x6773a -1 x6773b = +0
-
 +1 x67733 +1 x67737 +1 x6773b -1 x67740 = +0
-
 +1 x67740 +1 x67742 +1 x67778 -1 x67aa0 = +0
-
 +1 x67723 +1 x6772f +1 x6773a -1 x67749 = +0
-
 +1 x67749 +1 x6774b -1 x6774c +1 x67781 -1 x67aa9 = +0
-
 +1 x6774c -1 x6774d -1 x6774e = +0
-
 +1 x6774d -1 x6775a -1 x6775b = +0
-
 +1 x6775a -1 x67766 -1 x67767 = +0
-
 +1 x67766 -1 x6776a -1 x6776b = +0
-
 +1 x6776a -1 x6776e -1 x6776f = +0
-
 +1 x6776e -1 x67772 -1 x67773 = +0
-
 +1 x6776b +1 x6776f +1 x67773 -1 x67778 = +0
-
 +1 x6775b +1 x67767 +1 x67772 -1 x67781 = +0
-
 +1 x67785 +1 x6778f -1 x67790 -1 x67aed = +0
-
 +1 x67790 -1 x67791 -1 x67792 = +0
-
 +1 x67791 -1 x677a3 -1 x677a4 = +0
-
 +1 x677a3 -1 x677af -1 x677b0 = +0
-
 +1 x677a4 +1 x677b0 -1 x677bb = +0
-
 +1 x677bf -1 x677ce -1 x677cf = +0
-
 +1 x677cf -1 x677d3 -1 x677d4 = +0
-
 +1 x677ce -1 x677d5 -1 x677d6 = +0
-
 +1 x677d4 +1 x677d6 -1 x677dc -1 x677dd = +0
-
 +1 x677d3 +1 x677d5 -1 x677db = +0
-
 +1 x677db -1 x677de -1 x677df = +0
-
 +1 x677dd +1 x677df -1 x677ea = +0
-
 +1 x677dc +1 x677de -1 x677ee = +0
-
 +1 x677ea +1 x677ee -1 x677f3 = +0
-
 +1 x677f3 -1 x677f6 -1 x677f7 = +0
-
 +1 x677f6 +1 x677f7 -1 x67807 = +0
-
 +1 x67807 -1 x67815 -1 x67816 = +0
-
 +1 x67815 -1 x67821 -1 x67822 = +0
-
 +1 x67816 +1 x67821 +1 x67822 -1 x67830 = +0
-
 +1 x67830 +1 x67832 -1 x67833 -1 x67b90 = +0
-
 +1 x67833 -1 x67834 -1 x67835 = +0
-
 +1 x67835 +1 x6785d +1 x67884 -1 x67885 +0 x67886 -1 x67be1 = +0
-
 +1 x67834 -1 x67840 -1 x67841 = +0
-
 +1 x67840 -1 x6784c -1 x6784d = +0
-
 +1 x67841 +1 x6784d -1 x67858 = +0
-
 +1 x67858 +1 x6785a -1 x6785b +1 x67881 -1 x67bb7 = +0
-
 +1 x6785b -1 x6785c -1 x6785d = +0
-
 +1 x6785c -1 x67869 -1 x6786a = +0
-
 +1 x67869 -1 x67875 -1 x67876 = +0
-
 +1 x6786a +1 x67876 -1 x67881 = +0
-
 +1 x67885 +1 x6788f -1 x67890 -1 x67bec = +0
-
 +1 x67890 -1 x67891 -1 x67892 = +0
-
 +1 x67892 +1 x6793a +1 x67966 -1 x67967 +0 x67968 -1 x67cc3 = +0
-
 +1 x67891 -1 x678a2 -1 x678a3 = +0
-
 +1 x678a2 -1 x678ae -1 x678af = +0
-
 +1 x678ae +1 x678b7 +1 x67957 -1 x67c14 = +0
-
 +1 x678a3 +1 x678af -1 x678ba = +0
-
 +1 x678ba +1 x678bc -1 x678bd +1 x67963 -1 x67c19 = +0
-
 +1 x678bd -1 x678be -1 x678bf = +0
-
 +1 x678bf +1 x678f6 +1 x6792c -1 x6792d +0 x6792e -1 x67c89 = +0
-
 +1 x678be -1 x678ca -1 x678cb = +0
-
 +1 x678ca -1 x678d6 -1 x678d7 = +0
-
 +1 x678d6 -1 x678da -1 x678db = +0
-
 +1 x678da -1 x678de -1 x678df = +0
-
 +1 x678de -1 x678e2 -1 x678e3 = +0
-
 +1 x678db +1 x678df +1 x678e3 -1 x678e8 = +0
-
 +1 x678e8 +1 x678ea +1 x67920 -1 x67c47 = +0
-
 +1 x678cb +1 x678d7 +1 x678e2 -1 x678f1 = +0
-
 +1 x678f1 +1 x678f3 -1 x678f4 +1 x67929 -1 x67c50 = +0
-
 +1 x678f4 -1 x678f5 -1 x678f6 = +0
-
 +1 x678f5 -1 x67902 -1 x67903 = +0
-
 +1 x67902 -1 x6790e -1 x6790f = +0
-
 +1 x6790e -1 x67912 -1 x67913 = +0
-
 +1 x67912 -1 x67916 -1 x67917 = +0
-
 +1 x67916 -1 x6791a -1 x6791b = +0
-
 +1 x67913 +1 x67917 +1 x6791b -1 x67920 = +0
-
 +1 x67903 +1 x6790f +1 x6791a -1 x67929 = +0
-
 +1 x6792d +1 x67937 -1 x67938 -1 x67c94 = +0
-
 +1 x67938 -1 x67939 -1 x6793a = +0
-
 +1 x67939 -1 x6794b -1 x6794c = +0
-
 +1 x6794b -1 x67957 -1 x67958 = +0
-
 +1 x6794c +1 x67958 -1 x67963 = +0
-
 +1 x67967 -1 x67976 -1 x67977 = +0
-
 +1 x67977 -1 x6797b -1 x6797c = +0
-
 +1 x67976 -1 x6797d -1 x6797e = +0
-
 +1 x6797c -1 x67985 -1 x67986 = +0
-
 +1 x6797e -1 x67987 -1 x67988 = +0
-
 +1 x6797d -1 x67989 -1 x6798a = +0
-
 +1 x6797b -1 x6798b -1 x6798c = +0
-
 +1 x67985 +1 x67987 -1 x67990 = +0
-
 +1 x67986 +1 x67988 -1 x6798d = +0
-
 +1 x6798a +1 x6798c -1 x67997 = +0
-
 +1 x6798d +1 x67997 -1 x6799b = +0
-
 +1 x67989 +1 x6798b -1 x6799d = +0
-
 +1 x67990 +1 x6799d -1 x6799f = +0
-
 +1 x6799b -1 x679a2 -1 x679a3 = +0
-
 +1 x6799f -1 x679a4 -1 x679a5 = +0
-
 +1 x679a2 +1 x679a4 +1 x679a6 +1 x67d03 -1 x67d09 = +0
-
 +1 x679a3 +1 x679a5 -1 x679a7 = +0
-
 +1 x679a7 +1 x679ab -1 x679ac +1 x67d04 -1 x68880 = +0
-
 +1 x679ac -1 x679ad -1 x679ae = +0
-
 +1 x679ae +1 x679b0 -1 x67d0a +0 x67d0b +1 x68029 -1 x688c0 = +0
-
 +1 x679ad -1 x679cc -1 x679cd = +0
-
 +1 x679cc -1 x679d8 -1 x679d9 = +0
-
 +1 x679cd +1 x679d8 +1 x679d9 -1 x679e7 = +0
-
 +1 x679e7 +1 x679e9 -1 x679ea +1 x68061 -1 x68560 = +0
-
 +1 x679ea -1 x679eb -1 x679ec = +0
-
 +1 x679eb -1 x679f7 -1 x679f8 = +0
-
 +1 x679f7 -1 x67a03 -1 x67a04 = +0
-
 +1 x679f8 +1 x67a04 -1 x67a0e = +0
-
 +1 x67a0e +1 x67a10 -1 x67a11 +1 x67a37 -1 x68588 = +0
-
 +1 x67a11 -1 x67a12 -1 x67a13 = +0
-
 +1 x679ec +1 x67a13 +1 x67a3a -1 x67a3b +0 x67a3c -1 x685b2 = +0
-
 +1 x67a12 -1 x67a1f -1 x67a20 = +0
-
 +1 x67a1f -1 x67a2b -1 x67a2c = +0
-
 +1 x67a03 +1 x67a2b -1 x68583 = +0
-
 +1 x67a20 +1 x67a2c -1 x67a37 = +0
-
 +1 x67a3b +1 x67a45 -1 x67a46 -1 x685bd = +0
-
 +1 x67a46 -1 x67a47 -1 x67a48 = +0
-
 +1 x67a48 +1 x67af0 +1 x67b1c -1 x67b1d +0 x67b1e -1 x68694 = +0
-
 +1 x67a47 -1 x67a58 -1 x67a59 = +0
-
 +1 x67a58 -1 x67a64 -1 x67a65 = +0
-
 +1 x67a64 +1 x67a6d +1 x67b0d -1 x685e5 = +0
-
 +1 x67a59 +1 x67a65 -1 x67a70 = +0
-
 +1 x67a70 +1 x67a72 -1 x67a73 +1 x67b19 -1 x685ea = +0
-
 +1 x67a73 -1 x67a74 -1 x67a75 = +0
-
 +1 x67a75 +1 x67aac +1 x67ae2 -1 x67ae3 +0 x67ae4 -1 x6865a = +0
-
 +1 x67a74 -1 x67a80 -1 x67a81 = +0
-
 +1 x67a80 -1 x67a8c -1 x67a8d = +0
-
 +1 x67a8c -1 x67a90 -1 x67a91 = +0
-
 +1 x67a90 -1 x67a94 -1 x67a95 = +0
-
 +1 x67a94 -1 x67a98 -1 x67a99 = +0
-
 +1 x67a91 +1 x67a95 +1 x67a99 -1 x67a9e = +0
-
 +1 x67a9e +1 x67aa0 +1 x67ad6 -1 x68618 = +0
-
 +1 x67a81 +1 x67a8d +1 x67a98 -1 x67aa7 = +0
-
 +1 x67aa7 +1 x67aa9 -1 x67aaa +1 x67adf -1 x68621 = +0
-
 +1 x67aaa -1 x67aab -1 x67aac = +0
-
 +1 x67aab -1 x67ab8 -1 x67ab9 = +0
-
 +1 x67ab8 -1 x67ac4 -1 x67ac5 = +0
-
 +1 x67ac4 -1 x67ac8 -1 x67ac9 = +0
-
 +1 x67ac8 -1 x67acc -1 x67acd = +0
-
 +1 x67acc -1 x67ad0 -1 x67ad1 = +0
-
 +1 x67ac9 +1 x67acd +1 x67ad1 -1 x67ad6 = +0
-
 +1 x67ab9 +1 x67ac5 +1 x67ad0 -1 x67adf = +0
-
 +1 x67ae3 +1 x67aed -1 x67aee -1 x68665 = +0
-
 +1 x67aee -1 x67aef -1 x67af0 = +0
-
 +1 x67aef -1 x67b01 -1 x67b02 = +0
-
 +1 x67b01 -1 x67b0d -1 x67b0e = +0
-
 +1 x67b02 +1 x67b0e -1 x67b19 = +0
-
 +1 x67b1d -1 x67b2c -1 x67b2d = +0
-
 +1 x67b2d -1 x67b31 -1 x67b32 = +0
-
 +1 x67b2c -1 x67b33 -1 x67b34 = +0
-
 +1 x67b32 +1 x67b34 -1 x67b3a -1 x67b3b = +0
-
 +1 x67b31 +1 x67b33 -1 x67b39 = +0
-
 +1 x67b39 -1 x67b3c -1 x67b3d = +0
-
 +1 x67b3b +1 x67b3d -1 x67b48 = +0
-
 +1 x67b3a +1 x67b3c -1 x67b4c = +0
-
 +1 x67b48 +1 x67b4c -1 x67b51 = +0
-
 +1 x67b51 -1 x67b54 -1 x67b55 = +0
-
 +1 x67b54 +1 x67b55 -1 x67b65 = +0
-
 +1 x67b65 -1 x67b73 -1 x67b74 = +0
-
 +1 x67b73 -1 x67b7f -1 x67b80 = +0
-
 +1 x67b74 +1 x67b7f +1 x67b80 -1 x67b8e = +0
-
 +1 x67b8e +1 x67b90 -1 x67b91 -1 x68708 = +0
-
 +1 x67b91 -1 x67b92 -1 x67b93 = +0
-
 +1 x67b93 +1 x67bba +1 x67be1 -1 x67be2 +0 x67be3 -1 x6875a = +0
-
 +1 x67b92 -1 x67b9e -1 x67b9f = +0
-
 +1 x67b9e -1 x67baa -1 x67bab = +0
-
 +1 x67baa +1 x67bd2 -1 x6872b = +0
-
 +1 x67b9f +1 x67bab -1 x67bb5 = +0
-
 +1 x67bb5 +1 x67bb7 -1 x67bb8 +1 x67bde -1 x68730 = +0
-
 +1 x67bb8 -1 x67bb9 -1 x67bba = +0
-
 +1 x67bb9 -1 x67bc6 -1 x67bc7 = +0
-
 +1 x67bc6 -1 x67bd2 -1 x67bd3 = +0
-
 +1 x67bc7 +1 x67bd3 -1 x67bde = +0
-
 +1 x67be2 +1 x67bec -1 x67bed -1 x68765 = +0
-
 +1 x67bed -1 x67bee -1 x67bef = +0
-
 +1 x67bef +1 x67c97 +1 x67cc3 -1 x67cc4 +0 x67cc5 -1 x6883c = +0
-
 +1 x67bee -1 x67bff -1 x67c00 = +0
-
 +1 x67bff -1 x67c0b -1 x67c0c = +0
-
 +1 x67c0b +1 x67c14 +1 x67cb4 -1 x6878d = +0
-
 +1 x67c00 +1 x67c0c -1 x67c17 = +0
-
 +1 x67c17 +1 x67c19 -1 x67c1a +1 x67cc0 -1 x68792 = +0
-
 +1 x67c1a -1 x67c1b -1 x67c1c = +0
-
 +1 x67c1c +1 x67c53 +1 x67c89 -1 x67c8a +0 x67c8b -1 x68802 = +0
-
 +1 x67c1b -1 x67c27 -1 x67c28 = +0
-
 +1 x67c27 -1 x67c33 -1 x67c34 = +0
-
 +1 x67c33 -1 x67c37 -1 x67c38 = +0
-
 +1 x67c37 -1 x67c3b -1 x67c3c = +0
-
 +1 x67c3b -1 x67c3f -1 x67c40 = +0
-
 +1 x67c38 +1 x67c3c +1 x67c40 -1 x67c45 = +0
-
 +1 x67c45 +1 x67c47 +1 x67c7d -1 x687c0 = +0
-
 +1 x67c28 +1 x67c34 +1 x67c3f -1 x67c4e = +0
-
 +1 x67c4e +1 x67c50 -1 x67c51 +1 x67c86 -1 x687c9 = +0
-
 +1 x67c51 -1 x67c52 -1 x67c53 = +0
-
 +1 x67c52 -1 x67c5f -1 x67c60 = +0
-
 +1 x67c5f -1 x67c6b -1 x67c6c = +0
-
 +1 x67c6b -1 x67c6f -1 x67c70 = +0
-
 +1 x67c6f -1 x67c73 -1 x67c74 = +0
-
 +1 x67c73 -1 x67c77 -1 x67c78 = +0
-
 +1 x67c70 +1 x67c74 +1 x67c78 -1 x67c7d = +0
-
 +1 x67c60 +1 x67c6c +1 x67c77 -1 x67c86 = +0
-
 +1 x67c8a +1 x67c94 -1 x67c95 -1 x6880d = +0
-
 +1 x67c95 -1 x67c96 -1 x67c97 = +0
-
 +1 x67c96 -1 x67ca8 -1 x67ca9 = +0
-
 +1 x67ca8 -1 x67cb4 -1 x67cb5 = +0
-
 +1 x67ca9 +1 x67cb5 -1 x67cc0 = +0
-
 +1 x67cc4 -1 x67cd3 -1 x67cd4 = +0
-
 +1 x67cd4 -1 x67cd8 -1 x67cd9 = +0
-
 +1 x67cd3 -1 x67cda -1 x67cdb = +0
-
 +1 x67cd9 -1 x67ce2 -1 x67ce3 = +0
-
 +1 x67cdb -1 x67ce4 -1 x67ce5 = +0
-
 +1 x67cda -1 x67ce6 -1 x67ce7 = +0
-
 +1 x67cd8 -1 x67ce8 -1 x67ce9 = +0
-
 +1 x67ce2 +1 x67ce4 -1 x67ced = +0
-
 +1 x67ce3 +1 x67ce5 -1 x67cea = +0
-
 +1 x67ce7 +1 x67ce9 -1 x67cf4 = +0
-
 +1 x67cea +1 x67cf4 -1 x67cf8 = +0
-
 +1 x67ce6 +1 x67ce8 -1 x67cfa = +0
-
 +1 x67ced +1 x67cfa -1 x67cfc = +0
-
 +1 x67cf8 -1 x67cff -1 x67d00 = +0
-
 +1 x67cfc -1 x67d01 -1 x67d02 = +0
-
 +1 x67cff +1 x67d01 -1 x67d03 = +0
-
 +1 x67d00 +1 x67d02 -1 x67d04 = +0
-
 +1 x67d09 -1 x67d0c +0 x67d0d -1 x688c1 = +0
-
 +1 x5de66 -1 x67d26 -1 x67d27 = +0
-
 +1 x67d27 -1 x67d6d +0 x67d6e = +0
-
 +1 x67d26 -1 x67d3c -1 x67d3d = +0
-
 +1 x67d3c +1 x67d5f -1 x76fb2 = +0
-
 +1 x67d3d -1 x67d48 +1 x67d60 -1 x68236 = +0
-
 +1 x67d48 -1 x67d49 -1 x67d4a = +0
-
 +1 x67d4a -1 x67d6f +0 x67d70 -1 x6825d = +0
-
 +1 x67d49 -1 x67d5f -1 x67d60 = +0
-
 +1 x67d6d +1 x67d6f -1 x67d7d = +0
-
 +1 x67d7d -1 x67d7f -1 x68268 = +0
-
 +1 x67d7f -1 x67d80 -1 x67d81 = +0
-
 +1 x67d81 +1 x67e23 -1 x67e4f +0 x67e50 -1 x6833f = +0
-
 +1 x67d80 -1 x67d91 -1 x67d92 = +0
-
 +1 x67d91 -1 x67d9d -1 x67d9e = +0
-
 +1 x67d9d +1 x67e40 -1 x68290 = +0
-
 +1 x67d92 +1 x67d9e -1 x67da8 = +0
-
 +1 x67da8 -1 x67daa +1 x67e4c -1 x68295 = +0
-
 +1 x67daa -1 x67dab -1 x67dac = +0
-
 +1 x67dac +1 x67de1 -1 x67e17 +0 x67e18 -1 x68305 = +0
-
 +1 x67dab -1 x67db7 -1 x67db8 = +0
-
 +1 x67db7 -1 x67dc3 -1 x67dc4 = +0
-
 +1 x67dc3 -1 x67dc7 -1 x67dc8 = +0
-
 +1 x67dc7 -1 x67dcb -1 x67dcc = +0
-
 +1 x67dcb -1 x67dcf -1 x67dd0 = +0
-
 +1 x67dc8 +1 x67dcc +1 x67dd0 -1 x67dd5 = +0
-
 +1 x67dd5 +1 x67e0b -1 x682c3 = +0
-
 +1 x67db8 +1 x67dc4 +1 x67dcf -1 x67ddd = +0
-
 +1 x67ddd -1 x67ddf +1 x67e14 -1 x682cc = +0
-
 +1 x67ddf -1 x67de0 -1 x67de1 = +0
-
 +1 x67de0 -1 x67ded -1 x67dee = +0
-
 +1 x67ded -1 x67df9 -1 x67dfa = +0
-
 +1 x67df9 -1 x67dfd -1 x67dfe = +0
-
 +1 x67dfd -1 x67e01 -1 x67e02 = +0
-
 +1 x67e01 -1 x67e05 -1 x67e06 = +0
-
 +1 x67dfe +1 x67e02 +1 x67e06 -1 x67e0b = +0
-
 +1 x67dee +1 x67dfa +1 x67e05 -1 x67e14 = +0
-
 +1 x67e17 -1 x67e21 -1 x68310 = +0
-
 +1 x67e21 -1 x67e22 -1 x67e23 = +0
-
 +1 x67e22 -1 x67e34 -1 x67e35 = +0
-
 +1 x67e34 -1 x67e40 -1 x67e41 = +0
-
 +1 x67e35 +1 x67e41 -1 x67e4c = +0
-
 +1 x67e4f -1 x67e5e -1 x67e5f = +0
-
 +1 x67e5f -1 x67e63 -1 x67e64 = +0
-
 +1 x67e5e -1 x67e65 -1 x67e66 = +0
-
 +1 x67e64 +1 x67e66 -1 x67e6c -1 x67e6d = +0
-
 +1 x67e63 +1 x67e65 -1 x67e6b = +0
-
 +1 x67e6b -1 x67e6e -1 x67e6f = +0
-
 +1 x67e6d +1 x67e6f -1 x67e7a = +0
-
 +1 x67e6c +1 x67e6e -1 x67e7e = +0
-
 +1 x67e7a +1 x67e7e -1 x67e83 = +0
-
 +1 x67e83 -1 x67e86 -1 x67e87 = +0
-
 +1 x67e86 +1 x67e87 -1 x67e99 = +0
-
 +1 x67e99 -1 x67eb1 -1 x67eb2 = +0
-
 +1 x67eb1 +1 x67eb2 -1 x67ebf = +0
-
 +1 x67ebf -1 x67ec1 -1 x683b2 = +0
-
 +1 x67ec1 -1 x67ec2 -1 x67ec3 = +0
-
 +1 x67ec3 +1 x67ee6 -1 x67f0a +0 x67f0b -1 x683fd = +0
-
 +1 x67ec2 -1 x67ed8 -1 x67ed9 = +0
-
 +1 x67ed8 +1 x67efc -1 x749e9 = +0
-
 +1 x67ed9 -1 x67ee4 +1 x67efd -1 x683d6 = +0
-
 +1 x67ee4 -1 x67ee5 -1 x67ee6 = +0
-
 +1 x67ee5 -1 x67efc -1 x67efd = +0
-
 +1 x67f0a -1 x67f14 -1 x68408 = +0
-
 +1 x67f14 -1 x67f15 -1 x67f16 = +0
-
 +1 x67f16 +1 x67fb8 -1 x67fe4 +0 x67fe5 -1 x684df = +0
-
 +1 x67f15 -1 x67f26 -1 x67f27 = +0
-
 +1 x67f26 -1 x67f32 -1 x67f33 = +0
-
 +1 x67f32 +1 x67fd5 -1 x68430 = +0
-
 +1 x67f27 +1 x67f33 -1 x67f3d = +0
-
 +1 x67f3d -1 x67f3f +1 x67fe1 -1 x68435 = +0
-
 +1 x67f3f -1 x67f40 -1 x67f41 = +0
-
 +1 x67f41 +1 x67f76 -1 x67fac +0 x67fad -1 x684a5 = +0
-
 +1 x67f40 -1 x67f4c -1 x67f4d = +0
-
 +1 x67f4c -1 x67f58 -1 x67f59 = +0
-
 +1 x67f58 -1 x67f5c -1 x67f5d = +0
-
 +1 x67f5c -1 x67f60 -1 x67f61 = +0
-
 +1 x67f60 -1 x67f64 -1 x67f65 = +0
-
 +1 x67f5d +1 x67f61 +1 x67f65 -1 x67f6a = +0
-
 +1 x67f6a +1 x67fa0 -1 x68463 = +0
-
 +1 x67f4d +1 x67f59 +1 x67f64 -1 x67f72 = +0
-
 +1 x67f72 -1 x67f74 +1 x67fa9 -1 x6846c = +0
-
 +1 x67f74 -1 x67f75 -1 x67f76 = +0
-
 +1 x67f75 -1 x67f82 -1 x67f83 = +0
-
 +1 x67f82 -1 x67f8e -1 x67f8f = +0
-
 +1 x67f8e -1 x67f92 -1 x67f93 = +0
-
 +1 x67f92 -1 x67f96 -1 x67f97 = +0
-
 +1 x67f96 -1 x67f9a -1 x67f9b = +0
-
 +1 x67f93 +1 x67f97 +1 x67f9b -1 x67fa0 = +0
-
 +1 x67f83 +1 x67f8f +1 x67f9a -1 x67fa9 = +0
-
 +1 x67fac -1 x67fb6 -1 x684b0 = +0
-
 +1 x67fb6 -1 x67fb7 -1 x67fb8 = +0
-
 +1 x67fb7 -1 x67fc9 -1 x67fca = +0
-
 +1 x67fc9 -1 x67fd5 -1 x67fd6 = +0
-
 +1 x67fca +1 x67fd6 -1 x67fe1 = +0
-
 +1 x67fe4 -1 x67ff3 -1 x67ff4 = +0
-
 +1 x67ff4 -1 x67ff8 -1 x67ff9 = +0
-
 +1 x67ff3 -1 x67ffa -1 x67ffb = +0
-
 +1 x67ff9 -1 x68002 -1 x68003 = +0
-
 +1 x67ffb -1 x68004 -1 x68005 = +0
-
 +1 x67ffa -1 x68006 -1 x68007 = +0
-
 +1 x67ff8 -1 x68008 -1 x68009 = +0
-
 +1 x68002 +1 x68004 -1 x6800d = +0
-
 +1 x68003 +1 x68005 -1 x6800a = +0
-
 +1 x68007 +1 x68009 -1 x68014 = +0
-
 +1 x6800a +1 x68014 -1 x68018 = +0
-
 +1 x68006 +1 x68008 -1 x6801a = +0
-
 +1 x6800d +1 x6801a -1 x6801c = +0
-
 +1 x68018 -1 x6801f -1 x68020 = +0
-
 +1 x6801c -1 x68021 -1 x68022 = +0
-
 +1 x6801f +1 x68021 -1 x68067 = +0
-
 +1 x68020 +1 x68022 -1 x68023 = +0
-
 +1 x68023 -1 x68027 -1 x68523 = +0
-
 +1 x68027 -1 x68028 -1 x68029 = +0
-
 +1 x68028 -1 x68046 -1 x68047 = +0
-
 +1 x68046 -1 x68052 -1 x68053 = +0
-
 +1 x68047 +1 x68052 +1 x68053 -1 x68061 = +0
-
 +1 x67d0c +1 x68067 -1 x68073 = +0
-
 +1 x67d0a +1 x68073 -1 x68078 = +0
-
 +1 x68078 -1 x68079 -1 x688df = +0
-
 +1 x68079 -1 x6807a -1 x6807b = +0
-
 +1 x6807a -1 x68082 -1 x68083 = +0
-
 +1 x68083 -1 x68092 -1 x68093 = +0
-
 +1 x68092 -1 x680c0 -1 x680c1 = +0
-
 +1 x680c0 +1 x680c1 -1 x680ce = +0
-
 +1 x65eef -1 x680dc -1 x69072 = +0
-
 +1 x680dc -1 x680dd -1 x680de = +0
-
 +1 x680dd -1 x680e2 -1 x680e3 = +0
-
 +1 x680e2 -1 x680ea -1 x680ec = +0
-
 +1 x680ec -1 x680f2 -1 x680f3 = +0
-
 +1 x680f2 -1 x680fa -1 x680fb = +0
-
 +1 x680fb -1 x6810a -1 x6810b = +0
-
 +1 x6810a -1 x68138 -1 x68139 = +0
-
 +1 x68138 +1 x68139 -1 x68146 = +0
-
 +1 x63785 -1 x68157 -1 x68158 = +0
-
 +1 x68157 -1 x6815d -1 x6815e = +0
-
 +1 x6815e -1 x68161 -1 x68162 = +0
-
 +1 x68161 -1 x68169 -1 x6816b = +0
-
 +1 x6815d -1 x68171 -1 x68172 = +0
-
 +1 x68172 -1 x68175 -1 x68176 = +0
-
 +1 x68175 -1 x6817d -1 x6817f = +0
-
 +1 x68158 -1 x6818b -1 x69126 = +0
-
 +1 x6816b -1 x6818c +1 x69106 = +0
-
 +1 x6817f -1 x6818d +1 x6911a = +0
-
 +1 x68171 -1 x6818e -1 x69129 = +0
-
 +1 x6818b -1 x6818f -1 x68190 = +0
-
 +1 x6818c -1 x68191 -1 x68192 = +0
-
 +1 x6818d -1 x68193 -1 x68194 = +0
-
 +1 x6818e -1 x68195 -1 x68196 = +0
-
 +1 x6818f +1 x68191 +1 x68193 +1 x68195 -1 x68198 = +0
-
 +1 x68190 +1 x68192 +1 x68194 +1 x68196 -1 x68197 = +0
-
 +1 x68197 +1 x69130 -1 x691b8 +0 x691b9 +1 x7833b = +0
-
 +1 x68198 -1 x6819a -1 x6819b = +0
-
 +1 x6819a -1 x681a2 -1 x681a4 = +0
-
 +1 x681a4 -1 x681ad -1 x681ae = +0
-
 +1 x681ad -1 x681b5 -1 x681b7 = +0
-
 +1 x681b7 -1 x681bd -1 x681be = +0
-
 +1 x681bd -1 x681c5 -1 x681c6 = +0
-
 +1 x681c6 -1 x681d5 -1 x681d6 = +0
-
 +1 x681d5 -1 x68203 -1 x68204 = +0
-
 +1 x68203 +1 x68204 -1 x68211 = +0
-
 +1 x68211 -1 x68213 +1 x691ab +1 x783b5 = +0
-
 +1 x68213 -1 x68214 -1 x68215 = +0
-
 +1 x68215 +1 x68239 +1 x6825d -1 x6825e +0 x6825f = +0
-
 +1 x68214 -1 x6822a -1 x6822b = +0
-
 +1 x6822a +1 x6824f -1 x76fb3 = +0
-
 +1 x6822b +1 x68236 -1 x68237 +1 x68250 = +0
-
 +1 x68237 -1 x68238 -1 x68239 = +0
-
 +1 x68238 -1 x6824f -1 x68250 = +0
-
 +1 x6825e +1 x68268 -1 x68269 = +0
-
 +1 x68269 -1 x6826a -1 x6826b = +0
-
 +1 x6826b +1 x68313 +1 x6833f -1 x68340 +0 x68341 = +0
-
 +1 x6826a -1 x6827b -1 x6827c = +0
-
 +1 x6827b -1 x68287 -1 x68288 = +0
-
 +1 x68287 +1 x68290 +1 x68330 -1 x762c3 = +0
-
 +1 x6827c +1 x68288 -1 x68293 = +0
-
 +1 x68293 +1 x68295 -1 x68296 +1 x6833c = +0
-
 +1 x68296 -1 x68297 -1 x68298 = +0
-
 +1 x68298 +1 x682cf +1 x68305 -1 x68306 +0 x68307 +1 x75f30 +1 x76c8a = +0
-
 +1 x68297 -1 x682a3 -1 x682a4 = +0
-
 +1 x682a3 -1 x682af -1 x682b0 = +0
-
 +1 x682af -1 x682b3 -1 x682b4 = +0
-
 +1 x682b3 -1 x682b7 -1 x682b8 = +0
-
 +1 x682b7 -1 x682bb -1 x682bc = +0
-
 +1 x682b4 +1 x682b8 +1 x682bc -1 x682c1 = +0
-
 +1 x682c1 +1 x682c3 +1 x682f9 -1 x755ad = +0
-
 +1 x682a4 +1 x682b0 +1 x682bb -1 x682ca = +0
-
 +1 x682ca +1 x682cc -1 x682cd +1 x68302 +1 x7597b +1 x75f61 +1 x7664b +1 x76cbb
 = +0
-
 +1 x682cd -1 x682ce -1 x682cf = +0
-
 +1 x682ce -1 x682db -1 x682dc = +0
-
 +1 x682db -1 x682e7 -1 x682e8 = +0
-
 +1 x682e7 -1 x682eb -1 x682ec = +0
-
 +1 x682eb -1 x682ef -1 x682f0 = +0
-
 +1 x682ef -1 x682f3 -1 x682f4 = +0
-
 +1 x682ec +1 x682f0 +1 x682f4 -1 x682f9 = +0
-
 +1 x682dc +1 x682e8 +1 x682f3 -1 x68302 = +0
-
 +1 x68306 +1 x68310 -1 x68311 +1 x7597e = +0
-
 +1 x68311 -1 x68312 -1 x68313 = +0
-
 +1 x68312 -1 x68324 -1 x68325 = +0
-
 +1 x68324 -1 x68330 -1 x68331 = +0
-
 +1 x68325 +1 x68331 -1 x6833c = +0
-
 +1 x68340 -1 x6834f -1 x68350 = +0
-
 +1 x68350 -1 x68354 -1 x68355 = +0
-
 +1 x6834f -1 x68356 -1 x68357 = +0
-
 +1 x68355 +1 x68357 -1 x6835d -1 x6835e = +0
-
 +1 x68354 +1 x68356 -1 x6835c = +0
-
 +1 x6835c -1 x6835f -1 x68360 = +0
-
 +1 x6835e +1 x68360 -1 x6836b = +0
-
 +1 x6835d +1 x6835f -1 x6836f = +0
-
 +1 x6836b +1 x6836f -1 x68374 = +0
-
 +1 x68374 -1 x68377 -1 x68378 = +0
-
 +1 x68377 +1 x68378 -1 x6838a = +0
-
 +1 x6838a -1 x683a2 -1 x683a3 = +0
-
 +1 x683a2 +1 x683a3 -1 x683b0 = +0
-
 +1 x683b0 +1 x683b2 -1 x683b3 = +0
-
 +1 x683b3 -1 x683b4 -1 x683b5 = +0
-
 +1 x683b5 +1 x683d9 +1 x683fd -1 x683fe +0 x683ff +1 x7522a = +0
-
 +1 x683b4 -1 x683ca -1 x683cb = +0
-
 +1 x683ca +1 x683ef -1 x749ea = +0
-
 +1 x683cb +1 x683d6 -1 x683d7 +1 x683f0 +1 x74d50 +1 x75240 = +0
-
 +1 x683d7 -1 x683d8 -1 x683d9 = +0
-
 +1 x683d8 -1 x683ef -1 x683f0 = +0
-
 +1 x683fe +1 x68408 -1 x68409 +1 x74d5c = +0
-
 +1 x68409 -1 x6840a -1 x6840b = +0
-
 +1 x6840b +1 x684b3 +1 x684df -1 x684e0 +0 x684e1 = +0
-
 +1 x6840a -1 x6841b -1 x6841c = +0
-
 +1 x6841b -1 x68427 -1 x68428 = +0
-
 +1 x68427 +1 x68430 +1 x684d0 -1 x73cfa = +0
-
 +1 x6841c +1 x68428 -1 x68433 = +0
-
 +1 x68433 +1 x68435 -1 x68436 +1 x684dc = +0
-
 +1 x68436 -1 x68437 -1 x68438 = +0
-
 +1 x68438 +1 x6846f +1 x684a5 -1 x684a6 +0 x684a7 +1 x73967 +1 x746c1 = +0
-
 +1 x68437 -1 x68443 -1 x68444 = +0
-
 +1 x68443 -1 x6844f -1 x68450 = +0
-
 +1 x6844f -1 x68453 -1 x68454 = +0
-
 +1 x68453 -1 x68457 -1 x68458 = +0
-
 +1 x68457 -1 x6845b -1 x6845c = +0
-
 +1 x68454 +1 x68458 +1 x6845c -1 x68461 = +0
-
 +1 x68461 +1 x68463 +1 x68499 -1 x72fe4 = +0
-
 +1 x68444 +1 x68450 +1 x6845b -1 x6846a = +0
-
 +1 x6846a +1 x6846c -1 x6846d +1 x684a2 +1 x733b2 +1 x73998 +1 x74082 +1 x746f2
 = +0
-
 +1 x6846d -1 x6846e -1 x6846f = +0
-
 +1 x6846e -1 x6847b -1 x6847c = +0
-
 +1 x6847b -1 x68487 -1 x68488 = +0
-
 +1 x68487 -1 x6848b -1 x6848c = +0
-
 +1 x6848b -1 x6848f -1 x68490 = +0
-
 +1 x6848f -1 x68493 -1 x68494 = +0
-
 +1 x6848c +1 x68490 +1 x68494 -1 x68499 = +0
-
 +1 x6847c +1 x68488 +1 x68493 -1 x684a2 = +0
-
 +1 x684a6 +1 x684b0 -1 x684b1 +1 x733b5 = +0
-
 +1 x684b1 -1 x684b2 -1 x684b3 = +0
-
 +1 x684b2 -1 x684c4 -1 x684c5 = +0
-
 +1 x684c4 -1 x684d0 -1 x684d1 = +0
-
 +1 x684c5 +1 x684d1 -1 x684dc = +0
-
 +1 x684e0 -1 x684ef -1 x684f0 = +0
-
 +1 x684f0 -1 x684f4 -1 x684f5 = +0
-
 +1 x684ef -1 x684f6 -1 x684f7 = +0
-
 +1 x684f5 -1 x684fe -1 x684ff = +0
-
 +1 x684f7 -1 x68500 -1 x68501 = +0
-
 +1 x684f6 -1 x68502 -1 x68503 = +0
-
 +1 x684f4 -1 x68504 -1 x68505 = +0
-
 +1 x684fe +1 x68500 -1 x68509 = +0
-
 +1 x684ff +1 x68501 -1 x68506 = +0
-
 +1 x68503 +1 x68505 -1 x68510 = +0
-
 +1 x68506 +1 x68510 -1 x68514 = +0
-
 +1 x68502 +1 x68504 -1 x68516 = +0
-
 +1 x68509 +1 x68516 -1 x68518 = +0
-
 +1 x68514 -1 x6851b -1 x6851c = +0
-
 +1 x68518 -1 x6851d -1 x6851e = +0
-
 +1 x6851b +1 x6851d -1 x688cc = +0
-
 +1 x6851c +1 x6851e -1 x6851f = +0
-
 +1 x6851f +1 x68523 -1 x68524 = +0
-
 +1 x68524 -1 x68525 -1 x68526 = +0
-
 +1 x68526 +1 x68883 +1 x688c0 -1 x688c2 +0 x688c3 = +0
-
 +1 x68525 -1 x68543 -1 x68544 = +0
-
 +1 x68543 -1 x6854f -1 x68550 = +0
-
 +1 x68544 +1 x6854f +1 x68550 -1 x6855e = +0
-
 +1 x6855e +1 x68560 -1 x68561 +1 x688bc = +0
-
 +1 x68561 -1 x68562 -1 x68563 = +0
-
 +1 x68562 -1 x6856e -1 x6856f = +0
-
 +1 x6856e -1 x6857a -1 x6857b = +0
-
 +1 x6857a +1 x68583 +1 x685a3 -1 x76fb4 = +0
-
 +1 x6856f +1 x6857b -1 x68586 = +0
-
 +1 x68586 +1 x68588 -1 x68589 +1 x685af = +0
-
 +1 x68589 -1 x6858a -1 x6858b = +0
-
 +1 x68563 +1 x6858b +1 x685b2 -1 x685b3 +0 x685b4 = +0
-
 +1 x6858a -1 x68597 -1 x68598 = +0
-
 +1 x68597 -1 x685a3 -1 x685a4 = +0
-
 +1 x68598 +1 x685a4 -1 x685af = +0
-
 +1 x685b3 +1 x685bd -1 x685be = +0
-
 +1 x685be -1 x685bf -1 x685c0 = +0
-
 +1 x685c0 +1 x68668 +1 x68694 -1 x68695 +0 x68696 = +0
-
 +1 x685bf -1 x685d0 -1 x685d1 = +0
-
 +1 x685d0 -1 x685dc -1 x685dd = +0
-
 +1 x685dc +1 x685e5 +1 x68685 -1 x762c4 = +0
-
 +1 x685d1 +1 x685dd -1 x685e8 = +0
-
 +1 x685e8 +1 x685ea -1 x685eb +1 x68691 = +0
-
 +1 x685eb -1 x685ec -1 x685ed = +0
-
 +1 x685ed +1 x68624 +1 x6865a -1 x6865b +0 x6865c +1 x75ee6 +1 x76c40 = +0
-
 +1 x685ec -1 x685f8 -1 x685f9 = +0
-
 +1 x685f8 -1 x68604 -1 x68605 = +0
-
 +1 x68604 -1 x68608 -1 x68609 = +0
-
 +1 x68608 -1 x6860c -1 x6860d = +0
-
 +1 x6860c -1 x68610 -1 x68611 = +0
-
 +1 x68609 +1 x6860d +1 x68611 -1 x68616 = +0
-
 +1 x68616 +1 x68618 +1 x6864e -1 x755ae = +0
-
 +1 x685f9 +1 x68605 +1 x68610 -1 x6861f = +0
-
 +1 x6861f +1 x68621 -1 x68622 +1 x68657 +1 x75927 +1 x75f17 +1 x76601 +1 x76c71
 = +0
-
 +1 x68622 -1 x68623 -1 x68624 = +0
-
 +1 x68623 -1 x68630 -1 x68631 = +0
-
 +1 x68630 -1 x6863c -1 x6863d = +0
-
 +1 x6863c -1 x68640 -1 x68641 = +0
-
 +1 x68640 -1 x68644 -1 x68645 = +0
-
 +1 x68644 -1 x68648 -1 x68649 = +0
-
 +1 x68641 +1 x68645 +1 x68649 -1 x6864e = +0
-
 +1 x68631 +1 x6863d +1 x68648 -1 x68657 = +0
-
 +1 x6865b +1 x68665 -1 x68666 +1 x7592a = +0
-
 +1 x68666 -1 x68667 -1 x68668 = +0
-
 +1 x68667 -1 x68679 -1 x6867a = +0
-
 +1 x68679 -1 x68685 -1 x68686 = +0
-
 +1 x6867a +1 x68686 -1 x68691 = +0
-
 +1 x68695 -1 x686a4 -1 x686a5 = +0
-
 +1 x686a5 -1 x686a9 -1 x686aa = +0
-
 +1 x686a4 -1 x686ab -1 x686ac = +0
-
 +1 x686aa +1 x686ac -1 x686b2 -1 x686b3 = +0
-
 +1 x686a9 +1 x686ab -1 x686b1 = +0
-
 +1 x686b1 -1 x686b4 -1 x686b5 = +0
-
 +1 x686b3 +1 x686b5 -1 x686c0 = +0
-
 +1 x686b2 +1 x686b4 -1 x686c4 = +0
-
 +1 x686c0 +1 x686c4 -1 x686c9 = +0
-
 +1 x686c9 -1 x686cc -1 x686cd = +0
-
 +1 x686cc +1 x686cd -1 x686dd = +0
-
 +1 x686dd -1 x686eb -1 x686ec = +0
-
 +1 x686eb -1 x686f7 -1 x686f8 = +0
-
 +1 x686ec +1 x686f7 +1 x686f8 -1 x68706 = +0
-
 +1 x68706 +1 x68708 -1 x68709 = +0
-
 +1 x68709 -1 x6870a -1 x6870b = +0
-
 +1 x6870b +1 x68733 +1 x6875a -1 x6875b +0 x6875c +1 x751ef = +0
-
 +1 x6870a -1 x68716 -1 x68717 = +0
-
 +1 x68716 -1 x68722 -1 x68723 = +0
-
 +1 x68722 +1 x6872b +1 x6874b -1 x749eb = +0
-
 +1 x68717 +1 x68723 -1 x6872e = +0
-
 +1 x6872e +1 x68730 -1 x68731 +1 x68757 +1 x74d17 +1 x75211 = +0
-
 +1 x68731 -1 x68732 -1 x68733 = +0
-
 +1 x68732 -1 x6873f -1 x68740 = +0
-
 +1 x6873f -1 x6874b -1 x6874c = +0
-
 +1 x68740 +1 x6874c -1 x68757 = +0
-
 +1 x6875b +1 x68765 -1 x68766 +1 x74d1a = +0
-
 +1 x68766 -1 x68767 -1 x68768 = +0
-
 +1 x68768 +1 x68810 +1 x6883c -1 x6883d +0 x6883e = +0
-
 +1 x68767 -1 x68778 -1 x68779 = +0
-
 +1 x68778 -1 x68784 -1 x68785 = +0
-
 +1 x68784 +1 x6878d +1 x6882d -1 x73cfb = +0
-
 +1 x68779 +1 x68785 -1 x68790 = +0
-
 +1 x68790 +1 x68792 -1 x68793 +1 x68839 = +0
-
 +1 x68793 -1 x68794 -1 x68795 = +0
-
 +1 x68795 +1 x687cc +1 x68802 -1 x68803 +0 x68804 +1 x7391d +1 x74677 = +0
-
 +1 x68794 -1 x687a0 -1 x687a1 = +0
-
 +1 x687a0 -1 x687ac -1 x687ad = +0
-
 +1 x687ac -1 x687b0 -1 x687b1 = +0
-
 +1 x687b0 -1 x687b4 -1 x687b5 = +0
-
 +1 x687b4 -1 x687b8 -1 x687b9 = +0
-
 +1 x687b1 +1 x687b5 +1 x687b9 -1 x687be = +0
-
 +1 x687be +1 x687c0 +1 x687f6 -1 x72fe5 = +0
-
 +1 x687a1 +1 x687ad +1 x687b8 -1 x687c7 = +0
-
 +1 x687c7 +1 x687c9 -1 x687ca +1 x687ff +1 x7335e +1 x7394e +1 x74038 +1 x746a8
 = +0
-
 +1 x687ca -1 x687cb -1 x687cc = +0
-
 +1 x687cb -1 x687d8 -1 x687d9 = +0
-
 +1 x687d8 -1 x687e4 -1 x687e5 = +0
-
 +1 x687e4 -1 x687e8 -1 x687e9 = +0
-
 +1 x687e8 -1 x687ec -1 x687ed = +0
-
 +1 x687ec -1 x687f0 -1 x687f1 = +0
-
 +1 x687e9 +1 x687ed +1 x687f1 -1 x687f6 = +0
-
 +1 x687d9 +1 x687e5 +1 x687f0 -1 x687ff = +0
-
 +1 x68803 +1 x6880d -1 x6880e +1 x73361 = +0
-
 +1 x6880e -1 x6880f -1 x68810 = +0
-
 +1 x6880f -1 x68821 -1 x68822 = +0
-
 +1 x68821 -1 x6882d -1 x6882e = +0
-
 +1 x68822 +1 x6882e -1 x68839 = +0
-
 +1 x6883d -1 x6884c -1 x6884d = +0
-
 +1 x6884d -1 x68851 -1 x68852 = +0
-
 +1 x6884c -1 x68853 -1 x68854 = +0
-
 +1 x68852 -1 x6885b -1 x6885c = +0
-
 +1 x68854 -1 x6885d -1 x6885e = +0
-
 +1 x68853 -1 x6885f -1 x68860 = +0
-
 +1 x68851 -1 x68861 -1 x68862 = +0
-
 +1 x6885b +1 x6885d -1 x68866 = +0
-
 +1 x6885c +1 x6885e -1 x68863 = +0
-
 +1 x68860 +1 x68862 -1 x6886d = +0
-
 +1 x68863 +1 x6886d -1 x68871 = +0
-
 +1 x6885f +1 x68861 -1 x68873 = +0
-
 +1 x68866 +1 x68873 -1 x68875 = +0
-
 +1 x68871 -1 x68878 -1 x68879 = +0
-
 +1 x68875 -1 x6887a -1 x6887b = +0
-
 +1 x68878 +1 x6887a -1 x688bf = +0
-
 +1 x68879 +1 x6887b -1 x6887c = +0
-
 +1 x6887c +1 x68880 -1 x68881 = +0
-
 +1 x68881 -1 x68882 -1 x68883 = +0
-
 +1 x68882 -1 x688a1 -1 x688a2 = +0
-
 +1 x688a1 -1 x688ad -1 x688ae = +0
-
 +1 x688a2 +1 x688ad +1 x688ae -1 x688bc = +0
-
 +1 x688bf +1 x688c1 -1 x688c4 +0 x688c5 = +0
-
 +1 x688c4 +1 x688cc -1 x688d8 = +0
-
 +1 x681d6 +1 x688c2 -1 x688dd = +0
-
 +1 x688d8 +1 x688dd -1 x688de = +0
-
 +1 x688de +1 x688df -1 x688e0 +1 x69170 +1 x7837a = +0
-
 +1 x688e0 -1 x688e1 -1 x688e2 = +0
-
 +1 x688e2 +1 x69009 +1 x69064 -1 x69065 +0 x69066 = +0
-
 +1 x688e1 -1 x688e9 -1 x688ea = +0
-
 +1 x688ea -1 x688f9 -1 x688fa = +0
-
 +1 x688f9 -1 x68927 -1 x68928 = +0
-
 +1 x68927 +1 x68928 -1 x68935 = +0
-
 +1 x68935 +1 x68937 -1 x68938 +1 x6905d = +0
-
 +1 x68938 -1 x68939 -1 x6893a = +0
-
 +1 x68939 -1 x6894f -1 x68950 = +0
-
 +1 x6894f +1 x68958 +1 x68975 -1 x76fb5 = +0
-
 +1 x68950 +1 x6895c -1 x6895d +1 x68976 = +0
-
 +1 x6895d -1 x6895e -1 x6895f = +0
-
 +1 x6893a +1 x6895f +1 x68983 -1 x68984 +0 x68985 = +0
-
 +1 x6895e -1 x68975 -1 x68976 = +0
-
 +1 x68984 +1 x6898e -1 x6898f = +0
-
 +1 x6898f -1 x68990 -1 x68991 = +0
-
 +1 x68991 +1 x68a39 +1 x68a65 -1 x68a66 +0 x68a67 = +0
-
 +1 x68990 -1 x689a1 -1 x689a2 = +0
-
 +1 x689a1 -1 x689ad -1 x689ae = +0
-
 +1 x689ad +1 x689b6 +1 x68a56 -1 x762c5 = +0
-
 +1 x689a2 +1 x689ae -1 x689b9 = +0
-
 +1 x689b9 +1 x689bb -1 x689bc +1 x68a62 = +0
-
 +1 x689bc -1 x689bd -1 x689be = +0
-
 +1 x689be +1 x689f5 +1 x68a2b -1 x68a2c +0 x68a2d +1 x75e9c +1 x76bf6 = +0
-
 +1 x689bd -1 x689c9 -1 x689ca = +0
-
 +1 x689c9 -1 x689d5 -1 x689d6 = +0
-
 +1 x689d5 -1 x689d9 -1 x689da = +0
-
 +1 x689d9 -1 x689dd -1 x689de = +0
-
 +1 x689dd -1 x689e1 -1 x689e2 = +0
-
 +1 x689da +1 x689de +1 x689e2 -1 x689e7 = +0
-
 +1 x689e7 +1 x689e9 +1 x68a1f -1 x755af = +0
-
 +1 x689ca +1 x689d6 +1 x689e1 -1 x689f0 = +0
-
 +1 x689f0 +1 x689f2 -1 x689f3 +1 x68a28 +1 x758d3 +1 x75ecd +1 x765b7 +1 x76c27
 = +0
-
 +1 x689f3 -1 x689f4 -1 x689f5 = +0
-
 +1 x689f4 -1 x68a01 -1 x68a02 = +0
-
 +1 x68a01 -1 x68a0d -1 x68a0e = +0
-
 +1 x68a0d -1 x68a11 -1 x68a12 = +0
-
 +1 x68a11 -1 x68a15 -1 x68a16 = +0
-
 +1 x68a15 -1 x68a19 -1 x68a1a = +0
-
 +1 x68a12 +1 x68a16 +1 x68a1a -1 x68a1f = +0
-
 +1 x68a02 +1 x68a0e +1 x68a19 -1 x68a28 = +0
-
 +1 x68a2c +1 x68a36 -1 x68a37 +1 x758d6 = +0
-
 +1 x68a37 -1 x68a38 -1 x68a39 = +0
-
 +1 x68a38 -1 x68a4a -1 x68a4b = +0
-
 +1 x68a4a -1 x68a56 -1 x68a57 = +0
-
 +1 x68a4b +1 x68a57 -1 x68a62 = +0
-
 +1 x68a66 -1 x68a75 -1 x68a76 = +0
-
 +1 x68a76 -1 x68a7a -1 x68a7b = +0
-
 +1 x68a75 -1 x68a7c -1 x68a7d = +0
-
 +1 x68a7b +1 x68a7d -1 x68a83 -1 x68a84 = +0
-
 +1 x68a7a +1 x68a7c -1 x68a82 = +0
-
 +1 x68a82 -1 x68a85 -1 x68a86 = +0
-
 +1 x68a84 +1 x68a86 -1 x68a91 = +0
-
 +1 x68a83 +1 x68a85 -1 x68a95 = +0
-
 +1 x68a91 +1 x68a95 -1 x68a9a = +0
-
 +1 x68a9a -1 x68a9d -1 x68a9e = +0
-
 +1 x68a9d +1 x68a9e -1 x68ab0 = +0
-
 +1 x68ab0 -1 x68ac8 -1 x68ac9 = +0
-
 +1 x68ac8 +1 x68ac9 -1 x68ad6 = +0
-
 +1 x68ad6 +1 x68ad8 -1 x68ad9 = +0
-
 +1 x68ad9 -1 x68ada -1 x68adb = +0
-
 +1 x68adb +1 x68b00 +1 x68b24 -1 x68b25 +0 x68b26 +1 x751b7 = +0
-
 +1 x68ada -1 x68af0 -1 x68af1 = +0
-
 +1 x68af0 +1 x68af9 +1 x68b16 -1 x749ec = +0
-
 +1 x68af1 +1 x68afd -1 x68afe +1 x68b17 +1 x74cc9 +1 x751cd = +0
-
 +1 x68afe -1 x68aff -1 x68b00 = +0
-
 +1 x68aff -1 x68b16 -1 x68b17 = +0
-
 +1 x68b25 +1 x68b2f -1 x68b30 +1 x74cd5 = +0
-
 +1 x68b30 -1 x68b31 -1 x68b32 = +0
-
 +1 x68b32 +1 x68bda +1 x68c06 -1 x68c07 +0 x68c08 = +0
-
 +1 x68b31 -1 x68b42 -1 x68b43 = +0
-
 +1 x68b42 -1 x68b4e -1 x68b4f = +0
-
 +1 x68b4e +1 x68b57 +1 x68bf7 -1 x73cfc = +0
-
 +1 x68b43 +1 x68b4f -1 x68b5a = +0
-
 +1 x68b5a +1 x68b5c -1 x68b5d +1 x68c03 = +0
-
 +1 x68b5d -1 x68b5e -1 x68b5f = +0
-
 +1 x68b5f +1 x68b96 +1 x68bcc -1 x68bcd +0 x68bce +1 x738d3 +1 x7462d = +0
-
 +1 x68b5e -1 x68b6a -1 x68b6b = +0
-
 +1 x68b6a -1 x68b76 -1 x68b77 = +0
-
 +1 x68b76 -1 x68b7a -1 x68b7b = +0
-
 +1 x68b7a -1 x68b7e -1 x68b7f = +0
-
 +1 x68b7e -1 x68b82 -1 x68b83 = +0
-
 +1 x68b7b +1 x68b7f +1 x68b83 -1 x68b88 = +0
-
 +1 x68b88 +1 x68b8a +1 x68bc0 -1 x72fe6 = +0
-
 +1 x68b6b +1 x68b77 +1 x68b82 -1 x68b91 = +0
-
 +1 x68b91 +1 x68b93 -1 x68b94 +1 x68bc9 +1 x7330a +1 x73904 +1 x73fee +1 x7465e
 = +0
-
 +1 x68b94 -1 x68b95 -1 x68b96 = +0
-
 +1 x68b95 -1 x68ba2 -1 x68ba3 = +0
-
 +1 x68ba2 -1 x68bae -1 x68baf = +0
-
 +1 x68bae -1 x68bb2 -1 x68bb3 = +0
-
 +1 x68bb2 -1 x68bb6 -1 x68bb7 = +0
-
 +1 x68bb6 -1 x68bba -1 x68bbb = +0
-
 +1 x68bb3 +1 x68bb7 +1 x68bbb -1 x68bc0 = +0
-
 +1 x68ba3 +1 x68baf +1 x68bba -1 x68bc9 = +0
-
 +1 x68bcd +1 x68bd7 -1 x68bd8 +1 x7330d = +0
-
 +1 x68bd8 -1 x68bd9 -1 x68bda = +0
-
 +1 x68bd9 -1 x68beb -1 x68bec = +0
-
 +1 x68beb -1 x68bf7 -1 x68bf8 = +0
-
 +1 x68bec +1 x68bf8 -1 x68c03 = +0
-
 +1 x68c07 -1 x68c16 -1 x68c17 = +0
-
 +1 x68c17 -1 x68c1b -1 x68c1c = +0
-
 +1 x68c16 -1 x68c1d -1 x68c1e = +0
-
 +1 x68c1c -1 x68c25 -1 x68c26 = +0
-
 +1 x68c1e -1 x68c27 -1 x68c28 = +0
-
 +1 x68c1d -1 x68c29 -1 x68c2a = +0
-
 +1 x68c1b -1 x68c2b -1 x68c2c = +0
-
 +1 x68c25 +1 x68c27 -1 x68c30 = +0
-
 +1 x68c26 +1 x68c28 -1 x68c2d = +0
-
 +1 x68c2a +1 x68c2c -1 x68c37 = +0
-
 +1 x68c2d +1 x68c37 -1 x68c3b = +0
-
 +1 x68c29 +1 x68c2b -1 x68c3d = +0
-
 +1 x68c30 +1 x68c3d -1 x68c3f = +0
-
 +1 x68c3b -1 x68c42 -1 x68c43 = +0
-
 +1 x68c3f -1 x68c44 -1 x68c45 = +0
-
 +1 x68c42 +1 x68c44 -1 x68ff3 = +0
-
 +1 x68c43 +1 x68c45 -1 x68c46 = +0
-
 +1 x68c46 +1 x68c4a -1 x68c4b = +0
-
 +1 x68c4b -1 x68c4c -1 x68c4d = +0
-
 +1 x68c4d +1 x68faa +1 x68fe7 -1 x68fe9 +0 x68fea = +0
-
 +1 x68c4c -1 x68c6a -1 x68c6b = +0
-
 +1 x68c6a -1 x68c76 -1 x68c77 = +0
-
 +1 x68c6b +1 x68c76 +1 x68c77 -1 x68c85 = +0
-
 +1 x68c85 +1 x68c87 -1 x68c88 +1 x68fe3 = +0
-
 +1 x68c88 -1 x68c89 -1 x68c8a = +0
-
 +1 x68c89 -1 x68c95 -1 x68c96 = +0
-
 +1 x68c95 -1 x68ca1 -1 x68ca2 = +0
-
 +1 x68ca1 +1 x68caa +1 x68cca -1 x76fb6 = +0
-
 +1 x68c96 +1 x68ca2 -1 x68cad = +0
-
 +1 x68cad +1 x68caf -1 x68cb0 +1 x68cd6 = +0
-
 +1 x68cb0 -1 x68cb1 -1 x68cb2 = +0
-
 +1 x68c8a +1 x68cb2 +1 x68cd9 -1 x68cda +0 x68cdb = +0
-
 +1 x68cb1 -1 x68cbe -1 x68cbf = +0
-
 +1 x68cbe -1 x68cca -1 x68ccb = +0
-
 +1 x68cbf +1 x68ccb -1 x68cd6 = +0
-
 +1 x68cda +1 x68ce4 -1 x68ce5 = +0
-
 +1 x68ce5 -1 x68ce6 -1 x68ce7 = +0
-
 +1 x68ce7 +1 x68d8f +1 x68dbb -1 x68dbc +0 x68dbd = +0
-
 +1 x68ce6 -1 x68cf7 -1 x68cf8 = +0
-
 +1 x68cf7 -1 x68d03 -1 x68d04 = +0
-
 +1 x68d03 +1 x68d0c +1 x68dac -1 x762c6 = +0
-
 +1 x68cf8 +1 x68d04 -1 x68d0f = +0
-
 +1 x68d0f +1 x68d11 -1 x68d12 +1 x68db8 = +0
-
 +1 x68d12 -1 x68d13 -1 x68d14 = +0
-
 +1 x68d14 +1 x68d4b +1 x68d81 -1 x68d82 +0 x68d83 +1 x75e52 +1 x76bac = +0
-
 +1 x68d13 -1 x68d1f -1 x68d20 = +0
-
 +1 x68d1f -1 x68d2b -1 x68d2c = +0
-
 +1 x68d2b -1 x68d2f -1 x68d30 = +0
-
 +1 x68d2f -1 x68d33 -1 x68d34 = +0
-
 +1 x68d33 -1 x68d37 -1 x68d38 = +0
-
 +1 x68d30 +1 x68d34 +1 x68d38 -1 x68d3d = +0
-
 +1 x68d3d +1 x68d3f +1 x68d75 -1 x755b0 = +0
-
 +1 x68d20 +1 x68d2c +1 x68d37 -1 x68d46 = +0
-
 +1 x68d46 +1 x68d48 -1 x68d49 +1 x68d7e +1 x7587f +1 x75e83 +1 x7656d +1 x76bdd
 = +0
-
 +1 x68d49 -1 x68d4a -1 x68d4b = +0
-
 +1 x68d4a -1 x68d57 -1 x68d58 = +0
-
 +1 x68d57 -1 x68d63 -1 x68d64 = +0
-
 +1 x68d63 -1 x68d67 -1 x68d68 = +0
-
 +1 x68d67 -1 x68d6b -1 x68d6c = +0
-
 +1 x68d6b -1 x68d6f -1 x68d70 = +0
-
 +1 x68d68 +1 x68d6c +1 x68d70 -1 x68d75 = +0
-
 +1 x68d58 +1 x68d64 +1 x68d6f -1 x68d7e = +0
-
 +1 x68d82 +1 x68d8c -1 x68d8d +1 x75882 = +0
-
 +1 x68d8d -1 x68d8e -1 x68d8f = +0
-
 +1 x68d8e -1 x68da0 -1 x68da1 = +0
-
 +1 x68da0 -1 x68dac -1 x68dad = +0
-
 +1 x68da1 +1 x68dad -1 x68db8 = +0
-
 +1 x68dbc -1 x68dcb -1 x68dcc = +0
-
 +1 x68dcc -1 x68dd0 -1 x68dd1 = +0
-
 +1 x68dcb -1 x68dd2 -1 x68dd3 = +0
-
 +1 x68dd1 +1 x68dd3 -1 x68dd9 -1 x68dda = +0
-
 +1 x68dd0 +1 x68dd2 -1 x68dd8 = +0
-
 +1 x68dd8 -1 x68ddb -1 x68ddc = +0
-
 +1 x68dda +1 x68ddc -1 x68de7 = +0
-
 +1 x68dd9 +1 x68ddb -1 x68deb = +0
-
 +1 x68de7 +1 x68deb -1 x68df0 = +0
-
 +1 x68df0 -1 x68df3 -1 x68df4 = +0
-
 +1 x68df3 +1 x68df4 -1 x68e04 = +0
-
 +1 x68e04 -1 x68e12 -1 x68e13 = +0
-
 +1 x68e12 -1 x68e1e -1 x68e1f = +0
-
 +1 x68e13 +1 x68e1e +1 x68e1f -1 x68e2d = +0
-
 +1 x68e2d +1 x68e2f -1 x68e30 = +0
-
 +1 x68e30 -1 x68e31 -1 x68e32 = +0
-
 +1 x68e32 +1 x68e5a +1 x68e81 -1 x68e82 +0 x68e83 +1 x7517c = +0
-
 +1 x68e31 -1 x68e3d -1 x68e3e = +0
-
 +1 x68e3d -1 x68e49 -1 x68e4a = +0
-
 +1 x68e49 +1 x68e52 +1 x68e72 -1 x749ed = +0
-
 +1 x68e3e +1 x68e4a -1 x68e55 = +0
-
 +1 x68e55 +1 x68e57 -1 x68e58 +1 x68e7e +1 x74c90 +1 x7519e = +0
-
 +1 x68e58 -1 x68e59 -1 x68e5a = +0
-
 +1 x68e59 -1 x68e66 -1 x68e67 = +0
-
 +1 x68e66 -1 x68e72 -1 x68e73 = +0
-
 +1 x68e67 +1 x68e73 -1 x68e7e = +0
-
 +1 x68e82 +1 x68e8c -1 x68e8d +1 x74c93 = +0
-
 +1 x68e8d -1 x68e8e -1 x68e8f = +0
-
 +1 x68e8f +1 x68f37 +1 x68f63 -1 x68f64 +0 x68f65 = +0
-
 +1 x68e8e -1 x68e9f -1 x68ea0 = +0
-
 +1 x68e9f -1 x68eab -1 x68eac = +0
-
 +1 x68eab +1 x68eb4 +1 x68f54 -1 x73cfd = +0
-
 +1 x68ea0 +1 x68eac -1 x68eb7 = +0
-
 +1 x68eb7 +1 x68eb9 -1 x68eba +1 x68f60 = +0
-
 +1 x68eba -1 x68ebb -1 x68ebc = +0
-
 +1 x68ebc +1 x68ef3 +1 x68f29 -1 x68f2a +0 x68f2b +1 x73889 +1 x745e3 = +0
-
 +1 x68ebb -1 x68ec7 -1 x68ec8 = +0
-
 +1 x68ec7 -1 x68ed3 -1 x68ed4 = +0
-
 +1 x68ed3 -1 x68ed7 -1 x68ed8 = +0
-
 +1 x68ed7 -1 x68edb -1 x68edc = +0
-
 +1 x68edb -1 x68edf -1 x68ee0 = +0
-
 +1 x68ed8 +1 x68edc +1 x68ee0 -1 x68ee5 = +0
-
 +1 x68ee5 +1 x68ee7 +1 x68f1d -1 x72fe7 = +0
-
 +1 x68ec8 +1 x68ed4 +1 x68edf -1 x68eee = +0
-
 +1 x68eee +1 x68ef0 -1 x68ef1 +1 x68f26 +1 x732b6 +1 x738ba +1 x73fa4 +1 x74614
 = +0
-
 +1 x68ef1 -1 x68ef2 -1 x68ef3 = +0
-
 +1 x68ef2 -1 x68eff -1 x68f00 = +0
-
 +1 x68eff -1 x68f0b -1 x68f0c = +0
-
 +1 x68f0b -1 x68f0f -1 x68f10 = +0
-
 +1 x68f0f -1 x68f13 -1 x68f14 = +0
-
 +1 x68f13 -1 x68f17 -1 x68f18 = +0
-
 +1 x68f10 +1 x68f14 +1 x68f18 -1 x68f1d = +0
-
 +1 x68f00 +1 x68f0c +1 x68f17 -1 x68f26 = +0
-
 +1 x68f2a +1 x68f34 -1 x68f35 +1 x732b9 = +0
-
 +1 x68f35 -1 x68f36 -1 x68f37 = +0
-
 +1 x68f36 -1 x68f48 -1 x68f49 = +0
-
 +1 x68f48 -1 x68f54 -1 x68f55 = +0
-
 +1 x68f49 +1 x68f55 -1 x68f60 = +0
-
 +1 x68f64 -1 x68f73 -1 x68f74 = +0
-
 +1 x68f74 -1 x68f78 -1 x68f79 = +0
-
 +1 x68f73 -1 x68f7a -1 x68f7b = +0
-
 +1 x68f79 -1 x68f82 -1 x68f83 = +0
-
 +1 x68f7b -1 x68f84 -1 x68f85 = +0
-
 +1 x68f7a -1 x68f86 -1 x68f87 = +0
-
 +1 x68f78 -1 x68f88 -1 x68f89 = +0
-
 +1 x68f82 +1 x68f84 -1 x68f8d = +0
-
 +1 x68f83 +1 x68f85 -1 x68f8a = +0
-
 +1 x68f87 +1 x68f89 -1 x68f94 = +0
-
 +1 x68f8a +1 x68f94 -1 x68f98 = +0
-
 +1 x68f86 +1 x68f88 -1 x68f9a = +0
-
 +1 x68f8d +1 x68f9a -1 x68f9c = +0
-
 +1 x68f98 -1 x68f9f -1 x68fa0 = +0
-
 +1 x68f9c -1 x68fa1 -1 x68fa2 = +0
-
 +1 x68f9f +1 x68fa1 -1 x68fe6 = +0
-
 +1 x68fa0 +1 x68fa2 -1 x68fa3 = +0
-
 +1 x68fa3 +1 x68fa7 -1 x68fa8 = +0
-
 +1 x68fa8 -1 x68fa9 -1 x68faa = +0
-
 +1 x68fa9 -1 x68fc8 -1 x68fc9 = +0
-
 +1 x68fc8 -1 x68fd4 -1 x68fd5 = +0
-
 +1 x68fc9 +1 x68fd4 +1 x68fd5 -1 x68fe3 = +0
-
 +1 x68fe6 +1 x68fe8 -1 x68feb +0 x68fec = +0
-
 +1 x68feb +1 x68ff3 -1 x68fff = +0
-
 +1 x688fa +1 x68fe9 -1 x69004 = +0
-
 +1 x68fff +1 x69004 -1 x69005 = +0
-
 +1 x69005 +1 x69006 -1 x69007 +1 x69022 = +0
-
 +1 x69007 -1 x69008 -1 x69009 = +0
-
 +1 x69008 -1 x69011 -1 x69012 = +0
-
 +1 x69012 -1 x69021 -1 x69022 = +0
-
 +1 x69021 -1 x6904f -1 x69050 = +0
-
 +1 x6904f +1 x69050 -1 x6905d = +0
-
 +1 x681be +1 x69065 -1 x69070 = +0
-
 +1 x69070 +1 x69072 -1 x69073 +1 x69158 +1 x78362 = +0
-
 +1 x69073 -1 x69074 -1 x69075 = +0
-
 +1 x69075 +1 x690ea -1 x690eb +0 x690ec = +0
-
 +1 x69074 -1 x69079 -1 x6907a = +0
-
 +1 x69079 -1 x69081 -1 x69083 = +0
-
 +1 x69083 -1 x69089 -1 x6908a = +0
-
 +1 x69089 -1 x69091 -1 x69092 = +0
-
 +1 x69092 -1 x690a1 -1 x690a2 = +0
-
 +1 x690a1 -1 x690cf -1 x690d0 = +0
-
 +1 x690cf +1 x690d0 -1 x690dd = +0
-
 +1 x690eb -1 x690f2 -1 x690f3 = +0
-
 +1 x690f2 -1 x690f8 -1 x690f9 = +0
-
 +1 x690f9 -1 x690fc -1 x690fd = +0
-
 +1 x690fc -1 x69104 -1 x69106 = +0
-
 +1 x690f8 -1 x6910c -1 x6910d = +0
-
 +1 x6910d -1 x69110 -1 x69111 = +0
-
 +1 x69110 -1 x69118 -1 x6911a = +0
-
 +1 x690f3 +1 x69126 -1 x6912a = +0
-
 +1 x6910c +1 x69129 -1 x6912b = +0
-
 +1 x6912a -1 x6912c -1 x6912d = +0
-
 +1 x6912b -1 x6912e -1 x6912f = +0
-
 +1 x6912c +1 x6912e -1 x69132 = +0
-
 +1 x6912d +1 x6912f -1 x69130 = +0
-
 +1 x69132 -1 x69134 -1 x69135 = +0
-
 +1 x69134 -1 x6913c -1 x6913e = +0
-
 +1 x6913e -1 x69147 -1 x69148 = +0
-
 +1 x69147 -1 x6914f -1 x69151 = +0
-
 +1 x69151 -1 x69157 -1 x69158 = +0
-
 +1 x69157 -1 x6915f -1 x69160 = +0
-
 +1 x69160 -1 x6916f -1 x69170 = +0
-
 +1 x6916f -1 x6919d -1 x6919e = +0
-
 +1 x6919d +1 x6919e -1 x691ab = +0
-
 +1 x5de75 -1 x691d0 -1 x691d1 = +0
-
 +1 x691d1 -1 x6921d +0 x6921e = +0
-
 +1 x691d0 -1 x691dc -1 x691dd = +0
-
 +1 x691dc -1 x691e8 -1 x691e9 = +0
-
 +1 x691e8 +1 x6920e +1 x69533 +1 x6955c +1 x69892 +1 x698bb +1 x69bf1 +1 x69c1a
 +1 x69f50 +1 x69f79 +1 x6a2af +1 x6a2d8 +1 x6a60e +1 x6a637 +1 x6a96d +1 x6a996
 -1 x76fb7 = +0
-
 +1 x691dd +1 x691e9 -1 x691f3 = +0
-
 +1 x691f3 -1 x691f5 +1 x6921a -1 x69541 = +0
-
 +1 x691f5 -1 x691f6 -1 x691f7 = +0
-
 +1 x691f7 -1 x6921f +0 x69220 -1 x6956b = +0
-
 +1 x691f6 -1 x69202 -1 x69203 = +0
-
 +1 x69202 -1 x6920e -1 x6920f = +0
-
 +1 x69203 +1 x6920f -1 x6921a = +0
-
 +1 x6921d +1 x6921f -1 x6922d = +0
-
 +1 x6922d -1 x6922f -1 x69576 = +0
-
 +1 x6922f -1 x69230 -1 x69231 = +0
-
 +1 x69231 +1 x692d3 -1 x692ff +0 x69300 -1 x6964d = +0
-
 +1 x69230 -1 x69241 -1 x69242 = +0
-
 +1 x69241 -1 x6924d -1 x6924e = +0
-
 +1 x6924d +1 x692f0 -1 x6959e = +0
-
 +1 x69242 +1 x6924e -1 x69258 = +0
-
 +1 x69258 -1 x6925a +1 x692fc -1 x695a3 = +0
-
 +1 x6925a -1 x6925b -1 x6925c = +0
-
 +1 x6925c +1 x69291 -1 x692c7 +0 x692c8 -1 x69613 = +0
-
 +1 x6925b -1 x69267 -1 x69268 = +0
-
 +1 x69267 -1 x69273 -1 x69274 = +0
-
 +1 x69273 -1 x69277 -1 x69278 = +0
-
 +1 x69277 -1 x6927b -1 x6927c = +0
-
 +1 x6927b -1 x6927f -1 x69280 = +0
-
 +1 x69278 +1 x6927c +1 x69280 -1 x69285 = +0
-
 +1 x69285 +1 x692bb -1 x695d1 = +0
-
 +1 x69268 +1 x69274 +1 x6927f -1 x6928d = +0
-
 +1 x6928d -1 x6928f +1 x692c4 -1 x695da = +0
-
 +1 x6928f -1 x69290 -1 x69291 = +0
-
 +1 x69290 -1 x6929d -1 x6929e = +0
-
 +1 x6929d -1 x692a9 -1 x692aa = +0
-
 +1 x692a9 -1 x692ad -1 x692ae = +0
-
 +1 x692ad -1 x692b1 -1 x692b2 = +0
-
 +1 x692b1 -1 x692b5 -1 x692b6 = +0
-
 +1 x692ae +1 x692b2 +1 x692b6 -1 x692bb = +0
-
 +1 x6929e +1 x692aa +1 x692b5 -1 x692c4 = +0
-
 +1 x692c7 -1 x692d1 -1 x6961e = +0
-
 +1 x692d1 -1 x692d2 -1 x692d3 = +0
-
 +1 x692d2 -1 x692e4 -1 x692e5 = +0
-
 +1 x692e4 -1 x692f0 -1 x692f1 = +0
-
 +1 x692e5 +1 x692f1 -1 x692fc = +0
-
 +1 x692ff -1 x6930e -1 x6930f = +0
-
 +1 x6930f -1 x69313 -1 x69314 = +0
-
 +1 x6930e -1 x69315 -1 x69316 = +0
-
 +1 x69314 +1 x69316 -1 x6931c -1 x6931d = +0
-
 +1 x69313 +1 x69315 -1 x6931b = +0
-
 +1 x6931b -1 x6931e -1 x6931f = +0
-
 +1 x6931d +1 x6931f -1 x6932a = +0
-
 +1 x6931c +1 x6931e -1 x6932e = +0
-
 +1 x6932a +1 x6932e -1 x69333 = +0
-
 +1 x69333 -1 x69336 -1 x69337 = +0
-
 +1 x69336 +1 x69337 -1 x69347 = +0
-
 +1 x69347 -1 x69355 -1 x69356 = +0
-
 +1 x69355 -1 x69361 -1 x69362 = +0
-
 +1 x69356 +1 x69361 +1 x69362 -1 x69370 = +0
-
 +1 x69370 -1 x69372 -1 x696c1 = +0
-
 +1 x69372 -1 x69373 -1 x69374 = +0
-
 +1 x69374 +1 x6939a -1 x693c1 +0 x693c2 -1 x69713 = +0
-
 +1 x69373 -1 x6937f -1 x69380 = +0
-
 +1 x6937f -1 x6938b -1 x6938c = +0
-
 +1 x6938b +1 x693b2 +1 x696db +1 x69704 +1 x69a3a +1 x69a63 +1 x69d99 +1 x69dc2
 +1 x6a0f8 +1 x6a121 +1 x6a457 +1 x6a480 +1 x6a7b6 +1 x6a7df +1 x6ab15 +1 x6ab3e
 -1 x749ee = +0
-
 +1 x69380 +1 x6938c -1 x69396 = +0
-
 +1 x69396 -1 x69398 +1 x693be -1 x696e9 = +0
-
 +1 x69398 -1 x69399 -1 x6939a = +0
-
 +1 x69399 -1 x693a6 -1 x693a7 = +0
-
 +1 x693a6 -1 x693b2 -1 x693b3 = +0
-
 +1 x693a7 +1 x693b3 -1 x693be = +0
-
 +1 x693c1 -1 x693cb -1 x6971e = +0
-
 +1 x693cb -1 x693cc -1 x693cd = +0
-
 +1 x693cd +1 x6946f -1 x6949b +0 x6949c -1 x697f5 = +0
-
 +1 x693cc -1 x693dd -1 x693de = +0
-
 +1 x693dd -1 x693e9 -1 x693ea = +0
-
 +1 x693e9 +1 x6948c -1 x69746 = +0
-
 +1 x693de +1 x693ea -1 x693f4 = +0
-
 +1 x693f4 -1 x693f6 +1 x69498 -1 x6974b = +0
-
 +1 x693f6 -1 x693f7 -1 x693f8 = +0
-
 +1 x693f8 +1 x6942d -1 x69463 +0 x69464 -1 x697bb = +0
-
 +1 x693f7 -1 x69403 -1 x69404 = +0
-
 +1 x69403 -1 x6940f -1 x69410 = +0
-
 +1 x6940f -1 x69413 -1 x69414 = +0
-
 +1 x69413 -1 x69417 -1 x69418 = +0
-
 +1 x69417 -1 x6941b -1 x6941c = +0
-
 +1 x69414 +1 x69418 +1 x6941c -1 x69421 = +0
-
 +1 x69421 +1 x69457 -1 x69779 = +0
-
 +1 x69404 +1 x69410 +1 x6941b -1 x69429 = +0
-
 +1 x69429 -1 x6942b +1 x69460 -1 x69782 = +0
-
 +1 x6942b -1 x6942c -1 x6942d = +0
-
 +1 x6942c -1 x69439 -1 x6943a = +0
-
 +1 x69439 -1 x69445 -1 x69446 = +0
-
 +1 x69445 -1 x69449 -1 x6944a = +0
-
 +1 x69449 -1 x6944d -1 x6944e = +0
-
 +1 x6944d -1 x69451 -1 x69452 = +0
-
 +1 x6944a +1 x6944e +1 x69452 -1 x69457 = +0
-
 +1 x6943a +1 x69446 +1 x69451 -1 x69460 = +0
-
 +1 x69463 -1 x6946d -1 x697c6 = +0
-
 +1 x6946d -1 x6946e -1 x6946f = +0
-
 +1 x6946e -1 x69480 -1 x69481 = +0
-
 +1 x69480 -1 x6948c -1 x6948d = +0
-
 +1 x69481 +1 x6948d -1 x69498 = +0
-
 +1 x6949b -1 x694aa -1 x694ab = +0
-
 +1 x694ab -1 x694af -1 x694b0 = +0
-
 +1 x694aa -1 x694b1 -1 x694b2 = +0
-
 +1 x694b0 -1 x694b9 -1 x694ba = +0
-
 +1 x694b2 -1 x694bb -1 x694bc = +0
-
 +1 x694b1 -1 x694bd -1 x694be = +0
-
 +1 x694af -1 x694bf -1 x694c0 = +0
-
 +1 x694b9 +1 x694bb -1 x694c4 = +0
-
 +1 x694ba +1 x694bc -1 x694c1 = +0
-
 +1 x694be +1 x694c0 -1 x694cb = +0
-
 +1 x694c1 +1 x694cb -1 x694cf = +0
-
 +1 x694bd +1 x694bf -1 x694d1 = +0
-
 +1 x694c4 +1 x694d1 -1 x694d3 = +0
-
 +1 x694cf -1 x694d6 -1 x694d7 = +0
-
 +1 x694d3 -1 x694d8 -1 x694d9 = +0
-
 +1 x694d6 +1 x694d8 -1 x69835 = +0
-
 +1 x694d7 +1 x694d9 -1 x694da = +0
-
 +1 x694da -1 x694de -1 x6983a = +0
-
 +1 x694de -1 x694df -1 x694e0 = +0
-
 +1 x694df -1 x694fd -1 x694fe = +0
-
 +1 x694fd -1 x69509 -1 x6950a = +0
-
 +1 x694fe +1 x69509 +1 x6950a -1 x69518 = +0
-
 +1 x69518 -1 x6951a -1 x69878 = +0
-
 +1 x6951a -1 x6951b -1 x6951c = +0
-
 +1 x6951b -1 x69527 -1 x69528 = +0
-
 +1 x69527 -1 x69533 -1 x69534 = +0
-
 +1 x69528 +1 x69534 -1 x6953f = +0
-
 +1 x6953f +1 x69541 -1 x69542 +1 x69568 -1 x698a0 = +0
-
 +1 x69542 -1 x69543 -1 x69544 = +0
-
 +1 x6951c +1 x69544 +1 x6956b -1 x6956c +0 x6956d -1 x698ca = +0
-
 +1 x69543 -1 x69550 -1 x69551 = +0
-
 +1 x69550 -1 x6955c -1 x6955d = +0
-
 +1 x69551 +1 x6955d -1 x69568 = +0
-
 +1 x6956c +1 x69576 -1 x69577 -1 x698d5 = +0
-
 +1 x69577 -1 x69578 -1 x69579 = +0
-
 +1 x69579 +1 x69621 +1 x6964d -1 x6964e +0 x6964f -1 x699ac = +0
-
 +1 x69578 -1 x69589 -1 x6958a = +0
-
 +1 x69589 -1 x69595 -1 x69596 = +0
-
 +1 x69595 +1 x6959e +1 x6963e -1 x698fd = +0
-
 +1 x6958a +1 x69596 -1 x695a1 = +0
-
 +1 x695a1 +1 x695a3 -1 x695a4 +1 x6964a -1 x69902 = +0
-
 +1 x695a4 -1 x695a5 -1 x695a6 = +0
-
 +1 x695a6 +1 x695dd +1 x69613 -1 x69614 +0 x69615 -1 x69972 = +0
-
 +1 x695a5 -1 x695b1 -1 x695b2 = +0
-
 +1 x695b1 -1 x695bd -1 x695be = +0
-
 +1 x695bd -1 x695c1 -1 x695c2 = +0
-
 +1 x695c1 -1 x695c5 -1 x695c6 = +0
-
 +1 x695c5 -1 x695c9 -1 x695ca = +0
-
 +1 x695c2 +1 x695c6 +1 x695ca -1 x695cf = +0
-
 +1 x695cf +1 x695d1 +1 x69607 -1 x69930 = +0
-
 +1 x695b2 +1 x695be +1 x695c9 -1 x695d8 = +0
-
 +1 x695d8 +1 x695da -1 x695db +1 x69610 -1 x69939 = +0
-
 +1 x695db -1 x695dc -1 x695dd = +0
-
 +1 x695dc -1 x695e9 -1 x695ea = +0
-
 +1 x695e9 -1 x695f5 -1 x695f6 = +0
-
 +1 x695f5 -1 x695f9 -1 x695fa = +0
-
 +1 x695f9 -1 x695fd -1 x695fe = +0
-
 +1 x695fd -1 x69601 -1 x69602 = +0
-
 +1 x695fa +1 x695fe +1 x69602 -1 x69607 = +0
-
 +1 x695ea +1 x695f6 +1 x69601 -1 x69610 = +0
-
 +1 x69614 +1 x6961e -1 x6961f -1 x6997d = +0
-
 +1 x6961f -1 x69620 -1 x69621 = +0
-
 +1 x69620 -1 x69632 -1 x69633 = +0
-
 +1 x69632 -1 x6963e -1 x6963f = +0
-
 +1 x69633 +1 x6963f -1 x6964a = +0
-
 +1 x6964e -1 x6965d -1 x6965e = +0
-
 +1 x6965e -1 x69662 -1 x69663 = +0
-
 +1 x6965d -1 x69664 -1 x69665 = +0
-
 +1 x69663 +1 x69665 -1 x6966b -1 x6966c = +0
-
 +1 x69662 +1 x69664 -1 x6966a = +0
-
 +1 x6966a -1 x6966d -1 x6966e = +0
-
 +1 x6966c +1 x6966e -1 x69679 = +0
-
 +1 x6966b +1 x6966d -1 x6967d = +0
-
 +1 x69679 +1 x6967d -1 x69682 = +0
-
 +1 x69682 -1 x69685 -1 x69686 = +0
-
 +1 x69685 +1 x69686 -1 x69696 = +0
-
 +1 x69696 -1 x696a4 -1 x696a5 = +0
-
 +1 x696a4 -1 x696b0 -1 x696b1 = +0
-
 +1 x696a5 +1 x696b0 +1 x696b1 -1 x696bf = +0
-
 +1 x696bf +1 x696c1 -1 x696c2 -1 x69a20 = +0
-
 +1 x696c2 -1 x696c3 -1 x696c4 = +0
-
 +1 x696c4 +1 x696ec +1 x69713 -1 x69714 +0 x69715 -1 x69a72 = +0
-
 +1 x696c3 -1 x696cf -1 x696d0 = +0
-
 +1 x696cf -1 x696db -1 x696dc = +0
-
 +1 x696d0 +1 x696dc -1 x696e7 = +0
-
 +1 x696e7 +1 x696e9 -1 x696ea +1 x69710 -1 x69a48 = +0
-
 +1 x696ea -1 x696eb -1 x696ec = +0
-
 +1 x696eb -1 x696f8 -1 x696f9 = +0
-
 +1 x696f8 -1 x69704 -1 x69705 = +0
-
 +1 x696f9 +1 x69705 -1 x69710 = +0
-
 +1 x69714 +1 x6971e -1 x6971f -1 x69a7d = +0
-
 +1 x6971f -1 x69720 -1 x69721 = +0
-
 +1 x69721 +1 x697c9 +1 x697f5 -1 x697f6 +0 x697f7 -1 x69b54 = +0
-
 +1 x69720 -1 x69731 -1 x69732 = +0
-
 +1 x69731 -1 x6973d -1 x6973e = +0
-
 +1 x6973d +1 x69746 +1 x697e6 -1 x69aa5 = +0
-
 +1 x69732 +1 x6973e -1 x69749 = +0
-
 +1 x69749 +1 x6974b -1 x6974c +1 x697f2 -1 x69aaa = +0
-
 +1 x6974c -1 x6974d -1 x6974e = +0
-
 +1 x6974e +1 x69785 +1 x697bb -1 x697bc +0 x697bd -1 x69b1a = +0
-
 +1 x6974d -1 x69759 -1 x6975a = +0
-
 +1 x69759 -1 x69765 -1 x69766 = +0
-
 +1 x69765 -1 x69769 -1 x6976a = +0
-
 +1 x69769 -1 x6976d -1 x6976e = +0
-
 +1 x6976d -1 x69771 -1 x69772 = +0
-
 +1 x6976a +1 x6976e +1 x69772 -1 x69777 = +0
-
 +1 x69777 +1 x69779 +1 x697af -1 x69ad8 = +0
-
 +1 x6975a +1 x69766 +1 x69771 -1 x69780 = +0
-
 +1 x69780 +1 x69782 -1 x69783 +1 x697b8 -1 x69ae1 = +0
-
 +1 x69783 -1 x69784 -1 x69785 = +0
-
 +1 x69784 -1 x69791 -1 x69792 = +0
-
 +1 x69791 -1 x6979d -1 x6979e = +0
-
 +1 x6979d -1 x697a1 -1 x697a2 = +0
-
 +1 x697a1 -1 x697a5 -1 x697a6 = +0
-
 +1 x697a5 -1 x697a9 -1 x697aa = +0
-
 +1 x697a2 +1 x697a6 +1 x697aa -1 x697af = +0
-
 +1 x69792 +1 x6979e +1 x697a9 -1 x697b8 = +0
-
 +1 x697bc +1 x697c6 -1 x697c7 -1 x69b25 = +0
-
 +1 x697c7 -1 x697c8 -1 x697c9 = +0
-
 +1 x697c8 -1 x697da -1 x697db = +0
-
 +1 x697da -1 x697e6 -1 x697e7 = +0
-
 +1 x697db +1 x697e7 -1 x697f2 = +0
-
 +1 x697f6 -1 x69805 -1 x69806 = +0
-
 +1 x69806 -1 x6980a -1 x6980b = +0
-
 +1 x69805 -1 x6980c -1 x6980d = +0
-
 +1 x6980b -1 x69814 -1 x69815 = +0
-
 +1 x6980d -1 x69816 -1 x69817 = +0
-
 +1 x6980c -1 x69818 -1 x69819 = +0
-
 +1 x6980a -1 x6981a -1 x6981b = +0
-
 +1 x69814 +1 x69816 -1 x6981f = +0
-
 +1 x69815 +1 x69817 -1 x6981c = +0
-
 +1 x69819 +1 x6981b -1 x69826 = +0
-
 +1 x6981c +1 x69826 -1 x6982a = +0
-
 +1 x69818 +1 x6981a -1 x6982c = +0
-
 +1 x6981f +1 x6982c -1 x6982e = +0
-
 +1 x6982a -1 x69831 -1 x69832 = +0
-
 +1 x6982e -1 x69833 -1 x69834 = +0
-
 +1 x69831 +1 x69833 +1 x69835 -1 x69b94 = +0
-
 +1 x69832 +1 x69834 -1 x69836 = +0
-
 +1 x69836 +1 x6983a -1 x6983b -1 x69b99 = +0
-
 +1 x6983b -1 x6983c -1 x6983d = +0
-
 +1 x694e0 +1 x6983d -1 x69b9e = +0
-
 +1 x6983c -1 x6985b -1 x6985c = +0
-
 +1 x6985b -1 x69867 -1 x69868 = +0
-
 +1 x6985c +1 x69867 +1 x69868 -1 x69876 = +0
-
 +1 x69876 +1 x69878 -1 x69879 -1 x69bd7 = +0
-
 +1 x69879 -1 x6987a -1 x6987b = +0
-
 +1 x6987a -1 x69886 -1 x69887 = +0
-
 +1 x69886 -1 x69892 -1 x69893 = +0
-
 +1 x69887 +1 x69893 -1 x6989e = +0
-
 +1 x6989e +1 x698a0 -1 x698a1 +1 x698c7 -1 x69bff = +0
-
 +1 x698a1 -1 x698a2 -1 x698a3 = +0
-
 +1 x6987b +1 x698a3 +1 x698ca -1 x698cb +0 x698cc -1 x69c29 = +0
-
 +1 x698a2 -1 x698af -1 x698b0 = +0
-
 +1 x698af -1 x698bb -1 x698bc = +0
-
 +1 x698b0 +1 x698bc -1 x698c7 = +0
-
 +1 x698cb +1 x698d5 -1 x698d6 -1 x69c34 = +0
-
 +1 x698d6 -1 x698d7 -1 x698d8 = +0
-
 +1 x698d8 +1 x69980 +1 x699ac -1 x699ad +0 x699ae -1 x69d0b = +0
-
 +1 x698d7 -1 x698e8 -1 x698e9 = +0
-
 +1 x698e8 -1 x698f4 -1 x698f5 = +0
-
 +1 x698f4 +1 x698fd +1 x6999d -1 x69c5c = +0
-
 +1 x698e9 +1 x698f5 -1 x69900 = +0
-
 +1 x69900 +1 x69902 -1 x69903 +1 x699a9 -1 x69c61 = +0
-
 +1 x69903 -1 x69904 -1 x69905 = +0
-
 +1 x69905 +1 x6993c +1 x69972 -1 x69973 +0 x69974 -1 x69cd1 = +0
-
 +1 x69904 -1 x69910 -1 x69911 = +0
-
 +1 x69910 -1 x6991c -1 x6991d = +0
-
 +1 x6991c -1 x69920 -1 x69921 = +0
-
 +1 x69920 -1 x69924 -1 x69925 = +0
-
 +1 x69924 -1 x69928 -1 x69929 = +0
-
 +1 x69921 +1 x69925 +1 x69929 -1 x6992e = +0
-
 +1 x6992e +1 x69930 +1 x69966 -1 x69c8f = +0
-
 +1 x69911 +1 x6991d +1 x69928 -1 x69937 = +0
-
 +1 x69937 +1 x69939 -1 x6993a +1 x6996f -1 x69c98 = +0
-
 +1 x6993a -1 x6993b -1 x6993c = +0
-
 +1 x6993b -1 x69948 -1 x69949 = +0
-
 +1 x69948 -1 x69954 -1 x69955 = +0
-
 +1 x69954 -1 x69958 -1 x69959 = +0
-
 +1 x69958 -1 x6995c -1 x6995d = +0
-
 +1 x6995c -1 x69960 -1 x69961 = +0
-
 +1 x69959 +1 x6995d +1 x69961 -1 x69966 = +0
-
 +1 x69949 +1 x69955 +1 x69960 -1 x6996f = +0
-
 +1 x69973 +1 x6997d -1 x6997e -1 x69cdc = +0
-
 +1 x6997e -1 x6997f -1 x69980 = +0
-
 +1 x6997f -1 x69991 -1 x69992 = +0
-
 +1 x69991 -1 x6999d -1 x6999e = +0
-
 +1 x69992 +1 x6999e -1 x699a9 = +0
-
 +1 x699ad -1 x699bc -1 x699bd = +0
-
 +1 x699bd -1 x699c1 -1 x699c2 = +0
-
 +1 x699bc -1 x699c3 -1 x699c4 = +0
-
 +1 x699c2 +1 x699c4 -1 x699ca -1 x699cb = +0
-
 +1 x699c1 +1 x699c3 -1 x699c9 = +0
-
 +1 x699c9 -1 x699cc -1 x699cd = +0
-
 +1 x699cb +1 x699cd -1 x699d8 = +0
-
 +1 x699ca +1 x699cc -1 x699dc = +0
-
 +1 x699d8 +1 x699dc -1 x699e1 = +0
-
 +1 x699e1 -1 x699e4 -1 x699e5 = +0
-
 +1 x699e4 +1 x699e5 -1 x699f5 = +0
-
 +1 x699f5 -1 x69a03 -1 x69a04 = +0
-
 +1 x69a03 -1 x69a0f -1 x69a10 = +0
-
 +1 x69a04 +1 x69a0f +1 x69a10 -1 x69a1e = +0
-
 +1 x69a1e +1 x69a20 -1 x69a21 -1 x69d7f = +0
-
 +1 x69a21 -1 x69a22 -1 x69a23 = +0
-
 +1 x69a23 +1 x69a4b +1 x69a72 -1 x69a73 +0 x69a74 -1 x69dd1 = +0
-
 +1 x69a22 -1 x69a2e -1 x69a2f = +0
-
 +1 x69a2e -1 x69a3a -1 x69a3b = +0
-
 +1 x69a2f +1 x69a3b -1 x69a46 = +0
-
 +1 x69a46 +1 x69a48 -1 x69a49 +1 x69a6f -1 x69da7 = +0
-
 +1 x69a49 -1 x69a4a -1 x69a4b = +0
-
 +1 x69a4a -1 x69a57 -1 x69a58 = +0
-
 +1 x69a57 -1 x69a63 -1 x69a64 = +0
-
 +1 x69a58 +1 x69a64 -1 x69a6f = +0
-
 +1 x69a73 +1 x69a7d -1 x69a7e -1 x69ddc = +0
-
 +1 x69a7e -1 x69a7f -1 x69a80 = +0
-
 +1 x69a80 +1 x69b28 +1 x69b54 -1 x69b55 +0 x69b56 -1 x69eb3 = +0
-
 +1 x69a7f -1 x69a90 -1 x69a91 = +0
-
 +1 x69a90 -1 x69a9c -1 x69a9d = +0
-
 +1 x69a9c +1 x69aa5 +1 x69b45 -1 x69e04 = +0
-
 +1 x69a91 +1 x69a9d -1 x69aa8 = +0
-
 +1 x69aa8 +1 x69aaa -1 x69aab +1 x69b51 -1 x69e09 = +0
-
 +1 x69aab -1 x69aac -1 x69aad = +0
-
 +1 x69aad +1 x69ae4 +1 x69b1a -1 x69b1b +0 x69b1c -1 x69e79 = +0
-
 +1 x69aac -1 x69ab8 -1 x69ab9 = +0
-
 +1 x69ab8 -1 x69ac4 -1 x69ac5 = +0
-
 +1 x69ac4 -1 x69ac8 -1 x69ac9 = +0
-
 +1 x69ac8 -1 x69acc -1 x69acd = +0
-
 +1 x69acc -1 x69ad0 -1 x69ad1 = +0
-
 +1 x69ac9 +1 x69acd +1 x69ad1 -1 x69ad6 = +0
-
 +1 x69ad6 +1 x69ad8 +1 x69b0e -1 x69e37 = +0
-
 +1 x69ab9 +1 x69ac5 +1 x69ad0 -1 x69adf = +0
-
 +1 x69adf +1 x69ae1 -1 x69ae2 +1 x69b17 -1 x69e40 = +0
-
 +1 x69ae2 -1 x69ae3 -1 x69ae4 = +0
-
 +1 x69ae3 -1 x69af0 -1 x69af1 = +0
-
 +1 x69af0 -1 x69afc -1 x69afd = +0
-
 +1 x69afc -1 x69b00 -1 x69b01 = +0
-
 +1 x69b00 -1 x69b04 -1 x69b05 = +0
-
 +1 x69b04 -1 x69b08 -1 x69b09 = +0
-
 +1 x69b01 +1 x69b05 +1 x69b09 -1 x69b0e = +0
-
 +1 x69af1 +1 x69afd +1 x69b08 -1 x69b17 = +0
-
 +1 x69b1b +1 x69b25 -1 x69b26 -1 x69e84 = +0
-
 +1 x69b26 -1 x69b27 -1 x69b28 = +0
-
 +1 x69b27 -1 x69b39 -1 x69b3a = +0
-
 +1 x69b39 -1 x69b45 -1 x69b46 = +0
-
 +1 x69b3a +1 x69b46 -1 x69b51 = +0
-
 +1 x69b55 -1 x69b64 -1 x69b65 = +0
-
 +1 x69b65 -1 x69b69 -1 x69b6a = +0
-
 +1 x69b64 -1 x69b6b -1 x69b6c = +0
-
 +1 x69b6a -1 x69b73 -1 x69b74 = +0
-
 +1 x69b6c -1 x69b75 -1 x69b76 = +0
-
 +1 x69b6b -1 x69b77 -1 x69b78 = +0
-
 +1 x69b69 -1 x69b79 -1 x69b7a = +0
-
 +1 x69b73 +1 x69b75 -1 x69b7e = +0
-
 +1 x69b74 +1 x69b76 -1 x69b7b = +0
-
 +1 x69b78 +1 x69b7a -1 x69b85 = +0
-
 +1 x69b7b +1 x69b85 -1 x69b89 = +0
-
 +1 x69b77 +1 x69b79 -1 x69b8b = +0
-
 +1 x69b7e +1 x69b8b -1 x69b8d = +0
-
 +1 x69b89 -1 x69b90 -1 x69b91 = +0
-
 +1 x69b8d -1 x69b92 -1 x69b93 = +0
-
 +1 x69b90 +1 x69b92 +1 x69b94 -1 x69ef3 = +0
-
 +1 x69b91 +1 x69b93 -1 x69b95 = +0
-
 +1 x69b95 +1 x69b99 -1 x69b9a -1 x69ef8 = +0
-
 +1 x69b9a -1 x69b9b -1 x69b9c = +0
-
 +1 x69b9c +1 x69b9e -1 x69efd = +0
-
 +1 x69b9b -1 x69bba -1 x69bbb = +0
-
 +1 x69bba -1 x69bc6 -1 x69bc7 = +0
-
 +1 x69bbb +1 x69bc6 +1 x69bc7 -1 x69bd5 = +0
-
 +1 x69bd5 +1 x69bd7 -1 x69bd8 -1 x69f36 = +0
-
 +1 x69bd8 -1 x69bd9 -1 x69bda = +0
-
 +1 x69bd9 -1 x69be5 -1 x69be6 = +0
-
 +1 x69be5 -1 x69bf1 -1 x69bf2 = +0
-
 +1 x69be6 +1 x69bf2 -1 x69bfd = +0
-
 +1 x69bfd +1 x69bff -1 x69c00 +1 x69c26 -1 x69f5e = +0
-
 +1 x69c00 -1 x69c01 -1 x69c02 = +0
-
 +1 x69bda +1 x69c02 +1 x69c29 -1 x69c2a +0 x69c2b -1 x69f88 = +0
-
 +1 x69c01 -1 x69c0e -1 x69c0f = +0
-
 +1 x69c0e -1 x69c1a -1 x69c1b = +0
-
 +1 x69c0f +1 x69c1b -1 x69c26 = +0
-
 +1 x69c2a +1 x69c34 -1 x69c35 -1 x69f93 = +0
-
 +1 x69c35 -1 x69c36 -1 x69c37 = +0
-
 +1 x69c37 +1 x69cdf +1 x69d0b -1 x69d0c +0 x69d0d -1 x6a06a = +0
-
 +1 x69c36 -1 x69c47 -1 x69c48 = +0
-
 +1 x69c47 -1 x69c53 -1 x69c54 = +0
-
 +1 x69c53 +1 x69c5c +1 x69cfc -1 x69fbb = +0
-
 +1 x69c48 +1 x69c54 -1 x69c5f = +0
-
 +1 x69c5f +1 x69c61 -1 x69c62 +1 x69d08 -1 x69fc0 = +0
-
 +1 x69c62 -1 x69c63 -1 x69c64 = +0
-
 +1 x69c64 +1 x69c9b +1 x69cd1 -1 x69cd2 +0 x69cd3 -1 x6a030 = +0
-
 +1 x69c63 -1 x69c6f -1 x69c70 = +0
-
 +1 x69c6f -1 x69c7b -1 x69c7c = +0
-
 +1 x69c7b -1 x69c7f -1 x69c80 = +0
-
 +1 x69c7f -1 x69c83 -1 x69c84 = +0
-
 +1 x69c83 -1 x69c87 -1 x69c88 = +0
-
 +1 x69c80 +1 x69c84 +1 x69c88 -1 x69c8d = +0
-
 +1 x69c8d +1 x69c8f +1 x69cc5 -1 x69fee = +0
-
 +1 x69c70 +1 x69c7c +1 x69c87 -1 x69c96 = +0
-
 +1 x69c96 +1 x69c98 -1 x69c99 +1 x69cce -1 x69ff7 = +0
-
 +1 x69c99 -1 x69c9a -1 x69c9b = +0
-
 +1 x69c9a -1 x69ca7 -1 x69ca8 = +0
-
 +1 x69ca7 -1 x69cb3 -1 x69cb4 = +0
-
 +1 x69cb3 -1 x69cb7 -1 x69cb8 = +0
-
 +1 x69cb7 -1 x69cbb -1 x69cbc = +0
-
 +1 x69cbb -1 x69cbf -1 x69cc0 = +0
-
 +1 x69cb8 +1 x69cbc +1 x69cc0 -1 x69cc5 = +0
-
 +1 x69ca8 +1 x69cb4 +1 x69cbf -1 x69cce = +0
-
 +1 x69cd2 +1 x69cdc -1 x69cdd -1 x6a03b = +0
-
 +1 x69cdd -1 x69cde -1 x69cdf = +0
-
 +1 x69cde -1 x69cf0 -1 x69cf1 = +0
-
 +1 x69cf0 -1 x69cfc -1 x69cfd = +0
-
 +1 x69cf1 +1 x69cfd -1 x69d08 = +0
-
 +1 x69d0c -1 x69d1b -1 x69d1c = +0
-
 +1 x69d1c -1 x69d20 -1 x69d21 = +0
-
 +1 x69d1b -1 x69d22 -1 x69d23 = +0
-
 +1 x69d21 +1 x69d23 -1 x69d29 -1 x69d2a = +0
-
 +1 x69d20 +1 x69d22 -1 x69d28 = +0
-
 +1 x69d28 -1 x69d2b -1 x69d2c = +0
-
 +1 x69d2a +1 x69d2c -1 x69d37 = +0
-
 +1 x69d29 +1 x69d2b -1 x69d3b = +0
-
 +1 x69d37 +1 x69d3b -1 x69d40 = +0
-
 +1 x69d40 -1 x69d43 -1 x69d44 = +0
-
 +1 x69d43 +1 x69d44 -1 x69d54 = +0
-
 +1 x69d54 -1 x69d62 -1 x69d63 = +0
-
 +1 x69d62 -1 x69d6e -1 x69d6f = +0
-
 +1 x69d63 +1 x69d6e +1 x69d6f -1 x69d7d = +0
-
 +1 x69d7d +1 x69d7f -1 x69d80 -1 x6a0de = +0
-
 +1 x69d80 -1 x69d81 -1 x69d82 = +0
-
 +1 x69d82 +1 x69daa +1 x69dd1 -1 x69dd2 +0 x69dd3 -1 x6a130 = +0
-
 +1 x69d81 -1 x69d8d -1 x69d8e = +0
-
 +1 x69d8d -1 x69d99 -1 x69d9a = +0
-
 +1 x69d8e +1 x69d9a -1 x69da5 = +0
-
 +1 x69da5 +1 x69da7 -1 x69da8 +1 x69dce -1 x6a106 = +0
-
 +1 x69da8 -1 x69da9 -1 x69daa = +0
-
 +1 x69da9 -1 x69db6 -1 x69db7 = +0
-
 +1 x69db6 -1 x69dc2 -1 x69dc3 = +0
-
 +1 x69db7 +1 x69dc3 -1 x69dce = +0
-
 +1 x69dd2 +1 x69ddc -1 x69ddd -1 x6a13b = +0
-
 +1 x69ddd -1 x69dde -1 x69ddf = +0
-
 +1 x69ddf +1 x69e87 +1 x69eb3 -1 x69eb4 +0 x69eb5 -1 x6a212 = +0
-
 +1 x69dde -1 x69def -1 x69df0 = +0
-
 +1 x69def -1 x69dfb -1 x69dfc = +0
-
 +1 x69dfb +1 x69e04 +1 x69ea4 -1 x6a163 = +0
-
 +1 x69df0 +1 x69dfc -1 x69e07 = +0
-
 +1 x69e07 +1 x69e09 -1 x69e0a +1 x69eb0 -1 x6a168 = +0
-
 +1 x69e0a -1 x69e0b -1 x69e0c = +0
-
 +1 x69e0c +1 x69e43 +1 x69e79 -1 x69e7a +0 x69e7b -1 x6a1d8 = +0
-
 +1 x69e0b -1 x69e17 -1 x69e18 = +0
-
 +1 x69e17 -1 x69e23 -1 x69e24 = +0
-
 +1 x69e23 -1 x69e27 -1 x69e28 = +0
-
 +1 x69e27 -1 x69e2b -1 x69e2c = +0
-
 +1 x69e2b -1 x69e2f -1 x69e30 = +0
-
 +1 x69e28 +1 x69e2c +1 x69e30 -1 x69e35 = +0
-
 +1 x69e35 +1 x69e37 +1 x69e6d -1 x6a196 = +0
-
 +1 x69e18 +1 x69e24 +1 x69e2f -1 x69e3e = +0
-
 +1 x69e3e +1 x69e40 -1 x69e41 +1 x69e76 -1 x6a19f = +0
-
 +1 x69e41 -1 x69e42 -1 x69e43 = +0
-
 +1 x69e42 -1 x69e4f -1 x69e50 = +0
-
 +1 x69e4f -1 x69e5b -1 x69e5c = +0
-
 +1 x69e5b -1 x69e5f -1 x69e60 = +0
-
 +1 x69e5f -1 x69e63 -1 x69e64 = +0
-
 +1 x69e63 -1 x69e67 -1 x69e68 = +0
-
 +1 x69e60 +1 x69e64 +1 x69e68 -1 x69e6d = +0
-
 +1 x69e50 +1 x69e5c +1 x69e67 -1 x69e76 = +0
-
 +1 x69e7a +1 x69e84 -1 x69e85 -1 x6a1e3 = +0
-
 +1 x69e85 -1 x69e86 -1 x69e87 = +0
-
 +1 x69e86 -1 x69e98 -1 x69e99 = +0
-
 +1 x69e98 -1 x69ea4 -1 x69ea5 = +0
-
 +1 x69e99 +1 x69ea5 -1 x69eb0 = +0
-
 +1 x69eb4 -1 x69ec3 -1 x69ec4 = +0
-
 +1 x69ec4 -1 x69ec8 -1 x69ec9 = +0
-
 +1 x69ec3 -1 x69eca -1 x69ecb = +0
-
 +1 x69ec9 -1 x69ed2 -1 x69ed3 = +0
-
 +1 x69ecb -1 x69ed4 -1 x69ed5 = +0
-
 +1 x69eca -1 x69ed6 -1 x69ed7 = +0
-
 +1 x69ec8 -1 x69ed8 -1 x69ed9 = +0
-
 +1 x69ed2 +1 x69ed4 -1 x69edd = +0
-
 +1 x69ed3 +1 x69ed5 -1 x69eda = +0
-
 +1 x69ed7 +1 x69ed9 -1 x69ee4 = +0
-
 +1 x69eda +1 x69ee4 -1 x69ee8 = +0
-
 +1 x69ed6 +1 x69ed8 -1 x69eea = +0
-
 +1 x69edd +1 x69eea -1 x69eec = +0
-
 +1 x69ee8 -1 x69eef -1 x69ef0 = +0
-
 +1 x69eec -1 x69ef1 -1 x69ef2 = +0
-
 +1 x69eef +1 x69ef1 +1 x69ef3 -1 x6a252 = +0
-
 +1 x69ef0 +1 x69ef2 -1 x69ef4 = +0
-
 +1 x69ef4 +1 x69ef8 -1 x69ef9 -1 x6a257 = +0
-
 +1 x69ef9 -1 x69efa -1 x69efb = +0
-
 +1 x69efb +1 x69efd -1 x6a25c = +0
-
 +1 x69efa -1 x69f19 -1 x69f1a = +0
-
 +1 x69f19 -1 x69f25 -1 x69f26 = +0
-
 +1 x69f1a +1 x69f25 +1 x69f26 -1 x69f34 = +0
-
 +1 x69f34 +1 x69f36 -1 x69f37 -1 x6a295 = +0
-
 +1 x69f37 -1 x69f38 -1 x69f39 = +0
-
 +1 x69f38 -1 x69f44 -1 x69f45 = +0
-
 +1 x69f44 -1 x69f50 -1 x69f51 = +0
-
 +1 x69f45 +1 x69f51 -1 x69f5c = +0
-
 +1 x69f5c +1 x69f5e -1 x69f5f +1 x69f85 -1 x6a2bd = +0
-
 +1 x69f5f -1 x69f60 -1 x69f61 = +0
-
 +1 x69f39 +1 x69f61 +1 x69f88 -1 x69f89 +0 x69f8a -1 x6a2e7 = +0
-
 +1 x69f60 -1 x69f6d -1 x69f6e = +0
-
 +1 x69f6d -1 x69f79 -1 x69f7a = +0
-
 +1 x69f6e +1 x69f7a -1 x69f85 = +0
-
 +1 x69f89 +1 x69f93 -1 x69f94 -1 x6a2f2 = +0
-
 +1 x69f94 -1 x69f95 -1 x69f96 = +0
-
 +1 x69f96 +1 x6a03e +1 x6a06a -1 x6a06b +0 x6a06c -1 x6a3c9 = +0
-
 +1 x69f95 -1 x69fa6 -1 x69fa7 = +0
-
 +1 x69fa6 -1 x69fb2 -1 x69fb3 = +0
-
 +1 x69fb2 +1 x69fbb +1 x6a05b -1 x6a31a = +0
-
 +1 x69fa7 +1 x69fb3 -1 x69fbe = +0
-
 +1 x69fbe +1 x69fc0 -1 x69fc1 +1 x6a067 -1 x6a31f = +0
-
 +1 x69fc1 -1 x69fc2 -1 x69fc3 = +0
-
 +1 x69fc3 +1 x69ffa +1 x6a030 -1 x6a031 +0 x6a032 -1 x6a38f = +0
-
 +1 x69fc2 -1 x69fce -1 x69fcf = +0
-
 +1 x69fce -1 x69fda -1 x69fdb = +0
-
 +1 x69fda -1 x69fde -1 x69fdf = +0
-
 +1 x69fde -1 x69fe2 -1 x69fe3 = +0
-
 +1 x69fe2 -1 x69fe6 -1 x69fe7 = +0
-
 +1 x69fdf +1 x69fe3 +1 x69fe7 -1 x69fec = +0
-
 +1 x69fec +1 x69fee +1 x6a024 -1 x6a34d = +0
-
 +1 x69fcf +1 x69fdb +1 x69fe6 -1 x69ff5 = +0
-
 +1 x69ff5 +1 x69ff7 -1 x69ff8 +1 x6a02d -1 x6a356 = +0
-
 +1 x69ff8 -1 x69ff9 -1 x69ffa = +0
-
 +1 x69ff9 -1 x6a006 -1 x6a007 = +0
-
 +1 x6a006 -1 x6a012 -1 x6a013 = +0
-
 +1 x6a012 -1 x6a016 -1 x6a017 = +0
-
 +1 x6a016 -1 x6a01a -1 x6a01b = +0
-
 +1 x6a01a -1 x6a01e -1 x6a01f = +0
-
 +1 x6a017 +1 x6a01b +1 x6a01f -1 x6a024 = +0
-
 +1 x6a007 +1 x6a013 +1 x6a01e -1 x6a02d = +0
-
 +1 x6a031 +1 x6a03b -1 x6a03c -1 x6a39a = +0
-
 +1 x6a03c -1 x6a03d -1 x6a03e = +0
-
 +1 x6a03d -1 x6a04f -1 x6a050 = +0
-
 +1 x6a04f -1 x6a05b -1 x6a05c = +0
-
 +1 x6a050 +1 x6a05c -1 x6a067 = +0
-
 +1 x6a06b -1 x6a07a -1 x6a07b = +0
-
 +1 x6a07b -1 x6a07f -1 x6a080 = +0
-
 +1 x6a07a -1 x6a081 -1 x6a082 = +0
-
 +1 x6a080 +1 x6a082 -1 x6a088 -1 x6a089 = +0
-
 +1 x6a07f +1 x6a081 -1 x6a087 = +0
-
 +1 x6a087 -1 x6a08a -1 x6a08b = +0
-
 +1 x6a089 +1 x6a08b -1 x6a096 = +0
-
 +1 x6a088 +1 x6a08a -1 x6a09a = +0
-
 +1 x6a096 +1 x6a09a -1 x6a09f = +0
-
 +1 x6a09f -1 x6a0a2 -1 x6a0a3 = +0
-
 +1 x6a0a2 +1 x6a0a3 -1 x6a0b3 = +0
-
 +1 x6a0b3 -1 x6a0c1 -1 x6a0c2 = +0
-
 +1 x6a0c1 -1 x6a0cd -1 x6a0ce = +0
-
 +1 x6a0c2 +1 x6a0cd +1 x6a0ce -1 x6a0dc = +0
-
 +1 x6a0dc +1 x6a0de -1 x6a0df -1 x6a43d = +0
-
 +1 x6a0df -1 x6a0e0 -1 x6a0e1 = +0
-
 +1 x6a0e1 +1 x6a109 +1 x6a130 -1 x6a131 +0 x6a132 -1 x6a48f = +0
-
 +1 x6a0e0 -1 x6a0ec -1 x6a0ed = +0
-
 +1 x6a0ec -1 x6a0f8 -1 x6a0f9 = +0
-
 +1 x6a0ed +1 x6a0f9 -1 x6a104 = +0
-
 +1 x6a104 +1 x6a106 -1 x6a107 +1 x6a12d -1 x6a465 = +0
-
 +1 x6a107 -1 x6a108 -1 x6a109 = +0
-
 +1 x6a108 -1 x6a115 -1 x6a116 = +0
-
 +1 x6a115 -1 x6a121 -1 x6a122 = +0
-
 +1 x6a116 +1 x6a122 -1 x6a12d = +0
-
 +1 x6a131 +1 x6a13b -1 x6a13c -1 x6a49a = +0
-
 +1 x6a13c -1 x6a13d -1 x6a13e = +0
-
 +1 x6a13e +1 x6a1e6 +1 x6a212 -1 x6a213 +0 x6a214 -1 x6a571 = +0
-
 +1 x6a13d -1 x6a14e -1 x6a14f = +0
-
 +1 x6a14e -1 x6a15a -1 x6a15b = +0
-
 +1 x6a15a +1 x6a163 +1 x6a203 -1 x6a4c2 = +0
-
 +1 x6a14f +1 x6a15b -1 x6a166 = +0
-
 +1 x6a166 +1 x6a168 -1 x6a169 +1 x6a20f -1 x6a4c7 = +0
-
 +1 x6a169 -1 x6a16a -1 x6a16b = +0
-
 +1 x6a16b +1 x6a1a2 +1 x6a1d8 -1 x6a1d9 +0 x6a1da -1 x6a537 = +0
-
 +1 x6a16a -1 x6a176 -1 x6a177 = +0
-
 +1 x6a176 -1 x6a182 -1 x6a183 = +0
-
 +1 x6a182 -1 x6a186 -1 x6a187 = +0
-
 +1 x6a186 -1 x6a18a -1 x6a18b = +0
-
 +1 x6a18a -1 x6a18e -1 x6a18f = +0
-
 +1 x6a187 +1 x6a18b +1 x6a18f -1 x6a194 = +0
-
 +1 x6a194 +1 x6a196 +1 x6a1cc -1 x6a4f5 = +0
-
 +1 x6a177 +1 x6a183 +1 x6a18e -1 x6a19d = +0
-
 +1 x6a19d +1 x6a19f -1 x6a1a0 +1 x6a1d5 -1 x6a4fe = +0
-
 +1 x6a1a0 -1 x6a1a1 -1 x6a1a2 = +0
-
 +1 x6a1a1 -1 x6a1ae -1 x6a1af = +0
-
 +1 x6a1ae -1 x6a1ba -1 x6a1bb = +0
-
 +1 x6a1ba -1 x6a1be -1 x6a1bf = +0
-
 +1 x6a1be -1 x6a1c2 -1 x6a1c3 = +0
-
 +1 x6a1c2 -1 x6a1c6 -1 x6a1c7 = +0
-
 +1 x6a1bf +1 x6a1c3 +1 x6a1c7 -1 x6a1cc = +0
-
 +1 x6a1af +1 x6a1bb +1 x6a1c6 -1 x6a1d5 = +0
-
 +1 x6a1d9 +1 x6a1e3 -1 x6a1e4 -1 x6a542 = +0
-
 +1 x6a1e4 -1 x6a1e5 -1 x6a1e6 = +0
-
 +1 x6a1e5 -1 x6a1f7 -1 x6a1f8 = +0
-
 +1 x6a1f7 -1 x6a203 -1 x6a204 = +0
-
 +1 x6a1f8 +1 x6a204 -1 x6a20f = +0
-
 +1 x6a213 -1 x6a222 -1 x6a223 = +0
-
 +1 x6a223 -1 x6a227 -1 x6a228 = +0
-
 +1 x6a222 -1 x6a229 -1 x6a22a = +0
-
 +1 x6a228 -1 x6a231 -1 x6a232 = +0
-
 +1 x6a22a -1 x6a233 -1 x6a234 = +0
-
 +1 x6a229 -1 x6a235 -1 x6a236 = +0
-
 +1 x6a227 -1 x6a237 -1 x6a238 = +0
-
 +1 x6a231 +1 x6a233 -1 x6a23c = +0
-
 +1 x6a232 +1 x6a234 -1 x6a239 = +0
-
 +1 x6a236 +1 x6a238 -1 x6a243 = +0
-
 +1 x6a239 +1 x6a243 -1 x6a247 = +0
-
 +1 x6a235 +1 x6a237 -1 x6a249 = +0
-
 +1 x6a23c +1 x6a249 -1 x6a24b = +0
-
 +1 x6a247 -1 x6a24e -1 x6a24f = +0
-
 +1 x6a24b -1 x6a250 -1 x6a251 = +0
-
 +1 x6a24e +1 x6a250 +1 x6a252 -1 x6a5b1 = +0
-
 +1 x6a24f +1 x6a251 -1 x6a253 = +0
-
 +1 x6a253 +1 x6a257 -1 x6a258 -1 x6a5b6 = +0
-
 +1 x6a258 -1 x6a259 -1 x6a25a = +0
-
 +1 x6a25a +1 x6a25c -1 x6a5bb = +0
-
 +1 x6a259 -1 x6a278 -1 x6a279 = +0
-
 +1 x6a278 -1 x6a284 -1 x6a285 = +0
-
 +1 x6a279 +1 x6a284 +1 x6a285 -1 x6a293 = +0
-
 +1 x6a293 +1 x6a295 -1 x6a296 -1 x6a5f4 = +0
-
 +1 x6a296 -1 x6a297 -1 x6a298 = +0
-
 +1 x6a297 -1 x6a2a3 -1 x6a2a4 = +0
-
 +1 x6a2a3 -1 x6a2af -1 x6a2b0 = +0
-
 +1 x6a2a4 +1 x6a2b0 -1 x6a2bb = +0
-
 +1 x6a2bb +1 x6a2bd -1 x6a2be +1 x6a2e4 -1 x6a61c = +0
-
 +1 x6a2be -1 x6a2bf -1 x6a2c0 = +0
-
 +1 x6a298 +1 x6a2c0 +1 x6a2e7 -1 x6a2e8 +0 x6a2e9 -1 x6a646 = +0
-
 +1 x6a2bf -1 x6a2cc -1 x6a2cd = +0
-
 +1 x6a2cc -1 x6a2d8 -1 x6a2d9 = +0
-
 +1 x6a2cd +1 x6a2d9 -1 x6a2e4 = +0
-
 +1 x6a2e8 +1 x6a2f2 -1 x6a2f3 -1 x6a651 = +0
-
 +1 x6a2f3 -1 x6a2f4 -1 x6a2f5 = +0
-
 +1 x6a2f5 +1 x6a39d +1 x6a3c9 -1 x6a3ca +0 x6a3cb -1 x6a728 = +0
-
 +1 x6a2f4 -1 x6a305 -1 x6a306 = +0
-
 +1 x6a305 -1 x6a311 -1 x6a312 = +0
-
 +1 x6a311 +1 x6a31a +1 x6a3ba -1 x6a679 = +0
-
 +1 x6a306 +1 x6a312 -1 x6a31d = +0
-
 +1 x6a31d +1 x6a31f -1 x6a320 +1 x6a3c6 -1 x6a67e = +0
-
 +1 x6a320 -1 x6a321 -1 x6a322 = +0
-
 +1 x6a322 +1 x6a359 +1 x6a38f -1 x6a390 +0 x6a391 -1 x6a6ee = +0
-
 +1 x6a321 -1 x6a32d -1 x6a32e = +0
-
 +1 x6a32d -1 x6a339 -1 x6a33a = +0
-
 +1 x6a339 -1 x6a33d -1 x6a33e = +0
-
 +1 x6a33d -1 x6a341 -1 x6a342 = +0
-
 +1 x6a341 -1 x6a345 -1 x6a346 = +0
-
 +1 x6a33e +1 x6a342 +1 x6a346 -1 x6a34b = +0
-
 +1 x6a34b +1 x6a34d +1 x6a383 -1 x6a6ac = +0
-
 +1 x6a32e +1 x6a33a +1 x6a345 -1 x6a354 = +0
-
 +1 x6a354 +1 x6a356 -1 x6a357 +1 x6a38c -1 x6a6b5 = +0
-
 +1 x6a357 -1 x6a358 -1 x6a359 = +0
-
 +1 x6a358 -1 x6a365 -1 x6a366 = +0
-
 +1 x6a365 -1 x6a371 -1 x6a372 = +0
-
 +1 x6a371 -1 x6a375 -1 x6a376 = +0
-
 +1 x6a375 -1 x6a379 -1 x6a37a = +0
-
 +1 x6a379 -1 x6a37d -1 x6a37e = +0
-
 +1 x6a376 +1 x6a37a +1 x6a37e -1 x6a383 = +0
-
 +1 x6a366 +1 x6a372 +1 x6a37d -1 x6a38c = +0
-
 +1 x6a390 +1 x6a39a -1 x6a39b -1 x6a6f9 = +0
-
 +1 x6a39b -1 x6a39c -1 x6a39d = +0
-
 +1 x6a39c -1 x6a3ae -1 x6a3af = +0
-
 +1 x6a3ae -1 x6a3ba -1 x6a3bb = +0
-
 +1 x6a3af +1 x6a3bb -1 x6a3c6 = +0
-
 +1 x6a3ca -1 x6a3d9 -1 x6a3da = +0
-
 +1 x6a3da -1 x6a3de -1 x6a3df = +0
-
 +1 x6a3d9 -1 x6a3e0 -1 x6a3e1 = +0
-
 +1 x6a3df +1 x6a3e1 -1 x6a3e7 -1 x6a3e8 = +0
-
 +1 x6a3de +1 x6a3e0 -1 x6a3e6 = +0
-
 +1 x6a3e6 -1 x6a3e9 -1 x6a3ea = +0
-
 +1 x6a3e8 +1 x6a3ea -1 x6a3f5 = +0
-
 +1 x6a3e7 +1 x6a3e9 -1 x6a3f9 = +0
-
 +1 x6a3f5 +1 x6a3f9 -1 x6a3fe = +0
-
 +1 x6a3fe -1 x6a401 -1 x6a402 = +0
-
 +1 x6a401 +1 x6a402 -1 x6a412 = +0
-
 +1 x6a412 -1 x6a420 -1 x6a421 = +0
-
 +1 x6a420 -1 x6a42c -1 x6a42d = +0
-
 +1 x6a421 +1 x6a42c +1 x6a42d -1 x6a43b = +0
-
 +1 x6a43b +1 x6a43d -1 x6a43e -1 x6a79c = +0
-
 +1 x6a43e -1 x6a43f -1 x6a440 = +0
-
 +1 x6a440 +1 x6a468 +1 x6a48f -1 x6a490 +0 x6a491 -1 x6a7ee = +0
-
 +1 x6a43f -1 x6a44b -1 x6a44c = +0
-
 +1 x6a44b -1 x6a457 -1 x6a458 = +0
-
 +1 x6a44c +1 x6a458 -1 x6a463 = +0
-
 +1 x6a463 +1 x6a465 -1 x6a466 +1 x6a48c -1 x6a7c4 = +0
-
 +1 x6a466 -1 x6a467 -1 x6a468 = +0
-
 +1 x6a467 -1 x6a474 -1 x6a475 = +0
-
 +1 x6a474 -1 x6a480 -1 x6a481 = +0
-
 +1 x6a475 +1 x6a481 -1 x6a48c = +0
-
 +1 x6a490 +1 x6a49a -1 x6a49b -1 x6a7f9 = +0
-
 +1 x6a49b -1 x6a49c -1 x6a49d = +0
-
 +1 x6a49d +1 x6a545 +1 x6a571 -1 x6a572 +0 x6a573 -1 x6a8d0 = +0
-
 +1 x6a49c -1 x6a4ad -1 x6a4ae = +0
-
 +1 x6a4ad -1 x6a4b9 -1 x6a4ba = +0
-
 +1 x6a4b9 +1 x6a4c2 +1 x6a562 -1 x6a821 = +0
-
 +1 x6a4ae +1 x6a4ba -1 x6a4c5 = +0
-
 +1 x6a4c5 +1 x6a4c7 -1 x6a4c8 +1 x6a56e -1 x6a826 = +0
-
 +1 x6a4c8 -1 x6a4c9 -1 x6a4ca = +0
-
 +1 x6a4ca +1 x6a501 +1 x6a537 -1 x6a538 +0 x6a539 -1 x6a896 = +0
-
 +1 x6a4c9 -1 x6a4d5 -1 x6a4d6 = +0
-
 +1 x6a4d5 -1 x6a4e1 -1 x6a4e2 = +0
-
 +1 x6a4e1 -1 x6a4e5 -1 x6a4e6 = +0
-
 +1 x6a4e5 -1 x6a4e9 -1 x6a4ea = +0
-
 +1 x6a4e9 -1 x6a4ed -1 x6a4ee = +0
-
 +1 x6a4e6 +1 x6a4ea +1 x6a4ee -1 x6a4f3 = +0
-
 +1 x6a4f3 +1 x6a4f5 +1 x6a52b -1 x6a854 = +0
-
 +1 x6a4d6 +1 x6a4e2 +1 x6a4ed -1 x6a4fc = +0
-
 +1 x6a4fc +1 x6a4fe -1 x6a4ff +1 x6a534 -1 x6a85d = +0
-
 +1 x6a4ff -1 x6a500 -1 x6a501 = +0
-
 +1 x6a500 -1 x6a50d -1 x6a50e = +0
-
 +1 x6a50d -1 x6a519 -1 x6a51a = +0
-
 +1 x6a519 -1 x6a51d -1 x6a51e = +0
-
 +1 x6a51d -1 x6a521 -1 x6a522 = +0
-
 +1 x6a521 -1 x6a525 -1 x6a526 = +0
-
 +1 x6a51e +1 x6a522 +1 x6a526 -1 x6a52b = +0
-
 +1 x6a50e +1 x6a51a +1 x6a525 -1 x6a534 = +0
-
 +1 x6a538 +1 x6a542 -1 x6a543 -1 x6a8a1 = +0
-
 +1 x6a543 -1 x6a544 -1 x6a545 = +0
-
 +1 x6a544 -1 x6a556 -1 x6a557 = +0
-
 +1 x6a556 -1 x6a562 -1 x6a563 = +0
-
 +1 x6a557 +1 x6a563 -1 x6a56e = +0
-
 +1 x6a572 -1 x6a581 -1 x6a582 = +0
-
 +1 x6a582 -1 x6a586 -1 x6a587 = +0
-
 +1 x6a581 -1 x6a588 -1 x6a589 = +0
-
 +1 x6a587 -1 x6a590 -1 x6a591 = +0
-
 +1 x6a589 -1 x6a592 -1 x6a593 = +0
-
 +1 x6a588 -1 x6a594 -1 x6a595 = +0
-
 +1 x6a586 -1 x6a596 -1 x6a597 = +0
-
 +1 x6a590 +1 x6a592 -1 x6a59b = +0
-
 +1 x6a591 +1 x6a593 -1 x6a598 = +0
-
 +1 x6a595 +1 x6a597 -1 x6a5a2 = +0
-
 +1 x6a598 +1 x6a5a2 -1 x6a5a6 = +0
-
 +1 x6a594 +1 x6a596 -1 x6a5a8 = +0
-
 +1 x6a59b +1 x6a5a8 -1 x6a5aa = +0
-
 +1 x6a5a6 -1 x6a5ad -1 x6a5ae = +0
-
 +1 x6a5aa -1 x6a5af -1 x6a5b0 = +0
-
 +1 x6a5ad +1 x6a5af +1 x6a5b1 -1 x6a910 = +0
-
 +1 x6a5ae +1 x6a5b0 -1 x6a5b2 = +0
-
 +1 x6a5b2 +1 x6a5b6 -1 x6a5b7 -1 x6a915 = +0
-
 +1 x6a5b7 -1 x6a5b8 -1 x6a5b9 = +0
-
 +1 x6a5b9 +1 x6a5bb -1 x6a91a = +0
-
 +1 x6a5b8 -1 x6a5d7 -1 x6a5d8 = +0
-
 +1 x6a5d7 -1 x6a5e3 -1 x6a5e4 = +0
-
 +1 x6a5d8 +1 x6a5e3 +1 x6a5e4 -1 x6a5f2 = +0
-
 +1 x6a5f2 +1 x6a5f4 -1 x6a5f5 -1 x6a953 = +0
-
 +1 x6a5f5 -1 x6a5f6 -1 x6a5f7 = +0
-
 +1 x6a5f6 -1 x6a602 -1 x6a603 = +0
-
 +1 x6a602 -1 x6a60e -1 x6a60f = +0
-
 +1 x6a603 +1 x6a60f -1 x6a61a = +0
-
 +1 x6a61a +1 x6a61c -1 x6a61d +1 x6a643 -1 x6a97b = +0
-
 +1 x6a61d -1 x6a61e -1 x6a61f = +0
-
 +1 x6a5f7 +1 x6a61f +1 x6a646 -1 x6a647 +0 x6a648 -1 x6a9a5 = +0
-
 +1 x6a61e -1 x6a62b -1 x6a62c = +0
-
 +1 x6a62b -1 x6a637 -1 x6a638 = +0
-
 +1 x6a62c +1 x6a638 -1 x6a643 = +0
-
 +1 x6a647 +1 x6a651 -1 x6a652 -1 x6a9b0 = +0
-
 +1 x6a652 -1 x6a653 -1 x6a654 = +0
-
 +1 x6a654 +1 x6a6fc +1 x6a728 -1 x6a729 +0 x6a72a -1 x6aa87 = +0
-
 +1 x6a653 -1 x6a664 -1 x6a665 = +0
-
 +1 x6a664 -1 x6a670 -1 x6a671 = +0
-
 +1 x6a670 +1 x6a679 +1 x6a719 -1 x6a9d8 = +0
-
 +1 x6a665 +1 x6a671 -1 x6a67c = +0
-
 +1 x6a67c +1 x6a67e -1 x6a67f +1 x6a725 -1 x6a9dd = +0
-
 +1 x6a67f -1 x6a680 -1 x6a681 = +0
-
 +1 x6a681 +1 x6a6b8 +1 x6a6ee -1 x6a6ef +0 x6a6f0 -1 x6aa4d = +0
-
 +1 x6a680 -1 x6a68c -1 x6a68d = +0
-
 +1 x6a68c -1 x6a698 -1 x6a699 = +0
-
 +1 x6a698 -1 x6a69c -1 x6a69d = +0
-
 +1 x6a69c -1 x6a6a0 -1 x6a6a1 = +0
-
 +1 x6a6a0 -1 x6a6a4 -1 x6a6a5 = +0
-
 +1 x6a69d +1 x6a6a1 +1 x6a6a5 -1 x6a6aa = +0
-
 +1 x6a6aa +1 x6a6ac +1 x6a6e2 -1 x6aa0b = +0
-
 +1 x6a68d +1 x6a699 +1 x6a6a4 -1 x6a6b3 = +0
-
 +1 x6a6b3 +1 x6a6b5 -1 x6a6b6 +1 x6a6eb -1 x6aa14 = +0
-
 +1 x6a6b6 -1 x6a6b7 -1 x6a6b8 = +0
-
 +1 x6a6b7 -1 x6a6c4 -1 x6a6c5 = +0
-
 +1 x6a6c4 -1 x6a6d0 -1 x6a6d1 = +0
-
 +1 x6a6d0 -1 x6a6d4 -1 x6a6d5 = +0
-
 +1 x6a6d4 -1 x6a6d8 -1 x6a6d9 = +0
-
 +1 x6a6d8 -1 x6a6dc -1 x6a6dd = +0
-
 +1 x6a6d5 +1 x6a6d9 +1 x6a6dd -1 x6a6e2 = +0
-
 +1 x6a6c5 +1 x6a6d1 +1 x6a6dc -1 x6a6eb = +0
-
 +1 x6a6ef +1 x6a6f9 -1 x6a6fa -1 x6aa58 = +0
-
 +1 x6a6fa -1 x6a6fb -1 x6a6fc = +0
-
 +1 x6a6fb -1 x6a70d -1 x6a70e = +0
-
 +1 x6a70d -1 x6a719 -1 x6a71a = +0
-
 +1 x6a70e +1 x6a71a -1 x6a725 = +0
-
 +1 x6a729 -1 x6a738 -1 x6a739 = +0
-
 +1 x6a739 -1 x6a73d -1 x6a73e = +0
-
 +1 x6a738 -1 x6a73f -1 x6a740 = +0
-
 +1 x6a73e +1 x6a740 -1 x6a746 -1 x6a747 = +0
-
 +1 x6a73d +1 x6a73f -1 x6a745 = +0
-
 +1 x6a745 -1 x6a748 -1 x6a749 = +0
-
 +1 x6a747 +1 x6a749 -1 x6a754 = +0
-
 +1 x6a746 +1 x6a748 -1 x6a758 = +0
-
 +1 x6a754 +1 x6a758 -1 x6a75d = +0
-
 +1 x6a75d -1 x6a760 -1 x6a761 = +0
-
 +1 x6a760 +1 x6a761 -1 x6a771 = +0
-
 +1 x6a771 -1 x6a77f -1 x6a780 = +0
-
 +1 x6a77f -1 x6a78b -1 x6a78c = +0
-
 +1 x6a780 +1 x6a78b +1 x6a78c -1 x6a79a = +0
-
 +1 x6a79a +1 x6a79c -1 x6a79d -1 x6aafb = +0
-
 +1 x6a79d -1 x6a79e -1 x6a79f = +0
-
 +1 x6a79f +1 x6a7c7 +1 x6a7ee -1 x6a7ef +0 x6a7f0 -1 x6ab4d = +0
-
 +1 x6a79e -1 x6a7aa -1 x6a7ab = +0
-
 +1 x6a7aa -1 x6a7b6 -1 x6a7b7 = +0
-
 +1 x6a7ab +1 x6a7b7 -1 x6a7c2 = +0
-
 +1 x6a7c2 +1 x6a7c4 -1 x6a7c5 +1 x6a7eb -1 x6ab23 = +0
-
 +1 x6a7c5 -1 x6a7c6 -1 x6a7c7 = +0
-
 +1 x6a7c6 -1 x6a7d3 -1 x6a7d4 = +0
-
 +1 x6a7d3 -1 x6a7df -1 x6a7e0 = +0
-
 +1 x6a7d4 +1 x6a7e0 -1 x6a7eb = +0
-
 +1 x6a7ef +1 x6a7f9 -1 x6a7fa -1 x6ab58 = +0
-
 +1 x6a7fa -1 x6a7fb -1 x6a7fc = +0
-
 +1 x6a7fc +1 x6a8a4 +1 x6a8d0 -1 x6a8d1 +0 x6a8d2 -1 x6ac2f = +0
-
 +1 x6a7fb -1 x6a80c -1 x6a80d = +0
-
 +1 x6a80c -1 x6a818 -1 x6a819 = +0
-
 +1 x6a818 +1 x6a821 +1 x6a8c1 -1 x6ab80 = +0
-
 +1 x6a80d +1 x6a819 -1 x6a824 = +0
-
 +1 x6a824 +1 x6a826 -1 x6a827 +1 x6a8cd -1 x6ab85 = +0
-
 +1 x6a827 -1 x6a828 -1 x6a829 = +0
-
 +1 x6a829 +1 x6a860 +1 x6a896 -1 x6a897 +0 x6a898 -1 x6abf5 = +0
-
 +1 x6a828 -1 x6a834 -1 x6a835 = +0
-
 +1 x6a834 -1 x6a840 -1 x6a841 = +0
-
 +1 x6a840 -1 x6a844 -1 x6a845 = +0
-
 +1 x6a844 -1 x6a848 -1 x6a849 = +0
-
 +1 x6a848 -1 x6a84c -1 x6a84d = +0
-
 +1 x6a845 +1 x6a849 +1 x6a84d -1 x6a852 = +0
-
 +1 x6a852 +1 x6a854 +1 x6a88a -1 x6abb3 = +0
-
 +1 x6a835 +1 x6a841 +1 x6a84c -1 x6a85b = +0
-
 +1 x6a85b +1 x6a85d -1 x6a85e +1 x6a893 -1 x6abbc = +0
-
 +1 x6a85e -1 x6a85f -1 x6a860 = +0
-
 +1 x6a85f -1 x6a86c -1 x6a86d = +0
-
 +1 x6a86c -1 x6a878 -1 x6a879 = +0
-
 +1 x6a878 -1 x6a87c -1 x6a87d = +0
-
 +1 x6a87c -1 x6a880 -1 x6a881 = +0
-
 +1 x6a880 -1 x6a884 -1 x6a885 = +0
-
 +1 x6a87d +1 x6a881 +1 x6a885 -1 x6a88a = +0
-
 +1 x6a86d +1 x6a879 +1 x6a884 -1 x6a893 = +0
-
 +1 x6a897 +1 x6a8a1 -1 x6a8a2 -1 x6ac00 = +0
-
 +1 x6a8a2 -1 x6a8a3 -1 x6a8a4 = +0
-
 +1 x6a8a3 -1 x6a8b5 -1 x6a8b6 = +0
-
 +1 x6a8b5 -1 x6a8c1 -1 x6a8c2 = +0
-
 +1 x6a8b6 +1 x6a8c2 -1 x6a8cd = +0
-
 +1 x6a8d1 -1 x6a8e0 -1 x6a8e1 = +0
-
 +1 x6a8e1 -1 x6a8e5 -1 x6a8e6 = +0
-
 +1 x6a8e0 -1 x6a8e7 -1 x6a8e8 = +0
-
 +1 x6a8e6 -1 x6a8ef -1 x6a8f0 = +0
-
 +1 x6a8e8 -1 x6a8f1 -1 x6a8f2 = +0
-
 +1 x6a8e7 -1 x6a8f3 -1 x6a8f4 = +0
-
 +1 x6a8e5 -1 x6a8f5 -1 x6a8f6 = +0
-
 +1 x6a8ef +1 x6a8f1 -1 x6a8fa = +0
-
 +1 x6a8f0 +1 x6a8f2 -1 x6a8f7 = +0
-
 +1 x6a8f4 +1 x6a8f6 -1 x6a901 = +0
-
 +1 x6a8f7 +1 x6a901 -1 x6a905 = +0
-
 +1 x6a8f3 +1 x6a8f5 -1 x6a907 = +0
-
 +1 x6a8fa +1 x6a907 -1 x6a909 = +0
-
 +1 x6a905 -1 x6a90c -1 x6a90d = +0
-
 +1 x6a909 -1 x6a90e -1 x6a90f = +0
-
 +1 x6a90c +1 x6a90e +1 x6a910 -1 x6ac6f = +0
-
 +1 x6a90d +1 x6a90f -1 x6a911 = +0
-
 +1 x6a911 +1 x6a915 -1 x6a916 -1 x6ac74 = +0
-
 +1 x6a916 -1 x6a917 -1 x6a918 = +0
-
 +1 x6a918 +1 x6a91a -1 x6ac79 = +0
-
 +1 x6a917 -1 x6a936 -1 x6a937 = +0
-
 +1 x6a936 -1 x6a942 -1 x6a943 = +0
-
 +1 x6a937 +1 x6a942 +1 x6a943 -1 x6a951 = +0
-
 +1 x6a951 +1 x6a953 -1 x6a954 -1 x6acb2 = +0
-
 +1 x6a954 -1 x6a955 -1 x6a956 = +0
-
 +1 x6a955 -1 x6a961 -1 x6a962 = +0
-
 +1 x6a961 -1 x6a96d -1 x6a96e = +0
-
 +1 x6a962 +1 x6a96e -1 x6a979 = +0
-
 +1 x6a979 +1 x6a97b -1 x6a97c +1 x6a9a2 -1 x6acd9 = +0
-
 +1 x6a97c -1 x6a97d -1 x6a97e = +0
-
 +1 x6a956 +1 x6a97e +1 x6a9a5 -1 x6a9a6 +0 x6a9a7 -1 x6ad03 = +0
-
 +1 x6a97d -1 x6a98a -1 x6a98b = +0
-
 +1 x6a98a -1 x6a996 -1 x6a997 = +0
-
 +1 x6a98b +1 x6a997 -1 x6a9a2 = +0
-
 +1 x6a9a6 +1 x6a9b0 -1 x6a9b1 -1 x6ad0e = +0
-
 +1 x6a9b1 -1 x6a9b2 -1 x6a9b3 = +0
-
 +1 x6a9b3 +1 x6aa5b +1 x6aa87 -1 x6aa88 +0 x6aa89 -1 x6ade5 = +0
-
 +1 x6a9b2 -1 x6a9c3 -1 x6a9c4 = +0
-
 +1 x6a9c3 -1 x6a9cf -1 x6a9d0 = +0
-
 +1 x6a9cf +1 x6a9d8 +1 x6aa78 -1 x6ad36 = +0
-
 +1 x6a9c4 +1 x6a9d0 -1 x6a9db = +0
-
 +1 x6a9db +1 x6a9dd -1 x6a9de +1 x6aa84 -1 x6ad3b = +0
-
 +1 x6a9de -1 x6a9df -1 x6a9e0 = +0
-
 +1 x6a9e0 +1 x6aa17 +1 x6aa4d -1 x6aa4e +0 x6aa4f -1 x6adab = +0
-
 +1 x6a9df -1 x6a9eb -1 x6a9ec = +0
-
 +1 x6a9eb -1 x6a9f7 -1 x6a9f8 = +0
-
 +1 x6a9f7 -1 x6a9fb -1 x6a9fc = +0
-
 +1 x6a9fb -1 x6a9ff -1 x6aa00 = +0
-
 +1 x6a9ff -1 x6aa03 -1 x6aa04 = +0
-
 +1 x6a9fc +1 x6aa00 +1 x6aa04 -1 x6aa09 = +0
-
 +1 x6aa09 +1 x6aa0b +1 x6aa41 -1 x6ad69 = +0
-
 +1 x6a9ec +1 x6a9f8 +1 x6aa03 -1 x6aa12 = +0
-
 +1 x6aa12 +1 x6aa14 -1 x6aa15 +1 x6aa4a -1 x6ad72 = +0
-
 +1 x6aa15 -1 x6aa16 -1 x6aa17 = +0
-
 +1 x6aa16 -1 x6aa23 -1 x6aa24 = +0
-
 +1 x6aa23 -1 x6aa2f -1 x6aa30 = +0
-
 +1 x6aa2f -1 x6aa33 -1 x6aa34 = +0
-
 +1 x6aa33 -1 x6aa37 -1 x6aa38 = +0
-
 +1 x6aa37 -1 x6aa3b -1 x6aa3c = +0
-
 +1 x6aa34 +1 x6aa38 +1 x6aa3c -1 x6aa41 = +0
-
 +1 x6aa24 +1 x6aa30 +1 x6aa3b -1 x6aa4a = +0
-
 +1 x6aa4e +1 x6aa58 -1 x6aa59 -1 x6adb6 = +0
-
 +1 x6aa59 -1 x6aa5a -1 x6aa5b = +0
-
 +1 x6aa5a -1 x6aa6c -1 x6aa6d = +0
-
 +1 x6aa6c -1 x6aa78 -1 x6aa79 = +0
-
 +1 x6aa6d +1 x6aa79 -1 x6aa84 = +0
-
 +1 x6aa88 -1 x6aa97 -1 x6aa98 = +0
-
 +1 x6aa98 -1 x6aa9c -1 x6aa9d = +0
-
 +1 x6aa97 -1 x6aa9e -1 x6aa9f = +0
-
 +1 x6aa9d +1 x6aa9f -1 x6aaa5 -1 x6aaa6 = +0
-
 +1 x6aa9c +1 x6aa9e -1 x6aaa4 = +0
-
 +1 x6aaa4 -1 x6aaa7 -1 x6aaa8 = +0
-
 +1 x6aaa6 +1 x6aaa8 -1 x6aab3 = +0
-
 +1 x6aaa5 +1 x6aaa7 -1 x6aab7 = +0
-
 +1 x6aab3 +1 x6aab7 -1 x6aabc = +0
-
 +1 x6aabc -1 x6aabf -1 x6aac0 = +0
-
 +1 x6aabf +1 x6aac0 -1 x6aad0 = +0
-
 +1 x6aad0 -1 x6aade -1 x6aadf = +0
-
 +1 x6aade -1 x6aaea -1 x6aaeb = +0
-
 +1 x6aadf +1 x6aaea +1 x6aaeb -1 x6aaf9 = +0
-
 +1 x6aaf9 +1 x6aafb -1 x6aafc -1 x6ae59 = +0
-
 +1 x6aafc -1 x6aafd -1 x6aafe = +0
-
 +1 x6aafe +1 x6ab26 +1 x6ab4d -1 x6ab4e +0 x6ab4f -1 x6aeaa = +0
-
 +1 x6aafd -1 x6ab09 -1 x6ab0a = +0
-
 +1 x6ab09 -1 x6ab15 -1 x6ab16 = +0
-
 +1 x6ab0a +1 x6ab16 -1 x6ab21 = +0
-
 +1 x6ab21 +1 x6ab23 -1 x6ab24 +1 x6ab4a -1 x6ae80 = +0
-
 +1 x6ab24 -1 x6ab25 -1 x6ab26 = +0
-
 +1 x6ab25 -1 x6ab32 -1 x6ab33 = +0
-
 +1 x6ab32 -1 x6ab3e -1 x6ab3f = +0
-
 +1 x6ab33 +1 x6ab3f -1 x6ab4a = +0
-
 +1 x6ab4e +1 x6ab58 -1 x6ab59 -1 x6aeb5 = +0
-
 +1 x6ab59 -1 x6ab5a -1 x6ab5b = +0
-
 +1 x6ab5b +1 x6ac03 +1 x6ac2f -1 x6ac30 +0 x6ac31 -1 x6af8c = +0
-
 +1 x6ab5a -1 x6ab6b -1 x6ab6c = +0
-
 +1 x6ab6b -1 x6ab77 -1 x6ab78 = +0
-
 +1 x6ab77 +1 x6ab80 +1 x6ac20 -1 x6aedd = +0
-
 +1 x6ab6c +1 x6ab78 -1 x6ab83 = +0
-
 +1 x6ab83 +1 x6ab85 -1 x6ab86 +1 x6ac2c -1 x6aee2 = +0
-
 +1 x6ab86 -1 x6ab87 -1 x6ab88 = +0
-
 +1 x6ab88 +1 x6abbf +1 x6abf5 -1 x6abf6 +0 x6abf7 -1 x6af52 = +0
-
 +1 x6ab87 -1 x6ab93 -1 x6ab94 = +0
-
 +1 x6ab93 -1 x6ab9f -1 x6aba0 = +0
-
 +1 x6ab9f -1 x6aba3 -1 x6aba4 = +0
-
 +1 x6aba3 -1 x6aba7 -1 x6aba8 = +0
-
 +1 x6aba7 -1 x6abab -1 x6abac = +0
-
 +1 x6aba4 +1 x6aba8 +1 x6abac -1 x6abb1 = +0
-
 +1 x6abb1 +1 x6abb3 +1 x6abe9 -1 x6af10 = +0
-
 +1 x6ab94 +1 x6aba0 +1 x6abab -1 x6abba = +0
-
 +1 x6abba +1 x6abbc -1 x6abbd +1 x6abf2 -1 x6af19 = +0
-
 +1 x6abbd -1 x6abbe -1 x6abbf = +0
-
 +1 x6abbe -1 x6abcb -1 x6abcc = +0
-
 +1 x6abcb -1 x6abd7 -1 x6abd8 = +0
-
 +1 x6abd7 -1 x6abdb -1 x6abdc = +0
-
 +1 x6abdb -1 x6abdf -1 x6abe0 = +0
-
 +1 x6abdf -1 x6abe3 -1 x6abe4 = +0
-
 +1 x6abdc +1 x6abe0 +1 x6abe4 -1 x6abe9 = +0
-
 +1 x6abcc +1 x6abd8 +1 x6abe3 -1 x6abf2 = +0
-
 +1 x6abf6 +1 x6ac00 -1 x6ac01 -1 x6af5d = +0
-
 +1 x6ac01 -1 x6ac02 -1 x6ac03 = +0
-
 +1 x6ac02 -1 x6ac14 -1 x6ac15 = +0
-
 +1 x6ac14 -1 x6ac20 -1 x6ac21 = +0
-
 +1 x6ac15 +1 x6ac21 -1 x6ac2c = +0
-
 +1 x6ac30 -1 x6ac3f -1 x6ac40 = +0
-
 +1 x6ac40 -1 x6ac44 -1 x6ac45 = +0
-
 +1 x6ac3f -1 x6ac46 -1 x6ac47 = +0
-
 +1 x6ac45 -1 x6ac4e -1 x6ac4f = +0
-
 +1 x6ac47 -1 x6ac50 -1 x6ac51 = +0
-
 +1 x6ac46 -1 x6ac52 -1 x6ac53 = +0
-
 +1 x6ac44 -1 x6ac54 -1 x6ac55 = +0
-
 +1 x6ac4e +1 x6ac50 -1 x6ac59 = +0
-
 +1 x6ac4f +1 x6ac51 -1 x6ac56 = +0
-
 +1 x6ac53 +1 x6ac55 -1 x6ac60 = +0
-
 +1 x6ac56 +1 x6ac60 -1 x6ac64 = +0
-
 +1 x6ac52 +1 x6ac54 -1 x6ac66 = +0
-
 +1 x6ac59 +1 x6ac66 -1 x6ac68 = +0
-
 +1 x6ac64 -1 x6ac6b -1 x6ac6c = +0
-
 +1 x6ac68 -1 x6ac6d -1 x6ac6e = +0
-
 +1 x6ac6b +1 x6ac6d +1 x6ac6f +1 x6afcc -1 x6afd2 = +0
-
 +1 x6ac6c +1 x6ac6e -1 x6ac70 = +0
-
 +1 x6ac70 +1 x6ac74 -1 x6ac75 +1 x6afcd -1 x6e90f = +0
-
 +1 x6ac75 -1 x6ac76 -1 x6ac77 = +0
-
 +1 x6ac77 +1 x6ac79 -1 x6afd3 +0 x6afd4 +1 x6b2f2 +1 x6b6ac -1 x6e94f = +0
-
 +1 x6ac76 -1 x6ac95 -1 x6ac96 = +0
-
 +1 x6ac95 -1 x6aca1 -1 x6aca2 = +0
-
 +1 x6ac96 +1 x6aca1 +1 x6aca2 -1 x6acb0 = +0
-
 +1 x6acb0 +1 x6acb2 -1 x6acb3 +1 x6b32a +1 x6b6e4 -1 x6e5ef = +0
-
 +1 x6acb3 -1 x6acb4 -1 x6acb5 = +0
-
 +1 x6acb4 -1 x6acc0 -1 x6acc1 = +0
-
 +1 x6acc0 -1 x6accc -1 x6accd = +0
-
 +1 x6acc1 +1 x6accd -1 x6acd7 = +0
-
 +1 x6acd7 +1 x6acd9 -1 x6acda +1 x6ad00 -1 x6e617 = +0
-
 +1 x6acda -1 x6acdb -1 x6acdc = +0
-
 +1 x6acb5 +1 x6acdc +1 x6ad03 -1 x6ad04 +0 x6ad05 -1 x6e641 = +0
-
 +1 x6acdb -1 x6ace8 -1 x6ace9 = +0
-
 +1 x6ace8 -1 x6acf4 -1 x6acf5 = +0
-
 +1 x6accc +1 x6acf4 -1 x6e612 = +0
-
 +1 x6ace9 +1 x6acf5 -1 x6ad00 = +0
-
 +1 x6ad04 +1 x6ad0e -1 x6ad0f -1 x6e64c = +0
-
 +1 x6ad0f -1 x6ad10 -1 x6ad11 = +0
-
 +1 x6ad11 +1 x6adb9 +1 x6ade5 -1 x6ade6 +0 x6ade7 -1 x6e723 = +0
-
 +1 x6ad10 -1 x6ad21 -1 x6ad22 = +0
-
 +1 x6ad21 -1 x6ad2d -1 x6ad2e = +0
-
 +1 x6ad2d +1 x6ad36 +1 x6add6 -1 x6e674 = +0
-
 +1 x6ad22 +1 x6ad2e -1 x6ad39 = +0
-
 +1 x6ad39 +1 x6ad3b -1 x6ad3c +1 x6ade2 -1 x6e679 = +0
-
 +1 x6ad3c -1 x6ad3d -1 x6ad3e = +0
-
 +1 x6ad3e +1 x6ad75 +1 x6adab -1 x6adac +0 x6adad -1 x6e6e9 = +0
-
 +1 x6ad3d -1 x6ad49 -1 x6ad4a = +0
-
 +1 x6ad49 -1 x6ad55 -1 x6ad56 = +0
-
 +1 x6ad55 -1 x6ad59 -1 x6ad5a = +0
-
 +1 x6ad59 -1 x6ad5d -1 x6ad5e = +0
-
 +1 x6ad5d -1 x6ad61 -1 x6ad62 = +0
-
 +1 x6ad5a +1 x6ad5e +1 x6ad62 -1 x6ad67 = +0
-
 +1 x6ad67 +1 x6ad69 +1 x6ad9f -1 x6e6a7 = +0
-
 +1 x6ad4a +1 x6ad56 +1 x6ad61 -1 x6ad70 = +0
-
 +1 x6ad70 +1 x6ad72 -1 x6ad73 +1 x6ada8 -1 x6e6b0 = +0
-
 +1 x6ad73 -1 x6ad74 -1 x6ad75 = +0
-
 +1 x6ad74 -1 x6ad81 -1 x6ad82 = +0
-
 +1 x6ad81 -1 x6ad8d -1 x6ad8e = +0
-
 +1 x6ad8d -1 x6ad91 -1 x6ad92 = +0
-
 +1 x6ad91 -1 x6ad95 -1 x6ad96 = +0
-
 +1 x6ad95 -1 x6ad99 -1 x6ad9a = +0
-
 +1 x6ad92 +1 x6ad96 +1 x6ad9a -1 x6ad9f = +0
-
 +1 x6ad82 +1 x6ad8e +1 x6ad99 -1 x6ada8 = +0
-
 +1 x6adac +1 x6adb6 -1 x6adb7 -1 x6e6f4 = +0
-
 +1 x6adb7 -1 x6adb8 -1 x6adb9 = +0
-
 +1 x6adb8 -1 x6adca -1 x6adcb = +0
-
 +1 x6adca -1 x6add6 -1 x6add7 = +0
-
 +1 x6adcb +1 x6add7 -1 x6ade2 = +0
-
 +1 x6ade6 -1 x6adf5 -1 x6adf6 = +0
-
 +1 x6adf6 -1 x6adfa -1 x6adfb = +0
-
 +1 x6adf5 -1 x6adfc -1 x6adfd = +0
-
 +1 x6adfb +1 x6adfd -1 x6ae03 -1 x6ae04 = +0
-
 +1 x6adfa +1 x6adfc -1 x6ae02 = +0
-
 +1 x6ae02 -1 x6ae05 -1 x6ae06 = +0
-
 +1 x6ae04 +1 x6ae06 -1 x6ae11 = +0
-
 +1 x6ae03 +1 x6ae05 -1 x6ae15 = +0
-
 +1 x6ae11 +1 x6ae15 -1 x6ae1a = +0
-
 +1 x6ae1a -1 x6ae1d -1 x6ae1e = +0
-
 +1 x6ae1d +1 x6ae1e -1 x6ae2e = +0
-
 +1 x6ae2e -1 x6ae3c -1 x6ae3d = +0
-
 +1 x6ae3c -1 x6ae48 -1 x6ae49 = +0
-
 +1 x6ae3d +1 x6ae48 +1 x6ae49 -1 x6ae57 = +0
-
 +1 x6ae57 +1 x6ae59 -1 x6ae5a -1 x6e797 = +0
-
 +1 x6ae5a -1 x6ae5b -1 x6ae5c = +0
-
 +1 x6ae5c +1 x6ae83 +1 x6aeaa -1 x6aeab +0 x6aeac -1 x6e7e9 = +0
-
 +1 x6ae5b -1 x6ae67 -1 x6ae68 = +0
-
 +1 x6ae67 -1 x6ae73 -1 x6ae74 = +0
-
 +1 x6ae73 +1 x6ae9b -1 x6e7ba = +0
-
 +1 x6ae68 +1 x6ae74 -1 x6ae7e = +0
-
 +1 x6ae7e +1 x6ae80 -1 x6ae81 +1 x6aea7 -1 x6e7bf = +0
-
 +1 x6ae81 -1 x6ae82 -1 x6ae83 = +0
-
 +1 x6ae82 -1 x6ae8f -1 x6ae90 = +0
-
 +1 x6ae8f -1 x6ae9b -1 x6ae9c = +0
-
 +1 x6ae90 +1 x6ae9c -1 x6aea7 = +0
-
 +1 x6aeab +1 x6aeb5 -1 x6aeb6 -1 x6e7f4 = +0
-
 +1 x6aeb6 -1 x6aeb7 -1 x6aeb8 = +0
-
 +1 x6aeb8 +1 x6af60 +1 x6af8c -1 x6af8d +0 x6af8e -1 x6e8cb = +0
-
 +1 x6aeb7 -1 x6aec8 -1 x6aec9 = +0
-
 +1 x6aec8 -1 x6aed4 -1 x6aed5 = +0
-
 +1 x6aed4 +1 x6aedd +1 x6af7d -1 x6e81c = +0
-
 +1 x6aec9 +1 x6aed5 -1 x6aee0 = +0
-
 +1 x6aee0 +1 x6aee2 -1 x6aee3 +1 x6af89 -1 x6e821 = +0
-
 +1 x6aee3 -1 x6aee4 -1 x6aee5 = +0
-
 +1 x6aee5 +1 x6af1c +1 x6af52 -1 x6af53 +0 x6af54 -1 x6e891 = +0
-
 +1 x6aee4 -1 x6aef0 -1 x6aef1 = +0
-
 +1 x6aef0 -1 x6aefc -1 x6aefd = +0
-
 +1 x6aefc -1 x6af00 -1 x6af01 = +0
-
 +1 x6af00 -1 x6af04 -1 x6af05 = +0
-
 +1 x6af04 -1 x6af08 -1 x6af09 = +0
-
 +1 x6af01 +1 x6af05 +1 x6af09 -1 x6af0e = +0
-
 +1 x6af0e +1 x6af10 +1 x6af46 -1 x6e84f = +0
-
 +1 x6aef1 +1 x6aefd +1 x6af08 -1 x6af17 = +0
-
 +1 x6af17 +1 x6af19 -1 x6af1a +1 x6af4f -1 x6e858 = +0
-
 +1 x6af1a -1 x6af1b -1 x6af1c = +0
-
 +1 x6af1b -1 x6af28 -1 x6af29 = +0
-
 +1 x6af28 -1 x6af34 -1 x6af35 = +0
-
 +1 x6af34 -1 x6af38 -1 x6af39 = +0
-
 +1 x6af38 -1 x6af3c -1 x6af3d = +0
-
 +1 x6af3c -1 x6af40 -1 x6af41 = +0
-
 +1 x6af39 +1 x6af3d +1 x6af41 -1 x6af46 = +0
-
 +1 x6af29 +1 x6af35 +1 x6af40 -1 x6af4f = +0
-
 +1 x6af53 +1 x6af5d -1 x6af5e -1 x6e89c = +0
-
 +1 x6af5e -1 x6af5f -1 x6af60 = +0
-
 +1 x6af5f -1 x6af71 -1 x6af72 = +0
-
 +1 x6af71 -1 x6af7d -1 x6af7e = +0
-
 +1 x6af72 +1 x6af7e -1 x6af89 = +0
-
 +1 x6af8d -1 x6af9c -1 x6af9d = +0
-
 +1 x6af9d -1 x6afa1 -1 x6afa2 = +0
-
 +1 x6af9c -1 x6afa3 -1 x6afa4 = +0
-
 +1 x6afa2 -1 x6afab -1 x6afac = +0
-
 +1 x6afa4 -1 x6afad -1 x6afae = +0
-
 +1 x6afa3 -1 x6afaf -1 x6afb0 = +0
-
 +1 x6afa1 -1 x6afb1 -1 x6afb2 = +0
-
 +1 x6afab +1 x6afad -1 x6afb6 = +0
-
 +1 x6afac +1 x6afae -1 x6afb3 = +0
-
 +1 x6afb0 +1 x6afb2 -1 x6afbd = +0
-
 +1 x6afb3 +1 x6afbd -1 x6afc1 = +0
-
 +1 x6afaf +1 x6afb1 -1 x6afc3 = +0
-
 +1 x6afb6 +1 x6afc3 -1 x6afc5 = +0
-
 +1 x6afc1 -1 x6afc8 -1 x6afc9 = +0
-
 +1 x6afc5 -1 x6afca -1 x6afcb = +0
-
 +1 x6afc8 +1 x6afca -1 x6afcc = +0
-
 +1 x6afc9 +1 x6afcb -1 x6afcd = +0
-
 +1 x6afd2 -1 x6afd5 +0 x6afd6 -1 x6e950 = +0
-
 +1 x5de84 -1 x6afef -1 x6aff0 = +0
-
 +1 x6aff0 -1 x6b036 +0 x6b037 = +0
-
 +1 x6afef -1 x6b005 -1 x6b006 = +0
-
 +1 x6b005 +1 x6b028 -1 x76fb8 = +0
-
 +1 x6b006 -1 x6b011 +1 x6b029 -1 x6b3bc = +0
-
 +1 x6b011 -1 x6b012 -1 x6b013 = +0
-
 +1 x6b013 -1 x6b038 +0 x6b039 -1 x6b3e3 = +0
-
 +1 x6b012 -1 x6b028 -1 x6b029 = +0
-
 +1 x6b036 +1 x6b038 -1 x6b046 = +0
-
 +1 x6b046 -1 x6b048 -1 x6b3ee = +0
-
 +1 x6b048 -1 x6b049 -1 x6b04a = +0
-
 +1 x6b04a +1 x6b0ec -1 x6b118 +0 x6b119 -1 x6b4c5 = +0
-
 +1 x6b049 -1 x6b05a -1 x6b05b = +0
-
 +1 x6b05a -1 x6b066 -1 x6b067 = +0
-
 +1 x6b066 +1 x6b109 -1 x6b416 = +0
-
 +1 x6b05b +1 x6b067 -1 x6b071 = +0
-
 +1 x6b071 -1 x6b073 +1 x6b115 -1 x6b41b = +0
-
 +1 x6b073 -1 x6b074 -1 x6b075 = +0
-
 +1 x6b075 +1 x6b0aa -1 x6b0e0 +0 x6b0e1 -1 x6b48b = +0
-
 +1 x6b074 -1 x6b080 -1 x6b081 = +0
-
 +1 x6b080 -1 x6b08c -1 x6b08d = +0
-
 +1 x6b08c -1 x6b090 -1 x6b091 = +0
-
 +1 x6b090 -1 x6b094 -1 x6b095 = +0
-
 +1 x6b094 -1 x6b098 -1 x6b099 = +0
-
 +1 x6b091 +1 x6b095 +1 x6b099 -1 x6b09e = +0
-
 +1 x6b09e +1 x6b0d4 -1 x6b449 = +0
-
 +1 x6b081 +1 x6b08d +1 x6b098 -1 x6b0a6 = +0
-
 +1 x6b0a6 -1 x6b0a8 +1 x6b0dd -1 x6b452 = +0
-
 +1 x6b0a8 -1 x6b0a9 -1 x6b0aa = +0
-
 +1 x6b0a9 -1 x6b0b6 -1 x6b0b7 = +0
-
 +1 x6b0b6 -1 x6b0c2 -1 x6b0c3 = +0
-
 +1 x6b0c2 -1 x6b0c6 -1 x6b0c7 = +0
-
 +1 x6b0c6 -1 x6b0ca -1 x6b0cb = +0
-
 +1 x6b0ca -1 x6b0ce -1 x6b0cf = +0
-
 +1 x6b0c7 +1 x6b0cb +1 x6b0cf -1 x6b0d4 = +0
-
 +1 x6b0b7 +1 x6b0c3 +1 x6b0ce -1 x6b0dd = +0
-
 +1 x6b0e0 -1 x6b0ea -1 x6b496 = +0
-
 +1 x6b0ea -1 x6b0eb -1 x6b0ec = +0
-
 +1 x6b0eb -1 x6b0fd -1 x6b0fe = +0
-
 +1 x6b0fd -1 x6b109 -1 x6b10a = +0
-
 +1 x6b0fe +1 x6b10a -1 x6b115 = +0
-
 +1 x6b118 -1 x6b127 -1 x6b128 = +0
-
 +1 x6b128 -1 x6b12c -1 x6b12d = +0
-
 +1 x6b127 -1 x6b12e -1 x6b12f = +0
-
 +1 x6b12d +1 x6b12f -1 x6b135 -1 x6b136 = +0
-
 +1 x6b12c +1 x6b12e -1 x6b134 = +0
-
 +1 x6b134 -1 x6b137 -1 x6b138 = +0
-
 +1 x6b136 +1 x6b138 -1 x6b143 = +0
-
 +1 x6b135 +1 x6b137 -1 x6b147 = +0
-
 +1 x6b143 +1 x6b147 -1 x6b14c = +0
-
 +1 x6b14c -1 x6b14f -1 x6b150 = +0
-
 +1 x6b14f +1 x6b150 -1 x6b162 = +0
-
 +1 x6b162 -1 x6b17a -1 x6b17b = +0
-
 +1 x6b17a +1 x6b17b -1 x6b188 = +0
-
 +1 x6b188 -1 x6b18a -1 x6b538 = +0
-
 +1 x6b18a -1 x6b18b -1 x6b18c = +0
-
 +1 x6b18c +1 x6b1af -1 x6b1d3 +0 x6b1d4 -1 x6b583 = +0
-
 +1 x6b18b -1 x6b1a1 -1 x6b1a2 = +0
-
 +1 x6b1a1 +1 x6b1c5 -1 x749ef = +0
-
 +1 x6b1a2 -1 x6b1ad +1 x6b1c6 -1 x6b55c = +0
-
 +1 x6b1ad -1 x6b1ae -1 x6b1af = +0
-
 +1 x6b1ae -1 x6b1c5 -1 x6b1c6 = +0
-
 +1 x6b1d3 -1 x6b1dd -1 x6b58e = +0
-
 +1 x6b1dd -1 x6b1de -1 x6b1df = +0
-
 +1 x6b1df +1 x6b281 -1 x6b2ad +0 x6b2ae -1 x6b665 = +0
-
 +1 x6b1de -1 x6b1ef -1 x6b1f0 = +0
-
 +1 x6b1ef -1 x6b1fb -1 x6b1fc = +0
-
 +1 x6b1fb +1 x6b29e -1 x6b5b6 = +0
-
 +1 x6b1f0 +1 x6b1fc -1 x6b206 = +0
-
 +1 x6b206 -1 x6b208 +1 x6b2aa -1 x6b5bb = +0
-
 +1 x6b208 -1 x6b209 -1 x6b20a = +0
-
 +1 x6b20a +1 x6b23f -1 x6b275 +0 x6b276 -1 x6b62b = +0
-
 +1 x6b209 -1 x6b215 -1 x6b216 = +0
-
 +1 x6b215 -1 x6b221 -1 x6b222 = +0
-
 +1 x6b221 -1 x6b225 -1 x6b226 = +0
-
 +1 x6b225 -1 x6b229 -1 x6b22a = +0
-
 +1 x6b229 -1 x6b22d -1 x6b22e = +0
-
 +1 x6b226 +1 x6b22a +1 x6b22e -1 x6b233 = +0
-
 +1 x6b233 +1 x6b269 -1 x6b5e9 = +0
-
 +1 x6b216 +1 x6b222 +1 x6b22d -1 x6b23b = +0
-
 +1 x6b23b -1 x6b23d +1 x6b272 -1 x6b5f2 = +0
-
 +1 x6b23d -1 x6b23e -1 x6b23f = +0
-
 +1 x6b23e -1 x6b24b -1 x6b24c = +0
-
 +1 x6b24b -1 x6b257 -1 x6b258 = +0
-
 +1 x6b257 -1 x6b25b -1 x6b25c = +0
-
 +1 x6b25b -1 x6b25f -1 x6b260 = +0
-
 +1 x6b25f -1 x6b263 -1 x6b264 = +0
-
 +1 x6b25c +1 x6b260 +1 x6b264 -1 x6b269 = +0
-
 +1 x6b24c +1 x6b258 +1 x6b263 -1 x6b272 = +0
-
 +1 x6b275 -1 x6b27f -1 x6b636 = +0
-
 +1 x6b27f -1 x6b280 -1 x6b281 = +0
-
 +1 x6b280 -1 x6b292 -1 x6b293 = +0
-
 +1 x6b292 -1 x6b29e -1 x6b29f = +0
-
 +1 x6b293 +1 x6b29f -1 x6b2aa = +0
-
 +1 x6b2ad -1 x6b2bc -1 x6b2bd = +0
-
 +1 x6b2bd -1 x6b2c1 -1 x6b2c2 = +0
-
 +1 x6b2bc -1 x6b2c3 -1 x6b2c4 = +0
-
 +1 x6b2c2 -1 x6b2cb -1 x6b2cc = +0
-
 +1 x6b2c4 -1 x6b2cd -1 x6b2ce = +0
-
 +1 x6b2c3 -1 x6b2cf -1 x6b2d0 = +0
-
 +1 x6b2c1 -1 x6b2d1 -1 x6b2d2 = +0
-
 +1 x6b2cb +1 x6b2cd -1 x6b2d6 = +0
-
 +1 x6b2cc +1 x6b2ce -1 x6b2d3 = +0
-
 +1 x6b2d0 +1 x6b2d2 -1 x6b2dd = +0
-
 +1 x6b2d3 +1 x6b2dd -1 x6b2e1 = +0
-
 +1 x6b2cf +1 x6b2d1 -1 x6b2e3 = +0
-
 +1 x6b2d6 +1 x6b2e3 -1 x6b2e5 = +0
-
 +1 x6b2e1 -1 x6b2e8 -1 x6b2e9 = +0
-
 +1 x6b2e5 -1 x6b2ea -1 x6b2eb = +0
-
 +1 x6b2e8 +1 x6b2ea -1 x6b330 = +0
-
 +1 x6b2e9 +1 x6b2eb -1 x6b2ec = +0
-
 +1 x6b2ec -1 x6b2f0 -1 x6b6a9 = +0
-
 +1 x6b2f0 -1 x6b2f1 -1 x6b2f2 = +0
-
 +1 x6b2f1 -1 x6b30f -1 x6b310 = +0
-
 +1 x6b30f -1 x6b31b -1 x6b31c = +0
-
 +1 x6b310 +1 x6b31b +1 x6b31c -1 x6b32a = +0
-
 +1 x6afd5 +1 x6b330 -1 x6b33c = +0
-
 +1 x6afd3 +1 x6b33c -1 x6b341 = +0
-
 +1 x6b341 -1 x6b342 -1 x6b6f3 = +0
-
 +1 x6b342 -1 x6b343 -1 x6b344 = +0
-
 +1 x6b343 -1 x6b34b -1 x6b34c = +0
-
 +1 x6b34c -1 x6b35b -1 x6b35c = +0
-
 +1 x6b35b -1 x6b389 -1 x6b38a = +0
-
 +1 x6b389 +1 x6b38a -1 x6b397 = +0
-
 +1 x6b397 -1 x6b399 +1 x6b74a +1 x6b7a7 +1 x6b804 +1 x6b861 +1 x6b8be +1 x6b91b
 +1 x6db01 -1 x6e29f = +0
-
 +1 x6b399 -1 x6b39a -1 x6b39b = +0
-
 +1 x6b39a -1 x6b3b0 -1 x6b3b1 = +0
-
 +1 x6b3b1 +1 x6b3bc -1 x6b3bd +1 x6b3d6 -1 x6e2c4 = +0
-
 +1 x6b3bd -1 x6b3be -1 x6b3bf = +0
-
 +1 x6b39b +1 x6b3bf +1 x6b3e3 -1 x6b3e4 +0 x6b3e5 -1 x6e2eb = +0
-
 +1 x6b3be -1 x6b3d5 -1 x6b3d6 = +0
-
 +1 x6b3b0 +1 x6b3d5 -1 x6e2c0 = +0
-
 +1 x6b3e4 +1 x6b3ee -1 x6b3ef -1 x6e2f6 = +0
-
 +1 x6b3ef -1 x6b3f0 -1 x6b3f1 = +0
-
 +1 x6b3f1 +1 x6b499 +1 x6b4c5 -1 x6b4c6 +0 x6b4c7 -1 x6e3cd = +0
-
 +1 x6b3f0 -1 x6b401 -1 x6b402 = +0
-
 +1 x6b401 -1 x6b40d -1 x6b40e = +0
-
 +1 x6b40d +1 x6b416 +1 x6b4b6 -1 x6e31e = +0
-
 +1 x6b402 +1 x6b40e -1 x6b419 = +0
-
 +1 x6b419 +1 x6b41b -1 x6b41c +1 x6b4c2 -1 x6e323 = +0
-
 +1 x6b41c -1 x6b41d -1 x6b41e = +0
-
 +1 x6b41e +1 x6b455 +1 x6b48b -1 x6b48c +0 x6b48d -1 x6e393 = +0
-
 +1 x6b41d -1 x6b429 -1 x6b42a = +0
-
 +1 x6b429 -1 x6b435 -1 x6b436 = +0
-
 +1 x6b435 -1 x6b439 -1 x6b43a = +0
-
 +1 x6b439 -1 x6b43d -1 x6b43e = +0
-
 +1 x6b43d -1 x6b441 -1 x6b442 = +0
-
 +1 x6b43a +1 x6b43e +1 x6b442 -1 x6b447 = +0
-
 +1 x6b447 +1 x6b449 +1 x6b47f -1 x6e351 = +0
-
 +1 x6b42a +1 x6b436 +1 x6b441 -1 x6b450 = +0
-
 +1 x6b450 +1 x6b452 -1 x6b453 +1 x6b488 -1 x6e35a = +0
-
 +1 x6b453 -1 x6b454 -1 x6b455 = +0
-
 +1 x6b454 -1 x6b461 -1 x6b462 = +0
-
 +1 x6b461 -1 x6b46d -1 x6b46e = +0
-
 +1 x6b46d -1 x6b471 -1 x6b472 = +0
-
 +1 x6b471 -1 x6b475 -1 x6b476 = +0
-
 +1 x6b475 -1 x6b479 -1 x6b47a = +0
-
 +1 x6b472 +1 x6b476 +1 x6b47a -1 x6b47f = +0
-
 +1 x6b462 +1 x6b46e +1 x6b479 -1 x6b488 = +0
-
 +1 x6b48c +1 x6b496 -1 x6b497 -1 x6e39e = +0
-
 +1 x6b497 -1 x6b498 -1 x6b499 = +0
-
 +1 x6b498 -1 x6b4aa -1 x6b4ab = +0
-
 +1 x6b4aa -1 x6b4b6 -1 x6b4b7 = +0
-
 +1 x6b4ab +1 x6b4b7 -1 x6b4c2 = +0
-
 +1 x6b4c6 -1 x6b4d5 -1 x6b4d6 = +0
-
 +1 x6b4d6 -1 x6b4da -1 x6b4db = +0
-
 +1 x6b4d5 -1 x6b4dc -1 x6b4dd = +0
-
 +1 x6b4db +1 x6b4dd -1 x6b4e3 -1 x6b4e4 = +0
-
 +1 x6b4da +1 x6b4dc -1 x6b4e2 = +0
-
 +1 x6b4e2 -1 x6b4e5 -1 x6b4e6 = +0
-
 +1 x6b4e4 +1 x6b4e6 -1 x6b4f1 = +0
-
 +1 x6b4e3 +1 x6b4e5 -1 x6b4f5 = +0
-
 +1 x6b4f1 +1 x6b4f5 -1 x6b4fa = +0
-
 +1 x6b4fa -1 x6b4fd -1 x6b4fe = +0
-
 +1 x6b4fd +1 x6b4fe -1 x6b510 = +0
-
 +1 x6b510 -1 x6b528 -1 x6b529 = +0
-
 +1 x6b528 +1 x6b529 -1 x6b536 = +0
-
 +1 x6b536 +1 x6b538 -1 x6b539 -1 x6e440 = +0
-
 +1 x6b539 -1 x6b53a -1 x6b53b = +0
-
 +1 x6b53b +1 x6b55f +1 x6b583 -1 x6b584 +0 x6b585 -1 x6e48c = +0
-
 +1 x6b53a -1 x6b550 -1 x6b551 = +0
-
 +1 x6b550 +1 x6b575 -1 x6e461 = +0
-
 +1 x6b551 +1 x6b55c -1 x6b55d +1 x6b576 -1 x6e465 = +0
-
 +1 x6b55d -1 x6b55e -1 x6b55f = +0
-
 +1 x6b55e -1 x6b575 -1 x6b576 = +0
-
 +1 x6b584 +1 x6b58e -1 x6b58f -1 x6e497 = +0
-
 +1 x6b58f -1 x6b590 -1 x6b591 = +0
-
 +1 x6b591 +1 x6b639 +1 x6b665 -1 x6b666 +0 x6b667 -1 x6e56e = +0
-
 +1 x6b590 -1 x6b5a1 -1 x6b5a2 = +0
-
 +1 x6b5a1 -1 x6b5ad -1 x6b5ae = +0
-
 +1 x6b5ad +1 x6b5b6 +1 x6b656 -1 x6e4bf = +0
-
 +1 x6b5a2 +1 x6b5ae -1 x6b5b9 = +0
-
 +1 x6b5b9 +1 x6b5bb -1 x6b5bc +1 x6b662 -1 x6e4c4 = +0
-
 +1 x6b5bc -1 x6b5bd -1 x6b5be = +0
-
 +1 x6b5be +1 x6b5f5 +1 x6b62b -1 x6b62c +0 x6b62d -1 x6e534 = +0
-
 +1 x6b5bd -1 x6b5c9 -1 x6b5ca = +0
-
 +1 x6b5c9 -1 x6b5d5 -1 x6b5d6 = +0
-
 +1 x6b5d5 -1 x6b5d9 -1 x6b5da = +0
-
 +1 x6b5d9 -1 x6b5dd -1 x6b5de = +0
-
 +1 x6b5dd -1 x6b5e1 -1 x6b5e2 = +0
-
 +1 x6b5da +1 x6b5de +1 x6b5e2 -1 x6b5e7 = +0
-
 +1 x6b5e7 +1 x6b5e9 +1 x6b61f -1 x6e4f2 = +0
-
 +1 x6b5ca +1 x6b5d6 +1 x6b5e1 -1 x6b5f0 = +0
-
 +1 x6b5f0 +1 x6b5f2 -1 x6b5f3 +1 x6b628 -1 x6e4fb = +0
-
 +1 x6b5f3 -1 x6b5f4 -1 x6b5f5 = +0
-
 +1 x6b5f4 -1 x6b601 -1 x6b602 = +0
-
 +1 x6b601 -1 x6b60d -1 x6b60e = +0
-
 +1 x6b60d -1 x6b611 -1 x6b612 = +0
-
 +1 x6b611 -1 x6b615 -1 x6b616 = +0
-
 +1 x6b615 -1 x6b619 -1 x6b61a = +0
-
 +1 x6b612 +1 x6b616 +1 x6b61a -1 x6b61f = +0
-
 +1 x6b602 +1 x6b60e +1 x6b619 -1 x6b628 = +0
-
 +1 x6b62c +1 x6b636 -1 x6b637 -1 x6e53f = +0
-
 +1 x6b637 -1 x6b638 -1 x6b639 = +0
-
 +1 x6b638 -1 x6b64a -1 x6b64b = +0
-
 +1 x6b64a -1 x6b656 -1 x6b657 = +0
-
 +1 x6b64b +1 x6b657 -1 x6b662 = +0
-
 +1 x6b666 -1 x6b675 -1 x6b676 = +0
-
 +1 x6b676 -1 x6b67a -1 x6b67b = +0
-
 +1 x6b675 -1 x6b67c -1 x6b67d = +0
-
 +1 x6b67b -1 x6b684 -1 x6b685 = +0
-
 +1 x6b67d -1 x6b686 -1 x6b687 = +0
-
 +1 x6b67c -1 x6b688 -1 x6b689 = +0
-
 +1 x6b67a -1 x6b68a -1 x6b68b = +0
-
 +1 x6b684 +1 x6b686 -1 x6b68f = +0
-
 +1 x6b685 +1 x6b687 -1 x6b68c = +0
-
 +1 x6b689 +1 x6b68b -1 x6b696 = +0
-
 +1 x6b68c +1 x6b696 -1 x6b69a = +0
-
 +1 x6b688 +1 x6b68a -1 x6b69c = +0
-
 +1 x6b68f +1 x6b69c -1 x6b69e = +0
-
 +1 x6b69a -1 x6b6a1 -1 x6b6a2 = +0
-
 +1 x6b69e -1 x6b6a3 -1 x6b6a4 = +0
-
 +1 x6b6a1 +1 x6b6a3 -1 x6b6e8 = +0
-
 +1 x6b6a2 +1 x6b6a4 -1 x6b6a5 = +0
-
 +1 x6b6a5 +1 x6b6a9 -1 x6b6aa -1 x6e5b2 = +0
-
 +1 x6b6aa -1 x6b6ab -1 x6b6ac = +0
-
 +1 x6b6ab -1 x6b6c9 -1 x6b6ca = +0
-
 +1 x6b6c9 -1 x6b6d5 -1 x6b6d6 = +0
-
 +1 x6b6ca +1 x6b6d5 +1 x6b6d6 -1 x6b6e4 = +0
-
 +1 x6b35c +1 x6b6e8 -1 x6b6f2 = +0
-
 +1 x6b6f2 +1 x6b6f3 -1 x6b6f4 -1 x6b750 = +0
-
 +1 x6b6f4 -1 x6b6f5 -1 x6b6f6 = +0
-
 +1 x6b344 +1 x6b6f6 -1 x6b755 = +0
-
 +1 x6b6f5 -1 x6b6fe -1 x6b6ff = +0
-
 +1 x6b6ff -1 x6b70e -1 x6b70f = +0
-
 +1 x6b70e -1 x6b73c -1 x6b73d = +0
-
 +1 x6b73c +1 x6b73d -1 x6b74a = +0
-
 +1 x6b70f +1 x6b750 -1 x6b751 -1 x6b7ad = +0
-
 +1 x6b751 -1 x6b752 -1 x6b753 = +0
-
 +1 x6b753 +1 x6b755 -1 x6b7b2 = +0
-
 +1 x6b752 -1 x6b75b -1 x6b75c = +0
-
 +1 x6b75c -1 x6b76b -1 x6b76c = +0
-
 +1 x6b76b -1 x6b799 -1 x6b79a = +0
-
 +1 x6b799 +1 x6b79a -1 x6b7a7 = +0
-
 +1 x6b76c +1 x6b7ad -1 x6b7ae -1 x6b80a = +0
-
 +1 x6b7ae -1 x6b7af -1 x6b7b0 = +0
-
 +1 x6b7b0 +1 x6b7b2 -1 x6b80f = +0
-
 +1 x6b7af -1 x6b7b8 -1 x6b7b9 = +0
-
 +1 x6b7b9 -1 x6b7c8 -1 x6b7c9 = +0
-
 +1 x6b7c8 -1 x6b7f6 -1 x6b7f7 = +0
-
 +1 x6b7f6 +1 x6b7f7 -1 x6b804 = +0
-
 +1 x6b7c9 +1 x6b80a -1 x6b80b -1 x6b867 = +0
-
 +1 x6b80b -1 x6b80c -1 x6b80d = +0
-
 +1 x6b80d +1 x6b80f -1 x6b86c = +0
-
 +1 x6b80c -1 x6b815 -1 x6b816 = +0
-
 +1 x6b816 -1 x6b825 -1 x6b826 = +0
-
 +1 x6b825 -1 x6b853 -1 x6b854 = +0
-
 +1 x6b853 +1 x6b854 -1 x6b861 = +0
-
 +1 x6b826 +1 x6b867 -1 x6b868 -1 x6b8c4 = +0
-
 +1 x6b868 -1 x6b869 -1 x6b86a = +0
-
 +1 x6b86a +1 x6b86c -1 x6b8c9 = +0
-
 +1 x6b869 -1 x6b872 -1 x6b873 = +0
-
 +1 x6b873 -1 x6b882 -1 x6b883 = +0
-
 +1 x6b882 -1 x6b8b0 -1 x6b8b1 = +0
-
 +1 x6b8b0 +1 x6b8b1 -1 x6b8be = +0
-
 +1 x6b883 +1 x6b8c4 -1 x6b8c5 +1 x6b8e0 +1 x6dac6 -1 x6e96e = +0
-
 +1 x6b8c5 -1 x6b8c6 -1 x6b8c7 = +0
-
 +1 x6b8c7 +1 x6b8c9 -1 x6b922 +0 x6b923 +1 x6daae -1 x6e9cc = +0
-
 +1 x6b8c6 -1 x6b8cf -1 x6b8d0 = +0
-
 +1 x6b8d0 -1 x6b8df -1 x6b8e0 = +0
-
 +1 x6b8df -1 x6b90d -1 x6b90e = +0
-
 +1 x6b90d +1 x6b90e -1 x6b91b = +0
-
 +1 x5de93 -1 x6b93a -1 x6b93b = +0
-
 +1 x6b93b -1 x6b987 +0 x6b988 = +0
-
 +1 x6b93a -1 x6b946 -1 x6b947 = +0
-
 +1 x6b946 -1 x6b952 -1 x6b953 = +0
-
 +1 x6b952 +1 x6b978 +1 x6bc9d +1 x6bcc6 +1 x6bffc +1 x6c025 +1 x6c35b +1 x6c384
 +1 x6c6ba +1 x6c6e3 +1 x6ca19 +1 x6ca42 +1 x6cd78 +1 x6cda1 +1 x6d0d7 +1 x6d100
 -1 x76fb9 = +0
-
 +1 x6b947 +1 x6b953 -1 x6b95d = +0
-
 +1 x6b95d -1 x6b95f +1 x6b984 -1 x6bcab = +0
-
 +1 x6b95f -1 x6b960 -1 x6b961 = +0
-
 +1 x6b961 -1 x6b989 +0 x6b98a -1 x6bcd5 = +0
-
 +1 x6b960 -1 x6b96c -1 x6b96d = +0
-
 +1 x6b96c -1 x6b978 -1 x6b979 = +0
-
 +1 x6b96d +1 x6b979 -1 x6b984 = +0
-
 +1 x6b987 +1 x6b989 -1 x6b997 = +0
-
 +1 x6b997 -1 x6b999 -1 x6bce0 = +0
-
 +1 x6b999 -1 x6b99a -1 x6b99b = +0
-
 +1 x6b99b +1 x6ba3d -1 x6ba69 +0 x6ba6a -1 x6bdb7 = +0
-
 +1 x6b99a -1 x6b9ab -1 x6b9ac = +0
-
 +1 x6b9ab -1 x6b9b7 -1 x6b9b8 = +0
-
 +1 x6b9b7 +1 x6ba5a -1 x6bd08 = +0
-
 +1 x6b9ac +1 x6b9b8 -1 x6b9c2 = +0
-
 +1 x6b9c2 -1 x6b9c4 +1 x6ba66 -1 x6bd0d = +0
-
 +1 x6b9c4 -1 x6b9c5 -1 x6b9c6 = +0
-
 +1 x6b9c6 +1 x6b9fb -1 x6ba31 +0 x6ba32 -1 x6bd7d = +0
-
 +1 x6b9c5 -1 x6b9d1 -1 x6b9d2 = +0
-
 +1 x6b9d1 -1 x6b9dd -1 x6b9de = +0
-
 +1 x6b9dd -1 x6b9e1 -1 x6b9e2 = +0
-
 +1 x6b9e1 -1 x6b9e5 -1 x6b9e6 = +0
-
 +1 x6b9e5 -1 x6b9e9 -1 x6b9ea = +0
-
 +1 x6b9e2 +1 x6b9e6 +1 x6b9ea -1 x6b9ef = +0
-
 +1 x6b9ef +1 x6ba25 -1 x6bd3b = +0
-
 +1 x6b9d2 +1 x6b9de +1 x6b9e9 -1 x6b9f7 = +0
-
 +1 x6b9f7 -1 x6b9f9 +1 x6ba2e -1 x6bd44 = +0
-
 +1 x6b9f9 -1 x6b9fa -1 x6b9fb = +0
-
 +1 x6b9fa -1 x6ba07 -1 x6ba08 = +0
-
 +1 x6ba07 -1 x6ba13 -1 x6ba14 = +0
-
 +1 x6ba13 -1 x6ba17 -1 x6ba18 = +0
-
 +1 x6ba17 -1 x6ba1b -1 x6ba1c = +0
-
 +1 x6ba1b -1 x6ba1f -1 x6ba20 = +0
-
 +1 x6ba18 +1 x6ba1c +1 x6ba20 -1 x6ba25 = +0
-
 +1 x6ba08 +1 x6ba14 +1 x6ba1f -1 x6ba2e = +0
-
 +1 x6ba31 -1 x6ba3b -1 x6bd88 = +0
-
 +1 x6ba3b -1 x6ba3c -1 x6ba3d = +0
-
 +1 x6ba3c -1 x6ba4e -1 x6ba4f = +0
-
 +1 x6ba4e -1 x6ba5a -1 x6ba5b = +0
-
 +1 x6ba4f +1 x6ba5b -1 x6ba66 = +0
-
 +1 x6ba69 -1 x6ba78 -1 x6ba79 = +0
-
 +1 x6ba79 -1 x6ba7d -1 x6ba7e = +0
-
 +1 x6ba78 -1 x6ba7f -1 x6ba80 = +0
-
 +1 x6ba7e +1 x6ba80 -1 x6ba86 -1 x6ba87 = +0
-
 +1 x6ba7d +1 x6ba7f -1 x6ba85 = +0
-
 +1 x6ba85 -1 x6ba88 -1 x6ba89 = +0
-
 +1 x6ba87 +1 x6ba89 -1 x6ba94 = +0
-
 +1 x6ba86 +1 x6ba88 -1 x6ba98 = +0
-
 +1 x6ba94 +1 x6ba98 -1 x6ba9d = +0
-
 +1 x6ba9d -1 x6baa0 -1 x6baa1 = +0
-
 +1 x6baa0 +1 x6baa1 -1 x6bab1 = +0
-
 +1 x6bab1 -1 x6babf -1 x6bac0 = +0
-
 +1 x6babf -1 x6bacb -1 x6bacc = +0
-
 +1 x6bac0 +1 x6bacb +1 x6bacc -1 x6bada = +0
-
 +1 x6bada -1 x6badc -1 x6be2b = +0
-
 +1 x6badc -1 x6badd -1 x6bade = +0
-
 +1 x6bade +1 x6bb04 -1 x6bb2b +0 x6bb2c -1 x6be7d = +0
-
 +1 x6badd -1 x6bae9 -1 x6baea = +0
-
 +1 x6bae9 -1 x6baf5 -1 x6baf6 = +0
-
 +1 x6baf5 +1 x6bb1c +1 x6be45 +1 x6be6e +1 x6c1a4 +1 x6c1cd +1 x6c503 +1 x6c52c
 +1 x6c862 +1 x6c88b +1 x6cbc1 +1 x6cbea +1 x6cf20 +1 x6cf49 +1 x6d27f +1 x6d2a8
 -1 x749f0 = +0
-
 +1 x6baea +1 x6baf6 -1 x6bb00 = +0
-
 +1 x6bb00 -1 x6bb02 +1 x6bb28 -1 x6be53 = +0
-
 +1 x6bb02 -1 x6bb03 -1 x6bb04 = +0
-
 +1 x6bb03 -1 x6bb10 -1 x6bb11 = +0
-
 +1 x6bb10 -1 x6bb1c -1 x6bb1d = +0
-
 +1 x6bb11 +1 x6bb1d -1 x6bb28 = +0
-
 +1 x6bb2b -1 x6bb35 -1 x6be88 = +0
-
 +1 x6bb35 -1 x6bb36 -1 x6bb37 = +0
-
 +1 x6bb37 +1 x6bbd9 -1 x6bc05 +0 x6bc06 -1 x6bf5f = +0
-
 +1 x6bb36 -1 x6bb47 -1 x6bb48 = +0
-
 +1 x6bb47 -1 x6bb53 -1 x6bb54 = +0
-
 +1 x6bb53 +1 x6bbf6 -1 x6beb0 = +0
-
 +1 x6bb48 +1 x6bb54 -1 x6bb5e = +0
-
 +1 x6bb5e -1 x6bb60 +1 x6bc02 -1 x6beb5 = +0
-
 +1 x6bb60 -1 x6bb61 -1 x6bb62 = +0
-
 +1 x6bb62 +1 x6bb97 -1 x6bbcd +0 x6bbce -1 x6bf25 = +0
-
 +1 x6bb61 -1 x6bb6d -1 x6bb6e = +0
-
 +1 x6bb6d -1 x6bb79 -1 x6bb7a = +0
-
 +1 x6bb79 -1 x6bb7d -1 x6bb7e = +0
-
 +1 x6bb7d -1 x6bb81 -1 x6bb82 = +0
-
 +1 x6bb81 -1 x6bb85 -1 x6bb86 = +0
-
 +1 x6bb7e +1 x6bb82 +1 x6bb86 -1 x6bb8b = +0
-
 +1 x6bb8b +1 x6bbc1 -1 x6bee3 = +0
-
 +1 x6bb6e +1 x6bb7a +1 x6bb85 -1 x6bb93 = +0
-
 +1 x6bb93 -1 x6bb95 +1 x6bbca -1 x6beec = +0
-
 +1 x6bb95 -1 x6bb96 -1 x6bb97 = +0
-
 +1 x6bb96 -1 x6bba3 -1 x6bba4 = +0
-
 +1 x6bba3 -1 x6bbaf -1 x6bbb0 = +0
-
 +1 x6bbaf -1 x6bbb3 -1 x6bbb4 = +0
-
 +1 x6bbb3 -1 x6bbb7 -1 x6bbb8 = +0
-
 +1 x6bbb7 -1 x6bbbb -1 x6bbbc = +0
-
 +1 x6bbb4 +1 x6bbb8 +1 x6bbbc -1 x6bbc1 = +0
-
 +1 x6bba4 +1 x6bbb0 +1 x6bbbb -1 x6bbca = +0
-
 +1 x6bbcd -1 x6bbd7 -1 x6bf30 = +0
-
 +1 x6bbd7 -1 x6bbd8 -1 x6bbd9 = +0
-
 +1 x6bbd8 -1 x6bbea -1 x6bbeb = +0
-
 +1 x6bbea -1 x6bbf6 -1 x6bbf7 = +0
-
 +1 x6bbeb +1 x6bbf7 -1 x6bc02 = +0
-
 +1 x6bc05 -1 x6bc14 -1 x6bc15 = +0
-
 +1 x6bc15 -1 x6bc19 -1 x6bc1a = +0
-
 +1 x6bc14 -1 x6bc1b -1 x6bc1c = +0
-
 +1 x6bc1a -1 x6bc23 -1 x6bc24 = +0
-
 +1 x6bc1c -1 x6bc25 -1 x6bc26 = +0
-
 +1 x6bc1b -1 x6bc27 -1 x6bc28 = +0
-
 +1 x6bc19 -1 x6bc29 -1 x6bc2a = +0
-
 +1 x6bc23 +1 x6bc25 -1 x6bc2e = +0
-
 +1 x6bc24 +1 x6bc26 -1 x6bc2b = +0
-
 +1 x6bc28 +1 x6bc2a -1 x6bc35 = +0
-
 +1 x6bc2b +1 x6bc35 -1 x6bc39 = +0
-
 +1 x6bc27 +1 x6bc29 -1 x6bc3b = +0
-
 +1 x6bc2e +1 x6bc3b -1 x6bc3d = +0
-
 +1 x6bc39 -1 x6bc40 -1 x6bc41 = +0
-
 +1 x6bc3d -1 x6bc42 -1 x6bc43 = +0
-
 +1 x6bc40 +1 x6bc42 -1 x6bf9f = +0
-
 +1 x6bc41 +1 x6bc43 -1 x6bc44 = +0
-
 +1 x6bc44 -1 x6bc48 -1 x6bfa4 = +0
-
 +1 x6bc48 -1 x6bc49 -1 x6bc4a = +0
-
 +1 x6bc49 -1 x6bc67 -1 x6bc68 = +0
-
 +1 x6bc67 -1 x6bc73 -1 x6bc74 = +0
-
 +1 x6bc68 +1 x6bc73 +1 x6bc74 -1 x6bc82 = +0
-
 +1 x6bc82 -1 x6bc84 -1 x6bfe2 = +0
-
 +1 x6bc84 -1 x6bc85 -1 x6bc86 = +0
-
 +1 x6bc85 -1 x6bc91 -1 x6bc92 = +0
-
 +1 x6bc91 -1 x6bc9d -1 x6bc9e = +0
-
 +1 x6bc92 +1 x6bc9e -1 x6bca9 = +0
-
 +1 x6bca9 +1 x6bcab -1 x6bcac +1 x6bcd2 -1 x6c00a = +0
-
 +1 x6bcac -1 x6bcad -1 x6bcae = +0
-
 +1 x6bc86 +1 x6bcae +1 x6bcd5 -1 x6bcd6 +0 x6bcd7 -1 x6c034 = +0
-
 +1 x6bcad -1 x6bcba -1 x6bcbb = +0
-
 +1 x6bcba -1 x6bcc6 -1 x6bcc7 = +0
-
 +1 x6bcbb +1 x6bcc7 -1 x6bcd2 = +0
-
 +1 x6bcd6 +1 x6bce0 -1 x6bce1 -1 x6c03f = +0
-
 +1 x6bce1 -1 x6bce2 -1 x6bce3 = +0
-
 +1 x6bce3 +1 x6bd8b +1 x6bdb7 -1 x6bdb8 +0 x6bdb9 -1 x6c116 = +0
-
 +1 x6bce2 -1 x6bcf3 -1 x6bcf4 = +0
-
 +1 x6bcf3 -1 x6bcff -1 x6bd00 = +0
-
 +1 x6bcff +1 x6bd08 +1 x6bda8 -1 x6c067 = +0
-
 +1 x6bcf4 +1 x6bd00 -1 x6bd0b = +0
-
 +1 x6bd0b +1 x6bd0d -1 x6bd0e +1 x6bdb4 -1 x6c06c = +0
-
 +1 x6bd0e -1 x6bd0f -1 x6bd10 = +0
-
 +1 x6bd10 +1 x6bd47 +1 x6bd7d -1 x6bd7e +0 x6bd7f -1 x6c0dc = +0
-
 +1 x6bd0f -1 x6bd1b -1 x6bd1c = +0
-
 +1 x6bd1b -1 x6bd27 -1 x6bd28 = +0
-
 +1 x6bd27 -1 x6bd2b -1 x6bd2c = +0
-
 +1 x6bd2b -1 x6bd2f -1 x6bd30 = +0
-
 +1 x6bd2f -1 x6bd33 -1 x6bd34 = +0
-
 +1 x6bd2c +1 x6bd30 +1 x6bd34 -1 x6bd39 = +0
-
 +1 x6bd39 +1 x6bd3b +1 x6bd71 -1 x6c09a = +0
-
 +1 x6bd1c +1 x6bd28 +1 x6bd33 -1 x6bd42 = +0
-
 +1 x6bd42 +1 x6bd44 -1 x6bd45 +1 x6bd7a -1 x6c0a3 = +0
-
 +1 x6bd45 -1 x6bd46 -1 x6bd47 = +0
-
 +1 x6bd46 -1 x6bd53 -1 x6bd54 = +0
-
 +1 x6bd53 -1 x6bd5f -1 x6bd60 = +0
-
 +1 x6bd5f -1 x6bd63 -1 x6bd64 = +0
-
 +1 x6bd63 -1 x6bd67 -1 x6bd68 = +0
-
 +1 x6bd67 -1 x6bd6b -1 x6bd6c = +0
-
 +1 x6bd64 +1 x6bd68 +1 x6bd6c -1 x6bd71 = +0
-
 +1 x6bd54 +1 x6bd60 +1 x6bd6b -1 x6bd7a = +0
-
 +1 x6bd7e +1 x6bd88 -1 x6bd89 -1 x6c0e7 = +0
-
 +1 x6bd89 -1 x6bd8a -1 x6bd8b = +0
-
 +1 x6bd8a -1 x6bd9c -1 x6bd9d = +0
-
 +1 x6bd9c -1 x6bda8 -1 x6bda9 = +0
-
 +1 x6bd9d +1 x6bda9 -1 x6bdb4 = +0
-
 +1 x6bdb8 -1 x6bdc7 -1 x6bdc8 = +0
-
 +1 x6bdc8 -1 x6bdcc -1 x6bdcd = +0
-
 +1 x6bdc7 -1 x6bdce -1 x6bdcf = +0
-
 +1 x6bdcd +1 x6bdcf -1 x6bdd5 -1 x6bdd6 = +0
-
 +1 x6bdcc +1 x6bdce -1 x6bdd4 = +0
-
 +1 x6bdd4 -1 x6bdd7 -1 x6bdd8 = +0
-
 +1 x6bdd6 +1 x6bdd8 -1 x6bde3 = +0
-
 +1 x6bdd5 +1 x6bdd7 -1 x6bde7 = +0
-
 +1 x6bde3 +1 x6bde7 -1 x6bdec = +0
-
 +1 x6bdec -1 x6bdef -1 x6bdf0 = +0
-
 +1 x6bdef +1 x6bdf0 -1 x6be00 = +0
-
 +1 x6be00 -1 x6be0e -1 x6be0f = +0
-
 +1 x6be0e -1 x6be1a -1 x6be1b = +0
-
 +1 x6be0f +1 x6be1a +1 x6be1b -1 x6be29 = +0
-
 +1 x6be29 +1 x6be2b -1 x6be2c -1 x6c18a = +0
-
 +1 x6be2c -1 x6be2d -1 x6be2e = +0
-
 +1 x6be2e +1 x6be56 +1 x6be7d -1 x6be7e +0 x6be7f -1 x6c1dc = +0
-
 +1 x6be2d -1 x6be39 -1 x6be3a = +0
-
 +1 x6be39 -1 x6be45 -1 x6be46 = +0
-
 +1 x6be3a +1 x6be46 -1 x6be51 = +0
-
 +1 x6be51 +1 x6be53 -1 x6be54 +1 x6be7a -1 x6c1b2 = +0
-
 +1 x6be54 -1 x6be55 -1 x6be56 = +0
-
 +1 x6be55 -1 x6be62 -1 x6be63 = +0
-
 +1 x6be62 -1 x6be6e -1 x6be6f = +0
-
 +1 x6be63 +1 x6be6f -1 x6be7a = +0
-
 +1 x6be7e +1 x6be88 -1 x6be89 -1 x6c1e7 = +0
-
 +1 x6be89 -1 x6be8a -1 x6be8b = +0
-
 +1 x6be8b +1 x6bf33 +1 x6bf5f -1 x6bf60 +0 x6bf61 -1 x6c2be = +0
-
 +1 x6be8a -1 x6be9b -1 x6be9c = +0
-
 +1 x6be9b -1 x6bea7 -1 x6bea8 = +0
-
 +1 x6bea7 +1 x6beb0 +1 x6bf50 -1 x6c20f = +0
-
 +1 x6be9c +1 x6bea8 -1 x6beb3 = +0
-
 +1 x6beb3 +1 x6beb5 -1 x6beb6 +1 x6bf5c -1 x6c214 = +0
-
 +1 x6beb6 -1 x6beb7 -1 x6beb8 = +0
-
 +1 x6beb8 +1 x6beef +1 x6bf25 -1 x6bf26 +0 x6bf27 -1 x6c284 = +0
-
 +1 x6beb7 -1 x6bec3 -1 x6bec4 = +0
-
 +1 x6bec3 -1 x6becf -1 x6bed0 = +0
-
 +1 x6becf -1 x6bed3 -1 x6bed4 = +0
-
 +1 x6bed3 -1 x6bed7 -1 x6bed8 = +0
-
 +1 x6bed7 -1 x6bedb -1 x6bedc = +0
-
 +1 x6bed4 +1 x6bed8 +1 x6bedc -1 x6bee1 = +0
-
 +1 x6bee1 +1 x6bee3 +1 x6bf19 -1 x6c242 = +0
-
 +1 x6bec4 +1 x6bed0 +1 x6bedb -1 x6beea = +0
-
 +1 x6beea +1 x6beec -1 x6beed +1 x6bf22 -1 x6c24b = +0
-
 +1 x6beed -1 x6beee -1 x6beef = +0
-
 +1 x6beee -1 x6befb -1 x6befc = +0
-
 +1 x6befb -1 x6bf07 -1 x6bf08 = +0
-
 +1 x6bf07 -1 x6bf0b -1 x6bf0c = +0
-
 +1 x6bf0b -1 x6bf0f -1 x6bf10 = +0
-
 +1 x6bf0f -1 x6bf13 -1 x6bf14 = +0
-
 +1 x6bf0c +1 x6bf10 +1 x6bf14 -1 x6bf19 = +0
-
 +1 x6befc +1 x6bf08 +1 x6bf13 -1 x6bf22 = +0
-
 +1 x6bf26 +1 x6bf30 -1 x6bf31 -1 x6c28f = +0
-
 +1 x6bf31 -1 x6bf32 -1 x6bf33 = +0
-
 +1 x6bf32 -1 x6bf44 -1 x6bf45 = +0
-
 +1 x6bf44 -1 x6bf50 -1 x6bf51 = +0
-
 +1 x6bf45 +1 x6bf51 -1 x6bf5c = +0
-
 +1 x6bf60 -1 x6bf6f -1 x6bf70 = +0
-
 +1 x6bf70 -1 x6bf74 -1 x6bf75 = +0
-
 +1 x6bf6f -1 x6bf76 -1 x6bf77 = +0
-
 +1 x6bf75 -1 x6bf7e -1 x6bf7f = +0
-
 +1 x6bf77 -1 x6bf80 -1 x6bf81 = +0
-
 +1 x6bf76 -1 x6bf82 -1 x6bf83 = +0
-
 +1 x6bf74 -1 x6bf84 -1 x6bf85 = +0
-
 +1 x6bf7e +1 x6bf80 -1 x6bf89 = +0
-
 +1 x6bf7f +1 x6bf81 -1 x6bf86 = +0
-
 +1 x6bf83 +1 x6bf85 -1 x6bf90 = +0
-
 +1 x6bf86 +1 x6bf90 -1 x6bf94 = +0
-
 +1 x6bf82 +1 x6bf84 -1 x6bf96 = +0
-
 +1 x6bf89 +1 x6bf96 -1 x6bf98 = +0
-
 +1 x6bf94 -1 x6bf9b -1 x6bf9c = +0
-
 +1 x6bf98 -1 x6bf9d -1 x6bf9e = +0
-
 +1 x6bf9b +1 x6bf9d +1 x6bf9f -1 x6c2fe = +0
-
 +1 x6bf9c +1 x6bf9e -1 x6bfa0 = +0
-
 +1 x6bfa0 +1 x6bfa4 -1 x6bfa5 -1 x6c303 = +0
-
 +1 x6bfa5 -1 x6bfa6 -1 x6bfa7 = +0
-
 +1 x6bc4a +1 x6bfa7 -1 x6c308 = +0
-
 +1 x6bfa6 -1 x6bfc5 -1 x6bfc6 = +0
-
 +1 x6bfc5 -1 x6bfd1 -1 x6bfd2 = +0
-
 +1 x6bfc6 +1 x6bfd1 +1 x6bfd2 -1 x6bfe0 = +0
-
 +1 x6bfe0 +1 x6bfe2 -1 x6bfe3 -1 x6c341 = +0
-
 +1 x6bfe3 -1 x6bfe4 -1 x6bfe5 = +0
-
 +1 x6bfe4 -1 x6bff0 -1 x6bff1 = +0
-
 +1 x6bff0 -1 x6bffc -1 x6bffd = +0
-
 +1 x6bff1 +1 x6bffd -1 x6c008 = +0
-
 +1 x6c008 +1 x6c00a -1 x6c00b +1 x6c031 -1 x6c369 = +0
-
 +1 x6c00b -1 x6c00c -1 x6c00d = +0
-
 +1 x6bfe5 +1 x6c00d +1 x6c034 -1 x6c035 +0 x6c036 -1 x6c393 = +0
-
 +1 x6c00c -1 x6c019 -1 x6c01a = +0
-
 +1 x6c019 -1 x6c025 -1 x6c026 = +0
-
 +1 x6c01a +1 x6c026 -1 x6c031 = +0
-
 +1 x6c035 +1 x6c03f -1 x6c040 -1 x6c39e = +0
-
 +1 x6c040 -1 x6c041 -1 x6c042 = +0
-
 +1 x6c042 +1 x6c0ea +1 x6c116 -1 x6c117 +0 x6c118 -1 x6c475 = +0
-
 +1 x6c041 -1 x6c052 -1 x6c053 = +0
-
 +1 x6c052 -1 x6c05e -1 x6c05f = +0
-
 +1 x6c05e +1 x6c067 +1 x6c107 -1 x6c3c6 = +0
-
 +1 x6c053 +1 x6c05f -1 x6c06a = +0
-
 +1 x6c06a +1 x6c06c -1 x6c06d +1 x6c113 -1 x6c3cb = +0
-
 +1 x6c06d -1 x6c06e -1 x6c06f = +0
-
 +1 x6c06f +1 x6c0a6 +1 x6c0dc -1 x6c0dd +0 x6c0de -1 x6c43b = +0
-
 +1 x6c06e -1 x6c07a -1 x6c07b = +0
-
 +1 x6c07a -1 x6c086 -1 x6c087 = +0
-
 +1 x6c086 -1 x6c08a -1 x6c08b = +0
-
 +1 x6c08a -1 x6c08e -1 x6c08f = +0
-
 +1 x6c08e -1 x6c092 -1 x6c093 = +0
-
 +1 x6c08b +1 x6c08f +1 x6c093 -1 x6c098 = +0
-
 +1 x6c098 +1 x6c09a +1 x6c0d0 -1 x6c3f9 = +0
-
 +1 x6c07b +1 x6c087 +1 x6c092 -1 x6c0a1 = +0
-
 +1 x6c0a1 +1 x6c0a3 -1 x6c0a4 +1 x6c0d9 -1 x6c402 = +0
-
 +1 x6c0a4 -1 x6c0a5 -1 x6c0a6 = +0
-
 +1 x6c0a5 -1 x6c0b2 -1 x6c0b3 = +0
-
 +1 x6c0b2 -1 x6c0be -1 x6c0bf = +0
-
 +1 x6c0be -1 x6c0c2 -1 x6c0c3 = +0
-
 +1 x6c0c2 -1 x6c0c6 -1 x6c0c7 = +0
-
 +1 x6c0c6 -1 x6c0ca -1 x6c0cb = +0
-
 +1 x6c0c3 +1 x6c0c7 +1 x6c0cb -1 x6c0d0 = +0
-
 +1 x6c0b3 +1 x6c0bf +1 x6c0ca -1 x6c0d9 = +0
-
 +1 x6c0dd +1 x6c0e7 -1 x6c0e8 -1 x6c446 = +0
-
 +1 x6c0e8 -1 x6c0e9 -1 x6c0ea = +0
-
 +1 x6c0e9 -1 x6c0fb -1 x6c0fc = +0
-
 +1 x6c0fb -1 x6c107 -1 x6c108 = +0
-
 +1 x6c0fc +1 x6c108 -1 x6c113 = +0
-
 +1 x6c117 -1 x6c126 -1 x6c127 = +0
-
 +1 x6c127 -1 x6c12b -1 x6c12c = +0
-
 +1 x6c126 -1 x6c12d -1 x6c12e = +0
-
 +1 x6c12c +1 x6c12e -1 x6c134 -1 x6c135 = +0
-
 +1 x6c12b +1 x6c12d -1 x6c133 = +0
-
 +1 x6c133 -1 x6c136 -1 x6c137 = +0
-
 +1 x6c135 +1 x6c137 -1 x6c142 = +0
-
 +1 x6c134 +1 x6c136 -1 x6c146 = +0
-
 +1 x6c142 +1 x6c146 -1 x6c14b = +0
-
 +1 x6c14b -1 x6c14e -1 x6c14f = +0
-
 +1 x6c14e +1 x6c14f -1 x6c15f = +0
-
 +1 x6c15f -1 x6c16d -1 x6c16e = +0
-
 +1 x6c16d -1 x6c179 -1 x6c17a = +0
-
 +1 x6c16e +1 x6c179 +1 x6c17a -1 x6c188 = +0
-
 +1 x6c188 +1 x6c18a -1 x6c18b -1 x6c4e9 = +0
-
 +1 x6c18b -1 x6c18c -1 x6c18d = +0
-
 +1 x6c18d +1 x6c1b5 +1 x6c1dc -1 x6c1dd +0 x6c1de -1 x6c53b = +0
-
 +1 x6c18c -1 x6c198 -1 x6c199 = +0
-
 +1 x6c198 -1 x6c1a4 -1 x6c1a5 = +0
-
 +1 x6c199 +1 x6c1a5 -1 x6c1b0 = +0
-
 +1 x6c1b0 +1 x6c1b2 -1 x6c1b3 +1 x6c1d9 -1 x6c511 = +0
-
 +1 x6c1b3 -1 x6c1b4 -1 x6c1b5 = +0
-
 +1 x6c1b4 -1 x6c1c1 -1 x6c1c2 = +0
-
 +1 x6c1c1 -1 x6c1cd -1 x6c1ce = +0
-
 +1 x6c1c2 +1 x6c1ce -1 x6c1d9 = +0
-
 +1 x6c1dd +1 x6c1e7 -1 x6c1e8 -1 x6c546 = +0
-
 +1 x6c1e8 -1 x6c1e9 -1 x6c1ea = +0
-
 +1 x6c1ea +1 x6c292 +1 x6c2be -1 x6c2bf +0 x6c2c0 -1 x6c61d = +0
-
 +1 x6c1e9 -1 x6c1fa -1 x6c1fb = +0
-
 +1 x6c1fa -1 x6c206 -1 x6c207 = +0
-
 +1 x6c206 +1 x6c20f +1 x6c2af -1 x6c56e = +0
-
 +1 x6c1fb +1 x6c207 -1 x6c212 = +0
-
 +1 x6c212 +1 x6c214 -1 x6c215 +1 x6c2bb -1 x6c573 = +0
-
 +1 x6c215 -1 x6c216 -1 x6c217 = +0
-
 +1 x6c217 +1 x6c24e +1 x6c284 -1 x6c285 +0 x6c286 -1 x6c5e3 = +0
-
 +1 x6c216 -1 x6c222 -1 x6c223 = +0
-
 +1 x6c222 -1 x6c22e -1 x6c22f = +0
-
 +1 x6c22e -1 x6c232 -1 x6c233 = +0
-
 +1 x6c232 -1 x6c236 -1 x6c237 = +0
-
 +1 x6c236 -1 x6c23a -1 x6c23b = +0
-
 +1 x6c233 +1 x6c237 +1 x6c23b -1 x6c240 = +0
-
 +1 x6c240 +1 x6c242 +1 x6c278 -1 x6c5a1 = +0
-
 +1 x6c223 +1 x6c22f +1 x6c23a -1 x6c249 = +0
-
 +1 x6c249 +1 x6c24b -1 x6c24c +1 x6c281 -1 x6c5aa = +0
-
 +1 x6c24c -1 x6c24d -1 x6c24e = +0
-
 +1 x6c24d -1 x6c25a -1 x6c25b = +0
-
 +1 x6c25a -1 x6c266 -1 x6c267 = +0
-
 +1 x6c266 -1 x6c26a -1 x6c26b = +0
-
 +1 x6c26a -1 x6c26e -1 x6c26f = +0
-
 +1 x6c26e -1 x6c272 -1 x6c273 = +0
-
 +1 x6c26b +1 x6c26f +1 x6c273 -1 x6c278 = +0
-
 +1 x6c25b +1 x6c267 +1 x6c272 -1 x6c281 = +0
-
 +1 x6c285 +1 x6c28f -1 x6c290 -1 x6c5ee = +0
-
 +1 x6c290 -1 x6c291 -1 x6c292 = +0
-
 +1 x6c291 -1 x6c2a3 -1 x6c2a4 = +0
-
 +1 x6c2a3 -1 x6c2af -1 x6c2b0 = +0
-
 +1 x6c2a4 +1 x6c2b0 -1 x6c2bb = +0
-
 +1 x6c2bf -1 x6c2ce -1 x6c2cf = +0
-
 +1 x6c2cf -1 x6c2d3 -1 x6c2d4 = +0
-
 +1 x6c2ce -1 x6c2d5 -1 x6c2d6 = +0
-
 +1 x6c2d4 -1 x6c2dd -1 x6c2de = +0
-
 +1 x6c2d6 -1 x6c2df -1 x6c2e0 = +0
-
 +1 x6c2d5 -1 x6c2e1 -1 x6c2e2 = +0
-
 +1 x6c2d3 -1 x6c2e3 -1 x6c2e4 = +0
-
 +1 x6c2dd +1 x6c2df -1 x6c2e8 = +0
-
 +1 x6c2de +1 x6c2e0 -1 x6c2e5 = +0
-
 +1 x6c2e2 +1 x6c2e4 -1 x6c2ef = +0
-
 +1 x6c2e5 +1 x6c2ef -1 x6c2f3 = +0
-
 +1 x6c2e1 +1 x6c2e3 -1 x6c2f5 = +0
-
 +1 x6c2e8 +1 x6c2f5 -1 x6c2f7 = +0
-
 +1 x6c2f3 -1 x6c2fa -1 x6c2fb = +0
-
 +1 x6c2f7 -1 x6c2fc -1 x6c2fd = +0
-
 +1 x6c2fa +1 x6c2fc +1 x6c2fe -1 x6c65d = +0
-
 +1 x6c2fb +1 x6c2fd -1 x6c2ff = +0
-
 +1 x6c2ff +1 x6c303 -1 x6c304 -1 x6c662 = +0
-
 +1 x6c304 -1 x6c305 -1 x6c306 = +0
-
 +1 x6c306 +1 x6c308 -1 x6c667 = +0
-
 +1 x6c305 -1 x6c324 -1 x6c325 = +0
-
 +1 x6c324 -1 x6c330 -1 x6c331 = +0
-
 +1 x6c325 +1 x6c330 +1 x6c331 -1 x6c33f = +0
-
 +1 x6c33f +1 x6c341 -1 x6c342 -1 x6c6a0 = +0
-
 +1 x6c342 -1 x6c343 -1 x6c344 = +0
-
 +1 x6c343 -1 x6c34f -1 x6c350 = +0
-
 +1 x6c34f -1 x6c35b -1 x6c35c = +0
-
 +1 x6c350 +1 x6c35c -1 x6c367 = +0
-
 +1 x6c367 +1 x6c369 -1 x6c36a +1 x6c390 -1 x6c6c8 = +0
-
 +1 x6c36a -1 x6c36b -1 x6c36c = +0
-
 +1 x6c344 +1 x6c36c +1 x6c393 -1 x6c394 +0 x6c395 -1 x6c6f2 = +0
-
 +1 x6c36b -1 x6c378 -1 x6c379 = +0
-
 +1 x6c378 -1 x6c384 -1 x6c385 = +0
-
 +1 x6c379 +1 x6c385 -1 x6c390 = +0
-
 +1 x6c394 +1 x6c39e -1 x6c39f -1 x6c6fd = +0
-
 +1 x6c39f -1 x6c3a0 -1 x6c3a1 = +0
-
 +1 x6c3a1 +1 x6c449 +1 x6c475 -1 x6c476 +0 x6c477 -1 x6c7d4 = +0
-
 +1 x6c3a0 -1 x6c3b1 -1 x6c3b2 = +0
-
 +1 x6c3b1 -1 x6c3bd -1 x6c3be = +0
-
 +1 x6c3bd +1 x6c3c6 +1 x6c466 -1 x6c725 = +0
-
 +1 x6c3b2 +1 x6c3be -1 x6c3c9 = +0
-
 +1 x6c3c9 +1 x6c3cb -1 x6c3cc +1 x6c472 -1 x6c72a = +0
-
 +1 x6c3cc -1 x6c3cd -1 x6c3ce = +0
-
 +1 x6c3ce +1 x6c405 +1 x6c43b -1 x6c43c +0 x6c43d -1 x6c79a = +0
-
 +1 x6c3cd -1 x6c3d9 -1 x6c3da = +0
-
 +1 x6c3d9 -1 x6c3e5 -1 x6c3e6 = +0
-
 +1 x6c3e5 -1 x6c3e9 -1 x6c3ea = +0
-
 +1 x6c3e9 -1 x6c3ed -1 x6c3ee = +0
-
 +1 x6c3ed -1 x6c3f1 -1 x6c3f2 = +0
-
 +1 x6c3ea +1 x6c3ee +1 x6c3f2 -1 x6c3f7 = +0
-
 +1 x6c3f7 +1 x6c3f9 +1 x6c42f -1 x6c758 = +0
-
 +1 x6c3da +1 x6c3e6 +1 x6c3f1 -1 x6c400 = +0
-
 +1 x6c400 +1 x6c402 -1 x6c403 +1 x6c438 -1 x6c761 = +0
-
 +1 x6c403 -1 x6c404 -1 x6c405 = +0
-
 +1 x6c404 -1 x6c411 -1 x6c412 = +0
-
 +1 x6c411 -1 x6c41d -1 x6c41e = +0
-
 +1 x6c41d -1 x6c421 -1 x6c422 = +0
-
 +1 x6c421 -1 x6c425 -1 x6c426 = +0
-
 +1 x6c425 -1 x6c429 -1 x6c42a = +0
-
 +1 x6c422 +1 x6c426 +1 x6c42a -1 x6c42f = +0
-
 +1 x6c412 +1 x6c41e +1 x6c429 -1 x6c438 = +0
-
 +1 x6c43c +1 x6c446 -1 x6c447 -1 x6c7a5 = +0
-
 +1 x6c447 -1 x6c448 -1 x6c449 = +0
-
 +1 x6c448 -1 x6c45a -1 x6c45b = +0
-
 +1 x6c45a -1 x6c466 -1 x6c467 = +0
-
 +1 x6c45b +1 x6c467 -1 x6c472 = +0
-
 +1 x6c476 -1 x6c485 -1 x6c486 = +0
-
 +1 x6c486 -1 x6c48a -1 x6c48b = +0
-
 +1 x6c485 -1 x6c48c -1 x6c48d = +0
-
 +1 x6c48b +1 x6c48d -1 x6c493 -1 x6c494 = +0
-
 +1 x6c48a +1 x6c48c -1 x6c492 = +0
-
 +1 x6c492 -1 x6c495 -1 x6c496 = +0
-
 +1 x6c494 +1 x6c496 -1 x6c4a1 = +0
-
 +1 x6c493 +1 x6c495 -1 x6c4a5 = +0
-
 +1 x6c4a1 +1 x6c4a5 -1 x6c4aa = +0
-
 +1 x6c4aa -1 x6c4ad -1 x6c4ae = +0
-
 +1 x6c4ad +1 x6c4ae -1 x6c4be = +0
-
 +1 x6c4be -1 x6c4cc -1 x6c4cd = +0
-
 +1 x6c4cc -1 x6c4d8 -1 x6c4d9 = +0
-
 +1 x6c4cd +1 x6c4d8 +1 x6c4d9 -1 x6c4e7 = +0
-
 +1 x6c4e7 +1 x6c4e9 -1 x6c4ea -1 x6c848 = +0
-
 +1 x6c4ea -1 x6c4eb -1 x6c4ec = +0
-
 +1 x6c4ec +1 x6c514 +1 x6c53b -1 x6c53c +0 x6c53d -1 x6c89a = +0
-
 +1 x6c4eb -1 x6c4f7 -1 x6c4f8 = +0
-
 +1 x6c4f7 -1 x6c503 -1 x6c504 = +0
-
 +1 x6c4f8 +1 x6c504 -1 x6c50f = +0
-
 +1 x6c50f +1 x6c511 -1 x6c512 +1 x6c538 -1 x6c870 = +0
-
 +1 x6c512 -1 x6c513 -1 x6c514 = +0
-
 +1 x6c513 -1 x6c520 -1 x6c521 = +0
-
 +1 x6c520 -1 x6c52c -1 x6c52d = +0
-
 +1 x6c521 +1 x6c52d -1 x6c538 = +0
-
 +1 x6c53c +1 x6c546 -1 x6c547 -1 x6c8a5 = +0
-
 +1 x6c547 -1 x6c548 -1 x6c549 = +0
-
 +1 x6c549 +1 x6c5f1 +1 x6c61d -1 x6c61e +0 x6c61f -1 x6c97c = +0
-
 +1 x6c548 -1 x6c559 -1 x6c55a = +0
-
 +1 x6c559 -1 x6c565 -1 x6c566 = +0
-
 +1 x6c565 +1 x6c56e +1 x6c60e -1 x6c8cd = +0
-
 +1 x6c55a +1 x6c566 -1 x6c571 = +0
-
 +1 x6c571 +1 x6c573 -1 x6c574 +1 x6c61a -1 x6c8d2 = +0
-
 +1 x6c574 -1 x6c575 -1 x6c576 = +0
-
 +1 x6c576 +1 x6c5ad +1 x6c5e3 -1 x6c5e4 +0 x6c5e5 -1 x6c942 = +0
-
 +1 x6c575 -1 x6c581 -1 x6c582 = +0
-
 +1 x6c581 -1 x6c58d -1 x6c58e = +0
-
 +1 x6c58d -1 x6c591 -1 x6c592 = +0
-
 +1 x6c591 -1 x6c595 -1 x6c596 = +0
-
 +1 x6c595 -1 x6c599 -1 x6c59a = +0
-
 +1 x6c592 +1 x6c596 +1 x6c59a -1 x6c59f = +0
-
 +1 x6c59f +1 x6c5a1 +1 x6c5d7 -1 x6c900 = +0
-
 +1 x6c582 +1 x6c58e +1 x6c599 -1 x6c5a8 = +0
-
 +1 x6c5a8 +1 x6c5aa -1 x6c5ab +1 x6c5e0 -1 x6c909 = +0
-
 +1 x6c5ab -1 x6c5ac -1 x6c5ad = +0
-
 +1 x6c5ac -1 x6c5b9 -1 x6c5ba = +0
-
 +1 x6c5b9 -1 x6c5c5 -1 x6c5c6 = +0
-
 +1 x6c5c5 -1 x6c5c9 -1 x6c5ca = +0
-
 +1 x6c5c9 -1 x6c5cd -1 x6c5ce = +0
-
 +1 x6c5cd -1 x6c5d1 -1 x6c5d2 = +0
-
 +1 x6c5ca +1 x6c5ce +1 x6c5d2 -1 x6c5d7 = +0
-
 +1 x6c5ba +1 x6c5c6 +1 x6c5d1 -1 x6c5e0 = +0
-
 +1 x6c5e4 +1 x6c5ee -1 x6c5ef -1 x6c94d = +0
-
 +1 x6c5ef -1 x6c5f0 -1 x6c5f1 = +0
-
 +1 x6c5f0 -1 x6c602 -1 x6c603 = +0
-
 +1 x6c602 -1 x6c60e -1 x6c60f = +0
-
 +1 x6c603 +1 x6c60f -1 x6c61a = +0
-
 +1 x6c61e -1 x6c62d -1 x6c62e = +0
-
 +1 x6c62e -1 x6c632 -1 x6c633 = +0
-
 +1 x6c62d -1 x6c634 -1 x6c635 = +0
-
 +1 x6c633 -1 x6c63c -1 x6c63d = +0
-
 +1 x6c635 -1 x6c63e -1 x6c63f = +0
-
 +1 x6c634 -1 x6c640 -1 x6c641 = +0
-
 +1 x6c632 -1 x6c642 -1 x6c643 = +0
-
 +1 x6c63c +1 x6c63e -1 x6c647 = +0
-
 +1 x6c63d +1 x6c63f -1 x6c644 = +0
-
 +1 x6c641 +1 x6c643 -1 x6c64e = +0
-
 +1 x6c644 +1 x6c64e -1 x6c652 = +0
-
 +1 x6c640 +1 x6c642 -1 x6c654 = +0
-
 +1 x6c647 +1 x6c654 -1 x6c656 = +0
-
 +1 x6c652 -1 x6c659 -1 x6c65a = +0
-
 +1 x6c656 -1 x6c65b -1 x6c65c = +0
-
 +1 x6c659 +1 x6c65b +1 x6c65d -1 x6c9bc = +0
-
 +1 x6c65a +1 x6c65c -1 x6c65e = +0
-
 +1 x6c65e +1 x6c662 -1 x6c663 -1 x6c9c1 = +0
-
 +1 x6c663 -1 x6c664 -1 x6c665 = +0
-
 +1 x6c665 +1 x6c667 -1 x6c9c6 = +0
-
 +1 x6c664 -1 x6c683 -1 x6c684 = +0
-
 +1 x6c683 -1 x6c68f -1 x6c690 = +0
-
 +1 x6c684 +1 x6c68f +1 x6c690 -1 x6c69e = +0
-
 +1 x6c69e +1 x6c6a0 -1 x6c6a1 -1 x6c9ff = +0
-
 +1 x6c6a1 -1 x6c6a2 -1 x6c6a3 = +0
-
 +1 x6c6a2 -1 x6c6ae -1 x6c6af = +0
-
 +1 x6c6ae -1 x6c6ba -1 x6c6bb = +0
-
 +1 x6c6af +1 x6c6bb -1 x6c6c6 = +0
-
 +1 x6c6c6 +1 x6c6c8 -1 x6c6c9 +1 x6c6ef -1 x6ca27 = +0
-
 +1 x6c6c9 -1 x6c6ca -1 x6c6cb = +0
-
 +1 x6c6a3 +1 x6c6cb +1 x6c6f2 -1 x6c6f3 +0 x6c6f4 -1 x6ca51 = +0
-
 +1 x6c6ca -1 x6c6d7 -1 x6c6d8 = +0
-
 +1 x6c6d7 -1 x6c6e3 -1 x6c6e4 = +0
-
 +1 x6c6d8 +1 x6c6e4 -1 x6c6ef = +0
-
 +1 x6c6f3 +1 x6c6fd -1 x6c6fe -1 x6ca5c = +0
-
 +1 x6c6fe -1 x6c6ff -1 x6c700 = +0
-
 +1 x6c700 +1 x6c7a8 +1 x6c7d4 -1 x6c7d5 +0 x6c7d6 -1 x6cb33 = +0
-
 +1 x6c6ff -1 x6c710 -1 x6c711 = +0
-
 +1 x6c710 -1 x6c71c -1 x6c71d = +0
-
 +1 x6c71c +1 x6c725 +1 x6c7c5 -1 x6ca84 = +0
-
 +1 x6c711 +1 x6c71d -1 x6c728 = +0
-
 +1 x6c728 +1 x6c72a -1 x6c72b +1 x6c7d1 -1 x6ca89 = +0
-
 +1 x6c72b -1 x6c72c -1 x6c72d = +0
-
 +1 x6c72d +1 x6c764 +1 x6c79a -1 x6c79b +0 x6c79c -1 x6caf9 = +0
-
 +1 x6c72c -1 x6c738 -1 x6c739 = +0
-
 +1 x6c738 -1 x6c744 -1 x6c745 = +0
-
 +1 x6c744 -1 x6c748 -1 x6c749 = +0
-
 +1 x6c748 -1 x6c74c -1 x6c74d = +0
-
 +1 x6c74c -1 x6c750 -1 x6c751 = +0
-
 +1 x6c749 +1 x6c74d +1 x6c751 -1 x6c756 = +0
-
 +1 x6c756 +1 x6c758 +1 x6c78e -1 x6cab7 = +0
-
 +1 x6c739 +1 x6c745 +1 x6c750 -1 x6c75f = +0
-
 +1 x6c75f +1 x6c761 -1 x6c762 +1 x6c797 -1 x6cac0 = +0
-
 +1 x6c762 -1 x6c763 -1 x6c764 = +0
-
 +1 x6c763 -1 x6c770 -1 x6c771 = +0
-
 +1 x6c770 -1 x6c77c -1 x6c77d = +0
-
 +1 x6c77c -1 x6c780 -1 x6c781 = +0
-
 +1 x6c780 -1 x6c784 -1 x6c785 = +0
-
 +1 x6c784 -1 x6c788 -1 x6c789 = +0
-
 +1 x6c781 +1 x6c785 +1 x6c789 -1 x6c78e = +0
-
 +1 x6c771 +1 x6c77d +1 x6c788 -1 x6c797 = +0
-
 +1 x6c79b +1 x6c7a5 -1 x6c7a6 -1 x6cb04 = +0
-
 +1 x6c7a6 -1 x6c7a7 -1 x6c7a8 = +0
-
 +1 x6c7a7 -1 x6c7b9 -1 x6c7ba = +0
-
 +1 x6c7b9 -1 x6c7c5 -1 x6c7c6 = +0
-
 +1 x6c7ba +1 x6c7c6 -1 x6c7d1 = +0
-
 +1 x6c7d5 -1 x6c7e4 -1 x6c7e5 = +0
-
 +1 x6c7e5 -1 x6c7e9 -1 x6c7ea = +0
-
 +1 x6c7e4 -1 x6c7eb -1 x6c7ec = +0
-
 +1 x6c7ea +1 x6c7ec -1 x6c7f2 -1 x6c7f3 = +0
-
 +1 x6c7e9 +1 x6c7eb -1 x6c7f1 = +0
-
 +1 x6c7f1 -1 x6c7f4 -1 x6c7f5 = +0
-
 +1 x6c7f3 +1 x6c7f5 -1 x6c800 = +0
-
 +1 x6c7f2 +1 x6c7f4 -1 x6c804 = +0
-
 +1 x6c800 +1 x6c804 -1 x6c809 = +0
-
 +1 x6c809 -1 x6c80c -1 x6c80d = +0
-
 +1 x6c80c +1 x6c80d -1 x6c81d = +0
-
 +1 x6c81d -1 x6c82b -1 x6c82c = +0
-
 +1 x6c82b -1 x6c837 -1 x6c838 = +0
-
 +1 x6c82c +1 x6c837 +1 x6c838 -1 x6c846 = +0
-
 +1 x6c846 +1 x6c848 -1 x6c849 -1 x6cba7 = +0
-
 +1 x6c849 -1 x6c84a -1 x6c84b = +0
-
 +1 x6c84b +1 x6c873 +1 x6c89a -1 x6c89b +0 x6c89c -1 x6cbf9 = +0
-
 +1 x6c84a -1 x6c856 -1 x6c857 = +0
-
 +1 x6c856 -1 x6c862 -1 x6c863 = +0
-
 +1 x6c857 +1 x6c863 -1 x6c86e = +0
-
 +1 x6c86e +1 x6c870 -1 x6c871 +1 x6c897 -1 x6cbcf = +0
-
 +1 x6c871 -1 x6c872 -1 x6c873 = +0
-
 +1 x6c872 -1 x6c87f -1 x6c880 = +0
-
 +1 x6c87f -1 x6c88b -1 x6c88c = +0
-
 +1 x6c880 +1 x6c88c -1 x6c897 = +0
-
 +1 x6c89b +1 x6c8a5 -1 x6c8a6 -1 x6cc04 = +0
-
 +1 x6c8a6 -1 x6c8a7 -1 x6c8a8 = +0
-
 +1 x6c8a8 +1 x6c950 +1 x6c97c -1 x6c97d +0 x6c97e -1 x6ccdb = +0
-
 +1 x6c8a7 -1 x6c8b8 -1 x6c8b9 = +0
-
 +1 x6c8b8 -1 x6c8c4 -1 x6c8c5 = +0
-
 +1 x6c8c4 +1 x6c8cd +1 x6c96d -1 x6cc2c = +0
-
 +1 x6c8b9 +1 x6c8c5 -1 x6c8d0 = +0
-
 +1 x6c8d0 +1 x6c8d2 -1 x6c8d3 +1 x6c979 -1 x6cc31 = +0
-
 +1 x6c8d3 -1 x6c8d4 -1 x6c8d5 = +0
-
 +1 x6c8d5 +1 x6c90c +1 x6c942 -1 x6c943 +0 x6c944 -1 x6cca1 = +0
-
 +1 x6c8d4 -1 x6c8e0 -1 x6c8e1 = +0
-
 +1 x6c8e0 -1 x6c8ec -1 x6c8ed = +0
-
 +1 x6c8ec -1 x6c8f0 -1 x6c8f1 = +0
-
 +1 x6c8f0 -1 x6c8f4 -1 x6c8f5 = +0
-
 +1 x6c8f4 -1 x6c8f8 -1 x6c8f9 = +0
-
 +1 x6c8f1 +1 x6c8f5 +1 x6c8f9 -1 x6c8fe = +0
-
 +1 x6c8fe +1 x6c900 +1 x6c936 -1 x6cc5f = +0
-
 +1 x6c8e1 +1 x6c8ed +1 x6c8f8 -1 x6c907 = +0
-
 +1 x6c907 +1 x6c909 -1 x6c90a +1 x6c93f -1 x6cc68 = +0
-
 +1 x6c90a -1 x6c90b -1 x6c90c = +0
-
 +1 x6c90b -1 x6c918 -1 x6c919 = +0
-
 +1 x6c918 -1 x6c924 -1 x6c925 = +0
-
 +1 x6c924 -1 x6c928 -1 x6c929 = +0
-
 +1 x6c928 -1 x6c92c -1 x6c92d = +0
-
 +1 x6c92c -1 x6c930 -1 x6c931 = +0
-
 +1 x6c929 +1 x6c92d +1 x6c931 -1 x6c936 = +0
-
 +1 x6c919 +1 x6c925 +1 x6c930 -1 x6c93f = +0
-
 +1 x6c943 +1 x6c94d -1 x6c94e -1 x6ccac = +0
-
 +1 x6c94e -1 x6c94f -1 x6c950 = +0
-
 +1 x6c94f -1 x6c961 -1 x6c962 = +0
-
 +1 x6c961 -1 x6c96d -1 x6c96e = +0
-
 +1 x6c962 +1 x6c96e -1 x6c979 = +0
-
 +1 x6c97d -1 x6c98c -1 x6c98d = +0
-
 +1 x6c98d -1 x6c991 -1 x6c992 = +0
-
 +1 x6c98c -1 x6c993 -1 x6c994 = +0
-
 +1 x6c992 -1 x6c99b -1 x6c99c = +0
-
 +1 x6c994 -1 x6c99d -1 x6c99e = +0
-
 +1 x6c993 -1 x6c99f -1 x6c9a0 = +0
-
 +1 x6c991 -1 x6c9a1 -1 x6c9a2 = +0
-
 +1 x6c99b +1 x6c99d -1 x6c9a6 = +0
-
 +1 x6c99c +1 x6c99e -1 x6c9a3 = +0
-
 +1 x6c9a0 +1 x6c9a2 -1 x6c9ad = +0
-
 +1 x6c9a3 +1 x6c9ad -1 x6c9b1 = +0
-
 +1 x6c99f +1 x6c9a1 -1 x6c9b3 = +0
-
 +1 x6c9a6 +1 x6c9b3 -1 x6c9b5 = +0
-
 +1 x6c9b1 -1 x6c9b8 -1 x6c9b9 = +0
-
 +1 x6c9b5 -1 x6c9ba -1 x6c9bb = +0
-
 +1 x6c9b8 +1 x6c9ba +1 x6c9bc -1 x6cd1b = +0
-
 +1 x6c9b9 +1 x6c9bb -1 x6c9bd = +0
-
 +1 x6c9bd +1 x6c9c1 -1 x6c9c2 -1 x6cd20 = +0
-
 +1 x6c9c2 -1 x6c9c3 -1 x6c9c4 = +0
-
 +1 x6c9c4 +1 x6c9c6 -1 x6cd25 = +0
-
 +1 x6c9c3 -1 x6c9e2 -1 x6c9e3 = +0
-
 +1 x6c9e2 -1 x6c9ee -1 x6c9ef = +0
-
 +1 x6c9e3 +1 x6c9ee +1 x6c9ef -1 x6c9fd = +0
-
 +1 x6c9fd +1 x6c9ff -1 x6ca00 -1 x6cd5e = +0
-
 +1 x6ca00 -1 x6ca01 -1 x6ca02 = +0
-
 +1 x6ca01 -1 x6ca0d -1 x6ca0e = +0
-
 +1 x6ca0d -1 x6ca19 -1 x6ca1a = +0
-
 +1 x6ca0e +1 x6ca1a -1 x6ca25 = +0
-
 +1 x6ca25 +1 x6ca27 -1 x6ca28 +1 x6ca4e -1 x6cd86 = +0
-
 +1 x6ca28 -1 x6ca29 -1 x6ca2a = +0
-
 +1 x6ca02 +1 x6ca2a +1 x6ca51 -1 x6ca52 +0 x6ca53 -1 x6cdb0 = +0
-
 +1 x6ca29 -1 x6ca36 -1 x6ca37 = +0
-
 +1 x6ca36 -1 x6ca42 -1 x6ca43 = +0
-
 +1 x6ca37 +1 x6ca43 -1 x6ca4e = +0
-
 +1 x6ca52 +1 x6ca5c -1 x6ca5d -1 x6cdbb = +0
-
 +1 x6ca5d -1 x6ca5e -1 x6ca5f = +0
-
 +1 x6ca5f +1 x6cb07 +1 x6cb33 -1 x6cb34 +0 x6cb35 -1 x6ce92 = +0
-
 +1 x6ca5e -1 x6ca6f -1 x6ca70 = +0
-
 +1 x6ca6f -1 x6ca7b -1 x6ca7c = +0
-
 +1 x6ca7b +1 x6ca84 +1 x6cb24 -1 x6cde3 = +0
-
 +1 x6ca70 +1 x6ca7c -1 x6ca87 = +0
-
 +1 x6ca87 +1 x6ca89 -1 x6ca8a +1 x6cb30 -1 x6cde8 = +0
-
 +1 x6ca8a -1 x6ca8b -1 x6ca8c = +0
-
 +1 x6ca8c +1 x6cac3 +1 x6caf9 -1 x6cafa +0 x6cafb -1 x6ce58 = +0
-
 +1 x6ca8b -1 x6ca97 -1 x6ca98 = +0
-
 +1 x6ca97 -1 x6caa3 -1 x6caa4 = +0
-
 +1 x6caa3 -1 x6caa7 -1 x6caa8 = +0
-
 +1 x6caa7 -1 x6caab -1 x6caac = +0
-
 +1 x6caab -1 x6caaf -1 x6cab0 = +0
-
 +1 x6caa8 +1 x6caac +1 x6cab0 -1 x6cab5 = +0
-
 +1 x6cab5 +1 x6cab7 +1 x6caed -1 x6ce16 = +0
-
 +1 x6ca98 +1 x6caa4 +1 x6caaf -1 x6cabe = +0
-
 +1 x6cabe +1 x6cac0 -1 x6cac1 +1 x6caf6 -1 x6ce1f = +0
-
 +1 x6cac1 -1 x6cac2 -1 x6cac3 = +0
-
 +1 x6cac2 -1 x6cacf -1 x6cad0 = +0
-
 +1 x6cacf -1 x6cadb -1 x6cadc = +0
-
 +1 x6cadb -1 x6cadf -1 x6cae0 = +0
-
 +1 x6cadf -1 x6cae3 -1 x6cae4 = +0
-
 +1 x6cae3 -1 x6cae7 -1 x6cae8 = +0
-
 +1 x6cae0 +1 x6cae4 +1 x6cae8 -1 x6caed = +0
-
 +1 x6cad0 +1 x6cadc +1 x6cae7 -1 x6caf6 = +0
-
 +1 x6cafa +1 x6cb04 -1 x6cb05 -1 x6ce63 = +0
-
 +1 x6cb05 -1 x6cb06 -1 x6cb07 = +0
-
 +1 x6cb06 -1 x6cb18 -1 x6cb19 = +0
-
 +1 x6cb18 -1 x6cb24 -1 x6cb25 = +0
-
 +1 x6cb19 +1 x6cb25 -1 x6cb30 = +0
-
 +1 x6cb34 -1 x6cb43 -1 x6cb44 = +0
-
 +1 x6cb44 -1 x6cb48 -1 x6cb49 = +0
-
 +1 x6cb43 -1 x6cb4a -1 x6cb4b = +0
-
 +1 x6cb49 +1 x6cb4b -1 x6cb51 -1 x6cb52 = +0
-
 +1 x6cb48 +1 x6cb4a -1 x6cb50 = +0
-
 +1 x6cb50 -1 x6cb53 -1 x6cb54 = +0
-
 +1 x6cb52 +1 x6cb54 -1 x6cb5f = +0
-
 +1 x6cb51 +1 x6cb53 -1 x6cb63 = +0
-
 +1 x6cb5f +1 x6cb63 -1 x6cb68 = +0
-
 +1 x6cb68 -1 x6cb6b -1 x6cb6c = +0
-
 +1 x6cb6b +1 x6cb6c -1 x6cb7c = +0
-
 +1 x6cb7c -1 x6cb8a -1 x6cb8b = +0
-
 +1 x6cb8a -1 x6cb96 -1 x6cb97 = +0
-
 +1 x6cb8b +1 x6cb96 +1 x6cb97 -1 x6cba5 = +0
-
 +1 x6cba5 +1 x6cba7 -1 x6cba8 -1 x6cf06 = +0
-
 +1 x6cba8 -1 x6cba9 -1 x6cbaa = +0
-
 +1 x6cbaa +1 x6cbd2 +1 x6cbf9 -1 x6cbfa +0 x6cbfb -1 x6cf58 = +0
-
 +1 x6cba9 -1 x6cbb5 -1 x6cbb6 = +0
-
 +1 x6cbb5 -1 x6cbc1 -1 x6cbc2 = +0
-
 +1 x6cbb6 +1 x6cbc2 -1 x6cbcd = +0
-
 +1 x6cbcd +1 x6cbcf -1 x6cbd0 +1 x6cbf6 -1 x6cf2e = +0
-
 +1 x6cbd0 -1 x6cbd1 -1 x6cbd2 = +0
-
 +1 x6cbd1 -1 x6cbde -1 x6cbdf = +0
-
 +1 x6cbde -1 x6cbea -1 x6cbeb = +0
-
 +1 x6cbdf +1 x6cbeb -1 x6cbf6 = +0
-
 +1 x6cbfa +1 x6cc04 -1 x6cc05 -1 x6cf63 = +0
-
 +1 x6cc05 -1 x6cc06 -1 x6cc07 = +0
-
 +1 x6cc07 +1 x6ccaf +1 x6ccdb -1 x6ccdc +0 x6ccdd -1 x6d03a = +0
-
 +1 x6cc06 -1 x6cc17 -1 x6cc18 = +0
-
 +1 x6cc17 -1 x6cc23 -1 x6cc24 = +0
-
 +1 x6cc23 +1 x6cc2c +1 x6cccc -1 x6cf8b = +0
-
 +1 x6cc18 +1 x6cc24 -1 x6cc2f = +0
-
 +1 x6cc2f +1 x6cc31 -1 x6cc32 +1 x6ccd8 -1 x6cf90 = +0
-
 +1 x6cc32 -1 x6cc33 -1 x6cc34 = +0
-
 +1 x6cc34 +1 x6cc6b +1 x6cca1 -1 x6cca2 +0 x6cca3 -1 x6d000 = +0
-
 +1 x6cc33 -1 x6cc3f -1 x6cc40 = +0
-
 +1 x6cc3f -1 x6cc4b -1 x6cc4c = +0
-
 +1 x6cc4b -1 x6cc4f -1 x6cc50 = +0
-
 +1 x6cc4f -1 x6cc53 -1 x6cc54 = +0
-
 +1 x6cc53 -1 x6cc57 -1 x6cc58 = +0
-
 +1 x6cc50 +1 x6cc54 +1 x6cc58 -1 x6cc5d = +0
-
 +1 x6cc5d +1 x6cc5f +1 x6cc95 -1 x6cfbe = +0
-
 +1 x6cc40 +1 x6cc4c +1 x6cc57 -1 x6cc66 = +0
-
 +1 x6cc66 +1 x6cc68 -1 x6cc69 +1 x6cc9e -1 x6cfc7 = +0
-
 +1 x6cc69 -1 x6cc6a -1 x6cc6b = +0
-
 +1 x6cc6a -1 x6cc77 -1 x6cc78 = +0
-
 +1 x6cc77 -1 x6cc83 -1 x6cc84 = +0
-
 +1 x6cc83 -1 x6cc87 -1 x6cc88 = +0
-
 +1 x6cc87 -1 x6cc8b -1 x6cc8c = +0
-
 +1 x6cc8b -1 x6cc8f -1 x6cc90 = +0
-
 +1 x6cc88 +1 x6cc8c +1 x6cc90 -1 x6cc95 = +0
-
 +1 x6cc78 +1 x6cc84 +1 x6cc8f -1 x6cc9e = +0
-
 +1 x6cca2 +1 x6ccac -1 x6ccad -1 x6d00b = +0
-
 +1 x6ccad -1 x6ccae -1 x6ccaf = +0
-
 +1 x6ccae -1 x6ccc0 -1 x6ccc1 = +0
-
 +1 x6ccc0 -1 x6cccc -1 x6cccd = +0
-
 +1 x6ccc1 +1 x6cccd -1 x6ccd8 = +0
-
 +1 x6ccdc -1 x6cceb -1 x6ccec = +0
-
 +1 x6ccec -1 x6ccf0 -1 x6ccf1 = +0
-
 +1 x6cceb -1 x6ccf2 -1 x6ccf3 = +0
-
 +1 x6ccf1 -1 x6ccfa -1 x6ccfb = +0
-
 +1 x6ccf3 -1 x6ccfc -1 x6ccfd = +0
-
 +1 x6ccf2 -1 x6ccfe -1 x6ccff = +0
-
 +1 x6ccf0 -1 x6cd00 -1 x6cd01 = +0
-
 +1 x6ccfa +1 x6ccfc -1 x6cd05 = +0
-
 +1 x6ccfb +1 x6ccfd -1 x6cd02 = +0
-
 +1 x6ccff +1 x6cd01 -1 x6cd0c = +0
-
 +1 x6cd02 +1 x6cd0c -1 x6cd10 = +0
-
 +1 x6ccfe +1 x6cd00 -1 x6cd12 = +0
-
 +1 x6cd05 +1 x6cd12 -1 x6cd14 = +0
-
 +1 x6cd10 -1 x6cd17 -1 x6cd18 = +0
-
 +1 x6cd14 -1 x6cd19 -1 x6cd1a = +0
-
 +1 x6cd17 +1 x6cd19 +1 x6cd1b -1 x6d07a = +0
-
 +1 x6cd18 +1 x6cd1a -1 x6cd1c = +0
-
 +1 x6cd1c +1 x6cd20 -1 x6cd21 -1 x6d07f = +0
-
 +1 x6cd21 -1 x6cd22 -1 x6cd23 = +0
-
 +1 x6cd23 +1 x6cd25 -1 x6d084 = +0
-
 +1 x6cd22 -1 x6cd41 -1 x6cd42 = +0
-
 +1 x6cd41 -1 x6cd4d -1 x6cd4e = +0
-
 +1 x6cd42 +1 x6cd4d +1 x6cd4e -1 x6cd5c = +0
-
 +1 x6cd5c +1 x6cd5e -1 x6cd5f -1 x6d0bd = +0
-
 +1 x6cd5f -1 x6cd60 -1 x6cd61 = +0
-
 +1 x6cd60 -1 x6cd6c -1 x6cd6d = +0
-
 +1 x6cd6c -1 x6cd78 -1 x6cd79 = +0
-
 +1 x6cd6d +1 x6cd79 -1 x6cd84 = +0
-
 +1 x6cd84 +1 x6cd86 -1 x6cd87 +1 x6cdad -1 x6d0e5 = +0
-
 +1 x6cd87 -1 x6cd88 -1 x6cd89 = +0
-
 +1 x6cd61 +1 x6cd89 +1 x6cdb0 -1 x6cdb1 +0 x6cdb2 -1 x6d10f = +0
-
 +1 x6cd88 -1 x6cd95 -1 x6cd96 = +0
-
 +1 x6cd95 -1 x6cda1 -1 x6cda2 = +0
-
 +1 x6cd96 +1 x6cda2 -1 x6cdad = +0
-
 +1 x6cdb1 +1 x6cdbb -1 x6cdbc -1 x6d11a = +0
-
 +1 x6cdbc -1 x6cdbd -1 x6cdbe = +0
-
 +1 x6cdbe +1 x6ce66 +1 x6ce92 -1 x6ce93 +0 x6ce94 -1 x6d1f1 = +0
-
 +1 x6cdbd -1 x6cdce -1 x6cdcf = +0
-
 +1 x6cdce -1 x6cdda -1 x6cddb = +0
-
 +1 x6cdda +1 x6cde3 +1 x6ce83 -1 x6d142 = +0
-
 +1 x6cdcf +1 x6cddb -1 x6cde6 = +0
-
 +1 x6cde6 +1 x6cde8 -1 x6cde9 +1 x6ce8f -1 x6d147 = +0
-
 +1 x6cde9 -1 x6cdea -1 x6cdeb = +0
-
 +1 x6cdeb +1 x6ce22 +1 x6ce58 -1 x6ce59 +0 x6ce5a -1 x6d1b7 = +0
-
 +1 x6cdea -1 x6cdf6 -1 x6cdf7 = +0
-
 +1 x6cdf6 -1 x6ce02 -1 x6ce03 = +0
-
 +1 x6ce02 -1 x6ce06 -1 x6ce07 = +0
-
 +1 x6ce06 -1 x6ce0a -1 x6ce0b = +0
-
 +1 x6ce0a -1 x6ce0e -1 x6ce0f = +0
-
 +1 x6ce07 +1 x6ce0b +1 x6ce0f -1 x6ce14 = +0
-
 +1 x6ce14 +1 x6ce16 +1 x6ce4c -1 x6d175 = +0
-
 +1 x6cdf7 +1 x6ce03 +1 x6ce0e -1 x6ce1d = +0
-
 +1 x6ce1d +1 x6ce1f -1 x6ce20 +1 x6ce55 -1 x6d17e = +0
-
 +1 x6ce20 -1 x6ce21 -1 x6ce22 = +0
-
 +1 x6ce21 -1 x6ce2e -1 x6ce2f = +0
-
 +1 x6ce2e -1 x6ce3a -1 x6ce3b = +0
-
 +1 x6ce3a -1 x6ce3e -1 x6ce3f = +0
-
 +1 x6ce3e -1 x6ce42 -1 x6ce43 = +0
-
 +1 x6ce42 -1 x6ce46 -1 x6ce47 = +0
-
 +1 x6ce3f +1 x6ce43 +1 x6ce47 -1 x6ce4c = +0
-
 +1 x6ce2f +1 x6ce3b +1 x6ce46 -1 x6ce55 = +0
-
 +1 x6ce59 +1 x6ce63 -1 x6ce64 -1 x6d1c2 = +0
-
 +1 x6ce64 -1 x6ce65 -1 x6ce66 = +0
-
 +1 x6ce65 -1 x6ce77 -1 x6ce78 = +0
-
 +1 x6ce77 -1 x6ce83 -1 x6ce84 = +0
-
 +1 x6ce78 +1 x6ce84 -1 x6ce8f = +0
-
 +1 x6ce93 -1 x6cea2 -1 x6cea3 = +0
-
 +1 x6cea3 -1 x6cea7 -1 x6cea8 = +0
-
 +1 x6cea2 -1 x6cea9 -1 x6ceaa = +0
-
 +1 x6cea8 +1 x6ceaa -1 x6ceb0 -1 x6ceb1 = +0
-
 +1 x6cea7 +1 x6cea9 -1 x6ceaf = +0
-
 +1 x6ceaf -1 x6ceb2 -1 x6ceb3 = +0
-
 +1 x6ceb1 +1 x6ceb3 -1 x6cebe = +0
-
 +1 x6ceb0 +1 x6ceb2 -1 x6cec2 = +0
-
 +1 x6cebe +1 x6cec2 -1 x6cec7 = +0
-
 +1 x6cec7 -1 x6ceca -1 x6cecb = +0
-
 +1 x6ceca +1 x6cecb -1 x6cedb = +0
-
 +1 x6cedb -1 x6cee9 -1 x6ceea = +0
-
 +1 x6cee9 -1 x6cef5 -1 x6cef6 = +0
-
 +1 x6ceea +1 x6cef5 +1 x6cef6 -1 x6cf04 = +0
-
 +1 x6cf04 +1 x6cf06 -1 x6cf07 -1 x6d265 = +0
-
 +1 x6cf07 -1 x6cf08 -1 x6cf09 = +0
-
 +1 x6cf09 +1 x6cf31 +1 x6cf58 -1 x6cf59 +0 x6cf5a -1 x6d2b7 = +0
-
 +1 x6cf08 -1 x6cf14 -1 x6cf15 = +0
-
 +1 x6cf14 -1 x6cf20 -1 x6cf21 = +0
-
 +1 x6cf15 +1 x6cf21 -1 x6cf2c = +0
-
 +1 x6cf2c +1 x6cf2e -1 x6cf2f +1 x6cf55 -1 x6d28d = +0
-
 +1 x6cf2f -1 x6cf30 -1 x6cf31 = +0
-
 +1 x6cf30 -1 x6cf3d -1 x6cf3e = +0
-
 +1 x6cf3d -1 x6cf49 -1 x6cf4a = +0
-
 +1 x6cf3e +1 x6cf4a -1 x6cf55 = +0
-
 +1 x6cf59 +1 x6cf63 -1 x6cf64 -1 x6d2c2 = +0
-
 +1 x6cf64 -1 x6cf65 -1 x6cf66 = +0
-
 +1 x6cf66 +1 x6d00e +1 x6d03a -1 x6d03b +0 x6d03c -1 x6d399 = +0
-
 +1 x6cf65 -1 x6cf76 -1 x6cf77 = +0
-
 +1 x6cf76 -1 x6cf82 -1 x6cf83 = +0
-
 +1 x6cf82 +1 x6cf8b +1 x6d02b -1 x6d2ea = +0
-
 +1 x6cf77 +1 x6cf83 -1 x6cf8e = +0
-
 +1 x6cf8e +1 x6cf90 -1 x6cf91 +1 x6d037 -1 x6d2ef = +0
-
 +1 x6cf91 -1 x6cf92 -1 x6cf93 = +0
-
 +1 x6cf93 +1 x6cfca +1 x6d000 -1 x6d001 +0 x6d002 -1 x6d35f = +0
-
 +1 x6cf92 -1 x6cf9e -1 x6cf9f = +0
-
 +1 x6cf9e -1 x6cfaa -1 x6cfab = +0
-
 +1 x6cfaa -1 x6cfae -1 x6cfaf = +0
-
 +1 x6cfae -1 x6cfb2 -1 x6cfb3 = +0
-
 +1 x6cfb2 -1 x6cfb6 -1 x6cfb7 = +0
-
 +1 x6cfaf +1 x6cfb3 +1 x6cfb7 -1 x6cfbc = +0
-
 +1 x6cfbc +1 x6cfbe +1 x6cff4 -1 x6d31d = +0
-
 +1 x6cf9f +1 x6cfab +1 x6cfb6 -1 x6cfc5 = +0
-
 +1 x6cfc5 +1 x6cfc7 -1 x6cfc8 +1 x6cffd -1 x6d326 = +0
-
 +1 x6cfc8 -1 x6cfc9 -1 x6cfca = +0
-
 +1 x6cfc9 -1 x6cfd6 -1 x6cfd7 = +0
-
 +1 x6cfd6 -1 x6cfe2 -1 x6cfe3 = +0
-
 +1 x6cfe2 -1 x6cfe6 -1 x6cfe7 = +0
-
 +1 x6cfe6 -1 x6cfea -1 x6cfeb = +0
-
 +1 x6cfea -1 x6cfee -1 x6cfef = +0
-
 +1 x6cfe7 +1 x6cfeb +1 x6cfef -1 x6cff4 = +0
-
 +1 x6cfd7 +1 x6cfe3 +1 x6cfee -1 x6cffd = +0
-
 +1 x6d001 +1 x6d00b -1 x6d00c -1 x6d36a = +0
-
 +1 x6d00c -1 x6d00d -1 x6d00e = +0
-
 +1 x6d00d -1 x6d01f -1 x6d020 = +0
-
 +1 x6d01f -1 x6d02b -1 x6d02c = +0
-
 +1 x6d020 +1 x6d02c -1 x6d037 = +0
-
 +1 x6d03b -1 x6d04a -1 x6d04b = +0
-
 +1 x6d04b -1 x6d04f -1 x6d050 = +0
-
 +1 x6d04a -1 x6d051 -1 x6d052 = +0
-
 +1 x6d050 -1 x6d059 -1 x6d05a = +0
-
 +1 x6d052 -1 x6d05b -1 x6d05c = +0
-
 +1 x6d051 -1 x6d05d -1 x6d05e = +0
-
 +1 x6d04f -1 x6d05f -1 x6d060 = +0
-
 +1 x6d059 +1 x6d05b -1 x6d064 = +0
-
 +1 x6d05a +1 x6d05c -1 x6d061 = +0
-
 +1 x6d05e +1 x6d060 -1 x6d06b = +0
-
 +1 x6d061 +1 x6d06b -1 x6d06f = +0
-
 +1 x6d05d +1 x6d05f -1 x6d071 = +0
-
 +1 x6d064 +1 x6d071 -1 x6d073 = +0
-
 +1 x6d06f -1 x6d076 -1 x6d077 = +0
-
 +1 x6d073 -1 x6d078 -1 x6d079 = +0
-
 +1 x6d076 +1 x6d078 +1 x6d07a -1 x6d3d9 = +0
-
 +1 x6d077 +1 x6d079 -1 x6d07b = +0
-
 +1 x6d07b +1 x6d07f -1 x6d080 -1 x6d3de = +0
-
 +1 x6d080 -1 x6d081 -1 x6d082 = +0
-
 +1 x6d082 +1 x6d084 -1 x6d3e3 = +0
-
 +1 x6d081 -1 x6d0a0 -1 x6d0a1 = +0
-
 +1 x6d0a0 -1 x6d0ac -1 x6d0ad = +0
-
 +1 x6d0a1 +1 x6d0ac +1 x6d0ad -1 x6d0bb = +0
-
 +1 x6d0bb +1 x6d0bd -1 x6d0be -1 x6d41c = +0
-
 +1 x6d0be -1 x6d0bf -1 x6d0c0 = +0
-
 +1 x6d0bf -1 x6d0cb -1 x6d0cc = +0
-
 +1 x6d0cb -1 x6d0d7 -1 x6d0d8 = +0
-
 +1 x6d0cc +1 x6d0d8 -1 x6d0e3 = +0
-
 +1 x6d0e3 +1 x6d0e5 -1 x6d0e6 +1 x6d10c -1 x6d443 = +0
-
 +1 x6d0e6 -1 x6d0e7 -1 x6d0e8 = +0
-
 +1 x6d0c0 +1 x6d0e8 +1 x6d10f -1 x6d110 +0 x6d111 -1 x6d46d = +0
-
 +1 x6d0e7 -1 x6d0f4 -1 x6d0f5 = +0
-
 +1 x6d0f4 -1 x6d100 -1 x6d101 = +0
-
 +1 x6d0f5 +1 x6d101 -1 x6d10c = +0
-
 +1 x6d110 +1 x6d11a -1 x6d11b -1 x6d478 = +0
-
 +1 x6d11b -1 x6d11c -1 x6d11d = +0
-
 +1 x6d11d +1 x6d1c5 +1 x6d1f1 -1 x6d1f2 +0 x6d1f3 -1 x6d54f = +0
-
 +1 x6d11c -1 x6d12d -1 x6d12e = +0
-
 +1 x6d12d -1 x6d139 -1 x6d13a = +0
-
 +1 x6d139 +1 x6d142 +1 x6d1e2 -1 x6d4a0 = +0
-
 +1 x6d12e +1 x6d13a -1 x6d145 = +0
-
 +1 x6d145 +1 x6d147 -1 x6d148 +1 x6d1ee -1 x6d4a5 = +0
-
 +1 x6d148 -1 x6d149 -1 x6d14a = +0
-
 +1 x6d14a +1 x6d181 +1 x6d1b7 -1 x6d1b8 +0 x6d1b9 -1 x6d515 = +0
-
 +1 x6d149 -1 x6d155 -1 x6d156 = +0
-
 +1 x6d155 -1 x6d161 -1 x6d162 = +0
-
 +1 x6d161 -1 x6d165 -1 x6d166 = +0
-
 +1 x6d165 -1 x6d169 -1 x6d16a = +0
-
 +1 x6d169 -1 x6d16d -1 x6d16e = +0
-
 +1 x6d166 +1 x6d16a +1 x6d16e -1 x6d173 = +0
-
 +1 x6d173 +1 x6d175 +1 x6d1ab -1 x6d4d3 = +0
-
 +1 x6d156 +1 x6d162 +1 x6d16d -1 x6d17c = +0
-
 +1 x6d17c +1 x6d17e -1 x6d17f +1 x6d1b4 -1 x6d4dc = +0
-
 +1 x6d17f -1 x6d180 -1 x6d181 = +0
-
 +1 x6d180 -1 x6d18d -1 x6d18e = +0
-
 +1 x6d18d -1 x6d199 -1 x6d19a = +0
-
 +1 x6d199 -1 x6d19d -1 x6d19e = +0
-
 +1 x6d19d -1 x6d1a1 -1 x6d1a2 = +0
-
 +1 x6d1a1 -1 x6d1a5 -1 x6d1a6 = +0
-
 +1 x6d19e +1 x6d1a2 +1 x6d1a6 -1 x6d1ab = +0
-
 +1 x6d18e +1 x6d19a +1 x6d1a5 -1 x6d1b4 = +0
-
 +1 x6d1b8 +1 x6d1c2 -1 x6d1c3 -1 x6d520 = +0
-
 +1 x6d1c3 -1 x6d1c4 -1 x6d1c5 = +0
-
 +1 x6d1c4 -1 x6d1d6 -1 x6d1d7 = +0
-
 +1 x6d1d6 -1 x6d1e2 -1 x6d1e3 = +0
-
 +1 x6d1d7 +1 x6d1e3 -1 x6d1ee = +0
-
 +1 x6d1f2 -1 x6d201 -1 x6d202 = +0
-
 +1 x6d202 -1 x6d206 -1 x6d207 = +0
-
 +1 x6d201 -1 x6d208 -1 x6d209 = +0
-
 +1 x6d207 +1 x6d209 -1 x6d20f -1 x6d210 = +0
-
 +1 x6d206 +1 x6d208 -1 x6d20e = +0
-
 +1 x6d20e -1 x6d211 -1 x6d212 = +0
-
 +1 x6d210 +1 x6d212 -1 x6d21d = +0
-
 +1 x6d20f +1 x6d211 -1 x6d221 = +0
-
 +1 x6d21d +1 x6d221 -1 x6d226 = +0
-
 +1 x6d226 -1 x6d229 -1 x6d22a = +0
-
 +1 x6d229 +1 x6d22a -1 x6d23a = +0
-
 +1 x6d23a -1 x6d248 -1 x6d249 = +0
-
 +1 x6d248 -1 x6d254 -1 x6d255 = +0
-
 +1 x6d249 +1 x6d254 +1 x6d255 -1 x6d263 = +0
-
 +1 x6d263 +1 x6d265 -1 x6d266 -1 x6d5c3 = +0
-
 +1 x6d266 -1 x6d267 -1 x6d268 = +0
-
 +1 x6d268 +1 x6d290 +1 x6d2b7 -1 x6d2b8 +0 x6d2b9 -1 x6d614 = +0
-
 +1 x6d267 -1 x6d273 -1 x6d274 = +0
-
 +1 x6d273 -1 x6d27f -1 x6d280 = +0
-
 +1 x6d274 +1 x6d280 -1 x6d28b = +0
-
 +1 x6d28b +1 x6d28d -1 x6d28e +1 x6d2b4 -1 x6d5ea = +0
-
 +1 x6d28e -1 x6d28f -1 x6d290 = +0
-
 +1 x6d28f -1 x6d29c -1 x6d29d = +0
-
 +1 x6d29c -1 x6d2a8 -1 x6d2a9 = +0
-
 +1 x6d29d +1 x6d2a9 -1 x6d2b4 = +0
-
 +1 x6d2b8 +1 x6d2c2 -1 x6d2c3 -1 x6d61f = +0
-
 +1 x6d2c3 -1 x6d2c4 -1 x6d2c5 = +0
-
 +1 x6d2c5 +1 x6d36d +1 x6d399 -1 x6d39a +0 x6d39b -1 x6d6f6 = +0
-
 +1 x6d2c4 -1 x6d2d5 -1 x6d2d6 = +0
-
 +1 x6d2d5 -1 x6d2e1 -1 x6d2e2 = +0
-
 +1 x6d2e1 +1 x6d2ea +1 x6d38a -1 x6d647 = +0
-
 +1 x6d2d6 +1 x6d2e2 -1 x6d2ed = +0
-
 +1 x6d2ed +1 x6d2ef -1 x6d2f0 +1 x6d396 -1 x6d64c = +0
-
 +1 x6d2f0 -1 x6d2f1 -1 x6d2f2 = +0
-
 +1 x6d2f2 +1 x6d329 +1 x6d35f -1 x6d360 +0 x6d361 -1 x6d6bc = +0
-
 +1 x6d2f1 -1 x6d2fd -1 x6d2fe = +0
-
 +1 x6d2fd -1 x6d309 -1 x6d30a = +0
-
 +1 x6d309 -1 x6d30d -1 x6d30e = +0
-
 +1 x6d30d -1 x6d311 -1 x6d312 = +0
-
 +1 x6d311 -1 x6d315 -1 x6d316 = +0
-
 +1 x6d30e +1 x6d312 +1 x6d316 -1 x6d31b = +0
-
 +1 x6d31b +1 x6d31d +1 x6d353 -1 x6d67a = +0
-
 +1 x6d2fe +1 x6d30a +1 x6d315 -1 x6d324 = +0
-
 +1 x6d324 +1 x6d326 -1 x6d327 +1 x6d35c -1 x6d683 = +0
-
 +1 x6d327 -1 x6d328 -1 x6d329 = +0
-
 +1 x6d328 -1 x6d335 -1 x6d336 = +0
-
 +1 x6d335 -1 x6d341 -1 x6d342 = +0
-
 +1 x6d341 -1 x6d345 -1 x6d346 = +0
-
 +1 x6d345 -1 x6d349 -1 x6d34a = +0
-
 +1 x6d349 -1 x6d34d -1 x6d34e = +0
-
 +1 x6d346 +1 x6d34a +1 x6d34e -1 x6d353 = +0
-
 +1 x6d336 +1 x6d342 +1 x6d34d -1 x6d35c = +0
-
 +1 x6d360 +1 x6d36a -1 x6d36b -1 x6d6c7 = +0
-
 +1 x6d36b -1 x6d36c -1 x6d36d = +0
-
 +1 x6d36c -1 x6d37e -1 x6d37f = +0
-
 +1 x6d37e -1 x6d38a -1 x6d38b = +0
-
 +1 x6d37f +1 x6d38b -1 x6d396 = +0
-
 +1 x6d39a -1 x6d3a9 -1 x6d3aa = +0
-
 +1 x6d3aa -1 x6d3ae -1 x6d3af = +0
-
 +1 x6d3a9 -1 x6d3b0 -1 x6d3b1 = +0
-
 +1 x6d3af -1 x6d3b8 -1 x6d3b9 = +0
-
 +1 x6d3b1 -1 x6d3ba -1 x6d3bb = +0
-
 +1 x6d3b0 -1 x6d3bc -1 x6d3bd = +0
-
 +1 x6d3ae -1 x6d3be -1 x6d3bf = +0
-
 +1 x6d3b8 +1 x6d3ba -1 x6d3c3 = +0
-
 +1 x6d3b9 +1 x6d3bb -1 x6d3c0 = +0
-
 +1 x6d3bd +1 x6d3bf -1 x6d3ca = +0
-
 +1 x6d3c0 +1 x6d3ca -1 x6d3ce = +0
-
 +1 x6d3bc +1 x6d3be -1 x6d3d0 = +0
-
 +1 x6d3c3 +1 x6d3d0 -1 x6d3d2 = +0
-
 +1 x6d3ce -1 x6d3d5 -1 x6d3d6 = +0
-
 +1 x6d3d2 -1 x6d3d7 -1 x6d3d8 = +0
-
 +1 x6d3d5 +1 x6d3d7 +1 x6d3d9 +1 x6d736 -1 x6d73c = +0
-
 +1 x6d3d6 +1 x6d3d8 -1 x6d3da = +0
-
 +1 x6d3da +1 x6d3de -1 x6d3df +1 x6d737 -1 x6e1e8 = +0
-
 +1 x6d3df -1 x6d3e0 -1 x6d3e1 = +0
-
 +1 x6d3e1 +1 x6d3e3 -1 x6d73d +0 x6d73e +1 x6da5c -1 x6e228 = +0
-
 +1 x6d3e0 -1 x6d3ff -1 x6d400 = +0
-
 +1 x6d3ff -1 x6d40b -1 x6d40c = +0
-
 +1 x6d400 +1 x6d40b +1 x6d40c -1 x6d41a = +0
-
 +1 x6d41a +1 x6d41c -1 x6d41d +1 x6da94 -1 x6dec8 = +0
-
 +1 x6d41d -1 x6d41e -1 x6d41f = +0
-
 +1 x6d41e -1 x6d42a -1 x6d42b = +0
-
 +1 x6d42a -1 x6d436 -1 x6d437 = +0
-
 +1 x6d42b +1 x6d437 -1 x6d441 = +0
-
 +1 x6d441 +1 x6d443 -1 x6d444 +1 x6d46a -1 x6def0 = +0
-
 +1 x6d444 -1 x6d445 -1 x6d446 = +0
-
 +1 x6d41f +1 x6d446 +1 x6d46d -1 x6d46e +0 x6d46f -1 x6df1a = +0
-
 +1 x6d445 -1 x6d452 -1 x6d453 = +0
-
 +1 x6d452 -1 x6d45e -1 x6d45f = +0
-
 +1 x6d436 +1 x6d45e -1 x6deeb = +0
-
 +1 x6d453 +1 x6d45f -1 x6d46a = +0
-
 +1 x6d46e +1 x6d478 -1 x6d479 -1 x6df25 = +0
-
 +1 x6d479 -1 x6d47a -1 x6d47b = +0
-
 +1 x6d47b +1 x6d523 +1 x6d54f -1 x6d550 +0 x6d551 -1 x6dffc = +0
-
 +1 x6d47a -1 x6d48b -1 x6d48c = +0
-
 +1 x6d48b -1 x6d497 -1 x6d498 = +0
-
 +1 x6d497 +1 x6d4a0 +1 x6d540 -1 x6df4d = +0
-
 +1 x6d48c +1 x6d498 -1 x6d4a3 = +0
-
 +1 x6d4a3 +1 x6d4a5 -1 x6d4a6 +1 x6d54c -1 x6df52 = +0
-
 +1 x6d4a6 -1 x6d4a7 -1 x6d4a8 = +0
-
 +1 x6d4a8 +1 x6d4df +1 x6d515 -1 x6d516 +0 x6d517 -1 x6dfc2 = +0
-
 +1 x6d4a7 -1 x6d4b3 -1 x6d4b4 = +0
-
 +1 x6d4b3 -1 x6d4bf -1 x6d4c0 = +0
-
 +1 x6d4bf -1 x6d4c3 -1 x6d4c4 = +0
-
 +1 x6d4c3 -1 x6d4c7 -1 x6d4c8 = +0
-
 +1 x6d4c7 -1 x6d4cb -1 x6d4cc = +0
-
 +1 x6d4c4 +1 x6d4c8 +1 x6d4cc -1 x6d4d1 = +0
-
 +1 x6d4d1 +1 x6d4d3 +1 x6d509 -1 x6df80 = +0
-
 +1 x6d4b4 +1 x6d4c0 +1 x6d4cb -1 x6d4da = +0
-
 +1 x6d4da +1 x6d4dc -1 x6d4dd +1 x6d512 -1 x6df89 = +0
-
 +1 x6d4dd -1 x6d4de -1 x6d4df = +0
-
 +1 x6d4de -1 x6d4eb -1 x6d4ec = +0
-
 +1 x6d4eb -1 x6d4f7 -1 x6d4f8 = +0
-
 +1 x6d4f7 -1 x6d4fb -1 x6d4fc = +0
-
 +1 x6d4fb -1 x6d4ff -1 x6d500 = +0
-
 +1 x6d4ff -1 x6d503 -1 x6d504 = +0
-
 +1 x6d4fc +1 x6d500 +1 x6d504 -1 x6d509 = +0
-
 +1 x6d4ec +1 x6d4f8 +1 x6d503 -1 x6d512 = +0
-
 +1 x6d516 +1 x6d520 -1 x6d521 -1 x6dfcd = +0
-
 +1 x6d521 -1 x6d522 -1 x6d523 = +0
-
 +1 x6d522 -1 x6d534 -1 x6d535 = +0
-
 +1 x6d534 -1 x6d540 -1 x6d541 = +0
-
 +1 x6d535 +1 x6d541 -1 x6d54c = +0
-
 +1 x6d550 -1 x6d55f -1 x6d560 = +0
-
 +1 x6d560 -1 x6d564 -1 x6d565 = +0
-
 +1 x6d55f -1 x6d566 -1 x6d567 = +0
-
 +1 x6d565 +1 x6d567 -1 x6d56d -1 x6d56e = +0
-
 +1 x6d564 +1 x6d566 -1 x6d56c = +0
-
 +1 x6d56c -1 x6d56f -1 x6d570 = +0
-
 +1 x6d56e +1 x6d570 -1 x6d57b = +0
-
 +1 x6d56d +1 x6d56f -1 x6d57f = +0
-
 +1 x6d57b +1 x6d57f -1 x6d584 = +0
-
 +1 x6d584 -1 x6d587 -1 x6d588 = +0
-
 +1 x6d587 +1 x6d588 -1 x6d598 = +0
-
 +1 x6d598 -1 x6d5a6 -1 x6d5a7 = +0
-
 +1 x6d5a6 -1 x6d5b2 -1 x6d5b3 = +0
-
 +1 x6d5a7 +1 x6d5b2 +1 x6d5b3 -1 x6d5c1 = +0
-
 +1 x6d5c1 +1 x6d5c3 -1 x6d5c4 -1 x6e070 = +0
-
 +1 x6d5c4 -1 x6d5c5 -1 x6d5c6 = +0
-
 +1 x6d5c6 +1 x6d5ed +1 x6d614 -1 x6d615 +0 x6d616 -1 x6e0c2 = +0
-
 +1 x6d5c5 -1 x6d5d1 -1 x6d5d2 = +0
-
 +1 x6d5d1 -1 x6d5dd -1 x6d5de = +0
-
 +1 x6d5dd +1 x6d605 -1 x6e093 = +0
-
 +1 x6d5d2 +1 x6d5de -1 x6d5e8 = +0
-
 +1 x6d5e8 +1 x6d5ea -1 x6d5eb +1 x6d611 -1 x6e098 = +0
-
 +1 x6d5eb -1 x6d5ec -1 x6d5ed = +0
-
 +1 x6d5ec -1 x6d5f9 -1 x6d5fa = +0
-
 +1 x6d5f9 -1 x6d605 -1 x6d606 = +0
-
 +1 x6d5fa +1 x6d606 -1 x6d611 = +0
-
 +1 x6d615 +1 x6d61f -1 x6d620 -1 x6e0cd = +0
-
 +1 x6d620 -1 x6d621 -1 x6d622 = +0
-
 +1 x6d622 +1 x6d6ca +1 x6d6f6 -1 x6d6f7 +0 x6d6f8 -1 x6e1a4 = +0
-
 +1 x6d621 -1 x6d632 -1 x6d633 = +0
-
 +1 x6d632 -1 x6d63e -1 x6d63f = +0
-
 +1 x6d63e +1 x6d647 +1 x6d6e7 -1 x6e0f5 = +0
-
 +1 x6d633 +1 x6d63f -1 x6d64a = +0
-
 +1 x6d64a +1 x6d64c -1 x6d64d +1 x6d6f3 -1 x6e0fa = +0
-
 +1 x6d64d -1 x6d64e -1 x6d64f = +0
-
 +1 x6d64f +1 x6d686 +1 x6d6bc -1 x6d6bd +0 x6d6be -1 x6e16a = +0
-
 +1 x6d64e -1 x6d65a -1 x6d65b = +0
-
 +1 x6d65a -1 x6d666 -1 x6d667 = +0
-
 +1 x6d666 -1 x6d66a -1 x6d66b = +0
-
 +1 x6d66a -1 x6d66e -1 x6d66f = +0
-
 +1 x6d66e -1 x6d672 -1 x6d673 = +0
-
 +1 x6d66b +1 x6d66f +1 x6d673 -1 x6d678 = +0
-
 +1 x6d678 +1 x6d67a +1 x6d6b0 -1 x6e128 = +0
-
 +1 x6d65b +1 x6d667 +1 x6d672 -1 x6d681 = +0
-
 +1 x6d681 +1 x6d683 -1 x6d684 +1 x6d6b9 -1 x6e131 = +0
-
 +1 x6d684 -1 x6d685 -1 x6d686 = +0
-
 +1 x6d685 -1 x6d692 -1 x6d693 = +0
-
 +1 x6d692 -1 x6d69e -1 x6d69f = +0
-
 +1 x6d69e -1 x6d6a2 -1 x6d6a3 = +0
-
 +1 x6d6a2 -1 x6d6a6 -1 x6d6a7 = +0
-
 +1 x6d6a6 -1 x6d6aa -1 x6d6ab = +0
-
 +1 x6d6a3 +1 x6d6a7 +1 x6d6ab -1 x6d6b0 = +0
-
 +1 x6d693 +1 x6d69f +1 x6d6aa -1 x6d6b9 = +0
-
 +1 x6d6bd +1 x6d6c7 -1 x6d6c8 -1 x6e175 = +0
-
 +1 x6d6c8 -1 x6d6c9 -1 x6d6ca = +0
-
 +1 x6d6c9 -1 x6d6db -1 x6d6dc = +0
-
 +1 x6d6db -1 x6d6e7 -1 x6d6e8 = +0
-
 +1 x6d6dc +1 x6d6e8 -1 x6d6f3 = +0
-
 +1 x6d6f7 -1 x6d706 -1 x6d707 = +0
-
 +1 x6d707 -1 x6d70b -1 x6d70c = +0
-
 +1 x6d706 -1 x6d70d -1 x6d70e = +0
-
 +1 x6d70c -1 x6d715 -1 x6d716 = +0
-
 +1 x6d70e -1 x6d717 -1 x6d718 = +0
-
 +1 x6d70d -1 x6d719 -1 x6d71a = +0
-
 +1 x6d70b -1 x6d71b -1 x6d71c = +0
-
 +1 x6d715 +1 x6d717 -1 x6d720 = +0
-
 +1 x6d716 +1 x6d718 -1 x6d71d = +0
-
 +1 x6d71a +1 x6d71c -1 x6d727 = +0
-
 +1 x6d71d +1 x6d727 -1 x6d72b = +0
-
 +1 x6d719 +1 x6d71b -1 x6d72d = +0
-
 +1 x6d720 +1 x6d72d -1 x6d72f = +0
-
 +1 x6d72b -1 x6d732 -1 x6d733 = +0
-
 +1 x6d72f -1 x6d734 -1 x6d735 = +0
-
 +1 x6d732 +1 x6d734 -1 x6d736 = +0
-
 +1 x6d733 +1 x6d735 -1 x6d737 = +0
-
 +1 x6d73c -1 x6d73f +0 x6d740 -1 x6e229 = +0
-
 +1 x5dea2 -1 x6d759 -1 x6d75a = +0
-
 +1 x6d75a -1 x6d7a0 +0 x6d7a1 = +0
-
 +1 x6d759 -1 x6d76f -1 x6d770 = +0
-
 +1 x6d76f +1 x6d792 -1 x76fba = +0
-
 +1 x6d770 -1 x6d77b +1 x6d793 -1 x6db9e = +0
-
 +1 x6d77b -1 x6d77c -1 x6d77d = +0
-
 +1 x6d77d -1 x6d7a2 +0 x6d7a3 -1 x6dbc5 = +0
-
 +1 x6d77c -1 x6d792 -1 x6d793 = +0
-
 +1 x6d7a0 +1 x6d7a2 -1 x6d7b0 = +0
-
 +1 x6d7b0 -1 x6d7b2 -1 x6dbd0 = +0
-
 +1 x6d7b2 -1 x6d7b3 -1 x6d7b4 = +0
-
 +1 x6d7b4 +1 x6d856 -1 x6d882 +0 x6d883 -1 x6dca7 = +0
-
 +1 x6d7b3 -1 x6d7c4 -1 x6d7c5 = +0
-
 +1 x6d7c4 -1 x6d7d0 -1 x6d7d1 = +0
-
 +1 x6d7d0 +1 x6d873 -1 x6dbf8 = +0
-
 +1 x6d7c5 +1 x6d7d1 -1 x6d7db = +0
-
 +1 x6d7db -1 x6d7dd +1 x6d87f -1 x6dbfd = +0
-
 +1 x6d7dd -1 x6d7de -1 x6d7df = +0
-
 +1 x6d7df +1 x6d814 -1 x6d84a +0 x6d84b -1 x6dc6d = +0
-
 +1 x6d7de -1 x6d7ea -1 x6d7eb = +0
-
 +1 x6d7ea -1 x6d7f6 -1 x6d7f7 = +0
-
 +1 x6d7f6 -1 x6d7fa -1 x6d7fb = +0
-
 +1 x6d7fa -1 x6d7fe -1 x6d7ff = +0
-
 +1 x6d7fe -1 x6d802 -1 x6d803 = +0
-
 +1 x6d7fb +1 x6d7ff +1 x6d803 -1 x6d808 = +0
-
 +1 x6d808 +1 x6d83e -1 x6dc2b = +0
-
 +1 x6d7eb +1 x6d7f7 +1 x6d802 -1 x6d810 = +0
-
 +1 x6d810 -1 x6d812 +1 x6d847 -1 x6dc34 = +0
-
 +1 x6d812 -1 x6d813 -1 x6d814 = +0
-
 +1 x6d813 -1 x6d820 -1 x6d821 = +0
-
 +1 x6d820 -1 x6d82c -1 x6d82d = +0
-
 +1 x6d82c -1 x6d830 -1 x6d831 = +0
-
 +1 x6d830 -1 x6d834 -1 x6d835 = +0
-
 +1 x6d834 -1 x6d838 -1 x6d839 = +0
-
 +1 x6d831 +1 x6d835 +1 x6d839 -1 x6d83e = +0
-
 +1 x6d821 +1 x6d82d +1 x6d838 -1 x6d847 = +0
-
 +1 x6d84a -1 x6d854 -1 x6dc78 = +0
-
 +1 x6d854 -1 x6d855 -1 x6d856 = +0
-
 +1 x6d855 -1 x6d867 -1 x6d868 = +0
-
 +1 x6d867 -1 x6d873 -1 x6d874 = +0
-
 +1 x6d868 +1 x6d874 -1 x6d87f = +0
-
 +1 x6d882 -1 x6d891 -1 x6d892 = +0
-
 +1 x6d892 -1 x6d896 -1 x6d897 = +0
-
 +1 x6d891 -1 x6d898 -1 x6d899 = +0
-
 +1 x6d897 +1 x6d899 -1 x6d89f -1 x6d8a0 = +0
-
 +1 x6d896 +1 x6d898 -1 x6d89e = +0
-
 +1 x6d89e -1 x6d8a1 -1 x6d8a2 = +0
-
 +1 x6d8a0 +1 x6d8a2 -1 x6d8ad = +0
-
 +1 x6d89f +1 x6d8a1 -1 x6d8b1 = +0
-
 +1 x6d8ad +1 x6d8b1 -1 x6d8b6 = +0
-
 +1 x6d8b6 -1 x6d8b9 -1 x6d8ba = +0
-
 +1 x6d8b9 +1 x6d8ba -1 x6d8cc = +0
-
 +1 x6d8cc -1 x6d8e4 -1 x6d8e5 = +0
-
 +1 x6d8e4 +1 x6d8e5 -1 x6d8f2 = +0
-
 +1 x6d8f2 -1 x6d8f4 -1 x6dd1a = +0
-
 +1 x6d8f4 -1 x6d8f5 -1 x6d8f6 = +0
-
 +1 x6d8f6 +1 x6d919 -1 x6d93d +0 x6d93e -1 x6dd65 = +0
-
 +1 x6d8f5 -1 x6d90b -1 x6d90c = +0
-
 +1 x6d90b +1 x6d92f -1 x749f1 = +0
-
 +1 x6d90c -1 x6d917 +1 x6d930 -1 x6dd3e = +0
-
 +1 x6d917 -1 x6d918 -1 x6d919 = +0
-
 +1 x6d918 -1 x6d92f -1 x6d930 = +0
-
 +1 x6d93d -1 x6d947 -1 x6dd70 = +0
-
 +1 x6d947 -1 x6d948 -1 x6d949 = +0
-
 +1 x6d949 +1 x6d9eb -1 x6da17 +0 x6da18 -1 x6de47 = +0
-
 +1 x6d948 -1 x6d959 -1 x6d95a = +0
-
 +1 x6d959 -1 x6d965 -1 x6d966 = +0
-
 +1 x6d965 +1 x6da08 -1 x6dd98 = +0
-
 +1 x6d95a +1 x6d966 -1 x6d970 = +0
-
 +1 x6d970 -1 x6d972 +1 x6da14 -1 x6dd9d = +0
-
 +1 x6d972 -1 x6d973 -1 x6d974 = +0
-
 +1 x6d974 +1 x6d9a9 -1 x6d9df +0 x6d9e0 -1 x6de0d = +0
-
 +1 x6d973 -1 x6d97f -1 x6d980 = +0
-
 +1 x6d97f -1 x6d98b -1 x6d98c = +0
-
 +1 x6d98b -1 x6d98f -1 x6d990 = +0
-
 +1 x6d98f -1 x6d993 -1 x6d994 = +0
-
 +1 x6d993 -1 x6d997 -1 x6d998 = +0
-
 +1 x6d990 +1 x6d994 +1 x6d998 -1 x6d99d = +0
-
 +1 x6d99d +1 x6d9d3 -1 x6ddcb = +0
-
 +1 x6d980 +1 x6d98c +1 x6d997 -1 x6d9a5 = +0
-
 +1 x6d9a5 -1 x6d9a7 +1 x6d9dc -1 x6ddd4 = +0
-
 +1 x6d9a7 -1 x6d9a8 -1 x6d9a9 = +0
-
 +1 x6d9a8 -1 x6d9b5 -1 x6d9b6 = +0
-
 +1 x6d9b5 -1 x6d9c1 -1 x6d9c2 = +0
-
 +1 x6d9c1 -1 x6d9c5 -1 x6d9c6 = +0
-
 +1 x6d9c5 -1 x6d9c9 -1 x6d9ca = +0
-
 +1 x6d9c9 -1 x6d9cd -1 x6d9ce = +0
-
 +1 x6d9c6 +1 x6d9ca +1 x6d9ce -1 x6d9d3 = +0
-
 +1 x6d9b6 +1 x6d9c2 +1 x6d9cd -1 x6d9dc = +0
-
 +1 x6d9df -1 x6d9e9 -1 x6de18 = +0
-
 +1 x6d9e9 -1 x6d9ea -1 x6d9eb = +0
-
 +1 x6d9ea -1 x6d9fc -1 x6d9fd = +0
-
 +1 x6d9fc -1 x6da08 -1 x6da09 = +0
-
 +1 x6d9fd +1 x6da09 -1 x6da14 = +0
-
 +1 x6da17 -1 x6da26 -1 x6da27 = +0
-
 +1 x6da27 -1 x6da2b -1 x6da2c = +0
-
 +1 x6da26 -1 x6da2d -1 x6da2e = +0
-
 +1 x6da2c -1 x6da35 -1 x6da36 = +0
-
 +1 x6da2e -1 x6da37 -1 x6da38 = +0
-
 +1 x6da2d -1 x6da39 -1 x6da3a = +0
-
 +1 x6da2b -1 x6da3b -1 x6da3c = +0
-
 +1 x6da35 +1 x6da37 -1 x6da40 = +0
-
 +1 x6da36 +1 x6da38 -1 x6da3d = +0
-
 +1 x6da3a +1 x6da3c -1 x6da47 = +0
-
 +1 x6da3d +1 x6da47 -1 x6da4b = +0
-
 +1 x6da39 +1 x6da3b -1 x6da4d = +0
-
 +1 x6da40 +1 x6da4d -1 x6da4f = +0
-
 +1 x6da4b -1 x6da52 -1 x6da53 = +0
-
 +1 x6da4f -1 x6da54 -1 x6da55 = +0
-
 +1 x6da52 +1 x6da54 -1 x6da9a = +0
-
 +1 x6da53 +1 x6da55 -1 x6da56 = +0
-
 +1 x6da56 -1 x6da5a -1 x6de8b = +0
-
 +1 x6da5a -1 x6da5b -1 x6da5c = +0
-
 +1 x6da5b -1 x6da79 -1 x6da7a = +0
-
 +1 x6da79 -1 x6da85 -1 x6da86 = +0
-
 +1 x6da7a +1 x6da85 +1 x6da86 -1 x6da94 = +0
-
 +1 x6d73f +1 x6da9a -1 x6daa6 = +0
-
 +1 x6d73d +1 x6daa6 -1 x6daab = +0
-
 +1 x6daab -1 x6daac -1 x6e247 = +0
-
 +1 x6daac -1 x6daad -1 x6daae = +0
-
 +1 x6daad -1 x6dab5 -1 x6dab6 = +0
-
 +1 x6dab6 -1 x6dac5 -1 x6dac6 = +0
-
 +1 x6dac5 -1 x6daf3 -1 x6daf4 = +0
-
 +1 x6daf3 +1 x6daf4 -1 x6db01 = +0
-
 +1 x6b922 -1 x6db0f -1 x6e9da = +0
-
 +1 x6db0f -1 x6db10 -1 x6db11 = +0
-
 +1 x6db10 -1 x6db15 -1 x6db16 = +0
-
 +1 x6db15 -1 x6db1d -1 x6db1f = +0
-
 +1 x6db1f -1 x6db25 -1 x6db26 = +0
-
 +1 x6db25 -1 x6db2d -1 x6db2e = +0
-
 +1 x6db2e -1 x6db3d -1 x6db3e = +0
-
 +1 x6db3d -1 x6db6b -1 x6db6c = +0
-
 +1 x6db6b +1 x6db6c -1 x6db79 = +0
-
 +1 x6db79 -1 x6db7b +1 x6ea46 +1 x782e5 = +0
-
 +1 x6db7b -1 x6db7c -1 x6db7d = +0
-
 +1 x6db7c -1 x6db92 -1 x6db93 = +0
-
 +1 x6db93 +1 x6db9e -1 x6db9f +1 x6dbb8 = +0
-
 +1 x6db9f -1 x6dba0 -1 x6dba1 = +0
-
 +1 x6db7d +1 x6dba1 +1 x6dbc5 -1 x6dbc6 +0 x6dbc7 = +0
-
 +1 x6dba0 -1 x6dbb7 -1 x6dbb8 = +0
-
 +1 x6db92 +1 x6dbb7 -1 x76fbb = +0
-
 +1 x6dbc6 +1 x6dbd0 -1 x6dbd1 = +0
-
 +1 x6dbd1 -1 x6dbd2 -1 x6dbd3 = +0
-
 +1 x6dbd3 +1 x6dc7b +1 x6dca7 -1 x6dca8 +0 x6dca9 = +0
-
 +1 x6dbd2 -1 x6dbe3 -1 x6dbe4 = +0
-
 +1 x6dbe3 -1 x6dbef -1 x6dbf0 = +0
-
 +1 x6dbef +1 x6dbf8 +1 x6dc98 -1 x762c7 = +0
-
 +1 x6dbe4 +1 x6dbf0 -1 x6dbfb = +0
-
 +1 x6dbfb +1 x6dbfd -1 x6dbfe +1 x6dca4 = +0
-
 +1 x6dbfe -1 x6dbff -1 x6dc00 = +0
-
 +1 x6dc00 +1 x6dc37 +1 x6dc6d -1 x6dc6e +0 x6dc6f +1 x76058 +1 x76db2 = +0
-
 +1 x6dbff -1 x6dc0b -1 x6dc0c = +0
-
 +1 x6dc0b -1 x6dc17 -1 x6dc18 = +0
-
 +1 x6dc17 -1 x6dc1b -1 x6dc1c = +0
-
 +1 x6dc1b -1 x6dc1f -1 x6dc20 = +0
-
 +1 x6dc1f -1 x6dc23 -1 x6dc24 = +0
-
 +1 x6dc1c +1 x6dc20 +1 x6dc24 -1 x6dc29 = +0
-
 +1 x6dc29 +1 x6dc2b +1 x6dc61 -1 x755b1 = +0
-
 +1 x6dc0c +1 x6dc18 +1 x6dc23 -1 x6dc32 = +0
-
 +1 x6dc32 +1 x6dc34 -1 x6dc35 +1 x6dc6a +1 x75acb +1 x76089 +1 x76773 +1 x76de3
 = +0
-
 +1 x6dc35 -1 x6dc36 -1 x6dc37 = +0
-
 +1 x6dc36 -1 x6dc43 -1 x6dc44 = +0
-
 +1 x6dc43 -1 x6dc4f -1 x6dc50 = +0
-
 +1 x6dc4f -1 x6dc53 -1 x6dc54 = +0
-
 +1 x6dc53 -1 x6dc57 -1 x6dc58 = +0
-
 +1 x6dc57 -1 x6dc5b -1 x6dc5c = +0
-
 +1 x6dc54 +1 x6dc58 +1 x6dc5c -1 x6dc61 = +0
-
 +1 x6dc44 +1 x6dc50 +1 x6dc5b -1 x6dc6a = +0
-
 +1 x6dc6e +1 x6dc78 -1 x6dc79 +1 x75ace = +0
-
 +1 x6dc79 -1 x6dc7a -1 x6dc7b = +0
-
 +1 x6dc7a -1 x6dc8c -1 x6dc8d = +0
-
 +1 x6dc8c -1 x6dc98 -1 x6dc99 = +0
-
 +1 x6dc8d +1 x6dc99 -1 x6dca4 = +0
-
 +1 x6dca8 -1 x6dcb7 -1 x6dcb8 = +0
-
 +1 x6dcb8 -1 x6dcbc -1 x6dcbd = +0
-
 +1 x6dcb7 -1 x6dcbe -1 x6dcbf = +0
-
 +1 x6dcbd +1 x6dcbf -1 x6dcc5 -1 x6dcc6 = +0
-
 +1 x6dcbc +1 x6dcbe -1 x6dcc4 = +0
-
 +1 x6dcc4 -1 x6dcc7 -1 x6dcc8 = +0
-
 +1 x6dcc6 +1 x6dcc8 -1 x6dcd3 = +0
-
 +1 x6dcc5 +1 x6dcc7 -1 x6dcd7 = +0
-
 +1 x6dcd3 +1 x6dcd7 -1 x6dcdc = +0
-
 +1 x6dcdc -1 x6dcdf -1 x6dce0 = +0
-
 +1 x6dcdf +1 x6dce0 -1 x6dcf2 = +0
-
 +1 x6dcf2 -1 x6dd0a -1 x6dd0b = +0
-
 +1 x6dd0a +1 x6dd0b -1 x6dd18 = +0
-
 +1 x6dd18 +1 x6dd1a -1 x6dd1b = +0
-
 +1 x6dd1b -1 x6dd1c -1 x6dd1d = +0
-
 +1 x6dd1d +1 x6dd41 +1 x6dd65 -1 x6dd66 +0 x6dd67 +1 x75310 = +0
-
 +1 x6dd1c -1 x6dd32 -1 x6dd33 = +0
-
 +1 x6dd32 +1 x6dd57 -1 x749f2 = +0
-
 +1 x6dd33 +1 x6dd3e -1 x6dd3f +1 x6dd58 +1 x74e5e +1 x75326 = +0
-
 +1 x6dd3f -1 x6dd40 -1 x6dd41 = +0
-
 +1 x6dd40 -1 x6dd57 -1 x6dd58 = +0
-
 +1 x6dd66 +1 x6dd70 -1 x6dd71 +1 x74e6a = +0
-
 +1 x6dd71 -1 x6dd72 -1 x6dd73 = +0
-
 +1 x6dd73 +1 x6de1b +1 x6de47 -1 x6de48 +0 x6de49 = +0
-
 +1 x6dd72 -1 x6dd83 -1 x6dd84 = +0
-
 +1 x6dd83 -1 x6dd8f -1 x6dd90 = +0
-
 +1 x6dd8f +1 x6dd98 +1 x6de38 -1 x73cfe = +0
-
 +1 x6dd84 +1 x6dd90 -1 x6dd9b = +0
-
 +1 x6dd9b +1 x6dd9d -1 x6dd9e +1 x6de44 = +0
-
 +1 x6dd9e -1 x6dd9f -1 x6dda0 = +0
-
 +1 x6dda0 +1 x6ddd7 +1 x6de0d -1 x6de0e +0 x6de0f +1 x73a8f +1 x747e9 = +0
-
 +1 x6dd9f -1 x6ddab -1 x6ddac = +0
-
 +1 x6ddab -1 x6ddb7 -1 x6ddb8 = +0
-
 +1 x6ddb7 -1 x6ddbb -1 x6ddbc = +0
-
 +1 x6ddbb -1 x6ddbf -1 x6ddc0 = +0
-
 +1 x6ddbf -1 x6ddc3 -1 x6ddc4 = +0
-
 +1 x6ddbc +1 x6ddc0 +1 x6ddc4 -1 x6ddc9 = +0
-
 +1 x6ddc9 +1 x6ddcb +1 x6de01 -1 x72fe8 = +0
-
 +1 x6ddac +1 x6ddb8 +1 x6ddc3 -1 x6ddd2 = +0
-
 +1 x6ddd2 +1 x6ddd4 -1 x6ddd5 +1 x6de0a +1 x73502 +1 x73ac0 +1 x741aa +1 x7481a
 = +0
-
 +1 x6ddd5 -1 x6ddd6 -1 x6ddd7 = +0
-
 +1 x6ddd6 -1 x6dde3 -1 x6dde4 = +0
-
 +1 x6dde3 -1 x6ddef -1 x6ddf0 = +0
-
 +1 x6ddef -1 x6ddf3 -1 x6ddf4 = +0
-
 +1 x6ddf3 -1 x6ddf7 -1 x6ddf8 = +0
-
 +1 x6ddf7 -1 x6ddfb -1 x6ddfc = +0
-
 +1 x6ddf4 +1 x6ddf8 +1 x6ddfc -1 x6de01 = +0
-
 +1 x6dde4 +1 x6ddf0 +1 x6ddfb -1 x6de0a = +0
-
 +1 x6de0e +1 x6de18 -1 x6de19 +1 x73505 = +0
-
 +1 x6de19 -1 x6de1a -1 x6de1b = +0
-
 +1 x6de1a -1 x6de2c -1 x6de2d = +0
-
 +1 x6de2c -1 x6de38 -1 x6de39 = +0
-
 +1 x6de2d +1 x6de39 -1 x6de44 = +0
-
 +1 x6de48 -1 x6de57 -1 x6de58 = +0
-
 +1 x6de58 -1 x6de5c -1 x6de5d = +0
-
 +1 x6de57 -1 x6de5e -1 x6de5f = +0
-
 +1 x6de5d -1 x6de66 -1 x6de67 = +0
-
 +1 x6de5f -1 x6de68 -1 x6de69 = +0
-
 +1 x6de5e -1 x6de6a -1 x6de6b = +0
-
 +1 x6de5c -1 x6de6c -1 x6de6d = +0
-
 +1 x6de66 +1 x6de68 -1 x6de71 = +0
-
 +1 x6de67 +1 x6de69 -1 x6de6e = +0
-
 +1 x6de6b +1 x6de6d -1 x6de78 = +0
-
 +1 x6de6e +1 x6de78 -1 x6de7c = +0
-
 +1 x6de6a +1 x6de6c -1 x6de7e = +0
-
 +1 x6de71 +1 x6de7e -1 x6de80 = +0
-
 +1 x6de7c -1 x6de83 -1 x6de84 = +0
-
 +1 x6de80 -1 x6de85 -1 x6de86 = +0
-
 +1 x6de83 +1 x6de85 -1 x6e234 = +0
-
 +1 x6de84 +1 x6de86 -1 x6de87 = +0
-
 +1 x6de87 +1 x6de8b -1 x6de8c = +0
-
 +1 x6de8c -1 x6de8d -1 x6de8e = +0
-
 +1 x6de8e +1 x6e1eb +1 x6e228 -1 x6e22a +0 x6e22b = +0
-
 +1 x6de8d -1 x6deab -1 x6deac = +0
-
 +1 x6deab -1 x6deb7 -1 x6deb8 = +0
-
 +1 x6deac +1 x6deb7 +1 x6deb8 -1 x6dec6 = +0
-
 +1 x6dec6 +1 x6dec8 -1 x6dec9 +1 x6e224 = +0
-
 +1 x6dec9 -1 x6deca -1 x6decb = +0
-
 +1 x6deca -1 x6ded6 -1 x6ded7 = +0
-
 +1 x6ded6 -1 x6dee2 -1 x6dee3 = +0
-
 +1 x6dee2 +1 x6deeb +1 x6df0b -1 x76fbc = +0
-
 +1 x6ded7 +1 x6dee3 -1 x6deee = +0
-
 +1 x6deee +1 x6def0 -1 x6def1 +1 x6df17 = +0
-
 +1 x6def1 -1 x6def2 -1 x6def3 = +0
-
 +1 x6decb +1 x6def3 +1 x6df1a -1 x6df1b +0 x6df1c = +0
-
 +1 x6def2 -1 x6deff -1 x6df00 = +0
-
 +1 x6deff -1 x6df0b -1 x6df0c = +0
-
 +1 x6df00 +1 x6df0c -1 x6df17 = +0
-
 +1 x6df1b +1 x6df25 -1 x6df26 = +0
-
 +1 x6df26 -1 x6df27 -1 x6df28 = +0
-
 +1 x6df28 +1 x6dfd0 +1 x6dffc -1 x6dffd +0 x6dffe = +0
-
 +1 x6df27 -1 x6df38 -1 x6df39 = +0
-
 +1 x6df38 -1 x6df44 -1 x6df45 = +0
-
 +1 x6df44 +1 x6df4d +1 x6dfed -1 x762c8 = +0
-
 +1 x6df39 +1 x6df45 -1 x6df50 = +0
-
 +1 x6df50 +1 x6df52 -1 x6df53 +1 x6dff9 = +0
-
 +1 x6df53 -1 x6df54 -1 x6df55 = +0
-
 +1 x6df55 +1 x6df8c +1 x6dfc2 -1 x6dfc3 +0 x6dfc4 +1 x7600e +1 x76d68 = +0
-
 +1 x6df54 -1 x6df60 -1 x6df61 = +0
-
 +1 x6df60 -1 x6df6c -1 x6df6d = +0
-
 +1 x6df6c -1 x6df70 -1 x6df71 = +0
-
 +1 x6df70 -1 x6df74 -1 x6df75 = +0
-
 +1 x6df74 -1 x6df78 -1 x6df79 = +0
-
 +1 x6df71 +1 x6df75 +1 x6df79 -1 x6df7e = +0
-
 +1 x6df7e +1 x6df80 +1 x6dfb6 -1 x755b2 = +0
-
 +1 x6df61 +1 x6df6d +1 x6df78 -1 x6df87 = +0
-
 +1 x6df87 +1 x6df89 -1 x6df8a +1 x6dfbf +1 x75a77 +1 x7603f +1 x76729 +1 x76d99
 = +0
-
 +1 x6df8a -1 x6df8b -1 x6df8c = +0
-
 +1 x6df8b -1 x6df98 -1 x6df99 = +0
-
 +1 x6df98 -1 x6dfa4 -1 x6dfa5 = +0
-
 +1 x6dfa4 -1 x6dfa8 -1 x6dfa9 = +0
-
 +1 x6dfa8 -1 x6dfac -1 x6dfad = +0
-
 +1 x6dfac -1 x6dfb0 -1 x6dfb1 = +0
-
 +1 x6dfa9 +1 x6dfad +1 x6dfb1 -1 x6dfb6 = +0
-
 +1 x6df99 +1 x6dfa5 +1 x6dfb0 -1 x6dfbf = +0
-
 +1 x6dfc3 +1 x6dfcd -1 x6dfce +1 x75a7a = +0
-
 +1 x6dfce -1 x6dfcf -1 x6dfd0 = +0
-
 +1 x6dfcf -1 x6dfe1 -1 x6dfe2 = +0
-
 +1 x6dfe1 -1 x6dfed -1 x6dfee = +0
-
 +1 x6dfe2 +1 x6dfee -1 x6dff9 = +0
-
 +1 x6dffd -1 x6e00c -1 x6e00d = +0
-
 +1 x6e00d -1 x6e011 -1 x6e012 = +0
-
 +1 x6e00c -1 x6e013 -1 x6e014 = +0
-
 +1 x6e012 +1 x6e014 -1 x6e01a -1 x6e01b = +0
-
 +1 x6e011 +1 x6e013 -1 x6e019 = +0
-
 +1 x6e019 -1 x6e01c -1 x6e01d = +0
-
 +1 x6e01b +1 x6e01d -1 x6e028 = +0
-
 +1 x6e01a +1 x6e01c -1 x6e02c = +0
-
 +1 x6e028 +1 x6e02c -1 x6e031 = +0
-
 +1 x6e031 -1 x6e034 -1 x6e035 = +0
-
 +1 x6e034 +1 x6e035 -1 x6e045 = +0
-
 +1 x6e045 -1 x6e053 -1 x6e054 = +0
-
 +1 x6e053 -1 x6e05f -1 x6e060 = +0
-
 +1 x6e054 +1 x6e05f +1 x6e060 -1 x6e06e = +0
-
 +1 x6e06e +1 x6e070 -1 x6e071 = +0
-
 +1 x6e071 -1 x6e072 -1 x6e073 = +0
-
 +1 x6e073 +1 x6e09b +1 x6e0c2 -1 x6e0c3 +0 x6e0c4 +1 x752d5 = +0
-
 +1 x6e072 -1 x6e07e -1 x6e07f = +0
-
 +1 x6e07e -1 x6e08a -1 x6e08b = +0
-
 +1 x6e08a +1 x6e093 +1 x6e0b3 -1 x749f3 = +0
-
 +1 x6e07f +1 x6e08b -1 x6e096 = +0
-
 +1 x6e096 +1 x6e098 -1 x6e099 +1 x6e0bf +1 x74e25 +1 x752f7 = +0
-
 +1 x6e099 -1 x6e09a -1 x6e09b = +0
-
 +1 x6e09a -1 x6e0a7 -1 x6e0a8 = +0
-
 +1 x6e0a7 -1 x6e0b3 -1 x6e0b4 = +0
-
 +1 x6e0a8 +1 x6e0b4 -1 x6e0bf = +0
-
 +1 x6e0c3 +1 x6e0cd -1 x6e0ce +1 x74e28 = +0
-
 +1 x6e0ce -1 x6e0cf -1 x6e0d0 = +0
-
 +1 x6e0d0 +1 x6e178 +1 x6e1a4 -1 x6e1a5 +0 x6e1a6 = +0
-
 +1 x6e0cf -1 x6e0e0 -1 x6e0e1 = +0
-
 +1 x6e0e0 -1 x6e0ec -1 x6e0ed = +0
-
 +1 x6e0ec +1 x6e0f5 +1 x6e195 -1 x73cff = +0
-
 +1 x6e0e1 +1 x6e0ed -1 x6e0f8 = +0
-
 +1 x6e0f8 +1 x6e0fa -1 x6e0fb +1 x6e1a1 = +0
-
 +1 x6e0fb -1 x6e0fc -1 x6e0fd = +0
-
 +1 x6e0fd +1 x6e134 +1 x6e16a -1 x6e16b +0 x6e16c +1 x73a45 +1 x7479f = +0
-
 +1 x6e0fc -1 x6e108 -1 x6e109 = +0
-
 +1 x6e108 -1 x6e114 -1 x6e115 = +0
-
 +1 x6e114 -1 x6e118 -1 x6e119 = +0
-
 +1 x6e118 -1 x6e11c -1 x6e11d = +0
-
 +1 x6e11c -1 x6e120 -1 x6e121 = +0
-
 +1 x6e119 +1 x6e11d +1 x6e121 -1 x6e126 = +0
-
 +1 x6e126 +1 x6e128 +1 x6e15e -1 x72fe9 = +0
-
 +1 x6e109 +1 x6e115 +1 x6e120 -1 x6e12f = +0
-
 +1 x6e12f +1 x6e131 -1 x6e132 +1 x6e167 +1 x734ae +1 x73a76 +1 x74160 +1 x747d0
 = +0
-
 +1 x6e132 -1 x6e133 -1 x6e134 = +0
-
 +1 x6e133 -1 x6e140 -1 x6e141 = +0
-
 +1 x6e140 -1 x6e14c -1 x6e14d = +0
-
 +1 x6e14c -1 x6e150 -1 x6e151 = +0
-
 +1 x6e150 -1 x6e154 -1 x6e155 = +0
-
 +1 x6e154 -1 x6e158 -1 x6e159 = +0
-
 +1 x6e151 +1 x6e155 +1 x6e159 -1 x6e15e = +0
-
 +1 x6e141 +1 x6e14d +1 x6e158 -1 x6e167 = +0
-
 +1 x6e16b +1 x6e175 -1 x6e176 +1 x734b1 = +0
-
 +1 x6e176 -1 x6e177 -1 x6e178 = +0
-
 +1 x6e177 -1 x6e189 -1 x6e18a = +0
-
 +1 x6e189 -1 x6e195 -1 x6e196 = +0
-
 +1 x6e18a +1 x6e196 -1 x6e1a1 = +0
-
 +1 x6e1a5 -1 x6e1b4 -1 x6e1b5 = +0
-
 +1 x6e1b5 -1 x6e1b9 -1 x6e1ba = +0
-
 +1 x6e1b4 -1 x6e1bb -1 x6e1bc = +0
-
 +1 x6e1ba -1 x6e1c3 -1 x6e1c4 = +0
-
 +1 x6e1bc -1 x6e1c5 -1 x6e1c6 = +0
-
 +1 x6e1bb -1 x6e1c7 -1 x6e1c8 = +0
-
 +1 x6e1b9 -1 x6e1c9 -1 x6e1ca = +0
-
 +1 x6e1c3 +1 x6e1c5 -1 x6e1ce = +0
-
 +1 x6e1c4 +1 x6e1c6 -1 x6e1cb = +0
-
 +1 x6e1c8 +1 x6e1ca -1 x6e1d5 = +0
-
 +1 x6e1cb +1 x6e1d5 -1 x6e1d9 = +0
-
 +1 x6e1c7 +1 x6e1c9 -1 x6e1db = +0
-
 +1 x6e1ce +1 x6e1db -1 x6e1dd = +0
-
 +1 x6e1d9 -1 x6e1e0 -1 x6e1e1 = +0
-
 +1 x6e1dd -1 x6e1e2 -1 x6e1e3 = +0
-
 +1 x6e1e0 +1 x6e1e2 -1 x6e227 = +0
-
 +1 x6e1e1 +1 x6e1e3 -1 x6e1e4 = +0
-
 +1 x6e1e4 +1 x6e1e8 -1 x6e1e9 = +0
-
 +1 x6e1e9 -1 x6e1ea -1 x6e1eb = +0
-
 +1 x6e1ea -1 x6e209 -1 x6e20a = +0
-
 +1 x6e209 -1 x6e215 -1 x6e216 = +0
-
 +1 x6e20a +1 x6e215 +1 x6e216 -1 x6e224 = +0
-
 +1 x6e227 +1 x6e229 -1 x6e22c +0 x6e22d = +0
-
 +1 x6e22c +1 x6e234 -1 x6e240 = +0
-
 +1 x6db3e +1 x6e22a -1 x6e245 = +0
-
 +1 x6e240 +1 x6e245 -1 x6e246 = +0
-
 +1 x6e246 +1 x6e247 -1 x6e248 +1 x6ea0b +1 x782aa = +0
-
 +1 x6e248 -1 x6e249 -1 x6e24a = +0
-
 +1 x6e24a +1 x6e971 +1 x6e9cc -1 x6e9cd +0 x6e9ce = +0
-
 +1 x6e249 -1 x6e251 -1 x6e252 = +0
-
 +1 x6e252 -1 x6e261 -1 x6e262 = +0
-
 +1 x6e261 -1 x6e28f -1 x6e290 = +0
-
 +1 x6e28f +1 x6e290 -1 x6e29d = +0
-
 +1 x6e29d +1 x6e29f -1 x6e2a0 +1 x6e9c5 = +0
-
 +1 x6e2a0 -1 x6e2a1 -1 x6e2a2 = +0
-
 +1 x6e2a1 -1 x6e2b7 -1 x6e2b8 = +0
-
 +1 x6e2b7 +1 x6e2c0 +1 x6e2dd -1 x76fbd = +0
-
 +1 x6e2b8 +1 x6e2c4 -1 x6e2c5 +1 x6e2de = +0
-
 +1 x6e2c5 -1 x6e2c6 -1 x6e2c7 = +0
-
 +1 x6e2a2 +1 x6e2c7 +1 x6e2eb -1 x6e2ec +0 x6e2ed = +0
-
 +1 x6e2c6 -1 x6e2dd -1 x6e2de = +0
-
 +1 x6e2ec +1 x6e2f6 -1 x6e2f7 = +0
-
 +1 x6e2f7 -1 x6e2f8 -1 x6e2f9 = +0
-
 +1 x6e2f9 +1 x6e3a1 +1 x6e3cd -1 x6e3ce +0 x6e3cf = +0
-
 +1 x6e2f8 -1 x6e309 -1 x6e30a = +0
-
 +1 x6e309 -1 x6e315 -1 x6e316 = +0
-
 +1 x6e315 +1 x6e31e +1 x6e3be -1 x762c9 = +0
-
 +1 x6e30a +1 x6e316 -1 x6e321 = +0
-
 +1 x6e321 +1 x6e323 -1 x6e324 +1 x6e3ca = +0
-
 +1 x6e324 -1 x6e325 -1 x6e326 = +0
-
 +1 x6e326 +1 x6e35d +1 x6e393 -1 x6e394 +0 x6e395 +1 x75fc4 +1 x76d1e = +0
-
 +1 x6e325 -1 x6e331 -1 x6e332 = +0
-
 +1 x6e331 -1 x6e33d -1 x6e33e = +0
-
 +1 x6e33d -1 x6e341 -1 x6e342 = +0
-
 +1 x6e341 -1 x6e345 -1 x6e346 = +0
-
 +1 x6e345 -1 x6e349 -1 x6e34a = +0
-
 +1 x6e342 +1 x6e346 +1 x6e34a -1 x6e34f = +0
-
 +1 x6e34f +1 x6e351 +1 x6e387 -1 x755b3 = +0
-
 +1 x6e332 +1 x6e33e +1 x6e349 -1 x6e358 = +0
-
 +1 x6e358 +1 x6e35a -1 x6e35b +1 x6e390 +1 x75a23 +1 x75ff5 +1 x766df +1 x76d4f
 = +0
-
 +1 x6e35b -1 x6e35c -1 x6e35d = +0
-
 +1 x6e35c -1 x6e369 -1 x6e36a = +0
-
 +1 x6e369 -1 x6e375 -1 x6e376 = +0
-
 +1 x6e375 -1 x6e379 -1 x6e37a = +0
-
 +1 x6e379 -1 x6e37d -1 x6e37e = +0
-
 +1 x6e37d -1 x6e381 -1 x6e382 = +0
-
 +1 x6e37a +1 x6e37e +1 x6e382 -1 x6e387 = +0
-
 +1 x6e36a +1 x6e376 +1 x6e381 -1 x6e390 = +0
-
 +1 x6e394 +1 x6e39e -1 x6e39f +1 x75a26 = +0
-
 +1 x6e39f -1 x6e3a0 -1 x6e3a1 = +0
-
 +1 x6e3a0 -1 x6e3b2 -1 x6e3b3 = +0
-
 +1 x6e3b2 -1 x6e3be -1 x6e3bf = +0
-
 +1 x6e3b3 +1 x6e3bf -1 x6e3ca = +0
-
 +1 x6e3ce -1 x6e3dd -1 x6e3de = +0
-
 +1 x6e3de -1 x6e3e2 -1 x6e3e3 = +0
-
 +1 x6e3dd -1 x6e3e4 -1 x6e3e5 = +0
-
 +1 x6e3e3 +1 x6e3e5 -1 x6e3eb -1 x6e3ec = +0
-
 +1 x6e3e2 +1 x6e3e4 -1 x6e3ea = +0
-
 +1 x6e3ea -1 x6e3ed -1 x6e3ee = +0
-
 +1 x6e3ec +1 x6e3ee -1 x6e3f9 = +0
-
 +1 x6e3eb +1 x6e3ed -1 x6e3fd = +0
-
 +1 x6e3f9 +1 x6e3fd -1 x6e402 = +0
-
 +1 x6e402 -1 x6e405 -1 x6e406 = +0
-
 +1 x6e405 +1 x6e406 -1 x6e418 = +0
-
 +1 x6e418 -1 x6e430 -1 x6e431 = +0
-
 +1 x6e430 +1 x6e431 -1 x6e43e = +0
-
 +1 x6e43e +1 x6e440 -1 x6e441 = +0
-
 +1 x6e441 -1 x6e442 -1 x6e443 = +0
-
 +1 x6e443 +1 x6e468 +1 x6e48c -1 x6e48d +0 x6e48e +1 x7529d = +0
-
 +1 x6e442 -1 x6e458 -1 x6e459 = +0
-
 +1 x6e458 +1 x6e461 +1 x6e47e -1 x749f4 = +0
-
 +1 x6e459 +1 x6e465 -1 x6e466 +1 x6e47f +1 x74dd7 +1 x752b3 = +0
-
 +1 x6e466 -1 x6e467 -1 x6e468 = +0
-
 +1 x6e467 -1 x6e47e -1 x6e47f = +0
-
 +1 x6e48d +1 x6e497 -1 x6e498 +1 x74de3 = +0
-
 +1 x6e498 -1 x6e499 -1 x6e49a = +0
-
 +1 x6e49a +1 x6e542 +1 x6e56e -1 x6e56f +0 x6e570 = +0
-
 +1 x6e499 -1 x6e4aa -1 x6e4ab = +0
-
 +1 x6e4aa -1 x6e4b6 -1 x6e4b7 = +0
-
 +1 x6e4b6 +1 x6e4bf +1 x6e55f -1 x73d00 = +0
-
 +1 x6e4ab +1 x6e4b7 -1 x6e4c2 = +0
-
 +1 x6e4c2 +1 x6e4c4 -1 x6e4c5 +1 x6e56b = +0
-
 +1 x6e4c5 -1 x6e4c6 -1 x6e4c7 = +0
-
 +1 x6e4c7 +1 x6e4fe +1 x6e534 -1 x6e535 +0 x6e536 +1 x739fb +1 x74755 = +0
-
 +1 x6e4c6 -1 x6e4d2 -1 x6e4d3 = +0
-
 +1 x6e4d2 -1 x6e4de -1 x6e4df = +0
-
 +1 x6e4de -1 x6e4e2 -1 x6e4e3 = +0
-
 +1 x6e4e2 -1 x6e4e6 -1 x6e4e7 = +0
-
 +1 x6e4e6 -1 x6e4ea -1 x6e4eb = +0
-
 +1 x6e4e3 +1 x6e4e7 +1 x6e4eb -1 x6e4f0 = +0
-
 +1 x6e4f0 +1 x6e4f2 +1 x6e528 -1 x72fea = +0
-
 +1 x6e4d3 +1 x6e4df +1 x6e4ea -1 x6e4f9 = +0
-
 +1 x6e4f9 +1 x6e4fb -1 x6e4fc +1 x6e531 +1 x7345a +1 x73a2c +1 x74116 +1 x74786
 = +0
-
 +1 x6e4fc -1 x6e4fd -1 x6e4fe = +0
-
 +1 x6e4fd -1 x6e50a -1 x6e50b = +0
-
 +1 x6e50a -1 x6e516 -1 x6e517 = +0
-
 +1 x6e516 -1 x6e51a -1 x6e51b = +0
-
 +1 x6e51a -1 x6e51e -1 x6e51f = +0
-
 +1 x6e51e -1 x6e522 -1 x6e523 = +0
-
 +1 x6e51b +1 x6e51f +1 x6e523 -1 x6e528 = +0
-
 +1 x6e50b +1 x6e517 +1 x6e522 -1 x6e531 = +0
-
 +1 x6e535 +1 x6e53f -1 x6e540 +1 x7345d = +0
-
 +1 x6e540 -1 x6e541 -1 x6e542 = +0
-
 +1 x6e541 -1 x6e553 -1 x6e554 = +0
-
 +1 x6e553 -1 x6e55f -1 x6e560 = +0
-
 +1 x6e554 +1 x6e560 -1 x6e56b = +0
-
 +1 x6e56f -1 x6e57e -1 x6e57f = +0
-
 +1 x6e57f -1 x6e583 -1 x6e584 = +0
-
 +1 x6e57e -1 x6e585 -1 x6e586 = +0
-
 +1 x6e584 -1 x6e58d -1 x6e58e = +0
-
 +1 x6e586 -1 x6e58f -1 x6e590 = +0
-
 +1 x6e585 -1 x6e591 -1 x6e592 = +0
-
 +1 x6e583 -1 x6e593 -1 x6e594 = +0
-
 +1 x6e58d +1 x6e58f -1 x6e598 = +0
-
 +1 x6e58e +1 x6e590 -1 x6e595 = +0
-
 +1 x6e592 +1 x6e594 -1 x6e59f = +0
-
 +1 x6e595 +1 x6e59f -1 x6e5a3 = +0
-
 +1 x6e591 +1 x6e593 -1 x6e5a5 = +0
-
 +1 x6e598 +1 x6e5a5 -1 x6e5a7 = +0
-
 +1 x6e5a3 -1 x6e5aa -1 x6e5ab = +0
-
 +1 x6e5a7 -1 x6e5ac -1 x6e5ad = +0
-
 +1 x6e5aa +1 x6e5ac -1 x6e95b = +0
-
 +1 x6e5ab +1 x6e5ad -1 x6e5ae = +0
-
 +1 x6e5ae +1 x6e5b2 -1 x6e5b3 = +0
-
 +1 x6e5b3 -1 x6e5b4 -1 x6e5b5 = +0
-
 +1 x6e5b5 +1 x6e912 +1 x6e94f -1 x6e951 +0 x6e952 = +0
-
 +1 x6e5b4 -1 x6e5d2 -1 x6e5d3 = +0
-
 +1 x6e5d2 -1 x6e5de -1 x6e5df = +0
-
 +1 x6e5d3 +1 x6e5de +1 x6e5df -1 x6e5ed = +0
-
 +1 x6e5ed +1 x6e5ef -1 x6e5f0 +1 x6e94b = +0
-
 +1 x6e5f0 -1 x6e5f1 -1 x6e5f2 = +0
-
 +1 x6e5f1 -1 x6e5fd -1 x6e5fe = +0
-
 +1 x6e5fd -1 x6e609 -1 x6e60a = +0
-
 +1 x6e609 +1 x6e612 +1 x6e632 -1 x76fbe = +0
-
 +1 x6e5fe +1 x6e60a -1 x6e615 = +0
-
 +1 x6e615 +1 x6e617 -1 x6e618 +1 x6e63e = +0
-
 +1 x6e618 -1 x6e619 -1 x6e61a = +0
-
 +1 x6e5f2 +1 x6e61a +1 x6e641 -1 x6e642 +0 x6e643 = +0
-
 +1 x6e619 -1 x6e626 -1 x6e627 = +0
-
 +1 x6e626 -1 x6e632 -1 x6e633 = +0
-
 +1 x6e627 +1 x6e633 -1 x6e63e = +0
-
 +1 x6e642 +1 x6e64c -1 x6e64d = +0
-
 +1 x6e64d -1 x6e64e -1 x6e64f = +0
-
 +1 x6e64f +1 x6e6f7 +1 x6e723 -1 x6e724 +0 x6e725 = +0
-
 +1 x6e64e -1 x6e65f -1 x6e660 = +0
-
 +1 x6e65f -1 x6e66b -1 x6e66c = +0
-
 +1 x6e66b +1 x6e674 +1 x6e714 -1 x762ca = +0
-
 +1 x6e660 +1 x6e66c -1 x6e677 = +0
-
 +1 x6e677 +1 x6e679 -1 x6e67a +1 x6e720 = +0
-
 +1 x6e67a -1 x6e67b -1 x6e67c = +0
-
 +1 x6e67c +1 x6e6b3 +1 x6e6e9 -1 x6e6ea +0 x6e6eb +1 x75f7a +1 x76cd4 = +0
-
 +1 x6e67b -1 x6e687 -1 x6e688 = +0
-
 +1 x6e687 -1 x6e693 -1 x6e694 = +0
-
 +1 x6e693 -1 x6e697 -1 x6e698 = +0
-
 +1 x6e697 -1 x6e69b -1 x6e69c = +0
-
 +1 x6e69b -1 x6e69f -1 x6e6a0 = +0
-
 +1 x6e698 +1 x6e69c +1 x6e6a0 -1 x6e6a5 = +0
-
 +1 x6e6a5 +1 x6e6a7 +1 x6e6dd -1 x755b4 = +0
-
 +1 x6e688 +1 x6e694 +1 x6e69f -1 x6e6ae = +0
-
 +1 x6e6ae +1 x6e6b0 -1 x6e6b1 +1 x6e6e6 +1 x759cf +1 x75fab +1 x76695 +1 x76d05
 = +0
-
 +1 x6e6b1 -1 x6e6b2 -1 x6e6b3 = +0
-
 +1 x6e6b2 -1 x6e6bf -1 x6e6c0 = +0
-
 +1 x6e6bf -1 x6e6cb -1 x6e6cc = +0
-
 +1 x6e6cb -1 x6e6cf -1 x6e6d0 = +0
-
 +1 x6e6cf -1 x6e6d3 -1 x6e6d4 = +0
-
 +1 x6e6d3 -1 x6e6d7 -1 x6e6d8 = +0
-
 +1 x6e6d0 +1 x6e6d4 +1 x6e6d8 -1 x6e6dd = +0
-
 +1 x6e6c0 +1 x6e6cc +1 x6e6d7 -1 x6e6e6 = +0
-
 +1 x6e6ea +1 x6e6f4 -1 x6e6f5 +1 x759d2 = +0
-
 +1 x6e6f5 -1 x6e6f6 -1 x6e6f7 = +0
-
 +1 x6e6f6 -1 x6e708 -1 x6e709 = +0
-
 +1 x6e708 -1 x6e714 -1 x6e715 = +0
-
 +1 x6e709 +1 x6e715 -1 x6e720 = +0
-
 +1 x6e724 -1 x6e733 -1 x6e734 = +0
-
 +1 x6e734 -1 x6e738 -1 x6e739 = +0
-
 +1 x6e733 -1 x6e73a -1 x6e73b = +0
-
 +1 x6e739 +1 x6e73b -1 x6e741 -1 x6e742 = +0
-
 +1 x6e738 +1 x6e73a -1 x6e740 = +0
-
 +1 x6e740 -1 x6e743 -1 x6e744 = +0
-
 +1 x6e742 +1 x6e744 -1 x6e74f = +0
-
 +1 x6e741 +1 x6e743 -1 x6e753 = +0
-
 +1 x6e74f +1 x6e753 -1 x6e758 = +0
-
 +1 x6e758 -1 x6e75b -1 x6e75c = +0
-
 +1 x6e75b +1 x6e75c -1 x6e76c = +0
-
 +1 x6e76c -1 x6e77a -1 x6e77b = +0
-
 +1 x6e77a -1 x6e786 -1 x6e787 = +0
-
 +1 x6e77b +1 x6e786 +1 x6e787 -1 x6e795 = +0
-
 +1 x6e795 +1 x6e797 -1 x6e798 = +0
-
 +1 x6e798 -1 x6e799 -1 x6e79a = +0
-
 +1 x6e79a +1 x6e7c2 +1 x6e7e9 -1 x6e7ea +0 x6e7eb +1 x75262 = +0
-
 +1 x6e799 -1 x6e7a5 -1 x6e7a6 = +0
-
 +1 x6e7a5 -1 x6e7b1 -1 x6e7b2 = +0
-
 +1 x6e7b1 +1 x6e7ba +1 x6e7da -1 x749f5 = +0
-
 +1 x6e7a6 +1 x6e7b2 -1 x6e7bd = +0
-
 +1 x6e7bd +1 x6e7bf -1 x6e7c0 +1 x6e7e6 +1 x74d9e +1 x75284 = +0
-
 +1 x6e7c0 -1 x6e7c1 -1 x6e7c2 = +0
-
 +1 x6e7c1 -1 x6e7ce -1 x6e7cf = +0
-
 +1 x6e7ce -1 x6e7da -1 x6e7db = +0
-
 +1 x6e7cf +1 x6e7db -1 x6e7e6 = +0
-
 +1 x6e7ea +1 x6e7f4 -1 x6e7f5 +1 x74da1 = +0
-
 +1 x6e7f5 -1 x6e7f6 -1 x6e7f7 = +0
-
 +1 x6e7f7 +1 x6e89f +1 x6e8cb -1 x6e8cc +0 x6e8cd = +0
-
 +1 x6e7f6 -1 x6e807 -1 x6e808 = +0
-
 +1 x6e807 -1 x6e813 -1 x6e814 = +0
-
 +1 x6e813 +1 x6e81c +1 x6e8bc -1 x73d01 = +0
-
 +1 x6e808 +1 x6e814 -1 x6e81f = +0
-
 +1 x6e81f +1 x6e821 -1 x6e822 +1 x6e8c8 = +0
-
 +1 x6e822 -1 x6e823 -1 x6e824 = +0
-
 +1 x6e824 +1 x6e85b +1 x6e891 -1 x6e892 +0 x6e893 +1 x739b1 +1 x7470b = +0
-
 +1 x6e823 -1 x6e82f -1 x6e830 = +0
-
 +1 x6e82f -1 x6e83b -1 x6e83c = +0
-
 +1 x6e83b -1 x6e83f -1 x6e840 = +0
-
 +1 x6e83f -1 x6e843 -1 x6e844 = +0
-
 +1 x6e843 -1 x6e847 -1 x6e848 = +0
-
 +1 x6e840 +1 x6e844 +1 x6e848 -1 x6e84d = +0
-
 +1 x6e84d +1 x6e84f +1 x6e885 -1 x72feb = +0
-
 +1 x6e830 +1 x6e83c +1 x6e847 -1 x6e856 = +0
-
 +1 x6e856 +1 x6e858 -1 x6e859 +1 x6e88e +1 x73406 +1 x739e2 +1 x740cc +1 x7473c
 = +0
-
 +1 x6e859 -1 x6e85a -1 x6e85b = +0
-
 +1 x6e85a -1 x6e867 -1 x6e868 = +0
-
 +1 x6e867 -1 x6e873 -1 x6e874 = +0
-
 +1 x6e873 -1 x6e877 -1 x6e878 = +0
-
 +1 x6e877 -1 x6e87b -1 x6e87c = +0
-
 +1 x6e87b -1 x6e87f -1 x6e880 = +0
-
 +1 x6e878 +1 x6e87c +1 x6e880 -1 x6e885 = +0
-
 +1 x6e868 +1 x6e874 +1 x6e87f -1 x6e88e = +0
-
 +1 x6e892 +1 x6e89c -1 x6e89d +1 x73409 = +0
-
 +1 x6e89d -1 x6e89e -1 x6e89f = +0
-
 +1 x6e89e -1 x6e8b0 -1 x6e8b1 = +0
-
 +1 x6e8b0 -1 x6e8bc -1 x6e8bd = +0
-
 +1 x6e8b1 +1 x6e8bd -1 x6e8c8 = +0
-
 +1 x6e8cc -1 x6e8db -1 x6e8dc = +0
-
 +1 x6e8dc -1 x6e8e0 -1 x6e8e1 = +0
-
 +1 x6e8db -1 x6e8e2 -1 x6e8e3 = +0
-
 +1 x6e8e1 -1 x6e8ea -1 x6e8eb = +0
-
 +1 x6e8e3 -1 x6e8ec -1 x6e8ed = +0
-
 +1 x6e8e2 -1 x6e8ee -1 x6e8ef = +0
-
 +1 x6e8e0 -1 x6e8f0 -1 x6e8f1 = +0
-
 +1 x6e8ea +1 x6e8ec -1 x6e8f5 = +0
-
 +1 x6e8eb +1 x6e8ed -1 x6e8f2 = +0
-
 +1 x6e8ef +1 x6e8f1 -1 x6e8fc = +0
-
 +1 x6e8f2 +1 x6e8fc -1 x6e900 = +0
-
 +1 x6e8ee +1 x6e8f0 -1 x6e902 = +0
-
 +1 x6e8f5 +1 x6e902 -1 x6e904 = +0
-
 +1 x6e900 -1 x6e907 -1 x6e908 = +0
-
 +1 x6e904 -1 x6e909 -1 x6e90a = +0
-
 +1 x6e907 +1 x6e909 -1 x6e94e = +0
-
 +1 x6e908 +1 x6e90a -1 x6e90b = +0
-
 +1 x6e90b +1 x6e90f -1 x6e910 = +0
-
 +1 x6e910 -1 x6e911 -1 x6e912 = +0
-
 +1 x6e911 -1 x6e930 -1 x6e931 = +0
-
 +1 x6e930 -1 x6e93c -1 x6e93d = +0
-
 +1 x6e931 +1 x6e93c +1 x6e93d -1 x6e94b = +0
-
 +1 x6e94e +1 x6e950 -1 x6e953 +0 x6e954 = +0
-
 +1 x6e953 +1 x6e95b -1 x6e967 = +0
-
 +1 x6e262 +1 x6e951 -1 x6e96c = +0
-
 +1 x6e967 +1 x6e96c -1 x6e96d = +0
-
 +1 x6e96d +1 x6e96e -1 x6e96f +1 x6e98a = +0
-
 +1 x6e96f -1 x6e970 -1 x6e971 = +0
-
 +1 x6e970 -1 x6e979 -1 x6e97a = +0
-
 +1 x6e97a -1 x6e989 -1 x6e98a = +0
-
 +1 x6e989 -1 x6e9b7 -1 x6e9b8 = +0
-
 +1 x6e9b7 +1 x6e9b8 -1 x6e9c5 = +0
-
 +1 x6db26 +1 x6e9cd -1 x6e9d8 = +0
-
 +1 x6e9d8 +1 x6e9da -1 x6e9db +1 x6e9f3 +1 x78292 = +0
-
 +1 x6e9db -1 x6e9dc -1 x6e9dd = +0
-
 +1 x6db11 +1 x6e9dd -1 x6ea53 +0 x6ea54 -1 x782f2 = +0
-
 +1 x6e9dc -1 x6e9e2 -1 x6e9e3 = +0
-
 +1 x6e9e2 -1 x6e9ea -1 x6e9ec = +0
-
 +1 x6e9ec -1 x6e9f2 -1 x6e9f3 = +0
-
 +1 x6e9f2 -1 x6e9fa -1 x6e9fb = +0
-
 +1 x6e9fb -1 x6ea0a -1 x6ea0b = +0
-
 +1 x6ea0a -1 x6ea38 -1 x6ea39 = +0
-
 +1 x6ea38 +1 x6ea39 -1 x6ea46 = +0
-
 +1 x5deb1 -1 x6ea6b -1 x6ea6c = +0
-
 +1 x6ea6c -1 x6eab8 +0 x6eab9 = +0
-
 +1 x6ea6b -1 x6ea77 -1 x6ea78 = +0
-
 +1 x6ea77 -1 x6ea83 -1 x6ea84 = +0
-
 +1 x6ea83 +1 x6eaa9 +1 x6edce +1 x6edf7 +1 x6f12d +1 x6f156 +1 x6f48c +1 x6f4b5
 +1 x6f7eb +1 x6f814 +1 x6fb4a +1 x6fb73 +1 x6fea9 +1 x6fed2 +1 x70208 +1 x70231
 -1 x76fbf = +0
-
 +1 x6ea78 +1 x6ea84 -1 x6ea8e = +0
-
 +1 x6ea8e -1 x6ea90 +1 x6eab5 -1 x6eddc = +0
-
 +1 x6ea90 -1 x6ea91 -1 x6ea92 = +0
-
 +1 x6ea92 -1 x6eaba +0 x6eabb -1 x6ee06 = +0
-
 +1 x6ea91 -1 x6ea9d -1 x6ea9e = +0
-
 +1 x6ea9d -1 x6eaa9 -1 x6eaaa = +0
-
 +1 x6ea9e +1 x6eaaa -1 x6eab5 = +0
-
 +1 x6eab8 +1 x6eaba -1 x6eac8 = +0
-
 +1 x6eac8 -1 x6eaca -1 x6ee11 = +0
-
 +1 x6eaca -1 x6eacb -1 x6eacc = +0
-
 +1 x6eacc +1 x6eb6e -1 x6eb9a +0 x6eb9b -1 x6eee8 = +0
-
 +1 x6eacb -1 x6eadc -1 x6eadd = +0
-
 +1 x6eadc -1 x6eae8 -1 x6eae9 = +0
-
 +1 x6eae8 +1 x6eb8b -1 x6ee39 = +0
-
 +1 x6eadd +1 x6eae9 -1 x6eaf3 = +0
-
 +1 x6eaf3 -1 x6eaf5 +1 x6eb97 -1 x6ee3e = +0
-
 +1 x6eaf5 -1 x6eaf6 -1 x6eaf7 = +0
-
 +1 x6eaf7 +1 x6eb2c -1 x6eb62 +0 x6eb63 -1 x6eeae = +0
-
 +1 x6eaf6 -1 x6eb02 -1 x6eb03 = +0
-
 +1 x6eb02 -1 x6eb0e -1 x6eb0f = +0
-
 +1 x6eb0e -1 x6eb12 -1 x6eb13 = +0
-
 +1 x6eb12 -1 x6eb16 -1 x6eb17 = +0
-
 +1 x6eb16 -1 x6eb1a -1 x6eb1b = +0
-
 +1 x6eb13 +1 x6eb17 +1 x6eb1b -1 x6eb20 = +0
-
 +1 x6eb20 +1 x6eb56 -1 x6ee6c = +0
-
 +1 x6eb03 +1 x6eb0f +1 x6eb1a -1 x6eb28 = +0
-
 +1 x6eb28 -1 x6eb2a +1 x6eb5f -1 x6ee75 = +0
-
 +1 x6eb2a -1 x6eb2b -1 x6eb2c = +0
-
 +1 x6eb2b -1 x6eb38 -1 x6eb39 = +0
-
 +1 x6eb38 -1 x6eb44 -1 x6eb45 = +0
-
 +1 x6eb44 -1 x6eb48 -1 x6eb49 = +0
-
 +1 x6eb48 -1 x6eb4c -1 x6eb4d = +0
-
 +1 x6eb4c -1 x6eb50 -1 x6eb51 = +0
-
 +1 x6eb49 +1 x6eb4d +1 x6eb51 -1 x6eb56 = +0
-
 +1 x6eb39 +1 x6eb45 +1 x6eb50 -1 x6eb5f = +0
-
 +1 x6eb62 -1 x6eb6c -1 x6eeb9 = +0
-
 +1 x6eb6c -1 x6eb6d -1 x6eb6e = +0
-
 +1 x6eb6d -1 x6eb7f -1 x6eb80 = +0
-
 +1 x6eb7f -1 x6eb8b -1 x6eb8c = +0
-
 +1 x6eb80 +1 x6eb8c -1 x6eb97 = +0
-
 +1 x6eb9a -1 x6eba9 -1 x6ebaa = +0
-
 +1 x6ebaa -1 x6ebae -1 x6ebaf = +0
-
 +1 x6eba9 -1 x6ebb0 -1 x6ebb1 = +0
-
 +1 x6ebaf +1 x6ebb1 -1 x6ebb7 -1 x6ebb8 = +0
-
 +1 x6ebae +1 x6ebb0 -1 x6ebb6 = +0
-
 +1 x6ebb6 -1 x6ebb9 -1 x6ebba = +0
-
 +1 x6ebb8 +1 x6ebba -1 x6ebc5 = +0
-
 +1 x6ebb7 +1 x6ebb9 -1 x6ebc9 = +0
-
 +1 x6ebc5 +1 x6ebc9 -1 x6ebce = +0
-
 +1 x6ebce -1 x6ebd1 -1 x6ebd2 = +0
-
 +1 x6ebd1 +1 x6ebd2 -1 x6ebe2 = +0
-
 +1 x6ebe2 -1 x6ebf0 -1 x6ebf1 = +0
-
 +1 x6ebf0 -1 x6ebfc -1 x6ebfd = +0
-
 +1 x6ebf1 +1 x6ebfc +1 x6ebfd -1 x6ec0b = +0
-
 +1 x6ec0b -1 x6ec0d -1 x6ef5c = +0
-
 +1 x6ec0d -1 x6ec0e -1 x6ec0f = +0
-
 +1 x6ec0f +1 x6ec35 -1 x6ec5c +0 x6ec5d -1 x6efae = +0
-
 +1 x6ec0e -1 x6ec1a -1 x6ec1b = +0
-
 +1 x6ec1a -1 x6ec26 -1 x6ec27 = +0
-
 +1 x6ec26 +1 x6ec4d +1 x6ef76 +1 x6ef9f +1 x6f2d5 +1 x6f2fe +1 x6f634 +1 x6f65d
 +1 x6f993 +1 x6f9bc +1 x6fcf2 +1 x6fd1b +1 x70051 +1 x7007a +1 x703b0 +1 x703d9
 -1 x749f6 = +0
-
 +1 x6ec1b +1 x6ec27 -1 x6ec31 = +0
-
 +1 x6ec31 -1 x6ec33 +1 x6ec59 -1 x6ef84 = +0
-
 +1 x6ec33 -1 x6ec34 -1 x6ec35 = +0
-
 +1 x6ec34 -1 x6ec41 -1 x6ec42 = +0
-
 +1 x6ec41 -1 x6ec4d -1 x6ec4e = +0
-
 +1 x6ec42 +1 x6ec4e -1 x6ec59 = +0
-
 +1 x6ec5c -1 x6ec66 -1 x6efb9 = +0
-
 +1 x6ec66 -1 x6ec67 -1 x6ec68 = +0
-
 +1 x6ec68 +1 x6ed0a -1 x6ed36 +0 x6ed37 -1 x6f090 = +0
-
 +1 x6ec67 -1 x6ec78 -1 x6ec79 = +0
-
 +1 x6ec78 -1 x6ec84 -1 x6ec85 = +0
-
 +1 x6ec84 +1 x6ed27 -1 x6efe1 = +0
-
 +1 x6ec79 +1 x6ec85 -1 x6ec8f = +0
-
 +1 x6ec8f -1 x6ec91 +1 x6ed33 -1 x6efe6 = +0
-
 +1 x6ec91 -1 x6ec92 -1 x6ec93 = +0
-
 +1 x6ec93 +1 x6ecc8 -1 x6ecfe +0 x6ecff -1 x6f056 = +0
-
 +1 x6ec92 -1 x6ec9e -1 x6ec9f = +0
-
 +1 x6ec9e -1 x6ecaa -1 x6ecab = +0
-
 +1 x6ecaa -1 x6ecae -1 x6ecaf = +0
-
 +1 x6ecae -1 x6ecb2 -1 x6ecb3 = +0
-
 +1 x6ecb2 -1 x6ecb6 -1 x6ecb7 = +0
-
 +1 x6ecaf +1 x6ecb3 +1 x6ecb7 -1 x6ecbc = +0
-
 +1 x6ecbc +1 x6ecf2 -1 x6f014 = +0
-
 +1 x6ec9f +1 x6ecab +1 x6ecb6 -1 x6ecc4 = +0
-
 +1 x6ecc4 -1 x6ecc6 +1 x6ecfb -1 x6f01d = +0
-
 +1 x6ecc6 -1 x6ecc7 -1 x6ecc8 = +0
-
 +1 x6ecc7 -1 x6ecd4 -1 x6ecd5 = +0
-
 +1 x6ecd4 -1 x6ece0 -1 x6ece1 = +0
-
 +1 x6ece0 -1 x6ece4 -1 x6ece5 = +0
-
 +1 x6ece4 -1 x6ece8 -1 x6ece9 = +0
-
 +1 x6ece8 -1 x6ecec -1 x6eced = +0
-
 +1 x6ece5 +1 x6ece9 +1 x6eced -1 x6ecf2 = +0
-
 +1 x6ecd5 +1 x6ece1 +1 x6ecec -1 x6ecfb = +0
-
 +1 x6ecfe -1 x6ed08 -1 x6f061 = +0
-
 +1 x6ed08 -1 x6ed09 -1 x6ed0a = +0
-
 +1 x6ed09 -1 x6ed1b -1 x6ed1c = +0
-
 +1 x6ed1b -1 x6ed27 -1 x6ed28 = +0
-
 +1 x6ed1c +1 x6ed28 -1 x6ed33 = +0
-
 +1 x6ed36 -1 x6ed45 -1 x6ed46 = +0
-
 +1 x6ed46 -1 x6ed4a -1 x6ed4b = +0
-
 +1 x6ed45 -1 x6ed4c -1 x6ed4d = +0
-
 +1 x6ed4b -1 x6ed54 -1 x6ed55 = +0
-
 +1 x6ed4d -1 x6ed56 -1 x6ed57 = +0
-
 +1 x6ed4c -1 x6ed58 -1 x6ed59 = +0
-
 +1 x6ed4a -1 x6ed5a -1 x6ed5b = +0
-
 +1 x6ed54 +1 x6ed56 -1 x6ed5f = +0
-
 +1 x6ed55 +1 x6ed57 -1 x6ed5c = +0
-
 +1 x6ed59 +1 x6ed5b -1 x6ed66 = +0
-
 +1 x6ed5c +1 x6ed66 -1 x6ed6a = +0
-
 +1 x6ed58 +1 x6ed5a -1 x6ed6c = +0
-
 +1 x6ed5f +1 x6ed6c -1 x6ed6e = +0
-
 +1 x6ed6a -1 x6ed71 -1 x6ed72 = +0
-
 +1 x6ed6e -1 x6ed73 -1 x6ed74 = +0
-
 +1 x6ed71 +1 x6ed73 -1 x6f0d0 = +0
-
 +1 x6ed72 +1 x6ed74 -1 x6ed75 = +0
-
 +1 x6ed75 -1 x6ed79 -1 x6f0d5 = +0
-
 +1 x6ed79 -1 x6ed7a -1 x6ed7b = +0
-
 +1 x6ed7a -1 x6ed98 -1 x6ed99 = +0
-
 +1 x6ed98 -1 x6eda4 -1 x6eda5 = +0
-
 +1 x6ed99 +1 x6eda4 +1 x6eda5 -1 x6edb3 = +0
-
 +1 x6edb3 -1 x6edb5 -1 x6f113 = +0
-
 +1 x6edb5 -1 x6edb6 -1 x6edb7 = +0
-
 +1 x6edb6 -1 x6edc2 -1 x6edc3 = +0
-
 +1 x6edc2 -1 x6edce -1 x6edcf = +0
-
 +1 x6edc3 +1 x6edcf -1 x6edda = +0
-
 +1 x6edda +1 x6eddc -1 x6eddd +1 x6ee03 -1 x6f13b = +0
-
 +1 x6eddd -1 x6edde -1 x6eddf = +0
-
 +1 x6edb7 +1 x6eddf +1 x6ee06 -1 x6ee07 +0 x6ee08 -1 x6f165 = +0
-
 +1 x6edde -1 x6edeb -1 x6edec = +0
-
 +1 x6edeb -1 x6edf7 -1 x6edf8 = +0
-
 +1 x6edec +1 x6edf8 -1 x6ee03 = +0
-
 +1 x6ee07 +1 x6ee11 -1 x6ee12 -1 x6f170 = +0
-
 +1 x6ee12 -1 x6ee13 -1 x6ee14 = +0
-
 +1 x6ee14 +1 x6eebc +1 x6eee8 -1 x6eee9 +0 x6eeea -1 x6f247 = +0
-
 +1 x6ee13 -1 x6ee24 -1 x6ee25 = +0
-
 +1 x6ee24 -1 x6ee30 -1 x6ee31 = +0
-
 +1 x6ee30 +1 x6ee39 +1 x6eed9 -1 x6f198 = +0
-
 +1 x6ee25 +1 x6ee31 -1 x6ee3c = +0
-
 +1 x6ee3c +1 x6ee3e -1 x6ee3f +1 x6eee5 -1 x6f19d = +0
-
 +1 x6ee3f -1 x6ee40 -1 x6ee41 = +0
-
 +1 x6ee41 +1 x6ee78 +1 x6eeae -1 x6eeaf +0 x6eeb0 -1 x6f20d = +0
-
 +1 x6ee40 -1 x6ee4c -1 x6ee4d = +0
-
 +1 x6ee4c -1 x6ee58 -1 x6ee59 = +0
-
 +1 x6ee58 -1 x6ee5c -1 x6ee5d = +0
-
 +1 x6ee5c -1 x6ee60 -1 x6ee61 = +0
-
 +1 x6ee60 -1 x6ee64 -1 x6ee65 = +0
-
 +1 x6ee5d +1 x6ee61 +1 x6ee65 -1 x6ee6a = +0
-
 +1 x6ee6a +1 x6ee6c +1 x6eea2 -1 x6f1cb = +0
-
 +1 x6ee4d +1 x6ee59 +1 x6ee64 -1 x6ee73 = +0
-
 +1 x6ee73 +1 x6ee75 -1 x6ee76 +1 x6eeab -1 x6f1d4 = +0
-
 +1 x6ee76 -1 x6ee77 -1 x6ee78 = +0
-
 +1 x6ee77 -1 x6ee84 -1 x6ee85 = +0
-
 +1 x6ee84 -1 x6ee90 -1 x6ee91 = +0
-
 +1 x6ee90 -1 x6ee94 -1 x6ee95 = +0
-
 +1 x6ee94 -1 x6ee98 -1 x6ee99 = +0
-
 +1 x6ee98 -1 x6ee9c -1 x6ee9d = +0
-
 +1 x6ee95 +1 x6ee99 +1 x6ee9d -1 x6eea2 = +0
-
 +1 x6ee85 +1 x6ee91 +1 x6ee9c -1 x6eeab = +0
-
 +1 x6eeaf +1 x6eeb9 -1 x6eeba -1 x6f218 = +0
-
 +1 x6eeba -1 x6eebb -1 x6eebc = +0
-
 +1 x6eebb -1 x6eecd -1 x6eece = +0
-
 +1 x6eecd -1 x6eed9 -1 x6eeda = +0
-
 +1 x6eece +1 x6eeda -1 x6eee5 = +0
-
 +1 x6eee9 -1 x6eef8 -1 x6eef9 = +0
-
 +1 x6eef9 -1 x6eefd -1 x6eefe = +0
-
 +1 x6eef8 -1 x6eeff -1 x6ef00 = +0
-
 +1 x6eefe +1 x6ef00 -1 x6ef06 -1 x6ef07 = +0
-
 +1 x6eefd +1 x6eeff -1 x6ef05 = +0
-
 +1 x6ef05 -1 x6ef08 -1 x6ef09 = +0
-
 +1 x6ef07 +1 x6ef09 -1 x6ef14 = +0
-
 +1 x6ef06 +1 x6ef08 -1 x6ef18 = +0
-
 +1 x6ef14 +1 x6ef18 -1 x6ef1d = +0
-
 +1 x6ef1d -1 x6ef20 -1 x6ef21 = +0
-
 +1 x6ef20 +1 x6ef21 -1 x6ef31 = +0
-
 +1 x6ef31 -1 x6ef3f -1 x6ef40 = +0
-
 +1 x6ef3f -1 x6ef4b -1 x6ef4c = +0
-
 +1 x6ef40 +1 x6ef4b +1 x6ef4c -1 x6ef5a = +0
-
 +1 x6ef5a +1 x6ef5c -1 x6ef5d -1 x6f2bb = +0
-
 +1 x6ef5d -1 x6ef5e -1 x6ef5f = +0
-
 +1 x6ef5f +1 x6ef87 +1 x6efae -1 x6efaf +0 x6efb0 -1 x6f30d = +0
-
 +1 x6ef5e -1 x6ef6a -1 x6ef6b = +0
-
 +1 x6ef6a -1 x6ef76 -1 x6ef77 = +0
-
 +1 x6ef6b +1 x6ef77 -1 x6ef82 = +0
-
 +1 x6ef82 +1 x6ef84 -1 x6ef85 +1 x6efab -1 x6f2e3 = +0
-
 +1 x6ef85 -1 x6ef86 -1 x6ef87 = +0
-
 +1 x6ef86 -1 x6ef93 -1 x6ef94 = +0
-
 +1 x6ef93 -1 x6ef9f -1 x6efa0 = +0
-
 +1 x6ef94 +1 x6efa0 -1 x6efab = +0
-
 +1 x6efaf +1 x6efb9 -1 x6efba -1 x6f318 = +0
-
 +1 x6efba -1 x6efbb -1 x6efbc = +0
-
 +1 x6efbc +1 x6f064 +1 x6f090 -1 x6f091 +0 x6f092 -1 x6f3ef = +0
-
 +1 x6efbb -1 x6efcc -1 x6efcd = +0
-
 +1 x6efcc -1 x6efd8 -1 x6efd9 = +0
-
 +1 x6efd8 +1 x6efe1 +1 x6f081 -1 x6f340 = +0
-
 +1 x6efcd +1 x6efd9 -1 x6efe4 = +0
-
 +1 x6efe4 +1 x6efe6 -1 x6efe7 +1 x6f08d -1 x6f345 = +0
-
 +1 x6efe7 -1 x6efe8 -1 x6efe9 = +0
-
 +1 x6efe9 +1 x6f020 +1 x6f056 -1 x6f057 +0 x6f058 -1 x6f3b5 = +0
-
 +1 x6efe8 -1 x6eff4 -1 x6eff5 = +0
-
 +1 x6eff4 -1 x6f000 -1 x6f001 = +0
-
 +1 x6f000 -1 x6f004 -1 x6f005 = +0
-
 +1 x6f004 -1 x6f008 -1 x6f009 = +0
-
 +1 x6f008 -1 x6f00c -1 x6f00d = +0
-
 +1 x6f005 +1 x6f009 +1 x6f00d -1 x6f012 = +0
-
 +1 x6f012 +1 x6f014 +1 x6f04a -1 x6f373 = +0
-
 +1 x6eff5 +1 x6f001 +1 x6f00c -1 x6f01b = +0
-
 +1 x6f01b +1 x6f01d -1 x6f01e +1 x6f053 -1 x6f37c = +0
-
 +1 x6f01e -1 x6f01f -1 x6f020 = +0
-
 +1 x6f01f -1 x6f02c -1 x6f02d = +0
-
 +1 x6f02c -1 x6f038 -1 x6f039 = +0
-
 +1 x6f038 -1 x6f03c -1 x6f03d = +0
-
 +1 x6f03c -1 x6f040 -1 x6f041 = +0
-
 +1 x6f040 -1 x6f044 -1 x6f045 = +0
-
 +1 x6f03d +1 x6f041 +1 x6f045 -1 x6f04a = +0
-
 +1 x6f02d +1 x6f039 +1 x6f044 -1 x6f053 = +0
-
 +1 x6f057 +1 x6f061 -1 x6f062 -1 x6f3c0 = +0
-
 +1 x6f062 -1 x6f063 -1 x6f064 = +0
-
 +1 x6f063 -1 x6f075 -1 x6f076 = +0
-
 +1 x6f075 -1 x6f081 -1 x6f082 = +0
-
 +1 x6f076 +1 x6f082 -1 x6f08d = +0
-
 +1 x6f091 -1 x6f0a0 -1 x6f0a1 = +0
-
 +1 x6f0a1 -1 x6f0a5 -1 x6f0a6 = +0
-
 +1 x6f0a0 -1 x6f0a7 -1 x6f0a8 = +0
-
 +1 x6f0a6 -1 x6f0af -1 x6f0b0 = +0
-
 +1 x6f0a8 -1 x6f0b1 -1 x6f0b2 = +0
-
 +1 x6f0a7 -1 x6f0b3 -1 x6f0b4 = +0
-
 +1 x6f0a5 -1 x6f0b5 -1 x6f0b6 = +0
-
 +1 x6f0af +1 x6f0b1 -1 x6f0ba = +0
-
 +1 x6f0b0 +1 x6f0b2 -1 x6f0b7 = +0
-
 +1 x6f0b4 +1 x6f0b6 -1 x6f0c1 = +0
-
 +1 x6f0b7 +1 x6f0c1 -1 x6f0c5 = +0
-
 +1 x6f0b3 +1 x6f0b5 -1 x6f0c7 = +0
-
 +1 x6f0ba +1 x6f0c7 -1 x6f0c9 = +0
-
 +1 x6f0c5 -1 x6f0cc -1 x6f0cd = +0
-
 +1 x6f0c9 -1 x6f0ce -1 x6f0cf = +0
-
 +1 x6f0cc +1 x6f0ce +1 x6f0d0 -1 x6f42f = +0
-
 +1 x6f0cd +1 x6f0cf -1 x6f0d1 = +0
-
 +1 x6f0d1 +1 x6f0d5 -1 x6f0d6 -1 x6f434 = +0
-
 +1 x6f0d6 -1 x6f0d7 -1 x6f0d8 = +0
-
 +1 x6ed7b +1 x6f0d8 -1 x6f439 = +0
-
 +1 x6f0d7 -1 x6f0f6 -1 x6f0f7 = +0
-
 +1 x6f0f6 -1 x6f102 -1 x6f103 = +0
-
 +1 x6f0f7 +1 x6f102 +1 x6f103 -1 x6f111 = +0
-
 +1 x6f111 +1 x6f113 -1 x6f114 -1 x6f472 = +0
-
 +1 x6f114 -1 x6f115 -1 x6f116 = +0
-
 +1 x6f115 -1 x6f121 -1 x6f122 = +0
-
 +1 x6f121 -1 x6f12d -1 x6f12e = +0
-
 +1 x6f122 +1 x6f12e -1 x6f139 = +0
-
 +1 x6f139 +1 x6f13b -1 x6f13c +1 x6f162 -1 x6f49a = +0
-
 +1 x6f13c -1 x6f13d -1 x6f13e = +0
-
 +1 x6f116 +1 x6f13e +1 x6f165 -1 x6f166 +0 x6f167 -1 x6f4c4 = +0
-
 +1 x6f13d -1 x6f14a -1 x6f14b = +0
-
 +1 x6f14a -1 x6f156 -1 x6f157 = +0
-
 +1 x6f14b +1 x6f157 -1 x6f162 = +0
-
 +1 x6f166 +1 x6f170 -1 x6f171 -1 x6f4cf = +0
-
 +1 x6f171 -1 x6f172 -1 x6f173 = +0
-
 +1 x6f173 +1 x6f21b +1 x6f247 -1 x6f248 +0 x6f249 -1 x6f5a6 = +0
-
 +1 x6f172 -1 x6f183 -1 x6f184 = +0
-
 +1 x6f183 -1 x6f18f -1 x6f190 = +0
-
 +1 x6f18f +1 x6f198 +1 x6f238 -1 x6f4f7 = +0
-
 +1 x6f184 +1 x6f190 -1 x6f19b = +0
-
 +1 x6f19b +1 x6f19d -1 x6f19e +1 x6f244 -1 x6f4fc = +0
-
 +1 x6f19e -1 x6f19f -1 x6f1a0 = +0
-
 +1 x6f1a0 +1 x6f1d7 +1 x6f20d -1 x6f20e +0 x6f20f -1 x6f56c = +0
-
 +1 x6f19f -1 x6f1ab -1 x6f1ac = +0
-
 +1 x6f1ab -1 x6f1b7 -1 x6f1b8 = +0
-
 +1 x6f1b7 -1 x6f1bb -1 x6f1bc = +0
-
 +1 x6f1bb -1 x6f1bf -1 x6f1c0 = +0
-
 +1 x6f1bf -1 x6f1c3 -1 x6f1c4 = +0
-
 +1 x6f1bc +1 x6f1c0 +1 x6f1c4 -1 x6f1c9 = +0
-
 +1 x6f1c9 +1 x6f1cb +1 x6f201 -1 x6f52a = +0
-
 +1 x6f1ac +1 x6f1b8 +1 x6f1c3 -1 x6f1d2 = +0
-
 +1 x6f1d2 +1 x6f1d4 -1 x6f1d5 +1 x6f20a -1 x6f533 = +0
-
 +1 x6f1d5 -1 x6f1d6 -1 x6f1d7 = +0
-
 +1 x6f1d6 -1 x6f1e3 -1 x6f1e4 = +0
-
 +1 x6f1e3 -1 x6f1ef -1 x6f1f0 = +0
-
 +1 x6f1ef -1 x6f1f3 -1 x6f1f4 = +0
-
 +1 x6f1f3 -1 x6f1f7 -1 x6f1f8 = +0
-
 +1 x6f1f7 -1 x6f1fb -1 x6f1fc = +0
-
 +1 x6f1f4 +1 x6f1f8 +1 x6f1fc -1 x6f201 = +0
-
 +1 x6f1e4 +1 x6f1f0 +1 x6f1fb -1 x6f20a = +0
-
 +1 x6f20e +1 x6f218 -1 x6f219 -1 x6f577 = +0
-
 +1 x6f219 -1 x6f21a -1 x6f21b = +0
-
 +1 x6f21a -1 x6f22c -1 x6f22d = +0
-
 +1 x6f22c -1 x6f238 -1 x6f239 = +0
-
 +1 x6f22d +1 x6f239 -1 x6f244 = +0
-
 +1 x6f248 -1 x6f257 -1 x6f258 = +0
-
 +1 x6f258 -1 x6f25c -1 x6f25d = +0
-
 +1 x6f257 -1 x6f25e -1 x6f25f = +0
-
 +1 x6f25d +1 x6f25f -1 x6f265 -1 x6f266 = +0
-
 +1 x6f25c +1 x6f25e -1 x6f264 = +0
-
 +1 x6f264 -1 x6f267 -1 x6f268 = +0
-
 +1 x6f266 +1 x6f268 -1 x6f273 = +0
-
 +1 x6f265 +1 x6f267 -1 x6f277 = +0
-
 +1 x6f273 +1 x6f277 -1 x6f27c = +0
-
 +1 x6f27c -1 x6f27f -1 x6f280 = +0
-
 +1 x6f27f +1 x6f280 -1 x6f290 = +0
-
 +1 x6f290 -1 x6f29e -1 x6f29f = +0
-
 +1 x6f29e -1 x6f2aa -1 x6f2ab = +0
-
 +1 x6f29f +1 x6f2aa +1 x6f2ab -1 x6f2b9 = +0
-
 +1 x6f2b9 +1 x6f2bb -1 x6f2bc -1 x6f61a = +0
-
 +1 x6f2bc -1 x6f2bd -1 x6f2be = +0
-
 +1 x6f2be +1 x6f2e6 +1 x6f30d -1 x6f30e +0 x6f30f -1 x6f66c = +0
-
 +1 x6f2bd -1 x6f2c9 -1 x6f2ca = +0
-
 +1 x6f2c9 -1 x6f2d5 -1 x6f2d6 = +0
-
 +1 x6f2ca +1 x6f2d6 -1 x6f2e1 = +0
-
 +1 x6f2e1 +1 x6f2e3 -1 x6f2e4 +1 x6f30a -1 x6f642 = +0
-
 +1 x6f2e4 -1 x6f2e5 -1 x6f2e6 = +0
-
 +1 x6f2e5 -1 x6f2f2 -1 x6f2f3 = +0
-
 +1 x6f2f2 -1 x6f2fe -1 x6f2ff = +0
-
 +1 x6f2f3 +1 x6f2ff -1 x6f30a = +0
-
 +1 x6f30e +1 x6f318 -1 x6f319 -1 x6f677 = +0
-
 +1 x6f319 -1 x6f31a -1 x6f31b = +0
-
 +1 x6f31b +1 x6f3c3 +1 x6f3ef -1 x6f3f0 +0 x6f3f1 -1 x6f74e = +0
-
 +1 x6f31a -1 x6f32b -1 x6f32c = +0
-
 +1 x6f32b -1 x6f337 -1 x6f338 = +0
-
 +1 x6f337 +1 x6f340 +1 x6f3e0 -1 x6f69f = +0
-
 +1 x6f32c +1 x6f338 -1 x6f343 = +0
-
 +1 x6f343 +1 x6f345 -1 x6f346 +1 x6f3ec -1 x6f6a4 = +0
-
 +1 x6f346 -1 x6f347 -1 x6f348 = +0
-
 +1 x6f348 +1 x6f37f +1 x6f3b5 -1 x6f3b6 +0 x6f3b7 -1 x6f714 = +0
-
 +1 x6f347 -1 x6f353 -1 x6f354 = +0
-
 +1 x6f353 -1 x6f35f -1 x6f360 = +0
-
 +1 x6f35f -1 x6f363 -1 x6f364 = +0
-
 +1 x6f363 -1 x6f367 -1 x6f368 = +0
-
 +1 x6f367 -1 x6f36b -1 x6f36c = +0
-
 +1 x6f364 +1 x6f368 +1 x6f36c -1 x6f371 = +0
-
 +1 x6f371 +1 x6f373 +1 x6f3a9 -1 x6f6d2 = +0
-
 +1 x6f354 +1 x6f360 +1 x6f36b -1 x6f37a = +0
-
 +1 x6f37a +1 x6f37c -1 x6f37d +1 x6f3b2 -1 x6f6db = +0
-
 +1 x6f37d -1 x6f37e -1 x6f37f = +0
-
 +1 x6f37e -1 x6f38b -1 x6f38c = +0
-
 +1 x6f38b -1 x6f397 -1 x6f398 = +0
-
 +1 x6f397 -1 x6f39b -1 x6f39c = +0
-
 +1 x6f39b -1 x6f39f -1 x6f3a0 = +0
-
 +1 x6f39f -1 x6f3a3 -1 x6f3a4 = +0
-
 +1 x6f39c +1 x6f3a0 +1 x6f3a4 -1 x6f3a9 = +0
-
 +1 x6f38c +1 x6f398 +1 x6f3a3 -1 x6f3b2 = +0
-
 +1 x6f3b6 +1 x6f3c0 -1 x6f3c1 -1 x6f71f = +0
-
 +1 x6f3c1 -1 x6f3c2 -1 x6f3c3 = +0
-
 +1 x6f3c2 -1 x6f3d4 -1 x6f3d5 = +0
-
 +1 x6f3d4 -1 x6f3e0 -1 x6f3e1 = +0
-
 +1 x6f3d5 +1 x6f3e1 -1 x6f3ec = +0
-
 +1 x6f3f0 -1 x6f3ff -1 x6f400 = +0
-
 +1 x6f400 -1 x6f404 -1 x6f405 = +0
-
 +1 x6f3ff -1 x6f406 -1 x6f407 = +0
-
 +1 x6f405 -1 x6f40e -1 x6f40f = +0
-
 +1 x6f407 -1 x6f410 -1 x6f411 = +0
-
 +1 x6f406 -1 x6f412 -1 x6f413 = +0
-
 +1 x6f404 -1 x6f414 -1 x6f415 = +0
-
 +1 x6f40e +1 x6f410 -1 x6f419 = +0
-
 +1 x6f40f +1 x6f411 -1 x6f416 = +0
-
 +1 x6f413 +1 x6f415 -1 x6f420 = +0
-
 +1 x6f416 +1 x6f420 -1 x6f424 = +0
-
 +1 x6f412 +1 x6f414 -1 x6f426 = +0
-
 +1 x6f419 +1 x6f426 -1 x6f428 = +0
-
 +1 x6f424 -1 x6f42b -1 x6f42c = +0
-
 +1 x6f428 -1 x6f42d -1 x6f42e = +0
-
 +1 x6f42b +1 x6f42d +1 x6f42f -1 x6f78e = +0
-
 +1 x6f42c +1 x6f42e -1 x6f430 = +0
-
 +1 x6f430 +1 x6f434 -1 x6f435 -1 x6f793 = +0
-
 +1 x6f435 -1 x6f436 -1 x6f437 = +0
-
 +1 x6f437 +1 x6f439 -1 x6f798 = +0
-
 +1 x6f436 -1 x6f455 -1 x6f456 = +0
-
 +1 x6f455 -1 x6f461 -1 x6f462 = +0
-
 +1 x6f456 +1 x6f461 +1 x6f462 -1 x6f470 = +0
-
 +1 x6f470 +1 x6f472 -1 x6f473 -1 x6f7d1 = +0
-
 +1 x6f473 -1 x6f474 -1 x6f475 = +0
-
 +1 x6f474 -1 x6f480 -1 x6f481 = +0
-
 +1 x6f480 -1 x6f48c -1 x6f48d = +0
-
 +1 x6f481 +1 x6f48d -1 x6f498 = +0
-
 +1 x6f498 +1 x6f49a -1 x6f49b +1 x6f4c1 -1 x6f7f9 = +0
-
 +1 x6f49b -1 x6f49c -1 x6f49d = +0
-
 +1 x6f475 +1 x6f49d +1 x6f4c4 -1 x6f4c5 +0 x6f4c6 -1 x6f823 = +0
-
 +1 x6f49c -1 x6f4a9 -1 x6f4aa = +0
-
 +1 x6f4a9 -1 x6f4b5 -1 x6f4b6 = +0
-
 +1 x6f4aa +1 x6f4b6 -1 x6f4c1 = +0
-
 +1 x6f4c5 +1 x6f4cf -1 x6f4d0 -1 x6f82e = +0
-
 +1 x6f4d0 -1 x6f4d1 -1 x6f4d2 = +0
-
 +1 x6f4d2 +1 x6f57a +1 x6f5a6 -1 x6f5a7 +0 x6f5a8 -1 x6f905 = +0
-
 +1 x6f4d1 -1 x6f4e2 -1 x6f4e3 = +0
-
 +1 x6f4e2 -1 x6f4ee -1 x6f4ef = +0
-
 +1 x6f4ee +1 x6f4f7 +1 x6f597 -1 x6f856 = +0
-
 +1 x6f4e3 +1 x6f4ef -1 x6f4fa = +0
-
 +1 x6f4fa +1 x6f4fc -1 x6f4fd +1 x6f5a3 -1 x6f85b = +0
-
 +1 x6f4fd -1 x6f4fe -1 x6f4ff = +0
-
 +1 x6f4ff +1 x6f536 +1 x6f56c -1 x6f56d +0 x6f56e -1 x6f8cb = +0
-
 +1 x6f4fe -1 x6f50a -1 x6f50b = +0
-
 +1 x6f50a -1 x6f516 -1 x6f517 = +0
-
 +1 x6f516 -1 x6f51a -1 x6f51b = +0
-
 +1 x6f51a -1 x6f51e -1 x6f51f = +0
-
 +1 x6f51e -1 x6f522 -1 x6f523 = +0
-
 +1 x6f51b +1 x6f51f +1 x6f523 -1 x6f528 = +0
-
 +1 x6f528 +1 x6f52a +1 x6f560 -1 x6f889 = +0
-
 +1 x6f50b +1 x6f517 +1 x6f522 -1 x6f531 = +0
-
 +1 x6f531 +1 x6f533 -1 x6f534 +1 x6f569 -1 x6f892 = +0
-
 +1 x6f534 -1 x6f535 -1 x6f536 = +0
-
 +1 x6f535 -1 x6f542 -1 x6f543 = +0
-
 +1 x6f542 -1 x6f54e -1 x6f54f = +0
-
 +1 x6f54e -1 x6f552 -1 x6f553 = +0
-
 +1 x6f552 -1 x6f556 -1 x6f557 = +0
-
 +1 x6f556 -1 x6f55a -1 x6f55b = +0
-
 +1 x6f553 +1 x6f557 +1 x6f55b -1 x6f560 = +0
-
 +1 x6f543 +1 x6f54f +1 x6f55a -1 x6f569 = +0
-
 +1 x6f56d +1 x6f577 -1 x6f578 -1 x6f8d6 = +0
-
 +1 x6f578 -1 x6f579 -1 x6f57a = +0
-
 +1 x6f579 -1 x6f58b -1 x6f58c = +0
-
 +1 x6f58b -1 x6f597 -1 x6f598 = +0
-
 +1 x6f58c +1 x6f598 -1 x6f5a3 = +0
-
 +1 x6f5a7 -1 x6f5b6 -1 x6f5b7 = +0
-
 +1 x6f5b7 -1 x6f5bb -1 x6f5bc = +0
-
 +1 x6f5b6 -1 x6f5bd -1 x6f5be = +0
-
 +1 x6f5bc +1 x6f5be -1 x6f5c4 -1 x6f5c5 = +0
-
 +1 x6f5bb +1 x6f5bd -1 x6f5c3 = +0
-
 +1 x6f5c3 -1 x6f5c6 -1 x6f5c7 = +0
-
 +1 x6f5c5 +1 x6f5c7 -1 x6f5d2 = +0
-
 +1 x6f5c4 +1 x6f5c6 -1 x6f5d6 = +0
-
 +1 x6f5d2 +1 x6f5d6 -1 x6f5db = +0
-
 +1 x6f5db -1 x6f5de -1 x6f5df = +0
-
 +1 x6f5de +1 x6f5df -1 x6f5ef = +0
-
 +1 x6f5ef -1 x6f5fd -1 x6f5fe = +0
-
 +1 x6f5fd -1 x6f609 -1 x6f60a = +0
-
 +1 x6f5fe +1 x6f609 +1 x6f60a -1 x6f618 = +0
-
 +1 x6f618 +1 x6f61a -1 x6f61b -1 x6f979 = +0
-
 +1 x6f61b -1 x6f61c -1 x6f61d = +0
-
 +1 x6f61d +1 x6f645 +1 x6f66c -1 x6f66d +0 x6f66e -1 x6f9cb = +0
-
 +1 x6f61c -1 x6f628 -1 x6f629 = +0
-
 +1 x6f628 -1 x6f634 -1 x6f635 = +0
-
 +1 x6f629 +1 x6f635 -1 x6f640 = +0
-
 +1 x6f640 +1 x6f642 -1 x6f643 +1 x6f669 -1 x6f9a1 = +0
-
 +1 x6f643 -1 x6f644 -1 x6f645 = +0
-
 +1 x6f644 -1 x6f651 -1 x6f652 = +0
-
 +1 x6f651 -1 x6f65d -1 x6f65e = +0
-
 +1 x6f652 +1 x6f65e -1 x6f669 = +0
-
 +1 x6f66d +1 x6f677 -1 x6f678 -1 x6f9d6 = +0
-
 +1 x6f678 -1 x6f679 -1 x6f67a = +0
-
 +1 x6f67a +1 x6f722 +1 x6f74e -1 x6f74f +0 x6f750 -1 x6faad = +0
-
 +1 x6f679 -1 x6f68a -1 x6f68b = +0
-
 +1 x6f68a -1 x6f696 -1 x6f697 = +0
-
 +1 x6f696 +1 x6f69f +1 x6f73f -1 x6f9fe = +0
-
 +1 x6f68b +1 x6f697 -1 x6f6a2 = +0
-
 +1 x6f6a2 +1 x6f6a4 -1 x6f6a5 +1 x6f74b -1 x6fa03 = +0
-
 +1 x6f6a5 -1 x6f6a6 -1 x6f6a7 = +0
-
 +1 x6f6a7 +1 x6f6de +1 x6f714 -1 x6f715 +0 x6f716 -1 x6fa73 = +0
-
 +1 x6f6a6 -1 x6f6b2 -1 x6f6b3 = +0
-
 +1 x6f6b2 -1 x6f6be -1 x6f6bf = +0
-
 +1 x6f6be -1 x6f6c2 -1 x6f6c3 = +0
-
 +1 x6f6c2 -1 x6f6c6 -1 x6f6c7 = +0
-
 +1 x6f6c6 -1 x6f6ca -1 x6f6cb = +0
-
 +1 x6f6c3 +1 x6f6c7 +1 x6f6cb -1 x6f6d0 = +0
-
 +1 x6f6d0 +1 x6f6d2 +1 x6f708 -1 x6fa31 = +0
-
 +1 x6f6b3 +1 x6f6bf +1 x6f6ca -1 x6f6d9 = +0
-
 +1 x6f6d9 +1 x6f6db -1 x6f6dc +1 x6f711 -1 x6fa3a = +0
-
 +1 x6f6dc -1 x6f6dd -1 x6f6de = +0
-
 +1 x6f6dd -1 x6f6ea -1 x6f6eb = +0
-
 +1 x6f6ea -1 x6f6f6 -1 x6f6f7 = +0
-
 +1 x6f6f6 -1 x6f6fa -1 x6f6fb = +0
-
 +1 x6f6fa -1 x6f6fe -1 x6f6ff = +0
-
 +1 x6f6fe -1 x6f702 -1 x6f703 = +0
-
 +1 x6f6fb +1 x6f6ff +1 x6f703 -1 x6f708 = +0
-
 +1 x6f6eb +1 x6f6f7 +1 x6f702 -1 x6f711 = +0
-
 +1 x6f715 +1 x6f71f -1 x6f720 -1 x6fa7e = +0
-
 +1 x6f720 -1 x6f721 -1 x6f722 = +0
-
 +1 x6f721 -1 x6f733 -1 x6f734 = +0
-
 +1 x6f733 -1 x6f73f -1 x6f740 = +0
-
 +1 x6f734 +1 x6f740 -1 x6f74b = +0
-
 +1 x6f74f -1 x6f75e -1 x6f75f = +0
-
 +1 x6f75f -1 x6f763 -1 x6f764 = +0
-
 +1 x6f75e -1 x6f765 -1 x6f766 = +0
-
 +1 x6f764 -1 x6f76d -1 x6f76e = +0
-
 +1 x6f766 -1 x6f76f -1 x6f770 = +0
-
 +1 x6f765 -1 x6f771 -1 x6f772 = +0
-
 +1 x6f763 -1 x6f773 -1 x6f774 = +0
-
 +1 x6f76d +1 x6f76f -1 x6f778 = +0
-
 +1 x6f76e +1 x6f770 -1 x6f775 = +0
-
 +1 x6f772 +1 x6f774 -1 x6f77f = +0
-
 +1 x6f775 +1 x6f77f -1 x6f783 = +0
-
 +1 x6f771 +1 x6f773 -1 x6f785 = +0
-
 +1 x6f778 +1 x6f785 -1 x6f787 = +0
-
 +1 x6f783 -1 x6f78a -1 x6f78b = +0
-
 +1 x6f787 -1 x6f78c -1 x6f78d = +0
-
 +1 x6f78a +1 x6f78c +1 x6f78e -1 x6faed = +0
-
 +1 x6f78b +1 x6f78d -1 x6f78f = +0
-
 +1 x6f78f +1 x6f793 -1 x6f794 -1 x6faf2 = +0
-
 +1 x6f794 -1 x6f795 -1 x6f796 = +0
-
 +1 x6f796 +1 x6f798 -1 x6faf7 = +0
-
 +1 x6f795 -1 x6f7b4 -1 x6f7b5 = +0
-
 +1 x6f7b4 -1 x6f7c0 -1 x6f7c1 = +0
-
 +1 x6f7b5 +1 x6f7c0 +1 x6f7c1 -1 x6f7cf = +0
-
 +1 x6f7cf +1 x6f7d1 -1 x6f7d2 -1 x6fb30 = +0
-
 +1 x6f7d2 -1 x6f7d3 -1 x6f7d4 = +0
-
 +1 x6f7d3 -1 x6f7df -1 x6f7e0 = +0
-
 +1 x6f7df -1 x6f7eb -1 x6f7ec = +0
-
 +1 x6f7e0 +1 x6f7ec -1 x6f7f7 = +0
-
 +1 x6f7f7 +1 x6f7f9 -1 x6f7fa +1 x6f820 -1 x6fb58 = +0
-
 +1 x6f7fa -1 x6f7fb -1 x6f7fc = +0
-
 +1 x6f7d4 +1 x6f7fc +1 x6f823 -1 x6f824 +0 x6f825 -1 x6fb82 = +0
-
 +1 x6f7fb -1 x6f808 -1 x6f809 = +0
-
 +1 x6f808 -1 x6f814 -1 x6f815 = +0
-
 +1 x6f809 +1 x6f815 -1 x6f820 = +0
-
 +1 x6f824 +1 x6f82e -1 x6f82f -1 x6fb8d = +0
-
 +1 x6f82f -1 x6f830 -1 x6f831 = +0
-
 +1 x6f831 +1 x6f8d9 +1 x6f905 -1 x6f906 +0 x6f907 -1 x6fc64 = +0
-
 +1 x6f830 -1 x6f841 -1 x6f842 = +0
-
 +1 x6f841 -1 x6f84d -1 x6f84e = +0
-
 +1 x6f84d +1 x6f856 +1 x6f8f6 -1 x6fbb5 = +0
-
 +1 x6f842 +1 x6f84e -1 x6f859 = +0
-
 +1 x6f859 +1 x6f85b -1 x6f85c +1 x6f902 -1 x6fbba = +0
-
 +1 x6f85c -1 x6f85d -1 x6f85e = +0
-
 +1 x6f85e +1 x6f895 +1 x6f8cb -1 x6f8cc +0 x6f8cd -1 x6fc2a = +0
-
 +1 x6f85d -1 x6f869 -1 x6f86a = +0
-
 +1 x6f869 -1 x6f875 -1 x6f876 = +0
-
 +1 x6f875 -1 x6f879 -1 x6f87a = +0
-
 +1 x6f879 -1 x6f87d -1 x6f87e = +0
-
 +1 x6f87d -1 x6f881 -1 x6f882 = +0
-
 +1 x6f87a +1 x6f87e +1 x6f882 -1 x6f887 = +0
-
 +1 x6f887 +1 x6f889 +1 x6f8bf -1 x6fbe8 = +0
-
 +1 x6f86a +1 x6f876 +1 x6f881 -1 x6f890 = +0
-
 +1 x6f890 +1 x6f892 -1 x6f893 +1 x6f8c8 -1 x6fbf1 = +0
-
 +1 x6f893 -1 x6f894 -1 x6f895 = +0
-
 +1 x6f894 -1 x6f8a1 -1 x6f8a2 = +0
-
 +1 x6f8a1 -1 x6f8ad -1 x6f8ae = +0
-
 +1 x6f8ad -1 x6f8b1 -1 x6f8b2 = +0
-
 +1 x6f8b1 -1 x6f8b5 -1 x6f8b6 = +0
-
 +1 x6f8b5 -1 x6f8b9 -1 x6f8ba = +0
-
 +1 x6f8b2 +1 x6f8b6 +1 x6f8ba -1 x6f8bf = +0
-
 +1 x6f8a2 +1 x6f8ae +1 x6f8b9 -1 x6f8c8 = +0
-
 +1 x6f8cc +1 x6f8d6 -1 x6f8d7 -1 x6fc35 = +0
-
 +1 x6f8d7 -1 x6f8d8 -1 x6f8d9 = +0
-
 +1 x6f8d8 -1 x6f8ea -1 x6f8eb = +0
-
 +1 x6f8ea -1 x6f8f6 -1 x6f8f7 = +0
-
 +1 x6f8eb +1 x6f8f7 -1 x6f902 = +0
-
 +1 x6f906 -1 x6f915 -1 x6f916 = +0
-
 +1 x6f916 -1 x6f91a -1 x6f91b = +0
-
 +1 x6f915 -1 x6f91c -1 x6f91d = +0
-
 +1 x6f91b +1 x6f91d -1 x6f923 -1 x6f924 = +0
-
 +1 x6f91a +1 x6f91c -1 x6f922 = +0
-
 +1 x6f922 -1 x6f925 -1 x6f926 = +0
-
 +1 x6f924 +1 x6f926 -1 x6f931 = +0
-
 +1 x6f923 +1 x6f925 -1 x6f935 = +0
-
 +1 x6f931 +1 x6f935 -1 x6f93a = +0
-
 +1 x6f93a -1 x6f93d -1 x6f93e = +0
-
 +1 x6f93d +1 x6f93e -1 x6f94e = +0
-
 +1 x6f94e -1 x6f95c -1 x6f95d = +0
-
 +1 x6f95c -1 x6f968 -1 x6f969 = +0
-
 +1 x6f95d +1 x6f968 +1 x6f969 -1 x6f977 = +0
-
 +1 x6f977 +1 x6f979 -1 x6f97a -1 x6fcd8 = +0
-
 +1 x6f97a -1 x6f97b -1 x6f97c = +0
-
 +1 x6f97c +1 x6f9a4 +1 x6f9cb -1 x6f9cc +0 x6f9cd -1 x6fd2a = +0
-
 +1 x6f97b -1 x6f987 -1 x6f988 = +0
-
 +1 x6f987 -1 x6f993 -1 x6f994 = +0
-
 +1 x6f988 +1 x6f994 -1 x6f99f = +0
-
 +1 x6f99f +1 x6f9a1 -1 x6f9a2 +1 x6f9c8 -1 x6fd00 = +0
-
 +1 x6f9a2 -1 x6f9a3 -1 x6f9a4 = +0
-
 +1 x6f9a3 -1 x6f9b0 -1 x6f9b1 = +0
-
 +1 x6f9b0 -1 x6f9bc -1 x6f9bd = +0
-
 +1 x6f9b1 +1 x6f9bd -1 x6f9c8 = +0
-
 +1 x6f9cc +1 x6f9d6 -1 x6f9d7 -1 x6fd35 = +0
-
 +1 x6f9d7 -1 x6f9d8 -1 x6f9d9 = +0
-
 +1 x6f9d9 +1 x6fa81 +1 x6faad -1 x6faae +0 x6faaf -1 x6fe0c = +0
-
 +1 x6f9d8 -1 x6f9e9 -1 x6f9ea = +0
-
 +1 x6f9e9 -1 x6f9f5 -1 x6f9f6 = +0
-
 +1 x6f9f5 +1 x6f9fe +1 x6fa9e -1 x6fd5d = +0
-
 +1 x6f9ea +1 x6f9f6 -1 x6fa01 = +0
-
 +1 x6fa01 +1 x6fa03 -1 x6fa04 +1 x6faaa -1 x6fd62 = +0
-
 +1 x6fa04 -1 x6fa05 -1 x6fa06 = +0
-
 +1 x6fa06 +1 x6fa3d +1 x6fa73 -1 x6fa74 +0 x6fa75 -1 x6fdd2 = +0
-
 +1 x6fa05 -1 x6fa11 -1 x6fa12 = +0
-
 +1 x6fa11 -1 x6fa1d -1 x6fa1e = +0
-
 +1 x6fa1d -1 x6fa21 -1 x6fa22 = +0
-
 +1 x6fa21 -1 x6fa25 -1 x6fa26 = +0
-
 +1 x6fa25 -1 x6fa29 -1 x6fa2a = +0
-
 +1 x6fa22 +1 x6fa26 +1 x6fa2a -1 x6fa2f = +0
-
 +1 x6fa2f +1 x6fa31 +1 x6fa67 -1 x6fd90 = +0
-
 +1 x6fa12 +1 x6fa1e +1 x6fa29 -1 x6fa38 = +0
-
 +1 x6fa38 +1 x6fa3a -1 x6fa3b +1 x6fa70 -1 x6fd99 = +0
-
 +1 x6fa3b -1 x6fa3c -1 x6fa3d = +0
-
 +1 x6fa3c -1 x6fa49 -1 x6fa4a = +0
-
 +1 x6fa49 -1 x6fa55 -1 x6fa56 = +0
-
 +1 x6fa55 -1 x6fa59 -1 x6fa5a = +0
-
 +1 x6fa59 -1 x6fa5d -1 x6fa5e = +0
-
 +1 x6fa5d -1 x6fa61 -1 x6fa62 = +0
-
 +1 x6fa5a +1 x6fa5e +1 x6fa62 -1 x6fa67 = +0
-
 +1 x6fa4a +1 x6fa56 +1 x6fa61 -1 x6fa70 = +0
-
 +1 x6fa74 +1 x6fa7e -1 x6fa7f -1 x6fddd = +0
-
 +1 x6fa7f -1 x6fa80 -1 x6fa81 = +0
-
 +1 x6fa80 -1 x6fa92 -1 x6fa93 = +0
-
 +1 x6fa92 -1 x6fa9e -1 x6fa9f = +0
-
 +1 x6fa93 +1 x6fa9f -1 x6faaa = +0
-
 +1 x6faae -1 x6fabd -1 x6fabe = +0
-
 +1 x6fabe -1 x6fac2 -1 x6fac3 = +0
-
 +1 x6fabd -1 x6fac4 -1 x6fac5 = +0
-
 +1 x6fac3 -1 x6facc -1 x6facd = +0
-
 +1 x6fac5 -1 x6face -1 x6facf = +0
-
 +1 x6fac4 -1 x6fad0 -1 x6fad1 = +0
-
 +1 x6fac2 -1 x6fad2 -1 x6fad3 = +0
-
 +1 x6facc +1 x6face -1 x6fad7 = +0
-
 +1 x6facd +1 x6facf -1 x6fad4 = +0
-
 +1 x6fad1 +1 x6fad3 -1 x6fade = +0
-
 +1 x6fad4 +1 x6fade -1 x6fae2 = +0
-
 +1 x6fad0 +1 x6fad2 -1 x6fae4 = +0
-
 +1 x6fad7 +1 x6fae4 -1 x6fae6 = +0
-
 +1 x6fae2 -1 x6fae9 -1 x6faea = +0
-
 +1 x6fae6 -1 x6faeb -1 x6faec = +0
-
 +1 x6fae9 +1 x6faeb +1 x6faed -1 x6fe4c = +0
-
 +1 x6faea +1 x6faec -1 x6faee = +0
-
 +1 x6faee +1 x6faf2 -1 x6faf3 -1 x6fe51 = +0
-
 +1 x6faf3 -1 x6faf4 -1 x6faf5 = +0
-
 +1 x6faf5 +1 x6faf7 -1 x6fe56 = +0
-
 +1 x6faf4 -1 x6fb13 -1 x6fb14 = +0
-
 +1 x6fb13 -1 x6fb1f -1 x6fb20 = +0
-
 +1 x6fb14 +1 x6fb1f +1 x6fb20 -1 x6fb2e = +0
-
 +1 x6fb2e +1 x6fb30 -1 x6fb31 -1 x6fe8f = +0
-
 +1 x6fb31 -1 x6fb32 -1 x6fb33 = +0
-
 +1 x6fb32 -1 x6fb3e -1 x6fb3f = +0
-
 +1 x6fb3e -1 x6fb4a -1 x6fb4b = +0
-
 +1 x6fb3f +1 x6fb4b -1 x6fb56 = +0
-
 +1 x6fb56 +1 x6fb58 -1 x6fb59 +1 x6fb7f -1 x6feb7 = +0
-
 +1 x6fb59 -1 x6fb5a -1 x6fb5b = +0
-
 +1 x6fb33 +1 x6fb5b +1 x6fb82 -1 x6fb83 +0 x6fb84 -1 x6fee1 = +0
-
 +1 x6fb5a -1 x6fb67 -1 x6fb68 = +0
-
 +1 x6fb67 -1 x6fb73 -1 x6fb74 = +0
-
 +1 x6fb68 +1 x6fb74 -1 x6fb7f = +0
-
 +1 x6fb83 +1 x6fb8d -1 x6fb8e -1 x6feec = +0
-
 +1 x6fb8e -1 x6fb8f -1 x6fb90 = +0
-
 +1 x6fb90 +1 x6fc38 +1 x6fc64 -1 x6fc65 +0 x6fc66 -1 x6ffc3 = +0
-
 +1 x6fb8f -1 x6fba0 -1 x6fba1 = +0
-
 +1 x6fba0 -1 x6fbac -1 x6fbad = +0
-
 +1 x6fbac +1 x6fbb5 +1 x6fc55 -1 x6ff14 = +0
-
 +1 x6fba1 +1 x6fbad -1 x6fbb8 = +0
-
 +1 x6fbb8 +1 x6fbba -1 x6fbbb +1 x6fc61 -1 x6ff19 = +0
-
 +1 x6fbbb -1 x6fbbc -1 x6fbbd = +0
-
 +1 x6fbbd +1 x6fbf4 +1 x6fc2a -1 x6fc2b +0 x6fc2c -1 x6ff89 = +0
-
 +1 x6fbbc -1 x6fbc8 -1 x6fbc9 = +0
-
 +1 x6fbc8 -1 x6fbd4 -1 x6fbd5 = +0
-
 +1 x6fbd4 -1 x6fbd8 -1 x6fbd9 = +0
-
 +1 x6fbd8 -1 x6fbdc -1 x6fbdd = +0
-
 +1 x6fbdc -1 x6fbe0 -1 x6fbe1 = +0
-
 +1 x6fbd9 +1 x6fbdd +1 x6fbe1 -1 x6fbe6 = +0
-
 +1 x6fbe6 +1 x6fbe8 +1 x6fc1e -1 x6ff47 = +0
-
 +1 x6fbc9 +1 x6fbd5 +1 x6fbe0 -1 x6fbef = +0
-
 +1 x6fbef +1 x6fbf1 -1 x6fbf2 +1 x6fc27 -1 x6ff50 = +0
-
 +1 x6fbf2 -1 x6fbf3 -1 x6fbf4 = +0
-
 +1 x6fbf3 -1 x6fc00 -1 x6fc01 = +0
-
 +1 x6fc00 -1 x6fc0c -1 x6fc0d = +0
-
 +1 x6fc0c -1 x6fc10 -1 x6fc11 = +0
-
 +1 x6fc10 -1 x6fc14 -1 x6fc15 = +0
-
 +1 x6fc14 -1 x6fc18 -1 x6fc19 = +0
-
 +1 x6fc11 +1 x6fc15 +1 x6fc19 -1 x6fc1e = +0
-
 +1 x6fc01 +1 x6fc0d +1 x6fc18 -1 x6fc27 = +0
-
 +1 x6fc2b +1 x6fc35 -1 x6fc36 -1 x6ff94 = +0
-
 +1 x6fc36 -1 x6fc37 -1 x6fc38 = +0
-
 +1 x6fc37 -1 x6fc49 -1 x6fc4a = +0
-
 +1 x6fc49 -1 x6fc55 -1 x6fc56 = +0
-
 +1 x6fc4a +1 x6fc56 -1 x6fc61 = +0
-
 +1 x6fc65 -1 x6fc74 -1 x6fc75 = +0
-
 +1 x6fc75 -1 x6fc79 -1 x6fc7a = +0
-
 +1 x6fc74 -1 x6fc7b -1 x6fc7c = +0
-
 +1 x6fc7a +1 x6fc7c -1 x6fc82 -1 x6fc83 = +0
-
 +1 x6fc79 +1 x6fc7b -1 x6fc81 = +0
-
 +1 x6fc81 -1 x6fc84 -1 x6fc85 = +0
-
 +1 x6fc83 +1 x6fc85 -1 x6fc90 = +0
-
 +1 x6fc82 +1 x6fc84 -1 x6fc94 = +0
-
 +1 x6fc90 +1 x6fc94 -1 x6fc99 = +0
-
 +1 x6fc99 -1 x6fc9c -1 x6fc9d = +0
-
 +1 x6fc9c +1 x6fc9d -1 x6fcad = +0
-
 +1 x6fcad -1 x6fcbb -1 x6fcbc = +0
-
 +1 x6fcbb -1 x6fcc7 -1 x6fcc8 = +0
-
 +1 x6fcbc +1 x6fcc7 +1 x6fcc8 -1 x6fcd6 = +0
-
 +1 x6fcd6 +1 x6fcd8 -1 x6fcd9 -1 x70037 = +0
-
 +1 x6fcd9 -1 x6fcda -1 x6fcdb = +0
-
 +1 x6fcdb +1 x6fd03 +1 x6fd2a -1 x6fd2b +0 x6fd2c -1 x70089 = +0
-
 +1 x6fcda -1 x6fce6 -1 x6fce7 = +0
-
 +1 x6fce6 -1 x6fcf2 -1 x6fcf3 = +0
-
 +1 x6fce7 +1 x6fcf3 -1 x6fcfe = +0
-
 +1 x6fcfe +1 x6fd00 -1 x6fd01 +1 x6fd27 -1 x7005f = +0
-
 +1 x6fd01 -1 x6fd02 -1 x6fd03 = +0
-
 +1 x6fd02 -1 x6fd0f -1 x6fd10 = +0
-
 +1 x6fd0f -1 x6fd1b -1 x6fd1c = +0
-
 +1 x6fd10 +1 x6fd1c -1 x6fd27 = +0
-
 +1 x6fd2b +1 x6fd35 -1 x6fd36 -1 x70094 = +0
-
 +1 x6fd36 -1 x6fd37 -1 x6fd38 = +0
-
 +1 x6fd38 +1 x6fde0 +1 x6fe0c -1 x6fe0d +0 x6fe0e -1 x7016b = +0
-
 +1 x6fd37 -1 x6fd48 -1 x6fd49 = +0
-
 +1 x6fd48 -1 x6fd54 -1 x6fd55 = +0
-
 +1 x6fd54 +1 x6fd5d +1 x6fdfd -1 x700bc = +0
-
 +1 x6fd49 +1 x6fd55 -1 x6fd60 = +0
-
 +1 x6fd60 +1 x6fd62 -1 x6fd63 +1 x6fe09 -1 x700c1 = +0
-
 +1 x6fd63 -1 x6fd64 -1 x6fd65 = +0
-
 +1 x6fd65 +1 x6fd9c +1 x6fdd2 -1 x6fdd3 +0 x6fdd4 -1 x70131 = +0
-
 +1 x6fd64 -1 x6fd70 -1 x6fd71 = +0
-
 +1 x6fd70 -1 x6fd7c -1 x6fd7d = +0
-
 +1 x6fd7c -1 x6fd80 -1 x6fd81 = +0
-
 +1 x6fd80 -1 x6fd84 -1 x6fd85 = +0
-
 +1 x6fd84 -1 x6fd88 -1 x6fd89 = +0
-
 +1 x6fd81 +1 x6fd85 +1 x6fd89 -1 x6fd8e = +0
-
 +1 x6fd8e +1 x6fd90 +1 x6fdc6 -1 x700ef = +0
-
 +1 x6fd71 +1 x6fd7d +1 x6fd88 -1 x6fd97 = +0
-
 +1 x6fd97 +1 x6fd99 -1 x6fd9a +1 x6fdcf -1 x700f8 = +0
-
 +1 x6fd9a -1 x6fd9b -1 x6fd9c = +0
-
 +1 x6fd9b -1 x6fda8 -1 x6fda9 = +0
-
 +1 x6fda8 -1 x6fdb4 -1 x6fdb5 = +0
-
 +1 x6fdb4 -1 x6fdb8 -1 x6fdb9 = +0
-
 +1 x6fdb8 -1 x6fdbc -1 x6fdbd = +0
-
 +1 x6fdbc -1 x6fdc0 -1 x6fdc1 = +0
-
 +1 x6fdb9 +1 x6fdbd +1 x6fdc1 -1 x6fdc6 = +0
-
 +1 x6fda9 +1 x6fdb5 +1 x6fdc0 -1 x6fdcf = +0
-
 +1 x6fdd3 +1 x6fddd -1 x6fdde -1 x7013c = +0
-
 +1 x6fdde -1 x6fddf -1 x6fde0 = +0
-
 +1 x6fddf -1 x6fdf1 -1 x6fdf2 = +0
-
 +1 x6fdf1 -1 x6fdfd -1 x6fdfe = +0
-
 +1 x6fdf2 +1 x6fdfe -1 x6fe09 = +0
-
 +1 x6fe0d -1 x6fe1c -1 x6fe1d = +0
-
 +1 x6fe1d -1 x6fe21 -1 x6fe22 = +0
-
 +1 x6fe1c -1 x6fe23 -1 x6fe24 = +0
-
 +1 x6fe22 -1 x6fe2b -1 x6fe2c = +0
-
 +1 x6fe24 -1 x6fe2d -1 x6fe2e = +0
-
 +1 x6fe23 -1 x6fe2f -1 x6fe30 = +0
-
 +1 x6fe21 -1 x6fe31 -1 x6fe32 = +0
-
 +1 x6fe2b +1 x6fe2d -1 x6fe36 = +0
-
 +1 x6fe2c +1 x6fe2e -1 x6fe33 = +0
-
 +1 x6fe30 +1 x6fe32 -1 x6fe3d = +0
-
 +1 x6fe33 +1 x6fe3d -1 x6fe41 = +0
-
 +1 x6fe2f +1 x6fe31 -1 x6fe43 = +0
-
 +1 x6fe36 +1 x6fe43 -1 x6fe45 = +0
-
 +1 x6fe41 -1 x6fe48 -1 x6fe49 = +0
-
 +1 x6fe45 -1 x6fe4a -1 x6fe4b = +0
-
 +1 x6fe48 +1 x6fe4a +1 x6fe4c -1 x701ab = +0
-
 +1 x6fe49 +1 x6fe4b -1 x6fe4d = +0
-
 +1 x6fe4d +1 x6fe51 -1 x6fe52 -1 x701b0 = +0
-
 +1 x6fe52 -1 x6fe53 -1 x6fe54 = +0
-
 +1 x6fe54 +1 x6fe56 -1 x701b5 = +0
-
 +1 x6fe53 -1 x6fe72 -1 x6fe73 = +0
-
 +1 x6fe72 -1 x6fe7e -1 x6fe7f = +0
-
 +1 x6fe73 +1 x6fe7e +1 x6fe7f -1 x6fe8d = +0
-
 +1 x6fe8d +1 x6fe8f -1 x6fe90 -1 x701ee = +0
-
 +1 x6fe90 -1 x6fe91 -1 x6fe92 = +0
-
 +1 x6fe91 -1 x6fe9d -1 x6fe9e = +0
-
 +1 x6fe9d -1 x6fea9 -1 x6feaa = +0
-
 +1 x6fe9e +1 x6feaa -1 x6feb5 = +0
-
 +1 x6feb5 +1 x6feb7 -1 x6feb8 +1 x6fede -1 x70216 = +0
-
 +1 x6feb8 -1 x6feb9 -1 x6feba = +0
-
 +1 x6fe92 +1 x6feba +1 x6fee1 -1 x6fee2 +0 x6fee3 -1 x70240 = +0
-
 +1 x6feb9 -1 x6fec6 -1 x6fec7 = +0
-
 +1 x6fec6 -1 x6fed2 -1 x6fed3 = +0
-
 +1 x6fec7 +1 x6fed3 -1 x6fede = +0
-
 +1 x6fee2 +1 x6feec -1 x6feed -1 x7024b = +0
-
 +1 x6feed -1 x6feee -1 x6feef = +0
-
 +1 x6feef +1 x6ff97 +1 x6ffc3 -1 x6ffc4 +0 x6ffc5 -1 x70322 = +0
-
 +1 x6feee -1 x6feff -1 x6ff00 = +0
-
 +1 x6feff -1 x6ff0b -1 x6ff0c = +0
-
 +1 x6ff0b +1 x6ff14 +1 x6ffb4 -1 x70273 = +0
-
 +1 x6ff00 +1 x6ff0c -1 x6ff17 = +0
-
 +1 x6ff17 +1 x6ff19 -1 x6ff1a +1 x6ffc0 -1 x70278 = +0
-
 +1 x6ff1a -1 x6ff1b -1 x6ff1c = +0
-
 +1 x6ff1c +1 x6ff53 +1 x6ff89 -1 x6ff8a +0 x6ff8b -1 x702e8 = +0
-
 +1 x6ff1b -1 x6ff27 -1 x6ff28 = +0
-
 +1 x6ff27 -1 x6ff33 -1 x6ff34 = +0
-
 +1 x6ff33 -1 x6ff37 -1 x6ff38 = +0
-
 +1 x6ff37 -1 x6ff3b -1 x6ff3c = +0
-
 +1 x6ff3b -1 x6ff3f -1 x6ff40 = +0
-
 +1 x6ff38 +1 x6ff3c +1 x6ff40 -1 x6ff45 = +0
-
 +1 x6ff45 +1 x6ff47 +1 x6ff7d -1 x702a6 = +0
-
 +1 x6ff28 +1 x6ff34 +1 x6ff3f -1 x6ff4e = +0
-
 +1 x6ff4e +1 x6ff50 -1 x6ff51 +1 x6ff86 -1 x702af = +0
-
 +1 x6ff51 -1 x6ff52 -1 x6ff53 = +0
-
 +1 x6ff52 -1 x6ff5f -1 x6ff60 = +0
-
 +1 x6ff5f -1 x6ff6b -1 x6ff6c = +0
-
 +1 x6ff6b -1 x6ff6f -1 x6ff70 = +0
-
 +1 x6ff6f -1 x6ff73 -1 x6ff74 = +0
-
 +1 x6ff73 -1 x6ff77 -1 x6ff78 = +0
-
 +1 x6ff70 +1 x6ff74 +1 x6ff78 -1 x6ff7d = +0
-
 +1 x6ff60 +1 x6ff6c +1 x6ff77 -1 x6ff86 = +0
-
 +1 x6ff8a +1 x6ff94 -1 x6ff95 -1 x702f3 = +0
-
 +1 x6ff95 -1 x6ff96 -1 x6ff97 = +0
-
 +1 x6ff96 -1 x6ffa8 -1 x6ffa9 = +0
-
 +1 x6ffa8 -1 x6ffb4 -1 x6ffb5 = +0
-
 +1 x6ffa9 +1 x6ffb5 -1 x6ffc0 = +0
-
 +1 x6ffc4 -1 x6ffd3 -1 x6ffd4 = +0
-
 +1 x6ffd4 -1 x6ffd8 -1 x6ffd9 = +0
-
 +1 x6ffd3 -1 x6ffda -1 x6ffdb = +0
-
 +1 x6ffd9 +1 x6ffdb -1 x6ffe1 -1 x6ffe2 = +0
-
 +1 x6ffd8 +1 x6ffda -1 x6ffe0 = +0
-
 +1 x6ffe0 -1 x6ffe3 -1 x6ffe4 = +0
-
 +1 x6ffe2 +1 x6ffe4 -1 x6ffef = +0
-
 +1 x6ffe1 +1 x6ffe3 -1 x6fff3 = +0
-
 +1 x6ffef +1 x6fff3 -1 x6fff8 = +0
-
 +1 x6fff8 -1 x6fffb -1 x6fffc = +0
-
 +1 x6fffb +1 x6fffc -1 x7000c = +0
-
 +1 x7000c -1 x7001a -1 x7001b = +0
-
 +1 x7001a -1 x70026 -1 x70027 = +0
-
 +1 x7001b +1 x70026 +1 x70027 -1 x70035 = +0
-
 +1 x70035 +1 x70037 -1 x70038 -1 x70396 = +0
-
 +1 x70038 -1 x70039 -1 x7003a = +0
-
 +1 x7003a +1 x70062 +1 x70089 -1 x7008a +0 x7008b -1 x703e8 = +0
-
 +1 x70039 -1 x70045 -1 x70046 = +0
-
 +1 x70045 -1 x70051 -1 x70052 = +0
-
 +1 x70046 +1 x70052 -1 x7005d = +0
-
 +1 x7005d +1 x7005f -1 x70060 +1 x70086 -1 x703be = +0
-
 +1 x70060 -1 x70061 -1 x70062 = +0
-
 +1 x70061 -1 x7006e -1 x7006f = +0
-
 +1 x7006e -1 x7007a -1 x7007b = +0
-
 +1 x7006f +1 x7007b -1 x70086 = +0
-
 +1 x7008a +1 x70094 -1 x70095 -1 x703f3 = +0
-
 +1 x70095 -1 x70096 -1 x70097 = +0
-
 +1 x70097 +1 x7013f +1 x7016b -1 x7016c +0 x7016d -1 x704ca = +0
-
 +1 x70096 -1 x700a7 -1 x700a8 = +0
-
 +1 x700a7 -1 x700b3 -1 x700b4 = +0
-
 +1 x700b3 +1 x700bc +1 x7015c -1 x7041b = +0
-
 +1 x700a8 +1 x700b4 -1 x700bf = +0
-
 +1 x700bf +1 x700c1 -1 x700c2 +1 x70168 -1 x70420 = +0
-
 +1 x700c2 -1 x700c3 -1 x700c4 = +0
-
 +1 x700c4 +1 x700fb +1 x70131 -1 x70132 +0 x70133 -1 x70490 = +0
-
 +1 x700c3 -1 x700cf -1 x700d0 = +0
-
 +1 x700cf -1 x700db -1 x700dc = +0
-
 +1 x700db -1 x700df -1 x700e0 = +0
-
 +1 x700df -1 x700e3 -1 x700e4 = +0
-
 +1 x700e3 -1 x700e7 -1 x700e8 = +0
-
 +1 x700e0 +1 x700e4 +1 x700e8 -1 x700ed = +0
-
 +1 x700ed +1 x700ef +1 x70125 -1 x7044e = +0
-
 +1 x700d0 +1 x700dc +1 x700e7 -1 x700f6 = +0
-
 +1 x700f6 +1 x700f8 -1 x700f9 +1 x7012e -1 x70457 = +0
-
 +1 x700f9 -1 x700fa -1 x700fb = +0
-
 +1 x700fa -1 x70107 -1 x70108 = +0
-
 +1 x70107 -1 x70113 -1 x70114 = +0
-
 +1 x70113 -1 x70117 -1 x70118 = +0
-
 +1 x70117 -1 x7011b -1 x7011c = +0
-
 +1 x7011b -1 x7011f -1 x70120 = +0
-
 +1 x70118 +1 x7011c +1 x70120 -1 x70125 = +0
-
 +1 x70108 +1 x70114 +1 x7011f -1 x7012e = +0
-
 +1 x70132 +1 x7013c -1 x7013d -1 x7049b = +0
-
 +1 x7013d -1 x7013e -1 x7013f = +0
-
 +1 x7013e -1 x70150 -1 x70151 = +0
-
 +1 x70150 -1 x7015c -1 x7015d = +0
-
 +1 x70151 +1 x7015d -1 x70168 = +0
-
 +1 x7016c -1 x7017b -1 x7017c = +0
-
 +1 x7017c -1 x70180 -1 x70181 = +0
-
 +1 x7017b -1 x70182 -1 x70183 = +0
-
 +1 x70181 -1 x7018a -1 x7018b = +0
-
 +1 x70183 -1 x7018c -1 x7018d = +0
-
 +1 x70182 -1 x7018e -1 x7018f = +0
-
 +1 x70180 -1 x70190 -1 x70191 = +0
-
 +1 x7018a +1 x7018c -1 x70195 = +0
-
 +1 x7018b +1 x7018d -1 x70192 = +0
-
 +1 x7018f +1 x70191 -1 x7019c = +0
-
 +1 x70192 +1 x7019c -1 x701a0 = +0
-
 +1 x7018e +1 x70190 -1 x701a2 = +0
-
 +1 x70195 +1 x701a2 -1 x701a4 = +0
-
 +1 x701a0 -1 x701a7 -1 x701a8 = +0
-
 +1 x701a4 -1 x701a9 -1 x701aa = +0
-
 +1 x701a7 +1 x701a9 +1 x701ab -1 x7050a = +0
-
 +1 x701a8 +1 x701aa -1 x701ac = +0
-
 +1 x701ac +1 x701b0 -1 x701b1 -1 x7050f = +0
-
 +1 x701b1 -1 x701b2 -1 x701b3 = +0
-
 +1 x701b3 +1 x701b5 -1 x70514 = +0
-
 +1 x701b2 -1 x701d1 -1 x701d2 = +0
-
 +1 x701d1 -1 x701dd -1 x701de = +0
-
 +1 x701d2 +1 x701dd +1 x701de -1 x701ec = +0
-
 +1 x701ec +1 x701ee -1 x701ef -1 x7054d = +0
-
 +1 x701ef -1 x701f0 -1 x701f1 = +0
-
 +1 x701f0 -1 x701fc -1 x701fd = +0
-
 +1 x701fc -1 x70208 -1 x70209 = +0
-
 +1 x701fd +1 x70209 -1 x70214 = +0
-
 +1 x70214 +1 x70216 -1 x70217 +1 x7023d -1 x70574 = +0
-
 +1 x70217 -1 x70218 -1 x70219 = +0
-
 +1 x701f1 +1 x70219 +1 x70240 -1 x70241 +0 x70242 -1 x7059e = +0
-
 +1 x70218 -1 x70225 -1 x70226 = +0
-
 +1 x70225 -1 x70231 -1 x70232 = +0
-
 +1 x70226 +1 x70232 -1 x7023d = +0
-
 +1 x70241 +1 x7024b -1 x7024c -1 x705a9 = +0
-
 +1 x7024c -1 x7024d -1 x7024e = +0
-
 +1 x7024e +1 x702f6 +1 x70322 -1 x70323 +0 x70324 -1 x70680 = +0
-
 +1 x7024d -1 x7025e -1 x7025f = +0
-
 +1 x7025e -1 x7026a -1 x7026b = +0
-
 +1 x7026a +1 x70273 +1 x70313 -1 x705d1 = +0
-
 +1 x7025f +1 x7026b -1 x70276 = +0
-
 +1 x70276 +1 x70278 -1 x70279 +1 x7031f -1 x705d6 = +0
-
 +1 x70279 -1 x7027a -1 x7027b = +0
-
 +1 x7027b +1 x702b2 +1 x702e8 -1 x702e9 +0 x702ea -1 x70646 = +0
-
 +1 x7027a -1 x70286 -1 x70287 = +0
-
 +1 x70286 -1 x70292 -1 x70293 = +0
-
 +1 x70292 -1 x70296 -1 x70297 = +0
-
 +1 x70296 -1 x7029a -1 x7029b = +0
-
 +1 x7029a -1 x7029e -1 x7029f = +0
-
 +1 x70297 +1 x7029b +1 x7029f -1 x702a4 = +0
-
 +1 x702a4 +1 x702a6 +1 x702dc -1 x70604 = +0
-
 +1 x70287 +1 x70293 +1 x7029e -1 x702ad = +0
-
 +1 x702ad +1 x702af -1 x702b0 +1 x702e5 -1 x7060d = +0
-
 +1 x702b0 -1 x702b1 -1 x702b2 = +0
-
 +1 x702b1 -1 x702be -1 x702bf = +0
-
 +1 x702be -1 x702ca -1 x702cb = +0
-
 +1 x702ca -1 x702ce -1 x702cf = +0
-
 +1 x702ce -1 x702d2 -1 x702d3 = +0
-
 +1 x702d2 -1 x702d6 -1 x702d7 = +0
-
 +1 x702cf +1 x702d3 +1 x702d7 -1 x702dc = +0
-
 +1 x702bf +1 x702cb +1 x702d6 -1 x702e5 = +0
-
 +1 x702e9 +1 x702f3 -1 x702f4 -1 x70651 = +0
-
 +1 x702f4 -1 x702f5 -1 x702f6 = +0
-
 +1 x702f5 -1 x70307 -1 x70308 = +0
-
 +1 x70307 -1 x70313 -1 x70314 = +0
-
 +1 x70308 +1 x70314 -1 x7031f = +0
-
 +1 x70323 -1 x70332 -1 x70333 = +0
-
 +1 x70333 -1 x70337 -1 x70338 = +0
-
 +1 x70332 -1 x70339 -1 x7033a = +0
-
 +1 x70338 +1 x7033a -1 x70340 -1 x70341 = +0
-
 +1 x70337 +1 x70339 -1 x7033f = +0
-
 +1 x7033f -1 x70342 -1 x70343 = +0
-
 +1 x70341 +1 x70343 -1 x7034e = +0
-
 +1 x70340 +1 x70342 -1 x70352 = +0
-
 +1 x7034e +1 x70352 -1 x70357 = +0
-
 +1 x70357 -1 x7035a -1 x7035b = +0
-
 +1 x7035a +1 x7035b -1 x7036b = +0
-
 +1 x7036b -1 x70379 -1 x7037a = +0
-
 +1 x70379 -1 x70385 -1 x70386 = +0
-
 +1 x7037a +1 x70385 +1 x70386 -1 x70394 = +0
-
 +1 x70394 +1 x70396 -1 x70397 -1 x706f4 = +0
-
 +1 x70397 -1 x70398 -1 x70399 = +0
-
 +1 x70399 +1 x703c1 +1 x703e8 -1 x703e9 +0 x703ea -1 x70745 = +0
-
 +1 x70398 -1 x703a4 -1 x703a5 = +0
-
 +1 x703a4 -1 x703b0 -1 x703b1 = +0
-
 +1 x703a5 +1 x703b1 -1 x703bc = +0
-
 +1 x703bc +1 x703be -1 x703bf +1 x703e5 -1 x7071b = +0
-
 +1 x703bf -1 x703c0 -1 x703c1 = +0
-
 +1 x703c0 -1 x703cd -1 x703ce = +0
-
 +1 x703cd -1 x703d9 -1 x703da = +0
-
 +1 x703ce +1 x703da -1 x703e5 = +0
-
 +1 x703e9 +1 x703f3 -1 x703f4 -1 x70750 = +0
-
 +1 x703f4 -1 x703f5 -1 x703f6 = +0
-
 +1 x703f6 +1 x7049e +1 x704ca -1 x704cb +0 x704cc -1 x70827 = +0
-
 +1 x703f5 -1 x70406 -1 x70407 = +0
-
 +1 x70406 -1 x70412 -1 x70413 = +0
-
 +1 x70412 +1 x7041b +1 x704bb -1 x70778 = +0
-
 +1 x70407 +1 x70413 -1 x7041e = +0
-
 +1 x7041e +1 x70420 -1 x70421 +1 x704c7 -1 x7077d = +0
-
 +1 x70421 -1 x70422 -1 x70423 = +0
-
 +1 x70423 +1 x7045a +1 x70490 -1 x70491 +0 x70492 -1 x707ed = +0
-
 +1 x70422 -1 x7042e -1 x7042f = +0
-
 +1 x7042e -1 x7043a -1 x7043b = +0
-
 +1 x7043a -1 x7043e -1 x7043f = +0
-
 +1 x7043e -1 x70442 -1 x70443 = +0
-
 +1 x70442 -1 x70446 -1 x70447 = +0
-
 +1 x7043f +1 x70443 +1 x70447 -1 x7044c = +0
-
 +1 x7044c +1 x7044e +1 x70484 -1 x707ab = +0
-
 +1 x7042f +1 x7043b +1 x70446 -1 x70455 = +0
-
 +1 x70455 +1 x70457 -1 x70458 +1 x7048d -1 x707b4 = +0
-
 +1 x70458 -1 x70459 -1 x7045a = +0
-
 +1 x70459 -1 x70466 -1 x70467 = +0
-
 +1 x70466 -1 x70472 -1 x70473 = +0
-
 +1 x70472 -1 x70476 -1 x70477 = +0
-
 +1 x70476 -1 x7047a -1 x7047b = +0
-
 +1 x7047a -1 x7047e -1 x7047f = +0
-
 +1 x70477 +1 x7047b +1 x7047f -1 x70484 = +0
-
 +1 x70467 +1 x70473 +1 x7047e -1 x7048d = +0
-
 +1 x70491 +1 x7049b -1 x7049c -1 x707f8 = +0
-
 +1 x7049c -1 x7049d -1 x7049e = +0
-
 +1 x7049d -1 x704af -1 x704b0 = +0
-
 +1 x704af -1 x704bb -1 x704bc = +0
-
 +1 x704b0 +1 x704bc -1 x704c7 = +0
-
 +1 x704cb -1 x704da -1 x704db = +0
-
 +1 x704db -1 x704df -1 x704e0 = +0
-
 +1 x704da -1 x704e1 -1 x704e2 = +0
-
 +1 x704e0 -1 x704e9 -1 x704ea = +0
-
 +1 x704e2 -1 x704eb -1 x704ec = +0
-
 +1 x704e1 -1 x704ed -1 x704ee = +0
-
 +1 x704df -1 x704ef -1 x704f0 = +0
-
 +1 x704e9 +1 x704eb -1 x704f4 = +0
-
 +1 x704ea +1 x704ec -1 x704f1 = +0
-
 +1 x704ee +1 x704f0 -1 x704fb = +0
-
 +1 x704f1 +1 x704fb -1 x704ff = +0
-
 +1 x704ed +1 x704ef -1 x70501 = +0
-
 +1 x704f4 +1 x70501 -1 x70503 = +0
-
 +1 x704ff -1 x70506 -1 x70507 = +0
-
 +1 x70503 -1 x70508 -1 x70509 = +0
-
 +1 x70506 +1 x70508 +1 x7050a +1 x70867 -1 x7086d = +0
-
 +1 x70507 +1 x70509 -1 x7050b = +0
-
 +1 x7050b +1 x7050f -1 x70510 +1 x70868 -1 x78095 = +0
-
 +1 x70510 -1 x70511 -1 x70512 = +0
-
 +1 x70512 +1 x70514 -1 x7086e +0 x7086f +1 x70b8d +1 x70f47 -1 x780d5 = +0
-
 +1 x70511 -1 x70530 -1 x70531 = +0
-
 +1 x70530 -1 x7053c -1 x7053d = +0
-
 +1 x70531 +1 x7053c +1 x7053d -1 x7054b = +0
-
 +1 x7054b +1 x7054d -1 x7054e +1 x70bc5 +1 x70f7f -1 x77d7b = +0
-
 +1 x7054e -1 x7054f -1 x70550 = +0
-
 +1 x7054f -1 x7055b -1 x7055c = +0
-
 +1 x7055b -1 x70567 -1 x70568 = +0
-
 +1 x7055c +1 x70568 -1 x70572 = +0
-
 +1 x70572 +1 x70574 -1 x70575 +1 x7059b -1 x77da2 = +0
-
 +1 x70575 -1 x70576 -1 x70577 = +0
-
 +1 x70550 +1 x70577 +1 x7059e -1 x7059f +0 x705a0 -1 x77dcc = +0
-
 +1 x70576 -1 x70583 -1 x70584 = +0
-
 +1 x70583 -1 x7058f -1 x70590 = +0
-
 +1 x70567 +1 x7058f -1 x76fc0 = +0
-
 +1 x70584 +1 x70590 -1 x7059b = +0
-
 +1 x7059f +1 x705a9 -1 x705aa -1 x77dd7 = +0
-
 +1 x705aa -1 x705ab -1 x705ac = +0
-
 +1 x705ac +1 x70654 +1 x70680 -1 x70681 +0 x70682 -1 x77eac = +0
-
 +1 x705ab -1 x705bc -1 x705bd = +0
-
 +1 x705bc -1 x705c8 -1 x705c9 = +0
-
 +1 x705c8 +1 x705d1 +1 x70671 -1 x762cb = +0
-
 +1 x705bd +1 x705c9 -1 x705d4 = +0
-
 +1 x705d4 +1 x705d6 -1 x705d7 +1 x7067d -1 x77e03 = +0
-
 +1 x705d7 -1 x705d8 -1 x705d9 = +0
-
 +1 x705d9 +1 x70610 +1 x70646 -1 x70647 +0 x70648 +1 x760a2 +1 x76dfc -1 x77e72
 = +0
-
 +1 x705d8 -1 x705e4 -1 x705e5 = +0
-
 +1 x705e4 -1 x705f0 -1 x705f1 = +0
-
 +1 x705f0 -1 x705f4 -1 x705f5 = +0
-
 +1 x705f4 -1 x705f8 -1 x705f9 = +0
-
 +1 x705f8 -1 x705fc -1 x705fd = +0
-
 +1 x705f5 +1 x705f9 +1 x705fd -1 x70602 = +0
-
 +1 x70602 +1 x70604 +1 x7063a -1 x755b5 = +0
-
 +1 x705e5 +1 x705f1 +1 x705fc -1 x7060b = +0
-
 +1 x7060b +1 x7060d -1 x7060e +1 x70643 +1 x75b1f +1 x760d3 +1 x767bd +1 x76e2d
 -1 x77e39 = +0
-
 +1 x7060e -1 x7060f -1 x70610 = +0
-
 +1 x7060f -1 x7061c -1 x7061d = +0
-
 +1 x7061c -1 x70628 -1 x70629 = +0
-
 +1 x70628 -1 x7062c -1 x7062d = +0
-
 +1 x7062c -1 x70630 -1 x70631 = +0
-
 +1 x70630 -1 x70634 -1 x70635 = +0
-
 +1 x7062d +1 x70631 +1 x70635 -1 x7063a = +0
-
 +1 x7061d +1 x70629 +1 x70634 -1 x70643 = +0
-
 +1 x70647 +1 x70651 -1 x70652 +1 x75b22 -1 x77e7d = +0
-
 +1 x70652 -1 x70653 -1 x70654 = +0
-
 +1 x70653 -1 x70665 -1 x70666 = +0
-
 +1 x70665 -1 x70671 -1 x70672 = +0
-
 +1 x70666 +1 x70672 -1 x7067d = +0
-
 +1 x70681 -1 x70690 -1 x70691 = +0
-
 +1 x70691 -1 x70695 -1 x70696 = +0
-
 +1 x70690 -1 x70697 -1 x70698 = +0
-
 +1 x70696 +1 x70698 -1 x7069e -1 x7069f = +0
-
 +1 x70695 +1 x70697 -1 x7069d = +0
-
 +1 x7069d -1 x706a0 -1 x706a1 = +0
-
 +1 x7069f +1 x706a1 -1 x706ac = +0
-
 +1 x7069e +1 x706a0 -1 x706b0 = +0
-
 +1 x706ac +1 x706b0 -1 x706b5 = +0
-
 +1 x706b5 -1 x706b8 -1 x706b9 = +0
-
 +1 x706b8 +1 x706b9 -1 x706c9 = +0
-
 +1 x706c9 -1 x706d7 -1 x706d8 = +0
-
 +1 x706d7 -1 x706e3 -1 x706e4 = +0
-
 +1 x706d8 +1 x706e3 +1 x706e4 -1 x706f2 = +0
-
 +1 x706f2 +1 x706f4 -1 x706f5 -1 x77f20 = +0
-
 +1 x706f5 -1 x706f6 -1 x706f7 = +0
-
 +1 x706f7 +1 x7071e +1 x70745 -1 x70746 +0 x70747 +1 x75348 -1 x77f71 = +0
-
 +1 x706f6 -1 x70702 -1 x70703 = +0
-
 +1 x70702 -1 x7070e -1 x7070f = +0
-
 +1 x7070e +1 x70736 -1 x749f7 = +0
-
 +1 x70703 +1 x7070f -1 x70719 = +0
-
 +1 x70719 +1 x7071b -1 x7071c +1 x70742 +1 x74eac +1 x7536a -1 x77f47 = +0
-
 +1 x7071c -1 x7071d -1 x7071e = +0
-
 +1 x7071d -1 x7072a -1 x7072b = +0
-
 +1 x7072a -1 x70736 -1 x70737 = +0
-
 +1 x7072b +1 x70737 -1 x70742 = +0
-
 +1 x70746 +1 x70750 -1 x70751 +1 x74eaf -1 x77f7c = +0
-
 +1 x70751 -1 x70752 -1 x70753 = +0
-
 +1 x70753 +1 x707fb +1 x70827 -1 x70828 +0 x70829 -1 x78051 = +0
-
 +1 x70752 -1 x70763 -1 x70764 = +0
-
 +1 x70763 -1 x7076f -1 x70770 = +0
-
 +1 x7076f +1 x70778 +1 x70818 -1 x73d02 = +0
-
 +1 x70764 +1 x70770 -1 x7077b = +0
-
 +1 x7077b +1 x7077d -1 x7077e +1 x70824 -1 x77fa8 = +0
-
 +1 x7077e -1 x7077f -1 x70780 = +0
-
 +1 x70780 +1 x707b7 +1 x707ed -1 x707ee +0 x707ef +1 x73ad9 +1 x74833 -1 x78017
 = +0
-
 +1 x7077f -1 x7078b -1 x7078c = +0
-
 +1 x7078b -1 x70797 -1 x70798 = +0
-
 +1 x70797 -1 x7079b -1 x7079c = +0
-
 +1 x7079b -1 x7079f -1 x707a0 = +0
-
 +1 x7079f -1 x707a3 -1 x707a4 = +0
-
 +1 x7079c +1 x707a0 +1 x707a4 -1 x707a9 = +0
-
 +1 x707a9 +1 x707ab +1 x707e1 -1 x72fec = +0
-
 +1 x7078c +1 x70798 +1 x707a3 -1 x707b2 = +0
-
 +1 x707b2 +1 x707b4 -1 x707b5 +1 x707ea +1 x73556 +1 x73b0a +1 x741f4 +1 x74864
 -1 x77fde = +0
-
 +1 x707b5 -1 x707b6 -1 x707b7 = +0
-
 +1 x707b6 -1 x707c3 -1 x707c4 = +0
-
 +1 x707c3 -1 x707cf -1 x707d0 = +0
-
 +1 x707cf -1 x707d3 -1 x707d4 = +0
-
 +1 x707d3 -1 x707d7 -1 x707d8 = +0
-
 +1 x707d7 -1 x707db -1 x707dc = +0
-
 +1 x707d4 +1 x707d8 +1 x707dc -1 x707e1 = +0
-
 +1 x707c4 +1 x707d0 +1 x707db -1 x707ea = +0
-
 +1 x707ee +1 x707f8 -1 x707f9 +1 x73559 -1 x78022 = +0
-
 +1 x707f9 -1 x707fa -1 x707fb = +0
-
 +1 x707fa -1 x7080c -1 x7080d = +0
-
 +1 x7080c -1 x70818 -1 x70819 = +0
-
 +1 x7080d +1 x70819 -1 x70824 = +0
-
 +1 x70828 -1 x70837 -1 x70838 = +0
-
 +1 x70838 -1 x7083c -1 x7083d = +0
-
 +1 x70837 -1 x7083e -1 x7083f = +0
-
 +1 x7083d -1 x70846 -1 x70847 = +0
-
 +1 x7083f -1 x70848 -1 x70849 = +0
-
 +1 x7083e -1 x7084a -1 x7084b = +0
-
 +1 x7083c -1 x7084c -1 x7084d = +0
-
 +1 x70846 +1 x70848 -1 x70851 = +0
-
 +1 x70847 +1 x70849 -1 x7084e = +0
-
 +1 x7084b +1 x7084d -1 x70858 = +0
-
 +1 x7084e +1 x70858 -1 x7085c = +0
-
 +1 x7084a +1 x7084c -1 x7085e = +0
-
 +1 x70851 +1 x7085e -1 x70860 = +0
-
 +1 x7085c -1 x70863 -1 x70864 = +0
-
 +1 x70860 -1 x70865 -1 x70866 = +0
-
 +1 x70863 +1 x70865 -1 x70867 = +0
-
 +1 x70864 +1 x70866 -1 x70868 = +0
-
 +1 x7086d -1 x70870 +0 x70871 -1 x780d6 = +0
-
 +1 x5dec0 -1 x7088a -1 x7088b = +0
-
 +1 x7088b -1 x708d1 +0 x708d2 = +0
-
 +1 x7088a -1 x708a0 -1 x708a1 = +0
-
 +1 x708a0 +1 x708c3 -1 x76fc1 = +0
-
 +1 x708a1 -1 x708ac +1 x708c4 -1 x70c57 = +0
-
 +1 x708ac -1 x708ad -1 x708ae = +0
-
 +1 x708ae -1 x708d3 +0 x708d4 -1 x70c7e = +0
-
 +1 x708ad -1 x708c3 -1 x708c4 = +0
-
 +1 x708d1 +1 x708d3 -1 x708e1 = +0
-
 +1 x708e1 -1 x708e3 -1 x70c89 = +0
-
 +1 x708e3 -1 x708e4 -1 x708e5 = +0
-
 +1 x708e5 +1 x70987 -1 x709b3 +0 x709b4 -1 x70d60 = +0
-
 +1 x708e4 -1 x708f5 -1 x708f6 = +0
-
 +1 x708f5 -1 x70901 -1 x70902 = +0
-
 +1 x70901 +1 x709a4 -1 x70cb1 = +0
-
 +1 x708f6 +1 x70902 -1 x7090c = +0
-
 +1 x7090c -1 x7090e +1 x709b0 -1 x70cb6 = +0
-
 +1 x7090e -1 x7090f -1 x70910 = +0
-
 +1 x70910 +1 x70945 -1 x7097b +0 x7097c -1 x70d26 = +0
-
 +1 x7090f -1 x7091b -1 x7091c = +0
-
 +1 x7091b -1 x70927 -1 x70928 = +0
-
 +1 x70927 -1 x7092b -1 x7092c = +0
-
 +1 x7092b -1 x7092f -1 x70930 = +0
-
 +1 x7092f -1 x70933 -1 x70934 = +0
-
 +1 x7092c +1 x70930 +1 x70934 -1 x70939 = +0
-
 +1 x70939 +1 x7096f -1 x70ce4 = +0
-
 +1 x7091c +1 x70928 +1 x70933 -1 x70941 = +0
-
 +1 x70941 -1 x70943 +1 x70978 -1 x70ced = +0
-
 +1 x70943 -1 x70944 -1 x70945 = +0
-
 +1 x70944 -1 x70951 -1 x70952 = +0
-
 +1 x70951 -1 x7095d -1 x7095e = +0
-
 +1 x7095d -1 x70961 -1 x70962 = +0
-
 +1 x70961 -1 x70965 -1 x70966 = +0
-
 +1 x70965 -1 x70969 -1 x7096a = +0
-
 +1 x70962 +1 x70966 +1 x7096a -1 x7096f = +0
-
 +1 x70952 +1 x7095e +1 x70969 -1 x70978 = +0
-
 +1 x7097b -1 x70985 -1 x70d31 = +0
-
 +1 x70985 -1 x70986 -1 x70987 = +0
-
 +1 x70986 -1 x70998 -1 x70999 = +0
-
 +1 x70998 -1 x709a4 -1 x709a5 = +0
-
 +1 x70999 +1 x709a5 -1 x709b0 = +0
-
 +1 x709b3 -1 x709c2 -1 x709c3 = +0
-
 +1 x709c3 -1 x709c7 -1 x709c8 = +0
-
 +1 x709c2 -1 x709c9 -1 x709ca = +0
-
 +1 x709c8 +1 x709ca -1 x709d0 -1 x709d1 = +0
-
 +1 x709c7 +1 x709c9 -1 x709cf = +0
-
 +1 x709cf -1 x709d2 -1 x709d3 = +0
-
 +1 x709d1 +1 x709d3 -1 x709de = +0
-
 +1 x709d0 +1 x709d2 -1 x709e2 = +0
-
 +1 x709de +1 x709e2 -1 x709e7 = +0
-
 +1 x709e7 -1 x709ea -1 x709eb = +0
-
 +1 x709ea +1 x709eb -1 x709fd = +0
-
 +1 x709fd -1 x70a15 -1 x70a16 = +0
-
 +1 x70a15 +1 x70a16 -1 x70a23 = +0
-
 +1 x70a23 -1 x70a25 -1 x70dd3 = +0
-
 +1 x70a25 -1 x70a26 -1 x70a27 = +0
-
 +1 x70a27 +1 x70a4a -1 x70a6e +0 x70a6f -1 x70e1e = +0
-
 +1 x70a26 -1 x70a3c -1 x70a3d = +0
-
 +1 x70a3c +1 x70a60 -1 x749f8 = +0
-
 +1 x70a3d -1 x70a48 +1 x70a61 -1 x70df7 = +0
-
 +1 x70a48 -1 x70a49 -1 x70a4a = +0
-
 +1 x70a49 -1 x70a60 -1 x70a61 = +0
-
 +1 x70a6e -1 x70a78 -1 x70e29 = +0
-
 +1 x70a78 -1 x70a79 -1 x70a7a = +0
-
 +1 x70a7a +1 x70b1c -1 x70b48 +0 x70b49 -1 x70f00 = +0
-
 +1 x70a79 -1 x70a8a -1 x70a8b = +0
-
 +1 x70a8a -1 x70a96 -1 x70a97 = +0
-
 +1 x70a96 +1 x70b39 -1 x70e51 = +0
-
 +1 x70a8b +1 x70a97 -1 x70aa1 = +0
-
 +1 x70aa1 -1 x70aa3 +1 x70b45 -1 x70e56 = +0
-
 +1 x70aa3 -1 x70aa4 -1 x70aa5 = +0
-
 +1 x70aa5 +1 x70ada -1 x70b10 +0 x70b11 -1 x70ec6 = +0
-
 +1 x70aa4 -1 x70ab0 -1 x70ab1 = +0
-
 +1 x70ab0 -1 x70abc -1 x70abd = +0
-
 +1 x70abc -1 x70ac0 -1 x70ac1 = +0
-
 +1 x70ac0 -1 x70ac4 -1 x70ac5 = +0
-
 +1 x70ac4 -1 x70ac8 -1 x70ac9 = +0
-
 +1 x70ac1 +1 x70ac5 +1 x70ac9 -1 x70ace = +0
-
 +1 x70ace +1 x70b04 -1 x70e84 = +0
-
 +1 x70ab1 +1 x70abd +1 x70ac8 -1 x70ad6 = +0
-
 +1 x70ad6 -1 x70ad8 +1 x70b0d -1 x70e8d = +0
-
 +1 x70ad8 -1 x70ad9 -1 x70ada = +0
-
 +1 x70ad9 -1 x70ae6 -1 x70ae7 = +0
-
 +1 x70ae6 -1 x70af2 -1 x70af3 = +0
-
 +1 x70af2 -1 x70af6 -1 x70af7 = +0
-
 +1 x70af6 -1 x70afa -1 x70afb = +0
-
 +1 x70afa -1 x70afe -1 x70aff = +0
-
 +1 x70af7 +1 x70afb +1 x70aff -1 x70b04 = +0
-
 +1 x70ae7 +1 x70af3 +1 x70afe -1 x70b0d = +0
-
 +1 x70b10 -1 x70b1a -1 x70ed1 = +0
-
 +1 x70b1a -1 x70b1b -1 x70b1c = +0
-
 +1 x70b1b -1 x70b2d -1 x70b2e = +0
-
 +1 x70b2d -1 x70b39 -1 x70b3a = +0
-
 +1 x70b2e +1 x70b3a -1 x70b45 = +0
-
 +1 x70b48 -1 x70b57 -1 x70b58 = +0
-
 +1 x70b58 -1 x70b5c -1 x70b5d = +0
-
 +1 x70b57 -1 x70b5e -1 x70b5f = +0
-
 +1 x70b5d -1 x70b66 -1 x70b67 = +0
-
 +1 x70b5f -1 x70b68 -1 x70b69 = +0
-
 +1 x70b5e -1 x70b6a -1 x70b6b = +0
-
 +1 x70b5c -1 x70b6c -1 x70b6d = +0
-
 +1 x70b66 +1 x70b68 -1 x70b71 = +0
-
 +1 x70b67 +1 x70b69 -1 x70b6e = +0
-
 +1 x70b6b +1 x70b6d -1 x70b78 = +0
-
 +1 x70b6e +1 x70b78 -1 x70b7c = +0
-
 +1 x70b6a +1 x70b6c -1 x70b7e = +0
-
 +1 x70b71 +1 x70b7e -1 x70b80 = +0
-
 +1 x70b7c -1 x70b83 -1 x70b84 = +0
-
 +1 x70b80 -1 x70b85 -1 x70b86 = +0
-
 +1 x70b83 +1 x70b85 -1 x70bcb = +0
-
 +1 x70b84 +1 x70b86 -1 x70b87 = +0
-
 +1 x70b87 -1 x70b8b -1 x70f44 = +0
-
 +1 x70b8b -1 x70b8c -1 x70b8d = +0
-
 +1 x70b8c -1 x70baa -1 x70bab = +0
-
 +1 x70baa -1 x70bb6 -1 x70bb7 = +0
-
 +1 x70bab +1 x70bb6 +1 x70bb7 -1 x70bc5 = +0
-
 +1 x70870 +1 x70bcb -1 x70bd7 = +0
-
 +1 x7086e +1 x70bd7 -1 x70bdc = +0
-
 +1 x70bdc -1 x70bdd -1 x70f8e = +0
-
 +1 x70bdd -1 x70bde -1 x70bdf = +0
-
 +1 x70bde -1 x70be6 -1 x70be7 = +0
-
 +1 x70be7 -1 x70bf6 -1 x70bf7 = +0
-
 +1 x70bf6 -1 x70c24 -1 x70c25 = +0
-
 +1 x70c24 +1 x70c25 -1 x70c32 = +0
-
 +1 x70c32 -1 x70c34 +1 x70fe5 +1 x71042 +1 x7109f +1 x710fc +1 x71159 +1 x711b6
 -1 x77a31 = +0
-
 +1 x70c34 -1 x70c35 -1 x70c36 = +0
-
 +1 x70c35 -1 x70c4b -1 x70c4c = +0
-
 +1 x70c4c +1 x70c57 -1 x70c58 +1 x70c71 -1 x77a55 = +0
-
 +1 x70c58 -1 x70c59 -1 x70c5a = +0
-
 +1 x70c36 +1 x70c5a +1 x70c7e -1 x70c7f +0 x70c80 -1 x77a7c = +0
-
 +1 x70c59 -1 x70c70 -1 x70c71 = +0
-
 +1 x70c4b +1 x70c70 -1 x76fc2 = +0
-
 +1 x70c7f +1 x70c89 -1 x70c8a -1 x77a87 = +0
-
 +1 x70c8a -1 x70c8b -1 x70c8c = +0
-
 +1 x70c8c +1 x70d34 +1 x70d60 -1 x70d61 +0 x70d62 -1 x77b5c = +0
-
 +1 x70c8b -1 x70c9c -1 x70c9d = +0
-
 +1 x70c9c -1 x70ca8 -1 x70ca9 = +0
-
 +1 x70ca8 +1 x70cb1 +1 x70d51 -1 x762cc = +0
-
 +1 x70c9d +1 x70ca9 -1 x70cb4 = +0
-
 +1 x70cb4 +1 x70cb6 -1 x70cb7 +1 x70d5d -1 x77ab3 = +0
-
 +1 x70cb7 -1 x70cb8 -1 x70cb9 = +0
-
 +1 x70cb9 +1 x70cf0 +1 x70d26 -1 x70d27 +0 x70d28 +1 x760ec +1 x76e46 -1 x77b22
 = +0
-
 +1 x70cb8 -1 x70cc4 -1 x70cc5 = +0
-
 +1 x70cc4 -1 x70cd0 -1 x70cd1 = +0
-
 +1 x70cd0 -1 x70cd4 -1 x70cd5 = +0
-
 +1 x70cd4 -1 x70cd8 -1 x70cd9 = +0
-
 +1 x70cd8 -1 x70cdc -1 x70cdd = +0
-
 +1 x70cd5 +1 x70cd9 +1 x70cdd -1 x70ce2 = +0
-
 +1 x70ce2 +1 x70ce4 +1 x70d1a -1 x755b6 = +0
-
 +1 x70cc5 +1 x70cd1 +1 x70cdc -1 x70ceb = +0
-
 +1 x70ceb +1 x70ced -1 x70cee +1 x70d23 +1 x75b73 +1 x7611d +1 x76807 +1 x76e77
 -1 x77ae9 = +0
-
 +1 x70cee -1 x70cef -1 x70cf0 = +0
-
 +1 x70cef -1 x70cfc -1 x70cfd = +0
-
 +1 x70cfc -1 x70d08 -1 x70d09 = +0
-
 +1 x70d08 -1 x70d0c -1 x70d0d = +0
-
 +1 x70d0c -1 x70d10 -1 x70d11 = +0
-
 +1 x70d10 -1 x70d14 -1 x70d15 = +0
-
 +1 x70d0d +1 x70d11 +1 x70d15 -1 x70d1a = +0
-
 +1 x70cfd +1 x70d09 +1 x70d14 -1 x70d23 = +0
-
 +1 x70d27 +1 x70d31 -1 x70d32 +1 x75b76 -1 x77b2d = +0
-
 +1 x70d32 -1 x70d33 -1 x70d34 = +0
-
 +1 x70d33 -1 x70d45 -1 x70d46 = +0
-
 +1 x70d45 -1 x70d51 -1 x70d52 = +0
-
 +1 x70d46 +1 x70d52 -1 x70d5d = +0
-
 +1 x70d61 -1 x70d70 -1 x70d71 = +0
-
 +1 x70d71 -1 x70d75 -1 x70d76 = +0
-
 +1 x70d70 -1 x70d77 -1 x70d78 = +0
-
 +1 x70d76 +1 x70d78 -1 x70d7e -1 x70d7f = +0
-
 +1 x70d75 +1 x70d77 -1 x70d7d = +0
-
 +1 x70d7d -1 x70d80 -1 x70d81 = +0
-
 +1 x70d7f +1 x70d81 -1 x70d8c = +0
-
 +1 x70d7e +1 x70d80 -1 x70d90 = +0
-
 +1 x70d8c +1 x70d90 -1 x70d95 = +0
-
 +1 x70d95 -1 x70d98 -1 x70d99 = +0
-
 +1 x70d98 +1 x70d99 -1 x70dab = +0
-
 +1 x70dab -1 x70dc3 -1 x70dc4 = +0
-
 +1 x70dc3 +1 x70dc4 -1 x70dd1 = +0
-
 +1 x70dd1 +1 x70dd3 -1 x70dd4 -1 x77bcf = +0
-
 +1 x70dd4 -1 x70dd5 -1 x70dd6 = +0
-
 +1 x70dd6 +1 x70dfa +1 x70e1e -1 x70e1f +0 x70e20 +1 x75383 -1 x77c1a = +0
-
 +1 x70dd5 -1 x70deb -1 x70dec = +0
-
 +1 x70deb +1 x70e10 -1 x749f9 = +0
-
 +1 x70dec +1 x70df7 -1 x70df8 +1 x70e11 +1 x74ee5 +1 x75399 -1 x77bf3 = +0
-
 +1 x70df8 -1 x70df9 -1 x70dfa = +0
-
 +1 x70df9 -1 x70e10 -1 x70e11 = +0
-
 +1 x70e1f +1 x70e29 -1 x70e2a +1 x74ef1 -1 x77c25 = +0
-
 +1 x70e2a -1 x70e2b -1 x70e2c = +0
-
 +1 x70e2c +1 x70ed4 +1 x70f00 -1 x70f01 +0 x70f02 -1 x77cfa = +0
-
 +1 x70e2b -1 x70e3c -1 x70e3d = +0
-
 +1 x70e3c -1 x70e48 -1 x70e49 = +0
-
 +1 x70e48 +1 x70e51 +1 x70ef1 -1 x73d03 = +0
-
 +1 x70e3d +1 x70e49 -1 x70e54 = +0
-
 +1 x70e54 +1 x70e56 -1 x70e57 +1 x70efd -1 x77c51 = +0
-
 +1 x70e57 -1 x70e58 -1 x70e59 = +0
-
 +1 x70e59 +1 x70e90 +1 x70ec6 -1 x70ec7 +0 x70ec8 +1 x73b23 +1 x7487d -1 x77cc0
 = +0
-
 +1 x70e58 -1 x70e64 -1 x70e65 = +0
-
 +1 x70e64 -1 x70e70 -1 x70e71 = +0
-
 +1 x70e70 -1 x70e74 -1 x70e75 = +0
-
 +1 x70e74 -1 x70e78 -1 x70e79 = +0
-
 +1 x70e78 -1 x70e7c -1 x70e7d = +0
-
 +1 x70e75 +1 x70e79 +1 x70e7d -1 x70e82 = +0
-
 +1 x70e82 +1 x70e84 +1 x70eba -1 x72fed = +0
-
 +1 x70e65 +1 x70e71 +1 x70e7c -1 x70e8b = +0
-
 +1 x70e8b +1 x70e8d -1 x70e8e +1 x70ec3 +1 x735aa +1 x73b54 +1 x7423e +1 x748ae
 -1 x77c87 = +0
-
 +1 x70e8e -1 x70e8f -1 x70e90 = +0
-
 +1 x70e8f -1 x70e9c -1 x70e9d = +0
-
 +1 x70e9c -1 x70ea8 -1 x70ea9 = +0
-
 +1 x70ea8 -1 x70eac -1 x70ead = +0
-
 +1 x70eac -1 x70eb0 -1 x70eb1 = +0
-
 +1 x70eb0 -1 x70eb4 -1 x70eb5 = +0
-
 +1 x70ead +1 x70eb1 +1 x70eb5 -1 x70eba = +0
-
 +1 x70e9d +1 x70ea9 +1 x70eb4 -1 x70ec3 = +0
-
 +1 x70ec7 +1 x70ed1 -1 x70ed2 +1 x735ad -1 x77ccb = +0
-
 +1 x70ed2 -1 x70ed3 -1 x70ed4 = +0
-
 +1 x70ed3 -1 x70ee5 -1 x70ee6 = +0
-
 +1 x70ee5 -1 x70ef1 -1 x70ef2 = +0
-
 +1 x70ee6 +1 x70ef2 -1 x70efd = +0
-
 +1 x70f01 -1 x70f10 -1 x70f11 = +0
-
 +1 x70f11 -1 x70f15 -1 x70f16 = +0
-
 +1 x70f10 -1 x70f17 -1 x70f18 = +0
-
 +1 x70f16 -1 x70f1f -1 x70f20 = +0
-
 +1 x70f18 -1 x70f21 -1 x70f22 = +0
-
 +1 x70f17 -1 x70f23 -1 x70f24 = +0
-
 +1 x70f15 -1 x70f25 -1 x70f26 = +0
-
 +1 x70f1f +1 x70f21 -1 x70f2a = +0
-
 +1 x70f20 +1 x70f22 -1 x70f27 = +0
-
 +1 x70f24 +1 x70f26 -1 x70f31 = +0
-
 +1 x70f27 +1 x70f31 -1 x70f35 = +0
-
 +1 x70f23 +1 x70f25 -1 x70f37 = +0
-
 +1 x70f2a +1 x70f37 -1 x70f39 = +0
-
 +1 x70f35 -1 x70f3c -1 x70f3d = +0
-
 +1 x70f39 -1 x70f3e -1 x70f3f = +0
-
 +1 x70f3c +1 x70f3e -1 x70f83 = +0
-
 +1 x70f3d +1 x70f3f -1 x70f40 = +0
-
 +1 x70f40 +1 x70f44 -1 x70f45 -1 x77d3e = +0
-
 +1 x70f45 -1 x70f46 -1 x70f47 = +0
-
 +1 x70f46 -1 x70f64 -1 x70f65 = +0
-
 +1 x70f64 -1 x70f70 -1 x70f71 = +0
-
 +1 x70f65 +1 x70f70 +1 x70f71 -1 x70f7f = +0
-
 +1 x70bf7 +1 x70f83 -1 x70f8d = +0
-
 +1 x70f8d +1 x70f8e -1 x70f8f -1 x70feb = +0
-
 +1 x70f8f -1 x70f90 -1 x70f91 = +0
-
 +1 x70bdf +1 x70f91 -1 x70ff0 = +0
-
 +1 x70f90 -1 x70f99 -1 x70f9a = +0
-
 +1 x70f9a -1 x70fa9 -1 x70faa = +0
-
 +1 x70fa9 -1 x70fd7 -1 x70fd8 = +0
-
 +1 x70fd7 +1 x70fd8 -1 x70fe5 = +0
-
 +1 x70faa +1 x70feb -1 x70fec -1 x71048 = +0
-
 +1 x70fec -1 x70fed -1 x70fee = +0
-
 +1 x70fee +1 x70ff0 -1 x7104d = +0
-
 +1 x70fed -1 x70ff6 -1 x70ff7 = +0
-
 +1 x70ff7 -1 x71006 -1 x71007 = +0
-
 +1 x71006 -1 x71034 -1 x71035 = +0
-
 +1 x71034 +1 x71035 -1 x71042 = +0
-
 +1 x71007 +1 x71048 -1 x71049 -1 x710a5 = +0
-
 +1 x71049 -1 x7104a -1 x7104b = +0
-
 +1 x7104b +1 x7104d -1 x710aa = +0
-
 +1 x7104a -1 x71053 -1 x71054 = +0
-
 +1 x71054 -1 x71063 -1 x71064 = +0
-
 +1 x71063 -1 x71091 -1 x71092 = +0
-
 +1 x71091 +1 x71092 -1 x7109f = +0
-
 +1 x71064 +1 x710a5 -1 x710a6 -1 x71102 = +0
-
 +1 x710a6 -1 x710a7 -1 x710a8 = +0
-
 +1 x710a8 +1 x710aa -1 x71107 = +0
-
 +1 x710a7 -1 x710b0 -1 x710b1 = +0
-
 +1 x710b1 -1 x710c0 -1 x710c1 = +0
-
 +1 x710c0 -1 x710ee -1 x710ef = +0
-
 +1 x710ee +1 x710ef -1 x710fc = +0
-
 +1 x710c1 +1 x71102 -1 x71103 -1 x7115f = +0
-
 +1 x71103 -1 x71104 -1 x71105 = +0
-
 +1 x71105 +1 x71107 -1 x71164 = +0
-
 +1 x71104 -1 x7110d -1 x7110e = +0
-
 +1 x7110e -1 x7111d -1 x7111e = +0
-
 +1 x7111d -1 x7114b -1 x7114c = +0
-
 +1 x7114b +1 x7114c -1 x71159 = +0
-
 +1 x7111e +1 x7115f -1 x71160 +1 x7117b -1 x780f4 = +0
-
 +1 x71160 -1 x71161 -1 x71162 = +0
-
 +1 x71162 +1 x71164 -1 x711bd +0 x711be -1 x78152 = +0
-
 +1 x71161 -1 x7116a -1 x7116b = +0
-
 +1 x7116b -1 x7117a -1 x7117b = +0
-
 +1 x7117a -1 x711a8 -1 x711a9 = +0
-
 +1 x711a8 +1 x711a9 -1 x711b6 = +0
-
 +1 x5decf -1 x711d5 -1 x711d6 = +0
-
 +1 x711d6 -1 x71222 +0 x71223 = +0
-
 +1 x711d5 -1 x711e1 -1 x711e2 = +0
-
 +1 x711e1 -1 x711ed -1 x711ee = +0
-
 +1 x711ed +1 x71213 +1 x71538 +1 x71561 +1 x71897 +1 x718c0 +1 x71bf6 +1 x71c1f
 +1 x71f55 +1 x71f7e +1 x722b4 +1 x722dd +1 x72613 +1 x7263c +1 x72972 +1 x7299b
 -1 x76fc3 = +0
-
 +1 x711e2 +1 x711ee -1 x711f8 = +0
-
 +1 x711f8 -1 x711fa +1 x7121f -1 x71546 = +0
-
 +1 x711fa -1 x711fb -1 x711fc = +0
-
 +1 x711fc -1 x71224 +0 x71225 -1 x71570 = +0
-
 +1 x711fb -1 x71207 -1 x71208 = +0
-
 +1 x71207 -1 x71213 -1 x71214 = +0
-
 +1 x71208 +1 x71214 -1 x7121f = +0
-
 +1 x71222 +1 x71224 -1 x71232 = +0
-
 +1 x71232 -1 x71234 -1 x7157b = +0
-
 +1 x71234 -1 x71235 -1 x71236 = +0
-
 +1 x71236 +1 x712d8 -1 x71304 +0 x71305 -1 x71652 = +0
-
 +1 x71235 -1 x71246 -1 x71247 = +0
-
 +1 x71246 -1 x71252 -1 x71253 = +0
-
 +1 x71252 +1 x712f5 -1 x715a3 = +0
-
 +1 x71247 +1 x71253 -1 x7125d = +0
-
 +1 x7125d -1 x7125f +1 x71301 -1 x715a8 = +0
-
 +1 x7125f -1 x71260 -1 x71261 = +0
-
 +1 x71261 +1 x71296 -1 x712cc +0 x712cd -1 x71618 = +0
-
 +1 x71260 -1 x7126c -1 x7126d = +0
-
 +1 x7126c -1 x71278 -1 x71279 = +0
-
 +1 x71278 -1 x7127c -1 x7127d = +0
-
 +1 x7127c -1 x71280 -1 x71281 = +0
-
 +1 x71280 -1 x71284 -1 x71285 = +0
-
 +1 x7127d +1 x71281 +1 x71285 -1 x7128a = +0
-
 +1 x7128a +1 x712c0 -1 x715d6 = +0
-
 +1 x7126d +1 x71279 +1 x71284 -1 x71292 = +0
-
 +1 x71292 -1 x71294 +1 x712c9 -1 x715df = +0
-
 +1 x71294 -1 x71295 -1 x71296 = +0
-
 +1 x71295 -1 x712a2 -1 x712a3 = +0
-
 +1 x712a2 -1 x712ae -1 x712af = +0
-
 +1 x712ae -1 x712b2 -1 x712b3 = +0
-
 +1 x712b2 -1 x712b6 -1 x712b7 = +0
-
 +1 x712b6 -1 x712ba -1 x712bb = +0
-
 +1 x712b3 +1 x712b7 +1 x712bb -1 x712c0 = +0
-
 +1 x712a3 +1 x712af +1 x712ba -1 x712c9 = +0
-
 +1 x712cc -1 x712d6 -1 x71623 = +0
-
 +1 x712d6 -1 x712d7 -1 x712d8 = +0
-
 +1 x712d7 -1 x712e9 -1 x712ea = +0
-
 +1 x712e9 -1 x712f5 -1 x712f6 = +0
-
 +1 x712ea +1 x712f6 -1 x71301 = +0
-
 +1 x71304 -1 x71313 -1 x71314 = +0
-
 +1 x71314 -1 x71318 -1 x71319 = +0
-
 +1 x71313 -1 x7131a -1 x7131b = +0
-
 +1 x71319 +1 x7131b -1 x71321 -1 x71322 = +0
-
 +1 x71318 +1 x7131a -1 x71320 = +0
-
 +1 x71320 -1 x71323 -1 x71324 = +0
-
 +1 x71322 +1 x71324 -1 x7132f = +0
-
 +1 x71321 +1 x71323 -1 x71333 = +0
-
 +1 x7132f +1 x71333 -1 x71338 = +0
-
 +1 x71338 -1 x7133b -1 x7133c = +0
-
 +1 x7133b +1 x7133c -1 x7134c = +0
-
 +1 x7134c -1 x7135a -1 x7135b = +0
-
 +1 x7135a -1 x71366 -1 x71367 = +0
-
 +1 x7135b +1 x71366 +1 x71367 -1 x71375 = +0
-
 +1 x71375 -1 x71377 -1 x716c6 = +0
-
 +1 x71377 -1 x71378 -1 x71379 = +0
-
 +1 x71379 +1 x7139f -1 x713c6 +0 x713c7 -1 x71718 = +0
-
 +1 x71378 -1 x71384 -1 x71385 = +0
-
 +1 x71384 -1 x71390 -1 x71391 = +0
-
 +1 x71390 +1 x713b7 +1 x716e0 +1 x71709 +1 x71a3f +1 x71a68 +1 x71d9e +1 x71dc7
 +1 x720fd +1 x72126 +1 x7245c +1 x72485 +1 x727bb +1 x727e4 +1 x72b1a +1 x72b43
 -1 x749fa = +0
-
 +1 x71385 +1 x71391 -1 x7139b = +0
-
 +1 x7139b -1 x7139d +1 x713c3 -1 x716ee = +0
-
 +1 x7139d -1 x7139e -1 x7139f = +0
-
 +1 x7139e -1 x713ab -1 x713ac = +0
-
 +1 x713ab -1 x713b7 -1 x713b8 = +0
-
 +1 x713ac +1 x713b8 -1 x713c3 = +0
-
 +1 x713c6 -1 x713d0 -1 x71723 = +0
-
 +1 x713d0 -1 x713d1 -1 x713d2 = +0
-
 +1 x713d2 +1 x71474 -1 x714a0 +0 x714a1 -1 x717fa = +0
-
 +1 x713d1 -1 x713e2 -1 x713e3 = +0
-
 +1 x713e2 -1 x713ee -1 x713ef = +0
-
 +1 x713ee +1 x71491 -1 x7174b = +0
-
 +1 x713e3 +1 x713ef -1 x713f9 = +0
-
 +1 x713f9 -1 x713fb +1 x7149d -1 x71750 = +0
-
 +1 x713fb -1 x713fc -1 x713fd = +0
-
 +1 x713fd +1 x71432 -1 x71468 +0 x71469 -1 x717c0 = +0
-
 +1 x713fc -1 x71408 -1 x71409 = +0
-
 +1 x71408 -1 x71414 -1 x71415 = +0
-
 +1 x71414 -1 x71418 -1 x71419 = +0
-
 +1 x71418 -1 x7141c -1 x7141d = +0
-
 +1 x7141c -1 x71420 -1 x71421 = +0
-
 +1 x71419 +1 x7141d +1 x71421 -1 x71426 = +0
-
 +1 x71426 +1 x7145c -1 x7177e = +0
-
 +1 x71409 +1 x71415 +1 x71420 -1 x7142e = +0
-
 +1 x7142e -1 x71430 +1 x71465 -1 x71787 = +0
-
 +1 x71430 -1 x71431 -1 x71432 = +0
-
 +1 x71431 -1 x7143e -1 x7143f = +0
-
 +1 x7143e -1 x7144a -1 x7144b = +0
-
 +1 x7144a -1 x7144e -1 x7144f = +0
-
 +1 x7144e -1 x71452 -1 x71453 = +0
-
 +1 x71452 -1 x71456 -1 x71457 = +0
-
 +1 x7144f +1 x71453 +1 x71457 -1 x7145c = +0
-
 +1 x7143f +1 x7144b +1 x71456 -1 x71465 = +0
-
 +1 x71468 -1 x71472 -1 x717cb = +0
-
 +1 x71472 -1 x71473 -1 x71474 = +0
-
 +1 x71473 -1 x71485 -1 x71486 = +0
-
 +1 x71485 -1 x71491 -1 x71492 = +0
-
 +1 x71486 +1 x71492 -1 x7149d = +0
-
 +1 x714a0 -1 x714af -1 x714b0 = +0
-
 +1 x714b0 -1 x714b4 -1 x714b5 = +0
-
 +1 x714af -1 x714b6 -1 x714b7 = +0
-
 +1 x714b5 -1 x714be -1 x714bf = +0
-
 +1 x714b7 -1 x714c0 -1 x714c1 = +0
-
 +1 x714b6 -1 x714c2 -1 x714c3 = +0
-
 +1 x714b4 -1 x714c4 -1 x714c5 = +0
-
 +1 x714be +1 x714c0 -1 x714c9 = +0
-
 +1 x714bf +1 x714c1 -1 x714c6 = +0
-
 +1 x714c3 +1 x714c5 -1 x714d0 = +0
-
 +1 x714c6 +1 x714d0 -1 x714d4 = +0
-
 +1 x714c2 +1 x714c4 -1 x714d6 = +0
-
 +1 x714c9 +1 x714d6 -1 x714d8 = +0
-
 +1 x714d4 -1 x714db -1 x714dc = +0
-
 +1 x714d8 -1 x714dd -1 x714de = +0
-
 +1 x714db +1 x714dd -1 x7183a = +0
-
 +1 x714dc +1 x714de -1 x714df = +0
-
 +1 x714df -1 x714e3 -1 x7183f = +0
-
 +1 x714e3 -1 x714e4 -1 x714e5 = +0
-
 +1 x714e4 -1 x71502 -1 x71503 = +0
-
 +1 x71502 -1 x7150e -1 x7150f = +0
-
 +1 x71503 +1 x7150e +1 x7150f -1 x7151d = +0
-
 +1 x7151d -1 x7151f -1 x7187d = +0
-
 +1 x7151f -1 x71520 -1 x71521 = +0
-
 +1 x71520 -1 x7152c -1 x7152d = +0
-
 +1 x7152c -1 x71538 -1 x71539 = +0
-
 +1 x7152d +1 x71539 -1 x71544 = +0
-
 +1 x71544 +1 x71546 -1 x71547 +1 x7156d -1 x718a5 = +0
-
 +1 x71547 -1 x71548 -1 x71549 = +0
-
 +1 x71521 +1 x71549 +1 x71570 -1 x71571 +0 x71572 -1 x718cf = +0
-
 +1 x71548 -1 x71555 -1 x71556 = +0
-
 +1 x71555 -1 x71561 -1 x71562 = +0
-
 +1 x71556 +1 x71562 -1 x7156d = +0
-
 +1 x71571 +1 x7157b -1 x7157c -1 x718da = +0
-
 +1 x7157c -1 x7157d -1 x7157e = +0
-
 +1 x7157e +1 x71626 +1 x71652 -1 x71653 +0 x71654 -1 x719b1 = +0
-
 +1 x7157d -1 x7158e -1 x7158f = +0
-
 +1 x7158e -1 x7159a -1 x7159b = +0
-
 +1 x7159a +1 x715a3 +1 x71643 -1 x71902 = +0
-
 +1 x7158f +1 x7159b -1 x715a6 = +0
-
 +1 x715a6 +1 x715a8 -1 x715a9 +1 x7164f -1 x71907 = +0
-
 +1 x715a9 -1 x715aa -1 x715ab = +0
-
 +1 x715ab +1 x715e2 +1 x71618 -1 x71619 +0 x7161a -1 x71977 = +0
-
 +1 x715aa -1 x715b6 -1 x715b7 = +0
-
 +1 x715b6 -1 x715c2 -1 x715c3 = +0
-
 +1 x715c2 -1 x715c6 -1 x715c7 = +0
-
 +1 x715c6 -1 x715ca -1 x715cb = +0
-
 +1 x715ca -1 x715ce -1 x715cf = +0
-
 +1 x715c7 +1 x715cb +1 x715cf -1 x715d4 = +0
-
 +1 x715d4 +1 x715d6 +1 x7160c -1 x71935 = +0
-
 +1 x715b7 +1 x715c3 +1 x715ce -1 x715dd = +0
-
 +1 x715dd +1 x715df -1 x715e0 +1 x71615 -1 x7193e = +0
-
 +1 x715e0 -1 x715e1 -1 x715e2 = +0
-
 +1 x715e1 -1 x715ee -1 x715ef = +0
-
 +1 x715ee -1 x715fa -1 x715fb = +0
-
 +1 x715fa -1 x715fe -1 x715ff = +0
-
 +1 x715fe -1 x71602 -1 x71603 = +0
-
 +1 x71602 -1 x71606 -1 x71607 = +0
-
 +1 x715ff +1 x71603 +1 x71607 -1 x7160c = +0
-
 +1 x715ef +1 x715fb +1 x71606 -1 x71615 = +0
-
 +1 x71619 +1 x71623 -1 x71624 -1 x71982 = +0
-
 +1 x71624 -1 x71625 -1 x71626 = +0
-
 +1 x71625 -1 x71637 -1 x71638 = +0
-
 +1 x71637 -1 x71643 -1 x71644 = +0
-
 +1 x71638 +1 x71644 -1 x7164f = +0
-
 +1 x71653 -1 x71662 -1 x71663 = +0
-
 +1 x71663 -1 x71667 -1 x71668 = +0
-
 +1 x71662 -1 x71669 -1 x7166a = +0
-
 +1 x71668 +1 x7166a -1 x71670 -1 x71671 = +0
-
 +1 x71667 +1 x71669 -1 x7166f = +0
-
 +1 x7166f -1 x71672 -1 x71673 = +0
-
 +1 x71671 +1 x71673 -1 x7167e = +0
-
 +1 x71670 +1 x71672 -1 x71682 = +0
-
 +1 x7167e +1 x71682 -1 x71687 = +0
-
 +1 x71687 -1 x7168a -1 x7168b = +0
-
 +1 x7168a +1 x7168b -1 x7169b = +0
-
 +1 x7169b -1 x716a9 -1 x716aa = +0
-
 +1 x716a9 -1 x716b5 -1 x716b6 = +0
-
 +1 x716aa +1 x716b5 +1 x716b6 -1 x716c4 = +0
-
 +1 x716c4 +1 x716c6 -1 x716c7 -1 x71a25 = +0
-
 +1 x716c7 -1 x716c8 -1 x716c9 = +0
-
 +1 x716c9 +1 x716f1 +1 x71718 -1 x71719 +0 x7171a -1 x71a77 = +0
-
 +1 x716c8 -1 x716d4 -1 x716d5 = +0
-
 +1 x716d4 -1 x716e0 -1 x716e1 = +0
-
 +1 x716d5 +1 x716e1 -1 x716ec = +0
-
 +1 x716ec +1 x716ee -1 x716ef +1 x71715 -1 x71a4d = +0
-
 +1 x716ef -1 x716f0 -1 x716f1 = +0
-
 +1 x716f0 -1 x716fd -1 x716fe = +0
-
 +1 x716fd -1 x71709 -1 x7170a = +0
-
 +1 x716fe +1 x7170a -1 x71715 = +0
-
 +1 x71719 +1 x71723 -1 x71724 -1 x71a82 = +0
-
 +1 x71724 -1 x71725 -1 x71726 = +0
-
 +1 x71726 +1 x717ce +1 x717fa -1 x717fb +0 x717fc -1 x71b59 = +0
-
 +1 x71725 -1 x71736 -1 x71737 = +0
-
 +1 x71736 -1 x71742 -1 x71743 = +0
-
 +1 x71742 +1 x7174b +1 x717eb -1 x71aaa = +0
-
 +1 x71737 +1 x71743 -1 x7174e = +0
-
 +1 x7174e +1 x71750 -1 x71751 +1 x717f7 -1 x71aaf = +0
-
 +1 x71751 -1 x71752 -1 x71753 = +0
-
 +1 x71753 +1 x7178a +1 x717c0 -1 x717c1 +0 x717c2 -1 x71b1f = +0
-
 +1 x71752 -1 x7175e -1 x7175f = +0
-
 +1 x7175e -1 x7176a -1 x7176b = +0
-
 +1 x7176a -1 x7176e -1 x7176f = +0
-
 +1 x7176e -1 x71772 -1 x71773 = +0
-
 +1 x71772 -1 x71776 -1 x71777 = +0
-
 +1 x7176f +1 x71773 +1 x71777 -1 x7177c = +0
-
 +1 x7177c +1 x7177e +1 x717b4 -1 x71add = +0
-
 +1 x7175f +1 x7176b +1 x71776 -1 x71785 = +0
-
 +1 x71785 +1 x71787 -1 x71788 +1 x717bd -1 x71ae6 = +0
-
 +1 x71788 -1 x71789 -1 x7178a = +0
-
 +1 x71789 -1 x71796 -1 x71797 = +0
-
 +1 x71796 -1 x717a2 -1 x717a3 = +0
-
 +1 x717a2 -1 x717a6 -1 x717a7 = +0
-
 +1 x717a6 -1 x717aa -1 x717ab = +0
-
 +1 x717aa -1 x717ae -1 x717af = +0
-
 +1 x717a7 +1 x717ab +1 x717af -1 x717b4 = +0
-
 +1 x71797 +1 x717a3 +1 x717ae -1 x717bd = +0
-
 +1 x717c1 +1 x717cb -1 x717cc -1 x71b2a = +0
-
 +1 x717cc -1 x717cd -1 x717ce = +0
-
 +1 x717cd -1 x717df -1 x717e0 = +0
-
 +1 x717df -1 x717eb -1 x717ec = +0
-
 +1 x717e0 +1 x717ec -1 x717f7 = +0
-
 +1 x717fb -1 x7180a -1 x7180b = +0
-
 +1 x7180b -1 x7180f -1 x71810 = +0
-
 +1 x7180a -1 x71811 -1 x71812 = +0
-
 +1 x71810 -1 x71819 -1 x7181a = +0
-
 +1 x71812 -1 x7181b -1 x7181c = +0
-
 +1 x71811 -1 x7181d -1 x7181e = +0
-
 +1 x7180f -1 x7181f -1 x71820 = +0
-
 +1 x71819 +1 x7181b -1 x71824 = +0
-
 +1 x7181a +1 x7181c -1 x71821 = +0
-
 +1 x7181e +1 x71820 -1 x7182b = +0
-
 +1 x71821 +1 x7182b -1 x7182f = +0
-
 +1 x7181d +1 x7181f -1 x71831 = +0
-
 +1 x71824 +1 x71831 -1 x71833 = +0
-
 +1 x7182f -1 x71836 -1 x71837 = +0
-
 +1 x71833 -1 x71838 -1 x71839 = +0
-
 +1 x71836 +1 x71838 +1 x7183a -1 x71b99 = +0
-
 +1 x71837 +1 x71839 -1 x7183b = +0
-
 +1 x7183b +1 x7183f -1 x71840 -1 x71b9e = +0
-
 +1 x71840 -1 x71841 -1 x71842 = +0
-
 +1 x714e5 +1 x71842 -1 x71ba3 = +0
-
 +1 x71841 -1 x71860 -1 x71861 = +0
-
 +1 x71860 -1 x7186c -1 x7186d = +0
-
 +1 x71861 +1 x7186c +1 x7186d -1 x7187b = +0
-
 +1 x7187b +1 x7187d -1 x7187e -1 x71bdc = +0
-
 +1 x7187e -1 x7187f -1 x71880 = +0
-
 +1 x7187f -1 x7188b -1 x7188c = +0
-
 +1 x7188b -1 x71897 -1 x71898 = +0
-
 +1 x7188c +1 x71898 -1 x718a3 = +0
-
 +1 x718a3 +1 x718a5 -1 x718a6 +1 x718cc -1 x71c04 = +0
-
 +1 x718a6 -1 x718a7 -1 x718a8 = +0
-
 +1 x71880 +1 x718a8 +1 x718cf -1 x718d0 +0 x718d1 -1 x71c2e = +0
-
 +1 x718a7 -1 x718b4 -1 x718b5 = +0
-
 +1 x718b4 -1 x718c0 -1 x718c1 = +0
-
 +1 x718b5 +1 x718c1 -1 x718cc = +0
-
 +1 x718d0 +1 x718da -1 x718db -1 x71c39 = +0
-
 +1 x718db -1 x718dc -1 x718dd = +0
-
 +1 x718dd +1 x71985 +1 x719b1 -1 x719b2 +0 x719b3 -1 x71d10 = +0
-
 +1 x718dc -1 x718ed -1 x718ee = +0
-
 +1 x718ed -1 x718f9 -1 x718fa = +0
-
 +1 x718f9 +1 x71902 +1 x719a2 -1 x71c61 = +0
-
 +1 x718ee +1 x718fa -1 x71905 = +0
-
 +1 x71905 +1 x71907 -1 x71908 +1 x719ae -1 x71c66 = +0
-
 +1 x71908 -1 x71909 -1 x7190a = +0
-
 +1 x7190a +1 x71941 +1 x71977 -1 x71978 +0 x71979 -1 x71cd6 = +0
-
 +1 x71909 -1 x71915 -1 x71916 = +0
-
 +1 x71915 -1 x71921 -1 x71922 = +0
-
 +1 x71921 -1 x71925 -1 x71926 = +0
-
 +1 x71925 -1 x71929 -1 x7192a = +0
-
 +1 x71929 -1 x7192d -1 x7192e = +0
-
 +1 x71926 +1 x7192a +1 x7192e -1 x71933 = +0
-
 +1 x71933 +1 x71935 +1 x7196b -1 x71c94 = +0
-
 +1 x71916 +1 x71922 +1 x7192d -1 x7193c = +0
-
 +1 x7193c +1 x7193e -1 x7193f +1 x71974 -1 x71c9d = +0
-
 +1 x7193f -1 x71940 -1 x71941 = +0
-
 +1 x71940 -1 x7194d -1 x7194e = +0
-
 +1 x7194d -1 x71959 -1 x7195a = +0
-
 +1 x71959 -1 x7195d -1 x7195e = +0
-
 +1 x7195d -1 x71961 -1 x71962 = +0
-
 +1 x71961 -1 x71965 -1 x71966 = +0
-
 +1 x7195e +1 x71962 +1 x71966 -1 x7196b = +0
-
 +1 x7194e +1 x7195a +1 x71965 -1 x71974 = +0
-
 +1 x71978 +1 x71982 -1 x71983 -1 x71ce1 = +0
-
 +1 x71983 -1 x71984 -1 x71985 = +0
-
 +1 x71984 -1 x71996 -1 x71997 = +0
-
 +1 x71996 -1 x719a2 -1 x719a3 = +0
-
 +1 x71997 +1 x719a3 -1 x719ae = +0
-
 +1 x719b2 -1 x719c1 -1 x719c2 = +0
-
 +1 x719c2 -1 x719c6 -1 x719c7 = +0
-
 +1 x719c1 -1 x719c8 -1 x719c9 = +0
-
 +1 x719c7 +1 x719c9 -1 x719cf -1 x719d0 = +0
-
 +1 x719c6 +1 x719c8 -1 x719ce = +0
-
 +1 x719ce -1 x719d1 -1 x719d2 = +0
-
 +1 x719d0 +1 x719d2 -1 x719dd = +0
-
 +1 x719cf +1 x719d1 -1 x719e1 = +0
-
 +1 x719dd +1 x719e1 -1 x719e6 = +0
-
 +1 x719e6 -1 x719e9 -1 x719ea = +0
-
 +1 x719e9 +1 x719ea -1 x719fa = +0
-
 +1 x719fa -1 x71a08 -1 x71a09 = +0
-
 +1 x71a08 -1 x71a14 -1 x71a15 = +0
-
 +1 x71a09 +1 x71a14 +1 x71a15 -1 x71a23 = +0
-
 +1 x71a23 +1 x71a25 -1 x71a26 -1 x71d84 = +0
-
 +1 x71a26 -1 x71a27 -1 x71a28 = +0
-
 +1 x71a28 +1 x71a50 +1 x71a77 -1 x71a78 +0 x71a79 -1 x71dd6 = +0
-
 +1 x71a27 -1 x71a33 -1 x71a34 = +0
-
 +1 x71a33 -1 x71a3f -1 x71a40 = +0
-
 +1 x71a34 +1 x71a40 -1 x71a4b = +0
-
 +1 x71a4b +1 x71a4d -1 x71a4e +1 x71a74 -1 x71dac = +0
-
 +1 x71a4e -1 x71a4f -1 x71a50 = +0
-
 +1 x71a4f -1 x71a5c -1 x71a5d = +0
-
 +1 x71a5c -1 x71a68 -1 x71a69 = +0
-
 +1 x71a5d +1 x71a69 -1 x71a74 = +0
-
 +1 x71a78 +1 x71a82 -1 x71a83 -1 x71de1 = +0
-
 +1 x71a83 -1 x71a84 -1 x71a85 = +0
-
 +1 x71a85 +1 x71b2d +1 x71b59 -1 x71b5a +0 x71b5b -1 x71eb8 = +0
-
 +1 x71a84 -1 x71a95 -1 x71a96 = +0
-
 +1 x71a95 -1 x71aa1 -1 x71aa2 = +0
-
 +1 x71aa1 +1 x71aaa +1 x71b4a -1 x71e09 = +0
-
 +1 x71a96 +1 x71aa2 -1 x71aad = +0
-
 +1 x71aad +1 x71aaf -1 x71ab0 +1 x71b56 -1 x71e0e = +0
-
 +1 x71ab0 -1 x71ab1 -1 x71ab2 = +0
-
 +1 x71ab2 +1 x71ae9 +1 x71b1f -1 x71b20 +0 x71b21 -1 x71e7e = +0
-
 +1 x71ab1 -1 x71abd -1 x71abe = +0
-
 +1 x71abd -1 x71ac9 -1 x71aca = +0
-
 +1 x71ac9 -1 x71acd -1 x71ace = +0
-
 +1 x71acd -1 x71ad1 -1 x71ad2 = +0
-
 +1 x71ad1 -1 x71ad5 -1 x71ad6 = +0
-
 +1 x71ace +1 x71ad2 +1 x71ad6 -1 x71adb = +0
-
 +1 x71adb +1 x71add +1 x71b13 -1 x71e3c = +0
-
 +1 x71abe +1 x71aca +1 x71ad5 -1 x71ae4 = +0
-
 +1 x71ae4 +1 x71ae6 -1 x71ae7 +1 x71b1c -1 x71e45 = +0
-
 +1 x71ae7 -1 x71ae8 -1 x71ae9 = +0
-
 +1 x71ae8 -1 x71af5 -1 x71af6 = +0
-
 +1 x71af5 -1 x71b01 -1 x71b02 = +0
-
 +1 x71b01 -1 x71b05 -1 x71b06 = +0
-
 +1 x71b05 -1 x71b09 -1 x71b0a = +0
-
 +1 x71b09 -1 x71b0d -1 x71b0e = +0
-
 +1 x71b06 +1 x71b0a +1 x71b0e -1 x71b13 = +0
-
 +1 x71af6 +1 x71b02 +1 x71b0d -1 x71b1c = +0
-
 +1 x71b20 +1 x71b2a -1 x71b2b -1 x71e89 = +0
-
 +1 x71b2b -1 x71b2c -1 x71b2d = +0
-
 +1 x71b2c -1 x71b3e -1 x71b3f = +0
-
 +1 x71b3e -1 x71b4a -1 x71b4b = +0
-
 +1 x71b3f +1 x71b4b -1 x71b56 = +0
-
 +1 x71b5a -1 x71b69 -1 x71b6a = +0
-
 +1 x71b6a -1 x71b6e -1 x71b6f = +0
-
 +1 x71b69 -1 x71b70 -1 x71b71 = +0
-
 +1 x71b6f -1 x71b78 -1 x71b79 = +0
-
 +1 x71b71 -1 x71b7a -1 x71b7b = +0
-
 +1 x71b70 -1 x71b7c -1 x71b7d = +0
-
 +1 x71b6e -1 x71b7e -1 x71b7f = +0
-
 +1 x71b78 +1 x71b7a -1 x71b83 = +0
-
 +1 x71b79 +1 x71b7b -1 x71b80 = +0
-
 +1 x71b7d +1 x71b7f -1 x71b8a = +0
-
 +1 x71b80 +1 x71b8a -1 x71b8e = +0
-
 +1 x71b7c +1 x71b7e -1 x71b90 = +0
-
 +1 x71b83 +1 x71b90 -1 x71b92 = +0
-
 +1 x71b8e -1 x71b95 -1 x71b96 = +0
-
 +1 x71b92 -1 x71b97 -1 x71b98 = +0
-
 +1 x71b95 +1 x71b97 +1 x71b99 -1 x71ef8 = +0
-
 +1 x71b96 +1 x71b98 -1 x71b9a = +0
-
 +1 x71b9a +1 x71b9e -1 x71b9f -1 x71efd = +0
-
 +1 x71b9f -1 x71ba0 -1 x71ba1 = +0
-
 +1 x71ba1 +1 x71ba3 -1 x71f02 = +0
-
 +1 x71ba0 -1 x71bbf -1 x71bc0 = +0
-
 +1 x71bbf -1 x71bcb -1 x71bcc = +0
-
 +1 x71bc0 +1 x71bcb +1 x71bcc -1 x71bda = +0
-
 +1 x71bda +1 x71bdc -1 x71bdd -1 x71f3b = +0
-
 +1 x71bdd -1 x71bde -1 x71bdf = +0
-
 +1 x71bde -1 x71bea -1 x71beb = +0
-
 +1 x71bea -1 x71bf6 -1 x71bf7 = +0
-
 +1 x71beb +1 x71bf7 -1 x71c02 = +0
-
 +1 x71c02 +1 x71c04 -1 x71c05 +1 x71c2b -1 x71f63 = +0
-
 +1 x71c05 -1 x71c06 -1 x71c07 = +0
-
 +1 x71bdf +1 x71c07 +1 x71c2e -1 x71c2f +0 x71c30 -1 x71f8d = +0
-
 +1 x71c06 -1 x71c13 -1 x71c14 = +0
-
 +1 x71c13 -1 x71c1f -1 x71c20 = +0
-
 +1 x71c14 +1 x71c20 -1 x71c2b = +0
-
 +1 x71c2f +1 x71c39 -1 x71c3a -1 x71f98 = +0
-
 +1 x71c3a -1 x71c3b -1 x71c3c = +0
-
 +1 x71c3c +1 x71ce4 +1 x71d10 -1 x71d11 +0 x71d12 -1 x7206f = +0
-
 +1 x71c3b -1 x71c4c -1 x71c4d = +0
-
 +1 x71c4c -1 x71c58 -1 x71c59 = +0
-
 +1 x71c58 +1 x71c61 +1 x71d01 -1 x71fc0 = +0
-
 +1 x71c4d +1 x71c59 -1 x71c64 = +0
-
 +1 x71c64 +1 x71c66 -1 x71c67 +1 x71d0d -1 x71fc5 = +0
-
 +1 x71c67 -1 x71c68 -1 x71c69 = +0
-
 +1 x71c69 +1 x71ca0 +1 x71cd6 -1 x71cd7 +0 x71cd8 -1 x72035 = +0
-
 +1 x71c68 -1 x71c74 -1 x71c75 = +0
-
 +1 x71c74 -1 x71c80 -1 x71c81 = +0
-
 +1 x71c80 -1 x71c84 -1 x71c85 = +0
-
 +1 x71c84 -1 x71c88 -1 x71c89 = +0
-
 +1 x71c88 -1 x71c8c -1 x71c8d = +0
-
 +1 x71c85 +1 x71c89 +1 x71c8d -1 x71c92 = +0
-
 +1 x71c92 +1 x71c94 +1 x71cca -1 x71ff3 = +0
-
 +1 x71c75 +1 x71c81 +1 x71c8c -1 x71c9b = +0
-
 +1 x71c9b +1 x71c9d -1 x71c9e +1 x71cd3 -1 x71ffc = +0
-
 +1 x71c9e -1 x71c9f -1 x71ca0 = +0
-
 +1 x71c9f -1 x71cac -1 x71cad = +0
-
 +1 x71cac -1 x71cb8 -1 x71cb9 = +0
-
 +1 x71cb8 -1 x71cbc -1 x71cbd = +0
-
 +1 x71cbc -1 x71cc0 -1 x71cc1 = +0
-
 +1 x71cc0 -1 x71cc4 -1 x71cc5 = +0
-
 +1 x71cbd +1 x71cc1 +1 x71cc5 -1 x71cca = +0
-
 +1 x71cad +1 x71cb9 +1 x71cc4 -1 x71cd3 = +0
-
 +1 x71cd7 +1 x71ce1 -1 x71ce2 -1 x72040 = +0
-
 +1 x71ce2 -1 x71ce3 -1 x71ce4 = +0
-
 +1 x71ce3 -1 x71cf5 -1 x71cf6 = +0
-
 +1 x71cf5 -1 x71d01 -1 x71d02 = +0
-
 +1 x71cf6 +1 x71d02 -1 x71d0d = +0
-
 +1 x71d11 -1 x71d20 -1 x71d21 = +0
-
 +1 x71d21 -1 x71d25 -1 x71d26 = +0
-
 +1 x71d20 -1 x71d27 -1 x71d28 = +0
-
 +1 x71d26 +1 x71d28 -1 x71d2e -1 x71d2f = +0
-
 +1 x71d25 +1 x71d27 -1 x71d2d = +0
-
 +1 x71d2d -1 x71d30 -1 x71d31 = +0
-
 +1 x71d2f +1 x71d31 -1 x71d3c = +0
-
 +1 x71d2e +1 x71d30 -1 x71d40 = +0
-
 +1 x71d3c +1 x71d40 -1 x71d45 = +0
-
 +1 x71d45 -1 x71d48 -1 x71d49 = +0
-
 +1 x71d48 +1 x71d49 -1 x71d59 = +0
-
 +1 x71d59 -1 x71d67 -1 x71d68 = +0
-
 +1 x71d67 -1 x71d73 -1 x71d74 = +0
-
 +1 x71d68 +1 x71d73 +1 x71d74 -1 x71d82 = +0
-
 +1 x71d82 +1 x71d84 -1 x71d85 -1 x720e3 = +0
-
 +1 x71d85 -1 x71d86 -1 x71d87 = +0
-
 +1 x71d87 +1 x71daf +1 x71dd6 -1 x71dd7 +0 x71dd8 -1 x72135 = +0
-
 +1 x71d86 -1 x71d92 -1 x71d93 = +0
-
 +1 x71d92 -1 x71d9e -1 x71d9f = +0
-
 +1 x71d93 +1 x71d9f -1 x71daa = +0
-
 +1 x71daa +1 x71dac -1 x71dad +1 x71dd3 -1 x7210b = +0
-
 +1 x71dad -1 x71dae -1 x71daf = +0
-
 +1 x71dae -1 x71dbb -1 x71dbc = +0
-
 +1 x71dbb -1 x71dc7 -1 x71dc8 = +0
-
 +1 x71dbc +1 x71dc8 -1 x71dd3 = +0
-
 +1 x71dd7 +1 x71de1 -1 x71de2 -1 x72140 = +0
-
 +1 x71de2 -1 x71de3 -1 x71de4 = +0
-
 +1 x71de4 +1 x71e8c +1 x71eb8 -1 x71eb9 +0 x71eba -1 x72217 = +0
-
 +1 x71de3 -1 x71df4 -1 x71df5 = +0
-
 +1 x71df4 -1 x71e00 -1 x71e01 = +0
-
 +1 x71e00 +1 x71e09 +1 x71ea9 -1 x72168 = +0
-
 +1 x71df5 +1 x71e01 -1 x71e0c = +0
-
 +1 x71e0c +1 x71e0e -1 x71e0f +1 x71eb5 -1 x7216d = +0
-
 +1 x71e0f -1 x71e10 -1 x71e11 = +0
-
 +1 x71e11 +1 x71e48 +1 x71e7e -1 x71e7f +0 x71e80 -1 x721dd = +0
-
 +1 x71e10 -1 x71e1c -1 x71e1d = +0
-
 +1 x71e1c -1 x71e28 -1 x71e29 = +0
-
 +1 x71e28 -1 x71e2c -1 x71e2d = +0
-
 +1 x71e2c -1 x71e30 -1 x71e31 = +0
-
 +1 x71e30 -1 x71e34 -1 x71e35 = +0
-
 +1 x71e2d +1 x71e31 +1 x71e35 -1 x71e3a = +0
-
 +1 x71e3a +1 x71e3c +1 x71e72 -1 x7219b = +0
-
 +1 x71e1d +1 x71e29 +1 x71e34 -1 x71e43 = +0
-
 +1 x71e43 +1 x71e45 -1 x71e46 +1 x71e7b -1 x721a4 = +0
-
 +1 x71e46 -1 x71e47 -1 x71e48 = +0
-
 +1 x71e47 -1 x71e54 -1 x71e55 = +0
-
 +1 x71e54 -1 x71e60 -1 x71e61 = +0
-
 +1 x71e60 -1 x71e64 -1 x71e65 = +0
-
 +1 x71e64 -1 x71e68 -1 x71e69 = +0
-
 +1 x71e68 -1 x71e6c -1 x71e6d = +0
-
 +1 x71e65 +1 x71e69 +1 x71e6d -1 x71e72 = +0
-
 +1 x71e55 +1 x71e61 +1 x71e6c -1 x71e7b = +0
-
 +1 x71e7f +1 x71e89 -1 x71e8a -1 x721e8 = +0
-
 +1 x71e8a -1 x71e8b -1 x71e8c = +0
-
 +1 x71e8b -1 x71e9d -1 x71e9e = +0
-
 +1 x71e9d -1 x71ea9 -1 x71eaa = +0
-
 +1 x71e9e +1 x71eaa -1 x71eb5 = +0
-
 +1 x71eb9 -1 x71ec8 -1 x71ec9 = +0
-
 +1 x71ec9 -1 x71ecd -1 x71ece = +0
-
 +1 x71ec8 -1 x71ecf -1 x71ed0 = +0
-
 +1 x71ece -1 x71ed7 -1 x71ed8 = +0
-
 +1 x71ed0 -1 x71ed9 -1 x71eda = +0
-
 +1 x71ecf -1 x71edb -1 x71edc = +0
-
 +1 x71ecd -1 x71edd -1 x71ede = +0
-
 +1 x71ed7 +1 x71ed9 -1 x71ee2 = +0
-
 +1 x71ed8 +1 x71eda -1 x71edf = +0
-
 +1 x71edc +1 x71ede -1 x71ee9 = +0
-
 +1 x71edf +1 x71ee9 -1 x71eed = +0
-
 +1 x71edb +1 x71edd -1 x71eef = +0
-
 +1 x71ee2 +1 x71eef -1 x71ef1 = +0
-
 +1 x71eed -1 x71ef4 -1 x71ef5 = +0
-
 +1 x71ef1 -1 x71ef6 -1 x71ef7 = +0
-
 +1 x71ef4 +1 x71ef6 +1 x71ef8 -1 x72257 = +0
-
 +1 x71ef5 +1 x71ef7 -1 x71ef9 = +0
-
 +1 x71ef9 +1 x71efd -1 x71efe -1 x7225c = +0
-
 +1 x71efe -1 x71eff -1 x71f00 = +0
-
 +1 x71f00 +1 x71f02 -1 x72261 = +0
-
 +1 x71eff -1 x71f1e -1 x71f1f = +0
-
 +1 x71f1e -1 x71f2a -1 x71f2b = +0
-
 +1 x71f1f +1 x71f2a +1 x71f2b -1 x71f39 = +0
-
 +1 x71f39 +1 x71f3b -1 x71f3c -1 x7229a = +0
-
 +1 x71f3c -1 x71f3d -1 x71f3e = +0
-
 +1 x71f3d -1 x71f49 -1 x71f4a = +0
-
 +1 x71f49 -1 x71f55 -1 x71f56 = +0
-
 +1 x71f4a +1 x71f56 -1 x71f61 = +0
-
 +1 x71f61 +1 x71f63 -1 x71f64 +1 x71f8a -1 x722c2 = +0
-
 +1 x71f64 -1 x71f65 -1 x71f66 = +0
-
 +1 x71f3e +1 x71f66 +1 x71f8d -1 x71f8e +0 x71f8f -1 x722ec = +0
-
 +1 x71f65 -1 x71f72 -1 x71f73 = +0
-
 +1 x71f72 -1 x71f7e -1 x71f7f = +0
-
 +1 x71f73 +1 x71f7f -1 x71f8a = +0
-
 +1 x71f8e +1 x71f98 -1 x71f99 -1 x722f7 = +0
-
 +1 x71f99 -1 x71f9a -1 x71f9b = +0
-
 +1 x71f9b +1 x72043 +1 x7206f -1 x72070 +0 x72071 -1 x723ce = +0
-
 +1 x71f9a -1 x71fab -1 x71fac = +0
-
 +1 x71fab -1 x71fb7 -1 x71fb8 = +0
-
 +1 x71fb7 +1 x71fc0 +1 x72060 -1 x7231f = +0
-
 +1 x71fac +1 x71fb8 -1 x71fc3 = +0
-
 +1 x71fc3 +1 x71fc5 -1 x71fc6 +1 x7206c -1 x72324 = +0
-
 +1 x71fc6 -1 x71fc7 -1 x71fc8 = +0
-
 +1 x71fc8 +1 x71fff +1 x72035 -1 x72036 +0 x72037 -1 x72394 = +0
-
 +1 x71fc7 -1 x71fd3 -1 x71fd4 = +0
-
 +1 x71fd3 -1 x71fdf -1 x71fe0 = +0
-
 +1 x71fdf -1 x71fe3 -1 x71fe4 = +0
-
 +1 x71fe3 -1 x71fe7 -1 x71fe8 = +0
-
 +1 x71fe7 -1 x71feb -1 x71fec = +0
-
 +1 x71fe4 +1 x71fe8 +1 x71fec -1 x71ff1 = +0
-
 +1 x71ff1 +1 x71ff3 +1 x72029 -1 x72352 = +0
-
 +1 x71fd4 +1 x71fe0 +1 x71feb -1 x71ffa = +0
-
 +1 x71ffa +1 x71ffc -1 x71ffd +1 x72032 -1 x7235b = +0
-
 +1 x71ffd -1 x71ffe -1 x71fff = +0
-
 +1 x71ffe -1 x7200b -1 x7200c = +0
-
 +1 x7200b -1 x72017 -1 x72018 = +0
-
 +1 x72017 -1 x7201b -1 x7201c = +0
-
 +1 x7201b -1 x7201f -1 x72020 = +0
-
 +1 x7201f -1 x72023 -1 x72024 = +0
-
 +1 x7201c +1 x72020 +1 x72024 -1 x72029 = +0
-
 +1 x7200c +1 x72018 +1 x72023 -1 x72032 = +0
-
 +1 x72036 +1 x72040 -1 x72041 -1 x7239f = +0
-
 +1 x72041 -1 x72042 -1 x72043 = +0
-
 +1 x72042 -1 x72054 -1 x72055 = +0
-
 +1 x72054 -1 x72060 -1 x72061 = +0
-
 +1 x72055 +1 x72061 -1 x7206c = +0
-
 +1 x72070 -1 x7207f -1 x72080 = +0
-
 +1 x72080 -1 x72084 -1 x72085 = +0
-
 +1 x7207f -1 x72086 -1 x72087 = +0
-
 +1 x72085 +1 x72087 -1 x7208d -1 x7208e = +0
-
 +1 x72084 +1 x72086 -1 x7208c = +0
-
 +1 x7208c -1 x7208f -1 x72090 = +0
-
 +1 x7208e +1 x72090 -1 x7209b = +0
-
 +1 x7208d +1 x7208f -1 x7209f = +0
-
 +1 x7209b +1 x7209f -1 x720a4 = +0
-
 +1 x720a4 -1 x720a7 -1 x720a8 = +0
-
 +1 x720a7 +1 x720a8 -1 x720b8 = +0
-
 +1 x720b8 -1 x720c6 -1 x720c7 = +0
-
 +1 x720c6 -1 x720d2 -1 x720d3 = +0
-
 +1 x720c7 +1 x720d2 +1 x720d3 -1 x720e1 = +0
-
 +1 x720e1 +1 x720e3 -1 x720e4 -1 x72442 = +0
-
 +1 x720e4 -1 x720e5 -1 x720e6 = +0
-
 +1 x720e6 +1 x7210e +1 x72135 -1 x72136 +0 x72137 -1 x72494 = +0
-
 +1 x720e5 -1 x720f1 -1 x720f2 = +0
-
 +1 x720f1 -1 x720fd -1 x720fe = +0
-
 +1 x720f2 +1 x720fe -1 x72109 = +0
-
 +1 x72109 +1 x7210b -1 x7210c +1 x72132 -1 x7246a = +0
-
 +1 x7210c -1 x7210d -1 x7210e = +0
-
 +1 x7210d -1 x7211a -1 x7211b = +0
-
 +1 x7211a -1 x72126 -1 x72127 = +0
-
 +1 x7211b +1 x72127 -1 x72132 = +0
-
 +1 x72136 +1 x72140 -1 x72141 -1 x7249f = +0
-
 +1 x72141 -1 x72142 -1 x72143 = +0
-
 +1 x72143 +1 x721eb +1 x72217 -1 x72218 +0 x72219 -1 x72576 = +0
-
 +1 x72142 -1 x72153 -1 x72154 = +0
-
 +1 x72153 -1 x7215f -1 x72160 = +0
-
 +1 x7215f +1 x72168 +1 x72208 -1 x724c7 = +0
-
 +1 x72154 +1 x72160 -1 x7216b = +0
-
 +1 x7216b +1 x7216d -1 x7216e +1 x72214 -1 x724cc = +0
-
 +1 x7216e -1 x7216f -1 x72170 = +0
-
 +1 x72170 +1 x721a7 +1 x721dd -1 x721de +0 x721df -1 x7253c = +0
-
 +1 x7216f -1 x7217b -1 x7217c = +0
-
 +1 x7217b -1 x72187 -1 x72188 = +0
-
 +1 x72187 -1 x7218b -1 x7218c = +0
-
 +1 x7218b -1 x7218f -1 x72190 = +0
-
 +1 x7218f -1 x72193 -1 x72194 = +0
-
 +1 x7218c +1 x72190 +1 x72194 -1 x72199 = +0
-
 +1 x72199 +1 x7219b +1 x721d1 -1 x724fa = +0
-
 +1 x7217c +1 x72188 +1 x72193 -1 x721a2 = +0
-
 +1 x721a2 +1 x721a4 -1 x721a5 +1 x721da -1 x72503 = +0
-
 +1 x721a5 -1 x721a6 -1 x721a7 = +0
-
 +1 x721a6 -1 x721b3 -1 x721b4 = +0
-
 +1 x721b3 -1 x721bf -1 x721c0 = +0
-
 +1 x721bf -1 x721c3 -1 x721c4 = +0
-
 +1 x721c3 -1 x721c7 -1 x721c8 = +0
-
 +1 x721c7 -1 x721cb -1 x721cc = +0
-
 +1 x721c4 +1 x721c8 +1 x721cc -1 x721d1 = +0
-
 +1 x721b4 +1 x721c0 +1 x721cb -1 x721da = +0
-
 +1 x721de +1 x721e8 -1 x721e9 -1 x72547 = +0
-
 +1 x721e9 -1 x721ea -1 x721eb = +0
-
 +1 x721ea -1 x721fc -1 x721fd = +0
-
 +1 x721fc -1 x72208 -1 x72209 = +0
-
 +1 x721fd +1 x72209 -1 x72214 = +0
-
 +1 x72218 -1 x72227 -1 x72228 = +0
-
 +1 x72228 -1 x7222c -1 x7222d = +0
-
 +1 x72227 -1 x7222e -1 x7222f = +0
-
 +1 x7222d -1 x72236 -1 x72237 = +0
-
 +1 x7222f -1 x72238 -1 x72239 = +0
-
 +1 x7222e -1 x7223a -1 x7223b = +0
-
 +1 x7222c -1 x7223c -1 x7223d = +0
-
 +1 x72236 +1 x72238 -1 x72241 = +0
-
 +1 x72237 +1 x72239 -1 x7223e = +0
-
 +1 x7223b +1 x7223d -1 x72248 = +0
-
 +1 x7223e +1 x72248 -1 x7224c = +0
-
 +1 x7223a +1 x7223c -1 x7224e = +0
-
 +1 x72241 +1 x7224e -1 x72250 = +0
-
 +1 x7224c -1 x72253 -1 x72254 = +0
-
 +1 x72250 -1 x72255 -1 x72256 = +0
-
 +1 x72253 +1 x72255 +1 x72257 -1 x725b6 = +0
-
 +1 x72254 +1 x72256 -1 x72258 = +0
-
 +1 x72258 +1 x7225c -1 x7225d -1 x725bb = +0
-
 +1 x7225d -1 x7225e -1 x7225f = +0
-
 +1 x7225f +1 x72261 -1 x725c0 = +0
-
 +1 x7225e -1 x7227d -1 x7227e = +0
-
 +1 x7227d -1 x72289 -1 x7228a = +0
-
 +1 x7227e +1 x72289 +1 x7228a -1 x72298 = +0
-
 +1 x72298 +1 x7229a -1 x7229b -1 x725f9 = +0
-
 +1 x7229b -1 x7229c -1 x7229d = +0
-
 +1 x7229c -1 x722a8 -1 x722a9 = +0
-
 +1 x722a8 -1 x722b4 -1 x722b5 = +0
-
 +1 x722a9 +1 x722b5 -1 x722c0 = +0
-
 +1 x722c0 +1 x722c2 -1 x722c3 +1 x722e9 -1 x72621 = +0
-
 +1 x722c3 -1 x722c4 -1 x722c5 = +0
-
 +1 x7229d +1 x722c5 +1 x722ec -1 x722ed +0 x722ee -1 x7264b = +0
-
 +1 x722c4 -1 x722d1 -1 x722d2 = +0
-
 +1 x722d1 -1 x722dd -1 x722de = +0
-
 +1 x722d2 +1 x722de -1 x722e9 = +0
-
 +1 x722ed +1 x722f7 -1 x722f8 -1 x72656 = +0
-
 +1 x722f8 -1 x722f9 -1 x722fa = +0
-
 +1 x722fa +1 x723a2 +1 x723ce -1 x723cf +0 x723d0 -1 x7272d = +0
-
 +1 x722f9 -1 x7230a -1 x7230b = +0
-
 +1 x7230a -1 x72316 -1 x72317 = +0
-
 +1 x72316 +1 x7231f +1 x723bf -1 x7267e = +0
-
 +1 x7230b +1 x72317 -1 x72322 = +0
-
 +1 x72322 +1 x72324 -1 x72325 +1 x723cb -1 x72683 = +0
-
 +1 x72325 -1 x72326 -1 x72327 = +0
-
 +1 x72327 +1 x7235e +1 x72394 -1 x72395 +0 x72396 -1 x726f3 = +0
-
 +1 x72326 -1 x72332 -1 x72333 = +0
-
 +1 x72332 -1 x7233e -1 x7233f = +0
-
 +1 x7233e -1 x72342 -1 x72343 = +0
-
 +1 x72342 -1 x72346 -1 x72347 = +0
-
 +1 x72346 -1 x7234a -1 x7234b = +0
-
 +1 x72343 +1 x72347 +1 x7234b -1 x72350 = +0
-
 +1 x72350 +1 x72352 +1 x72388 -1 x726b1 = +0
-
 +1 x72333 +1 x7233f +1 x7234a -1 x72359 = +0
-
 +1 x72359 +1 x7235b -1 x7235c +1 x72391 -1 x726ba = +0
-
 +1 x7235c -1 x7235d -1 x7235e = +0
-
 +1 x7235d -1 x7236a -1 x7236b = +0
-
 +1 x7236a -1 x72376 -1 x72377 = +0
-
 +1 x72376 -1 x7237a -1 x7237b = +0
-
 +1 x7237a -1 x7237e -1 x7237f = +0
-
 +1 x7237e -1 x72382 -1 x72383 = +0
-
 +1 x7237b +1 x7237f +1 x72383 -1 x72388 = +0
-
 +1 x7236b +1 x72377 +1 x72382 -1 x72391 = +0
-
 +1 x72395 +1 x7239f -1 x723a0 -1 x726fe = +0
-
 +1 x723a0 -1 x723a1 -1 x723a2 = +0
-
 +1 x723a1 -1 x723b3 -1 x723b4 = +0
-
 +1 x723b3 -1 x723bf -1 x723c0 = +0
-
 +1 x723b4 +1 x723c0 -1 x723cb = +0
-
 +1 x723cf -1 x723de -1 x723df = +0
-
 +1 x723df -1 x723e3 -1 x723e4 = +0
-
 +1 x723de -1 x723e5 -1 x723e6 = +0
-
 +1 x723e4 +1 x723e6 -1 x723ec -1 x723ed = +0
-
 +1 x723e3 +1 x723e5 -1 x723eb = +0
-
 +1 x723eb -1 x723ee -1 x723ef = +0
-
 +1 x723ed +1 x723ef -1 x723fa = +0
-
 +1 x723ec +1 x723ee -1 x723fe = +0
-
 +1 x723fa +1 x723fe -1 x72403 = +0
-
 +1 x72403 -1 x72406 -1 x72407 = +0
-
 +1 x72406 +1 x72407 -1 x72417 = +0
-
 +1 x72417 -1 x72425 -1 x72426 = +0
-
 +1 x72425 -1 x72431 -1 x72432 = +0
-
 +1 x72426 +1 x72431 +1 x72432 -1 x72440 = +0
-
 +1 x72440 +1 x72442 -1 x72443 -1 x727a1 = +0
-
 +1 x72443 -1 x72444 -1 x72445 = +0
-
 +1 x72445 +1 x7246d +1 x72494 -1 x72495 +0 x72496 -1 x727f3 = +0
-
 +1 x72444 -1 x72450 -1 x72451 = +0
-
 +1 x72450 -1 x7245c -1 x7245d = +0
-
 +1 x72451 +1 x7245d -1 x72468 = +0
-
 +1 x72468 +1 x7246a -1 x7246b +1 x72491 -1 x727c9 = +0
-
 +1 x7246b -1 x7246c -1 x7246d = +0
-
 +1 x7246c -1 x72479 -1 x7247a = +0
-
 +1 x72479 -1 x72485 -1 x72486 = +0
-
 +1 x7247a +1 x72486 -1 x72491 = +0
-
 +1 x72495 +1 x7249f -1 x724a0 -1 x727fe = +0
-
 +1 x724a0 -1 x724a1 -1 x724a2 = +0
-
 +1 x724a2 +1 x7254a +1 x72576 -1 x72577 +0 x72578 -1 x728d5 = +0
-
 +1 x724a1 -1 x724b2 -1 x724b3 = +0
-
 +1 x724b2 -1 x724be -1 x724bf = +0
-
 +1 x724be +1 x724c7 +1 x72567 -1 x72826 = +0
-
 +1 x724b3 +1 x724bf -1 x724ca = +0
-
 +1 x724ca +1 x724cc -1 x724cd +1 x72573 -1 x7282b = +0
-
 +1 x724cd -1 x724ce -1 x724cf = +0
-
 +1 x724cf +1 x72506 +1 x7253c -1 x7253d +0 x7253e -1 x7289b = +0
-
 +1 x724ce -1 x724da -1 x724db = +0
-
 +1 x724da -1 x724e6 -1 x724e7 = +0
-
 +1 x724e6 -1 x724ea -1 x724eb = +0
-
 +1 x724ea -1 x724ee -1 x724ef = +0
-
 +1 x724ee -1 x724f2 -1 x724f3 = +0
-
 +1 x724eb +1 x724ef +1 x724f3 -1 x724f8 = +0
-
 +1 x724f8 +1 x724fa +1 x72530 -1 x72859 = +0
-
 +1 x724db +1 x724e7 +1 x724f2 -1 x72501 = +0
-
 +1 x72501 +1 x72503 -1 x72504 +1 x72539 -1 x72862 = +0
-
 +1 x72504 -1 x72505 -1 x72506 = +0
-
 +1 x72505 -1 x72512 -1 x72513 = +0
-
 +1 x72512 -1 x7251e -1 x7251f = +0
-
 +1 x7251e -1 x72522 -1 x72523 = +0
-
 +1 x72522 -1 x72526 -1 x72527 = +0
-
 +1 x72526 -1 x7252a -1 x7252b = +0
-
 +1 x72523 +1 x72527 +1 x7252b -1 x72530 = +0
-
 +1 x72513 +1 x7251f +1 x7252a -1 x72539 = +0
-
 +1 x7253d +1 x72547 -1 x72548 -1 x728a6 = +0
-
 +1 x72548 -1 x72549 -1 x7254a = +0
-
 +1 x72549 -1 x7255b -1 x7255c = +0
-
 +1 x7255b -1 x72567 -1 x72568 = +0
-
 +1 x7255c +1 x72568 -1 x72573 = +0
-
 +1 x72577 -1 x72586 -1 x72587 = +0
-
 +1 x72587 -1 x7258b -1 x7258c = +0
-
 +1 x72586 -1 x7258d -1 x7258e = +0
-
 +1 x7258c -1 x72595 -1 x72596 = +0
-
 +1 x7258e -1 x72597 -1 x72598 = +0
-
 +1 x7258d -1 x72599 -1 x7259a = +0
-
 +1 x7258b -1 x7259b -1 x7259c = +0
-
 +1 x72595 +1 x72597 -1 x725a0 = +0
-
 +1 x72596 +1 x72598 -1 x7259d = +0
-
 +1 x7259a +1 x7259c -1 x725a7 = +0
-
 +1 x7259d +1 x725a7 -1 x725ab = +0
-
 +1 x72599 +1 x7259b -1 x725ad = +0
-
 +1 x725a0 +1 x725ad -1 x725af = +0
-
 +1 x725ab -1 x725b2 -1 x725b3 = +0
-
 +1 x725af -1 x725b4 -1 x725b5 = +0
-
 +1 x725b2 +1 x725b4 +1 x725b6 -1 x72915 = +0
-
 +1 x725b3 +1 x725b5 -1 x725b7 = +0
-
 +1 x725b7 +1 x725bb -1 x725bc -1 x7291a = +0
-
 +1 x725bc -1 x725bd -1 x725be = +0
-
 +1 x725be +1 x725c0 -1 x7291f = +0
-
 +1 x725bd -1 x725dc -1 x725dd = +0
-
 +1 x725dc -1 x725e8 -1 x725e9 = +0
-
 +1 x725dd +1 x725e8 +1 x725e9 -1 x725f7 = +0
-
 +1 x725f7 +1 x725f9 -1 x725fa -1 x72958 = +0
-
 +1 x725fa -1 x725fb -1 x725fc = +0
-
 +1 x725fb -1 x72607 -1 x72608 = +0
-
 +1 x72607 -1 x72613 -1 x72614 = +0
-
 +1 x72608 +1 x72614 -1 x7261f = +0
-
 +1 x7261f +1 x72621 -1 x72622 +1 x72648 -1 x72980 = +0
-
 +1 x72622 -1 x72623 -1 x72624 = +0
-
 +1 x725fc +1 x72624 +1 x7264b -1 x7264c +0 x7264d -1 x729aa = +0
-
 +1 x72623 -1 x72630 -1 x72631 = +0
-
 +1 x72630 -1 x7263c -1 x7263d = +0
-
 +1 x72631 +1 x7263d -1 x72648 = +0
-
 +1 x7264c +1 x72656 -1 x72657 -1 x729b5 = +0
-
 +1 x72657 -1 x72658 -1 x72659 = +0
-
 +1 x72659 +1 x72701 +1 x7272d -1 x7272e +0 x7272f -1 x72a8c = +0
-
 +1 x72658 -1 x72669 -1 x7266a = +0
-
 +1 x72669 -1 x72675 -1 x72676 = +0
-
 +1 x72675 +1 x7267e +1 x7271e -1 x729dd = +0
-
 +1 x7266a +1 x72676 -1 x72681 = +0
-
 +1 x72681 +1 x72683 -1 x72684 +1 x7272a -1 x729e2 = +0
-
 +1 x72684 -1 x72685 -1 x72686 = +0
-
 +1 x72686 +1 x726bd +1 x726f3 -1 x726f4 +0 x726f5 -1 x72a52 = +0
-
 +1 x72685 -1 x72691 -1 x72692 = +0
-
 +1 x72691 -1 x7269d -1 x7269e = +0
-
 +1 x7269d -1 x726a1 -1 x726a2 = +0
-
 +1 x726a1 -1 x726a5 -1 x726a6 = +0
-
 +1 x726a5 -1 x726a9 -1 x726aa = +0
-
 +1 x726a2 +1 x726a6 +1 x726aa -1 x726af = +0
-
 +1 x726af +1 x726b1 +1 x726e7 -1 x72a10 = +0
-
 +1 x72692 +1 x7269e +1 x726a9 -1 x726b8 = +0
-
 +1 x726b8 +1 x726ba -1 x726bb +1 x726f0 -1 x72a19 = +0
-
 +1 x726bb -1 x726bc -1 x726bd = +0
-
 +1 x726bc -1 x726c9 -1 x726ca = +0
-
 +1 x726c9 -1 x726d5 -1 x726d6 = +0
-
 +1 x726d5 -1 x726d9 -1 x726da = +0
-
 +1 x726d9 -1 x726dd -1 x726de = +0
-
 +1 x726dd -1 x726e1 -1 x726e2 = +0
-
 +1 x726da +1 x726de +1 x726e2 -1 x726e7 = +0
-
 +1 x726ca +1 x726d6 +1 x726e1 -1 x726f0 = +0
-
 +1 x726f4 +1 x726fe -1 x726ff -1 x72a5d = +0
-
 +1 x726ff -1 x72700 -1 x72701 = +0
-
 +1 x72700 -1 x72712 -1 x72713 = +0
-
 +1 x72712 -1 x7271e -1 x7271f = +0
-
 +1 x72713 +1 x7271f -1 x7272a = +0
-
 +1 x7272e -1 x7273d -1 x7273e = +0
-
 +1 x7273e -1 x72742 -1 x72743 = +0
-
 +1 x7273d -1 x72744 -1 x72745 = +0
-
 +1 x72743 +1 x72745 -1 x7274b -1 x7274c = +0
-
 +1 x72742 +1 x72744 -1 x7274a = +0
-
 +1 x7274a -1 x7274d -1 x7274e = +0
-
 +1 x7274c +1 x7274e -1 x72759 = +0
-
 +1 x7274b +1 x7274d -1 x7275d = +0
-
 +1 x72759 +1 x7275d -1 x72762 = +0
-
 +1 x72762 -1 x72765 -1 x72766 = +0
-
 +1 x72765 +1 x72766 -1 x72776 = +0
-
 +1 x72776 -1 x72784 -1 x72785 = +0
-
 +1 x72784 -1 x72790 -1 x72791 = +0
-
 +1 x72785 +1 x72790 +1 x72791 -1 x7279f = +0
-
 +1 x7279f +1 x727a1 -1 x727a2 -1 x72b00 = +0
-
 +1 x727a2 -1 x727a3 -1 x727a4 = +0
-
 +1 x727a4 +1 x727cc +1 x727f3 -1 x727f4 +0 x727f5 -1 x72b52 = +0
-
 +1 x727a3 -1 x727af -1 x727b0 = +0
-
 +1 x727af -1 x727bb -1 x727bc = +0
-
 +1 x727b0 +1 x727bc -1 x727c7 = +0
-
 +1 x727c7 +1 x727c9 -1 x727ca +1 x727f0 -1 x72b28 = +0
-
 +1 x727ca -1 x727cb -1 x727cc = +0
-
 +1 x727cb -1 x727d8 -1 x727d9 = +0
-
 +1 x727d8 -1 x727e4 -1 x727e5 = +0
-
 +1 x727d9 +1 x727e5 -1 x727f0 = +0
-
 +1 x727f4 +1 x727fe -1 x727ff -1 x72b5d = +0
-
 +1 x727ff -1 x72800 -1 x72801 = +0
-
 +1 x72801 +1 x728a9 +1 x728d5 -1 x728d6 +0 x728d7 -1 x72c34 = +0
-
 +1 x72800 -1 x72811 -1 x72812 = +0
-
 +1 x72811 -1 x7281d -1 x7281e = +0
-
 +1 x7281d +1 x72826 +1 x728c6 -1 x72b85 = +0
-
 +1 x72812 +1 x7281e -1 x72829 = +0
-
 +1 x72829 +1 x7282b -1 x7282c +1 x728d2 -1 x72b8a = +0
-
 +1 x7282c -1 x7282d -1 x7282e = +0
-
 +1 x7282e +1 x72865 +1 x7289b -1 x7289c +0 x7289d -1 x72bfa = +0
-
 +1 x7282d -1 x72839 -1 x7283a = +0
-
 +1 x72839 -1 x72845 -1 x72846 = +0
-
 +1 x72845 -1 x72849 -1 x7284a = +0
-
 +1 x72849 -1 x7284d -1 x7284e = +0
-
 +1 x7284d -1 x72851 -1 x72852 = +0
-
 +1 x7284a +1 x7284e +1 x72852 -1 x72857 = +0
-
 +1 x72857 +1 x72859 +1 x7288f -1 x72bb8 = +0
-
 +1 x7283a +1 x72846 +1 x72851 -1 x72860 = +0
-
 +1 x72860 +1 x72862 -1 x72863 +1 x72898 -1 x72bc1 = +0
-
 +1 x72863 -1 x72864 -1 x72865 = +0
-
 +1 x72864 -1 x72871 -1 x72872 = +0
-
 +1 x72871 -1 x7287d -1 x7287e = +0
-
 +1 x7287d -1 x72881 -1 x72882 = +0
-
 +1 x72881 -1 x72885 -1 x72886 = +0
-
 +1 x72885 -1 x72889 -1 x7288a = +0
-
 +1 x72882 +1 x72886 +1 x7288a -1 x7288f = +0
-
 +1 x72872 +1 x7287e +1 x72889 -1 x72898 = +0
-
 +1 x7289c +1 x728a6 -1 x728a7 -1 x72c05 = +0
-
 +1 x728a7 -1 x728a8 -1 x728a9 = +0
-
 +1 x728a8 -1 x728ba -1 x728bb = +0
-
 +1 x728ba -1 x728c6 -1 x728c7 = +0
-
 +1 x728bb +1 x728c7 -1 x728d2 = +0
-
 +1 x728d6 -1 x728e5 -1 x728e6 = +0
-
 +1 x728e6 -1 x728ea -1 x728eb = +0
-
 +1 x728e5 -1 x728ec -1 x728ed = +0
-
 +1 x728eb -1 x728f4 -1 x728f5 = +0
-
 +1 x728ed -1 x728f6 -1 x728f7 = +0
-
 +1 x728ec -1 x728f8 -1 x728f9 = +0
-
 +1 x728ea -1 x728fa -1 x728fb = +0
-
 +1 x728f4 +1 x728f6 -1 x728ff = +0
-
 +1 x728f5 +1 x728f7 -1 x728fc = +0
-
 +1 x728f9 +1 x728fb -1 x72906 = +0
-
 +1 x728fc +1 x72906 -1 x7290a = +0
-
 +1 x728f8 +1 x728fa -1 x7290c = +0
-
 +1 x728ff +1 x7290c -1 x7290e = +0
-
 +1 x7290a -1 x72911 -1 x72912 = +0
-
 +1 x7290e -1 x72913 -1 x72914 = +0
-
 +1 x72911 +1 x72913 +1 x72915 -1 x72c74 = +0
-
 +1 x72912 +1 x72914 -1 x72916 = +0
-
 +1 x72916 +1 x7291a -1 x7291b -1 x72c79 = +0
-
 +1 x7291b -1 x7291c -1 x7291d = +0
-
 +1 x7291d +1 x7291f -1 x72c7e = +0
-
 +1 x7291c -1 x7293b -1 x7293c = +0
-
 +1 x7293b -1 x72947 -1 x72948 = +0
-
 +1 x7293c +1 x72947 +1 x72948 -1 x72956 = +0
-
 +1 x72956 +1 x72958 -1 x72959 -1 x72cb7 = +0
-
 +1 x72959 -1 x7295a -1 x7295b = +0
-
 +1 x7295a -1 x72966 -1 x72967 = +0
-
 +1 x72966 -1 x72972 -1 x72973 = +0
-
 +1 x72967 +1 x72973 -1 x7297e = +0
-
 +1 x7297e +1 x72980 -1 x72981 +1 x729a7 -1 x72cde = +0
-
 +1 x72981 -1 x72982 -1 x72983 = +0
-
 +1 x7295b +1 x72983 +1 x729aa -1 x729ab +0 x729ac -1 x72d08 = +0
-
 +1 x72982 -1 x7298f -1 x72990 = +0
-
 +1 x7298f -1 x7299b -1 x7299c = +0
-
 +1 x72990 +1 x7299c -1 x729a7 = +0
-
 +1 x729ab +1 x729b5 -1 x729b6 -1 x72d13 = +0
-
 +1 x729b6 -1 x729b7 -1 x729b8 = +0
-
 +1 x729b8 +1 x72a60 +1 x72a8c -1 x72a8d +0 x72a8e -1 x72dea = +0
-
 +1 x729b7 -1 x729c8 -1 x729c9 = +0
-
 +1 x729c8 -1 x729d4 -1 x729d5 = +0
-
 +1 x729d4 +1 x729dd +1 x72a7d -1 x72d3b = +0
-
 +1 x729c9 +1 x729d5 -1 x729e0 = +0
-
 +1 x729e0 +1 x729e2 -1 x729e3 +1 x72a89 -1 x72d40 = +0
-
 +1 x729e3 -1 x729e4 -1 x729e5 = +0
-
 +1 x729e5 +1 x72a1c +1 x72a52 -1 x72a53 +0 x72a54 -1 x72db0 = +0
-
 +1 x729e4 -1 x729f0 -1 x729f1 = +0
-
 +1 x729f0 -1 x729fc -1 x729fd = +0
-
 +1 x729fc -1 x72a00 -1 x72a01 = +0
-
 +1 x72a00 -1 x72a04 -1 x72a05 = +0
-
 +1 x72a04 -1 x72a08 -1 x72a09 = +0
-
 +1 x72a01 +1 x72a05 +1 x72a09 -1 x72a0e = +0
-
 +1 x72a0e +1 x72a10 +1 x72a46 -1 x72d6e = +0
-
 +1 x729f1 +1 x729fd +1 x72a08 -1 x72a17 = +0
-
 +1 x72a17 +1 x72a19 -1 x72a1a +1 x72a4f -1 x72d77 = +0
-
 +1 x72a1a -1 x72a1b -1 x72a1c = +0
-
 +1 x72a1b -1 x72a28 -1 x72a29 = +0
-
 +1 x72a28 -1 x72a34 -1 x72a35 = +0
-
 +1 x72a34 -1 x72a38 -1 x72a39 = +0
-
 +1 x72a38 -1 x72a3c -1 x72a3d = +0
-
 +1 x72a3c -1 x72a40 -1 x72a41 = +0
-
 +1 x72a39 +1 x72a3d +1 x72a41 -1 x72a46 = +0
-
 +1 x72a29 +1 x72a35 +1 x72a40 -1 x72a4f = +0
-
 +1 x72a53 +1 x72a5d -1 x72a5e -1 x72dbb = +0
-
 +1 x72a5e -1 x72a5f -1 x72a60 = +0
-
 +1 x72a5f -1 x72a71 -1 x72a72 = +0
-
 +1 x72a71 -1 x72a7d -1 x72a7e = +0
-
 +1 x72a72 +1 x72a7e -1 x72a89 = +0
-
 +1 x72a8d -1 x72a9c -1 x72a9d = +0
-
 +1 x72a9d -1 x72aa1 -1 x72aa2 = +0
-
 +1 x72a9c -1 x72aa3 -1 x72aa4 = +0
-
 +1 x72aa2 +1 x72aa4 -1 x72aaa -1 x72aab = +0
-
 +1 x72aa1 +1 x72aa3 -1 x72aa9 = +0
-
 +1 x72aa9 -1 x72aac -1 x72aad = +0
-
 +1 x72aab +1 x72aad -1 x72ab8 = +0
-
 +1 x72aaa +1 x72aac -1 x72abc = +0
-
 +1 x72ab8 +1 x72abc -1 x72ac1 = +0
-
 +1 x72ac1 -1 x72ac4 -1 x72ac5 = +0
-
 +1 x72ac4 +1 x72ac5 -1 x72ad5 = +0
-
 +1 x72ad5 -1 x72ae3 -1 x72ae4 = +0
-
 +1 x72ae3 -1 x72aef -1 x72af0 = +0
-
 +1 x72ae4 +1 x72aef +1 x72af0 -1 x72afe = +0
-
 +1 x72afe +1 x72b00 -1 x72b01 -1 x72e5e = +0
-
 +1 x72b01 -1 x72b02 -1 x72b03 = +0
-
 +1 x72b03 +1 x72b2b +1 x72b52 -1 x72b53 +0 x72b54 -1 x72eaf = +0
-
 +1 x72b02 -1 x72b0e -1 x72b0f = +0
-
 +1 x72b0e -1 x72b1a -1 x72b1b = +0
-
 +1 x72b0f +1 x72b1b -1 x72b26 = +0
-
 +1 x72b26 +1 x72b28 -1 x72b29 +1 x72b4f -1 x72e85 = +0
-
 +1 x72b29 -1 x72b2a -1 x72b2b = +0
-
 +1 x72b2a -1 x72b37 -1 x72b38 = +0
-
 +1 x72b37 -1 x72b43 -1 x72b44 = +0
-
 +1 x72b38 +1 x72b44 -1 x72b4f = +0
-
 +1 x72b53 +1 x72b5d -1 x72b5e -1 x72eba = +0
-
 +1 x72b5e -1 x72b5f -1 x72b60 = +0
-
 +1 x72b60 +1 x72c08 +1 x72c34 -1 x72c35 +0 x72c36 -1 x72f91 = +0
-
 +1 x72b5f -1 x72b70 -1 x72b71 = +0
-
 +1 x72b70 -1 x72b7c -1 x72b7d = +0
-
 +1 x72b7c +1 x72b85 +1 x72c25 -1 x72ee2 = +0
-
 +1 x72b71 +1 x72b7d -1 x72b88 = +0
-
 +1 x72b88 +1 x72b8a -1 x72b8b +1 x72c31 -1 x72ee7 = +0
-
 +1 x72b8b -1 x72b8c -1 x72b8d = +0
-
 +1 x72b8d +1 x72bc4 +1 x72bfa -1 x72bfb +0 x72bfc -1 x72f57 = +0
-
 +1 x72b8c -1 x72b98 -1 x72b99 = +0
-
 +1 x72b98 -1 x72ba4 -1 x72ba5 = +0
-
 +1 x72ba4 -1 x72ba8 -1 x72ba9 = +0
-
 +1 x72ba8 -1 x72bac -1 x72bad = +0
-
 +1 x72bac -1 x72bb0 -1 x72bb1 = +0
-
 +1 x72ba9 +1 x72bad +1 x72bb1 -1 x72bb6 = +0
-
 +1 x72bb6 +1 x72bb8 +1 x72bee -1 x72f15 = +0
-
 +1 x72b99 +1 x72ba5 +1 x72bb0 -1 x72bbf = +0
-
 +1 x72bbf +1 x72bc1 -1 x72bc2 +1 x72bf7 -1 x72f1e = +0
-
 +1 x72bc2 -1 x72bc3 -1 x72bc4 = +0
-
 +1 x72bc3 -1 x72bd0 -1 x72bd1 = +0
-
 +1 x72bd0 -1 x72bdc -1 x72bdd = +0
-
 +1 x72bdc -1 x72be0 -1 x72be1 = +0
-
 +1 x72be0 -1 x72be4 -1 x72be5 = +0
-
 +1 x72be4 -1 x72be8 -1 x72be9 = +0
-
 +1 x72be1 +1 x72be5 +1 x72be9 -1 x72bee = +0
-
 +1 x72bd1 +1 x72bdd +1 x72be8 -1 x72bf7 = +0
-
 +1 x72bfb +1 x72c05 -1 x72c06 -1 x72f62 = +0
-
 +1 x72c06 -1 x72c07 -1 x72c08 = +0
-
 +1 x72c07 -1 x72c19 -1 x72c1a = +0
-
 +1 x72c19 -1 x72c25 -1 x72c26 = +0
-
 +1 x72c1a +1 x72c26 -1 x72c31 = +0
-
 +1 x72c35 -1 x72c44 -1 x72c45 = +0
-
 +1 x72c45 -1 x72c49 -1 x72c4a = +0
-
 +1 x72c44 -1 x72c4b -1 x72c4c = +0
-
 +1 x72c4a -1 x72c53 -1 x72c54 = +0
-
 +1 x72c4c -1 x72c55 -1 x72c56 = +0
-
 +1 x72c4b -1 x72c57 -1 x72c58 = +0
-
 +1 x72c49 -1 x72c59 -1 x72c5a = +0
-
 +1 x72c53 +1 x72c55 -1 x72c5e = +0
-
 +1 x72c54 +1 x72c56 -1 x72c5b = +0
-
 +1 x72c58 +1 x72c5a -1 x72c65 = +0
-
 +1 x72c5b +1 x72c65 -1 x72c69 = +0
-
 +1 x72c57 +1 x72c59 -1 x72c6b = +0
-
 +1 x72c5e +1 x72c6b -1 x72c6d = +0
-
 +1 x72c69 -1 x72c70 -1 x72c71 = +0
-
 +1 x72c6d -1 x72c72 -1 x72c73 = +0
-
 +1 x72c70 +1 x72c72 +1 x72c74 +1 x72fd1 -1 x72fd7 = +0
-
 +1 x72c71 +1 x72c73 -1 x72c75 = +0
-
 +1 x72c75 +1 x72c79 -1 x72c7a +1 x72fd2 -1 x77871 = +0
-
 +1 x72c7a -1 x72c7b -1 x72c7c = +0
-
 +1 x72c7c +1 x72c7e -1 x72fd8 +0 x72fd9 -1 x778b1 = +0
-
 +1 x72c7b -1 x72c9a -1 x72c9b = +0
-
 +1 x72c9a -1 x72ca6 -1 x72ca7 = +0
-
 +1 x72c9b +1 x72ca6 +1 x72ca7 -1 x72cb5 = +0
-
 +1 x72cb5 +1 x72cb7 -1 x72cb8 -1 x77557 = +0
-
 +1 x72cb8 -1 x72cb9 -1 x72cba = +0
-
 +1 x72cb9 -1 x72cc5 -1 x72cc6 = +0
-
 +1 x72cc5 -1 x72cd1 -1 x72cd2 = +0
-
 +1 x72cc6 +1 x72cd2 -1 x72cdc = +0
-
 +1 x72cdc +1 x72cde -1 x72cdf +1 x72d05 -1 x7757e = +0
-
 +1 x72cdf -1 x72ce0 -1 x72ce1 = +0
-
 +1 x72cba +1 x72ce1 +1 x72d08 -1 x72d09 +0 x72d0a -1 x775a8 = +0
-
 +1 x72ce0 -1 x72ced -1 x72cee = +0
-
 +1 x72ced -1 x72cf9 -1 x72cfa = +0
-
 +1 x72cd1 +1 x72cf9 -1 x76fc4 = +0
-
 +1 x72cee +1 x72cfa -1 x72d05 = +0
-
 +1 x72d09 +1 x72d13 -1 x72d14 -1 x775b3 = +0
-
 +1 x72d14 -1 x72d15 -1 x72d16 = +0
-
 +1 x72d16 +1 x72dbe +1 x72dea -1 x72deb +0 x72dec -1 x77688 = +0
-
 +1 x72d15 -1 x72d26 -1 x72d27 = +0
-
 +1 x72d26 -1 x72d32 -1 x72d33 = +0
-
 +1 x72d32 +1 x72d3b +1 x72ddb -1 x762cd = +0
-
 +1 x72d27 +1 x72d33 -1 x72d3e = +0
-
 +1 x72d3e +1 x72d40 -1 x72d41 +1 x72de7 -1 x775df = +0
-
 +1 x72d41 -1 x72d42 -1 x72d43 = +0
-
 +1 x72d43 +1 x72d7a +1 x72db0 -1 x72db1 +0 x72db2 +1 x76136 +1 x76e90 -1 x7764e
 = +0
-
 +1 x72d42 -1 x72d4e -1 x72d4f = +0
-
 +1 x72d4e -1 x72d5a -1 x72d5b = +0
-
 +1 x72d5a -1 x72d5e -1 x72d5f = +0
-
 +1 x72d5e -1 x72d62 -1 x72d63 = +0
-
 +1 x72d62 -1 x72d66 -1 x72d67 = +0
-
 +1 x72d5f +1 x72d63 +1 x72d67 -1 x72d6c = +0
-
 +1 x72d6c +1 x72d6e +1 x72da4 -1 x755b7 = +0
-
 +1 x72d4f +1 x72d5b +1 x72d66 -1 x72d75 = +0
-
 +1 x72d75 +1 x72d77 -1 x72d78 +1 x72dad +1 x75bc7 +1 x76167 +1 x76851 +1 x76ec1
 -1 x77615 = +0
-
 +1 x72d78 -1 x72d79 -1 x72d7a = +0
-
 +1 x72d79 -1 x72d86 -1 x72d87 = +0
-
 +1 x72d86 -1 x72d92 -1 x72d93 = +0
-
 +1 x72d92 -1 x72d96 -1 x72d97 = +0
-
 +1 x72d96 -1 x72d9a -1 x72d9b = +0
-
 +1 x72d9a -1 x72d9e -1 x72d9f = +0
-
 +1 x72d97 +1 x72d9b +1 x72d9f -1 x72da4 = +0
-
 +1 x72d87 +1 x72d93 +1 x72d9e -1 x72dad = +0
-
 +1 x72db1 +1 x72dbb -1 x72dbc +1 x75bca -1 x77659 = +0
-
 +1 x72dbc -1 x72dbd -1 x72dbe = +0
-
 +1 x72dbd -1 x72dcf -1 x72dd0 = +0
-
 +1 x72dcf -1 x72ddb -1 x72ddc = +0
-
 +1 x72dd0 +1 x72ddc -1 x72de7 = +0
-
 +1 x72deb -1 x72dfa -1 x72dfb = +0
-
 +1 x72dfb -1 x72dff -1 x72e00 = +0
-
 +1 x72dfa -1 x72e01 -1 x72e02 = +0
-
 +1 x72e00 +1 x72e02 -1 x72e08 -1 x72e09 = +0
-
 +1 x72dff +1 x72e01 -1 x72e07 = +0
-
 +1 x72e07 -1 x72e0a -1 x72e0b = +0
-
 +1 x72e09 +1 x72e0b -1 x72e16 = +0
-
 +1 x72e08 +1 x72e0a -1 x72e1a = +0
-
 +1 x72e16 +1 x72e1a -1 x72e1f = +0
-
 +1 x72e1f -1 x72e22 -1 x72e23 = +0
-
 +1 x72e22 +1 x72e23 -1 x72e33 = +0
-
 +1 x72e33 -1 x72e41 -1 x72e42 = +0
-
 +1 x72e41 -1 x72e4d -1 x72e4e = +0
-
 +1 x72e42 +1 x72e4d +1 x72e4e -1 x72e5c = +0
-
 +1 x72e5c +1 x72e5e -1 x72e5f -1 x776fc = +0
-
 +1 x72e5f -1 x72e60 -1 x72e61 = +0
-
 +1 x72e61 +1 x72e88 +1 x72eaf -1 x72eb0 +0 x72eb1 +1 x753bb -1 x7774d = +0
-
 +1 x72e60 -1 x72e6c -1 x72e6d = +0
-
 +1 x72e6c -1 x72e78 -1 x72e79 = +0
-
 +1 x72e78 +1 x72ea0 -1 x749fb = +0
-
 +1 x72e6d +1 x72e79 -1 x72e83 = +0
-
 +1 x72e83 +1 x72e85 -1 x72e86 +1 x72eac +1 x74f33 +1 x753dd -1 x77723 = +0
-
 +1 x72e86 -1 x72e87 -1 x72e88 = +0
-
 +1 x72e87 -1 x72e94 -1 x72e95 = +0
-
 +1 x72e94 -1 x72ea0 -1 x72ea1 = +0
-
 +1 x72e95 +1 x72ea1 -1 x72eac = +0
-
 +1 x72eb0 +1 x72eba -1 x72ebb +1 x74f36 -1 x77758 = +0
-
 +1 x72ebb -1 x72ebc -1 x72ebd = +0
-
 +1 x72ebd +1 x72f65 +1 x72f91 -1 x72f92 +0 x72f93 -1 x7782d = +0
-
 +1 x72ebc -1 x72ecd -1 x72ece = +0
-
 +1 x72ecd -1 x72ed9 -1 x72eda = +0
-
 +1 x72ed9 +1 x72ee2 +1 x72f82 -1 x73d04 = +0
-
 +1 x72ece +1 x72eda -1 x72ee5 = +0
-
 +1 x72ee5 +1 x72ee7 -1 x72ee8 +1 x72f8e -1 x77784 = +0
-
 +1 x72ee8 -1 x72ee9 -1 x72eea = +0
-
 +1 x72eea +1 x72f21 +1 x72f57 -1 x72f58 +0 x72f59 +1 x73b6d +1 x748c7 -1 x777f3
 = +0
-
 +1 x72ee9 -1 x72ef5 -1 x72ef6 = +0
-
 +1 x72ef5 -1 x72f01 -1 x72f02 = +0
-
 +1 x72f01 -1 x72f05 -1 x72f06 = +0
-
 +1 x72f05 -1 x72f09 -1 x72f0a = +0
-
 +1 x72f09 -1 x72f0d -1 x72f0e = +0
-
 +1 x72f06 +1 x72f0a +1 x72f0e -1 x72f13 = +0
-
 +1 x72f13 +1 x72f15 +1 x72f4b -1 x72fee = +0
-
 +1 x72ef6 +1 x72f02 +1 x72f0d -1 x72f1c = +0
-
 +1 x72f1c +1 x72f1e -1 x72f1f +1 x72f54 +1 x735fe +1 x73b9e +1 x74288 +1 x748f8
 -1 x777ba = +0
-
 +1 x72f1f -1 x72f20 -1 x72f21 = +0
-
 +1 x72f20 -1 x72f2d -1 x72f2e = +0
-
 +1 x72f2d -1 x72f39 -1 x72f3a = +0
-
 +1 x72f39 -1 x72f3d -1 x72f3e = +0
-
 +1 x72f3d -1 x72f41 -1 x72f42 = +0
-
 +1 x72f41 -1 x72f45 -1 x72f46 = +0
-
 +1 x72f3e +1 x72f42 +1 x72f46 -1 x72f4b = +0
-
 +1 x72f2e +1 x72f3a +1 x72f45 -1 x72f54 = +0
-
 +1 x72f58 +1 x72f62 -1 x72f63 +1 x73601 -1 x777fe = +0
-
 +1 x72f63 -1 x72f64 -1 x72f65 = +0
-
 +1 x72f64 -1 x72f76 -1 x72f77 = +0
-
 +1 x72f76 -1 x72f82 -1 x72f83 = +0
-
 +1 x72f77 +1 x72f83 -1 x72f8e = +0
-
 +1 x72f92 -1 x72fa1 -1 x72fa2 = +0
-
 +1 x72fa2 -1 x72fa6 -1 x72fa7 = +0
-
 +1 x72fa1 -1 x72fa8 -1 x72fa9 = +0
-
 +1 x72fa7 -1 x72fb0 -1 x72fb1 = +0
-
 +1 x72fa9 -1 x72fb2 -1 x72fb3 = +0
-
 +1 x72fa8 -1 x72fb4 -1 x72fb5 = +0
-
 +1 x72fa6 -1 x72fb6 -1 x72fb7 = +0
-
 +1 x72fb0 +1 x72fb2 -1 x72fbb = +0
-
 +1 x72fb1 +1 x72fb3 -1 x72fb8 = +0
-
 +1 x72fb5 +1 x72fb7 -1 x72fc2 = +0
-
 +1 x72fb8 +1 x72fc2 -1 x72fc6 = +0
-
 +1 x72fb4 +1 x72fb6 -1 x72fc8 = +0
-
 +1 x72fbb +1 x72fc8 -1 x72fca = +0
-
 +1 x72fc6 -1 x72fcd -1 x72fce = +0
-
 +1 x72fca -1 x72fcf -1 x72fd0 = +0
-
 +1 x72fcd +1 x72fcf -1 x72fd1 = +0
-
 +1 x72fce +1 x72fd0 -1 x72fd2 = +0
-
 +1 x72fd7 -1 x72fda +0 x72fdb -1 x778b2 = +0
-
 +1 x72fe3 -1 x72fef -1 x72ff0 = +0
-
 +1 x72fe2 -1 x72ff1 -1 x72ff2 = +0
-
 +1 x72fe1 -1 x72ff3 -1 x72ff4 = +0
-
 +1 x72fe0 -1 x72ff5 -1 x72ff6 = +0
-
 +1 x72fe7 -1 x72ff7 -1 x72ff8 = +0
-
 +1 x72fe6 -1 x72ff9 -1 x72ffa = +0
-
 +1 x72fe5 -1 x72ffb -1 x72ffc = +0
-
 +1 x72fe4 -1 x72ffd -1 x72ffe = +0
-
 +1 x72feb -1 x72fff -1 x73000 = +0
-
 +1 x72fea -1 x73001 -1 x73002 = +0
-
 +1 x72fe9 -1 x73003 -1 x73004 = +0
-
 +1 x72fe8 -1 x73005 -1 x73006 = +0
-
 +1 x72fec -1 x73007 -1 x73008 = +0
-
 +1 x72fed -1 x73009 -1 x7300a = +0
-
 +1 x72fee -1 x7300b -1 x7300c = +0
-
 +1 x73007 +1 x73009 +1 x7300b +1 x73639 +1 x73bcf -1 x73bf2 = +0
-
 +1 x72fef +1 x72ff1 +1 x72ff3 +1 x72ff5 +1 x72ff7 +1 x72ff9 +1 x72ffb +1 x72ffd
 +1 x72fff +1 x73001 +1 x73003 +1 x73005 -1 x73bf3 = +0
-
 +1 x73008 +1 x7300a +1 x7300c -1 x7300d = +0
-
 +1 x72ff0 +1 x72ff2 +1 x72ff4 +1 x72ff6 +1 x72ff8 +1 x72ffa +1 x72ffc +1 x72ffe
 +1 x73000 +1 x73002 +1 x73004 +1 x73006 -1 x7300e = +0
-
 +1 x7300d +1 x7300e -1 x7300f = +0
-
 +1 x7300f -1 x73010 -1 x73011 -1 x73012 -1 x73013 -1 x73014 -1 x73015 -1 x73016
 -1 x73017 -1 x73018 -1 x73019 -1 x7301a -1 x7301b -1 x7301c -1 x7301d -1 x7301e
 -1 x7301f = +0
-
 +1 x73010 -1 x7302f +1 x773dd +1 x77440 +1 x778c2 +1 x78160 = +0
-
 +1 x73011 -1 x7303e +1 x773de +1 x77441 +1 x778c3 +1 x78161 = +0
-
 +1 x73012 -1 x7304d +1 x773df +1 x77442 +1 x778c4 +1 x78162 = +0
-
 +1 x73013 -1 x7305c +1 x773e0 +1 x77443 +1 x778c5 +1 x78163 = +0
-
 +1 x73014 -1 x7306b +1 x773e1 +1 x77444 +1 x778c6 +1 x78164 = +0
-
 +1 x73015 -1 x7307a +1 x773e2 +1 x77445 +1 x778c7 +1 x78165 = +0
-
 +1 x73016 -1 x73089 +1 x773e3 +1 x77446 +1 x778c8 +1 x78166 = +0
-
 +1 x73017 -1 x73098 +1 x773e4 +1 x77447 +1 x778c9 +1 x78167 = +0
-
 +1 x73018 -1 x730a7 +1 x773e5 +1 x77448 +1 x778ca +1 x78168 = +0
-
 +1 x73019 -1 x730b6 +1 x773e6 +1 x77449 +1 x778cb +1 x78169 = +0
-
 +1 x7301a -1 x730c5 +1 x773e7 +1 x7744a +1 x778cc +1 x7816a = +0
-
 +1 x7301b -1 x730d4 +1 x773e8 +1 x7744b +1 x778cd +1 x7816b = +0
-
 +1 x7301c -1 x730e3 +1 x773e9 +1 x7744c +1 x778ce +1 x7816c = +0
-
 +1 x7301d -1 x730f2 +1 x773ea +1 x7744d +1 x778cf +1 x7816d = +0
-
 +1 x7301e -1 x73101 +1 x773eb +1 x7744e +1 x778d0 +1 x7816e = +0
-
 +1 x7301f -1 x73110 +1 x773ec +1 x7744f +1 x778d1 +1 x7816f = +0
-
 +1 x7302f -1 x73134 -1 x73135 = +0
-
 +1 x73135 -1 x73169 +0 x7316a +1 x73e4b = +0
-
 +1 x73134 -1 x73140 -1 x73141 = +0
-
 +1 x73140 -1 x7314c -1 x7314d = +0
-
 +1 x7314c -1 x73150 -1 x73151 = +0
-
 +1 x73150 -1 x73154 -1 x73155 = +0
-
 +1 x73154 -1 x73158 -1 x73159 = +0
-
 +1 x73151 +1 x73155 +1 x73159 -1 x7315e = +0
-
 +1 x73141 +1 x7314d +1 x73158 -1 x73166 = +0
-
 +1 x7303e -1 x73188 -1 x73189 = +0
-
 +1 x73189 -1 x731bd +0 x731be +1 x73e95 = +0
-
 +1 x73188 -1 x73194 -1 x73195 = +0
-
 +1 x73194 -1 x731a0 -1 x731a1 = +0
-
 +1 x731a0 -1 x731a4 -1 x731a5 = +0
-
 +1 x731a4 -1 x731a8 -1 x731a9 = +0
-
 +1 x731a8 -1 x731ac -1 x731ad = +0
-
 +1 x731a5 +1 x731a9 +1 x731ad -1 x731b2 = +0
-
 +1 x73195 +1 x731a1 +1 x731ac -1 x731ba = +0
-
 +1 x7304d -1 x731dc -1 x731dd = +0
-
 +1 x731dd -1 x73211 +0 x73212 +1 x73edf = +0
-
 +1 x731dc -1 x731e8 -1 x731e9 = +0
-
 +1 x731e8 -1 x731f4 -1 x731f5 = +0
-
 +1 x731f4 -1 x731f8 -1 x731f9 = +0
-
 +1 x731f8 -1 x731fc -1 x731fd = +0
-
 +1 x731fc -1 x73200 -1 x73201 = +0
-
 +1 x731f9 +1 x731fd +1 x73201 -1 x73206 = +0
-
 +1 x731e9 +1 x731f5 +1 x73200 -1 x7320e = +0
-
 +1 x7305c -1 x73230 -1 x73231 = +0
-
 +1 x73231 -1 x73265 +0 x73266 +1 x73f29 = +0
-
 +1 x73230 -1 x7323c -1 x7323d = +0
-
 +1 x7323c -1 x73248 -1 x73249 = +0
-
 +1 x73248 -1 x7324c -1 x7324d = +0
-
 +1 x7324c -1 x73250 -1 x73251 = +0
-
 +1 x73250 -1 x73254 -1 x73255 = +0
-
 +1 x7324d +1 x73251 +1 x73255 -1 x7325a = +0
-
 +1 x7323d +1 x73249 +1 x73254 -1 x73262 = +0
-
 +1 x7306b -1 x73284 -1 x73285 = +0
-
 +1 x73285 -1 x732b9 +0 x732ba +1 x73f73 = +0
-
 +1 x73284 -1 x73290 -1 x73291 = +0
-
 +1 x73290 -1 x7329c -1 x7329d = +0
-
 +1 x7329c -1 x732a0 -1 x732a1 = +0
-
 +1 x732a0 -1 x732a4 -1 x732a5 = +0
-
 +1 x732a4 -1 x732a8 -1 x732a9 = +0
-
 +1 x732a1 +1 x732a5 +1 x732a9 -1 x732ae = +0
-
 +1 x73291 +1 x7329d +1 x732a8 -1 x732b6 = +0
-
 +1 x7307a -1 x732d8 -1 x732d9 = +0
-
 +1 x732d9 -1 x7330d +0 x7330e +1 x73fbd = +0
-
 +1 x732d8 -1 x732e4 -1 x732e5 = +0
-
 +1 x732e4 -1 x732f0 -1 x732f1 = +0
-
 +1 x732f0 -1 x732f4 -1 x732f5 = +0
-
 +1 x732f4 -1 x732f8 -1 x732f9 = +0
-
 +1 x732f8 -1 x732fc -1 x732fd = +0
-
 +1 x732f5 +1 x732f9 +1 x732fd -1 x73302 = +0
-
 +1 x732e5 +1 x732f1 +1 x732fc -1 x7330a = +0
-
 +1 x73089 -1 x7332c -1 x7332d = +0
-
 +1 x7332d -1 x73361 +0 x73362 +1 x74007 = +0
-
 +1 x7332c -1 x73338 -1 x73339 = +0
-
 +1 x73338 -1 x73344 -1 x73345 = +0
-
 +1 x73344 -1 x73348 -1 x73349 = +0
-
 +1 x73348 -1 x7334c -1 x7334d = +0
-
 +1 x7334c -1 x73350 -1 x73351 = +0
-
 +1 x73349 +1 x7334d +1 x73351 -1 x73356 = +0
-
 +1 x73339 +1 x73345 +1 x73350 -1 x7335e = +0
-
 +1 x73098 -1 x73380 -1 x73381 = +0
-
 +1 x73381 -1 x733b5 +0 x733b6 +1 x74051 = +0
-
 +1 x73380 -1 x7338c -1 x7338d = +0
-
 +1 x7338c -1 x73398 -1 x73399 = +0
-
 +1 x73398 -1 x7339c -1 x7339d = +0
-
 +1 x7339c -1 x733a0 -1 x733a1 = +0
-
 +1 x733a0 -1 x733a4 -1 x733a5 = +0
-
 +1 x7339d +1 x733a1 +1 x733a5 -1 x733aa = +0
-
 +1 x7338d +1 x73399 +1 x733a4 -1 x733b2 = +0
-
 +1 x730a7 -1 x733d4 -1 x733d5 = +0
-
 +1 x733d5 -1 x73409 +0 x7340a +1 x7409b = +0
-
 +1 x733d4 -1 x733e0 -1 x733e1 = +0
-
 +1 x733e0 -1 x733ec -1 x733ed = +0
-
 +1 x733ec -1 x733f0 -1 x733f1 = +0
-
 +1 x733f0 -1 x733f4 -1 x733f5 = +0
-
 +1 x733f4 -1 x733f8 -1 x733f9 = +0
-
 +1 x733f1 +1 x733f5 +1 x733f9 -1 x733fe = +0
-
 +1 x733e1 +1 x733ed +1 x733f8 -1 x73406 = +0
-
 +1 x730b6 -1 x73428 -1 x73429 = +0
-
 +1 x73429 -1 x7345d +0 x7345e +1 x740e5 = +0
-
 +1 x73428 -1 x73434 -1 x73435 = +0
-
 +1 x73434 -1 x73440 -1 x73441 = +0
-
 +1 x73440 -1 x73444 -1 x73445 = +0
-
 +1 x73444 -1 x73448 -1 x73449 = +0
-
 +1 x73448 -1 x7344c -1 x7344d = +0
-
 +1 x73445 +1 x73449 +1 x7344d -1 x73452 = +0
-
 +1 x73435 +1 x73441 +1 x7344c -1 x7345a = +0
-
 +1 x730c5 -1 x7347c -1 x7347d = +0
-
 +1 x7347d -1 x734b1 +0 x734b2 +1 x7412f = +0
-
 +1 x7347c -1 x73488 -1 x73489 = +0
-
 +1 x73488 -1 x73494 -1 x73495 = +0
-
 +1 x73494 -1 x73498 -1 x73499 = +0
-
 +1 x73498 -1 x7349c -1 x7349d = +0
-
 +1 x7349c -1 x734a0 -1 x734a1 = +0
-
 +1 x73499 +1 x7349d +1 x734a1 -1 x734a6 = +0
-
 +1 x73489 +1 x73495 +1 x734a0 -1 x734ae = +0
-
 +1 x730d4 -1 x734d0 -1 x734d1 = +0
-
 +1 x734d1 -1 x73505 +0 x73506 +1 x74179 = +0
-
 +1 x734d0 -1 x734dc -1 x734dd = +0
-
 +1 x734dc -1 x734e8 -1 x734e9 = +0
-
 +1 x734e8 -1 x734ec -1 x734ed = +0
-
 +1 x734ec -1 x734f0 -1 x734f1 = +0
-
 +1 x734f0 -1 x734f4 -1 x734f5 = +0
-
 +1 x734ed +1 x734f1 +1 x734f5 -1 x734fa = +0
-
 +1 x734dd +1 x734e9 +1 x734f4 -1 x73502 = +0
-
 +1 x730e3 -1 x73524 -1 x73525 = +0
-
 +1 x73525 -1 x73559 +0 x7355a +1 x741c3 = +0
-
 +1 x73524 -1 x73530 -1 x73531 = +0
-
 +1 x73530 -1 x7353c -1 x7353d = +0
-
 +1 x7353c -1 x73540 -1 x73541 = +0
-
 +1 x73540 -1 x73544 -1 x73545 = +0
-
 +1 x73544 -1 x73548 -1 x73549 = +0
-
 +1 x73541 +1 x73545 +1 x73549 -1 x7354e = +0
-
 +1 x73531 +1 x7353d +1 x73548 -1 x73556 = +0
-
 +1 x730f2 -1 x73578 -1 x73579 = +0
-
 +1 x73579 -1 x735ad +0 x735ae +1 x7420d = +0
-
 +1 x73578 -1 x73584 -1 x73585 = +0
-
 +1 x73584 -1 x73590 -1 x73591 = +0
-
 +1 x73590 -1 x73594 -1 x73595 = +0
-
 +1 x73594 -1 x73598 -1 x73599 = +0
-
 +1 x73598 -1 x7359c -1 x7359d = +0
-
 +1 x73595 +1 x73599 +1 x7359d -1 x735a2 = +0
-
 +1 x73585 +1 x73591 +1 x7359c -1 x735aa = +0
-
 +1 x73101 -1 x735cc -1 x735cd = +0
-
 +1 x735cd -1 x73601 +0 x73602 +1 x74257 = +0
-
 +1 x735cc -1 x735d8 -1 x735d9 = +0
-
 +1 x735d8 -1 x735e4 -1 x735e5 = +0
-
 +1 x735e4 -1 x735e8 -1 x735e9 = +0
-
 +1 x735e8 -1 x735ec -1 x735ed = +0
-
 +1 x735ec -1 x735f0 -1 x735f1 = +0
-
 +1 x735e9 +1 x735ed +1 x735f1 -1 x735f6 = +0
-
 +1 x735d9 +1 x735e5 +1 x735f0 -1 x735fe = +0
-
 +1 x7315e -1 x7361b -1 x7361c = +0
-
 +1 x731b2 -1 x7361d -1 x7361e = +0
-
 +1 x73206 -1 x7361f -1 x73620 = +0
-
 +1 x7325a -1 x73621 -1 x73622 = +0
-
 +1 x732ae -1 x73623 -1 x73624 = +0
-
 +1 x73302 -1 x73625 -1 x73626 = +0
-
 +1 x73356 -1 x73627 -1 x73628 = +0
-
 +1 x733aa -1 x73629 -1 x7362a = +0
-
 +1 x733fe -1 x7362b -1 x7362c = +0
-
 +1 x73452 -1 x7362d -1 x7362e = +0
-
 +1 x734a6 -1 x7362f -1 x73630 = +0
-
 +1 x734fa -1 x73631 -1 x73632 = +0
-
 +1 x7354e -1 x73633 -1 x73634 = +0
-
 +1 x735a2 -1 x73635 -1 x73636 = +0
-
 +1 x735f6 -1 x73637 -1 x73638 = +0
-
 +1 x7361b +1 x7361d +1 x7361f +1 x73621 +1 x73623 +1 x73625 +1 x73627 +1 x73629
 +1 x7362b +1 x7362d +1 x7362f +1 x73631 +1 x73633 +1 x73635 +1 x73637 -1 x73639
 = +0
-
 +1 x7361c +1 x7361e +1 x73620 +1 x73622 +1 x73624 +1 x73626 +1 x73628 +1 x7362a
 +1 x7362c +1 x7362e +1 x73630 +1 x73632 +1 x73634 +1 x73636 +1 x73638 -1 x7363a
 = +0
-
 +1 x7363a -1 x7363c -1 x7363d -1 x7363e -1 x7363f -1 x73640 -1 x73641 -1 x73642
 -1 x73643 -1 x73644 -1 x73645 -1 x73646 -1 x73647 -1 x73648 -1 x73649 -1 x7364a
 -1 x7364b = +0
-
 +1 x7363c -1 x7365b +1 x73bd2 +1 x73c5c +1 x73cbe +1 x742bb +1 x7432f +1 x7492b
 +1 x749a9 = +0
-
 +1 x7363d -1 x7366a +1 x73bd3 +1 x73c5d +1 x73cbf +1 x742bc +1 x74330 +1 x7492c
 +1 x749aa = +0
-
 +1 x7363e -1 x73679 +1 x73bd4 +1 x73c5e +1 x73cc0 +1 x742bd +1 x74331 +1 x7492d
 +1 x749ab = +0
-
 +1 x7363f -1 x73688 +1 x73bd5 +1 x73c5f +1 x73cc1 +1 x742be +1 x74332 +1 x7492e
 +1 x749ac = +0
-
 +1 x73640 -1 x73697 +1 x73bd6 +1 x73c60 +1 x73cc2 +1 x742bf +1 x74333 +1 x7492f
 +1 x749ad = +0
-
 +1 x73641 -1 x736a6 +1 x73bd7 +1 x73c61 +1 x73cc3 +1 x742c0 +1 x74334 +1 x74930
 +1 x749ae = +0
-
 +1 x73642 -1 x736b5 +1 x73bd8 +1 x73c62 +1 x73cc4 +1 x742c1 +1 x74335 +1 x74931
 +1 x749af = +0
-
 +1 x73643 -1 x736c4 +1 x73bd9 +1 x73c63 +1 x73cc5 +1 x742c2 +1 x74336 +1 x74932
 +1 x749b0 = +0
-
 +1 x73644 -1 x736d3 +1 x73bda +1 x73c64 +1 x73cc6 +1 x742c3 +1 x74337 +1 x74933
 +1 x749b1 = +0
-
 +1 x73645 -1 x736e2 +1 x73bdb +1 x73c65 +1 x73cc7 +1 x742c4 +1 x74338 +1 x74934
 +1 x749b2 = +0
-
 +1 x73646 -1 x736f1 +1 x73bdc +1 x73c66 +1 x73cc8 +1 x742c5 +1 x74339 +1 x74935
 +1 x749b3 = +0
-
 +1 x73647 -1 x73700 +1 x73bdd +1 x73c67 +1 x73cc9 +1 x742c6 +1 x7433a +1 x74936
 +1 x749b4 = +0
-
 +1 x73648 -1 x7370f +1 x73bde +1 x73c68 +1 x73cca +1 x742c7 +1 x7433b +1 x74937
 +1 x749b5 = +0
-
 +1 x73649 -1 x7371e +1 x73bdf +1 x73c69 +1 x73ccb +1 x742c8 +1 x7433c +1 x74938
 +1 x749b6 = +0
-
 +1 x7364a -1 x7372d +1 x73be0 +1 x73c6a +1 x73ccc +1 x742c9 +1 x7433d +1 x74939
 +1 x749b7 = +0
-
 +1 x7364b -1 x7373c +1 x73be1 +1 x73c6b +1 x73ccd +1 x742ca +1 x7433e +1 x7493a
 +1 x749b8 = +0
-
 +1 x7365b -1 x73760 -1 x73761 = +0
-
 +1 x73760 -1 x7376c -1 x7376d = +0
-
 +1 x7376c -1 x73778 -1 x73779 = +0
-
 +1 x73778 -1 x7377c -1 x7377d = +0
-
 +1 x7377c -1 x73780 -1 x73781 = +0
-
 +1 x73780 -1 x73784 -1 x73785 = +0
-
 +1 x7377d +1 x73781 +1 x73785 -1 x7378a = +0
-
 +1 x7376d +1 x73779 +1 x73784 -1 x73792 = +0
-
 +1 x7366a -1 x737aa -1 x737ab = +0
-
 +1 x737aa -1 x737b6 -1 x737b7 = +0
-
 +1 x737b6 -1 x737c2 -1 x737c3 = +0
-
 +1 x737c2 -1 x737c6 -1 x737c7 = +0
-
 +1 x737c6 -1 x737ca -1 x737cb = +0
-
 +1 x737ca -1 x737ce -1 x737cf = +0
-
 +1 x737c7 +1 x737cb +1 x737cf -1 x737d4 = +0
-
 +1 x737b7 +1 x737c3 +1 x737ce -1 x737dc = +0
-
 +1 x73679 -1 x737f4 -1 x737f5 = +0
-
 +1 x737f4 -1 x73800 -1 x73801 = +0
-
 +1 x73800 -1 x7380c -1 x7380d = +0
-
 +1 x7380c -1 x73810 -1 x73811 = +0
-
 +1 x73810 -1 x73814 -1 x73815 = +0
-
 +1 x73814 -1 x73818 -1 x73819 = +0
-
 +1 x73811 +1 x73815 +1 x73819 -1 x7381e = +0
-
 +1 x73801 +1 x7380d +1 x73818 -1 x73826 = +0
-
 +1 x73688 -1 x7383e -1 x7383f = +0
-
 +1 x7383e -1 x7384a -1 x7384b = +0
-
 +1 x7384a -1 x73856 -1 x73857 = +0
-
 +1 x73856 -1 x7385a -1 x7385b = +0
-
 +1 x7385a -1 x7385e -1 x7385f = +0
-
 +1 x7385e -1 x73862 -1 x73863 = +0
-
 +1 x7385b +1 x7385f +1 x73863 -1 x73868 = +0
-
 +1 x7384b +1 x73857 +1 x73862 -1 x73870 = +0
-
 +1 x73697 -1 x73888 -1 x73889 = +0
-
 +1 x73888 -1 x73894 -1 x73895 = +0
-
 +1 x73894 -1 x738a0 -1 x738a1 = +0
-
 +1 x738a0 -1 x738a4 -1 x738a5 = +0
-
 +1 x738a4 -1 x738a8 -1 x738a9 = +0
-
 +1 x738a8 -1 x738ac -1 x738ad = +0
-
 +1 x738a5 +1 x738a9 +1 x738ad -1 x738b2 = +0
-
 +1 x73895 +1 x738a1 +1 x738ac -1 x738ba = +0
-
 +1 x736a6 -1 x738d2 -1 x738d3 = +0
-
 +1 x738d2 -1 x738de -1 x738df = +0
-
 +1 x738de -1 x738ea -1 x738eb = +0
-
 +1 x738ea -1 x738ee -1 x738ef = +0
-
 +1 x738ee -1 x738f2 -1 x738f3 = +0
-
 +1 x738f2 -1 x738f6 -1 x738f7 = +0
-
 +1 x738ef +1 x738f3 +1 x738f7 -1 x738fc = +0
-
 +1 x738df +1 x738eb +1 x738f6 -1 x73904 = +0
-
 +1 x736b5 -1 x7391c -1 x7391d = +0
-
 +1 x7391c -1 x73928 -1 x73929 = +0
-
 +1 x73928 -1 x73934 -1 x73935 = +0
-
 +1 x73934 -1 x73938 -1 x73939 = +0
-
 +1 x73938 -1 x7393c -1 x7393d = +0
-
 +1 x7393c -1 x73940 -1 x73941 = +0
-
 +1 x73939 +1 x7393d +1 x73941 -1 x73946 = +0
-
 +1 x73929 +1 x73935 +1 x73940 -1 x7394e = +0
-
 +1 x736c4 -1 x73966 -1 x73967 = +0
-
 +1 x73966 -1 x73972 -1 x73973 = +0
-
 +1 x73972 -1 x7397e -1 x7397f = +0
-
 +1 x7397e -1 x73982 -1 x73983 = +0
-
 +1 x73982 -1 x73986 -1 x73987 = +0
-
 +1 x73986 -1 x7398a -1 x7398b = +0
-
 +1 x73983 +1 x73987 +1 x7398b -1 x73990 = +0
-
 +1 x73973 +1 x7397f +1 x7398a -1 x73998 = +0
-
 +1 x736d3 -1 x739b0 -1 x739b1 = +0
-
 +1 x739b0 -1 x739bc -1 x739bd = +0
-
 +1 x739bc -1 x739c8 -1 x739c9 = +0
-
 +1 x739c8 -1 x739cc -1 x739cd = +0
-
 +1 x739cc -1 x739d0 -1 x739d1 = +0
-
 +1 x739d0 -1 x739d4 -1 x739d5 = +0
-
 +1 x739cd +1 x739d1 +1 x739d5 -1 x739da = +0
-
 +1 x739bd +1 x739c9 +1 x739d4 -1 x739e2 = +0
-
 +1 x736e2 -1 x739fa -1 x739fb = +0
-
 +1 x739fa -1 x73a06 -1 x73a07 = +0
-
 +1 x73a06 -1 x73a12 -1 x73a13 = +0
-
 +1 x73a12 -1 x73a16 -1 x73a17 = +0
-
 +1 x73a16 -1 x73a1a -1 x73a1b = +0
-
 +1 x73a1a -1 x73a1e -1 x73a1f = +0
-
 +1 x73a17 +1 x73a1b +1 x73a1f -1 x73a24 = +0
-
 +1 x73a07 +1 x73a13 +1 x73a1e -1 x73a2c = +0
-
 +1 x736f1 -1 x73a44 -1 x73a45 = +0
-
 +1 x73a44 -1 x73a50 -1 x73a51 = +0
-
 +1 x73a50 -1 x73a5c -1 x73a5d = +0
-
 +1 x73a5c -1 x73a60 -1 x73a61 = +0
-
 +1 x73a60 -1 x73a64 -1 x73a65 = +0
-
 +1 x73a64 -1 x73a68 -1 x73a69 = +0
-
 +1 x73a61 +1 x73a65 +1 x73a69 -1 x73a6e = +0
-
 +1 x73a51 +1 x73a5d +1 x73a68 -1 x73a76 = +0
-
 +1 x73700 -1 x73a8e -1 x73a8f = +0
-
 +1 x73a8e -1 x73a9a -1 x73a9b = +0
-
 +1 x73a9a -1 x73aa6 -1 x73aa7 = +0
-
 +1 x73aa6 -1 x73aaa -1 x73aab = +0
-
 +1 x73aaa -1 x73aae -1 x73aaf = +0
-
 +1 x73aae -1 x73ab2 -1 x73ab3 = +0
-
 +1 x73aab +1 x73aaf +1 x73ab3 -1 x73ab8 = +0
-
 +1 x73a9b +1 x73aa7 +1 x73ab2 -1 x73ac0 = +0
-
 +1 x7370f -1 x73ad8 -1 x73ad9 = +0
-
 +1 x73ad8 -1 x73ae4 -1 x73ae5 = +0
-
 +1 x73ae4 -1 x73af0 -1 x73af1 = +0
-
 +1 x73af0 -1 x73af4 -1 x73af5 = +0
-
 +1 x73af4 -1 x73af8 -1 x73af9 = +0
-
 +1 x73af8 -1 x73afc -1 x73afd = +0
-
 +1 x73af5 +1 x73af9 +1 x73afd -1 x73b02 = +0
-
 +1 x73ae5 +1 x73af1 +1 x73afc -1 x73b0a = +0
-
 +1 x7371e -1 x73b22 -1 x73b23 = +0
-
 +1 x73b22 -1 x73b2e -1 x73b2f = +0
-
 +1 x73b2e -1 x73b3a -1 x73b3b = +0
-
 +1 x73b3a -1 x73b3e -1 x73b3f = +0
-
 +1 x73b3e -1 x73b42 -1 x73b43 = +0
-
 +1 x73b42 -1 x73b46 -1 x73b47 = +0
-
 +1 x73b3f +1 x73b43 +1 x73b47 -1 x73b4c = +0
-
 +1 x73b2f +1 x73b3b +1 x73b46 -1 x73b54 = +0
-
 +1 x7372d -1 x73b6c -1 x73b6d = +0
-
 +1 x73b6c -1 x73b78 -1 x73b79 = +0
-
 +1 x73b78 -1 x73b84 -1 x73b85 = +0
-
 +1 x73b84 -1 x73b88 -1 x73b89 = +0
-
 +1 x73b88 -1 x73b8c -1 x73b8d = +0
-
 +1 x73b8c -1 x73b90 -1 x73b91 = +0
-
 +1 x73b89 +1 x73b8d +1 x73b91 -1 x73b96 = +0
-
 +1 x73b79 +1 x73b85 +1 x73b90 -1 x73b9e = +0
-
 +1 x7378a -1 x73bb1 -1 x73bb2 = +0
-
 +1 x737d4 -1 x73bb3 -1 x73bb4 = +0
-
 +1 x7381e -1 x73bb5 -1 x73bb6 = +0
-
 +1 x73868 -1 x73bb7 -1 x73bb8 = +0
-
 +1 x738b2 -1 x73bb9 -1 x73bba = +0
-
 +1 x738fc -1 x73bbb -1 x73bbc = +0
-
 +1 x73946 -1 x73bbd -1 x73bbe = +0
-
 +1 x73990 -1 x73bbf -1 x73bc0 = +0
-
 +1 x739da -1 x73bc1 -1 x73bc2 = +0
-
 +1 x73a24 -1 x73bc3 -1 x73bc4 = +0
-
 +1 x73a6e -1 x73bc5 -1 x73bc6 = +0
-
 +1 x73ab8 -1 x73bc7 -1 x73bc8 = +0
-
 +1 x73b02 -1 x73bc9 -1 x73bca = +0
-
 +1 x73b4c -1 x73bcb -1 x73bcc = +0
-
 +1 x73b96 -1 x73bcd -1 x73bce = +0
-
 +1 x73bb1 +1 x73bb3 +1 x73bb5 +1 x73bb7 +1 x73bb9 +1 x73bbb +1 x73bbd +1 x73bbf
 +1 x73bc1 +1 x73bc3 +1 x73bc5 +1 x73bc7 +1 x73bc9 +1 x73bcb +1 x73bcd -1 x73bcf
 = +0
-
 +1 x73bb2 +1 x73bb4 +1 x73bb6 +1 x73bb8 +1 x73bba +1 x73bbc +1 x73bbe +1 x73bc0
 +1 x73bc2 +1 x73bc4 +1 x73bc6 +1 x73bc8 +1 x73bca +1 x73bcc +1 x73bce -1 x73bd0
 = +0
-
 +1 x73bd0 -1 x73bd2 -1 x73bd3 -1 x73bd4 -1 x73bd5 -1 x73bd6 -1 x73bd7 -1 x73bd8
 -1 x73bd9 -1 x73bda -1 x73bdb -1 x73bdc -1 x73bdd -1 x73bde -1 x73bdf -1 x73be0
 -1 x73be1 = +0
-
 +1 x73bf2 +1 x73bf3 -1 x73bf4 = +0
-
 +1 x7373c -1 x73c22 -1 x73c23 = +0
-
 +1 x73110 -1 x73c24 -1 x73c25 = +0
-
 +1 x73c23 +1 x73c8d -1 x73cee +0 x73cef +1 x749d9 -1 x77470 = +0
-
 +1 x73c25 -1 x73cf0 +0 x73cf1 +1 x742ff = +0
-
 +1 x73c22 +1 x73c24 -1 x73c34 = +0
-
 +1 x73c34 -1 x73c37 -1 x73c38 = +0
-
 +1 x73c37 -1 x73c43 -1 x73c44 = +0
-
 +1 x73c43 -1 x73c47 -1 x73c48 = +0
-
 +1 x73c47 -1 x73c4b -1 x73c4c = +0
-
 +1 x73c4b -1 x73c4f -1 x73c50 = +0
-
 +1 x73c48 +1 x73c4c +1 x73c50 -1 x73c55 = +0
-
 +1 x73c55 -1 x73c58 -1 x73c59 = +0
-
 +1 x73c59 -1 x73c5c -1 x73c5d -1 x73c5e -1 x73c5f -1 x73c60 -1 x73c61 -1 x73c62
 -1 x73c63 -1 x73c64 -1 x73c65 -1 x73c66 -1 x73c67 -1 x73c68 -1 x73c69 -1 x73c6a
 -1 x73c6b = +0
-
 +1 x73c38 +1 x73c44 +1 x73c4f -1 x73c89 = +0
-
 +1 x73c89 -1 x73c8b +1 x73ceb +1 x7435c +1 x749d6 -1 x7740c = +0
-
 +1 x73c8b -1 x73c8c -1 x73c8d = +0
-
 +1 x73c8c -1 x73c99 -1 x73c9a = +0
-
 +1 x73c99 -1 x73ca5 -1 x73ca6 = +0
-
 +1 x73ca5 -1 x73ca9 -1 x73caa = +0
-
 +1 x73ca9 -1 x73cad -1 x73cae = +0
-
 +1 x73cad -1 x73cb1 -1 x73cb2 = +0
-
 +1 x73caa +1 x73cae +1 x73cb2 -1 x73cb7 = +0
-
 +1 x73cb7 -1 x73cba -1 x73cbb = +0
-
 +1 x73cbb -1 x73cbe -1 x73cbf -1 x73cc0 -1 x73cc1 -1 x73cc2 -1 x73cc3 -1 x73cc4
 -1 x73cc5 -1 x73cc6 -1 x73cc7 -1 x73cc8 -1 x73cc9 -1 x73cca -1 x73ccb -1 x73ccc
 -1 x73ccd = +0
-
 +1 x73c9a +1 x73ca6 +1 x73cb1 -1 x73ceb = +0
-
 +1 x73cf9 -1 x73d05 -1 x73d06 = +0
-
 +1 x73cf8 -1 x73d07 -1 x73d08 = +0
-
 +1 x73cf7 -1 x73d09 -1 x73d0a = +0
-
 +1 x73cf6 -1 x73d0b -1 x73d0c = +0
-
 +1 x73cfd -1 x73d0d -1 x73d0e = +0
-
 +1 x73cfc -1 x73d0f -1 x73d10 = +0
-
 +1 x73cfb -1 x73d11 -1 x73d12 = +0
-
 +1 x73cfa -1 x73d13 -1 x73d14 = +0
-
 +1 x73d01 -1 x73d15 -1 x73d16 = +0
-
 +1 x73d00 -1 x73d17 -1 x73d18 = +0
-
 +1 x73cff -1 x73d19 -1 x73d1a = +0
-
 +1 x73cfe -1 x73d1b -1 x73d1c = +0
-
 +1 x73d02 -1 x73d1d -1 x73d1e = +0
-
 +1 x73d03 -1 x73d1f -1 x73d20 = +0
-
 +1 x73d04 -1 x73d21 -1 x73d22 = +0
-
 +1 x73d1d +1 x73d1f +1 x73d21 -1 x742e2 = +0
-
 +1 x73d05 +1 x73d07 +1 x73d09 +1 x73d0b +1 x73d0d +1 x73d0f +1 x73d11 +1 x73d13
 +1 x73d15 +1 x73d17 +1 x73d19 +1 x73d1b -1 x742e3 = +0
-
 +1 x73d1e +1 x73d20 +1 x73d22 -1 x73d23 = +0
-
 +1 x73d06 +1 x73d08 +1 x73d0a +1 x73d0c +1 x73d0e +1 x73d10 +1 x73d12 +1 x73d14
 +1 x73d16 +1 x73d18 +1 x73d1a +1 x73d1c -1 x73d24 = +0
-
 +1 x73d23 +1 x73d24 -1 x73d25 = +0
-
 +1 x73d25 -1 x73d26 -1 x73d27 -1 x73d28 -1 x73d29 -1 x73d2a -1 x73d2b -1 x73d2c
 -1 x73d2d -1 x73d2e -1 x73d2f -1 x73d30 -1 x73d31 -1 x73d32 -1 x73d33 -1 x73d34
 -1 x73d35 = +0
-
 +1 x73d26 -1 x73d45 +1 x7737f +1 x774a9 +1 x778ee +1 x7818f = +0
-
 +1 x73d27 -1 x73d54 +1 x77380 +1 x774aa +1 x778ef +1 x78190 = +0
-
 +1 x73d28 -1 x73d63 +1 x77381 +1 x774ab +1 x778f0 +1 x78191 = +0
-
 +1 x73d29 -1 x73d72 +1 x77382 +1 x774ac +1 x778f1 +1 x78192 = +0
-
 +1 x73d2a -1 x73d81 +1 x77383 +1 x774ad +1 x778f2 +1 x78193 = +0
-
 +1 x73d2b -1 x73d90 +1 x77384 +1 x774ae +1 x778f3 +1 x78194 = +0
-
 +1 x73d2c -1 x73d9f +1 x77385 +1 x774af +1 x778f4 +1 x78195 = +0
-
 +1 x73d2d -1 x73dae +1 x77386 +1 x774b0 +1 x778f5 +1 x78196 = +0
-
 +1 x73d2e -1 x73dbd +1 x77387 +1 x774b1 +1 x778f6 +1 x78197 = +0
-
 +1 x73d2f -1 x73dcc +1 x77388 +1 x774b2 +1 x778f7 +1 x78198 = +0
-
 +1 x73d30 -1 x73ddb +1 x77389 +1 x774b3 +1 x778f8 +1 x78199 = +0
-
 +1 x73d31 -1 x73dea +1 x7738a +1 x774b4 +1 x778f9 +1 x7819a = +0
-
 +1 x73d32 -1 x73df9 +1 x7738b +1 x774b5 +1 x778fa +1 x7819b = +0
-
 +1 x73d33 -1 x73e08 +1 x7738c +1 x774b6 +1 x778fb +1 x7819c = +0
-
 +1 x73d34 -1 x73e17 +1 x7738d +1 x774b7 +1 x778fc +1 x7819d = +0
-
 +1 x73d35 -1 x73e26 +1 x7738e +1 x774b8 +1 x778fd +1 x7819e = +0
-
 +1 x73d45 -1 x73e4a -1 x73e4b = +0
-
 +1 x73e4a -1 x73e56 -1 x73e57 = +0
-
 +1 x73e56 -1 x73e62 -1 x73e63 = +0
-
 +1 x73e62 -1 x73e66 -1 x73e67 = +0
-
 +1 x73e66 -1 x73e6a -1 x73e6b = +0
-
 +1 x73e6a -1 x73e6e -1 x73e6f = +0
-
 +1 x73e67 +1 x73e6b +1 x73e6f -1 x73e74 = +0
-
 +1 x73e57 +1 x73e63 +1 x73e6e -1 x73e7c = +0
-
 +1 x73d54 -1 x73e94 -1 x73e95 = +0
-
 +1 x73e94 -1 x73ea0 -1 x73ea1 = +0
-
 +1 x73ea0 -1 x73eac -1 x73ead = +0
-
 +1 x73eac -1 x73eb0 -1 x73eb1 = +0
-
 +1 x73eb0 -1 x73eb4 -1 x73eb5 = +0
-
 +1 x73eb4 -1 x73eb8 -1 x73eb9 = +0
-
 +1 x73eb1 +1 x73eb5 +1 x73eb9 -1 x73ebe = +0
-
 +1 x73ea1 +1 x73ead +1 x73eb8 -1 x73ec6 = +0
-
 +1 x73d63 -1 x73ede -1 x73edf = +0
-
 +1 x73ede -1 x73eea -1 x73eeb = +0
-
 +1 x73eea -1 x73ef6 -1 x73ef7 = +0
-
 +1 x73ef6 -1 x73efa -1 x73efb = +0
-
 +1 x73efa -1 x73efe -1 x73eff = +0
-
 +1 x73efe -1 x73f02 -1 x73f03 = +0
-
 +1 x73efb +1 x73eff +1 x73f03 -1 x73f08 = +0
-
 +1 x73eeb +1 x73ef7 +1 x73f02 -1 x73f10 = +0
-
 +1 x73d72 -1 x73f28 -1 x73f29 = +0
-
 +1 x73f28 -1 x73f34 -1 x73f35 = +0
-
 +1 x73f34 -1 x73f40 -1 x73f41 = +0
-
 +1 x73f40 -1 x73f44 -1 x73f45 = +0
-
 +1 x73f44 -1 x73f48 -1 x73f49 = +0
-
 +1 x73f48 -1 x73f4c -1 x73f4d = +0
-
 +1 x73f45 +1 x73f49 +1 x73f4d -1 x73f52 = +0
-
 +1 x73f35 +1 x73f41 +1 x73f4c -1 x73f5a = +0
-
 +1 x73d81 -1 x73f72 -1 x73f73 = +0
-
 +1 x73f72 -1 x73f7e -1 x73f7f = +0
-
 +1 x73f7e -1 x73f8a -1 x73f8b = +0
-
 +1 x73f8a -1 x73f8e -1 x73f8f = +0
-
 +1 x73f8e -1 x73f92 -1 x73f93 = +0
-
 +1 x73f92 -1 x73f96 -1 x73f97 = +0
-
 +1 x73f8f +1 x73f93 +1 x73f97 -1 x73f9c = +0
-
 +1 x73f7f +1 x73f8b +1 x73f96 -1 x73fa4 = +0
-
 +1 x73d90 -1 x73fbc -1 x73fbd = +0
-
 +1 x73fbc -1 x73fc8 -1 x73fc9 = +0
-
 +1 x73fc8 -1 x73fd4 -1 x73fd5 = +0
-
 +1 x73fd4 -1 x73fd8 -1 x73fd9 = +0
-
 +1 x73fd8 -1 x73fdc -1 x73fdd = +0
-
 +1 x73fdc -1 x73fe0 -1 x73fe1 = +0
-
 +1 x73fd9 +1 x73fdd +1 x73fe1 -1 x73fe6 = +0
-
 +1 x73fc9 +1 x73fd5 +1 x73fe0 -1 x73fee = +0
-
 +1 x73d9f -1 x74006 -1 x74007 = +0
-
 +1 x74006 -1 x74012 -1 x74013 = +0
-
 +1 x74012 -1 x7401e -1 x7401f = +0
-
 +1 x7401e -1 x74022 -1 x74023 = +0
-
 +1 x74022 -1 x74026 -1 x74027 = +0
-
 +1 x74026 -1 x7402a -1 x7402b = +0
-
 +1 x74023 +1 x74027 +1 x7402b -1 x74030 = +0
-
 +1 x74013 +1 x7401f +1 x7402a -1 x74038 = +0
-
 +1 x73dae -1 x74050 -1 x74051 = +0
-
 +1 x74050 -1 x7405c -1 x7405d = +0
-
 +1 x7405c -1 x74068 -1 x74069 = +0
-
 +1 x74068 -1 x7406c -1 x7406d = +0
-
 +1 x7406c -1 x74070 -1 x74071 = +0
-
 +1 x74070 -1 x74074 -1 x74075 = +0
-
 +1 x7406d +1 x74071 +1 x74075 -1 x7407a = +0
-
 +1 x7405d +1 x74069 +1 x74074 -1 x74082 = +0
-
 +1 x73dbd -1 x7409a -1 x7409b = +0
-
 +1 x7409a -1 x740a6 -1 x740a7 = +0
-
 +1 x740a6 -1 x740b2 -1 x740b3 = +0
-
 +1 x740b2 -1 x740b6 -1 x740b7 = +0
-
 +1 x740b6 -1 x740ba -1 x740bb = +0
-
 +1 x740ba -1 x740be -1 x740bf = +0
-
 +1 x740b7 +1 x740bb +1 x740bf -1 x740c4 = +0
-
 +1 x740a7 +1 x740b3 +1 x740be -1 x740cc = +0
-
 +1 x73dcc -1 x740e4 -1 x740e5 = +0
-
 +1 x740e4 -1 x740f0 -1 x740f1 = +0
-
 +1 x740f0 -1 x740fc -1 x740fd = +0
-
 +1 x740fc -1 x74100 -1 x74101 = +0
-
 +1 x74100 -1 x74104 -1 x74105 = +0
-
 +1 x74104 -1 x74108 -1 x74109 = +0
-
 +1 x74101 +1 x74105 +1 x74109 -1 x7410e = +0
-
 +1 x740f1 +1 x740fd +1 x74108 -1 x74116 = +0
-
 +1 x73ddb -1 x7412e -1 x7412f = +0
-
 +1 x7412e -1 x7413a -1 x7413b = +0
-
 +1 x7413a -1 x74146 -1 x74147 = +0
-
 +1 x74146 -1 x7414a -1 x7414b = +0
-
 +1 x7414a -1 x7414e -1 x7414f = +0
-
 +1 x7414e -1 x74152 -1 x74153 = +0
-
 +1 x7414b +1 x7414f +1 x74153 -1 x74158 = +0
-
 +1 x7413b +1 x74147 +1 x74152 -1 x74160 = +0
-
 +1 x73dea -1 x74178 -1 x74179 = +0
-
 +1 x74178 -1 x74184 -1 x74185 = +0
-
 +1 x74184 -1 x74190 -1 x74191 = +0
-
 +1 x74190 -1 x74194 -1 x74195 = +0
-
 +1 x74194 -1 x74198 -1 x74199 = +0
-
 +1 x74198 -1 x7419c -1 x7419d = +0
-
 +1 x74195 +1 x74199 +1 x7419d -1 x741a2 = +0
-
 +1 x74185 +1 x74191 +1 x7419c -1 x741aa = +0
-
 +1 x73df9 -1 x741c2 -1 x741c3 = +0
-
 +1 x741c2 -1 x741ce -1 x741cf = +0
-
 +1 x741ce -1 x741da -1 x741db = +0
-
 +1 x741da -1 x741de -1 x741df = +0
-
 +1 x741de -1 x741e2 -1 x741e3 = +0
-
 +1 x741e2 -1 x741e6 -1 x741e7 = +0
-
 +1 x741df +1 x741e3 +1 x741e7 -1 x741ec = +0
-
 +1 x741cf +1 x741db +1 x741e6 -1 x741f4 = +0
-
 +1 x73e08 -1 x7420c -1 x7420d = +0
-
 +1 x7420c -1 x74218 -1 x74219 = +0
-
 +1 x74218 -1 x74224 -1 x74225 = +0
-
 +1 x74224 -1 x74228 -1 x74229 = +0
-
 +1 x74228 -1 x7422c -1 x7422d = +0
-
 +1 x7422c -1 x74230 -1 x74231 = +0
-
 +1 x74229 +1 x7422d +1 x74231 -1 x74236 = +0
-
 +1 x74219 +1 x74225 +1 x74230 -1 x7423e = +0
-
 +1 x73e17 -1 x74256 -1 x74257 = +0
-
 +1 x74256 -1 x74262 -1 x74263 = +0
-
 +1 x74262 -1 x7426e -1 x7426f = +0
-
 +1 x7426e -1 x74272 -1 x74273 = +0
-
 +1 x74272 -1 x74276 -1 x74277 = +0
-
 +1 x74276 -1 x7427a -1 x7427b = +0
-
 +1 x74273 +1 x74277 +1 x7427b -1 x74280 = +0
-
 +1 x74263 +1 x7426f +1 x7427a -1 x74288 = +0
-
 +1 x73e74 -1 x7429b -1 x7429c = +0
-
 +1 x73ebe -1 x7429d -1 x7429e = +0
-
 +1 x73f08 -1 x7429f -1 x742a0 = +0
-
 +1 x73f52 -1 x742a1 -1 x742a2 = +0
-
 +1 x73f9c -1 x742a3 -1 x742a4 = +0
-
 +1 x73fe6 -1 x742a5 -1 x742a6 = +0
-
 +1 x74030 -1 x742a7 -1 x742a8 = +0
-
 +1 x7407a -1 x742a9 -1 x742aa = +0
-
 +1 x740c4 -1 x742ab -1 x742ac = +0
-
 +1 x7410e -1 x742ad -1 x742ae = +0
-
 +1 x74158 -1 x742af -1 x742b0 = +0
-
 +1 x741a2 -1 x742b1 -1 x742b2 = +0
-
 +1 x741ec -1 x742b3 -1 x742b4 = +0
-
 +1 x74236 -1 x742b5 -1 x742b6 = +0
-
 +1 x74280 -1 x742b7 -1 x742b8 = +0
-
 +1 x7429b +1 x7429d +1 x7429f +1 x742a1 +1 x742a3 +1 x742a5 +1 x742a7 +1 x742a9
 +1 x742ab +1 x742ad +1 x742af +1 x742b1 +1 x742b3 +1 x742b5 +1 x742b7 -1 x742db
 = +0
-
 +1 x7429c +1 x7429e +1 x742a0 +1 x742a2 +1 x742a4 +1 x742a6 +1 x742a8 +1 x742aa
 +1 x742ac +1 x742ae +1 x742b0 +1 x742b2 +1 x742b4 +1 x742b6 +1 x742b8 -1 x742b9
 = +0
-
 +1 x742b9 -1 x742bb -1 x742bc -1 x742bd -1 x742be -1 x742bf -1 x742c0 -1 x742c1
 -1 x742c2 -1 x742c3 -1 x742c4 -1 x742c5 -1 x742c6 -1 x742c7 -1 x742c8 -1 x742c9
 -1 x742ca = +0
-
 +1 x742e2 +1 x742e3 -1 x742e4 = +0
-
 +1 x73e26 -1 x742fe -1 x742ff = +0
-
 +1 x742fe -1 x7430a -1 x7430b = +0
-
 +1 x7430a -1 x74316 -1 x74317 = +0
-
 +1 x74316 -1 x7431a -1 x7431b = +0
-
 +1 x7431a -1 x7431e -1 x7431f = +0
-
 +1 x7431e -1 x74322 -1 x74323 = +0
-
 +1 x7431b +1 x7431f +1 x74323 -1 x74328 = +0
-
 +1 x74328 -1 x7432b -1 x7432c = +0
-
 +1 x7432c -1 x7432f -1 x74330 -1 x74331 -1 x74332 -1 x74333 -1 x74334 -1 x74335
 -1 x74336 -1 x74337 -1 x74338 -1 x74339 -1 x7433a -1 x7433b -1 x7433c -1 x7433d
 -1 x7433e = +0
-
 +1 x7430b +1 x74317 +1 x74322 -1 x7435c = +0
-
 +1 x73cee +1 x73cf0 -1 x74368 = +0
-
 +1 x74368 -1 x7436a -1 x7747b = +0
-
 +1 x7436a -1 x7436b -1 x7436c = +0
-
 +1 x7436c -1 x749da +0 x749db +1 x7551d -1 x774d5 = +0
-
 +1 x7436b -1 x7437c -1 x7437d = +0
-
 +1 x7437c -1 x74388 -1 x74389 = +0
-
 +1 x74388 -1 x74392 -1 x74393 = +0
-
 +1 x74393 -1 x74396 -1 x74397 -1 x74398 -1 x74399 -1 x7439a -1 x7439b -1 x7439c
 -1 x7439d -1 x7439e -1 x7439f -1 x743a0 -1 x743a1 -1 x743a2 -1 x743a3 -1 x743a4
 -1 x743a5 = +0
-
 +1 x74396 -1 x743b5 +1 x75547 = +0
-
 +1 x74397 -1 x743c4 +1 x75548 = +0
-
 +1 x74398 -1 x743d3 +1 x75549 = +0
-
 +1 x74399 -1 x743e2 +1 x7554a = +0
-
 +1 x7439a -1 x743f1 +1 x7554b = +0
-
 +1 x7439b -1 x74400 +1 x7554c = +0
-
 +1 x7439c -1 x7440f +1 x7554d = +0
-
 +1 x7439d -1 x7441e +1 x7554e = +0
-
 +1 x7439e -1 x7442d +1 x7554f = +0
-
 +1 x7439f -1 x7443c +1 x75550 = +0
-
 +1 x743a0 -1 x7444b +1 x75551 = +0
-
 +1 x743a1 -1 x7445a +1 x75552 = +0
-
 +1 x743a2 -1 x74469 +1 x75553 = +0
-
 +1 x743a3 -1 x74478 +1 x75554 = +0
-
 +1 x743a4 -1 x74487 +1 x75555 = +0
-
 +1 x743a5 -1 x74496 +1 x75556 = +0
-
 +1 x743b5 -1 x744ba -1 x744bb = +0
-
 +1 x744ba -1 x744c6 -1 x744c7 = +0
-
 +1 x744c6 -1 x744d2 -1 x744d3 = +0
-
 +1 x744d2 -1 x744d6 -1 x744d7 = +0
-
 +1 x744d6 -1 x744da -1 x744db = +0
-
 +1 x744da -1 x744de -1 x744df = +0
-
 +1 x744d7 +1 x744db +1 x744df -1 x744e4 = +0
-
 +1 x744c7 +1 x744d3 +1 x744de -1 x744ec = +0
-
 +1 x743c4 -1 x74504 -1 x74505 = +0
-
 +1 x74504 -1 x74510 -1 x74511 = +0
-
 +1 x74510 -1 x7451c -1 x7451d = +0
-
 +1 x7451c -1 x74520 -1 x74521 = +0
-
 +1 x74520 -1 x74524 -1 x74525 = +0
-
 +1 x74524 -1 x74528 -1 x74529 = +0
-
 +1 x74521 +1 x74525 +1 x74529 -1 x7452e = +0
-
 +1 x74511 +1 x7451d +1 x74528 -1 x74536 = +0
-
 +1 x743d3 -1 x7454e -1 x7454f = +0
-
 +1 x7454e -1 x7455a -1 x7455b = +0
-
 +1 x7455a -1 x74566 -1 x74567 = +0
-
 +1 x74566 -1 x7456a -1 x7456b = +0
-
 +1 x7456a -1 x7456e -1 x7456f = +0
-
 +1 x7456e -1 x74572 -1 x74573 = +0
-
 +1 x7456b +1 x7456f +1 x74573 -1 x74578 = +0
-
 +1 x7455b +1 x74567 +1 x74572 -1 x74580 = +0
-
 +1 x743e2 -1 x74598 -1 x74599 = +0
-
 +1 x74598 -1 x745a4 -1 x745a5 = +0
-
 +1 x745a4 -1 x745b0 -1 x745b1 = +0
-
 +1 x745b0 -1 x745b4 -1 x745b5 = +0
-
 +1 x745b4 -1 x745b8 -1 x745b9 = +0
-
 +1 x745b8 -1 x745bc -1 x745bd = +0
-
 +1 x745b5 +1 x745b9 +1 x745bd -1 x745c2 = +0
-
 +1 x745a5 +1 x745b1 +1 x745bc -1 x745ca = +0
-
 +1 x743f1 -1 x745e2 -1 x745e3 = +0
-
 +1 x745e2 -1 x745ee -1 x745ef = +0
-
 +1 x745ee -1 x745fa -1 x745fb = +0
-
 +1 x745fa -1 x745fe -1 x745ff = +0
-
 +1 x745fe -1 x74602 -1 x74603 = +0
-
 +1 x74602 -1 x74606 -1 x74607 = +0
-
 +1 x745ff +1 x74603 +1 x74607 -1 x7460c = +0
-
 +1 x745ef +1 x745fb +1 x74606 -1 x74614 = +0
-
 +1 x74400 -1 x7462c -1 x7462d = +0
-
 +1 x7462c -1 x74638 -1 x74639 = +0
-
 +1 x74638 -1 x74644 -1 x74645 = +0
-
 +1 x74644 -1 x74648 -1 x74649 = +0
-
 +1 x74648 -1 x7464c -1 x7464d = +0
-
 +1 x7464c -1 x74650 -1 x74651 = +0
-
 +1 x74649 +1 x7464d +1 x74651 -1 x74656 = +0
-
 +1 x74639 +1 x74645 +1 x74650 -1 x7465e = +0
-
 +1 x7440f -1 x74676 -1 x74677 = +0
-
 +1 x74676 -1 x74682 -1 x74683 = +0
-
 +1 x74682 -1 x7468e -1 x7468f = +0
-
 +1 x7468e -1 x74692 -1 x74693 = +0
-
 +1 x74692 -1 x74696 -1 x74697 = +0
-
 +1 x74696 -1 x7469a -1 x7469b = +0
-
 +1 x74693 +1 x74697 +1 x7469b -1 x746a0 = +0
-
 +1 x74683 +1 x7468f +1 x7469a -1 x746a8 = +0
-
 +1 x7441e -1 x746c0 -1 x746c1 = +0
-
 +1 x746c0 -1 x746cc -1 x746cd = +0
-
 +1 x746cc -1 x746d8 -1 x746d9 = +0
-
 +1 x746d8 -1 x746dc -1 x746dd = +0
-
 +1 x746dc -1 x746e0 -1 x746e1 = +0
-
 +1 x746e0 -1 x746e4 -1 x746e5 = +0
-
 +1 x746dd +1 x746e1 +1 x746e5 -1 x746ea = +0
-
 +1 x746cd +1 x746d9 +1 x746e4 -1 x746f2 = +0
-
 +1 x7442d -1 x7470a -1 x7470b = +0
-
 +1 x7470a -1 x74716 -1 x74717 = +0
-
 +1 x74716 -1 x74722 -1 x74723 = +0
-
 +1 x74722 -1 x74726 -1 x74727 = +0
-
 +1 x74726 -1 x7472a -1 x7472b = +0
-
 +1 x7472a -1 x7472e -1 x7472f = +0
-
 +1 x74727 +1 x7472b +1 x7472f -1 x74734 = +0
-
 +1 x74717 +1 x74723 +1 x7472e -1 x7473c = +0
-
 +1 x7443c -1 x74754 -1 x74755 = +0
-
 +1 x74754 -1 x74760 -1 x74761 = +0
-
 +1 x74760 -1 x7476c -1 x7476d = +0
-
 +1 x7476c -1 x74770 -1 x74771 = +0
-
 +1 x74770 -1 x74774 -1 x74775 = +0
-
 +1 x74774 -1 x74778 -1 x74779 = +0
-
 +1 x74771 +1 x74775 +1 x74779 -1 x7477e = +0
-
 +1 x74761 +1 x7476d +1 x74778 -1 x74786 = +0
-
 +1 x7444b -1 x7479e -1 x7479f = +0
-
 +1 x7479e -1 x747aa -1 x747ab = +0
-
 +1 x747aa -1 x747b6 -1 x747b7 = +0
-
 +1 x747b6 -1 x747ba -1 x747bb = +0
-
 +1 x747ba -1 x747be -1 x747bf = +0
-
 +1 x747be -1 x747c2 -1 x747c3 = +0
-
 +1 x747bb +1 x747bf +1 x747c3 -1 x747c8 = +0
-
 +1 x747ab +1 x747b7 +1 x747c2 -1 x747d0 = +0
-
 +1 x7445a -1 x747e8 -1 x747e9 = +0
-
 +1 x747e8 -1 x747f4 -1 x747f5 = +0
-
 +1 x747f4 -1 x74800 -1 x74801 = +0
-
 +1 x74800 -1 x74804 -1 x74805 = +0
-
 +1 x74804 -1 x74808 -1 x74809 = +0
-
 +1 x74808 -1 x7480c -1 x7480d = +0
-
 +1 x74805 +1 x74809 +1 x7480d -1 x74812 = +0
-
 +1 x747f5 +1 x74801 +1 x7480c -1 x7481a = +0
-
 +1 x74469 -1 x74832 -1 x74833 = +0
-
 +1 x74832 -1 x7483e -1 x7483f = +0
-
 +1 x7483e -1 x7484a -1 x7484b = +0
-
 +1 x7484a -1 x7484e -1 x7484f = +0
-
 +1 x7484e -1 x74852 -1 x74853 = +0
-
 +1 x74852 -1 x74856 -1 x74857 = +0
-
 +1 x7484f +1 x74853 +1 x74857 -1 x7485c = +0
-
 +1 x7483f +1 x7484b +1 x74856 -1 x74864 = +0
-
 +1 x74478 -1 x7487c -1 x7487d = +0
-
 +1 x7487c -1 x74888 -1 x74889 = +0
-
 +1 x74888 -1 x74894 -1 x74895 = +0
-
 +1 x74894 -1 x74898 -1 x74899 = +0
-
 +1 x74898 -1 x7489c -1 x7489d = +0
-
 +1 x7489c -1 x748a0 -1 x748a1 = +0
-
 +1 x74899 +1 x7489d +1 x748a1 -1 x748a6 = +0
-
 +1 x74889 +1 x74895 +1 x748a0 -1 x748ae = +0
-
 +1 x74487 -1 x748c6 -1 x748c7 = +0
-
 +1 x748c6 -1 x748d2 -1 x748d3 = +0
-
 +1 x748d2 -1 x748de -1 x748df = +0
-
 +1 x748de -1 x748e2 -1 x748e3 = +0
-
 +1 x748e2 -1 x748e6 -1 x748e7 = +0
-
 +1 x748e6 -1 x748ea -1 x748eb = +0
-
 +1 x748e3 +1 x748e7 +1 x748eb -1 x748f0 = +0
-
 +1 x748d3 +1 x748df +1 x748ea -1 x748f8 = +0
-
 +1 x744e4 -1 x7490b -1 x7490c = +0
-
 +1 x7452e -1 x7490d -1 x7490e = +0
-
 +1 x74578 -1 x7490f -1 x74910 = +0
-
 +1 x745c2 -1 x74911 -1 x74912 = +0
-
 +1 x7460c -1 x74913 -1 x74914 = +0
-
 +1 x74656 -1 x74915 -1 x74916 = +0
-
 +1 x746a0 -1 x74917 -1 x74918 = +0
-
 +1 x746ea -1 x74919 -1 x7491a = +0
-
 +1 x74734 -1 x7491b -1 x7491c = +0
-
 +1 x7477e -1 x7491d -1 x7491e = +0
-
 +1 x747c8 -1 x7491f -1 x74920 = +0
-
 +1 x74812 -1 x74921 -1 x74922 = +0
-
 +1 x7485c -1 x74923 -1 x74924 = +0
-
 +1 x748a6 -1 x74925 -1 x74926 = +0
-
 +1 x748f0 -1 x74927 -1 x74928 = +0
-
 +1 x7490b +1 x7490d +1 x7490f +1 x74911 +1 x74913 +1 x74915 +1 x74917 +1 x74919
 +1 x7491b +1 x7491d +1 x7491f +1 x74921 +1 x74923 +1 x74925 +1 x74927 -1 x7494b
 = +0
-
 +1 x7490c +1 x7490e +1 x74910 +1 x74912 +1 x74914 +1 x74916 +1 x74918 +1 x7491a
 +1 x7491c +1 x7491e +1 x74920 +1 x74922 +1 x74924 +1 x74926 +1 x74928 -1 x74929
 = +0
-
 +1 x74929 -1 x7492b -1 x7492c -1 x7492d -1 x7492e -1 x7492f -1 x74930 -1 x74931
 -1 x74932 -1 x74933 -1 x74934 -1 x74935 -1 x74936 -1 x74937 -1 x74938 -1 x74939
 -1 x7493a = +0
-
 +1 x7437d +1 x74389 -1 x7496d = +0
-
 +1 x7496d -1 x74971 +1 x75570 -1 x773aa = +0
-
 +1 x74496 -1 x74972 -1 x74973 = +0
-
 +1 x74971 -1 x74974 -1 x74975 = +0
-
 +1 x74973 +1 x74975 -1 x749d9 = +0
-
 +1 x74972 +1 x74974 -1 x7497e = +0
-
 +1 x7497e -1 x74984 -1 x74985 = +0
-
 +1 x74984 -1 x74990 -1 x74991 = +0
-
 +1 x74990 -1 x74994 -1 x74995 = +0
-
 +1 x74994 -1 x74998 -1 x74999 = +0
-
 +1 x74998 -1 x7499c -1 x7499d = +0
-
 +1 x74995 +1 x74999 +1 x7499d -1 x749a2 = +0
-
 +1 x749a2 -1 x749a5 -1 x749a6 = +0
-
 +1 x749a6 -1 x749a9 -1 x749aa -1 x749ab -1 x749ac -1 x749ad -1 x749ae -1 x749af
 -1 x749b0 -1 x749b1 -1 x749b2 -1 x749b3 -1 x749b4 -1 x749b5 -1 x749b6 -1 x749b7
 -1 x749b8 = +0
-
 +1 x74985 +1 x74991 +1 x7499c -1 x749d6 = +0
-
 +1 x749de -1 x749fc -1 x749fd = +0
-
 +1 x749e5 -1 x749fe -1 x749ff = +0
-
 +1 x749df -1 x74a00 -1 x74a01 = +0
-
 +1 x749e4 -1 x74a02 -1 x74a03 = +0
-
 +1 x749e0 -1 x74a04 -1 x74a05 = +0
-
 +1 x749e3 -1 x74a06 -1 x74a07 = +0
-
 +1 x749e1 -1 x74a08 -1 x74a09 = +0
-
 +1 x749e2 -1 x74a0a -1 x74a0b = +0
-
 +1 x749e6 -1 x74a0c -1 x74a0d = +0
-
 +1 x749ed -1 x74a0e -1 x74a0f = +0
-
 +1 x749e7 -1 x74a10 -1 x74a11 = +0
-
 +1 x749ec -1 x74a12 -1 x74a13 = +0
-
 +1 x749e8 -1 x74a14 -1 x74a15 = +0
-
 +1 x749eb -1 x74a16 -1 x74a17 = +0
-
 +1 x749e9 -1 x74a18 -1 x74a19 = +0
-
 +1 x749ea -1 x74a1a -1 x74a1b = +0
-
 +1 x749ee -1 x74a1c -1 x74a1d = +0
-
 +1 x749f5 -1 x74a1e -1 x74a1f = +0
-
 +1 x749ef -1 x74a20 -1 x74a21 = +0
-
 +1 x749f4 -1 x74a22 -1 x74a23 = +0
-
 +1 x749f0 -1 x74a24 -1 x74a25 = +0
-
 +1 x749f3 -1 x74a26 -1 x74a27 = +0
-
 +1 x749f1 -1 x74a28 -1 x74a29 = +0
-
 +1 x749f2 -1 x74a2a -1 x74a2b = +0
-
 +1 x749f6 -1 x74a2c -1 x74a2d = +0
-
 +1 x749f7 -1 x74a2e -1 x74a2f = +0
-
 +1 x749f8 -1 x74a30 -1 x74a31 = +0
-
 +1 x749f9 -1 x74a32 -1 x74a33 = +0
-
 +1 x749fa -1 x74a34 -1 x74a35 = +0
-
 +1 x749fb -1 x74a36 -1 x74a37 = +0
-
 +1 x74a2e +1 x74a32 +1 x74a36 +1 x74f6e +1 x7540e -1 x75431 = +0
-
 +1 x749fc +1 x749fe +1 x74a00 +1 x74a02 +1 x74a04 +1 x74a06 +1 x74a08 +1 x74a0a
 +1 x74a0c +1 x74a0e +1 x74a10 +1 x74a12 +1 x74a14 +1 x74a16 +1 x74a18 +1 x74a1a
 +1 x74a1c +1 x74a1e +1 x74a20 +1 x74a22 +1 x74a24 +1 x74a26 +1 x74a28 +1 x74a2a
 +1 x74a2c +1 x74a30 +1 x74a34 -1 x75432 = +0
-
 +1 x74a2f +1 x74a33 +1 x74a37 -1 x74a38 = +0
-
 +1 x749fd +1 x749ff +1 x74a01 +1 x74a03 +1 x74a05 +1 x74a07 +1 x74a09 +1 x74a0b
 +1 x74a0d +1 x74a0f +1 x74a11 +1 x74a13 +1 x74a15 +1 x74a17 +1 x74a19 +1 x74a1b
 +1 x74a1d +1 x74a1f +1 x74a21 +1 x74a23 +1 x74a25 +1 x74a27 +1 x74a29 +1 x74a2b
 +1 x74a2d +1 x74a31 +1 x74a35 -1 x74a39 = +0
-
 +1 x74a38 +1 x74a39 -1 x74a3a = +0
-
 +1 x74a3a -1 x74a3b -1 x74a3c -1 x74a3d -1 x74a3e -1 x74a3f -1 x74a40 -1 x74a41
 -1 x74a42 -1 x74a43 -1 x74a44 -1 x74a45 -1 x74a46 -1 x74a47 -1 x74a48 -1 x74a49
 -1 x74a4a = +0
-
 +1 x74a3b -1 x74a5a +1 x772cb +1 x7731c +1 x7791a +1 x781be = +0
-
 +1 x74a3c -1 x74a69 +1 x772cc +1 x7731d +1 x7791b +1 x781bf = +0
-
 +1 x74a3d -1 x74a78 +1 x772cd +1 x7731e +1 x7791c +1 x781c0 = +0
-
 +1 x74a3e -1 x74a87 +1 x772ce +1 x7731f +1 x7791d +1 x781c1 = +0
-
 +1 x74a3f -1 x74a96 +1 x772cf +1 x77320 +1 x7791e +1 x781c2 = +0
-
 +1 x74a40 -1 x74aa5 +1 x772d0 +1 x77321 +1 x7791f +1 x781c3 = +0
-
 +1 x74a41 -1 x74ab4 +1 x772d1 +1 x77322 +1 x77920 +1 x781c4 = +0
-
 +1 x74a42 -1 x74ac3 +1 x772d2 +1 x77323 +1 x77921 +1 x781c5 = +0
-
 +1 x74a43 -1 x74ad2 +1 x772d3 +1 x77324 +1 x77922 +1 x781c6 = +0
-
 +1 x74a44 -1 x74ae1 +1 x772d4 +1 x77325 +1 x77923 +1 x781c7 = +0
-
 +1 x74a45 -1 x74af0 +1 x772d5 +1 x77326 +1 x77924 +1 x781c8 = +0
-
 +1 x74a46 -1 x74aff +1 x772d6 +1 x77327 +1 x77925 +1 x781c9 = +0
-
 +1 x74a47 -1 x74b0e +1 x772d7 +1 x77328 +1 x77926 +1 x781ca = +0
-
 +1 x74a48 -1 x74b1d +1 x772d8 +1 x77329 +1 x77927 +1 x781cb = +0
-
 +1 x74a49 -1 x74b2c +1 x772d9 +1 x7732a +1 x77928 +1 x781cc = +0
-
 +1 x74a4a -1 x74b3b +1 x772da +1 x7732b +1 x77929 +1 x781cd = +0
-
 +1 x74a5a -1 x74b5f -1 x74b60 = +0
-
 +1 x74b60 -1 x74b85 +0 x74b86 = +0
-
 +1 x74b5f -1 x74b6b -1 x74b6c = +0
-
 +1 x74b6b -1 x74b77 -1 x74b78 = +0
-
 +1 x74b6c +1 x74b78 -1 x74b82 = +0
-
 +1 x74a69 -1 x74ba4 -1 x74ba5 = +0
-
 +1 x74ba5 -1 x74bc7 +0 x74bc8 = +0
-
 +1 x74ba4 -1 x74bba -1 x74bbb = +0
-
 +1 x74a78 -1 x74be6 -1 x74be7 = +0
-
 +1 x74be7 -1 x74c0c +0 x74c0d = +0
-
 +1 x74be6 -1 x74bf2 -1 x74bf3 = +0
-
 +1 x74bf2 -1 x74bfe -1 x74bff = +0
-
 +1 x74bf3 +1 x74bff -1 x74c09 = +0
-
 +1 x74a87 -1 x74c2b -1 x74c2c = +0
-
 +1 x74c2c -1 x74c4e +0 x74c4f = +0
-
 +1 x74c2b -1 x74c41 -1 x74c42 = +0
-
 +1 x74a96 -1 x74c6d -1 x74c6e = +0
-
 +1 x74c6e -1 x74c93 +0 x74c94 = +0
-
 +1 x74c6d -1 x74c79 -1 x74c7a = +0
-
 +1 x74c79 -1 x74c85 -1 x74c86 = +0
-
 +1 x74c7a +1 x74c86 -1 x74c90 = +0
-
 +1 x74aa5 -1 x74cb2 -1 x74cb3 = +0
-
 +1 x74cb3 -1 x74cd5 +0 x74cd6 = +0
-
 +1 x74cb2 -1 x74cc8 -1 x74cc9 = +0
-
 +1 x74ab4 -1 x74cf4 -1 x74cf5 = +0
-
 +1 x74cf5 -1 x74d1a +0 x74d1b = +0
-
 +1 x74cf4 -1 x74d00 -1 x74d01 = +0
-
 +1 x74d00 -1 x74d0c -1 x74d0d = +0
-
 +1 x74d01 +1 x74d0d -1 x74d17 = +0
-
 +1 x74ac3 -1 x74d39 -1 x74d3a = +0
-
 +1 x74d3a -1 x74d5c +0 x74d5d = +0
-
 +1 x74d39 -1 x74d4f -1 x74d50 = +0
-
 +1 x74ad2 -1 x74d7b -1 x74d7c = +0
-
 +1 x74d7c -1 x74da1 +0 x74da2 = +0
-
 +1 x74d7b -1 x74d87 -1 x74d88 = +0
-
 +1 x74d87 -1 x74d93 -1 x74d94 = +0
-
 +1 x74d88 +1 x74d94 -1 x74d9e = +0
-
 +1 x74ae1 -1 x74dc0 -1 x74dc1 = +0
-
 +1 x74dc1 -1 x74de3 +0 x74de4 = +0
-
 +1 x74dc0 -1 x74dd6 -1 x74dd7 = +0
-
 +1 x74af0 -1 x74e02 -1 x74e03 = +0
-
 +1 x74e03 -1 x74e28 +0 x74e29 = +0
-
 +1 x74e02 -1 x74e0e -1 x74e0f = +0
-
 +1 x74e0e -1 x74e1a -1 x74e1b = +0
-
 +1 x74e0f +1 x74e1b -1 x74e25 = +0
-
 +1 x74aff -1 x74e47 -1 x74e48 = +0
-
 +1 x74e48 -1 x74e6a +0 x74e6b = +0
-
 +1 x74e47 -1 x74e5d -1 x74e5e = +0
-
 +1 x74b0e -1 x74e89 -1 x74e8a = +0
-
 +1 x74e8a -1 x74eaf +0 x74eb0 = +0
-
 +1 x74e89 -1 x74e95 -1 x74e96 = +0
-
 +1 x74e95 -1 x74ea1 -1 x74ea2 = +0
-
 +1 x74e96 +1 x74ea2 -1 x74eac = +0
-
 +1 x74b1d -1 x74ece -1 x74ecf = +0
-
 +1 x74ecf -1 x74ef1 +0 x74ef2 = +0
-
 +1 x74ece -1 x74ee4 -1 x74ee5 = +0
-
 +1 x74b2c -1 x74f10 -1 x74f11 = +0
-
 +1 x74f11 -1 x74f36 +0 x74f37 = +0
-
 +1 x74f10 -1 x74f1c -1 x74f1d = +0
-
 +1 x74f1c -1 x74f28 -1 x74f29 = +0
-
 +1 x74f1d +1 x74f29 -1 x74f33 = +0
-
 +1 x74b77 -1 x74f50 -1 x74f51 = +0
-
 +1 x74bba -1 x74f52 -1 x74f53 = +0
-
 +1 x74bfe -1 x74f54 -1 x74f55 = +0
-
 +1 x74c41 -1 x74f56 -1 x74f57 = +0
-
 +1 x74c85 -1 x74f58 -1 x74f59 = +0
-
 +1 x74cc8 -1 x74f5a -1 x74f5b = +0
-
 +1 x74d0c -1 x74f5c -1 x74f5d = +0
-
 +1 x74d4f -1 x74f5e -1 x74f5f = +0
-
 +1 x74d93 -1 x74f60 -1 x74f61 = +0
-
 +1 x74dd6 -1 x74f62 -1 x74f63 = +0
-
 +1 x74e1a -1 x74f64 -1 x74f65 = +0
-
 +1 x74e5d -1 x74f66 -1 x74f67 = +0
-
 +1 x74ea1 -1 x74f68 -1 x74f69 = +0
-
 +1 x74ee4 -1 x74f6a -1 x74f6b = +0
-
 +1 x74f28 -1 x74f6c -1 x74f6d = +0
-
 +1 x74f50 +1 x74f52 +1 x74f54 +1 x74f56 +1 x74f58 +1 x74f5a +1 x74f5c +1 x74f5e
 +1 x74f60 +1 x74f62 +1 x74f64 +1 x74f66 +1 x74f68 +1 x74f6a +1 x74f6c -1 x74f6e
 = +0
-
 +1 x74f51 +1 x74f53 +1 x74f55 +1 x74f57 +1 x74f59 +1 x74f5b +1 x74f5d +1 x74f5f
 +1 x74f61 +1 x74f63 +1 x74f65 +1 x74f67 +1 x74f69 +1 x74f6b +1 x74f6d -1 x74f6f
 = +0
-
 +1 x74f6f -1 x74f71 -1 x74f72 -1 x74f73 -1 x74f74 -1 x74f75 -1 x74f76 -1 x74f77
 -1 x74f78 -1 x74f79 -1 x74f7a -1 x74f7b -1 x74f7c -1 x74f7d -1 x74f7e -1 x74f7f
 -1 x74f80 = +0
-
 +1 x74f71 -1 x74f90 +1 x75411 +1 x7548e +1 x754de = +0
-
 +1 x74f72 -1 x74f9f +1 x75412 +1 x7548f +1 x754df = +0
-
 +1 x74f73 -1 x74fae +1 x75413 +1 x75490 +1 x754e0 = +0
-
 +1 x74f74 -1 x74fbd +1 x75414 +1 x75491 +1 x754e1 = +0
-
 +1 x74f75 -1 x74fcc +1 x75415 +1 x75492 +1 x754e2 = +0
-
 +1 x74f76 -1 x74fdb +1 x75416 +1 x75493 +1 x754e3 = +0
-
 +1 x74f77 -1 x74fea +1 x75417 +1 x75494 +1 x754e4 = +0
-
 +1 x74f78 -1 x74ff9 +1 x75418 +1 x75495 +1 x754e5 = +0
-
 +1 x74f79 -1 x75008 +1 x75419 +1 x75496 +1 x754e6 = +0
-
 +1 x74f7a -1 x75017 +1 x7541a +1 x75497 +1 x754e7 = +0
-
 +1 x74f7b -1 x75026 +1 x7541b +1 x75498 +1 x754e8 = +0
-
 +1 x74f7c -1 x75035 +1 x7541c +1 x75499 +1 x754e9 = +0
-
 +1 x74f7d -1 x75044 +1 x7541d +1 x7549a +1 x754ea = +0
-
 +1 x74f7e -1 x75053 +1 x7541e +1 x7549b +1 x754eb = +0
-
 +1 x74f7f -1 x75062 +1 x7541f +1 x7549c +1 x754ec = +0
-
 +1 x74f80 -1 x75071 +1 x75420 +1 x7549d +1 x754ed = +0
-
 +1 x74f90 -1 x75095 -1 x75096 = +0
-
 +1 x75095 -1 x750a1 -1 x750a2 = +0
-
 +1 x750a1 -1 x750ad -1 x750ae = +0
-
 +1 x750a2 +1 x750ae -1 x750b8 = +0
-
 +1 x74f9f -1 x750d0 -1 x750d1 = +0
-
 +1 x750d0 -1 x750e6 -1 x750e7 = +0
-
 +1 x74fae -1 x75108 -1 x75109 = +0
-
 +1 x75108 -1 x75114 -1 x75115 = +0
-
 +1 x75114 -1 x75120 -1 x75121 = +0
-
 +1 x75115 +1 x75121 -1 x7512b = +0
-
 +1 x74fbd -1 x75143 -1 x75144 = +0
-
 +1 x75143 -1 x75159 -1 x7515a = +0
-
 +1 x74fcc -1 x7517b -1 x7517c = +0
-
 +1 x7517b -1 x75187 -1 x75188 = +0
-
 +1 x75187 -1 x75193 -1 x75194 = +0
-
 +1 x75188 +1 x75194 -1 x7519e = +0
-
 +1 x74fdb -1 x751b6 -1 x751b7 = +0
-
 +1 x751b6 -1 x751cc -1 x751cd = +0
-
 +1 x74fea -1 x751ee -1 x751ef = +0
-
 +1 x751ee -1 x751fa -1 x751fb = +0
-
 +1 x751fa -1 x75206 -1 x75207 = +0
-
 +1 x751fb +1 x75207 -1 x75211 = +0
-
 +1 x74ff9 -1 x75229 -1 x7522a = +0
-
 +1 x75229 -1 x7523f -1 x75240 = +0
-
 +1 x75008 -1 x75261 -1 x75262 = +0
-
 +1 x75261 -1 x7526d -1 x7526e = +0
-
 +1 x7526d -1 x75279 -1 x7527a = +0
-
 +1 x7526e +1 x7527a -1 x75284 = +0
-
 +1 x75017 -1 x7529c -1 x7529d = +0
-
 +1 x7529c -1 x752b2 -1 x752b3 = +0
-
 +1 x75026 -1 x752d4 -1 x752d5 = +0
-
 +1 x752d4 -1 x752e0 -1 x752e1 = +0
-
 +1 x752e0 -1 x752ec -1 x752ed = +0
-
 +1 x752e1 +1 x752ed -1 x752f7 = +0
-
 +1 x75035 -1 x7530f -1 x75310 = +0
-
 +1 x7530f -1 x75325 -1 x75326 = +0
-
 +1 x75044 -1 x75347 -1 x75348 = +0
-
 +1 x75347 -1 x75353 -1 x75354 = +0
-
 +1 x75353 -1 x7535f -1 x75360 = +0
-
 +1 x75354 +1 x75360 -1 x7536a = +0
-
 +1 x75053 -1 x75382 -1 x75383 = +0
-
 +1 x75382 -1 x75398 -1 x75399 = +0
-
 +1 x75062 -1 x753ba -1 x753bb = +0
-
 +1 x753ba -1 x753c6 -1 x753c7 = +0
-
 +1 x753c6 -1 x753d2 -1 x753d3 = +0
-
 +1 x753c7 +1 x753d3 -1 x753dd = +0
-
 +1 x750ad -1 x753f0 -1 x753f1 = +0
-
 +1 x750e6 -1 x753f2 -1 x753f3 = +0
-
 +1 x75120 -1 x753f4 -1 x753f5 = +0
-
 +1 x75159 -1 x753f6 -1 x753f7 = +0
-
 +1 x75193 -1 x753f8 -1 x753f9 = +0
-
 +1 x751cc -1 x753fa -1 x753fb = +0
-
 +1 x75206 -1 x753fc -1 x753fd = +0
-
 +1 x7523f -1 x753fe -1 x753ff = +0
-
 +1 x75279 -1 x75400 -1 x75401 = +0
-
 +1 x752b2 -1 x75402 -1 x75403 = +0
-
 +1 x752ec -1 x75404 -1 x75405 = +0
-
 +1 x75325 -1 x75406 -1 x75407 = +0
-
 +1 x7535f -1 x75408 -1 x75409 = +0
-
 +1 x75398 -1 x7540a -1 x7540b = +0
-
 +1 x753d2 -1 x7540c -1 x7540d = +0
-
 +1 x753f0 +1 x753f2 +1 x753f4 +1 x753f6 +1 x753f8 +1 x753fa +1 x753fc +1 x753fe
 +1 x75400 +1 x75402 +1 x75404 +1 x75406 +1 x75408 +1 x7540a +1 x7540c -1 x7540e
 = +0
-
 +1 x753f1 +1 x753f3 +1 x753f5 +1 x753f7 +1 x753f9 +1 x753fb +1 x753fd +1 x753ff
 +1 x75401 +1 x75403 +1 x75405 +1 x75407 +1 x75409 +1 x7540b +1 x7540d -1 x7540f
 = +0
-
 +1 x7540f -1 x75411 -1 x75412 -1 x75413 -1 x75414 -1 x75415 -1 x75416 -1 x75417
 -1 x75418 -1 x75419 -1 x7541a -1 x7541b -1 x7541c -1 x7541d -1 x7541e -1 x7541f
 -1 x75420 = +0
-
 +1 x75431 +1 x75432 -1 x75433 = +0
-
 +1 x75071 -1 x75461 -1 x75462 = +0
-
 +1 x74b3b -1 x75463 -1 x75464 = +0
-
 +1 x75462 +1 x754ba -1 x75509 +0 x7550a -1 x77347 = +0
-
 +1 x75464 -1 x7550b +0 x7550c = +0
-
 +1 x75461 +1 x75463 -1 x75473 = +0
-
 +1 x75473 -1 x75480 -1 x75481 = +0
-
 +1 x75480 -1 x7548a -1 x7548b = +0
-
 +1 x7548b -1 x7548e -1 x7548f -1 x75490 -1 x75491 -1 x75492 -1 x75493 -1 x75494
 -1 x75495 -1 x75496 -1 x75497 -1 x75498 -1 x75499 -1 x7549a -1 x7549b -1 x7549c
 -1 x7549d = +0
-
 +1 x75481 -1 x754b8 +1 x754d1 -1 x772f5 = +0
-
 +1 x754b8 -1 x754b9 -1 x754ba = +0
-
 +1 x754b9 -1 x754d0 -1 x754d1 = +0
-
 +1 x754d0 -1 x754da -1 x754db = +0
-
 +1 x754db -1 x754de -1 x754df -1 x754e0 -1 x754e1 -1 x754e2 -1 x754e3 -1 x754e4
 -1 x754e5 -1 x754e6 -1 x754e7 -1 x754e8 -1 x754e9 -1 x754ea -1 x754eb -1 x754ec
 -1 x754ed = +0
-
 +1 x75509 +1 x7550b -1 x75519 = +0
-
 +1 x75519 -1 x7551b -1 x77352 = +0
-
 +1 x7551b -1 x7551c -1 x7551d = +0
-
 +1 x7551c -1 x7552d -1 x7552e = +0
-
 +1 x7552d -1 x75539 -1 x7553a = +0
-
 +1 x75539 -1 x75543 -1 x75544 = +0
-
 +1 x75544 -1 x75547 -1 x75548 -1 x75549 -1 x7554a -1 x7554b -1 x7554c -1 x7554d
 -1 x7554e -1 x7554f -1 x75550 -1 x75551 -1 x75552 -1 x75553 -1 x75554 -1 x75555
 -1 x75556 = +0
-
 +1 x7552e +1 x7553a -1 x75570 = +0
-
 +1 x749da -1 x7557f -1 x75580 = +0
-
 +1 x75580 -1 x75584 -1 x75585 = +0
-
 +1 x7557f -1 x75586 -1 x75587 = +0
-
 +1 x75585 -1 x7558e -1 x7558f = +0
-
 +1 x75587 -1 x75590 -1 x75591 = +0
-
 +1 x75586 -1 x75592 -1 x75593 = +0
-
 +1 x75584 -1 x75594 -1 x75595 = +0
-
 +1 x7558e +1 x75590 -1 x75599 = +0
-
 +1 x7558f +1 x75591 -1 x75596 = +0
-
 +1 x75593 +1 x75595 -1 x755a0 = +0
-
 +1 x75596 +1 x755a0 -1 x755a4 = +0
-
 +1 x75592 +1 x75594 -1 x755a6 = +0
-
 +1 x75599 +1 x755a6 -1 x755a8 = +0
-
 +1 x755ac -1 x755b8 -1 x755b9 = +0
-
 +1 x755ab -1 x755ba -1 x755bb = +0
-
 +1 x755aa -1 x755bc -1 x755bd = +0
-
 +1 x755a9 -1 x755be -1 x755bf = +0
-
 +1 x755b0 -1 x755c0 -1 x755c1 = +0
-
 +1 x755af -1 x755c2 -1 x755c3 = +0
-
 +1 x755ae -1 x755c4 -1 x755c5 = +0
-
 +1 x755ad -1 x755c6 -1 x755c7 = +0
-
 +1 x755b4 -1 x755c8 -1 x755c9 = +0
-
 +1 x755b3 -1 x755ca -1 x755cb = +0
-
 +1 x755b2 -1 x755cc -1 x755cd = +0
-
 +1 x755b1 -1 x755ce -1 x755cf = +0
-
 +1 x755b5 -1 x755d0 -1 x755d1 = +0
-
 +1 x755b6 -1 x755d2 -1 x755d3 = +0
-
 +1 x755b7 -1 x755d4 -1 x755d5 = +0
-
 +1 x755d0 +1 x755d2 +1 x755d4 +1 x75c02 +1 x76198 -1 x761bb = +0
-
 +1 x755b8 +1 x755ba +1 x755bc +1 x755be +1 x755c0 +1 x755c2 +1 x755c4 +1 x755c6
 +1 x755c8 +1 x755ca +1 x755cc +1 x755ce -1 x761bc = +0
-
 +1 x755d1 +1 x755d3 +1 x755d5 -1 x755d6 = +0
-
 +1 x755b9 +1 x755bb +1 x755bd +1 x755bf +1 x755c1 +1 x755c3 +1 x755c5 +1 x755c7
 +1 x755c9 +1 x755cb +1 x755cd +1 x755cf -1 x755d7 = +0
-
 +1 x755d6 +1 x755d7 -1 x755d8 = +0
-
 +1 x755d8 -1 x755d9 -1 x755da -1 x755db -1 x755dc -1 x755dd -1 x755de -1 x755df
 -1 x755e0 -1 x755e1 -1 x755e2 -1 x755e3 -1 x755e4 -1 x755e5 -1 x755e6 -1 x755e7
 -1 x755e8 = +0
-
 +1 x755d9 -1 x755f8 +1 x7713a +1 x7719d +1 x77946 +1 x781ed = +0
-
 +1 x755da -1 x75607 +1 x7713b +1 x7719e +1 x77947 +1 x781ee = +0
-
 +1 x755db -1 x75616 +1 x7713c +1 x7719f +1 x77948 +1 x781ef = +0
-
 +1 x755dc -1 x75625 +1 x7713d +1 x771a0 +1 x77949 +1 x781f0 = +0
-
 +1 x755dd -1 x75634 +1 x7713e +1 x771a1 +1 x7794a +1 x781f1 = +0
-
 +1 x755de -1 x75643 +1 x7713f +1 x771a2 +1 x7794b +1 x781f2 = +0
-
 +1 x755df -1 x75652 +1 x77140 +1 x771a3 +1 x7794c +1 x781f3 = +0
-
 +1 x755e0 -1 x75661 +1 x77141 +1 x771a4 +1 x7794d +1 x781f4 = +0
-
 +1 x755e1 -1 x75670 +1 x77142 +1 x771a5 +1 x7794e +1 x781f5 = +0
-
 +1 x755e2 -1 x7567f +1 x77143 +1 x771a6 +1 x7794f +1 x781f6 = +0
-
 +1 x755e3 -1 x7568e +1 x77144 +1 x771a7 +1 x77950 +1 x781f7 = +0
-
 +1 x755e4 -1 x7569d +1 x77145 +1 x771a8 +1 x77951 +1 x781f8 = +0
-
 +1 x755e5 -1 x756ac +1 x77146 +1 x771a9 +1 x77952 +1 x781f9 = +0
-
 +1 x755e6 -1 x756bb +1 x77147 +1 x771aa +1 x77953 +1 x781fa = +0
-
 +1 x755e7 -1 x756ca +1 x77148 +1 x771ab +1 x77954 +1 x781fb = +0
-
 +1 x755e8 -1 x756d9 +1 x77149 +1 x771ac +1 x77955 +1 x781fc = +0
-
 +1 x755f8 -1 x756fd -1 x756fe = +0
-
 +1 x756fe -1 x75732 +0 x75733 +1 x76414 = +0
-
 +1 x756fd -1 x75709 -1 x7570a = +0
-
 +1 x75709 -1 x75715 -1 x75716 = +0
-
 +1 x75715 -1 x75719 -1 x7571a = +0
-
 +1 x75719 -1 x7571d -1 x7571e = +0
-
 +1 x7571d -1 x75721 -1 x75722 = +0
-
 +1 x7571a +1 x7571e +1 x75722 -1 x75727 = +0
-
 +1 x7570a +1 x75716 +1 x75721 -1 x7572f = +0
-
 +1 x75607 -1 x75751 -1 x75752 = +0
-
 +1 x75752 -1 x75786 +0 x75787 +1 x7645e = +0
-
 +1 x75751 -1 x7575d -1 x7575e = +0
-
 +1 x7575d -1 x75769 -1 x7576a = +0
-
 +1 x75769 -1 x7576d -1 x7576e = +0
-
 +1 x7576d -1 x75771 -1 x75772 = +0
-
 +1 x75771 -1 x75775 -1 x75776 = +0
-
 +1 x7576e +1 x75772 +1 x75776 -1 x7577b = +0
-
 +1 x7575e +1 x7576a +1 x75775 -1 x75783 = +0
-
 +1 x75616 -1 x757a5 -1 x757a6 = +0
-
 +1 x757a6 -1 x757da +0 x757db +1 x764a8 = +0
-
 +1 x757a5 -1 x757b1 -1 x757b2 = +0
-
 +1 x757b1 -1 x757bd -1 x757be = +0
-
 +1 x757bd -1 x757c1 -1 x757c2 = +0
-
 +1 x757c1 -1 x757c5 -1 x757c6 = +0
-
 +1 x757c5 -1 x757c9 -1 x757ca = +0
-
 +1 x757c2 +1 x757c6 +1 x757ca -1 x757cf = +0
-
 +1 x757b2 +1 x757be +1 x757c9 -1 x757d7 = +0
-
 +1 x75625 -1 x757f9 -1 x757fa = +0
-
 +1 x757fa -1 x7582e +0 x7582f +1 x764f2 = +0
-
 +1 x757f9 -1 x75805 -1 x75806 = +0
-
 +1 x75805 -1 x75811 -1 x75812 = +0
-
 +1 x75811 -1 x75815 -1 x75816 = +0
-
 +1 x75815 -1 x75819 -1 x7581a = +0
-
 +1 x75819 -1 x7581d -1 x7581e = +0
-
 +1 x75816 +1 x7581a +1 x7581e -1 x75823 = +0
-
 +1 x75806 +1 x75812 +1 x7581d -1 x7582b = +0
-
 +1 x75634 -1 x7584d -1 x7584e = +0
-
 +1 x7584e -1 x75882 +0 x75883 +1 x7653c = +0
-
 +1 x7584d -1 x75859 -1 x7585a = +0
-
 +1 x75859 -1 x75865 -1 x75866 = +0
-
 +1 x75865 -1 x75869 -1 x7586a = +0
-
 +1 x75869 -1 x7586d -1 x7586e = +0
-
 +1 x7586d -1 x75871 -1 x75872 = +0
-
 +1 x7586a +1 x7586e +1 x75872 -1 x75877 = +0
-
 +1 x7585a +1 x75866 +1 x75871 -1 x7587f = +0
-
 +1 x75643 -1 x758a1 -1 x758a2 = +0
-
 +1 x758a2 -1 x758d6 +0 x758d7 +1 x76586 = +0
-
 +1 x758a1 -1 x758ad -1 x758ae = +0
-
 +1 x758ad -1 x758b9 -1 x758ba = +0
-
 +1 x758b9 -1 x758bd -1 x758be = +0
-
 +1 x758bd -1 x758c1 -1 x758c2 = +0
-
 +1 x758c1 -1 x758c5 -1 x758c6 = +0
-
 +1 x758be +1 x758c2 +1 x758c6 -1 x758cb = +0
-
 +1 x758ae +1 x758ba +1 x758c5 -1 x758d3 = +0
-
 +1 x75652 -1 x758f5 -1 x758f6 = +0
-
 +1 x758f6 -1 x7592a +0 x7592b +1 x765d0 = +0
-
 +1 x758f5 -1 x75901 -1 x75902 = +0
-
 +1 x75901 -1 x7590d -1 x7590e = +0
-
 +1 x7590d -1 x75911 -1 x75912 = +0
-
 +1 x75911 -1 x75915 -1 x75916 = +0
-
 +1 x75915 -1 x75919 -1 x7591a = +0
-
 +1 x75912 +1 x75916 +1 x7591a -1 x7591f = +0
-
 +1 x75902 +1 x7590e +1 x75919 -1 x75927 = +0
-
 +1 x75661 -1 x75949 -1 x7594a = +0
-
 +1 x7594a -1 x7597e +0 x7597f +1 x7661a = +0
-
 +1 x75949 -1 x75955 -1 x75956 = +0
-
 +1 x75955 -1 x75961 -1 x75962 = +0
-
 +1 x75961 -1 x75965 -1 x75966 = +0
-
 +1 x75965 -1 x75969 -1 x7596a = +0
-
 +1 x75969 -1 x7596d -1 x7596e = +0
-
 +1 x75966 +1 x7596a +1 x7596e -1 x75973 = +0
-
 +1 x75956 +1 x75962 +1 x7596d -1 x7597b = +0
-
 +1 x75670 -1 x7599d -1 x7599e = +0
-
 +1 x7599e -1 x759d2 +0 x759d3 +1 x76664 = +0
-
 +1 x7599d -1 x759a9 -1 x759aa = +0
-
 +1 x759a9 -1 x759b5 -1 x759b6 = +0
-
 +1 x759b5 -1 x759b9 -1 x759ba = +0
-
 +1 x759b9 -1 x759bd -1 x759be = +0
-
 +1 x759bd -1 x759c1 -1 x759c2 = +0
-
 +1 x759ba +1 x759be +1 x759c2 -1 x759c7 = +0
-
 +1 x759aa +1 x759b6 +1 x759c1 -1 x759cf = +0
-
 +1 x7567f -1 x759f1 -1 x759f2 = +0
-
 +1 x759f2 -1 x75a26 +0 x75a27 +1 x766ae = +0
-
 +1 x759f1 -1 x759fd -1 x759fe = +0
-
 +1 x759fd -1 x75a09 -1 x75a0a = +0
-
 +1 x75a09 -1 x75a0d -1 x75a0e = +0
-
 +1 x75a0d -1 x75a11 -1 x75a12 = +0
-
 +1 x75a11 -1 x75a15 -1 x75a16 = +0
-
 +1 x75a0e +1 x75a12 +1 x75a16 -1 x75a1b = +0
-
 +1 x759fe +1 x75a0a +1 x75a15 -1 x75a23 = +0
-
 +1 x7568e -1 x75a45 -1 x75a46 = +0
-
 +1 x75a46 -1 x75a7a +0 x75a7b +1 x766f8 = +0
-
 +1 x75a45 -1 x75a51 -1 x75a52 = +0
-
 +1 x75a51 -1 x75a5d -1 x75a5e = +0
-
 +1 x75a5d -1 x75a61 -1 x75a62 = +0
-
 +1 x75a61 -1 x75a65 -1 x75a66 = +0
-
 +1 x75a65 -1 x75a69 -1 x75a6a = +0
-
 +1 x75a62 +1 x75a66 +1 x75a6a -1 x75a6f = +0
-
 +1 x75a52 +1 x75a5e +1 x75a69 -1 x75a77 = +0
-
 +1 x7569d -1 x75a99 -1 x75a9a = +0
-
 +1 x75a9a -1 x75ace +0 x75acf +1 x76742 = +0
-
 +1 x75a99 -1 x75aa5 -1 x75aa6 = +0
-
 +1 x75aa5 -1 x75ab1 -1 x75ab2 = +0
-
 +1 x75ab1 -1 x75ab5 -1 x75ab6 = +0
-
 +1 x75ab5 -1 x75ab9 -1 x75aba = +0
-
 +1 x75ab9 -1 x75abd -1 x75abe = +0
-
 +1 x75ab6 +1 x75aba +1 x75abe -1 x75ac3 = +0
-
 +1 x75aa6 +1 x75ab2 +1 x75abd -1 x75acb = +0
-
 +1 x756ac -1 x75aed -1 x75aee = +0
-
 +1 x75aee -1 x75b22 +0 x75b23 +1 x7678c = +0
-
 +1 x75aed -1 x75af9 -1 x75afa = +0
-
 +1 x75af9 -1 x75b05 -1 x75b06 = +0
-
 +1 x75b05 -1 x75b09 -1 x75b0a = +0
-
 +1 x75b09 -1 x75b0d -1 x75b0e = +0
-
 +1 x75b0d -1 x75b11 -1 x75b12 = +0
-
 +1 x75b0a +1 x75b0e +1 x75b12 -1 x75b17 = +0
-
 +1 x75afa +1 x75b06 +1 x75b11 -1 x75b1f = +0
-
 +1 x756bb -1 x75b41 -1 x75b42 = +0
-
 +1 x75b42 -1 x75b76 +0 x75b77 +1 x767d6 = +0
-
 +1 x75b41 -1 x75b4d -1 x75b4e = +0
-
 +1 x75b4d -1 x75b59 -1 x75b5a = +0
-
 +1 x75b59 -1 x75b5d -1 x75b5e = +0
-
 +1 x75b5d -1 x75b61 -1 x75b62 = +0
-
 +1 x75b61 -1 x75b65 -1 x75b66 = +0
-
 +1 x75b5e +1 x75b62 +1 x75b66 -1 x75b6b = +0
-
 +1 x75b4e +1 x75b5a +1 x75b65 -1 x75b73 = +0
-
 +1 x756ca -1 x75b95 -1 x75b96 = +0
-
 +1 x75b96 -1 x75bca +0 x75bcb +1 x76820 = +0
-
 +1 x75b95 -1 x75ba1 -1 x75ba2 = +0
-
 +1 x75ba1 -1 x75bad -1 x75bae = +0
-
 +1 x75bad -1 x75bb1 -1 x75bb2 = +0
-
 +1 x75bb1 -1 x75bb5 -1 x75bb6 = +0
-
 +1 x75bb5 -1 x75bb9 -1 x75bba = +0
-
 +1 x75bb2 +1 x75bb6 +1 x75bba -1 x75bbf = +0
-
 +1 x75ba2 +1 x75bae +1 x75bb9 -1 x75bc7 = +0
-
 +1 x75727 -1 x75be4 -1 x75be5 = +0
-
 +1 x7577b -1 x75be6 -1 x75be7 = +0
-
 +1 x757cf -1 x75be8 -1 x75be9 = +0
-
 +1 x75823 -1 x75bea -1 x75beb = +0
-
 +1 x75877 -1 x75bec -1 x75bed = +0
-
 +1 x758cb -1 x75bee -1 x75bef = +0
-
 +1 x7591f -1 x75bf0 -1 x75bf1 = +0
-
 +1 x75973 -1 x75bf2 -1 x75bf3 = +0
-
 +1 x759c7 -1 x75bf4 -1 x75bf5 = +0
-
 +1 x75a1b -1 x75bf6 -1 x75bf7 = +0
-
 +1 x75a6f -1 x75bf8 -1 x75bf9 = +0
-
 +1 x75ac3 -1 x75bfa -1 x75bfb = +0
-
 +1 x75b17 -1 x75bfc -1 x75bfd = +0
-
 +1 x75b6b -1 x75bfe -1 x75bff = +0
-
 +1 x75bbf -1 x75c00 -1 x75c01 = +0
-
 +1 x75be4 +1 x75be6 +1 x75be8 +1 x75bea +1 x75bec +1 x75bee +1 x75bf0 +1 x75bf2
 +1 x75bf4 +1 x75bf6 +1 x75bf8 +1 x75bfa +1 x75bfc +1 x75bfe +1 x75c00 -1 x75c02
 = +0
-
 +1 x75be5 +1 x75be7 +1 x75be9 +1 x75beb +1 x75bed +1 x75bef +1 x75bf1 +1 x75bf3
 +1 x75bf5 +1 x75bf7 +1 x75bf9 +1 x75bfb +1 x75bfd +1 x75bff +1 x75c01 -1 x75c03
 = +0
-
 +1 x75c03 -1 x75c05 -1 x75c06 -1 x75c07 -1 x75c08 -1 x75c09 -1 x75c0a -1 x75c0b
 -1 x75c0c -1 x75c0d -1 x75c0e -1 x75c0f -1 x75c10 -1 x75c11 -1 x75c12 -1 x75c13
 -1 x75c14 = +0
-
 +1 x75c05 -1 x75c24 +1 x7619b +1 x76225 +1 x76287 +1 x76884 +1 x768f8 +1 x76ef4
 +1 x76f72 = +0
-
 +1 x75c06 -1 x75c33 +1 x7619c +1 x76226 +1 x76288 +1 x76885 +1 x768f9 +1 x76ef5
 +1 x76f73 = +0
-
 +1 x75c07 -1 x75c42 +1 x7619d +1 x76227 +1 x76289 +1 x76886 +1 x768fa +1 x76ef6
 +1 x76f74 = +0
-
 +1 x75c08 -1 x75c51 +1 x7619e +1 x76228 +1 x7628a +1 x76887 +1 x768fb +1 x76ef7
 +1 x76f75 = +0
-
 +1 x75c09 -1 x75c60 +1 x7619f +1 x76229 +1 x7628b +1 x76888 +1 x768fc +1 x76ef8
 +1 x76f76 = +0
-
 +1 x75c0a -1 x75c6f +1 x761a0 +1 x7622a +1 x7628c +1 x76889 +1 x768fd +1 x76ef9
 +1 x76f77 = +0
-
 +1 x75c0b -1 x75c7e +1 x761a1 +1 x7622b +1 x7628d +1 x7688a +1 x768fe +1 x76efa
 +1 x76f78 = +0
-
 +1 x75c0c -1 x75c8d +1 x761a2 +1 x7622c +1 x7628e +1 x7688b +1 x768ff +1 x76efb
 +1 x76f79 = +0
-
 +1 x75c0d -1 x75c9c +1 x761a3 +1 x7622d +1 x7628f +1 x7688c +1 x76900 +1 x76efc
 +1 x76f7a = +0
-
 +1 x75c0e -1 x75cab +1 x761a4 +1 x7622e +1 x76290 +1 x7688d +1 x76901 +1 x76efd
 +1 x76f7b = +0
-
 +1 x75c0f -1 x75cba +1 x761a5 +1 x7622f +1 x76291 +1 x7688e +1 x76902 +1 x76efe
 +1 x76f7c = +0
-
 +1 x75c10 -1 x75cc9 +1 x761a6 +1 x76230 +1 x76292 +1 x7688f +1 x76903 +1 x76eff
 +1 x76f7d = +0
-
 +1 x75c11 -1 x75cd8 +1 x761a7 +1 x76231 +1 x76293 +1 x76890 +1 x76904 +1 x76f00
 +1 x76f7e = +0
-
 +1 x75c12 -1 x75ce7 +1 x761a8 +1 x76232 +1 x76294 +1 x76891 +1 x76905 +1 x76f01
 +1 x76f7f = +0
-
 +1 x75c13 -1 x75cf6 +1 x761a9 +1 x76233 +1 x76295 +1 x76892 +1 x76906 +1 x76f02
 +1 x76f80 = +0
-
 +1 x75c14 -1 x75d05 +1 x761aa +1 x76234 +1 x76296 +1 x76893 +1 x76907 +1 x76f03
 +1 x76f81 = +0
-
 +1 x75c24 -1 x75d29 -1 x75d2a = +0
-
 +1 x75d29 -1 x75d35 -1 x75d36 = +0
-
 +1 x75d35 -1 x75d41 -1 x75d42 = +0
-
 +1 x75d41 -1 x75d45 -1 x75d46 = +0
-
 +1 x75d45 -1 x75d49 -1 x75d4a = +0
-
 +1 x75d49 -1 x75d4d -1 x75d4e = +0
-
 +1 x75d46 +1 x75d4a +1 x75d4e -1 x75d53 = +0
-
 +1 x75d36 +1 x75d42 +1 x75d4d -1 x75d5b = +0
-
 +1 x75c33 -1 x75d73 -1 x75d74 = +0
-
 +1 x75d73 -1 x75d7f -1 x75d80 = +0
-
 +1 x75d7f -1 x75d8b -1 x75d8c = +0
-
 +1 x75d8b -1 x75d8f -1 x75d90 = +0
-
 +1 x75d8f -1 x75d93 -1 x75d94 = +0
-
 +1 x75d93 -1 x75d97 -1 x75d98 = +0
-
 +1 x75d90 +1 x75d94 +1 x75d98 -1 x75d9d = +0
-
 +1 x75d80 +1 x75d8c +1 x75d97 -1 x75da5 = +0
-
 +1 x75c42 -1 x75dbd -1 x75dbe = +0
-
 +1 x75dbd -1 x75dc9 -1 x75dca = +0
-
 +1 x75dc9 -1 x75dd5 -1 x75dd6 = +0
-
 +1 x75dd5 -1 x75dd9 -1 x75dda = +0
-
 +1 x75dd9 -1 x75ddd -1 x75dde = +0
-
 +1 x75ddd -1 x75de1 -1 x75de2 = +0
-
 +1 x75dda +1 x75dde +1 x75de2 -1 x75de7 = +0
-
 +1 x75dca +1 x75dd6 +1 x75de1 -1 x75def = +0
-
 +1 x75c51 -1 x75e07 -1 x75e08 = +0
-
 +1 x75e07 -1 x75e13 -1 x75e14 = +0
-
 +1 x75e13 -1 x75e1f -1 x75e20 = +0
-
 +1 x75e1f -1 x75e23 -1 x75e24 = +0
-
 +1 x75e23 -1 x75e27 -1 x75e28 = +0
-
 +1 x75e27 -1 x75e2b -1 x75e2c = +0
-
 +1 x75e24 +1 x75e28 +1 x75e2c -1 x75e31 = +0
-
 +1 x75e14 +1 x75e20 +1 x75e2b -1 x75e39 = +0
-
 +1 x75c60 -1 x75e51 -1 x75e52 = +0
-
 +1 x75e51 -1 x75e5d -1 x75e5e = +0
-
 +1 x75e5d -1 x75e69 -1 x75e6a = +0
-
 +1 x75e69 -1 x75e6d -1 x75e6e = +0
-
 +1 x75e6d -1 x75e71 -1 x75e72 = +0
-
 +1 x75e71 -1 x75e75 -1 x75e76 = +0
-
 +1 x75e6e +1 x75e72 +1 x75e76 -1 x75e7b = +0
-
 +1 x75e5e +1 x75e6a +1 x75e75 -1 x75e83 = +0
-
 +1 x75c6f -1 x75e9b -1 x75e9c = +0
-
 +1 x75e9b -1 x75ea7 -1 x75ea8 = +0
-
 +1 x75ea7 -1 x75eb3 -1 x75eb4 = +0
-
 +1 x75eb3 -1 x75eb7 -1 x75eb8 = +0
-
 +1 x75eb7 -1 x75ebb -1 x75ebc = +0
-
 +1 x75ebb -1 x75ebf -1 x75ec0 = +0
-
 +1 x75eb8 +1 x75ebc +1 x75ec0 -1 x75ec5 = +0
-
 +1 x75ea8 +1 x75eb4 +1 x75ebf -1 x75ecd = +0
-
 +1 x75c7e -1 x75ee5 -1 x75ee6 = +0
-
 +1 x75ee5 -1 x75ef1 -1 x75ef2 = +0
-
 +1 x75ef1 -1 x75efd -1 x75efe = +0
-
 +1 x75efd -1 x75f01 -1 x75f02 = +0
-
 +1 x75f01 -1 x75f05 -1 x75f06 = +0
-
 +1 x75f05 -1 x75f09 -1 x75f0a = +0
-
 +1 x75f02 +1 x75f06 +1 x75f0a -1 x75f0f = +0
-
 +1 x75ef2 +1 x75efe +1 x75f09 -1 x75f17 = +0
-
 +1 x75c8d -1 x75f2f -1 x75f30 = +0
-
 +1 x75f2f -1 x75f3b -1 x75f3c = +0
-
 +1 x75f3b -1 x75f47 -1 x75f48 = +0
-
 +1 x75f47 -1 x75f4b -1 x75f4c = +0
-
 +1 x75f4b -1 x75f4f -1 x75f50 = +0
-
 +1 x75f4f -1 x75f53 -1 x75f54 = +0
-
 +1 x75f4c +1 x75f50 +1 x75f54 -1 x75f59 = +0
-
 +1 x75f3c +1 x75f48 +1 x75f53 -1 x75f61 = +0
-
 +1 x75c9c -1 x75f79 -1 x75f7a = +0
-
 +1 x75f79 -1 x75f85 -1 x75f86 = +0
-
 +1 x75f85 -1 x75f91 -1 x75f92 = +0
-
 +1 x75f91 -1 x75f95 -1 x75f96 = +0
-
 +1 x75f95 -1 x75f99 -1 x75f9a = +0
-
 +1 x75f99 -1 x75f9d -1 x75f9e = +0
-
 +1 x75f96 +1 x75f9a +1 x75f9e -1 x75fa3 = +0
-
 +1 x75f86 +1 x75f92 +1 x75f9d -1 x75fab = +0
-
 +1 x75cab -1 x75fc3 -1 x75fc4 = +0
-
 +1 x75fc3 -1 x75fcf -1 x75fd0 = +0
-
 +1 x75fcf -1 x75fdb -1 x75fdc = +0
-
 +1 x75fdb -1 x75fdf -1 x75fe0 = +0
-
 +1 x75fdf -1 x75fe3 -1 x75fe4 = +0
-
 +1 x75fe3 -1 x75fe7 -1 x75fe8 = +0
-
 +1 x75fe0 +1 x75fe4 +1 x75fe8 -1 x75fed = +0
-
 +1 x75fd0 +1 x75fdc +1 x75fe7 -1 x75ff5 = +0
-
 +1 x75cba -1 x7600d -1 x7600e = +0
-
 +1 x7600d -1 x76019 -1 x7601a = +0
-
 +1 x76019 -1 x76025 -1 x76026 = +0
-
 +1 x76025 -1 x76029 -1 x7602a = +0
-
 +1 x76029 -1 x7602d -1 x7602e = +0
-
 +1 x7602d -1 x76031 -1 x76032 = +0
-
 +1 x7602a +1 x7602e +1 x76032 -1 x76037 = +0
-
 +1 x7601a +1 x76026 +1 x76031 -1 x7603f = +0
-
 +1 x75cc9 -1 x76057 -1 x76058 = +0
-
 +1 x76057 -1 x76063 -1 x76064 = +0
-
 +1 x76063 -1 x7606f -1 x76070 = +0
-
 +1 x7606f -1 x76073 -1 x76074 = +0
-
 +1 x76073 -1 x76077 -1 x76078 = +0
-
 +1 x76077 -1 x7607b -1 x7607c = +0
-
 +1 x76074 +1 x76078 +1 x7607c -1 x76081 = +0
-
 +1 x76064 +1 x76070 +1 x7607b -1 x76089 = +0
-
 +1 x75cd8 -1 x760a1 -1 x760a2 = +0
-
 +1 x760a1 -1 x760ad -1 x760ae = +0
-
 +1 x760ad -1 x760b9 -1 x760ba = +0
-
 +1 x760b9 -1 x760bd -1 x760be = +0
-
 +1 x760bd -1 x760c1 -1 x760c2 = +0
-
 +1 x760c1 -1 x760c5 -1 x760c6 = +0
-
 +1 x760be +1 x760c2 +1 x760c6 -1 x760cb = +0
-
 +1 x760ae +1 x760ba +1 x760c5 -1 x760d3 = +0
-
 +1 x75ce7 -1 x760eb -1 x760ec = +0
-
 +1 x760eb -1 x760f7 -1 x760f8 = +0
-
 +1 x760f7 -1 x76103 -1 x76104 = +0
-
 +1 x76103 -1 x76107 -1 x76108 = +0
-
 +1 x76107 -1 x7610b -1 x7610c = +0
-
 +1 x7610b -1 x7610f -1 x76110 = +0
-
 +1 x76108 +1 x7610c +1 x76110 -1 x76115 = +0
-
 +1 x760f8 +1 x76104 +1 x7610f -1 x7611d = +0
-
 +1 x75cf6 -1 x76135 -1 x76136 = +0
-
 +1 x76135 -1 x76141 -1 x76142 = +0
-
 +1 x76141 -1 x7614d -1 x7614e = +0
-
 +1 x7614d -1 x76151 -1 x76152 = +0
-
 +1 x76151 -1 x76155 -1 x76156 = +0
-
 +1 x76155 -1 x76159 -1 x7615a = +0
-
 +1 x76152 +1 x76156 +1 x7615a -1 x7615f = +0
-
 +1 x76142 +1 x7614e +1 x76159 -1 x76167 = +0
-
 +1 x75d53 -1 x7617a -1 x7617b = +0
-
 +1 x75d9d -1 x7617c -1 x7617d = +0
-
 +1 x75de7 -1 x7617e -1 x7617f = +0
-
 +1 x75e31 -1 x76180 -1 x76181 = +0
-
 +1 x75e7b -1 x76182 -1 x76183 = +0
-
 +1 x75ec5 -1 x76184 -1 x76185 = +0
-
 +1 x75f0f -1 x76186 -1 x76187 = +0
-
 +1 x75f59 -1 x76188 -1 x76189 = +0
-
 +1 x75fa3 -1 x7618a -1 x7618b = +0
-
 +1 x75fed -1 x7618c -1 x7618d = +0
-
 +1 x76037 -1 x7618e -1 x7618f = +0
-
 +1 x76081 -1 x76190 -1 x76191 = +0
-
 +1 x760cb -1 x76192 -1 x76193 = +0
-
 +1 x76115 -1 x76194 -1 x76195 = +0
-
 +1 x7615f -1 x76196 -1 x76197 = +0
-
 +1 x7617a +1 x7617c +1 x7617e +1 x76180 +1 x76182 +1 x76184 +1 x76186 +1 x76188
 +1 x7618a +1 x7618c +1 x7618e +1 x76190 +1 x76192 +1 x76194 +1 x76196 -1 x76198
 = +0
-
 +1 x7617b +1 x7617d +1 x7617f +1 x76181 +1 x76183 +1 x76185 +1 x76187 +1 x76189
 +1 x7618b +1 x7618d +1 x7618f +1 x76191 +1 x76193 +1 x76195 +1 x76197 -1 x76199
 = +0
-
 +1 x76199 -1 x7619b -1 x7619c -1 x7619d -1 x7619e -1 x7619f -1 x761a0 -1 x761a1
 -1 x761a2 -1 x761a3 -1 x761a4 -1 x761a5 -1 x761a6 -1 x761a7 -1 x761a8 -1 x761a9
 -1 x761aa = +0
-
 +1 x761bb +1 x761bc -1 x761bd = +0
-
 +1 x75d05 -1 x761eb -1 x761ec = +0
-
 +1 x756d9 -1 x761ed -1 x761ee = +0
-
 +1 x761ec +1 x76256 -1 x762b7 +0 x762b8 +1 x76fa2 -1 x771cd = +0
-
 +1 x761ee -1 x762b9 +0 x762ba +1 x768c8 = +0
-
 +1 x761eb +1 x761ed -1 x761fd = +0
-
 +1 x761fd -1 x76200 -1 x76201 = +0
-
 +1 x76200 -1 x7620c -1 x7620d = +0
-
 +1 x7620c -1 x76210 -1 x76211 = +0
-
 +1 x76210 -1 x76214 -1 x76215 = +0
-
 +1 x76214 -1 x76218 -1 x76219 = +0
-
 +1 x76211 +1 x76215 +1 x76219 -1 x7621e = +0
-
 +1 x7621e -1 x76221 -1 x76222 = +0
-
 +1 x76222 -1 x76225 -1 x76226 -1 x76227 -1 x76228 -1 x76229 -1 x7622a -1 x7622b
 -1 x7622c -1 x7622d -1 x7622e -1 x7622f -1 x76230 -1 x76231 -1 x76232 -1 x76233
 -1 x76234 = +0
-
 +1 x76201 +1 x7620d +1 x76218 -1 x76252 = +0
-
 +1 x76252 -1 x76254 +1 x762b4 +1 x76925 +1 x76f9f -1 x77169 = +0
-
 +1 x76254 -1 x76255 -1 x76256 = +0
-
 +1 x76255 -1 x76262 -1 x76263 = +0
-
 +1 x76262 -1 x7626e -1 x7626f = +0
-
 +1 x7626e -1 x76272 -1 x76273 = +0
-
 +1 x76272 -1 x76276 -1 x76277 = +0
-
 +1 x76276 -1 x7627a -1 x7627b = +0
-
 +1 x76273 +1 x76277 +1 x7627b -1 x76280 = +0
-
 +1 x76280 -1 x76283 -1 x76284 = +0
-
 +1 x76284 -1 x76287 -1 x76288 -1 x76289 -1 x7628a -1 x7628b -1 x7628c -1 x7628d
 -1 x7628e -1 x7628f -1 x76290 -1 x76291 -1 x76292 -1 x76293 -1 x76294 -1 x76295
 -1 x76296 = +0
-
 +1 x76263 +1 x7626f +1 x7627a -1 x762b4 = +0
-
 +1 x762c2 -1 x762ce -1 x762cf = +0
-
 +1 x762c1 -1 x762d0 -1 x762d1 = +0
-
 +1 x762c0 -1 x762d2 -1 x762d3 = +0
-
 +1 x762bf -1 x762d4 -1 x762d5 = +0
-
 +1 x762c6 -1 x762d6 -1 x762d7 = +0
-
 +1 x762c5 -1 x762d8 -1 x762d9 = +0
-
 +1 x762c4 -1 x762da -1 x762db = +0
-
 +1 x762c3 -1 x762dc -1 x762dd = +0
-
 +1 x762ca -1 x762de -1 x762df = +0
-
 +1 x762c9 -1 x762e0 -1 x762e1 = +0
-
 +1 x762c8 -1 x762e2 -1 x762e3 = +0
-
 +1 x762c7 -1 x762e4 -1 x762e5 = +0
-
 +1 x762cb -1 x762e6 -1 x762e7 = +0
-
 +1 x762cc -1 x762e8 -1 x762e9 = +0
-
 +1 x762cd -1 x762ea -1 x762eb = +0
-
 +1 x762e6 +1 x762e8 +1 x762ea -1 x768ab = +0
-
 +1 x762ce +1 x762d0 +1 x762d2 +1 x762d4 +1 x762d6 +1 x762d8 +1 x762da +1 x762dc
 +1 x762de +1 x762e0 +1 x762e2 +1 x762e4 -1 x768ac = +0
-
 +1 x762e7 +1 x762e9 +1 x762eb -1 x762ec = +0
-
 +1 x762cf +1 x762d1 +1 x762d3 +1 x762d5 +1 x762d7 +1 x762d9 +1 x762db +1 x762dd
 +1 x762df +1 x762e1 +1 x762e3 +1 x762e5 -1 x762ed = +0
-
 +1 x762ec +1 x762ed -1 x762ee = +0
-
 +1 x762ee -1 x762ef -1 x762f0 -1 x762f1 -1 x762f2 -1 x762f3 -1 x762f4 -1 x762f5
 -1 x762f6 -1 x762f7 -1 x762f8 -1 x762f9 -1 x762fa -1 x762fb -1 x762fc -1 x762fd
 -1 x762fe = +0
-
 +1 x762ef -1 x7630e +1 x770dc +1 x77206 +1 x77972 +1 x7821c = +0
-
 +1 x762f0 -1 x7631d +1 x770dd +1 x77207 +1 x77973 +1 x7821d = +0
-
 +1 x762f1 -1 x7632c +1 x770de +1 x77208 +1 x77974 +1 x7821e = +0
-
 +1 x762f2 -1 x7633b +1 x770df +1 x77209 +1 x77975 +1 x7821f = +0
-
 +1 x762f3 -1 x7634a +1 x770e0 +1 x7720a +1 x77976 +1 x78220 = +0
-
 +1 x762f4 -1 x76359 +1 x770e1 +1 x7720b +1 x77977 +1 x78221 = +0
-
 +1 x762f5 -1 x76368 +1 x770e2 +1 x7720c +1 x77978 +1 x78222 = +0
-
 +1 x762f6 -1 x76377 +1 x770e3 +1 x7720d +1 x77979 +1 x78223 = +0
-
 +1 x762f7 -1 x76386 +1 x770e4 +1 x7720e +1 x7797a +1 x78224 = +0
-
 +1 x762f8 -1 x76395 +1 x770e5 +1 x7720f +1 x7797b +1 x78225 = +0
-
 +1 x762f9 -1 x763a4 +1 x770e6 +1 x77210 +1 x7797c +1 x78226 = +0
-
 +1 x762fa -1 x763b3 +1 x770e7 +1 x77211 +1 x7797d +1 x78227 = +0
-
 +1 x762fb -1 x763c2 +1 x770e8 +1 x77212 +1 x7797e +1 x78228 = +0
-
 +1 x762fc -1 x763d1 +1 x770e9 +1 x77213 +1 x7797f +1 x78229 = +0
-
 +1 x762fd -1 x763e0 +1 x770ea +1 x77214 +1 x77980 +1 x7822a = +0
-
 +1 x762fe -1 x763ef +1 x770eb +1 x77215 +1 x77981 +1 x7822b = +0
-
 +1 x7630e -1 x76413 -1 x76414 = +0
-
 +1 x76413 -1 x7641f -1 x76420 = +0
-
 +1 x7641f -1 x7642b -1 x7642c = +0
-
 +1 x7642b -1 x7642f -1 x76430 = +0
-
 +1 x7642f -1 x76433 -1 x76434 = +0
-
 +1 x76433 -1 x76437 -1 x76438 = +0
-
 +1 x76430 +1 x76434 +1 x76438 -1 x7643d = +0
-
 +1 x76420 +1 x7642c +1 x76437 -1 x76445 = +0
-
 +1 x7631d -1 x7645d -1 x7645e = +0
-
 +1 x7645d -1 x76469 -1 x7646a = +0
-
 +1 x76469 -1 x76475 -1 x76476 = +0
-
 +1 x76475 -1 x76479 -1 x7647a = +0
-
 +1 x76479 -1 x7647d -1 x7647e = +0
-
 +1 x7647d -1 x76481 -1 x76482 = +0
-
 +1 x7647a +1 x7647e +1 x76482 -1 x76487 = +0
-
 +1 x7646a +1 x76476 +1 x76481 -1 x7648f = +0
-
 +1 x7632c -1 x764a7 -1 x764a8 = +0
-
 +1 x764a7 -1 x764b3 -1 x764b4 = +0
-
 +1 x764b3 -1 x764bf -1 x764c0 = +0
-
 +1 x764bf -1 x764c3 -1 x764c4 = +0
-
 +1 x764c3 -1 x764c7 -1 x764c8 = +0
-
 +1 x764c7 -1 x764cb -1 x764cc = +0
-
 +1 x764c4 +1 x764c8 +1 x764cc -1 x764d1 = +0
-
 +1 x764b4 +1 x764c0 +1 x764cb -1 x764d9 = +0
-
 +1 x7633b -1 x764f1 -1 x764f2 = +0
-
 +1 x764f1 -1 x764fd -1 x764fe = +0
-
 +1 x764fd -1 x76509 -1 x7650a = +0
-
 +1 x76509 -1 x7650d -1 x7650e = +0
-
 +1 x7650d -1 x76511 -1 x76512 = +0
-
 +1 x76511 -1 x76515 -1 x76516 = +0
-
 +1 x7650e +1 x76512 +1 x76516 -1 x7651b = +0
-
 +1 x764fe +1 x7650a +1 x76515 -1 x76523 = +0
-
 +1 x7634a -1 x7653b -1 x7653c = +0
-
 +1 x7653b -1 x76547 -1 x76548 = +0
-
 +1 x76547 -1 x76553 -1 x76554 = +0
-
 +1 x76553 -1 x76557 -1 x76558 = +0
-
 +1 x76557 -1 x7655b -1 x7655c = +0
-
 +1 x7655b -1 x7655f -1 x76560 = +0
-
 +1 x76558 +1 x7655c +1 x76560 -1 x76565 = +0
-
 +1 x76548 +1 x76554 +1 x7655f -1 x7656d = +0
-
 +1 x76359 -1 x76585 -1 x76586 = +0
-
 +1 x76585 -1 x76591 -1 x76592 = +0
-
 +1 x76591 -1 x7659d -1 x7659e = +0
-
 +1 x7659d -1 x765a1 -1 x765a2 = +0
-
 +1 x765a1 -1 x765a5 -1 x765a6 = +0
-
 +1 x765a5 -1 x765a9 -1 x765aa = +0
-
 +1 x765a2 +1 x765a6 +1 x765aa -1 x765af = +0
-
 +1 x76592 +1 x7659e +1 x765a9 -1 x765b7 = +0
-
 +1 x76368 -1 x765cf -1 x765d0 = +0
-
 +1 x765cf -1 x765db -1 x765dc = +0
-
 +1 x765db -1 x765e7 -1 x765e8 = +0
-
 +1 x765e7 -1 x765eb -1 x765ec = +0
-
 +1 x765eb -1 x765ef -1 x765f0 = +0
-
 +1 x765ef -1 x765f3 -1 x765f4 = +0
-
 +1 x765ec +1 x765f0 +1 x765f4 -1 x765f9 = +0
-
 +1 x765dc +1 x765e8 +1 x765f3 -1 x76601 = +0
-
 +1 x76377 -1 x76619 -1 x7661a = +0
-
 +1 x76619 -1 x76625 -1 x76626 = +0
-
 +1 x76625 -1 x76631 -1 x76632 = +0
-
 +1 x76631 -1 x76635 -1 x76636 = +0
-
 +1 x76635 -1 x76639 -1 x7663a = +0
-
 +1 x76639 -1 x7663d -1 x7663e = +0
-
 +1 x76636 +1 x7663a +1 x7663e -1 x76643 = +0
-
 +1 x76626 +1 x76632 +1 x7663d -1 x7664b = +0
-
 +1 x76386 -1 x76663 -1 x76664 = +0
-
 +1 x76663 -1 x7666f -1 x76670 = +0
-
 +1 x7666f -1 x7667b -1 x7667c = +0
-
 +1 x7667b -1 x7667f -1 x76680 = +0
-
 +1 x7667f -1 x76683 -1 x76684 = +0
-
 +1 x76683 -1 x76687 -1 x76688 = +0
-
 +1 x76680 +1 x76684 +1 x76688 -1 x7668d = +0
-
 +1 x76670 +1 x7667c +1 x76687 -1 x76695 = +0
-
 +1 x76395 -1 x766ad -1 x766ae = +0
-
 +1 x766ad -1 x766b9 -1 x766ba = +0
-
 +1 x766b9 -1 x766c5 -1 x766c6 = +0
-
 +1 x766c5 -1 x766c9 -1 x766ca = +0
-
 +1 x766c9 -1 x766cd -1 x766ce = +0
-
 +1 x766cd -1 x766d1 -1 x766d2 = +0
-
 +1 x766ca +1 x766ce +1 x766d2 -1 x766d7 = +0
-
 +1 x766ba +1 x766c6 +1 x766d1 -1 x766df = +0
-
 +1 x763a4 -1 x766f7 -1 x766f8 = +0
-
 +1 x766f7 -1 x76703 -1 x76704 = +0
-
 +1 x76703 -1 x7670f -1 x76710 = +0
-
 +1 x7670f -1 x76713 -1 x76714 = +0
-
 +1 x76713 -1 x76717 -1 x76718 = +0
-
 +1 x76717 -1 x7671b -1 x7671c = +0
-
 +1 x76714 +1 x76718 +1 x7671c -1 x76721 = +0
-
 +1 x76704 +1 x76710 +1 x7671b -1 x76729 = +0
-
 +1 x763b3 -1 x76741 -1 x76742 = +0
-
 +1 x76741 -1 x7674d -1 x7674e = +0
-
 +1 x7674d -1 x76759 -1 x7675a = +0
-
 +1 x76759 -1 x7675d -1 x7675e = +0
-
 +1 x7675d -1 x76761 -1 x76762 = +0
-
 +1 x76761 -1 x76765 -1 x76766 = +0
-
 +1 x7675e +1 x76762 +1 x76766 -1 x7676b = +0
-
 +1 x7674e +1 x7675a +1 x76765 -1 x76773 = +0
-
 +1 x763c2 -1 x7678b -1 x7678c = +0
-
 +1 x7678b -1 x76797 -1 x76798 = +0
-
 +1 x76797 -1 x767a3 -1 x767a4 = +0
-
 +1 x767a3 -1 x767a7 -1 x767a8 = +0
-
 +1 x767a7 -1 x767ab -1 x767ac = +0
-
 +1 x767ab -1 x767af -1 x767b0 = +0
-
 +1 x767a8 +1 x767ac +1 x767b0 -1 x767b5 = +0
-
 +1 x76798 +1 x767a4 +1 x767af -1 x767bd = +0
-
 +1 x763d1 -1 x767d5 -1 x767d6 = +0
-
 +1 x767d5 -1 x767e1 -1 x767e2 = +0
-
 +1 x767e1 -1 x767ed -1 x767ee = +0
-
 +1 x767ed -1 x767f1 -1 x767f2 = +0
-
 +1 x767f1 -1 x767f5 -1 x767f6 = +0
-
 +1 x767f5 -1 x767f9 -1 x767fa = +0
-
 +1 x767f2 +1 x767f6 +1 x767fa -1 x767ff = +0
-
 +1 x767e2 +1 x767ee +1 x767f9 -1 x76807 = +0
-
 +1 x763e0 -1 x7681f -1 x76820 = +0
-
 +1 x7681f -1 x7682b -1 x7682c = +0
-
 +1 x7682b -1 x76837 -1 x76838 = +0
-
 +1 x76837 -1 x7683b -1 x7683c = +0
-
 +1 x7683b -1 x7683f -1 x76840 = +0
-
 +1 x7683f -1 x76843 -1 x76844 = +0
-
 +1 x7683c +1 x76840 +1 x76844 -1 x76849 = +0
-
 +1 x7682c +1 x76838 +1 x76843 -1 x76851 = +0
-
 +1 x7643d -1 x76864 -1 x76865 = +0
-
 +1 x76487 -1 x76866 -1 x76867 = +0
-
 +1 x764d1 -1 x76868 -1 x76869 = +0
-
 +1 x7651b -1 x7686a -1 x7686b = +0
-
 +1 x76565 -1 x7686c -1 x7686d = +0
-
 +1 x765af -1 x7686e -1 x7686f = +0
-
 +1 x765f9 -1 x76870 -1 x76871 = +0
-
 +1 x76643 -1 x76872 -1 x76873 = +0
-
 +1 x7668d -1 x76874 -1 x76875 = +0
-
 +1 x766d7 -1 x76876 -1 x76877 = +0
-
 +1 x76721 -1 x76878 -1 x76879 = +0
-
 +1 x7676b -1 x7687a -1 x7687b = +0
-
 +1 x767b5 -1 x7687c -1 x7687d = +0
-
 +1 x767ff -1 x7687e -1 x7687f = +0
-
 +1 x76849 -1 x76880 -1 x76881 = +0
-
 +1 x76864 +1 x76866 +1 x76868 +1 x7686a +1 x7686c +1 x7686e +1 x76870 +1 x76872
 +1 x76874 +1 x76876 +1 x76878 +1 x7687a +1 x7687c +1 x7687e +1 x76880 -1 x768a4
 = +0
-
 +1 x76865 +1 x76867 +1 x76869 +1 x7686b +1 x7686d +1 x7686f +1 x76871 +1 x76873
 +1 x76875 +1 x76877 +1 x76879 +1 x7687b +1 x7687d +1 x7687f +1 x76881 -1 x76882
 = +0
-
 +1 x76882 -1 x76884 -1 x76885 -1 x76886 -1 x76887 -1 x76888 -1 x76889 -1 x7688a
 -1 x7688b -1 x7688c -1 x7688d -1 x7688e -1 x7688f -1 x76890 -1 x76891 -1 x76892
 -1 x76893 = +0
-
 +1 x768ab +1 x768ac -1 x768ad = +0
-
 +1 x763ef -1 x768c7 -1 x768c8 = +0
-
 +1 x768c7 -1 x768d3 -1 x768d4 = +0
-
 +1 x768d3 -1 x768df -1 x768e0 = +0
-
 +1 x768df -1 x768e3 -1 x768e4 = +0
-
 +1 x768e3 -1 x768e7 -1 x768e8 = +0
-
 +1 x768e7 -1 x768eb -1 x768ec = +0
-
 +1 x768e4 +1 x768e8 +1 x768ec -1 x768f1 = +0
-
 +1 x768f1 -1 x768f4 -1 x768f5 = +0
-
 +1 x768f5 -1 x768f8 -1 x768f9 -1 x768fa -1 x768fb -1 x768fc -1 x768fd -1 x768fe
 -1 x768ff -1 x76900 -1 x76901 -1 x76902 -1 x76903 -1 x76904 -1 x76905 -1 x76906
 -1 x76907 = +0
-
 +1 x768d4 +1 x768e0 +1 x768eb -1 x76925 = +0
-
 +1 x762b7 +1 x762b9 -1 x76931 = +0
-
 +1 x76931 -1 x76933 -1 x771d8 = +0
-
 +1 x76933 -1 x76934 -1 x76935 = +0
-
 +1 x76935 -1 x76fa3 +0 x76fa4 -1 x77232 = +0
-
 +1 x76934 -1 x76945 -1 x76946 = +0
-
 +1 x76945 -1 x76951 -1 x76952 = +0
-
 +1 x76951 -1 x7695b -1 x7695c = +0
-
 +1 x7695c -1 x7695f -1 x76960 -1 x76961 -1 x76962 -1 x76963 -1 x76964 -1 x76965
 -1 x76966 -1 x76967 -1 x76968 -1 x76969 -1 x7696a -1 x7696b -1 x7696c -1 x7696d
 -1 x7696e = +0
-
 +1 x7695f -1 x76a83 -1 x76a84 = +0
-
 +1 x76a83 -1 x76a8f -1 x76a90 = +0
-
 +1 x76a8f -1 x76a9b -1 x76a9c = +0
-
 +1 x76a9b -1 x76a9f -1 x76aa0 = +0
-
 +1 x76a9f -1 x76aa3 -1 x76aa4 = +0
-
 +1 x76aa3 -1 x76aa7 -1 x76aa8 = +0
-
 +1 x76aa0 +1 x76aa4 +1 x76aa8 -1 x76aad = +0
-
 +1 x76a90 +1 x76a9c +1 x76aa7 -1 x76ab5 = +0
-
 +1 x76960 -1 x76acd -1 x76ace = +0
-
 +1 x76acd -1 x76ad9 -1 x76ada = +0
-
 +1 x76ad9 -1 x76ae5 -1 x76ae6 = +0
-
 +1 x76ae5 -1 x76ae9 -1 x76aea = +0
-
 +1 x76ae9 -1 x76aed -1 x76aee = +0
-
 +1 x76aed -1 x76af1 -1 x76af2 = +0
-
 +1 x76aea +1 x76aee +1 x76af2 -1 x76af7 = +0
-
 +1 x76ada +1 x76ae6 +1 x76af1 -1 x76aff = +0
-
 +1 x76961 -1 x76b17 -1 x76b18 = +0
-
 +1 x76b17 -1 x76b23 -1 x76b24 = +0
-
 +1 x76b23 -1 x76b2f -1 x76b30 = +0
-
 +1 x76b2f -1 x76b33 -1 x76b34 = +0
-
 +1 x76b33 -1 x76b37 -1 x76b38 = +0
-
 +1 x76b37 -1 x76b3b -1 x76b3c = +0
-
 +1 x76b34 +1 x76b38 +1 x76b3c -1 x76b41 = +0
-
 +1 x76b24 +1 x76b30 +1 x76b3b -1 x76b49 = +0
-
 +1 x76962 -1 x76b61 -1 x76b62 = +0
-
 +1 x76b61 -1 x76b6d -1 x76b6e = +0
-
 +1 x76b6d -1 x76b79 -1 x76b7a = +0
-
 +1 x76b79 -1 x76b7d -1 x76b7e = +0
-
 +1 x76b7d -1 x76b81 -1 x76b82 = +0
-
 +1 x76b81 -1 x76b85 -1 x76b86 = +0
-
 +1 x76b7e +1 x76b82 +1 x76b86 -1 x76b8b = +0
-
 +1 x76b6e +1 x76b7a +1 x76b85 -1 x76b93 = +0
-
 +1 x76963 -1 x76bab -1 x76bac = +0
-
 +1 x76bab -1 x76bb7 -1 x76bb8 = +0
-
 +1 x76bb7 -1 x76bc3 -1 x76bc4 = +0
-
 +1 x76bc3 -1 x76bc7 -1 x76bc8 = +0
-
 +1 x76bc7 -1 x76bcb -1 x76bcc = +0
-
 +1 x76bcb -1 x76bcf -1 x76bd0 = +0
-
 +1 x76bc8 +1 x76bcc +1 x76bd0 -1 x76bd5 = +0
-
 +1 x76bb8 +1 x76bc4 +1 x76bcf -1 x76bdd = +0
-
 +1 x76964 -1 x76bf5 -1 x76bf6 = +0
-
 +1 x76bf5 -1 x76c01 -1 x76c02 = +0
-
 +1 x76c01 -1 x76c0d -1 x76c0e = +0
-
 +1 x76c0d -1 x76c11 -1 x76c12 = +0
-
 +1 x76c11 -1 x76c15 -1 x76c16 = +0
-
 +1 x76c15 -1 x76c19 -1 x76c1a = +0
-
 +1 x76c12 +1 x76c16 +1 x76c1a -1 x76c1f = +0
-
 +1 x76c02 +1 x76c0e +1 x76c19 -1 x76c27 = +0
-
 +1 x76965 -1 x76c3f -1 x76c40 = +0
-
 +1 x76c3f -1 x76c4b -1 x76c4c = +0
-
 +1 x76c4b -1 x76c57 -1 x76c58 = +0
-
 +1 x76c57 -1 x76c5b -1 x76c5c = +0
-
 +1 x76c5b -1 x76c5f -1 x76c60 = +0
-
 +1 x76c5f -1 x76c63 -1 x76c64 = +0
-
 +1 x76c5c +1 x76c60 +1 x76c64 -1 x76c69 = +0
-
 +1 x76c4c +1 x76c58 +1 x76c63 -1 x76c71 = +0
-
 +1 x76966 -1 x76c89 -1 x76c8a = +0
-
 +1 x76c89 -1 x76c95 -1 x76c96 = +0
-
 +1 x76c95 -1 x76ca1 -1 x76ca2 = +0
-
 +1 x76ca1 -1 x76ca5 -1 x76ca6 = +0
-
 +1 x76ca5 -1 x76ca9 -1 x76caa = +0
-
 +1 x76ca9 -1 x76cad -1 x76cae = +0
-
 +1 x76ca6 +1 x76caa +1 x76cae -1 x76cb3 = +0
-
 +1 x76c96 +1 x76ca2 +1 x76cad -1 x76cbb = +0
-
 +1 x76967 -1 x76cd3 -1 x76cd4 = +0
-
 +1 x76cd3 -1 x76cdf -1 x76ce0 = +0
-
 +1 x76cdf -1 x76ceb -1 x76cec = +0
-
 +1 x76ceb -1 x76cef -1 x76cf0 = +0
-
 +1 x76cef -1 x76cf3 -1 x76cf4 = +0
-
 +1 x76cf3 -1 x76cf7 -1 x76cf8 = +0
-
 +1 x76cf0 +1 x76cf4 +1 x76cf8 -1 x76cfd = +0
-
 +1 x76ce0 +1 x76cec +1 x76cf7 -1 x76d05 = +0
-
 +1 x76968 -1 x76d1d -1 x76d1e = +0
-
 +1 x76d1d -1 x76d29 -1 x76d2a = +0
-
 +1 x76d29 -1 x76d35 -1 x76d36 = +0
-
 +1 x76d35 -1 x76d39 -1 x76d3a = +0
-
 +1 x76d39 -1 x76d3d -1 x76d3e = +0
-
 +1 x76d3d -1 x76d41 -1 x76d42 = +0
-
 +1 x76d3a +1 x76d3e +1 x76d42 -1 x76d47 = +0
-
 +1 x76d2a +1 x76d36 +1 x76d41 -1 x76d4f = +0
-
 +1 x76969 -1 x76d67 -1 x76d68 = +0
-
 +1 x76d67 -1 x76d73 -1 x76d74 = +0
-
 +1 x76d73 -1 x76d7f -1 x76d80 = +0
-
 +1 x76d7f -1 x76d83 -1 x76d84 = +0
-
 +1 x76d83 -1 x76d87 -1 x76d88 = +0
-
 +1 x76d87 -1 x76d8b -1 x76d8c = +0
-
 +1 x76d84 +1 x76d88 +1 x76d8c -1 x76d91 = +0
-
 +1 x76d74 +1 x76d80 +1 x76d8b -1 x76d99 = +0
-
 +1 x7696a -1 x76db1 -1 x76db2 = +0
-
 +1 x76db1 -1 x76dbd -1 x76dbe = +0
-
 +1 x76dbd -1 x76dc9 -1 x76dca = +0
-
 +1 x76dc9 -1 x76dcd -1 x76dce = +0
-
 +1 x76dcd -1 x76dd1 -1 x76dd2 = +0
-
 +1 x76dd1 -1 x76dd5 -1 x76dd6 = +0
-
 +1 x76dce +1 x76dd2 +1 x76dd6 -1 x76ddb = +0
-
 +1 x76dbe +1 x76dca +1 x76dd5 -1 x76de3 = +0
-
 +1 x7696b -1 x76dfb -1 x76dfc = +0
-
 +1 x76dfb -1 x76e07 -1 x76e08 = +0
-
 +1 x76e07 -1 x76e13 -1 x76e14 = +0
-
 +1 x76e13 -1 x76e17 -1 x76e18 = +0
-
 +1 x76e17 -1 x76e1b -1 x76e1c = +0
-
 +1 x76e1b -1 x76e1f -1 x76e20 = +0
-
 +1 x76e18 +1 x76e1c +1 x76e20 -1 x76e25 = +0
-
 +1 x76e08 +1 x76e14 +1 x76e1f -1 x76e2d = +0
-
 +1 x7696c -1 x76e45 -1 x76e46 = +0
-
 +1 x76e45 -1 x76e51 -1 x76e52 = +0
-
 +1 x76e51 -1 x76e5d -1 x76e5e = +0
-
 +1 x76e5d -1 x76e61 -1 x76e62 = +0
-
 +1 x76e61 -1 x76e65 -1 x76e66 = +0
-
 +1 x76e65 -1 x76e69 -1 x76e6a = +0
-
 +1 x76e62 +1 x76e66 +1 x76e6a -1 x76e6f = +0
-
 +1 x76e52 +1 x76e5e +1 x76e69 -1 x76e77 = +0
-
 +1 x7696d -1 x76e8f -1 x76e90 = +0
-
 +1 x76e8f -1 x76e9b -1 x76e9c = +0
-
 +1 x76e9b -1 x76ea7 -1 x76ea8 = +0
-
 +1 x76ea7 -1 x76eab -1 x76eac = +0
-
 +1 x76eab -1 x76eaf -1 x76eb0 = +0
-
 +1 x76eaf -1 x76eb3 -1 x76eb4 = +0
-
 +1 x76eac +1 x76eb0 +1 x76eb4 -1 x76eb9 = +0
-
 +1 x76e9c +1 x76ea8 +1 x76eb3 -1 x76ec1 = +0
-
 +1 x76aad -1 x76ed4 -1 x76ed5 = +0
-
 +1 x76af7 -1 x76ed6 -1 x76ed7 = +0
-
 +1 x76b41 -1 x76ed8 -1 x76ed9 = +0
-
 +1 x76b8b -1 x76eda -1 x76edb = +0
-
 +1 x76bd5 -1 x76edc -1 x76edd = +0
-
 +1 x76c1f -1 x76ede -1 x76edf = +0
-
 +1 x76c69 -1 x76ee0 -1 x76ee1 = +0
-
 +1 x76cb3 -1 x76ee2 -1 x76ee3 = +0
-
 +1 x76cfd -1 x76ee4 -1 x76ee5 = +0
-
 +1 x76d47 -1 x76ee6 -1 x76ee7 = +0
-
 +1 x76d91 -1 x76ee8 -1 x76ee9 = +0
-
 +1 x76ddb -1 x76eea -1 x76eeb = +0
-
 +1 x76e25 -1 x76eec -1 x76eed = +0
-
 +1 x76e6f -1 x76eee -1 x76eef = +0
-
 +1 x76eb9 -1 x76ef0 -1 x76ef1 = +0
-
 +1 x76ed4 +1 x76ed6 +1 x76ed8 +1 x76eda +1 x76edc +1 x76ede +1 x76ee0 +1 x76ee2
 +1 x76ee4 +1 x76ee6 +1 x76ee8 +1 x76eea +1 x76eec +1 x76eee +1 x76ef0 -1 x76f14
 = +0
-
 +1 x76ed5 +1 x76ed7 +1 x76ed9 +1 x76edb +1 x76edd +1 x76edf +1 x76ee1 +1 x76ee3
 +1 x76ee5 +1 x76ee7 +1 x76ee9 +1 x76eeb +1 x76eed +1 x76eef +1 x76ef1 -1 x76ef2
 = +0
-
 +1 x76ef2 -1 x76ef4 -1 x76ef5 -1 x76ef6 -1 x76ef7 -1 x76ef8 -1 x76ef9 -1 x76efa
 -1 x76efb -1 x76efc -1 x76efd -1 x76efe -1 x76eff -1 x76f00 -1 x76f01 -1 x76f02
 -1 x76f03 = +0
-
 +1 x76946 +1 x76952 -1 x76f36 = +0
-
 +1 x76f36 -1 x76f3a -1 x77107 = +0
-
 +1 x7696e -1 x76f3b -1 x76f3c = +0
-
 +1 x76f3a -1 x76f3d -1 x76f3e = +0
-
 +1 x76f3c +1 x76f3e -1 x76fa2 = +0
-
 +1 x76f3b +1 x76f3d -1 x76f47 = +0
-
 +1 x76f47 -1 x76f4d -1 x76f4e = +0
-
 +1 x76f4d -1 x76f59 -1 x76f5a = +0
-
 +1 x76f59 -1 x76f5d -1 x76f5e = +0
-
 +1 x76f5d -1 x76f61 -1 x76f62 = +0
-
 +1 x76f61 -1 x76f65 -1 x76f66 = +0
-
 +1 x76f5e +1 x76f62 +1 x76f66 -1 x76f6b = +0
-
 +1 x76f6b -1 x76f6e -1 x76f6f = +0
-
 +1 x76f6f -1 x76f72 -1 x76f73 -1 x76f74 -1 x76f75 -1 x76f76 -1 x76f77 -1 x76f78
 -1 x76f79 -1 x76f7a -1 x76f7b -1 x76f7c -1 x76f7d -1 x76f7e -1 x76f7f -1 x76f80
 -1 x76f81 = +0
-
 +1 x76f4e +1 x76f5a +1 x76f65 -1 x76f9f = +0
-
 +1 x76fa7 -1 x76fc5 -1 x76fc6 = +0
-
 +1 x76fae -1 x76fc7 -1 x76fc8 = +0
-
 +1 x76fa8 -1 x76fc9 -1 x76fca = +0
-
 +1 x76fad -1 x76fcb -1 x76fcc = +0
-
 +1 x76fa9 -1 x76fcd -1 x76fce = +0
-
 +1 x76fac -1 x76fcf -1 x76fd0 = +0
-
 +1 x76faa -1 x76fd1 -1 x76fd2 = +0
-
 +1 x76fab -1 x76fd3 -1 x76fd4 = +0
-
 +1 x76faf -1 x76fd5 -1 x76fd6 = +0
-
 +1 x76fb6 -1 x76fd7 -1 x76fd8 = +0
-
 +1 x76fb0 -1 x76fd9 -1 x76fda = +0
-
 +1 x76fb5 -1 x76fdb -1 x76fdc = +0
-
 +1 x76fb1 -1 x76fdd -1 x76fde = +0
-
 +1 x76fb4 -1 x76fdf -1 x76fe0 = +0
-
 +1 x76fb2 -1 x76fe1 -1 x76fe2 = +0
-
 +1 x76fb3 -1 x76fe3 -1 x76fe4 = +0
-
 +1 x76fb7 -1 x76fe5 -1 x76fe6 = +0
-
 +1 x76fbe -1 x76fe7 -1 x76fe8 = +0
-
 +1 x76fb8 -1 x76fe9 -1 x76fea = +0
-
 +1 x76fbd -1 x76feb -1 x76fec = +0
-
 +1 x76fb9 -1 x76fed -1 x76fee = +0
-
 +1 x76fbc -1 x76fef -1 x76ff0 = +0
-
 +1 x76fba -1 x76ff1 -1 x76ff2 = +0
-
 +1 x76fbb -1 x76ff3 -1 x76ff4 = +0
-
 +1 x76fbf -1 x76ff5 -1 x76ff6 = +0
-
 +1 x76fc0 -1 x76ff7 -1 x76ff8 = +0
-
 +1 x76fc1 -1 x76ff9 -1 x76ffa = +0
-
 +1 x76fc2 -1 x76ffb -1 x76ffc = +0
-
 +1 x76fc3 -1 x76ffd -1 x76ffe = +0
-
 +1 x76fc4 -1 x76fff -1 x77000 = +0
-
 +1 x76ff7 +1 x76ffb +1 x76fff -1 x77026 = +0
-
 +1 x76fc5 +1 x76fc7 +1 x76fc9 +1 x76fcb +1 x76fcd +1 x76fcf +1 x76fd1 +1 x76fd3
 +1 x76fd5 +1 x76fd7 +1 x76fd9 +1 x76fdb +1 x76fdd +1 x76fdf +1 x76fe1 +1 x76fe3
 +1 x76fe5 +1 x76fe7 +1 x76fe9 +1 x76feb +1 x76fed +1 x76fef +1 x76ff1 +1 x76ff3
 +1 x76ff5 +1 x76ff9 +1 x76ffd -1 x77001 = +0
-
 +1 x76ff8 +1 x76ffc +1 x77000 -1 x77002 = +0
-
 +1 x76fc6 +1 x76fc8 +1 x76fca +1 x76fcc +1 x76fce +1 x76fd0 +1 x76fd2 +1 x76fd4
 +1 x76fd6 +1 x76fd8 +1 x76fda +1 x76fdc +1 x76fde +1 x76fe0 +1 x76fe2 +1 x76fe4
 +1 x76fe6 +1 x76fe8 +1 x76fea +1 x76fec +1 x76fee +1 x76ff0 +1 x76ff2 +1 x76ff4
 +1 x76ff6 +1 x76ffa +1 x76ffe -1 x77003 = +0
-
 +1 x77002 +1 x77003 -1 x77004 = +0
-
 +1 x77004 -1 x77005 -1 x77006 -1 x77007 -1 x77008 -1 x77009 -1 x7700a -1 x7700b
 -1 x7700c -1 x7700d -1 x7700e -1 x7700f -1 x77010 -1 x77011 -1 x77012 -1 x77013
 -1 x77014 = +0
-
 +1 x77025 +1 x77026 -1 x77027 = +0
-
 +1 x5ddd1 -1 x77044 +1 x77066 = +0
-
 +1 x5dede -1 x77045 -1 x77046 = +0
-
 +1 x77044 -1 x77047 -1 x77048 = +0
-
 +1 x77046 -1 x770a0 +0 x770a1 = +0
-
 +1 x77045 +1 x77047 -1 x77058 = +0
-
 +1 x77058 -1 x77065 -1 x77066 = +0
-
 +1 x77065 -1 x7706f -1 x77070 = +0
-
 +1 x77070 -1 x77073 -1 x77074 -1 x77075 -1 x77076 -1 x77077 -1 x77078 -1 x77079
 -1 x7707a -1 x7707b -1 x7707c -1 x7707d -1 x7707e -1 x7707f -1 x77080 -1 x77081
 -1 x77082 = +0
-
 +1 x7709e +1 x770a0 -1 x770ae = +0
-
 +1 x770ae -1 x770b1 -1 x770b2 = +0
-
 +1 x770b2 +1 x771db +1 x77232 -1 x77233 +0 x77234 = +0
-
 +1 x770b1 -1 x770c2 -1 x770c3 = +0
-
 +1 x770c2 -1 x770ce -1 x770cf = +0
-
 +1 x770ce -1 x770d8 -1 x770d9 = +0
-
 +1 x770d9 -1 x770dc -1 x770dd -1 x770de -1 x770df -1 x770e0 -1 x770e1 -1 x770e2
 -1 x770e3 -1 x770e4 -1 x770e5 -1 x770e6 -1 x770e7 -1 x770e8 -1 x770e9 -1 x770ea
 -1 x770eb = +0
-
 +1 x770c3 +1 x770cf -1 x77105 = +0
-
 +1 x77105 +1 x77107 -1 x77108 +1 x7722f = +0
-
 +1 x77108 -1 x77109 -1 x7710a = +0
-
 +1 x7710a +1 x7716c +1 x771cd -1 x771ce +0 x771cf = +0
-
 +1 x77109 -1 x77115 -1 x77116 = +0
-
 +1 x77115 -1 x77121 -1 x77122 = +0
-
 +1 x77121 -1 x77125 -1 x77126 = +0
-
 +1 x77125 -1 x77129 -1 x7712a = +0
-
 +1 x77129 -1 x7712d -1 x7712e = +0
-
 +1 x77126 +1 x7712a +1 x7712e -1 x77133 = +0
-
 +1 x77133 -1 x77136 -1 x77137 = +0
-
 +1 x77137 -1 x7713a -1 x7713b -1 x7713c -1 x7713d -1 x7713e -1 x7713f -1 x77140
 -1 x77141 -1 x77142 -1 x77143 -1 x77144 -1 x77145 -1 x77146 -1 x77147 -1 x77148
 -1 x77149 = +0
-
 +1 x77116 +1 x77122 +1 x7712d -1 x77167 = +0
-
 +1 x77167 +1 x77169 -1 x7716a +1 x771ca = +0
-
 +1 x7716a -1 x7716b -1 x7716c = +0
-
 +1 x7716b -1 x77178 -1 x77179 = +0
-
 +1 x77178 -1 x77184 -1 x77185 = +0
-
 +1 x77184 -1 x77188 -1 x77189 = +0
-
 +1 x77188 -1 x7718c -1 x7718d = +0
-
 +1 x7718c -1 x77190 -1 x77191 = +0
-
 +1 x77189 +1 x7718d +1 x77191 -1 x77196 = +0
-
 +1 x77196 -1 x77199 -1 x7719a = +0
-
 +1 x7719a -1 x7719d -1 x7719e -1 x7719f -1 x771a0 -1 x771a1 -1 x771a2 -1 x771a3
 -1 x771a4 -1 x771a5 -1 x771a6 -1 x771a7 -1 x771a8 -1 x771a9 -1 x771aa -1 x771ab
 -1 x771ac = +0
-
 +1 x77179 +1 x77185 +1 x77190 -1 x771ca = +0
-
 +1 x771ce +1 x771d8 -1 x771d9 = +0
-
 +1 x771d9 -1 x771da -1 x771db = +0
-
 +1 x771da -1 x771ec -1 x771ed = +0
-
 +1 x771ec -1 x771f8 -1 x771f9 = +0
-
 +1 x771f8 -1 x77202 -1 x77203 = +0
-
 +1 x77203 -1 x77206 -1 x77207 -1 x77208 -1 x77209 -1 x7720a -1 x7720b -1 x7720c
 -1 x7720d -1 x7720e -1 x7720f -1 x77210 -1 x77211 -1 x77212 -1 x77213 -1 x77214
 -1 x77215 = +0
-
 +1 x771ed +1 x771f9 -1 x7722f = +0
-
 +1 x76fa3 +1 x77233 -1 x77238 = +0
-
 +1 x77238 -1 x77243 -1 x77244 = +0
-
 +1 x77244 -1 x77248 -1 x77249 = +0
-
 +1 x77243 -1 x7724a -1 x7724b = +0
-
 +1 x77249 +1 x7724b -1 x77251 -1 x77252 = +0
-
 +1 x77248 +1 x7724a -1 x77250 = +0
-
 +1 x77250 -1 x77253 -1 x77254 = +0
-
 +1 x77252 +1 x77254 -1 x7725f = +0
-
 +1 x77251 +1 x77253 -1 x77263 = +0
-
 +1 x7725f +1 x77263 -1 x77268 = +0
-
 +1 x77268 -1 x7726b -1 x7726c = +0
-
 +1 x7726b +1 x7726c -1 x7727e = +0
-
 +1 x7727e -1 x77296 -1 x77297 = +0
-
 +1 x77296 +1 x77297 -1 x772a4 = +0
-
 +1 x772a4 -1 x772a7 -1 x772a8 = +0
-
 +1 x772a8 +1 x772f8 +1 x77347 -1 x77348 +0 x77349 = +0
-
 +1 x772a7 -1 x772bd -1 x772be = +0
-
 +1 x772bd -1 x772c7 -1 x772c8 = +0
-
 +1 x772c8 -1 x772cb -1 x772cc -1 x772cd -1 x772ce -1 x772cf -1 x772d0 -1 x772d1
 -1 x772d2 -1 x772d3 -1 x772d4 -1 x772d5 -1 x772d6 -1 x772d7 -1 x772d8 -1 x772d9
 -1 x772da = +0
-
 +1 x772be +1 x772f5 -1 x772f6 +1 x7730f = +0
-
 +1 x772f6 -1 x772f7 -1 x772f8 = +0
-
 +1 x772f7 -1 x7730e -1 x7730f = +0
-
 +1 x7730e -1 x77318 -1 x77319 = +0
-
 +1 x77319 -1 x7731c -1 x7731d -1 x7731e -1 x7731f -1 x77320 -1 x77321 -1 x77322
 -1 x77323 -1 x77324 -1 x77325 -1 x77326 -1 x77327 -1 x77328 -1 x77329 -1 x7732a
 -1 x7732b = +0
-
 +1 x77348 +1 x77352 -1 x77353 = +0
-
 +1 x77353 -1 x77354 -1 x77355 = +0
-
 +1 x77355 +1 x7747e +1 x774d5 -1 x774d6 +0 x774d7 = +0
-
 +1 x77354 -1 x77365 -1 x77366 = +0
-
 +1 x77365 -1 x77371 -1 x77372 = +0
-
 +1 x77371 -1 x7737b -1 x7737c = +0
-
 +1 x7737c -1 x7737f -1 x77380 -1 x77381 -1 x77382 -1 x77383 -1 x77384 -1 x77385
 -1 x77386 -1 x77387 -1 x77388 -1 x77389 -1 x7738a -1 x7738b -1 x7738c -1 x7738d
 -1 x7738e = +0
-
 +1 x77366 +1 x77372 -1 x773a8 = +0
-
 +1 x773a8 +1 x773aa -1 x773ab +1 x774d2 = +0
-
 +1 x773ab -1 x773ac -1 x773ad = +0
-
 +1 x773ad +1 x7740f +1 x77470 -1 x77471 +0 x77472 = +0
-
 +1 x773ac -1 x773b8 -1 x773b9 = +0
-
 +1 x773b8 -1 x773c4 -1 x773c5 = +0
-
 +1 x773c4 -1 x773c8 -1 x773c9 = +0
-
 +1 x773c8 -1 x773cc -1 x773cd = +0
-
 +1 x773cc -1 x773d0 -1 x773d1 = +0
-
 +1 x773c9 +1 x773cd +1 x773d1 -1 x773d6 = +0
-
 +1 x773d6 -1 x773d9 -1 x773da = +0
-
 +1 x773da -1 x773dd -1 x773de -1 x773df -1 x773e0 -1 x773e1 -1 x773e2 -1 x773e3
 -1 x773e4 -1 x773e5 -1 x773e6 -1 x773e7 -1 x773e8 -1 x773e9 -1 x773ea -1 x773eb
 -1 x773ec = +0
-
 +1 x773b9 +1 x773c5 +1 x773d0 -1 x7740a = +0
-
 +1 x7740a +1 x7740c -1 x7740d +1 x7746d = +0
-
 +1 x7740d -1 x7740e -1 x7740f = +0
-
 +1 x7740e -1 x7741b -1 x7741c = +0
-
 +1 x7741b -1 x77427 -1 x77428 = +0
-
 +1 x77427 -1 x7742b -1 x7742c = +0
-
 +1 x7742b -1 x7742f -1 x77430 = +0
-
 +1 x7742f -1 x77433 -1 x77434 = +0
-
 +1 x7742c +1 x77430 +1 x77434 -1 x77439 = +0
-
 +1 x77439 -1 x7743c -1 x7743d = +0
-
 +1 x7743d -1 x77440 -1 x77441 -1 x77442 -1 x77443 -1 x77444 -1 x77445 -1 x77446
 -1 x77447 -1 x77448 -1 x77449 -1 x7744a -1 x7744b -1 x7744c -1 x7744d -1 x7744e
 -1 x7744f = +0
-
 +1 x7741c +1 x77428 +1 x77433 -1 x7746d = +0
-
 +1 x77471 +1 x7747b -1 x7747c = +0
-
 +1 x7747c -1 x7747d -1 x7747e = +0
-
 +1 x7747d -1 x7748f -1 x77490 = +0
-
 +1 x7748f -1 x7749b -1 x7749c = +0
-
 +1 x7749b -1 x774a5 -1 x774a6 = +0
-
 +1 x774a6 -1 x774a9 -1 x774aa -1 x774ab -1 x774ac -1 x774ad -1 x774ae -1 x774af
 -1 x774b0 -1 x774b1 -1 x774b2 -1 x774b3 -1 x774b4 -1 x774b5 -1 x774b6 -1 x774b7
 -1 x774b8 = +0
-
 +1 x77490 +1 x7749c -1 x774d2 = +0
-
 +1 x774d6 -1 x774e5 -1 x774e6 = +0
-
 +1 x774e6 -1 x774ea -1 x774eb = +0
-
 +1 x774e5 -1 x774ec -1 x774ed = +0
-
 +1 x774eb -1 x774f4 -1 x774f5 = +0
-
 +1 x774ed -1 x774f6 -1 x774f7 = +0
-
 +1 x774ec -1 x774f8 -1 x774f9 = +0
-
 +1 x774ea -1 x774fa -1 x774fb = +0
-
 +1 x774f4 +1 x774f6 -1 x774ff = +0
-
 +1 x774f5 +1 x774f7 -1 x774fc = +0
-
 +1 x774f9 +1 x774fb -1 x77506 = +0
-
 +1 x774fc +1 x77506 -1 x7750a = +0
-
 +1 x774f8 +1 x774fa -1 x7750c = +0
-
 +1 x774ff +1 x7750c -1 x7750e = +0
-
 +1 x755a4 +1 x7750a -1 x77511 = +0
-
 +1 x755a8 +1 x7750e -1 x77512 = +0
-
 +1 x77511 -1 x77513 -1 x77514 = +0
-
 +1 x77512 -1 x77515 -1 x77516 = +0
-
 +1 x77513 +1 x77515 -1 x779c7 = +0
-
 +1 x77514 +1 x77516 -1 x77517 = +0
-
 +1 x77517 -1 x7751c -1 x7751d = +0
-
 +1 x7751d +1 x77874 +1 x778b1 -1 x778b3 +0 x778b4 = +0
-
 +1 x7751c -1 x7753a -1 x7753b = +0
-
 +1 x7753a -1 x77546 -1 x77547 = +0
-
 +1 x7753b +1 x77546 +1 x77547 -1 x77555 = +0
-
 +1 x77555 +1 x77557 -1 x77558 +1 x778ad = +0
-
 +1 x77558 -1 x77559 -1 x7755a = +0
-
 +1 x77559 -1 x77565 -1 x77566 = +0
-
 +1 x77565 -1 x77571 -1 x77572 = +0
-
 +1 x77566 +1 x77572 -1 x7757c = +0
-
 +1 x7757c +1 x7757e -1 x7757f +1 x775a5 = +0
-
 +1 x7757f -1 x77580 -1 x77581 = +0
-
 +1 x7755a +1 x77581 +1 x775a8 -1 x775a9 +0 x775aa = +0
-
 +1 x77580 -1 x7758d -1 x7758e = +0
-
 +1 x7758d -1 x77599 -1 x7759a = +0
-
 +1 x77571 +1 x77599 -1 x77999 = +0
-
 +1 x7758e +1 x7759a -1 x775a5 = +0
-
 +1 x775a9 +1 x775b3 -1 x775b4 = +0
-
 +1 x775b4 -1 x775b5 -1 x775b6 = +0
-
 +1 x775b6 +1 x7765c +1 x77688 -1 x77689 +0 x7768a = +0
-
 +1 x775b5 -1 x775c6 -1 x775c7 = +0
-
 +1 x775c6 -1 x775d2 -1 x775d3 = +0
-
 +1 x775d2 +1 x77679 -1 x7796d = +0
-
 +1 x775c7 +1 x775d3 -1 x775dd = +0
-
 +1 x775dd +1 x775df -1 x775e0 +1 x77685 = +0
-
 +1 x775e0 -1 x775e1 -1 x775e2 = +0
-
 +1 x775e2 +1 x77618 +1 x7764e -1 x7764f +0 x77650 = +0
-
 +1 x775e1 -1 x775ed -1 x775ee = +0
-
 +1 x775ed -1 x775f9 -1 x775fa = +0
-
 +1 x775f9 -1 x775fd -1 x775fe = +0
-
 +1 x775fd -1 x77601 -1 x77602 = +0
-
 +1 x77601 -1 x77605 -1 x77606 = +0
-
 +1 x775fe +1 x77602 +1 x77606 -1 x7760b = +0
-
 +1 x7760b +1 x77642 -1 x77941 = +0
-
 +1 x775ee +1 x775fa +1 x77605 -1 x77613 = +0
-
 +1 x77613 +1 x77615 -1 x77616 +1 x7764b = +0
-
 +1 x77616 -1 x77617 -1 x77618 = +0
-
 +1 x77617 -1 x77624 -1 x77625 = +0
-
 +1 x77624 -1 x77630 -1 x77631 = +0
-
 +1 x77630 -1 x77634 -1 x77635 = +0
-
 +1 x77634 -1 x77638 -1 x77639 = +0
-
 +1 x77638 -1 x7763c -1 x7763d = +0
-
 +1 x77635 +1 x77639 +1 x7763d -1 x77642 = +0
-
 +1 x77625 +1 x77631 +1 x7763c -1 x7764b = +0
-
 +1 x7764f +1 x77659 -1 x7765a = +0
-
 +1 x7765a -1 x7765b -1 x7765c = +0
-
 +1 x7765b -1 x7766d -1 x7766e = +0
-
 +1 x7766d -1 x77679 -1 x7767a = +0
-
 +1 x7766e +1 x7767a -1 x77685 = +0
-
 +1 x77689 -1 x77698 -1 x77699 = +0
-
 +1 x77699 -1 x7769d -1 x7769e = +0
-
 +1 x77698 -1 x7769f -1 x776a0 = +0
-
 +1 x7769e +1 x776a0 -1 x776a6 -1 x776a7 = +0
-
 +1 x7769d +1 x7769f -1 x776a5 = +0
-
 +1 x776a5 -1 x776a8 -1 x776a9 = +0
-
 +1 x776a7 +1 x776a9 -1 x776b4 = +0
-
 +1 x776a6 +1 x776a8 -1 x776b8 = +0
-
 +1 x776b4 +1 x776b8 -1 x776bd = +0
-
 +1 x776bd -1 x776c0 -1 x776c1 = +0
-
 +1 x776c0 +1 x776c1 -1 x776d1 = +0
-
 +1 x776d1 -1 x776df -1 x776e0 = +0
-
 +1 x776df -1 x776eb -1 x776ec = +0
-
 +1 x776e0 +1 x776eb +1 x776ec -1 x776fa = +0
-
 +1 x776fa +1 x776fc -1 x776fd = +0
-
 +1 x776fd -1 x776fe -1 x776ff = +0
-
 +1 x776ff +1 x77726 +1 x7774d -1 x7774e +0 x7774f = +0
-
 +1 x776fe -1 x7770a -1 x7770b = +0
-
 +1 x7770a -1 x77716 -1 x77717 = +0
-
 +1 x77716 +1 x7773e -1 x77915 = +0
-
 +1 x7770b +1 x77717 -1 x77721 = +0
-
 +1 x77721 +1 x77723 -1 x77724 +1 x7774a = +0
-
 +1 x77724 -1 x77725 -1 x77726 = +0
-
 +1 x77725 -1 x77732 -1 x77733 = +0
-
 +1 x77732 -1 x7773e -1 x7773f = +0
-
 +1 x77733 +1 x7773f -1 x7774a = +0
-
 +1 x7774e +1 x77758 -1 x77759 = +0
-
 +1 x77759 -1 x7775a -1 x7775b = +0
-
 +1 x7775b +1 x77801 +1 x7782d -1 x7782e +0 x7782f = +0
-
 +1 x7775a -1 x7776b -1 x7776c = +0
-
 +1 x7776b -1 x77777 -1 x77778 = +0
-
 +1 x77777 +1 x7781e -1 x778e9 = +0
-
 +1 x7776c +1 x77778 -1 x77782 = +0
-
 +1 x77782 +1 x77784 -1 x77785 +1 x7782a = +0
-
 +1 x77785 -1 x77786 -1 x77787 = +0
-
 +1 x77787 +1 x777bd +1 x777f3 -1 x777f4 +0 x777f5 = +0
-
 +1 x77786 -1 x77792 -1 x77793 = +0
-
 +1 x77792 -1 x7779e -1 x7779f = +0
-
 +1 x7779e -1 x777a2 -1 x777a3 = +0
-
 +1 x777a2 -1 x777a6 -1 x777a7 = +0
-
 +1 x777a6 -1 x777aa -1 x777ab = +0
-
 +1 x777a3 +1 x777a7 +1 x777ab -1 x777b0 = +0
-
 +1 x777b0 +1 x777e7 -1 x778bd = +0
-
 +1 x77793 +1 x7779f +1 x777aa -1 x777b8 = +0
-
 +1 x777b8 +1 x777ba -1 x777bb +1 x777f0 = +0
-
 +1 x777bb -1 x777bc -1 x777bd = +0
-
 +1 x777bc -1 x777c9 -1 x777ca = +0
-
 +1 x777c9 -1 x777d5 -1 x777d6 = +0
-
 +1 x777d5 -1 x777d9 -1 x777da = +0
-
 +1 x777d9 -1 x777dd -1 x777de = +0
-
 +1 x777dd -1 x777e1 -1 x777e2 = +0
-
 +1 x777da +1 x777de +1 x777e2 -1 x777e7 = +0
-
 +1 x777ca +1 x777d6 +1 x777e1 -1 x777f0 = +0
-
 +1 x777f4 +1 x777fe -1 x777ff = +0
-
 +1 x777ff -1 x77800 -1 x77801 = +0
-
 +1 x77800 -1 x77812 -1 x77813 = +0
-
 +1 x77812 -1 x7781e -1 x7781f = +0
-
 +1 x77813 +1 x7781f -1 x7782a = +0
-
 +1 x7782e -1 x7783d -1 x7783e = +0
-
 +1 x7783e -1 x77842 -1 x77843 = +0
-
 +1 x7783d -1 x77844 -1 x77845 = +0
-
 +1 x77843 -1 x7784c -1 x7784d = +0
-
 +1 x77845 -1 x7784e -1 x7784f = +0
-
 +1 x77844 -1 x77850 -1 x77851 = +0
-
 +1 x77842 -1 x77852 -1 x77853 = +0
-
 +1 x7784c +1 x7784e -1 x77857 = +0
-
 +1 x7784d +1 x7784f -1 x77854 = +0
-
 +1 x77851 +1 x77853 -1 x7785e = +0
-
 +1 x77854 +1 x7785e -1 x77862 = +0
-
 +1 x77850 +1 x77852 -1 x77864 = +0
-
 +1 x77857 +1 x77864 -1 x77866 = +0
-
 +1 x77862 -1 x77869 -1 x7786a = +0
-
 +1 x77866 -1 x7786b -1 x7786c = +0
-
 +1 x77869 +1 x7786b -1 x778b0 = +0
-
 +1 x7786a +1 x7786c -1 x7786d = +0
-
 +1 x7786d +1 x77871 -1 x77872 = +0
-
 +1 x77872 -1 x77873 -1 x77874 = +0
-
 +1 x77873 -1 x77892 -1 x77893 = +0
-
 +1 x77892 -1 x7789e -1 x7789f = +0
-
 +1 x77893 +1 x7789e +1 x7789f -1 x778ad = +0
-
 +1 x778b0 +1 x778b2 -1 x778b5 +0 x778b6 = +0
-
 +1 x72fd8 +1 x778b3 -1 x779c5 = +0
-
 +1 x72fda +1 x778b5 -1 x779c6 = +0
-
 +1 x778bd -1 x778be -1 x778bf = +0
-
 +1 x778bf -1 x778c2 -1 x778c3 -1 x778c4 -1 x778c5 -1 x778c6 -1 x778c7 -1 x778c8
 -1 x778c9 -1 x778ca -1 x778cb -1 x778cc -1 x778cd -1 x778ce -1 x778cf -1 x778d0
 -1 x778d1 = +0
-
 +1 x778e9 -1 x778ea -1 x778eb = +0
-
 +1 x778eb -1 x778ee -1 x778ef -1 x778f0 -1 x778f1 -1 x778f2 -1 x778f3 -1 x778f4
 -1 x778f5 -1 x778f6 -1 x778f7 -1 x778f8 -1 x778f9 -1 x778fa -1 x778fb -1 x778fc
 -1 x778fd = +0
-
 +1 x77915 -1 x77916 -1 x77917 = +0
-
 +1 x77917 -1 x7791a -1 x7791b -1 x7791c -1 x7791d -1 x7791e -1 x7791f -1 x77920
 -1 x77921 -1 x77922 -1 x77923 -1 x77924 -1 x77925 -1 x77926 -1 x77927 -1 x77928
 -1 x77929 = +0
-
 +1 x77941 -1 x77942 -1 x77943 = +0
-
 +1 x77943 -1 x77946 -1 x77947 -1 x77948 -1 x77949 -1 x7794a -1 x7794b -1 x7794c
 -1 x7794d -1 x7794e -1 x7794f -1 x77950 -1 x77951 -1 x77952 -1 x77953 -1 x77954
 -1 x77955 = +0
-
 +1 x7796d -1 x7796e -1 x7796f = +0
-
 +1 x7796f -1 x77972 -1 x77973 -1 x77974 -1 x77975 -1 x77976 -1 x77977 -1 x77978
 -1 x77979 -1 x7797a -1 x7797b -1 x7797c -1 x7797d -1 x7797e -1 x7797f -1 x77980
 -1 x77981 = +0
-
 +1 x77999 -1 x7799a -1 x7799b = +0
-
 +1 x7799b -1 x7799e -1 x7799f -1 x779a0 -1 x779a1 -1 x779a2 -1 x779a3 -1 x779a4
 -1 x779a5 -1 x779a6 -1 x779a7 -1 x779a8 -1 x779a9 -1 x779aa -1 x779ab -1 x779ac
 -1 x779ad = +0
-
 +1 x779c6 +1 x779c7 -1 x779d3 = +0
-
 +1 x5dd7c +1 x779c5 -1 x779d8 = +0
-
 +1 x779d3 +1 x779d8 -1 x779d9 = +0
-
 +1 x779d9 -1 x779db -1 x779dc = +0
-
 +1 x779dc +1 x780f7 +1 x78152 -1 x78153 +0 x78154 = +0
-
 +1 x779db -1 x779e3 -1 x779e4 = +0
-
 +1 x779e4 -1 x779f3 -1 x779f4 = +0
-
 +1 x779f3 -1 x77a21 -1 x77a22 = +0
-
 +1 x77a21 +1 x77a22 -1 x77a2f = +0
-
 +1 x77a2f +1 x77a31 -1 x77a32 +1 x7814b = +0
-
 +1 x77a32 -1 x77a33 -1 x77a34 = +0
-
 +1 x77a33 -1 x77a49 -1 x77a4a = +0
-
 +1 x77a4a +1 x77a55 -1 x77a56 +1 x77a6f = +0
-
 +1 x77a56 -1 x77a57 -1 x77a58 = +0
-
 +1 x77a34 +1 x77a58 +1 x77a7c -1 x77a7d +0 x77a7e = +0
-
 +1 x77a57 -1 x77a6e -1 x77a6f = +0
-
 +1 x77a49 +1 x77a6e -1 x78243 = +0
-
 +1 x77a7d +1 x77a87 -1 x77a88 = +0
-
 +1 x77a88 -1 x77a89 -1 x77a8a = +0
-
 +1 x77a8a +1 x77b30 +1 x77b5c -1 x77b5d +0 x77b5e = +0
-
 +1 x77a89 -1 x77a9a -1 x77a9b = +0
-
 +1 x77a9a -1 x77aa6 -1 x77aa7 = +0
-
 +1 x77aa6 +1 x77b4d -1 x78214 = +0
-
 +1 x77a9b +1 x77aa7 -1 x77ab1 = +0
-
 +1 x77ab1 +1 x77ab3 -1 x77ab4 +1 x77b59 = +0
-
 +1 x77ab4 -1 x77ab5 -1 x77ab6 = +0
-
 +1 x77ab6 +1 x77aec +1 x77b22 -1 x77b23 +0 x77b24 = +0
-
 +1 x77ab5 -1 x77ac1 -1 x77ac2 = +0
-
 +1 x77ac1 -1 x77acd -1 x77ace = +0
-
 +1 x77acd -1 x77ad1 -1 x77ad2 = +0
-
 +1 x77ad1 -1 x77ad5 -1 x77ad6 = +0
-
 +1 x77ad5 -1 x77ad9 -1 x77ada = +0
-
 +1 x77ad2 +1 x77ad6 +1 x77ada -1 x77adf = +0
-
 +1 x77adf +1 x77b16 -1 x781e5 = +0
-
 +1 x77ac2 +1 x77ace +1 x77ad9 -1 x77ae7 = +0
-
 +1 x77ae7 +1 x77ae9 -1 x77aea +1 x77b1f = +0
-
 +1 x77aea -1 x77aeb -1 x77aec = +0
-
 +1 x77aeb -1 x77af8 -1 x77af9 = +0
-
 +1 x77af8 -1 x77b04 -1 x77b05 = +0
-
 +1 x77b04 -1 x77b08 -1 x77b09 = +0
-
 +1 x77b08 -1 x77b0c -1 x77b0d = +0
-
 +1 x77b0c -1 x77b10 -1 x77b11 = +0
-
 +1 x77b09 +1 x77b0d +1 x77b11 -1 x77b16 = +0
-
 +1 x77af9 +1 x77b05 +1 x77b10 -1 x77b1f = +0
-
 +1 x77b23 +1 x77b2d -1 x77b2e = +0
-
 +1 x77b2e -1 x77b2f -1 x77b30 = +0
-
 +1 x77b2f -1 x77b41 -1 x77b42 = +0
-
 +1 x77b41 -1 x77b4d -1 x77b4e = +0
-
 +1 x77b42 +1 x77b4e -1 x77b59 = +0
-
 +1 x77b5d -1 x77b6c -1 x77b6d = +0
-
 +1 x77b6d -1 x77b71 -1 x77b72 = +0
-
 +1 x77b6c -1 x77b73 -1 x77b74 = +0
-
 +1 x77b72 +1 x77b74 -1 x77b7a -1 x77b7b = +0
-
 +1 x77b71 +1 x77b73 -1 x77b79 = +0
-
 +1 x77b79 -1 x77b7c -1 x77b7d = +0
-
 +1 x77b7b +1 x77b7d -1 x77b88 = +0
-
 +1 x77b7a +1 x77b7c -1 x77b8c = +0
-
 +1 x77b88 +1 x77b8c -1 x77b91 = +0
-
 +1 x77b91 -1 x77b94 -1 x77b95 = +0
-
 +1 x77b94 +1 x77b95 -1 x77ba7 = +0
-
 +1 x77ba7 -1 x77bbf -1 x77bc0 = +0
-
 +1 x77bbf +1 x77bc0 -1 x77bcd = +0
-
 +1 x77bcd +1 x77bcf -1 x77bd0 = +0
-
 +1 x77bd0 -1 x77bd1 -1 x77bd2 = +0
-
 +1 x77bd2 +1 x77bf6 +1 x77c1a -1 x77c1b +0 x77c1c = +0
-
 +1 x77bd1 -1 x77be7 -1 x77be8 = +0
-
 +1 x77be7 +1 x77c0c -1 x781b6 = +0
-
 +1 x77be8 +1 x77bf3 -1 x77bf4 +1 x77c0d = +0
-
 +1 x77bf4 -1 x77bf5 -1 x77bf6 = +0
-
 +1 x77bf5 -1 x77c0c -1 x77c0d = +0
-
 +1 x77c1b +1 x77c25 -1 x77c26 = +0
-
 +1 x77c26 -1 x77c27 -1 x77c28 = +0
-
 +1 x77c28 +1 x77cce +1 x77cfa -1 x77cfb +0 x77cfc = +0
-
 +1 x77c27 -1 x77c38 -1 x77c39 = +0
-
 +1 x77c38 -1 x77c44 -1 x77c45 = +0
-
 +1 x77c44 +1 x77ceb -1 x78187 = +0
-
 +1 x77c39 +1 x77c45 -1 x77c4f = +0
-
 +1 x77c4f +1 x77c51 -1 x77c52 +1 x77cf7 = +0
-
 +1 x77c52 -1 x77c53 -1 x77c54 = +0
-
 +1 x77c54 +1 x77c8a +1 x77cc0 -1 x77cc1 +0 x77cc2 = +0
-
 +1 x77c53 -1 x77c5f -1 x77c60 = +0
-
 +1 x77c5f -1 x77c6b -1 x77c6c = +0
-
 +1 x77c6b -1 x77c6f -1 x77c70 = +0
-
 +1 x77c6f -1 x77c73 -1 x77c74 = +0
-
 +1 x77c73 -1 x77c77 -1 x77c78 = +0
-
 +1 x77c70 +1 x77c74 +1 x77c78 -1 x77c7d = +0
-
 +1 x77c7d +1 x77cb4 -1 x78158 = +0
-
 +1 x77c60 +1 x77c6c +1 x77c77 -1 x77c85 = +0
-
 +1 x77c85 +1 x77c87 -1 x77c88 +1 x77cbd = +0
-
 +1 x77c88 -1 x77c89 -1 x77c8a = +0
-
 +1 x77c89 -1 x77c96 -1 x77c97 = +0
-
 +1 x77c96 -1 x77ca2 -1 x77ca3 = +0
-
 +1 x77ca2 -1 x77ca6 -1 x77ca7 = +0
-
 +1 x77ca6 -1 x77caa -1 x77cab = +0
-
 +1 x77caa -1 x77cae -1 x77caf = +0
-
 +1 x77ca7 +1 x77cab +1 x77caf -1 x77cb4 = +0
-
 +1 x77c97 +1 x77ca3 +1 x77cae -1 x77cbd = +0
-
 +1 x77cc1 +1 x77ccb -1 x77ccc = +0
-
 +1 x77ccc -1 x77ccd -1 x77cce = +0
-
 +1 x77ccd -1 x77cdf -1 x77ce0 = +0
-
 +1 x77cdf -1 x77ceb -1 x77cec = +0
-
 +1 x77ce0 +1 x77cec -1 x77cf7 = +0
-
 +1 x77cfb -1 x77d0a -1 x77d0b = +0
-
 +1 x77d0b -1 x77d0f -1 x77d10 = +0
-
 +1 x77d0a -1 x77d11 -1 x77d12 = +0
-
 +1 x77d10 -1 x77d19 -1 x77d1a = +0
-
 +1 x77d12 -1 x77d1b -1 x77d1c = +0
-
 +1 x77d11 -1 x77d1d -1 x77d1e = +0
-
 +1 x77d0f -1 x77d1f -1 x77d20 = +0
-
 +1 x77d19 +1 x77d1b -1 x77d24 = +0
-
 +1 x77d1a +1 x77d1c -1 x77d21 = +0
-
 +1 x77d1e +1 x77d20 -1 x77d2b = +0
-
 +1 x77d21 +1 x77d2b -1 x77d2f = +0
-
 +1 x77d1d +1 x77d1f -1 x77d31 = +0
-
 +1 x77d24 +1 x77d31 -1 x77d33 = +0
-
 +1 x77d2f -1 x77d36 -1 x77d37 = +0
-
 +1 x77d33 -1 x77d38 -1 x77d39 = +0
-
 +1 x77d36 +1 x77d38 -1 x780e1 = +0
-
 +1 x77d37 +1 x77d39 -1 x77d3a = +0
-
 +1 x77d3a +1 x77d3e -1 x77d3f = +0
-
 +1 x77d3f -1 x77d40 -1 x77d41 = +0
-
 +1 x77d41 +1 x78098 +1 x780d5 -1 x780d7 +0 x780d8 = +0
-
 +1 x77d40 -1 x77d5e -1 x77d5f = +0
-
 +1 x77d5e -1 x77d6a -1 x77d6b = +0
-
 +1 x77d5f +1 x77d6a +1 x77d6b -1 x77d79 = +0
-
 +1 x77d79 +1 x77d7b -1 x77d7c +1 x780d1 = +0
-
 +1 x77d7c -1 x77d7d -1 x77d7e = +0
-
 +1 x77d7d -1 x77d89 -1 x77d8a = +0
-
 +1 x77d89 -1 x77d95 -1 x77d96 = +0
-
 +1 x77d8a +1 x77d96 -1 x77da0 = +0
-
 +1 x77da0 +1 x77da2 -1 x77da3 +1 x77dc9 = +0
-
 +1 x77da3 -1 x77da4 -1 x77da5 = +0
-
 +1 x77d7e +1 x77da5 +1 x77dcc -1 x77dcd +0 x77dce = +0
-
 +1 x77da4 -1 x77db1 -1 x77db2 = +0
-
 +1 x77db1 -1 x77dbd -1 x77dbe = +0
-
 +1 x77d95 +1 x77dbd -1 x78244 = +0
-
 +1 x77db2 +1 x77dbe -1 x77dc9 = +0
-
 +1 x77dcd +1 x77dd7 -1 x77dd8 = +0
-
 +1 x77dd8 -1 x77dd9 -1 x77dda = +0
-
 +1 x77dda +1 x77e80 +1 x77eac -1 x77ead +0 x77eae = +0
-
 +1 x77dd9 -1 x77dea -1 x77deb = +0
-
 +1 x77dea -1 x77df6 -1 x77df7 = +0
-
 +1 x77df6 +1 x77e9d -1 x78215 = +0
-
 +1 x77deb +1 x77df7 -1 x77e01 = +0
-
 +1 x77e01 +1 x77e03 -1 x77e04 +1 x77ea9 = +0
-
 +1 x77e04 -1 x77e05 -1 x77e06 = +0
-
 +1 x77e06 +1 x77e3c +1 x77e72 -1 x77e73 +0 x77e74 = +0
-
 +1 x77e05 -1 x77e11 -1 x77e12 = +0
-
 +1 x77e11 -1 x77e1d -1 x77e1e = +0
-
 +1 x77e1d -1 x77e21 -1 x77e22 = +0
-
 +1 x77e21 -1 x77e25 -1 x77e26 = +0
-
 +1 x77e25 -1 x77e29 -1 x77e2a = +0
-
 +1 x77e22 +1 x77e26 +1 x77e2a -1 x77e2f = +0
-
 +1 x77e2f +1 x77e66 -1 x781e6 = +0
-
 +1 x77e12 +1 x77e1e +1 x77e29 -1 x77e37 = +0
-
 +1 x77e37 +1 x77e39 -1 x77e3a +1 x77e6f = +0
-
 +1 x77e3a -1 x77e3b -1 x77e3c = +0
-
 +1 x77e3b -1 x77e48 -1 x77e49 = +0
-
 +1 x77e48 -1 x77e54 -1 x77e55 = +0
-
 +1 x77e54 -1 x77e58 -1 x77e59 = +0
-
 +1 x77e58 -1 x77e5c -1 x77e5d = +0
-
 +1 x77e5c -1 x77e60 -1 x77e61 = +0
-
 +1 x77e59 +1 x77e5d +1 x77e61 -1 x77e66 = +0
-
 +1 x77e49 +1 x77e55 +1 x77e60 -1 x77e6f = +0
-
 +1 x77e73 +1 x77e7d -1 x77e7e = +0
-
 +1 x77e7e -1 x77e7f -1 x77e80 = +0
-
 +1 x77e7f -1 x77e91 -1 x77e92 = +0
-
 +1 x77e91 -1 x77e9d -1 x77e9e = +0
-
 +1 x77e92 +1 x77e9e -1 x77ea9 = +0
-
 +1 x77ead -1 x77ebc -1 x77ebd = +0
-
 +1 x77ebd -1 x77ec1 -1 x77ec2 = +0
-
 +1 x77ebc -1 x77ec3 -1 x77ec4 = +0
-
 +1 x77ec2 +1 x77ec4 -1 x77eca -1 x77ecb = +0
-
 +1 x77ec1 +1 x77ec3 -1 x77ec9 = +0
-
 +1 x77ec9 -1 x77ecc -1 x77ecd = +0
-
 +1 x77ecb +1 x77ecd -1 x77ed8 = +0
-
 +1 x77eca +1 x77ecc -1 x77edc = +0
-
 +1 x77ed8 +1 x77edc -1 x77ee1 = +0
-
 +1 x77ee1 -1 x77ee4 -1 x77ee5 = +0
-
 +1 x77ee4 +1 x77ee5 -1 x77ef5 = +0
-
 +1 x77ef5 -1 x77f03 -1 x77f04 = +0
-
 +1 x77f03 -1 x77f0f -1 x77f10 = +0
-
 +1 x77f04 +1 x77f0f +1 x77f10 -1 x77f1e = +0
-
 +1 x77f1e +1 x77f20 -1 x77f21 = +0
-
 +1 x77f21 -1 x77f22 -1 x77f23 = +0
-
 +1 x77f23 +1 x77f4a +1 x77f71 -1 x77f72 +0 x77f73 = +0
-
 +1 x77f22 -1 x77f2e -1 x77f2f = +0
-
 +1 x77f2e -1 x77f3a -1 x77f3b = +0
-
 +1 x77f3a +1 x77f62 -1 x781b7 = +0
-
 +1 x77f2f +1 x77f3b -1 x77f45 = +0
-
 +1 x77f45 +1 x77f47 -1 x77f48 +1 x77f6e = +0
-
 +1 x77f48 -1 x77f49 -1 x77f4a = +0
-
 +1 x77f49 -1 x77f56 -1 x77f57 = +0
-
 +1 x77f56 -1 x77f62 -1 x77f63 = +0
-
 +1 x77f57 +1 x77f63 -1 x77f6e = +0
-
 +1 x77f72 +1 x77f7c -1 x77f7d = +0
-
 +1 x77f7d -1 x77f7e -1 x77f7f = +0
-
 +1 x77f7f +1 x78025 +1 x78051 -1 x78052 +0 x78053 = +0
-
 +1 x77f7e -1 x77f8f -1 x77f90 = +0
-
 +1 x77f8f -1 x77f9b -1 x77f9c = +0
-
 +1 x77f9b +1 x78042 -1 x78188 = +0
-
 +1 x77f90 +1 x77f9c -1 x77fa6 = +0
-
 +1 x77fa6 +1 x77fa8 -1 x77fa9 +1 x7804e = +0
-
 +1 x77fa9 -1 x77faa -1 x77fab = +0
-
 +1 x77fab +1 x77fe1 +1 x78017 -1 x78018 +0 x78019 = +0
-
 +1 x77faa -1 x77fb6 -1 x77fb7 = +0
-
 +1 x77fb6 -1 x77fc2 -1 x77fc3 = +0
-
 +1 x77fc2 -1 x77fc6 -1 x77fc7 = +0
-
 +1 x77fc6 -1 x77fca -1 x77fcb = +0
-
 +1 x77fca -1 x77fce -1 x77fcf = +0
-
 +1 x77fc7 +1 x77fcb +1 x77fcf -1 x77fd4 = +0
-
 +1 x77fd4 +1 x7800b -1 x78159 = +0
-
 +1 x77fb7 +1 x77fc3 +1 x77fce -1 x77fdc = +0
-
 +1 x77fdc +1 x77fde -1 x77fdf +1 x78014 = +0
-
 +1 x77fdf -1 x77fe0 -1 x77fe1 = +0
-
 +1 x77fe0 -1 x77fed -1 x77fee = +0
-
 +1 x77fed -1 x77ff9 -1 x77ffa = +0
-
 +1 x77ff9 -1 x77ffd -1 x77ffe = +0
-
 +1 x77ffd -1 x78001 -1 x78002 = +0
-
 +1 x78001 -1 x78005 -1 x78006 = +0
-
 +1 x77ffe +1 x78002 +1 x78006 -1 x7800b = +0
-
 +1 x77fee +1 x77ffa +1 x78005 -1 x78014 = +0
-
 +1 x78018 +1 x78022 -1 x78023 = +0
-
 +1 x78023 -1 x78024 -1 x78025 = +0
-
 +1 x78024 -1 x78036 -1 x78037 = +0
-
 +1 x78036 -1 x78042 -1 x78043 = +0
-
 +1 x78037 +1 x78043 -1 x7804e = +0
-
 +1 x78052 -1 x78061 -1 x78062 = +0
-
 +1 x78062 -1 x78066 -1 x78067 = +0
-
 +1 x78061 -1 x78068 -1 x78069 = +0
-
 +1 x78067 -1 x78070 -1 x78071 = +0
-
 +1 x78069 -1 x78072 -1 x78073 = +0
-
 +1 x78068 -1 x78074 -1 x78075 = +0
-
 +1 x78066 -1 x78076 -1 x78077 = +0
-
 +1 x78070 +1 x78072 -1 x7807b = +0
-
 +1 x78071 +1 x78073 -1 x78078 = +0
-
 +1 x78075 +1 x78077 -1 x78082 = +0
-
 +1 x78078 +1 x78082 -1 x78086 = +0
-
 +1 x78074 +1 x78076 -1 x78088 = +0
-
 +1 x7807b +1 x78088 -1 x7808a = +0
-
 +1 x78086 -1 x7808d -1 x7808e = +0
-
 +1 x7808a -1 x7808f -1 x78090 = +0
-
 +1 x7808d +1 x7808f -1 x780d4 = +0
-
 +1 x7808e +1 x78090 -1 x78091 = +0
-
 +1 x78091 +1 x78095 -1 x78096 = +0
-
 +1 x78096 -1 x78097 -1 x78098 = +0
-
 +1 x78097 -1 x780b6 -1 x780b7 = +0
-
 +1 x780b6 -1 x780c2 -1 x780c3 = +0
-
 +1 x780b7 +1 x780c2 +1 x780c3 -1 x780d1 = +0
-
 +1 x780d4 +1 x780d6 -1 x780d9 +0 x780da = +0
-
 +1 x780d9 +1 x780e1 -1 x780ed = +0
-
 +1 x779f4 +1 x780d7 -1 x780f2 = +0
-
 +1 x780ed +1 x780f2 -1 x780f3 = +0
-
 +1 x780f3 +1 x780f4 -1 x780f5 +1 x78110 = +0
-
 +1 x780f5 -1 x780f6 -1 x780f7 = +0
-
 +1 x780f6 -1 x780ff -1 x78100 = +0
-
 +1 x78100 -1 x7810f -1 x78110 = +0
-
 +1 x7810f -1 x7813d -1 x7813e = +0
-
 +1 x7813d +1 x7813e -1 x7814b = +0
-
 +1 x711bd +1 x78153 -1 x78272 = +0
-
 +1 x78158 -1 x7815a -1 x7815b = +0
-
 +1 x78159 -1 x7815c -1 x7815d = +0
-
 +1 x7815a +1 x7815c -1 x78180 = +0
-
 +1 x7815b +1 x7815d -1 x7815e = +0
-
 +1 x7815e -1 x78160 -1 x78161 -1 x78162 -1 x78163 -1 x78164 -1 x78165 -1 x78166
 -1 x78167 -1 x78168 -1 x78169 -1 x7816a -1 x7816b -1 x7816c -1 x7816d -1 x7816e
 -1 x7816f = +0
-
 +1 x78187 -1 x78189 -1 x7818a = +0
-
 +1 x78188 -1 x7818b -1 x7818c = +0
-
 +1 x78189 +1 x7818b -1 x781af = +0
-
 +1 x7818a +1 x7818c -1 x7818d = +0
-
 +1 x7818d -1 x7818f -1 x78190 -1 x78191 -1 x78192 -1 x78193 -1 x78194 -1 x78195
 -1 x78196 -1 x78197 -1 x78198 -1 x78199 -1 x7819a -1 x7819b -1 x7819c -1 x7819d
 -1 x7819e = +0
-
 +1 x781b6 -1 x781b8 -1 x781b9 = +0
-
 +1 x781b7 -1 x781ba -1 x781bb = +0
-
 +1 x781b8 +1 x781ba -1 x781de = +0
-
 +1 x781b9 +1 x781bb -1 x781bc = +0
-
 +1 x781bc -1 x781be -1 x781bf -1 x781c0 -1 x781c1 -1 x781c2 -1 x781c3 -1 x781c4
 -1 x781c5 -1 x781c6 -1 x781c7 -1 x781c8 -1 x781c9 -1 x781ca -1 x781cb -1 x781cc
 -1 x781cd = +0
-
 +1 x781e5 -1 x781e7 -1 x781e8 = +0
-
 +1 x781e6 -1 x781e9 -1 x781ea = +0
-
 +1 x781e7 +1 x781e9 -1 x7820d = +0
-
 +1 x781e8 +1 x781ea -1 x781eb = +0
-
 +1 x781eb -1 x781ed -1 x781ee -1 x781ef -1 x781f0 -1 x781f1 -1 x781f2 -1 x781f3
 -1 x781f4 -1 x781f5 -1 x781f6 -1 x781f7 -1 x781f8 -1 x781f9 -1 x781fa -1 x781fb
 -1 x781fc = +0
-
 +1 x78214 -1 x78216 -1 x78217 = +0
-
 +1 x78215 -1 x78218 -1 x78219 = +0
-
 +1 x78216 +1 x78218 -1 x7823c = +0
-
 +1 x78217 +1 x78219 -1 x7821a = +0
-
 +1 x7821a -1 x7821c -1 x7821d -1 x7821e -1 x7821f -1 x78220 -1 x78221 -1 x78222
 -1 x78223 -1 x78224 -1 x78225 -1 x78226 -1 x78227 -1 x78228 -1 x78229 -1 x7822a
 -1 x7822b = +0
-
 +1 x78243 -1 x78245 -1 x78246 = +0
-
 +1 x78244 -1 x78247 -1 x78248 = +0
-
 +1 x78245 +1 x78247 -1 x7826b = +0
-
 +1 x78246 +1 x78248 -1 x78249 = +0
-
 +1 x78249 -1 x7824b -1 x7824c -1 x7824d -1 x7824e -1 x7824f -1 x78250 -1 x78251
 -1 x78252 -1 x78253 -1 x78254 -1 x78255 -1 x78256 -1 x78257 -1 x78258 -1 x78259
 -1 x7825a = +0
-
 +1 x5dd64 +1 x78272 -1 x78279 = +0
-
 +1 x78279 -1 x7827c -1 x7827d = +0
-
 +1 x7827d +1 x782f2 -1 x782f3 +0 x782f4 = +0
-
 +1 x7827c -1 x78281 -1 x78282 = +0
-
 +1 x78281 -1 x78289 -1 x7828b = +0
-
 +1 x7828b -1 x78291 -1 x78292 = +0
-
 +1 x78291 -1 x78299 -1 x7829a = +0
-
 +1 x7829a -1 x782a9 -1 x782aa = +0
-
 +1 x782a9 -1 x782d7 -1 x782d8 = +0
-
 +1 x782d7 +1 x782d8 -1 x782e5 = +0
-
 +1 x6ea53 +1 x782f3 -1 x782f8 = +0
-
 +1 x782f8 -1 x782fb -1 x782fc = +0
-
 +1 x782fb -1 x78301 -1 x78302 = +0
-
 +1 x78302 -1 x78305 -1 x78306 = +0
-
 +1 x78305 -1 x7830d -1 x7830f = +0
-
 +1 x78301 -1 x78315 -1 x78316 = +0
-
 +1 x78316 -1 x78319 -1 x7831a = +0
-
 +1 x78319 -1 x78321 -1 x78323 = +0
-
 +1 x782fc -1 x78333 -1 x78334 = +0
-
 +1 x7830f -1 x78335 -1 x78336 = +0
-
 +1 x78323 -1 x78337 -1 x78338 = +0
-
 +1 x78315 -1 x78339 -1 x7833a = +0
-
 +1 x78333 +1 x78335 +1 x78337 +1 x78339 -1 x7833c = +0
-
 +1 x78334 +1 x78336 +1 x78338 +1 x7833a -1 x7833b = +0
-
 +1 x7833c -1 x7833e -1 x7833f = +0
-
 +1 x7833e -1 x78346 -1 x78348 = +0
-
 +1 x78348 -1 x78351 -1 x78352 = +0
-
 +1 x78351 -1 x78359 -1 x7835b = +0
-
 +1 x7835b -1 x78361 -1 x78362 = +0
-
 +1 x78361 -1 x78369 -1 x7836a = +0
-
 +1 x7836a -1 x78379 -1 x7837a = +0
-
 +1 x78379 -1 x783a7 -1 x783a8 = +0
-
 +1 x783a7 +1 x783a8 -1 x783b5 = +0
-
 +1 x691b8 -1 x783e0 -1 x783e1 = +0
-
 +1 x783e0 -1 x783f5 -1 x783f6 = +0
-
 +1 x783f5 -1 x7840e -1 x7840f = +0
-
 +1 x783f6 -1 x78410 -1 x78411 = +0
-
 +1 x7840e +1 x78410 -1 x78413 = +0
-
 +1 x7840f +1 x78411 -1 x78412 = +0
-
 +1 x78413 -1 x78420 -1 x78421 = +0
-
 +1 x78420 -1 x78437 -1 x78463 = +0
-
 +1 x78421 -1 x78438 -1 x78464 = +0
-
 +1 x78437 -1 x78439 -1 x7843a = +0
-
 +1 x78438 -1 x7843b -1 x7843c = +0
-
 +1 x78439 +1 x7843b -1 x7843f = +0
-
 +1 x7843a +1 x7843c -1 x7843d = +0
-
 +1 x78412 +1 x7843d -1 x7846c = +0
-
 +1 x7843f -1 x7844c -1 x7844d = +0
-
 +1 x7844c +1 x78463 -1 x78465 -1 x78491 = +0
-
 +1 x7844d +1 x78464 -1 x78466 -1 x78492 = +0
-
 +1 x78465 -1 x78467 -1 x78468 = +0
-
 +1 x78466 -1 x78469 -1 x7846a = +0
-
 +1 x78467 +1 x78469 -1 x7846d = +0
-
 +1 x78468 +1 x7846a -1 x7846b = +0
-
 +1 x7846b +1 x7846c -1 x7849a = +0
-
 +1 x7846d -1 x7847a -1 x7847b = +0
-
 +1 x7847a +1 x78491 -1 x78493 -1 x784bf = +0
-
 +1 x7847b +1 x78492 -1 x78494 -1 x784c0 = +0
-
 +1 x78493 -1 x78495 -1 x78496 = +0
-
 +1 x78494 -1 x78497 -1 x78498 = +0
-
 +1 x78495 +1 x78497 -1 x7849b = +0
-
 +1 x78496 +1 x78498 -1 x78499 = +0
-
 +1 x78499 +1 x7849a -1 x784c8 = +0
-
 +1 x7849b -1 x784a8 -1 x784a9 = +0
-
 +1 x784a8 +1 x784bf -1 x784c1 -1 x784ed = +0
-
 +1 x784a9 +1 x784c0 -1 x784c2 -1 x784ee = +0
-
 +1 x784c1 -1 x784c3 -1 x784c4 = +0
-
 +1 x784c2 -1 x784c5 -1 x784c6 = +0
-
 +1 x784c3 +1 x784c5 -1 x784c9 = +0
-
 +1 x784c4 +1 x784c6 -1 x784c7 = +0
-
 +1 x784c7 +1 x784c8 -1 x784f6 = +0
-
 +1 x784c9 -1 x784d6 -1 x784d7 = +0
-
 +1 x784d6 +1 x784ed -1 x784ef -1 x7851b = +0
-
 +1 x784d7 +1 x784ee -1 x784f0 -1 x7851c = +0
-
 +1 x784ef -1 x784f1 -1 x784f2 = +0
-
 +1 x784f0 -1 x784f3 -1 x784f4 = +0
-
 +1 x784f1 +1 x784f3 -1 x784f7 = +0
-
 +1 x784f2 +1 x784f4 -1 x784f5 = +0
-
 +1 x784f5 +1 x784f6 -1 x78524 = +0
-
 +1 x784f7 -1 x78504 -1 x78505 = +0
-
 +1 x78504 +1 x7851b -1 x7851d -1 x78549 = +0
-
 +1 x78505 +1 x7851c -1 x7851e -1 x7854a = +0
-
 +1 x7851d -1 x7851f -1 x78520 = +0
-
 +1 x7851e -1 x78521 -1 x78522 = +0
-
 +1 x7851f +1 x78521 -1 x78525 = +0
-
 +1 x78520 +1 x78522 -1 x78523 = +0
-
 +1 x78523 +1 x78524 -1 x78552 = +0
-
 +1 x78525 -1 x78532 -1 x78533 = +0
-
 +1 x78532 +1 x78549 -1 x7854b -1 x78577 = +0
-
 +1 x78533 +1 x7854a -1 x7854c -1 x78578 = +0
-
 +1 x7854b -1 x7854d -1 x7854e = +0
-
 +1 x7854c -1 x7854f -1 x78550 = +0
-
 +1 x7854d +1 x7854f -1 x78553 = +0
-
 +1 x7854e +1 x78550 -1 x78551 = +0
-
 +1 x78551 +1 x78552 -1 x78580 = +0
-
 +1 x78553 -1 x78560 -1 x78561 = +0
-
 +1 x78560 +1 x78577 -1 x78579 +1 x7858e = +0
-
 +1 x78561 +1 x78578 -1 x7857a +1 x7858f = +0
-
 +1 x78579 -1 x7857b -1 x7857c = +0
-
 +1 x7857a -1 x7857d -1 x7857e = +0
-
 +1 x7857b +1 x7857d -1 x78581 = +0
-
 +1 x7857c +1 x7857e -1 x7857f = +0
-
 +1 x7857f +1 x78580 -1 x785a7 +0 x785a8 = +0
-
 +1 x78581 -1 x7858e -1 x7858f = +0
-
 +1 x783e1 +1 x785a7 -1 x785b0 = +0
-
 +1 x785b0 -1 x785b3 -1 x785b4 = +0
-
 +1 x785b3 -1 x785c3 -1 x785c4 = +0
-
 +1 x785c3 -1 x785ca -1 x785cb = +0
-
 +1 x785ca -1 x785da -1 x785db = +0
-
 +1 x785da -1 x785f1 -1 x7883b = +0
-
 +1 x785db -1 x785f2 -1 x7883c = +0
-
 +1 x785f1 -1 x785f3 -1 x785f4 = +0
-
 +1 x785f2 -1 x785f5 -1 x785f6 = +0
-
 +1 x785f3 -1 x78603 -1 x78604 = +0
-
 +1 x785f5 -1 x78605 -1 x78606 = +0
-
 +1 x78603 +1 x78605 -1 x7860d = +0
-
 +1 x78604 +1 x78606 -1 x78607 = +0
-
 +1 x78607 -1 x78615 -1 x78616 = +0
-
 +1 x78615 -1 x7862c -1 x78669 = +0
-
 +1 x78616 -1 x7862d -1 x7866a = +0
-
 +1 x7862c -1 x7862e -1 x7862f = +0
-
 +1 x7862d -1 x78630 -1 x78631 = +0
-
 +1 x785f4 +1 x7862f -1 x78673 = +0
-
 +1 x785f6 +1 x78631 -1 x78674 = +0
-
 +1 x7862e -1 x78640 -1 x78641 = +0
-
 +1 x78630 -1 x78642 -1 x78643 = +0
-
 +1 x78640 +1 x78642 -1 x7864a = +0
-
 +1 x78641 +1 x78643 -1 x78644 = +0
-
 +1 x78644 -1 x78652 -1 x78653 = +0
-
 +1 x78652 +1 x78669 -1 x7866b -1 x786a8 = +0
-
 +1 x78653 +1 x7866a -1 x7866c -1 x786a9 = +0
-
 +1 x7866b -1 x7866d -1 x7866e = +0
-
 +1 x7866c -1 x7866f -1 x78670 = +0
-
 +1 x7866e +1 x78673 -1 x786b2 = +0
-
 +1 x78670 +1 x78674 -1 x786b3 = +0
-
 +1 x7866d -1 x7867f -1 x78680 = +0
-
 +1 x7866f -1 x78681 -1 x78682 = +0
-
 +1 x7867f +1 x78681 -1 x78689 = +0
-
 +1 x78680 +1 x78682 -1 x78683 = +0
-
 +1 x78683 -1 x78691 -1 x78692 = +0
-
 +1 x78691 +1 x786a8 -1 x786aa -1 x786e7 = +0
-
 +1 x78692 +1 x786a9 -1 x786ab -1 x786e8 = +0
-
 +1 x786aa -1 x786ac -1 x786ad = +0
-
 +1 x786ab -1 x786ae -1 x786af = +0
-
 +1 x786ad +1 x786b2 -1 x786f1 = +0
-
 +1 x786af +1 x786b3 -1 x786f2 = +0
-
 +1 x786ac -1 x786be -1 x786bf = +0
-
 +1 x786ae -1 x786c0 -1 x786c1 = +0
-
 +1 x786be +1 x786c0 -1 x786c8 = +0
-
 +1 x786bf +1 x786c1 -1 x786c2 = +0
-
 +1 x786c2 -1 x786d0 -1 x786d1 = +0
-
 +1 x786d0 +1 x786e7 -1 x786e9 -1 x78726 = +0
-
 +1 x786d1 +1 x786e8 -1 x786ea -1 x78727 = +0
-
 +1 x786e9 -1 x786eb -1 x786ec = +0
-
 +1 x786ea -1 x786ed -1 x786ee = +0
-
 +1 x786ec +1 x786f1 -1 x78730 = +0
-
 +1 x786ee +1 x786f2 -1 x78731 = +0
-
 +1 x786eb -1 x786fd -1 x786fe = +0
-
 +1 x786ed -1 x786ff -1 x78700 = +0
-
 +1 x786fd +1 x786ff -1 x78707 = +0
-
 +1 x786fe +1 x78700 -1 x78701 = +0
-
 +1 x78701 -1 x7870f -1 x78710 = +0
-
 +1 x7870f +1 x78726 -1 x78728 -1 x78765 = +0
-
 +1 x78710 +1 x78727 -1 x78729 -1 x78766 = +0
-
 +1 x78728 -1 x7872a -1 x7872b = +0
-
 +1 x78729 -1 x7872c -1 x7872d = +0
-
 +1 x7872b +1 x78730 -1 x7876f = +0
-
 +1 x7872d +1 x78731 -1 x78770 = +0
-
 +1 x7872a -1 x7873c -1 x7873d = +0
-
 +1 x7872c -1 x7873e -1 x7873f = +0
-
 +1 x7873c +1 x7873e -1 x78746 = +0
-
 +1 x7873d +1 x7873f -1 x78740 = +0
-
 +1 x78740 -1 x7874e -1 x7874f = +0
-
 +1 x7874e +1 x78765 -1 x78767 -1 x787a4 = +0
-
 +1 x7874f +1 x78766 -1 x78768 -1 x787a5 = +0
-
 +1 x78767 -1 x78769 -1 x7876a = +0
-
 +1 x78768 -1 x7876b -1 x7876c = +0
-
 +1 x7876a +1 x7876f -1 x787ae = +0
-
 +1 x7876c +1 x78770 -1 x787af = +0
-
 +1 x78769 -1 x7877b -1 x7877c = +0
-
 +1 x7876b -1 x7877d -1 x7877e = +0
-
 +1 x7877b +1 x7877d -1 x78785 = +0
-
 +1 x7877c +1 x7877e -1 x7877f = +0
-
 +1 x7877f -1 x7878d -1 x7878e = +0
-
 +1 x7878d +1 x787a4 -1 x787a6 +1 x787cc +1 x78861 = +0
-
 +1 x7878e +1 x787a5 -1 x787a7 +1 x787cd +1 x78862 = +0
-
 +1 x787a6 -1 x787a8 -1 x787a9 = +0
-
 +1 x787a7 -1 x787aa -1 x787ab = +0
-
 +1 x787a9 +1 x787ae -1 x787e5 +0 x787e6 +1 x78840 = +0
-
 +1 x787ab +1 x787af -1 x787e7 +0 x787e8 +1 x78842 = +0
-
 +1 x787a8 -1 x787ba -1 x787bb = +0
-
 +1 x787aa -1 x787bc -1 x787bd = +0
-
 +1 x787ba +1 x787bc -1 x787c4 = +0
-
 +1 x787bb +1 x787bd -1 x787be = +0
-
 +1 x787be -1 x787cc -1 x787cd = +0
-
 +1 x785c4 +1 x785cb +1 x787e5 +1 x787e7 -1 x787f9 = +0
-
 +1 x787f9 -1 x787fb +1 x78880 = +0
-
 +1 x787fb -1 x787fc -1 x787fd = +0
-
 +1 x785b4 +1 x787fd -1 x78883 +0 x78884 = +0
-
 +1 x787fc -1 x7880d -1 x7880e = +0
-
 +1 x7880d -1 x78814 -1 x78815 = +0
-
 +1 x78814 -1 x78824 -1 x78825 = +0
-
 +1 x78824 +1 x7883b -1 x7883d = +0
-
 +1 x78825 +1 x7883c -1 x7883e = +0
-
 +1 x7883d -1 x7883f -1 x78840 = +0
-
 +1 x7883e -1 x78841 -1 x78842 = +0
-
 +1 x7883f -1 x7884f -1 x78850 = +0
-
 +1 x78841 -1 x78851 -1 x78852 = +0
-
 +1 x7884f +1 x78851 -1 x78859 = +0
-
 +1 x78850 +1 x78852 -1 x78853 = +0
-
 +1 x78853 -1 x78861 -1 x78862 = +0
-
 +1 x7880e +1 x78815 -1 x78880 = +0
-
 +1 x78883 -1 x7888e -1 x7888f = +0
-
 +1 x7888f +1 x78aca -1 x78b1e +0 x78b1f = +0
-
 +1 x7888e -1 x78895 -1 x78896 = +0
-
 +1 x78895 -1 x788a5 -1 x788a6 = +0
-
 +1 x788a5 -1 x788ac -1 x788ad = +0
-
 +1 x788ac -1 x788bc -1 x788bd = +0
-
 +1 x788bc -1 x788d3 +1 x78af8 = +0
-
 +1 x788bd -1 x788d4 +1 x78af9 = +0
-
 +1 x788d3 -1 x788d5 -1 x788d6 = +0
-
 +1 x788d4 -1 x788d7 -1 x788d8 = +0
-
 +1 x788d6 +1 x78919 -1 x7895d +0 x7895e = +0
-
 +1 x788d8 +1 x7891b -1 x7895f +0 x78960 = +0
-
 +1 x788d5 -1 x788e5 -1 x788e6 = +0
-
 +1 x788d7 -1 x788e7 -1 x788e8 = +0
-
 +1 x788e5 +1 x788e7 -1 x788ef = +0
-
 +1 x788e6 +1 x788e8 -1 x788e9 = +0
-
 +1 x788e9 -1 x788f7 -1 x788f8 = +0
-
 +1 x788f7 -1 x788ff -1 x78900 = +0
-
 +1 x78900 -1 x78916 +1 x78945 = +0
-
 +1 x788f8 -1 x78917 +1 x7893d = +0
-
 +1 x78916 -1 x78918 -1 x78919 = +0
-
 +1 x78917 -1 x7891a -1 x7891b = +0
-
 +1 x78918 -1 x7892a -1 x7892b = +0
-
 +1 x7891a -1 x7892c -1 x7892d = +0
-
 +1 x7892a +1 x7892c -1 x78934 = +0
-
 +1 x7892b +1 x7892d -1 x7892e = +0
-
 +1 x7892e -1 x7893c -1 x7893d = +0
-
 +1 x7893c -1 x78944 -1 x78945 = +0
-
 +1 x788a6 +1 x788ad +1 x7895d +1 x7895f -1 x78971 = +0
-
 +1 x78971 -1 x78973 +1 x78b15 = +0
-
 +1 x78973 -1 x78974 -1 x78975 = +0
-
 +1 x78975 +1 x78a64 -1 x78abb +0 x78abc = +0
-
 +1 x78974 -1 x7897c -1 x7897d = +0
-
 +1 x7897d -1 x7898c -1 x7898d = +0
-
 +1 x7898c -1 x78993 -1 x78994 = +0
-
 +1 x78993 -1 x789a3 -1 x789a4 = +0
-
 +1 x789a3 -1 x789ab -1 x789ac = +0
-
 +1 x789ac -1 x789c2 +1 x78a9c = +0
-
 +1 x789a4 -1 x789c3 +1 x78a94 = +0
-
 +1 x789c2 -1 x789c4 -1 x789c5 = +0
-
 +1 x789c3 -1 x789c6 -1 x789c7 = +0
-
 +1 x789c5 +1 x78a08 -1 x78a4c +0 x78a4d = +0
-
 +1 x789c7 +1 x78a0a -1 x78a4e +0 x78a4f = +0
-
 +1 x789c4 -1 x789d4 -1 x789d5 = +0
-
 +1 x789c6 -1 x789d6 -1 x789d7 = +0
-
 +1 x789d4 +1 x789d6 -1 x789de = +0
-
 +1 x789d5 +1 x789d7 -1 x789d8 = +0
-
 +1 x789d8 -1 x789e6 -1 x789e7 = +0
-
 +1 x789e6 -1 x789ee -1 x789ef = +0
-
 +1 x789ef -1 x78a05 +1 x78a34 = +0
-
 +1 x789e7 -1 x78a06 +1 x78a2c = +0
-
 +1 x78a05 -1 x78a07 -1 x78a08 = +0
-
 +1 x78a06 -1 x78a09 -1 x78a0a = +0
-
 +1 x78a07 -1 x78a19 -1 x78a1a = +0
-
 +1 x78a09 -1 x78a1b -1 x78a1c = +0
-
 +1 x78a19 +1 x78a1b -1 x78a23 = +0
-
 +1 x78a1a +1 x78a1c -1 x78a1d = +0
-
 +1 x78a1d -1 x78a2b -1 x78a2c = +0
-
 +1 x78a2b -1 x78a33 -1 x78a34 = +0
-
 +1 x7898d +1 x78994 +1 x78a4c +1 x78a4e -1 x78a60 = +0
-
 +1 x78a60 -1 x78a62 +1 x78ab8 = +0
-
 +1 x78a62 -1 x78a63 -1 x78a64 = +0
-
 +1 x78a63 -1 x78a6c -1 x78a6d = +0
-
 +1 x78a6d -1 x78a7c -1 x78a7d = +0
-
 +1 x78a7c -1 x78a83 -1 x78a84 = +0
-
 +1 x78a83 -1 x78a93 -1 x78a94 = +0
-
 +1 x78a93 -1 x78a9b -1 x78a9c = +0
-
 +1 x78a7d +1 x78a84 -1 x78ab8 = +0
-
 +1 x78896 +1 x78abb -1 x78ac6 = +0
-
 +1 x78ac6 -1 x78ac8 +1 x78ad2 = +0
-
 +1 x78ac8 -1 x78ac9 -1 x78aca = +0
-
 +1 x78ac9 -1 x78ad1 -1 x78ad2 = +0
-
 +1 x78ad1 -1 x78ae1 -1 x78ae2 = +0
-
 +1 x78ae1 -1 x78ae8 -1 x78ae9 = +0
-
 +1 x78ae8 -1 x78af8 -1 x78af9 = +0
-
 +1 x78ae2 +1 x78ae9 -1 x78b15 = +0
-
 +1 x78b1e -1 x78b29 -1 x78b2a = +0
-
 +1 x78b2a -1 x78b4b -1 x78b4c = +0
-
 +1 x78b4b -1 x78b5b -1 x78b5c = +0
-
 +1 x78b4c +1 x78b5c -1 x78b70 = +0
-
 +1 x78b5b -1 x78b75 -1 x78b76 = +0
-
 +1 x78b70 -1 x78b77 -1 x78b78 = +0
-
 +1 x78b75 +1 x78b77 -1 x78b87 = +0
-
 +1 x78b87 -1 x78b8e -1 x78b8f = +0
-
 +1 x78b8e -1 x78b9e -1 x78b9f = +0
-
 +1 x78b8f +1 x78b9f -1 x78bb3 = +0
-
 +1 x78b9e -1 x78bb6 -1 x78bfb = +0
-
 +1 x78bb3 -1 x78bb7 -1 x78bfc = +0
-
 +1 x78bb6 -1 x78bb8 -1 x78bb9 = +0
-
 +1 x78bb7 -1 x78bba -1 x78bbb = +0
-
 +1 x78b76 +1 x78bb9 -1 x78c05 = +0
-
 +1 x78b78 +1 x78bbb -1 x78c06 = +0
-
 +1 x78bb8 +1 x78bba -1 x78bcc = +0
-
 +1 x78bcc -1 x78bd3 -1 x78bd4 = +0
-
 +1 x78bd3 -1 x78be3 -1 x78be4 = +0
-
 +1 x78bd4 +1 x78be4 -1 x78bf8 = +0
-
 +1 x78be3 +1 x78bfb -1 x78bfd -1 x78c42 = +0
-
 +1 x78bf8 +1 x78bfc -1 x78bfe -1 x78c43 = +0
-
 +1 x78bfd -1 x78bff -1 x78c00 = +0
-
 +1 x78bfe -1 x78c01 -1 x78c02 = +0
-
 +1 x78c00 +1 x78c05 -1 x78c4c = +0
-
 +1 x78c02 +1 x78c06 -1 x78c4d = +0
-
 +1 x78bff +1 x78c01 -1 x78c13 = +0
-
 +1 x78c13 -1 x78c1a -1 x78c1b = +0
-
 +1 x78c1a -1 x78c2a -1 x78c2b = +0
-
 +1 x78c1b +1 x78c2b -1 x78c3f = +0
-
 +1 x78c2a +1 x78c42 -1 x78c44 -1 x78c89 = +0
-
 +1 x78c3f +1 x78c43 -1 x78c45 -1 x78c8a = +0
-
 +1 x78c44 -1 x78c46 -1 x78c47 = +0
-
 +1 x78c45 -1 x78c48 -1 x78c49 = +0
-
 +1 x78c47 +1 x78c4c -1 x78c93 = +0
-
 +1 x78c49 +1 x78c4d -1 x78c94 = +0
-
 +1 x78c46 +1 x78c48 -1 x78c5a = +0
-
 +1 x78c5a -1 x78c61 -1 x78c62 = +0
-
 +1 x78c61 -1 x78c71 -1 x78c72 = +0
-
 +1 x78c62 +1 x78c72 -1 x78c86 = +0
-
 +1 x78c71 +1 x78c89 -1 x78c8b -1 x78cd0 = +0
-
 +1 x78c86 +1 x78c8a -1 x78c8c -1 x78cd1 = +0
-
 +1 x78c8b -1 x78c8d -1 x78c8e = +0
-
 +1 x78c8c -1 x78c8f -1 x78c90 = +0
-
 +1 x78c8e +1 x78c93 -1 x78cda = +0
-
 +1 x78c90 +1 x78c94 -1 x78cdb = +0
-
 +1 x78c8d +1 x78c8f -1 x78ca1 = +0
-
 +1 x78ca1 -1 x78ca8 -1 x78ca9 = +0
-
 +1 x78ca8 -1 x78cb8 -1 x78cb9 = +0
-
 +1 x78ca9 +1 x78cb9 -1 x78ccd = +0
-
 +1 x78cb8 +1 x78cd0 -1 x78cd2 -1 x78d17 = +0
-
 +1 x78ccd +1 x78cd1 -1 x78cd3 -1 x78d18 = +0
-
 +1 x78cd2 -1 x78cd4 -1 x78cd5 = +0
-
 +1 x78cd3 -1 x78cd6 -1 x78cd7 = +0
-
 +1 x78cd5 +1 x78cda -1 x78d21 = +0
-
 +1 x78cd7 +1 x78cdb -1 x78d22 = +0
-
 +1 x78cd4 +1 x78cd6 -1 x78ce8 = +0
-
 +1 x78ce8 -1 x78cef -1 x78cf0 = +0
-
 +1 x78cef -1 x78cff -1 x78d00 = +0
-
 +1 x78cf0 +1 x78d00 -1 x78d14 = +0
-
 +1 x78cff +1 x78d17 -1 x78d19 -1 x78d5e = +0
-
 +1 x78d14 +1 x78d18 -1 x78d1a -1 x78d5f = +0
-
 +1 x78d19 -1 x78d1b -1 x78d1c = +0
-
 +1 x78d1a -1 x78d1d -1 x78d1e = +0
-
 +1 x78d1c +1 x78d21 -1 x78d68 = +0
-
 +1 x78d1e +1 x78d22 -1 x78d69 = +0
-
 +1 x78d1b +1 x78d1d -1 x78d2f = +0
-
 +1 x78d2f -1 x78d36 -1 x78d37 = +0
-
 +1 x78d36 -1 x78d46 -1 x78d47 = +0
-
 +1 x78d37 +1 x78d47 -1 x78d5b = +0
-
 +1 x78d46 +1 x78d5e -1 x78d60 +1 x78d8d = +0
-
 +1 x78d5b +1 x78d5f -1 x78d61 +1 x78da2 = +0
-
 +1 x78d60 -1 x78d62 -1 x78d63 = +0
-
 +1 x78d61 -1 x78d64 -1 x78d65 = +0
-
 +1 x78d63 +1 x78d68 -1 x78da7 +0 x78da8 = +0
-
 +1 x78d65 +1 x78d69 -1 x78da9 +0 x78daa = +0
-
 +1 x78d62 +1 x78d64 -1 x78d76 = +0
-
 +1 x78d76 -1 x78d7d -1 x78d7e = +0
-
 +1 x78d7d -1 x78d8d -1 x78d8e = +0
-
 +1 x78d7e +1 x78d8e -1 x78da2 = +0
-
 +1 x78da7 +1 x78da9 -1 x78db7 = +0
-
 +1 x78db7 -1 x78dba -1 x78dbb = +0
-
 +1 x78dbb +1 x78eac -1 x78ef3 +0 x78ef4 = +0
-
 +1 x78dba -1 x78dc1 -1 x78dc2 = +0
-
 +1 x78dc1 -1 x78dd1 -1 x78dd2 = +0
-
 +1 x78dd1 -1 x78de1 -1 x78de2 = +0
-
 +1 x78dd2 +1 x78de2 -1 x78df6 = +0
-
 +1 x78de1 -1 x78df9 +1 x78ed3 = +0
-
 +1 x78df6 -1 x78dfa +1 x78ee8 = +0
-
 +1 x78df9 -1 x78dfb -1 x78dfc = +0
-
 +1 x78dfa -1 x78dfd -1 x78dfe = +0
-
 +1 x78dfc +1 x78e48 -1 x78e95 +0 x78e96 = +0
-
 +1 x78dfe +1 x78e4a -1 x78e97 +0 x78e98 = +0
-
 +1 x78dfb -1 x78e0b -1 x78e0c = +0
-
 +1 x78dfd -1 x78e0d -1 x78e0e = +0
-
 +1 x78e0b +1 x78e0d -1 x78e15 = +0
-
 +1 x78e0c +1 x78e0e -1 x78e0f = +0
-
 +1 x78e0f -1 x78e1d -1 x78e1e = +0
-
 +1 x78e1d -1 x78e2d -1 x78e2e = +0
-
 +1 x78e1e +1 x78e2e -1 x78e42 = +0
-
 +1 x78e2d -1 x78e45 +1 x78e7b = +0
-
 +1 x78e42 -1 x78e46 +1 x78e90 = +0
-
 +1 x78e45 -1 x78e47 -1 x78e48 = +0
-
 +1 x78e46 -1 x78e49 -1 x78e4a = +0
-
 +1 x78e47 -1 x78e59 -1 x78e5a = +0
-
 +1 x78e49 -1 x78e5b -1 x78e5c = +0
-
 +1 x78e59 +1 x78e5b -1 x78e63 = +0
-
 +1 x78e5a +1 x78e5c -1 x78e5d = +0
-
 +1 x78e5d -1 x78e6b -1 x78e6c = +0
-
 +1 x78e6b -1 x78e7b -1 x78e7c = +0
-
 +1 x78e6c +1 x78e7c -1 x78e90 = +0
-
 +1 x78dc2 +1 x78e95 +1 x78e97 -1 x78ea8 = +0
-
 +1 x78ea8 -1 x78eaa +1 x78eb4 = +0
-
 +1 x78eaa -1 x78eab -1 x78eac = +0
-
 +1 x78eab -1 x78eb3 -1 x78eb4 = +0
-
 +1 x78eb3 -1 x78ec3 -1 x78ec4 = +0
-
 +1 x78ec3 -1 x78ed3 -1 x78ed4 = +0
-
 +1 x78ec4 +1 x78ed4 -1 x78ee8 = +0
-
 +1 x78ef3 -1 x78efe -1 x78eff = +0
-
 +1 x78eff +1 x7918e -1 x791e2 +0 x791e3 = +0
-
 +1 x78efe -1 x78f05 -1 x78f06 = +0
-
 +1 x78f05 -1 x78f0c -1 x78f0d = +0
-
 +1 x78f0c -1 x78f1c -1 x78f1d = +0
-
 +1 x78f1c -1 x78f2c -1 x78f2d = +0
-
 +1 x78f1d +1 x78f2d -1 x78f41 = +0
-
 +1 x78f2c -1 x78f44 +1 x791bc = +0
-
 +1 x78f41 -1 x78f45 +1 x791d1 = +0
-
 +1 x78f44 -1 x78f46 -1 x78f47 = +0
-
 +1 x78f45 -1 x78f48 -1 x78f49 = +0
-
 +1 x78f47 +1 x78f9b -1 x78ff0 +0 x78ff1 = +0
-
 +1 x78f49 +1 x78f9d -1 x78ff2 +0 x78ff3 = +0
-
 +1 x78f46 -1 x78f56 -1 x78f57 = +0
-
 +1 x78f48 -1 x78f58 -1 x78f59 = +0
-
 +1 x78f56 +1 x78f58 -1 x78f60 = +0
-
 +1 x78f57 +1 x78f59 -1 x78f5a = +0
-
 +1 x78f5a -1 x78f68 -1 x78f69 = +0
-
 +1 x78f68 -1 x78f70 -1 x78f71 = +0
-
 +1 x78f71 -1 x78f80 -1 x78f81 = +0
-
 +1 x78f69 +1 x78f81 -1 x78f95 = +0
-
 +1 x78f80 -1 x78f98 +1 x78fd6 = +0
-
 +1 x78f95 -1 x78f99 +1 x78feb = +0
-
 +1 x78f98 -1 x78f9a -1 x78f9b = +0
-
 +1 x78f99 -1 x78f9c -1 x78f9d = +0
-
 +1 x78f9a -1 x78fac -1 x78fad = +0
-
 +1 x78f9c -1 x78fae -1 x78faf = +0
-
 +1 x78fac +1 x78fae -1 x78fb6 = +0
-
 +1 x78fad +1 x78faf -1 x78fb0 = +0
-
 +1 x78fb0 -1 x78fbe -1 x78fbf = +0
-
 +1 x78fbe -1 x78fc6 -1 x78fc7 = +0
-
 +1 x78fc7 -1 x78fd6 -1 x78fd7 = +0
-
 +1 x78fbf +1 x78fd7 -1 x78feb = +0
-
 +1 x78f0d +1 x78ff0 +1 x78ff2 -1 x79003 = +0
-
 +1 x79003 -1 x79005 +1 x7919d = +0
-
 +1 x79005 -1 x79006 -1 x79007 = +0
-
 +1 x79007 +1 x79128 -1 x7917f +0 x79180 = +0
-
 +1 x79006 -1 x7900d -1 x7900e = +0
-
 +1 x7900d -1 x7901d -1 x7901e = +0
-
 +1 x7901d -1 x79025 -1 x79026 = +0
-
 +1 x79026 -1 x79035 -1 x79036 = +0
-
 +1 x79035 -1 x7903d -1 x7903e = +0
-
 +1 x7901e +1 x79036 -1 x79052 = +0
-
 +1 x7903e -1 x79055 +1 x79160 = +0
-
 +1 x79052 -1 x79056 +1 x79174 = +0
-
 +1 x79055 -1 x79057 -1 x79058 = +0
-
 +1 x79056 -1 x79059 -1 x7905a = +0
-
 +1 x79058 +1 x790b4 -1 x79111 +0 x79112 = +0
-
 +1 x7905a +1 x790b6 -1 x79113 +0 x79114 = +0
-
 +1 x79057 -1 x79067 -1 x79068 = +0
-
 +1 x79059 -1 x79069 -1 x7906a = +0
-
 +1 x79067 +1 x79069 -1 x79071 = +0
-
 +1 x79068 +1 x7906a -1 x7906b = +0
-
 +1 x7906b -1 x79079 -1 x7907a = +0
-
 +1 x79079 -1 x79081 -1 x79082 = +0
-
 +1 x79082 -1 x79091 -1 x79092 = +0
-
 +1 x79091 -1 x79099 -1 x7909a = +0
-
 +1 x7907a +1 x79092 -1 x790ae = +0
-
 +1 x7909a -1 x790b1 +1 x790f8 = +0
-
 +1 x790ae -1 x790b2 +1 x7910c = +0
-
 +1 x790b1 -1 x790b3 -1 x790b4 = +0
-
 +1 x790b2 -1 x790b5 -1 x790b6 = +0
-
 +1 x790b3 -1 x790c5 -1 x790c6 = +0
-
 +1 x790b5 -1 x790c7 -1 x790c8 = +0
-
 +1 x790c5 +1 x790c7 -1 x790cf = +0
-
 +1 x790c6 +1 x790c8 -1 x790c9 = +0
-
 +1 x790c9 -1 x790d7 -1 x790d8 = +0
-
 +1 x790d7 -1 x790df -1 x790e0 = +0
-
 +1 x790e0 -1 x790ef -1 x790f0 = +0
-
 +1 x790ef -1 x790f7 -1 x790f8 = +0
-
 +1 x790d8 +1 x790f0 -1 x7910c = +0
-
 +1 x7900e +1 x79111 +1 x79113 -1 x79124 = +0
-
 +1 x79124 -1 x79126 +1 x79130 = +0
-
 +1 x79126 -1 x79127 -1 x79128 = +0
-
 +1 x79127 -1 x7912f -1 x79130 = +0
-
 +1 x7912f -1 x7913f -1 x79140 = +0
-
 +1 x7913f -1 x79147 -1 x79148 = +0
-
 +1 x79148 -1 x79157 -1 x79158 = +0
-
 +1 x79157 -1 x7915f -1 x79160 = +0
-
 +1 x79140 +1 x79158 -1 x79174 = +0
-
 +1 x78f06 +1 x7917f -1 x7918a = +0
-
 +1 x7918a -1 x7918c +1 x79196 = +0
-
 +1 x7918c -1 x7918d -1 x7918e = +0
-
 +1 x7918d -1 x79195 -1 x79196 = +0
-
 +1 x79195 -1 x7919c -1 x7919d = +0
-
 +1 x7919c -1 x791ac -1 x791ad = +0
-
 +1 x791ac -1 x791bc -1 x791bd = +0
-
 +1 x791ad +1 x791bd -1 x791d1 = +0
-
 +1 x791e2 -1 x791ed -1 x791ee = +0
-
 +1 x791ee -1 x7920a -1 x7920b = +0
-
 +1 x7920a -1 x7921f -1 x79220 = +0
-
 +1 x7921f -1 x79238 -1 x79239 = +0
-
 +1 x79220 -1 x7923a -1 x7923b = +0
-
 +1 x79238 +1 x7923a -1 x7923d = +0
-
 +1 x79239 +1 x7923b -1 x7923c = +0
-
 +1 x7923c +1 x79267 -1 x7928f +0 x79290 = +0
-
 +1 x7923d -1 x7924a -1 x7924b = +0
-
 +1 x7924a -1 x79261 +1 x79276 = +0
-
 +1 x7924b -1 x79262 +1 x79277 = +0
-
 +1 x79261 -1 x79263 -1 x79264 = +0
-
 +1 x79262 -1 x79265 -1 x79266 = +0
-
 +1 x79263 +1 x79265 -1 x79269 = +0
-
 +1 x79264 +1 x79266 -1 x79267 = +0
-
 +1 x79269 -1 x79276 -1 x79277 = +0
-
 +1 x7920b +1 x7928f -1 x79298 = +0
-
 +1 x79298 -1 x7929b -1 x7929c = +0
-
 +1 x7929b -1 x792ab -1 x792ac = +0
-
 +1 x792ab -1 x792b2 -1 x792b3 = +0
-
 +1 x792b2 -1 x792c2 -1 x792c3 = +0
-
 +1 x792c2 -1 x792d9 -1 x7959e = +0
-
 +1 x792c3 -1 x792da -1 x7959f = +0
-
 +1 x792d9 -1 x792db -1 x792dc = +0
-
 +1 x792da -1 x792dd -1 x792de = +0
-
 +1 x792db -1 x792eb -1 x792ec = +0
-
 +1 x792dd -1 x792ed -1 x792ee = +0
-
 +1 x792eb +1 x792ed -1 x792f5 = +0
-
 +1 x792ec +1 x792ee -1 x792ef = +0
-
 +1 x792ef -1 x792fd -1 x792fe = +0
-
 +1 x792fd -1 x79305 -1 x79306 = +0
-
 +1 x79306 -1 x7931c -1 x79361 = +0
-
 +1 x792fe -1 x7931d -1 x79362 = +0
-
 +1 x7931c -1 x7931e -1 x7931f = +0
-
 +1 x7931d -1 x79320 -1 x79321 = +0
-
 +1 x792dc +1 x7931f -1 x7936b = +0
-
 +1 x792de +1 x79321 -1 x7936c = +0
-
 +1 x7931e -1 x79330 -1 x79331 = +0
-
 +1 x79320 -1 x79332 -1 x79333 = +0
-
 +1 x79330 +1 x79332 -1 x7933a = +0
-
 +1 x79331 +1 x79333 -1 x79334 = +0
-
 +1 x79334 -1 x79342 -1 x79343 = +0
-
 +1 x79342 -1 x7934a -1 x7934b = +0
-
 +1 x7934b +1 x79361 -1 x79363 -1 x793a8 = +0
-
 +1 x79343 +1 x79362 -1 x79364 -1 x793a9 = +0
-
 +1 x79363 -1 x79365 -1 x79366 = +0
-
 +1 x79364 -1 x79367 -1 x79368 = +0
-
 +1 x79366 +1 x7936b -1 x793b2 = +0
-
 +1 x79368 +1 x7936c -1 x793b3 = +0
-
 +1 x79365 -1 x79377 -1 x79378 = +0
-
 +1 x79367 -1 x79379 -1 x7937a = +0
-
 +1 x79377 +1 x79379 -1 x79381 = +0
-
 +1 x79378 +1 x7937a -1 x7937b = +0
-
 +1 x7937b -1 x79389 -1 x7938a = +0
-
 +1 x79389 -1 x79391 -1 x79392 = +0
-
 +1 x79392 +1 x793a8 -1 x793aa -1 x793ef = +0
-
 +1 x7938a +1 x793a9 -1 x793ab -1 x793f0 = +0
-
 +1 x793aa -1 x793ac -1 x793ad = +0
-
 +1 x793ab -1 x793ae -1 x793af = +0
-
 +1 x793ad +1 x793b2 -1 x793f9 = +0
-
 +1 x793af +1 x793b3 -1 x793fa = +0
-
 +1 x793ac -1 x793be -1 x793bf = +0
-
 +1 x793ae -1 x793c0 -1 x793c1 = +0
-
 +1 x793be +1 x793c0 -1 x793c8 = +0
-
 +1 x793bf +1 x793c1 -1 x793c2 = +0
-
 +1 x793c2 -1 x793d0 -1 x793d1 = +0
-
 +1 x793d0 -1 x793d8 -1 x793d9 = +0
-
 +1 x793d9 +1 x793ef -1 x793f1 -1 x79436 = +0
-
 +1 x793d1 +1 x793f0 -1 x793f2 -1 x79437 = +0
-
 +1 x793f1 -1 x793f3 -1 x793f4 = +0
-
 +1 x793f2 -1 x793f5 -1 x793f6 = +0
-
 +1 x793f4 +1 x793f9 -1 x79440 = +0
-
 +1 x793f6 +1 x793fa -1 x79441 = +0
-
 +1 x793f3 -1 x79405 -1 x79406 = +0
-
 +1 x793f5 -1 x79407 -1 x79408 = +0
-
 +1 x79405 +1 x79407 -1 x7940f = +0
-
 +1 x79406 +1 x79408 -1 x79409 = +0
-
 +1 x79409 -1 x79417 -1 x79418 = +0
-
 +1 x79417 -1 x7941f -1 x79420 = +0
-
 +1 x79420 +1 x79436 -1 x79438 -1 x7947d = +0
-
 +1 x79418 +1 x79437 -1 x79439 -1 x7947e = +0
-
 +1 x79438 -1 x7943a -1 x7943b = +0
-
 +1 x79439 -1 x7943c -1 x7943d = +0
-
 +1 x7943b +1 x79440 -1 x79487 = +0
-
 +1 x7943d +1 x79441 -1 x79488 = +0
-
 +1 x7943a -1 x7944c -1 x7944d = +0
-
 +1 x7943c -1 x7944e -1 x7944f = +0
-
 +1 x7944c +1 x7944e -1 x79456 = +0
-
 +1 x7944d +1 x7944f -1 x79450 = +0
-
 +1 x79450 -1 x7945e -1 x7945f = +0
-
 +1 x7945e -1 x79466 -1 x79467 = +0
-
 +1 x79467 +1 x7947d -1 x7947f -1 x794c4 = +0
-
 +1 x7945f +1 x7947e -1 x79480 -1 x794c5 = +0
-
 +1 x7947f -1 x79481 -1 x79482 = +0
-
 +1 x79480 -1 x79483 -1 x79484 = +0
-
 +1 x79482 +1 x79487 -1 x794ce = +0
-
 +1 x79484 +1 x79488 -1 x794cf = +0
-
 +1 x79481 -1 x79493 -1 x79494 = +0
-
 +1 x79483 -1 x79495 -1 x79496 = +0
-
 +1 x79493 +1 x79495 -1 x7949d = +0
-
 +1 x79494 +1 x79496 -1 x79497 = +0
-
 +1 x79497 -1 x794a5 -1 x794a6 = +0
-
 +1 x794a5 -1 x794ad -1 x794ae = +0
-
 +1 x794ae +1 x794c4 -1 x794c6 +1 x794f5 +1 x79530 +1 x795cd = +0
-
 +1 x794a6 +1 x794c5 -1 x794c7 -1 x7950c = +0
-
 +1 x794c6 -1 x794c8 -1 x794c9 = +0
-
 +1 x794c7 -1 x794ca -1 x794cb = +0
-
 +1 x794c9 +1 x794ce -1 x79548 +0 x79549 +1 x795a3 = +0
-
 +1 x794cb +1 x794cf -1 x79511 = +0
-
 +1 x794c8 -1 x794da -1 x794db = +0
-
 +1 x794ca -1 x794dc -1 x794dd = +0
-
 +1 x794da +1 x794dc -1 x794e4 = +0
-
 +1 x794db +1 x794dd -1 x794de = +0
-
 +1 x794de -1 x794ec -1 x794ed = +0
-
 +1 x794ec -1 x794f4 -1 x794f5 = +0
-
 +1 x794ed +1 x7950c -1 x7950d +1 x79528 +1 x795c5 = +0
-
 +1 x7950d -1 x7950e -1 x7950f = +0
-
 +1 x7950f +1 x79511 -1 x7954a +0 x7954b +1 x795a5 = +0
-
 +1 x7950e -1 x79517 -1 x79518 = +0
-
 +1 x79518 -1 x79527 -1 x79528 = +0
-
 +1 x79527 -1 x7952f -1 x79530 = +0
-
 +1 x792ac +1 x792b3 +1 x79548 +1 x7954a -1 x7955c = +0
-
 +1 x7955c -1 x7955e +1 x795eb = +0
-
 +1 x7955e -1 x7955f -1 x79560 = +0
-
 +1 x7929c +1 x79560 -1 x795ee +0 x795ef = +0
-
 +1 x7955f -1 x79570 -1 x79571 = +0
-
 +1 x79570 -1 x79577 -1 x79578 = +0
-
 +1 x79577 -1 x79587 -1 x79588 = +0
-
 +1 x79587 +1 x7959e -1 x795a0 = +0
-
 +1 x79588 +1 x7959f -1 x795a1 = +0
-
 +1 x795a0 -1 x795a2 -1 x795a3 = +0
-
 +1 x795a1 -1 x795a4 -1 x795a5 = +0
-
 +1 x795a2 -1 x795b2 -1 x795b3 = +0
-
 +1 x795a4 -1 x795b4 -1 x795b5 = +0
-
 +1 x795b2 +1 x795b4 -1 x795bc = +0
-
 +1 x795b3 +1 x795b5 -1 x795b6 = +0
-
 +1 x795b6 -1 x795c4 -1 x795c5 = +0
-
 +1 x795c4 -1 x795cc -1 x795cd = +0
-
 +1 x79571 +1 x79578 -1 x795eb = +0
-
 +1 x795ee -1 x795f9 -1 x795fa = +0
-
 +1 x795fa +1 x79835 -1 x79889 +0 x7988a = +0
-
 +1 x795f9 -1 x79600 -1 x79601 = +0
-
 +1 x79600 -1 x79610 -1 x79611 = +0
-
 +1 x79610 -1 x79617 -1 x79618 = +0
-
 +1 x79617 -1 x79627 -1 x79628 = +0
-
 +1 x79627 -1 x7963e +1 x79863 = +0
-
 +1 x79628 -1 x7963f +1 x79864 = +0
-
 +1 x7963e -1 x79640 -1 x79641 = +0
-
 +1 x7963f -1 x79642 -1 x79643 = +0
-
 +1 x79641 +1 x79684 -1 x796c8 +0 x796c9 = +0
-
 +1 x79643 +1 x79686 -1 x796ca +0 x796cb = +0
-
 +1 x79640 -1 x79650 -1 x79651 = +0
-
 +1 x79642 -1 x79652 -1 x79653 = +0
-
 +1 x79650 +1 x79652 -1 x7965a = +0
-
 +1 x79651 +1 x79653 -1 x79654 = +0
-
 +1 x79654 -1 x79662 -1 x79663 = +0
-
 +1 x79662 -1 x7966a -1 x7966b = +0
-
 +1 x7966b -1 x79681 +1 x796b0 = +0
-
 +1 x79663 -1 x79682 +1 x796a8 = +0
-
 +1 x79681 -1 x79683 -1 x79684 = +0
-
 +1 x79682 -1 x79685 -1 x79686 = +0
-
 +1 x79683 -1 x79695 -1 x79696 = +0
-
 +1 x79685 -1 x79697 -1 x79698 = +0
-
 +1 x79695 +1 x79697 -1 x7969f = +0
-
 +1 x79696 +1 x79698 -1 x79699 = +0
-
 +1 x79699 -1 x796a7 -1 x796a8 = +0
-
 +1 x796a7 -1 x796af -1 x796b0 = +0
-
 +1 x79611 +1 x79618 +1 x796c8 +1 x796ca -1 x796dc = +0
-
 +1 x796dc -1 x796de +1 x79880 = +0
-
 +1 x796de -1 x796df -1 x796e0 = +0
-
 +1 x796e0 +1 x797cf -1 x79826 +0 x79827 = +0
-
 +1 x796df -1 x796e7 -1 x796e8 = +0
-
 +1 x796e8 -1 x796f7 -1 x796f8 = +0
-
 +1 x796f7 -1 x796fe -1 x796ff = +0
-
 +1 x796fe -1 x79706 -1 x79707 = +0
-
 +1 x79707 -1 x79716 -1 x79717 = +0
-
 +1 x79716 -1 x7972d +1 x79806 = +0
-
 +1 x79717 -1 x7972e +1 x79807 = +0
-
 +1 x7972d -1 x7972f -1 x79730 = +0
-
 +1 x7972e -1 x79731 -1 x79732 = +0
-
 +1 x79730 +1 x79773 -1 x797b7 +0 x797b8 = +0
-
 +1 x79732 +1 x79775 -1 x797b9 +0 x797ba = +0
-
 +1 x7972f -1 x7973f -1 x79740 = +0
-
 +1 x79731 -1 x79741 -1 x79742 = +0
-
 +1 x7973f +1 x79741 -1 x79749 = +0
-
 +1 x79740 +1 x79742 -1 x79743 = +0
-
 +1 x79743 -1 x79751 -1 x79752 = +0
-
 +1 x79751 -1 x79759 -1 x7975a = +0
-
 +1 x7975a -1 x79770 +1 x7979f = +0
-
 +1 x79752 -1 x79771 +1 x79797 = +0
-
 +1 x79770 -1 x79772 -1 x79773 = +0
-
 +1 x79771 -1 x79774 -1 x79775 = +0
-
 +1 x79772 -1 x79784 -1 x79785 = +0
-
 +1 x79774 -1 x79786 -1 x79787 = +0
-
 +1 x79784 +1 x79786 -1 x7978e = +0
-
 +1 x79785 +1 x79787 -1 x79788 = +0
-
 +1 x79788 -1 x79796 -1 x79797 = +0
-
 +1 x79796 -1 x7979e -1 x7979f = +0
-
 +1 x796f8 +1 x796ff +1 x797b7 +1 x797b9 -1 x797cb = +0
-
 +1 x797cb -1 x797cd +1 x79823 = +0
-
 +1 x797cd -1 x797ce -1 x797cf = +0
-
 +1 x797ce -1 x797d7 -1 x797d8 = +0
-
 +1 x797d8 -1 x797e7 -1 x797e8 = +0
-
 +1 x797e7 -1 x797ee -1 x797ef = +0
-
 +1 x797ee -1 x797f6 -1 x797f7 = +0
-
 +1 x797f7 -1 x79806 -1 x79807 = +0
-
 +1 x797e8 +1 x797ef -1 x79823 = +0
-
 +1 x79601 +1 x79826 -1 x79831 = +0
-
 +1 x79831 -1 x79833 +1 x7983d = +0
-
 +1 x79833 -1 x79834 -1 x79835 = +0
-
 +1 x79834 -1 x7983c -1 x7983d = +0
-
 +1 x7983c -1 x7984c -1 x7984d = +0
-
 +1 x7984c -1 x79853 -1 x79854 = +0
-
 +1 x79853 -1 x79863 -1 x79864 = +0
-
 +1 x7984d +1 x79854 -1 x79880 = +0
-
 +1 x79889 -1 x79894 -1 x79895 = +0
-
 +1 x79895 -1 x79897 -1 x79898 = +0
-
 +1 x79897 -1 x7989c -1 x7989d = +0
-
 +1 x7989d -1 x798a0 -1 x798a1 = +0
-
 +1 x798a0 -1 x798a8 -1 x798aa = +0
-
 +1 x7989c -1 x798b0 -1 x798b1 = +0
-
 +1 x798b1 -1 x798b4 -1 x798b5 = +0
-
 +1 x798b4 -1 x798bc -1 x798be = +0
-
 +1 x798aa +1 x798b0 +1 x798be -1 x798cb = +0
-
 +1 x79898 +1 x798cb -1 x798d8 = +0
-
 +1 x798d8 -1 x798dd -1 x798de = +0
-
 +1 x798de +1 x798ee -1 x798f6 +0 x798f7 = +0
-
 +1 x798dd -1 x798e4 +1 x798ed = +0
-
 +1 x798e4 -1 x798e5 -1 x798e6 = +0
-
 +1 x798e6 -1 x798f8 +0 x798f9 = +0
-
 +1 x798e5 -1 x798ed -1 x798ee = +0
-
 +1 x798f6 +1 x798f8 -1 x7990c = +0
-
 +1 x7990c -1 x79910 -1 x79911 = +0
-
 +1 x79910 -1 x79918 -1 x7991a = +0
-
 +1 x7991a -1 x79920 -1 x79921 = +0
-
 +1 x79920 -1 x79926 -1 x79927 = +0
-
 +1 x79927 -1 x7992d -1 x7992e = +0
-
 +1 x7992d +1 x7992e -1 x79946 = +0
-
 +1 x79946 -1 x79949 -1 x7994a = +0
-
 +1 x79949 -1 x79958 -1 x79959 = +0
-
 +1 x79958 -1 x79968 -1 x79969 = +0
-
 +1 x79969 +1 x79979 -1 x79981 +0 x79982 = +0
-
 +1 x79968 -1 x7996f +1 x79978 = +0
-
 +1 x7996f -1 x79978 -1 x79979 = +0
-
 +1 x79959 -1 x7998a -1 x7998b = +0
-
 +1 x79981 -1 x7998c -1 x7998d = +0
-
 +1 x7998a +1 x7998c -1 x79998 = +0
-
 +1 x7998b +1 x7998d -1 x7998e = +0
-
 +1 x7998e -1 x7998f -1 x79990 = +0
-
 +1 x7998f +1 x79990 -1 x799d4 -1 x799d5 = +0
-
 +1 x79998 -1 x79999 -1 x7999a = +0
-
 +1 x7999a -1 x7999c -1 x7999d = +0
-
 +1 x7999c +1 x7999d -1 x799a5 -1 x799a6 = +0
-
 +1 x799a5 -1 x799ad -1 x799af = +0
-
 +1 x799af -1 x799d6 -1 x799d7 = +0
-
 +1 x79999 -1 x799b5 -1 x799b6 = +0
-
 +1 x799b6 -1 x799bc -1 x799bd = +0
-
 +1 x799b5 -1 x799be -1 x799bf = +0
-
 +1 x799bc +1 x799be -1 x799d1 = +0
-
 +1 x799bd +1 x799bf -1 x799c0 = +0
-
 +1 x799c0 -1 x799c2 -1 x799c3 = +0
-
 +1 x799c2 -1 x799ca -1 x799cc = +0
-
 +1 x799cc -1 x799d8 -1 x799d9 = +0
-
 +1 x799d1 -1 x799da -1 x799db = +0
-
 +1 x799d6 +1 x799d8 +1 x799da -1 x79a71 = +0
-
 +1 x799d7 +1 x799d9 +1 x799db -1 x799dd = +0
-
 +1 x799d5 -1 x799de -1 x799df = +0
-
 +1 x799dd -1 x799e0 -1 x799e1 = +0
-
 +1 x799de +1 x799e0 -1 x799e3 = +0
-
 +1 x799df +1 x799e1 -1 x799e2 = +0
-
 +1 x799e2 -1 x79af2 -1 x79af3 = +0
-
 +1 x799e3 -1 x799e4 -1 x799e5 = +0
-
 +1 x799e5 -1 x79a13 -1 x79a14 = +0
-
 +1 x799e4 -1 x799e9 -1 x799ea = +0
-
 +1 x799ea -1 x799ed -1 x799ee = +0
-
 +1 x799ed -1 x799f5 -1 x799f7 = +0
-
 +1 x799f7 -1 x79a15 -1 x79a16 = +0
-
 +1 x799e9 -1 x799fd -1 x799fe = +0
-
 +1 x799fe -1 x79a01 -1 x79a02 = +0
-
 +1 x79a01 -1 x79a09 -1 x79a0b = +0
-
 +1 x79a0b -1 x79a17 -1 x79a18 = +0
-
 +1 x799fd -1 x79a19 -1 x79a1a = +0
-
 +1 x79a13 +1 x79a15 +1 x79a17 +1 x79a19 -1 x79a25 = +0
-
 +1 x79a14 +1 x79a16 +1 x79a18 +1 x79a1a -1 x79a1b = +0
-
 +1 x79a1b -1 x79a1c -1 x79a1d = +0
-
 +1 x79a1c +1 x79a1d -1 x79af4 -1 x79af5 = +0
-
 +1 x79a25 -1 x79a26 -1 x79a27 = +0
-
 +1 x79a27 -1 x79a29 -1 x79a2a = +0
-
 +1 x79a29 -1 x79a32 -1 x79a33 = +0
-
 +1 x79a2a -1 x79a34 -1 x79a35 = +0
-
 +1 x79a32 -1 x79a42 -1 x79a46 = +0
-
 +1 x79a34 -1 x79a43 -1 x79a47 = +0
-
 +1 x79a46 -1 x79af6 -1 x79af7 = +0
-
 +1 x79a47 -1 x79af8 -1 x79af9 = +0
-
 +1 x79a26 -1 x79a51 -1 x79a52 = +0
-
 +1 x79a52 -1 x79a58 -1 x79a59 = +0
-
 +1 x79a51 -1 x79a5a -1 x79a5b = +0
-
 +1 x79a58 +1 x79a5a -1 x79a6d = +0
-
 +1 x79a59 +1 x79a5b -1 x79a5c = +0
-
 +1 x79a5c -1 x79a5e -1 x79a5f = +0
-
 +1 x79a5e -1 x79a66 -1 x79a68 = +0
-
 +1 x79a68 -1 x79afa -1 x79afb = +0
-
 +1 x79a6d -1 x79afc -1 x79afd = +0
-
 +1 x799d4 -1 x79a72 -1 x79a73 = +0
-
 +1 x79a71 -1 x79a74 -1 x79a75 = +0
-
 +1 x79a72 +1 x79a74 -1 x79a78 = +0
-
 +1 x79a73 +1 x79a75 -1 x79a76 = +0
-
 +1 x79a76 -1 x79aa3 -1 x79aa4 = +0
-
 +1 x79a78 -1 x79a79 -1 x79a7a = +0
-
 +1 x79a7a -1 x79a7d -1 x79a7e = +0
-
 +1 x79a7d -1 x79a85 -1 x79a87 = +0
-
 +1 x79a87 -1 x79aa5 -1 x79aa6 = +0
-
 +1 x79a79 -1 x79a8d -1 x79a8e = +0
-
 +1 x79a8e -1 x79a91 -1 x79a92 = +0
-
 +1 x79a91 -1 x79a99 -1 x79a9b = +0
-
 +1 x79a9b -1 x79aa7 -1 x79aa8 = +0
-
 +1 x79a8d -1 x79aa9 -1 x79aaa = +0
-
 +1 x79aa3 +1 x79aa5 +1 x79aa7 +1 x79aa9 -1 x79ab6 = +0
-
 +1 x79aa4 +1 x79aa6 +1 x79aa8 +1 x79aaa -1 x79aab = +0
-
 +1 x79aab -1 x79aac -1 x79aad = +0
-
 +1 x79aac +1 x79aad -1 x79ab5 = +0
-
 +1 x79ab5 -1 x79afe -1 x79aff = +0
-
 +1 x79ab6 -1 x79ab7 -1 x79ab8 = +0
-
 +1 x79ab8 -1 x79aba -1 x79abb = +0
-
 +1 x79aba +1 x79abb -1 x79ac3 -1 x79ac4 = +0
-
 +1 x79ac3 -1 x79acb -1 x79acd = +0
-
 +1 x79acd -1 x79b00 -1 x79b01 = +0
-
 +1 x79ab7 -1 x79ad3 -1 x79ad4 = +0
-
 +1 x79ad4 -1 x79ada -1 x79adb = +0
-
 +1 x79ad3 -1 x79adc -1 x79add = +0
-
 +1 x79ada +1 x79adc -1 x79aef = +0
-
 +1 x79adb +1 x79add -1 x79ade = +0
-
 +1 x79ade -1 x79ae0 -1 x79ae1 = +0
-
 +1 x79ae0 -1 x79ae8 -1 x79aea = +0
-
 +1 x79aea -1 x79b02 -1 x79b03 = +0
-
 +1 x79aef -1 x79b04 -1 x79b05 = +0
-
 +1 x79af2 +1 x79af4 +1 x79af6 +1 x79af8 +1 x79afa +1 x79afc +1 x79afe +1 x79b00
 +1 x79b02 +1 x79b04 -1 x79b08 = +0
-
 +1 x79af3 +1 x79af5 +1 x79af7 +1 x79af9 +1 x79afb +1 x79afd +1 x79aff +1 x79b01
 +1 x79b03 +1 x79b05 -1 x79b06 = +0
-
 +1 x79b08 -1 x79b09 -1 x79b0a = +0
-
 +1 x79b0a -1 x79b0d -1 x79b0e = +0
-
 +1 x79b0d -1 x79b15 -1 x79b17 = +0
-
 +1 x79b09 -1 x79b1d -1 x79b1e = +0
-
 +1 x79b1e -1 x79b21 -1 x79b22 = +0
-
 +1 x79b21 -1 x79b29 -1 x79b2b = +0
-
 +1 x79b17 +1 x79b1d +1 x79b2b -1 x79b38 = +0
-
 +1 x79b06 -1 x79b43 -1 x79b44 = +0
-
 +1 x79b38 -1 x79b45 -1 x79b46 = +0
-
 +1 x7994a -1 x79b47 -1 x79b48 = +0
-
 +1 x79b43 +1 x79b45 -1 x79b4b = +0
-
 +1 x79b44 +1 x79b46 -1 x79b49 = +0
-
 +1 x79b49 +1 x79d5a -1 x79f3d +0 x79f3e = +0
-
 +1 x79b47 +1 x79b4b -1 x79b57 = +0
-
 +1 x79b57 -1 x79b5a -1 x79b5b = +0
-
 +1 x79b5a -1 x79b69 -1 x79b6a = +0
-
 +1 x79b69 -1 x79b70 +1 x79d7c = +0
-
 +1 x79b70 -1 x79b79 -1 x79b7a = +0
-
 +1 x79b7a +1 x79b8a -1 x79b92 +0 x79b93 = +0
-
 +1 x79b79 -1 x79b80 +1 x79b89 = +0
-
 +1 x79b80 -1 x79b89 -1 x79b8a = +0
-
 +1 x79b6a -1 x79b9b -1 x79b9c = +0
-
 +1 x79b92 -1 x79b9d -1 x79b9e = +0
-
 +1 x79b9b +1 x79b9d -1 x79ba9 = +0
-
 +1 x79b9c +1 x79b9e -1 x79b9f = +0
-
 +1 x79b9f -1 x79ba0 -1 x79ba1 = +0
-
 +1 x79ba0 +1 x79ba1 -1 x79be5 -1 x79be6 = +0
-
 +1 x79ba9 -1 x79baa -1 x79bab = +0
-
 +1 x79bab -1 x79bad -1 x79bae = +0
-
 +1 x79bad +1 x79bae -1 x79bb6 -1 x79bb7 = +0
-
 +1 x79bb6 -1 x79bbe -1 x79bc0 = +0
-
 +1 x79bc0 -1 x79be7 -1 x79be8 = +0
-
 +1 x79baa -1 x79bc6 -1 x79bc7 = +0
-
 +1 x79bc7 -1 x79bcd -1 x79bce = +0
-
 +1 x79bc6 -1 x79bcf -1 x79bd0 = +0
-
 +1 x79bcd +1 x79bcf -1 x79be2 = +0
-
 +1 x79bce +1 x79bd0 -1 x79bd1 = +0
-
 +1 x79bd1 -1 x79bd3 -1 x79bd4 = +0
-
 +1 x79bd3 -1 x79bdb -1 x79bdd = +0
-
 +1 x79bdd -1 x79be9 -1 x79bea = +0
-
 +1 x79be2 -1 x79beb -1 x79bec = +0
-
 +1 x79be7 +1 x79be9 +1 x79beb -1 x79c82 = +0
-
 +1 x79be8 +1 x79bea +1 x79bec -1 x79bee = +0
-
 +1 x79be6 -1 x79bef -1 x79bf0 = +0
-
 +1 x79bee -1 x79bf1 -1 x79bf2 = +0
-
 +1 x79bef +1 x79bf1 -1 x79bf4 = +0
-
 +1 x79bf0 +1 x79bf2 -1 x79bf3 = +0
-
 +1 x79bf3 -1 x79d03 -1 x79d04 = +0
-
 +1 x79bf4 -1 x79bf5 -1 x79bf6 = +0
-
 +1 x79bf6 -1 x79c24 -1 x79c25 = +0
-
 +1 x79bf5 -1 x79bfa -1 x79bfb = +0
-
 +1 x79bfb -1 x79bfe -1 x79bff = +0
-
 +1 x79bfe -1 x79c06 -1 x79c08 = +0
-
 +1 x79c08 -1 x79c26 -1 x79c27 = +0
-
 +1 x79bfa -1 x79c0e -1 x79c0f = +0
-
 +1 x79c0f -1 x79c12 -1 x79c13 = +0
-
 +1 x79c12 -1 x79c1a -1 x79c1c = +0
-
 +1 x79c1c -1 x79c28 -1 x79c29 = +0
-
 +1 x79c0e -1 x79c2a -1 x79c2b = +0
-
 +1 x79c24 +1 x79c26 +1 x79c28 +1 x79c2a -1 x79c36 = +0
-
 +1 x79c25 +1 x79c27 +1 x79c29 +1 x79c2b -1 x79c2c = +0
-
 +1 x79c2c -1 x79c2d -1 x79c2e = +0
-
 +1 x79c2d +1 x79c2e -1 x79d05 -1 x79d06 = +0
-
 +1 x79c36 -1 x79c37 -1 x79c38 = +0
-
 +1 x79c38 -1 x79c3a -1 x79c3b = +0
-
 +1 x79c3a -1 x79c43 -1 x79c44 = +0
-
 +1 x79c3b -1 x79c45 -1 x79c46 = +0
-
 +1 x79c43 -1 x79c53 -1 x79c57 = +0
-
 +1 x79c45 -1 x79c54 -1 x79c58 = +0
-
 +1 x79c57 -1 x79d07 -1 x79d08 = +0
-
 +1 x79c58 -1 x79d09 -1 x79d0a = +0
-
 +1 x79c37 -1 x79c62 -1 x79c63 = +0
-
 +1 x79c63 -1 x79c69 -1 x79c6a = +0
-
 +1 x79c62 -1 x79c6b -1 x79c6c = +0
-
 +1 x79c69 +1 x79c6b -1 x79c7e = +0
-
 +1 x79c6a +1 x79c6c -1 x79c6d = +0
-
 +1 x79c6d -1 x79c6f -1 x79c70 = +0
-
 +1 x79c6f -1 x79c77 -1 x79c79 = +0
-
 +1 x79c79 -1 x79d0b -1 x79d0c = +0
-
 +1 x79c7e -1 x79d0d -1 x79d0e = +0
-
 +1 x79be5 -1 x79c83 -1 x79c84 = +0
-
 +1 x79c82 -1 x79c85 -1 x79c86 = +0
-
 +1 x79c83 +1 x79c85 -1 x79c89 = +0
-
 +1 x79c84 +1 x79c86 -1 x79c87 = +0
-
 +1 x79c87 -1 x79cb4 -1 x79cb5 = +0
-
 +1 x79c89 -1 x79c8a -1 x79c8b = +0
-
 +1 x79c8b -1 x79c8e -1 x79c8f = +0
-
 +1 x79c8e -1 x79c96 -1 x79c98 = +0
-
 +1 x79c98 -1 x79cb6 -1 x79cb7 = +0
-
 +1 x79c8a -1 x79c9e -1 x79c9f = +0
-
 +1 x79c9f -1 x79ca2 -1 x79ca3 = +0
-
 +1 x79ca2 -1 x79caa -1 x79cac = +0
-
 +1 x79cac -1 x79cb8 -1 x79cb9 = +0
-
 +1 x79c9e -1 x79cba -1 x79cbb = +0
-
 +1 x79cb4 +1 x79cb6 +1 x79cb8 +1 x79cba -1 x79cc7 = +0
-
 +1 x79cb5 +1 x79cb7 +1 x79cb9 +1 x79cbb -1 x79cbc = +0
-
 +1 x79cbc -1 x79cbd -1 x79cbe = +0
-
 +1 x79cbd +1 x79cbe -1 x79cc6 = +0
-
 +1 x79cc6 -1 x79d0f -1 x79d10 = +0
-
 +1 x79cc7 -1 x79cc8 -1 x79cc9 = +0
-
 +1 x79cc9 -1 x79ccb -1 x79ccc = +0
-
 +1 x79ccb +1 x79ccc -1 x79cd4 -1 x79cd5 = +0
-
 +1 x79cd4 -1 x79cdc -1 x79cde = +0
-
 +1 x79cde -1 x79d11 -1 x79d12 = +0
-
 +1 x79cc8 -1 x79ce4 -1 x79ce5 = +0
-
 +1 x79ce5 -1 x79ceb -1 x79cec = +0
-
 +1 x79ce4 -1 x79ced -1 x79cee = +0
-
 +1 x79ceb +1 x79ced -1 x79d00 = +0
-
 +1 x79cec +1 x79cee -1 x79cef = +0
-
 +1 x79cef -1 x79cf1 -1 x79cf2 = +0
-
 +1 x79cf1 -1 x79cf9 -1 x79cfb = +0
-
 +1 x79cfb -1 x79d13 -1 x79d14 = +0
-
 +1 x79d00 -1 x79d15 -1 x79d16 = +0
-
 +1 x79d03 +1 x79d05 +1 x79d07 +1 x79d09 +1 x79d0b +1 x79d0d +1 x79d0f +1 x79d11
 +1 x79d13 +1 x79d15 -1 x79d19 = +0
-
 +1 x79d04 +1 x79d06 +1 x79d08 +1 x79d0a +1 x79d0c +1 x79d0e +1 x79d10 +1 x79d12
 +1 x79d14 +1 x79d16 -1 x79d17 = +0
-
 +1 x79d19 -1 x79d1a -1 x79d1b = +0
-
 +1 x79d1b -1 x79d1e -1 x79d1f = +0
-
 +1 x79d1e -1 x79d26 -1 x79d28 = +0
-
 +1 x79d1a -1 x79d2e -1 x79d2f = +0
-
 +1 x79d2f -1 x79d32 -1 x79d33 = +0
-
 +1 x79d32 -1 x79d3a -1 x79d3c = +0
-
 +1 x79d28 +1 x79d2e +1 x79d3c -1 x79d49 = +0
-
 +1 x79d17 -1 x79d51 +1 x79f00 = +0
-
 +1 x79d49 -1 x79d52 +1 x79f32 = +0
-
 +1 x79b5b -1 x79d53 +1 x79d6e = +0
-
 +1 x79d51 -1 x79d54 -1 x79d55 = +0
-
 +1 x79d52 -1 x79d56 -1 x79d57 = +0
-
 +1 x79d53 -1 x79d58 -1 x79d59 = +0
-
 +1 x79d54 +1 x79d56 -1 x79d5e = +0
-
 +1 x79d55 +1 x79d57 -1 x79d5a = +0
-
 +1 x79b48 +1 x79d59 -1 x79f3f +0 x79f40 = +0
-
 +1 x79d58 +1 x79d5e -1 x79d6a = +0
-
 +1 x79d6a -1 x79d6d -1 x79d6e = +0
-
 +1 x79d6d -1 x79d7c -1 x79d7d = +0
-
 +1 x79d7d -1 x79d86 -1 x79d87 = +0
-
 +1 x79d87 -1 x79d89 -1 x79d8a = +0
-
 +1 x79d89 +1 x79d8a -1 x79dce -1 x79dcf = +0
-
 +1 x79d86 -1 x79d93 -1 x79d94 = +0
-
 +1 x79d94 -1 x79d96 -1 x79d97 = +0
-
 +1 x79d96 +1 x79d97 -1 x79d9f -1 x79da0 = +0
-
 +1 x79d9f -1 x79da7 -1 x79da9 = +0
-
 +1 x79da9 -1 x79dd0 -1 x79dd1 = +0
-
 +1 x79d93 -1 x79daf -1 x79db0 = +0
-
 +1 x79db0 -1 x79db6 -1 x79db7 = +0
-
 +1 x79daf -1 x79db8 -1 x79db9 = +0
-
 +1 x79db6 +1 x79db8 -1 x79dcb = +0
-
 +1 x79db7 +1 x79db9 -1 x79dba = +0
-
 +1 x79dba -1 x79dbc -1 x79dbd = +0
-
 +1 x79dbc -1 x79dc4 -1 x79dc6 = +0
-
 +1 x79dc6 -1 x79dd2 -1 x79dd3 = +0
-
 +1 x79dcb -1 x79dd4 -1 x79dd5 = +0
-
 +1 x79dd0 +1 x79dd2 +1 x79dd4 -1 x79e6b = +0
-
 +1 x79dd1 +1 x79dd3 +1 x79dd5 -1 x79dd7 = +0
-
 +1 x79dcf -1 x79dd8 -1 x79dd9 = +0
-
 +1 x79dd7 -1 x79dda -1 x79ddb = +0
-
 +1 x79dd8 +1 x79dda -1 x79ddd = +0
-
 +1 x79dd9 +1 x79ddb -1 x79ddc = +0
-
 +1 x79ddc -1 x79eec -1 x79eed = +0
-
 +1 x79ddd -1 x79dde -1 x79ddf = +0
-
 +1 x79ddf -1 x79e0d -1 x79e0e = +0
-
 +1 x79dde -1 x79de3 -1 x79de4 = +0
-
 +1 x79de4 -1 x79de7 -1 x79de8 = +0
-
 +1 x79de7 -1 x79def -1 x79df1 = +0
-
 +1 x79df1 -1 x79e0f -1 x79e10 = +0
-
 +1 x79de3 -1 x79df7 -1 x79df8 = +0
-
 +1 x79df8 -1 x79dfb -1 x79dfc = +0
-
 +1 x79dfb -1 x79e03 -1 x79e05 = +0
-
 +1 x79e05 -1 x79e11 -1 x79e12 = +0
-
 +1 x79df7 -1 x79e13 -1 x79e14 = +0
-
 +1 x79e0d +1 x79e0f +1 x79e11 +1 x79e13 -1 x79e1f = +0
-
 +1 x79e0e +1 x79e10 +1 x79e12 +1 x79e14 -1 x79e15 = +0
-
 +1 x79e15 -1 x79e16 -1 x79e17 = +0
-
 +1 x79e16 +1 x79e17 -1 x79eee -1 x79eef = +0
-
 +1 x79e1f -1 x79e20 -1 x79e21 = +0
-
 +1 x79e21 -1 x79e23 -1 x79e24 = +0
-
 +1 x79e23 -1 x79e2c -1 x79e2d = +0
-
 +1 x79e24 -1 x79e2e -1 x79e2f = +0
-
 +1 x79e2c -1 x79e3c -1 x79e40 = +0
-
 +1 x79e2e -1 x79e3d -1 x79e41 = +0
-
 +1 x79e40 -1 x79ef0 -1 x79ef1 = +0
-
 +1 x79e41 -1 x79ef2 -1 x79ef3 = +0
-
 +1 x79e20 -1 x79e4b -1 x79e4c = +0
-
 +1 x79e4c -1 x79e52 -1 x79e53 = +0
-
 +1 x79e4b -1 x79e54 -1 x79e55 = +0
-
 +1 x79e52 +1 x79e54 -1 x79e67 = +0
-
 +1 x79e53 +1 x79e55 -1 x79e56 = +0
-
 +1 x79e56 -1 x79e58 -1 x79e59 = +0
-
 +1 x79e58 -1 x79e60 -1 x79e62 = +0
-
 +1 x79e62 -1 x79ef4 -1 x79ef5 = +0
-
 +1 x79e67 -1 x79ef6 -1 x79ef7 = +0
-
 +1 x79dce -1 x79e6c -1 x79e6d = +0
-
 +1 x79e6b -1 x79e6e -1 x79e6f = +0
-
 +1 x79e6c +1 x79e6e -1 x79e72 = +0
-
 +1 x79e6d +1 x79e6f -1 x79e70 = +0
-
 +1 x79e70 -1 x79e9d -1 x79e9e = +0
-
 +1 x79e72 -1 x79e73 -1 x79e74 = +0
-
 +1 x79e74 -1 x79e77 -1 x79e78 = +0
-
 +1 x79e77 -1 x79e7f -1 x79e81 = +0
-
 +1 x79e81 -1 x79e9f -1 x79ea0 = +0
-
 +1 x79e73 -1 x79e87 -1 x79e88 = +0
-
 +1 x79e88 -1 x79e8b -1 x79e8c = +0
-
 +1 x79e8b -1 x79e93 -1 x79e95 = +0
-
 +1 x79e95 -1 x79ea1 -1 x79ea2 = +0
-
 +1 x79e87 -1 x79ea3 -1 x79ea4 = +0
-
 +1 x79e9d +1 x79e9f +1 x79ea1 +1 x79ea3 -1 x79eb0 = +0
-
 +1 x79e9e +1 x79ea0 +1 x79ea2 +1 x79ea4 -1 x79ea5 = +0
-
 +1 x79ea5 -1 x79ea6 -1 x79ea7 = +0
-
 +1 x79ea6 +1 x79ea7 -1 x79eaf = +0
-
 +1 x79eaf -1 x79ef8 -1 x79ef9 = +0
-
 +1 x79eb0 -1 x79eb1 -1 x79eb2 = +0
-
 +1 x79eb2 -1 x79eb4 -1 x79eb5 = +0
-
 +1 x79eb4 +1 x79eb5 -1 x79ebd -1 x79ebe = +0
-
 +1 x79ebd -1 x79ec5 -1 x79ec7 = +0
-
 +1 x79ec7 -1 x79efa -1 x79efb = +0
-
 +1 x79eb1 -1 x79ecd -1 x79ece = +0
-
 +1 x79ece -1 x79ed4 -1 x79ed5 = +0
-
 +1 x79ecd -1 x79ed6 -1 x79ed7 = +0
-
 +1 x79ed4 +1 x79ed6 -1 x79ee9 = +0
-
 +1 x79ed5 +1 x79ed7 -1 x79ed8 = +0
-
 +1 x79ed8 -1 x79eda -1 x79edb = +0
-
 +1 x79eda -1 x79ee2 -1 x79ee4 = +0
-
 +1 x79ee4 -1 x79efc -1 x79efd = +0
-
 +1 x79ee9 -1 x79efe -1 x79eff = +0
-
 +1 x79eec +1 x79eee +1 x79ef0 +1 x79ef2 +1 x79ef4 +1 x79ef6 +1 x79ef8 +1 x79efa
 +1 x79efc +1 x79efe -1 x79f02 = +0
-
 +1 x79eed +1 x79eef +1 x79ef1 +1 x79ef3 +1 x79ef5 +1 x79ef7 +1 x79ef9 +1 x79efb
 +1 x79efd +1 x79eff -1 x79f00 = +0
-
 +1 x79f02 -1 x79f03 -1 x79f04 = +0
-
 +1 x79f04 -1 x79f07 -1 x79f08 = +0
-
 +1 x79f07 -1 x79f0f -1 x79f11 = +0
-
 +1 x79f03 -1 x79f17 -1 x79f18 = +0
-
 +1 x79f18 -1 x79f1b -1 x79f1c = +0
-
 +1 x79f1b -1 x79f23 -1 x79f25 = +0
-
 +1 x79f11 +1 x79f17 +1 x79f25 -1 x79f32 = +0
-
 +1 x79f3d +1 x79f3f -1 x79f4f = +0
-
 +1 x79f4f -1 x79f52 -1 x79f53 = +0
-
 +1 x79f52 -1 x79f5a -1 x79f5c = +0
-
 +1 x79f5c -1 x79f65 -1 x79f66 = +0
-
 +1 x79f66 +1 x7a5cf -1 x7a7fa +0 x7a7fb = +0
-
 +1 x79f65 -1 x79f69 -1 x79f6a = +0
-
 +1 x79f6a -1 x79f84 -1 x79f85 = +0
-
 +1 x79f69 -1 x79f71 -1 x79f72 = +0
-
 +1 x79f72 -1 x79f81 -1 x79f82 = +0
-
 +1 x79f82 -1 x79f86 -1 x79f87 = +0
-
 +1 x79f84 +1 x79f86 -1 x7a5c0 = +0
-
 +1 x79f85 +1 x79f87 -1 x79f88 = +0
-
 +1 x79f88 -1 x79f8d -1 x79f8e = +0
-
 +1 x79f8d +1 x79f8e -1 x79fa6 = +0
-
 +1 x79fa6 -1 x79fa9 -1 x79faa = +0
-
 +1 x79fa9 -1 x79fb8 -1 x79fb9 = +0
-
 +1 x79fb8 -1 x79fbf +1 x7a630 = +0
-
 +1 x79fbf -1 x79fc8 -1 x79fc9 = +0
-
 +1 x79fc9 +1 x79fd9 -1 x79fe1 +0 x79fe2 = +0
-
 +1 x79fc8 -1 x79fcf +1 x79fd8 = +0
-
 +1 x79fcf -1 x79fd8 -1 x79fd9 = +0
-
 +1 x79fb9 -1 x79fea -1 x79feb = +0
-
 +1 x79fe1 -1 x79fec -1 x79fed = +0
-
 +1 x79fea +1 x79fec -1 x79ff8 = +0
-
 +1 x79feb +1 x79fed -1 x79fee = +0
-
 +1 x79fee -1 x79fef -1 x79ff0 = +0
-
 +1 x79fef +1 x79ff0 -1 x7a034 -1 x7a035 = +0
-
 +1 x79ff8 -1 x79ff9 -1 x79ffa = +0
-
 +1 x79ffa -1 x79ffc -1 x79ffd = +0
-
 +1 x79ffc +1 x79ffd -1 x7a005 -1 x7a006 = +0
-
 +1 x7a005 -1 x7a00d -1 x7a00f = +0
-
 +1 x7a00f -1 x7a036 -1 x7a037 = +0
-
 +1 x79ff9 -1 x7a015 -1 x7a016 = +0
-
 +1 x7a016 -1 x7a01c -1 x7a01d = +0
-
 +1 x7a015 -1 x7a01e -1 x7a01f = +0
-
 +1 x7a01c +1 x7a01e -1 x7a031 = +0
-
 +1 x7a01d +1 x7a01f -1 x7a020 = +0
-
 +1 x7a020 -1 x7a022 -1 x7a023 = +0
-
 +1 x7a022 -1 x7a02a -1 x7a02c = +0
-
 +1 x7a02c -1 x7a038 -1 x7a039 = +0
-
 +1 x7a031 -1 x7a03a -1 x7a03b = +0
-
 +1 x7a036 +1 x7a038 +1 x7a03a -1 x7a0d1 = +0
-
 +1 x7a037 +1 x7a039 +1 x7a03b -1 x7a03d = +0
-
 +1 x7a035 -1 x7a03e -1 x7a03f = +0
-
 +1 x7a03d -1 x7a040 -1 x7a041 = +0
-
 +1 x7a03e +1 x7a040 -1 x7a043 = +0
-
 +1 x7a03f +1 x7a041 -1 x7a042 = +0
-
 +1 x7a042 -1 x7a152 -1 x7a153 = +0
-
 +1 x7a043 -1 x7a044 -1 x7a045 = +0
-
 +1 x7a045 -1 x7a073 -1 x7a074 = +0
-
 +1 x7a044 -1 x7a049 -1 x7a04a = +0
-
 +1 x7a04a -1 x7a04d -1 x7a04e = +0
-
 +1 x7a04d -1 x7a055 -1 x7a057 = +0
-
 +1 x7a057 -1 x7a075 -1 x7a076 = +0
-
 +1 x7a049 -1 x7a05d -1 x7a05e = +0
-
 +1 x7a05e -1 x7a061 -1 x7a062 = +0
-
 +1 x7a061 -1 x7a069 -1 x7a06b = +0
-
 +1 x7a06b -1 x7a077 -1 x7a078 = +0
-
 +1 x7a05d -1 x7a079 -1 x7a07a = +0
-
 +1 x7a073 +1 x7a075 +1 x7a077 +1 x7a079 -1 x7a085 = +0
-
 +1 x7a074 +1 x7a076 +1 x7a078 +1 x7a07a -1 x7a07b = +0
-
 +1 x7a07b -1 x7a07c -1 x7a07d = +0
-
 +1 x7a07c +1 x7a07d -1 x7a154 -1 x7a155 = +0
-
 +1 x7a085 -1 x7a086 -1 x7a087 = +0
-
 +1 x7a087 -1 x7a089 -1 x7a08a = +0
-
 +1 x7a089 -1 x7a092 -1 x7a093 = +0
-
 +1 x7a08a -1 x7a094 -1 x7a095 = +0
-
 +1 x7a092 -1 x7a0a2 -1 x7a0a6 = +0
-
 +1 x7a094 -1 x7a0a3 -1 x7a0a7 = +0
-
 +1 x7a0a6 -1 x7a156 -1 x7a157 = +0
-
 +1 x7a0a7 -1 x7a158 -1 x7a159 = +0
-
 +1 x7a086 -1 x7a0b1 -1 x7a0b2 = +0
-
 +1 x7a0b2 -1 x7a0b8 -1 x7a0b9 = +0
-
 +1 x7a0b1 -1 x7a0ba -1 x7a0bb = +0
-
 +1 x7a0b8 +1 x7a0ba -1 x7a0cd = +0
-
 +1 x7a0b9 +1 x7a0bb -1 x7a0bc = +0
-
 +1 x7a0bc -1 x7a0be -1 x7a0bf = +0
-
 +1 x7a0be -1 x7a0c6 -1 x7a0c8 = +0
-
 +1 x7a0c8 -1 x7a15a -1 x7a15b = +0
-
 +1 x7a0cd -1 x7a15c -1 x7a15d = +0
-
 +1 x7a034 -1 x7a0d2 -1 x7a0d3 = +0
-
 +1 x7a0d1 -1 x7a0d4 -1 x7a0d5 = +0
-
 +1 x7a0d2 +1 x7a0d4 -1 x7a0d8 = +0
-
 +1 x7a0d3 +1 x7a0d5 -1 x7a0d6 = +0
-
 +1 x7a0d6 -1 x7a103 -1 x7a104 = +0
-
 +1 x7a0d8 -1 x7a0d9 -1 x7a0da = +0
-
 +1 x7a0da -1 x7a0dd -1 x7a0de = +0
-
 +1 x7a0dd -1 x7a0e5 -1 x7a0e7 = +0
-
 +1 x7a0e7 -1 x7a105 -1 x7a106 = +0
-
 +1 x7a0d9 -1 x7a0ed -1 x7a0ee = +0
-
 +1 x7a0ee -1 x7a0f1 -1 x7a0f2 = +0
-
 +1 x7a0f1 -1 x7a0f9 -1 x7a0fb = +0
-
 +1 x7a0fb -1 x7a107 -1 x7a108 = +0
-
 +1 x7a0ed -1 x7a109 -1 x7a10a = +0
-
 +1 x7a103 +1 x7a105 +1 x7a107 +1 x7a109 -1 x7a116 = +0
-
 +1 x7a104 +1 x7a106 +1 x7a108 +1 x7a10a -1 x7a10b = +0
-
 +1 x7a10b -1 x7a10c -1 x7a10d = +0
-
 +1 x7a10c +1 x7a10d -1 x7a115 = +0
-
 +1 x7a115 -1 x7a15e -1 x7a15f = +0
-
 +1 x7a116 -1 x7a117 -1 x7a118 = +0
-
 +1 x7a118 -1 x7a11a -1 x7a11b = +0
-
 +1 x7a11a +1 x7a11b -1 x7a123 -1 x7a124 = +0
-
 +1 x7a123 -1 x7a12b -1 x7a12d = +0
-
 +1 x7a12d -1 x7a160 -1 x7a161 = +0
-
 +1 x7a117 -1 x7a133 -1 x7a134 = +0
-
 +1 x7a134 -1 x7a13a -1 x7a13b = +0
-
 +1 x7a133 -1 x7a13c -1 x7a13d = +0
-
 +1 x7a13a +1 x7a13c -1 x7a14f = +0
-
 +1 x7a13b +1 x7a13d -1 x7a13e = +0
-
 +1 x7a13e -1 x7a140 -1 x7a141 = +0
-
 +1 x7a140 -1 x7a148 -1 x7a14a = +0
-
 +1 x7a14a -1 x7a162 -1 x7a163 = +0
-
 +1 x7a14f -1 x7a164 -1 x7a165 = +0
-
 +1 x7a152 +1 x7a154 +1 x7a156 +1 x7a158 +1 x7a15a +1 x7a15c +1 x7a15e +1 x7a160
 +1 x7a162 +1 x7a164 -1 x7a168 = +0
-
 +1 x7a153 +1 x7a155 +1 x7a157 +1 x7a159 +1 x7a15b +1 x7a15d +1 x7a15f +1 x7a161
 +1 x7a163 +1 x7a165 -1 x7a166 = +0
-
 +1 x7a168 -1 x7a169 -1 x7a16a = +0
-
 +1 x7a16a -1 x7a16d -1 x7a16e = +0
-
 +1 x7a16d -1 x7a175 -1 x7a177 = +0
-
 +1 x7a169 -1 x7a17d -1 x7a17e = +0
-
 +1 x7a17e -1 x7a181 -1 x7a182 = +0
-
 +1 x7a181 -1 x7a189 -1 x7a18b = +0
-
 +1 x7a177 +1 x7a17d +1 x7a18b -1 x7a198 = +0
-
 +1 x7a166 -1 x7a1a0 +1 x7a7b4 = +0
-
 +1 x7a198 -1 x7a1a1 +1 x7a7e6 = +0
-
 +1 x79faa -1 x7a1a2 +1 x7a622 = +0
-
 +1 x7a1a0 -1 x7a1a3 -1 x7a1a4 = +0
-
 +1 x7a1a1 -1 x7a1a5 -1 x7a1a6 = +0
-
 +1 x7a1a2 -1 x7a1a7 -1 x7a1a8 = +0
-
 +1 x7a1a3 +1 x7a1a5 -1 x7a1ab = +0
-
 +1 x7a1a4 +1 x7a1a6 -1 x7a1a9 = +0
-
 +1 x7a1a9 +1 x7a3ba -1 x7a59d +0 x7a59e = +0
-
 +1 x7a1a7 +1 x7a1ab -1 x7a1b7 = +0
-
 +1 x7a1b7 -1 x7a1ba -1 x7a1bb = +0
-
 +1 x7a1ba -1 x7a1c9 -1 x7a1ca = +0
-
 +1 x7a1c9 -1 x7a1d0 +1 x7a3dc = +0
-
 +1 x7a1d0 -1 x7a1d9 -1 x7a1da = +0
-
 +1 x7a1da +1 x7a1ea -1 x7a1f2 +0 x7a1f3 = +0
-
 +1 x7a1d9 -1 x7a1e0 +1 x7a1e9 = +0
-
 +1 x7a1e0 -1 x7a1e9 -1 x7a1ea = +0
-
 +1 x7a1ca -1 x7a1fb -1 x7a1fc = +0
-
 +1 x7a1f2 -1 x7a1fd -1 x7a1fe = +0
-
 +1 x7a1fb +1 x7a1fd -1 x7a209 = +0
-
 +1 x7a1fc +1 x7a1fe -1 x7a1ff = +0
-
 +1 x7a1ff -1 x7a200 -1 x7a201 = +0
-
 +1 x7a200 +1 x7a201 -1 x7a245 -1 x7a246 = +0
-
 +1 x7a209 -1 x7a20a -1 x7a20b = +0
-
 +1 x7a20b -1 x7a20d -1 x7a20e = +0
-
 +1 x7a20d +1 x7a20e -1 x7a216 -1 x7a217 = +0
-
 +1 x7a216 -1 x7a21e -1 x7a220 = +0
-
 +1 x7a220 -1 x7a247 -1 x7a248 = +0
-
 +1 x7a20a -1 x7a226 -1 x7a227 = +0
-
 +1 x7a227 -1 x7a22d -1 x7a22e = +0
-
 +1 x7a226 -1 x7a22f -1 x7a230 = +0
-
 +1 x7a22d +1 x7a22f -1 x7a242 = +0
-
 +1 x7a22e +1 x7a230 -1 x7a231 = +0
-
 +1 x7a231 -1 x7a233 -1 x7a234 = +0
-
 +1 x7a233 -1 x7a23b -1 x7a23d = +0
-
 +1 x7a23d -1 x7a249 -1 x7a24a = +0
-
 +1 x7a242 -1 x7a24b -1 x7a24c = +0
-
 +1 x7a247 +1 x7a249 +1 x7a24b -1 x7a2e2 = +0
-
 +1 x7a248 +1 x7a24a +1 x7a24c -1 x7a24e = +0
-
 +1 x7a246 -1 x7a24f -1 x7a250 = +0
-
 +1 x7a24e -1 x7a251 -1 x7a252 = +0
-
 +1 x7a24f +1 x7a251 -1 x7a254 = +0
-
 +1 x7a250 +1 x7a252 -1 x7a253 = +0
-
 +1 x7a253 -1 x7a363 -1 x7a364 = +0
-
 +1 x7a254 -1 x7a255 -1 x7a256 = +0
-
 +1 x7a256 -1 x7a284 -1 x7a285 = +0
-
 +1 x7a255 -1 x7a25a -1 x7a25b = +0
-
 +1 x7a25b -1 x7a25e -1 x7a25f = +0
-
 +1 x7a25e -1 x7a266 -1 x7a268 = +0
-
 +1 x7a268 -1 x7a286 -1 x7a287 = +0
-
 +1 x7a25a -1 x7a26e -1 x7a26f = +0
-
 +1 x7a26f -1 x7a272 -1 x7a273 = +0
-
 +1 x7a272 -1 x7a27a -1 x7a27c = +0
-
 +1 x7a27c -1 x7a288 -1 x7a289 = +0
-
 +1 x7a26e -1 x7a28a -1 x7a28b = +0
-
 +1 x7a284 +1 x7a286 +1 x7a288 +1 x7a28a -1 x7a296 = +0
-
 +1 x7a285 +1 x7a287 +1 x7a289 +1 x7a28b -1 x7a28c = +0
-
 +1 x7a28c -1 x7a28d -1 x7a28e = +0
-
 +1 x7a28d +1 x7a28e -1 x7a365 -1 x7a366 = +0
-
 +1 x7a296 -1 x7a297 -1 x7a298 = +0
-
 +1 x7a298 -1 x7a29a -1 x7a29b = +0
-
 +1 x7a29a -1 x7a2a3 -1 x7a2a4 = +0
-
 +1 x7a29b -1 x7a2a5 -1 x7a2a6 = +0
-
 +1 x7a2a3 -1 x7a2b3 -1 x7a2b7 = +0
-
 +1 x7a2a5 -1 x7a2b4 -1 x7a2b8 = +0
-
 +1 x7a2b7 -1 x7a367 -1 x7a368 = +0
-
 +1 x7a2b8 -1 x7a369 -1 x7a36a = +0
-
 +1 x7a297 -1 x7a2c2 -1 x7a2c3 = +0
-
 +1 x7a2c3 -1 x7a2c9 -1 x7a2ca = +0
-
 +1 x7a2c2 -1 x7a2cb -1 x7a2cc = +0
-
 +1 x7a2c9 +1 x7a2cb -1 x7a2de = +0
-
 +1 x7a2ca +1 x7a2cc -1 x7a2cd = +0
-
 +1 x7a2cd -1 x7a2cf -1 x7a2d0 = +0
-
 +1 x7a2cf -1 x7a2d7 -1 x7a2d9 = +0
-
 +1 x7a2d9 -1 x7a36b -1 x7a36c = +0
-
 +1 x7a2de -1 x7a36d -1 x7a36e = +0
-
 +1 x7a245 -1 x7a2e3 -1 x7a2e4 = +0
-
 +1 x7a2e2 -1 x7a2e5 -1 x7a2e6 = +0
-
 +1 x7a2e3 +1 x7a2e5 -1 x7a2e9 = +0
-
 +1 x7a2e4 +1 x7a2e6 -1 x7a2e7 = +0
-
 +1 x7a2e7 -1 x7a314 -1 x7a315 = +0
-
 +1 x7a2e9 -1 x7a2ea -1 x7a2eb = +0
-
 +1 x7a2eb -1 x7a2ee -1 x7a2ef = +0
-
 +1 x7a2ee -1 x7a2f6 -1 x7a2f8 = +0
-
 +1 x7a2f8 -1 x7a316 -1 x7a317 = +0
-
 +1 x7a2ea -1 x7a2fe -1 x7a2ff = +0
-
 +1 x7a2ff -1 x7a302 -1 x7a303 = +0
-
 +1 x7a302 -1 x7a30a -1 x7a30c = +0
-
 +1 x7a30c -1 x7a318 -1 x7a319 = +0
-
 +1 x7a2fe -1 x7a31a -1 x7a31b = +0
-
 +1 x7a314 +1 x7a316 +1 x7a318 +1 x7a31a -1 x7a327 = +0
-
 +1 x7a315 +1 x7a317 +1 x7a319 +1 x7a31b -1 x7a31c = +0
-
 +1 x7a31c -1 x7a31d -1 x7a31e = +0
-
 +1 x7a31d +1 x7a31e -1 x7a326 = +0
-
 +1 x7a326 -1 x7a36f -1 x7a370 = +0
-
 +1 x7a327 -1 x7a328 -1 x7a329 = +0
-
 +1 x7a329 -1 x7a32b -1 x7a32c = +0
-
 +1 x7a32b +1 x7a32c -1 x7a334 -1 x7a335 = +0
-
 +1 x7a334 -1 x7a33c -1 x7a33e = +0
-
 +1 x7a33e -1 x7a371 -1 x7a372 = +0
-
 +1 x7a328 -1 x7a344 -1 x7a345 = +0
-
 +1 x7a345 -1 x7a34b -1 x7a34c = +0
-
 +1 x7a344 -1 x7a34d -1 x7a34e = +0
-
 +1 x7a34b +1 x7a34d -1 x7a360 = +0
-
 +1 x7a34c +1 x7a34e -1 x7a34f = +0
-
 +1 x7a34f -1 x7a351 -1 x7a352 = +0
-
 +1 x7a351 -1 x7a359 -1 x7a35b = +0
-
 +1 x7a35b -1 x7a373 -1 x7a374 = +0
-
 +1 x7a360 -1 x7a375 -1 x7a376 = +0
-
 +1 x7a363 +1 x7a365 +1 x7a367 +1 x7a369 +1 x7a36b +1 x7a36d +1 x7a36f +1 x7a371
 +1 x7a373 +1 x7a375 -1 x7a379 = +0
-
 +1 x7a364 +1 x7a366 +1 x7a368 +1 x7a36a +1 x7a36c +1 x7a36e +1 x7a370 +1 x7a372
 +1 x7a374 +1 x7a376 -1 x7a377 = +0
-
 +1 x7a379 -1 x7a37a -1 x7a37b = +0
-
 +1 x7a37b -1 x7a37e -1 x7a37f = +0
-
 +1 x7a37e -1 x7a386 -1 x7a388 = +0
-
 +1 x7a37a -1 x7a38e -1 x7a38f = +0
-
 +1 x7a38f -1 x7a392 -1 x7a393 = +0
-
 +1 x7a392 -1 x7a39a -1 x7a39c = +0
-
 +1 x7a388 +1 x7a38e +1 x7a39c -1 x7a3a9 = +0
-
 +1 x7a377 -1 x7a3b1 +1 x7a560 = +0
-
 +1 x7a3a9 -1 x7a3b2 +1 x7a592 = +0
-
 +1 x7a1bb -1 x7a3b3 +1 x7a3ce = +0
-
 +1 x7a3b1 -1 x7a3b4 -1 x7a3b5 = +0
-
 +1 x7a3b2 -1 x7a3b6 -1 x7a3b7 = +0
-
 +1 x7a3b3 -1 x7a3b8 -1 x7a3b9 = +0
-
 +1 x7a3b4 +1 x7a3b6 -1 x7a3be = +0
-
 +1 x7a3b5 +1 x7a3b7 -1 x7a3ba = +0
-
 +1 x7a1a8 +1 x7a3b9 -1 x7a59f +0 x7a5a0 = +0
-
 +1 x7a3b8 +1 x7a3be -1 x7a3ca = +0
-
 +1 x7a3ca -1 x7a3cd -1 x7a3ce = +0
-
 +1 x7a3cd -1 x7a3dc -1 x7a3dd = +0
-
 +1 x7a3dd -1 x7a3e6 -1 x7a3e7 = +0
-
 +1 x7a3e7 -1 x7a3e9 -1 x7a3ea = +0
-
 +1 x7a3e9 +1 x7a3ea -1 x7a42e -1 x7a42f = +0
-
 +1 x7a3e6 -1 x7a3f3 -1 x7a3f4 = +0
-
 +1 x7a3f4 -1 x7a3f6 -1 x7a3f7 = +0
-
 +1 x7a3f6 +1 x7a3f7 -1 x7a3ff -1 x7a400 = +0
-
 +1 x7a3ff -1 x7a407 -1 x7a409 = +0
-
 +1 x7a409 -1 x7a430 -1 x7a431 = +0
-
 +1 x7a3f3 -1 x7a40f -1 x7a410 = +0
-
 +1 x7a410 -1 x7a416 -1 x7a417 = +0
-
 +1 x7a40f -1 x7a418 -1 x7a419 = +0
-
 +1 x7a416 +1 x7a418 -1 x7a42b = +0
-
 +1 x7a417 +1 x7a419 -1 x7a41a = +0
-
 +1 x7a41a -1 x7a41c -1 x7a41d = +0
-
 +1 x7a41c -1 x7a424 -1 x7a426 = +0
-
 +1 x7a426 -1 x7a432 -1 x7a433 = +0
-
 +1 x7a42b -1 x7a434 -1 x7a435 = +0
-
 +1 x7a430 +1 x7a432 +1 x7a434 -1 x7a4cb = +0
-
 +1 x7a431 +1 x7a433 +1 x7a435 -1 x7a437 = +0
-
 +1 x7a42f -1 x7a438 -1 x7a439 = +0
-
 +1 x7a437 -1 x7a43a -1 x7a43b = +0
-
 +1 x7a438 +1 x7a43a -1 x7a43d = +0
-
 +1 x7a439 +1 x7a43b -1 x7a43c = +0
-
 +1 x7a43c -1 x7a54c -1 x7a54d = +0
-
 +1 x7a43d -1 x7a43e -1 x7a43f = +0
-
 +1 x7a43f -1 x7a46d -1 x7a46e = +0
-
 +1 x7a43e -1 x7a443 -1 x7a444 = +0
-
 +1 x7a444 -1 x7a447 -1 x7a448 = +0
-
 +1 x7a447 -1 x7a44f -1 x7a451 = +0
-
 +1 x7a451 -1 x7a46f -1 x7a470 = +0
-
 +1 x7a443 -1 x7a457 -1 x7a458 = +0
-
 +1 x7a458 -1 x7a45b -1 x7a45c = +0
-
 +1 x7a45b -1 x7a463 -1 x7a465 = +0
-
 +1 x7a465 -1 x7a471 -1 x7a472 = +0
-
 +1 x7a457 -1 x7a473 -1 x7a474 = +0
-
 +1 x7a46d +1 x7a46f +1 x7a471 +1 x7a473 -1 x7a47f = +0
-
 +1 x7a46e +1 x7a470 +1 x7a472 +1 x7a474 -1 x7a475 = +0
-
 +1 x7a475 -1 x7a476 -1 x7a477 = +0
-
 +1 x7a476 +1 x7a477 -1 x7a54e -1 x7a54f = +0
-
 +1 x7a47f -1 x7a480 -1 x7a481 = +0
-
 +1 x7a481 -1 x7a483 -1 x7a484 = +0
-
 +1 x7a483 -1 x7a48c -1 x7a48d = +0
-
 +1 x7a484 -1 x7a48e -1 x7a48f = +0
-
 +1 x7a48c -1 x7a49c -1 x7a4a0 = +0
-
 +1 x7a48e -1 x7a49d -1 x7a4a1 = +0
-
 +1 x7a4a0 -1 x7a550 -1 x7a551 = +0
-
 +1 x7a4a1 -1 x7a552 -1 x7a553 = +0
-
 +1 x7a480 -1 x7a4ab -1 x7a4ac = +0
-
 +1 x7a4ac -1 x7a4b2 -1 x7a4b3 = +0
-
 +1 x7a4ab -1 x7a4b4 -1 x7a4b5 = +0
-
 +1 x7a4b2 +1 x7a4b4 -1 x7a4c7 = +0
-
 +1 x7a4b3 +1 x7a4b5 -1 x7a4b6 = +0
-
 +1 x7a4b6 -1 x7a4b8 -1 x7a4b9 = +0
-
 +1 x7a4b8 -1 x7a4c0 -1 x7a4c2 = +0
-
 +1 x7a4c2 -1 x7a554 -1 x7a555 = +0
-
 +1 x7a4c7 -1 x7a556 -1 x7a557 = +0
-
 +1 x7a42e -1 x7a4cc -1 x7a4cd = +0
-
 +1 x7a4cb -1 x7a4ce -1 x7a4cf = +0
-
 +1 x7a4cc +1 x7a4ce -1 x7a4d2 = +0
-
 +1 x7a4cd +1 x7a4cf -1 x7a4d0 = +0
-
 +1 x7a4d0 -1 x7a4fd -1 x7a4fe = +0
-
 +1 x7a4d2 -1 x7a4d3 -1 x7a4d4 = +0
-
 +1 x7a4d4 -1 x7a4d7 -1 x7a4d8 = +0
-
 +1 x7a4d7 -1 x7a4df -1 x7a4e1 = +0
-
 +1 x7a4e1 -1 x7a4ff -1 x7a500 = +0
-
 +1 x7a4d3 -1 x7a4e7 -1 x7a4e8 = +0
-
 +1 x7a4e8 -1 x7a4eb -1 x7a4ec = +0
-
 +1 x7a4eb -1 x7a4f3 -1 x7a4f5 = +0
-
 +1 x7a4f5 -1 x7a501 -1 x7a502 = +0
-
 +1 x7a4e7 -1 x7a503 -1 x7a504 = +0
-
 +1 x7a4fd +1 x7a4ff +1 x7a501 +1 x7a503 -1 x7a510 = +0
-
 +1 x7a4fe +1 x7a500 +1 x7a502 +1 x7a504 -1 x7a505 = +0
-
 +1 x7a505 -1 x7a506 -1 x7a507 = +0
-
 +1 x7a506 +1 x7a507 -1 x7a50f = +0
-
 +1 x7a50f -1 x7a558 -1 x7a559 = +0
-
 +1 x7a510 -1 x7a511 -1 x7a512 = +0
-
 +1 x7a512 -1 x7a514 -1 x7a515 = +0
-
 +1 x7a514 +1 x7a515 -1 x7a51d -1 x7a51e = +0
-
 +1 x7a51d -1 x7a525 -1 x7a527 = +0
-
 +1 x7a527 -1 x7a55a -1 x7a55b = +0
-
 +1 x7a511 -1 x7a52d -1 x7a52e = +0
-
 +1 x7a52e -1 x7a534 -1 x7a535 = +0
-
 +1 x7a52d -1 x7a536 -1 x7a537 = +0
-
 +1 x7a534 +1 x7a536 -1 x7a549 = +0
-
 +1 x7a535 +1 x7a537 -1 x7a538 = +0
-
 +1 x7a538 -1 x7a53a -1 x7a53b = +0
-
 +1 x7a53a -1 x7a542 -1 x7a544 = +0
-
 +1 x7a544 -1 x7a55c -1 x7a55d = +0
-
 +1 x7a549 -1 x7a55e -1 x7a55f = +0
-
 +1 x7a54c +1 x7a54e +1 x7a550 +1 x7a552 +1 x7a554 +1 x7a556 +1 x7a558 +1 x7a55a
 +1 x7a55c +1 x7a55e -1 x7a562 = +0
-
 +1 x7a54d +1 x7a54f +1 x7a551 +1 x7a553 +1 x7a555 +1 x7a557 +1 x7a559 +1 x7a55b
 +1 x7a55d +1 x7a55f -1 x7a560 = +0
-
 +1 x7a562 -1 x7a563 -1 x7a564 = +0
-
 +1 x7a564 -1 x7a567 -1 x7a568 = +0
-
 +1 x7a567 -1 x7a56f -1 x7a571 = +0
-
 +1 x7a563 -1 x7a577 -1 x7a578 = +0
-
 +1 x7a578 -1 x7a57b -1 x7a57c = +0
-
 +1 x7a57b -1 x7a583 -1 x7a585 = +0
-
 +1 x7a571 +1 x7a577 +1 x7a585 -1 x7a592 = +0
-
 +1 x7a59d +1 x7a59f -1 x7a5af = +0
-
 +1 x7a5af -1 x7a5b2 -1 x7a5b3 = +0
-
 +1 x7a5b2 -1 x7a5ba -1 x7a5bc = +0
-
 +1 x7a5c0 +1 x7a7f1 -1 x7a7fc +0 x7a7fd = +0
-
 +1 x79f81 -1 x7a5ca +1 x7a5f7 = +0
-
 +1 x7a5ca -1 x7a5cc -1 x7a5cd = +0
-
 +1 x7a5bc -1 x7a5ce -1 x7a5cf = +0
-
 +1 x7a5cd -1 x7a7fe +0 x7a7ff = +0
-
 +1 x7a5cc -1 x7a5d5 -1 x7a5d6 = +0
-
 +1 x7a5ce -1 x7a5d7 -1 x7a5d8 = +0
-
 +1 x7a5d8 -1 x7a5fa -1 x7a5fb = +0
-
 +1 x7a5d6 -1 x7a5fc -1 x7a5fd = +0
-
 +1 x7a5d7 -1 x7a5e5 -1 x7a5e6 = +0
-
 +1 x7a5d5 -1 x7a5e7 -1 x7a5e8 = +0
-
 +1 x7a5e5 +1 x7a5e7 -1 x7a5ef = +0
-
 +1 x7a5e6 +1 x7a5e8 -1 x7a5e9 = +0
-
 +1 x7a5e9 -1 x7a5f7 -1 x7a5f8 = +0
-
 +1 x7a5f8 -1 x7a5fe -1 x7a5ff = +0
-
 +1 x7a5fa +1 x7a5fc +1 x7a5fe -1 x7a7f1 = +0
-
 +1 x7a5fb +1 x7a5fd +1 x7a5ff -1 x7a600 = +0
-
 +1 x7a600 -1 x7a605 -1 x7a606 = +0
-
 +1 x7a605 +1 x7a606 -1 x7a61e = +0
-
 +1 x7a61e -1 x7a621 -1 x7a622 = +0
-
 +1 x7a621 -1 x7a630 -1 x7a631 = +0
-
 +1 x7a631 -1 x7a63a -1 x7a63b = +0
-
 +1 x7a63b -1 x7a63d -1 x7a63e = +0
-
 +1 x7a63d +1 x7a63e -1 x7a682 -1 x7a683 = +0
-
 +1 x7a63a -1 x7a647 -1 x7a648 = +0
-
 +1 x7a648 -1 x7a64a -1 x7a64b = +0
-
 +1 x7a64a +1 x7a64b -1 x7a653 -1 x7a654 = +0
-
 +1 x7a653 -1 x7a65b -1 x7a65d = +0
-
 +1 x7a65d -1 x7a684 -1 x7a685 = +0
-
 +1 x7a647 -1 x7a663 -1 x7a664 = +0
-
 +1 x7a664 -1 x7a66a -1 x7a66b = +0
-
 +1 x7a663 -1 x7a66c -1 x7a66d = +0
-
 +1 x7a66a +1 x7a66c -1 x7a67f = +0
-
 +1 x7a66b +1 x7a66d -1 x7a66e = +0
-
 +1 x7a66e -1 x7a670 -1 x7a671 = +0
-
 +1 x7a670 -1 x7a678 -1 x7a67a = +0
-
 +1 x7a67a -1 x7a686 -1 x7a687 = +0
-
 +1 x7a67f -1 x7a688 -1 x7a689 = +0
-
 +1 x7a684 +1 x7a686 +1 x7a688 -1 x7a71f = +0
-
 +1 x7a685 +1 x7a687 +1 x7a689 -1 x7a68b = +0
-
 +1 x7a683 -1 x7a68c -1 x7a68d = +0
-
 +1 x7a68b -1 x7a68e -1 x7a68f = +0
-
 +1 x7a68c +1 x7a68e -1 x7a691 = +0
-
 +1 x7a68d +1 x7a68f -1 x7a690 = +0
-
 +1 x7a690 -1 x7a7a0 -1 x7a7a1 = +0
-
 +1 x7a691 -1 x7a692 -1 x7a693 = +0
-
 +1 x7a693 -1 x7a6c1 -1 x7a6c2 = +0
-
 +1 x7a692 -1 x7a697 -1 x7a698 = +0
-
 +1 x7a698 -1 x7a69b -1 x7a69c = +0
-
 +1 x7a69b -1 x7a6a3 -1 x7a6a5 = +0
-
 +1 x7a6a5 -1 x7a6c3 -1 x7a6c4 = +0
-
 +1 x7a697 -1 x7a6ab -1 x7a6ac = +0
-
 +1 x7a6ac -1 x7a6af -1 x7a6b0 = +0
-
 +1 x7a6af -1 x7a6b7 -1 x7a6b9 = +0
-
 +1 x7a6b9 -1 x7a6c5 -1 x7a6c6 = +0
-
 +1 x7a6ab -1 x7a6c7 -1 x7a6c8 = +0
-
 +1 x7a6c1 +1 x7a6c3 +1 x7a6c5 +1 x7a6c7 -1 x7a6d3 = +0
-
 +1 x7a6c2 +1 x7a6c4 +1 x7a6c6 +1 x7a6c8 -1 x7a6c9 = +0
-
 +1 x7a6c9 -1 x7a6ca -1 x7a6cb = +0
-
 +1 x7a6ca +1 x7a6cb -1 x7a7a2 -1 x7a7a3 = +0
-
 +1 x7a6d3 -1 x7a6d4 -1 x7a6d5 = +0
-
 +1 x7a6d5 -1 x7a6d7 -1 x7a6d8 = +0
-
 +1 x7a6d7 -1 x7a6e0 -1 x7a6e1 = +0
-
 +1 x7a6d8 -1 x7a6e2 -1 x7a6e3 = +0
-
 +1 x7a6e0 -1 x7a6f0 -1 x7a6f4 = +0
-
 +1 x7a6e2 -1 x7a6f1 -1 x7a6f5 = +0
-
 +1 x7a6f4 -1 x7a7a4 -1 x7a7a5 = +0
-
 +1 x7a6f5 -1 x7a7a6 -1 x7a7a7 = +0
-
 +1 x7a6d4 -1 x7a6ff -1 x7a700 = +0
-
 +1 x7a700 -1 x7a706 -1 x7a707 = +0
-
 +1 x7a6ff -1 x7a708 -1 x7a709 = +0
-
 +1 x7a706 +1 x7a708 -1 x7a71b = +0
-
 +1 x7a707 +1 x7a709 -1 x7a70a = +0
-
 +1 x7a70a -1 x7a70c -1 x7a70d = +0
-
 +1 x7a70c -1 x7a714 -1 x7a716 = +0
-
 +1 x7a716 -1 x7a7a8 -1 x7a7a9 = +0
-
 +1 x7a71b -1 x7a7aa -1 x7a7ab = +0
-
 +1 x7a682 -1 x7a720 -1 x7a721 = +0
-
 +1 x7a71f -1 x7a722 -1 x7a723 = +0
-
 +1 x7a720 +1 x7a722 -1 x7a726 = +0
-
 +1 x7a721 +1 x7a723 -1 x7a724 = +0
-
 +1 x7a724 -1 x7a751 -1 x7a752 = +0
-
 +1 x7a726 -1 x7a727 -1 x7a728 = +0
-
 +1 x7a728 -1 x7a72b -1 x7a72c = +0
-
 +1 x7a72b -1 x7a733 -1 x7a735 = +0
-
 +1 x7a735 -1 x7a753 -1 x7a754 = +0
-
 +1 x7a727 -1 x7a73b -1 x7a73c = +0
-
 +1 x7a73c -1 x7a73f -1 x7a740 = +0
-
 +1 x7a73f -1 x7a747 -1 x7a749 = +0
-
 +1 x7a749 -1 x7a755 -1 x7a756 = +0
-
 +1 x7a73b -1 x7a757 -1 x7a758 = +0
-
 +1 x7a751 +1 x7a753 +1 x7a755 +1 x7a757 -1 x7a764 = +0
-
 +1 x7a752 +1 x7a754 +1 x7a756 +1 x7a758 -1 x7a759 = +0
-
 +1 x7a759 -1 x7a75a -1 x7a75b = +0
-
 +1 x7a75a +1 x7a75b -1 x7a763 = +0
-
 +1 x7a763 -1 x7a7ac -1 x7a7ad = +0
-
 +1 x7a764 -1 x7a765 -1 x7a766 = +0
-
 +1 x7a766 -1 x7a768 -1 x7a769 = +0
-
 +1 x7a768 +1 x7a769 -1 x7a771 -1 x7a772 = +0
-
 +1 x7a771 -1 x7a779 -1 x7a77b = +0
-
 +1 x7a77b -1 x7a7ae -1 x7a7af = +0
-
 +1 x7a765 -1 x7a781 -1 x7a782 = +0
-
 +1 x7a782 -1 x7a788 -1 x7a789 = +0
-
 +1 x7a781 -1 x7a78a -1 x7a78b = +0
-
 +1 x7a788 +1 x7a78a -1 x7a79d = +0
-
 +1 x7a789 +1 x7a78b -1 x7a78c = +0
-
 +1 x7a78c -1 x7a78e -1 x7a78f = +0
-
 +1 x7a78e -1 x7a796 -1 x7a798 = +0
-
 +1 x7a798 -1 x7a7b0 -1 x7a7b1 = +0
-
 +1 x7a79d -1 x7a7b2 -1 x7a7b3 = +0
-
 +1 x7a7a0 +1 x7a7a2 +1 x7a7a4 +1 x7a7a6 +1 x7a7a8 +1 x7a7aa +1 x7a7ac +1 x7a7ae
 +1 x7a7b0 +1 x7a7b2 -1 x7a7b6 = +0
-
 +1 x7a7a1 +1 x7a7a3 +1 x7a7a5 +1 x7a7a7 +1 x7a7a9 +1 x7a7ab +1 x7a7ad +1 x7a7af
 +1 x7a7b1 +1 x7a7b3 -1 x7a7b4 = +0
-
 +1 x7a7b6 -1 x7a7b7 -1 x7a7b8 = +0
-
 +1 x7a7b8 -1 x7a7bb -1 x7a7bc = +0
-
 +1 x7a7bb -1 x7a7c3 -1 x7a7c5 = +0
-
 +1 x7a7b7 -1 x7a7cb -1 x7a7cc = +0
-
 +1 x7a7cc -1 x7a7cf -1 x7a7d0 = +0
-
 +1 x7a7cf -1 x7a7d7 -1 x7a7d9 = +0
-
 +1 x7a7c5 +1 x7a7cb +1 x7a7d9 -1 x7a7e6 = +0
-
 +1 x79921 +1 x7a7fa +1 x7a7fe -1 x7a81b -1 x7a81c = +0
-
 +1 x7a81b -1 x7a823 -1 x7a825 = +0
-
 +1 x7a825 -1 x7a82c -1 x7a82d = +0
-
 +1 x7a82d +1 x7b753 -1 x7b981 +0 x7b982 = +0
-
 +1 x7a82c -1 x7a830 -1 x7a831 = +0
-
 +1 x7a830 -1 x7a835 -1 x7a836 = +0
-
 +1 x7a835 -1 x7a83d -1 x7a83f = +0
-
 +1 x7a83f -1 x7a845 -1 x7a846 = +0
-
 +1 x7a845 -1 x7a84b -1 x7a84c = +0
-
 +1 x7a84c -1 x7a852 -1 x7a853 = +0
-
 +1 x7a852 +1 x7a853 -1 x7a86b = +0
-
 +1 x7a86b -1 x7a86e -1 x7a86f = +0
-
 +1 x7a86e -1 x7a87d -1 x7a87e = +0
-
 +1 x7a87d -1 x7a884 +1 x7b7a4 = +0
-
 +1 x7a884 -1 x7a88d -1 x7a88e = +0
-
 +1 x7a88e +1 x7a89e -1 x7a8a6 +0 x7a8a7 = +0
-
 +1 x7a88d -1 x7a894 +1 x7a89d = +0
-
 +1 x7a894 -1 x7a89d -1 x7a89e = +0
-
 +1 x7a87e -1 x7a8af -1 x7a8b0 = +0
-
 +1 x7a8a6 -1 x7a8b1 -1 x7a8b2 = +0
-
 +1 x7a8af +1 x7a8b1 -1 x7a8bd = +0
-
 +1 x7a8b0 +1 x7a8b2 -1 x7a8b3 = +0
-
 +1 x7a8b3 -1 x7a8b4 -1 x7a8b5 = +0
-
 +1 x7a8b4 +1 x7a8b5 -1 x7a8f9 -1 x7a8fa = +0
-
 +1 x7a8bd -1 x7a8be -1 x7a8bf = +0
-
 +1 x7a8bf -1 x7a8c1 -1 x7a8c2 = +0
-
 +1 x7a8c1 +1 x7a8c2 -1 x7a8ca -1 x7a8cb = +0
-
 +1 x7a8ca -1 x7a8d2 -1 x7a8d4 = +0
-
 +1 x7a8d4 -1 x7a8fb -1 x7a8fc = +0
-
 +1 x7a8be -1 x7a8da -1 x7a8db = +0
-
 +1 x7a8db -1 x7a8e1 -1 x7a8e2 = +0
-
 +1 x7a8da -1 x7a8e3 -1 x7a8e4 = +0
-
 +1 x7a8e1 +1 x7a8e3 -1 x7a8f6 = +0
-
 +1 x7a8e2 +1 x7a8e4 -1 x7a8e5 = +0
-
 +1 x7a8e5 -1 x7a8e7 -1 x7a8e8 = +0
-
 +1 x7a8e7 -1 x7a8ef -1 x7a8f1 = +0
-
 +1 x7a8f1 -1 x7a8fd -1 x7a8fe = +0
-
 +1 x7a8f6 -1 x7a8ff -1 x7a900 = +0
-
 +1 x7a8fb +1 x7a8fd +1 x7a8ff -1 x7a996 = +0
-
 +1 x7a8fc +1 x7a8fe +1 x7a900 -1 x7a902 = +0
-
 +1 x7a8fa -1 x7a903 -1 x7a904 = +0
-
 +1 x7a902 -1 x7a905 -1 x7a906 = +0
-
 +1 x7a903 +1 x7a905 -1 x7a908 = +0
-
 +1 x7a904 +1 x7a906 -1 x7a907 = +0
-
 +1 x7a907 -1 x7aa17 -1 x7aa18 = +0
-
 +1 x7a908 -1 x7a909 -1 x7a90a = +0
-
 +1 x7a90a -1 x7a938 -1 x7a939 = +0
-
 +1 x7a909 -1 x7a90e -1 x7a90f = +0
-
 +1 x7a90f -1 x7a912 -1 x7a913 = +0
-
 +1 x7a912 -1 x7a91a -1 x7a91c = +0
-
 +1 x7a91c -1 x7a93a -1 x7a93b = +0
-
 +1 x7a90e -1 x7a922 -1 x7a923 = +0
-
 +1 x7a923 -1 x7a926 -1 x7a927 = +0
-
 +1 x7a926 -1 x7a92e -1 x7a930 = +0
-
 +1 x7a930 -1 x7a93c -1 x7a93d = +0
-
 +1 x7a922 -1 x7a93e -1 x7a93f = +0
-
 +1 x7a938 +1 x7a93a +1 x7a93c +1 x7a93e -1 x7a94a = +0
-
 +1 x7a939 +1 x7a93b +1 x7a93d +1 x7a93f -1 x7a940 = +0
-
 +1 x7a940 -1 x7a941 -1 x7a942 = +0
-
 +1 x7a941 +1 x7a942 -1 x7aa19 -1 x7aa1a = +0
-
 +1 x7a94a -1 x7a94b -1 x7a94c = +0
-
 +1 x7a94c -1 x7a94e -1 x7a94f = +0
-
 +1 x7a94e -1 x7a957 -1 x7a958 = +0
-
 +1 x7a94f -1 x7a959 -1 x7a95a = +0
-
 +1 x7a957 -1 x7a967 -1 x7a96b = +0
-
 +1 x7a959 -1 x7a968 -1 x7a96c = +0
-
 +1 x7a96b -1 x7aa1b -1 x7aa1c = +0
-
 +1 x7a96c -1 x7aa1d -1 x7aa1e = +0
-
 +1 x7a94b -1 x7a976 -1 x7a977 = +0
-
 +1 x7a977 -1 x7a97d -1 x7a97e = +0
-
 +1 x7a976 -1 x7a97f -1 x7a980 = +0
-
 +1 x7a97d +1 x7a97f -1 x7a992 = +0
-
 +1 x7a97e +1 x7a980 -1 x7a981 = +0
-
 +1 x7a981 -1 x7a983 -1 x7a984 = +0
-
 +1 x7a983 -1 x7a98b -1 x7a98d = +0
-
 +1 x7a98d -1 x7aa1f -1 x7aa20 = +0
-
 +1 x7a992 -1 x7aa21 -1 x7aa22 = +0
-
 +1 x7a8f9 -1 x7a997 -1 x7a998 = +0
-
 +1 x7a996 -1 x7a999 -1 x7a99a = +0
-
 +1 x7a997 +1 x7a999 -1 x7a99d = +0
-
 +1 x7a998 +1 x7a99a -1 x7a99b = +0
-
 +1 x7a99b -1 x7a9c8 -1 x7a9c9 = +0
-
 +1 x7a99d -1 x7a99e -1 x7a99f = +0
-
 +1 x7a99f -1 x7a9a2 -1 x7a9a3 = +0
-
 +1 x7a9a2 -1 x7a9aa -1 x7a9ac = +0
-
 +1 x7a9ac -1 x7a9ca -1 x7a9cb = +0
-
 +1 x7a99e -1 x7a9b2 -1 x7a9b3 = +0
-
 +1 x7a9b3 -1 x7a9b6 -1 x7a9b7 = +0
-
 +1 x7a9b6 -1 x7a9be -1 x7a9c0 = +0
-
 +1 x7a9c0 -1 x7a9cc -1 x7a9cd = +0
-
 +1 x7a9b2 -1 x7a9ce -1 x7a9cf = +0
-
 +1 x7a9c8 +1 x7a9ca +1 x7a9cc +1 x7a9ce -1 x7a9db = +0
-
 +1 x7a9c9 +1 x7a9cb +1 x7a9cd +1 x7a9cf -1 x7a9d0 = +0
-
 +1 x7a9d0 -1 x7a9d1 -1 x7a9d2 = +0
-
 +1 x7a9d1 +1 x7a9d2 -1 x7a9da = +0
-
 +1 x7a9da -1 x7aa23 -1 x7aa24 = +0
-
 +1 x7a9db -1 x7a9dc -1 x7a9dd = +0
-
 +1 x7a9dd -1 x7a9df -1 x7a9e0 = +0
-
 +1 x7a9df +1 x7a9e0 -1 x7a9e8 -1 x7a9e9 = +0
-
 +1 x7a9e8 -1 x7a9f0 -1 x7a9f2 = +0
-
 +1 x7a9f2 -1 x7aa25 -1 x7aa26 = +0
-
 +1 x7a9dc -1 x7a9f8 -1 x7a9f9 = +0
-
 +1 x7a9f9 -1 x7a9ff -1 x7aa00 = +0
-
 +1 x7a9f8 -1 x7aa01 -1 x7aa02 = +0
-
 +1 x7a9ff +1 x7aa01 -1 x7aa14 = +0
-
 +1 x7aa00 +1 x7aa02 -1 x7aa03 = +0
-
 +1 x7aa03 -1 x7aa05 -1 x7aa06 = +0
-
 +1 x7aa05 -1 x7aa0d -1 x7aa0f = +0
-
 +1 x7aa0f -1 x7aa27 -1 x7aa28 = +0
-
 +1 x7aa14 -1 x7aa29 -1 x7aa2a = +0
-
 +1 x7aa17 +1 x7aa19 +1 x7aa1b +1 x7aa1d +1 x7aa1f +1 x7aa21 +1 x7aa23 +1 x7aa25
 +1 x7aa27 +1 x7aa29 -1 x7aa2d = +0
-
 +1 x7aa18 +1 x7aa1a +1 x7aa1c +1 x7aa1e +1 x7aa20 +1 x7aa22 +1 x7aa24 +1 x7aa26
 +1 x7aa28 +1 x7aa2a -1 x7aa2b = +0
-
 +1 x7aa2d -1 x7aa2e -1 x7aa2f = +0
-
 +1 x7aa2f -1 x7aa32 -1 x7aa33 = +0
-
 +1 x7aa32 -1 x7aa3a -1 x7aa3c = +0
-
 +1 x7aa2e -1 x7aa42 -1 x7aa43 = +0
-
 +1 x7aa43 -1 x7aa46 -1 x7aa47 = +0
-
 +1 x7aa46 -1 x7aa4e -1 x7aa50 = +0
-
 +1 x7aa3c +1 x7aa42 +1 x7aa50 -1 x7aa5d = +0
-
 +1 x7aa2b -1 x7aa65 +1 x7b928 = +0
-
 +1 x7aa5d -1 x7aa66 +1 x7b95a = +0
-
 +1 x7a86f -1 x7aa67 +1 x7b796 = +0
-
 +1 x7aa65 -1 x7aa68 -1 x7aa69 = +0
-
 +1 x7aa66 -1 x7aa6a -1 x7aa6b = +0
-
 +1 x7aa67 -1 x7aa6c -1 x7aa6d = +0
-
 +1 x7aa68 +1 x7aa6a -1 x7aa70 = +0
-
 +1 x7aa69 +1 x7aa6b -1 x7aa6e = +0
-
 +1 x7aa6e +1 x7ac7f -1 x7ae62 +0 x7ae63 = +0
-
 +1 x7aa6c +1 x7aa70 -1 x7aa7c = +0
-
 +1 x7aa7c -1 x7aa7f -1 x7aa80 = +0
-
 +1 x7aa7f -1 x7aa8e -1 x7aa8f = +0
-
 +1 x7aa8e -1 x7aa95 +1 x7aca1 = +0
-
 +1 x7aa95 -1 x7aa9e -1 x7aa9f = +0
-
 +1 x7aa9f +1 x7aaaf -1 x7aab7 +0 x7aab8 = +0
-
 +1 x7aa9e -1 x7aaa5 +1 x7aaae = +0
-
 +1 x7aaa5 -1 x7aaae -1 x7aaaf = +0
-
 +1 x7aa8f -1 x7aac0 -1 x7aac1 = +0
-
 +1 x7aab7 -1 x7aac2 -1 x7aac3 = +0
-
 +1 x7aac0 +1 x7aac2 -1 x7aace = +0
-
 +1 x7aac1 +1 x7aac3 -1 x7aac4 = +0
-
 +1 x7aac4 -1 x7aac5 -1 x7aac6 = +0
-
 +1 x7aac5 +1 x7aac6 -1 x7ab0a -1 x7ab0b = +0
-
 +1 x7aace -1 x7aacf -1 x7aad0 = +0
-
 +1 x7aad0 -1 x7aad2 -1 x7aad3 = +0
-
 +1 x7aad2 +1 x7aad3 -1 x7aadb -1 x7aadc = +0
-
 +1 x7aadb -1 x7aae3 -1 x7aae5 = +0
-
 +1 x7aae5 -1 x7ab0c -1 x7ab0d = +0
-
 +1 x7aacf -1 x7aaeb -1 x7aaec = +0
-
 +1 x7aaec -1 x7aaf2 -1 x7aaf3 = +0
-
 +1 x7aaeb -1 x7aaf4 -1 x7aaf5 = +0
-
 +1 x7aaf2 +1 x7aaf4 -1 x7ab07 = +0
-
 +1 x7aaf3 +1 x7aaf5 -1 x7aaf6 = +0
-
 +1 x7aaf6 -1 x7aaf8 -1 x7aaf9 = +0
-
 +1 x7aaf8 -1 x7ab00 -1 x7ab02 = +0
-
 +1 x7ab02 -1 x7ab0e -1 x7ab0f = +0
-
 +1 x7ab07 -1 x7ab10 -1 x7ab11 = +0
-
 +1 x7ab0c +1 x7ab0e +1 x7ab10 -1 x7aba7 = +0
-
 +1 x7ab0d +1 x7ab0f +1 x7ab11 -1 x7ab13 = +0
-
 +1 x7ab0b -1 x7ab14 -1 x7ab15 = +0
-
 +1 x7ab13 -1 x7ab16 -1 x7ab17 = +0
-
 +1 x7ab14 +1 x7ab16 -1 x7ab19 = +0
-
 +1 x7ab15 +1 x7ab17 -1 x7ab18 = +0
-
 +1 x7ab18 -1 x7ac28 -1 x7ac29 = +0
-
 +1 x7ab19 -1 x7ab1a -1 x7ab1b = +0
-
 +1 x7ab1b -1 x7ab49 -1 x7ab4a = +0
-
 +1 x7ab1a -1 x7ab1f -1 x7ab20 = +0
-
 +1 x7ab20 -1 x7ab23 -1 x7ab24 = +0
-
 +1 x7ab23 -1 x7ab2b -1 x7ab2d = +0
-
 +1 x7ab2d -1 x7ab4b -1 x7ab4c = +0
-
 +1 x7ab1f -1 x7ab33 -1 x7ab34 = +0
-
 +1 x7ab34 -1 x7ab37 -1 x7ab38 = +0
-
 +1 x7ab37 -1 x7ab3f -1 x7ab41 = +0
-
 +1 x7ab41 -1 x7ab4d -1 x7ab4e = +0
-
 +1 x7ab33 -1 x7ab4f -1 x7ab50 = +0
-
 +1 x7ab49 +1 x7ab4b +1 x7ab4d +1 x7ab4f -1 x7ab5b = +0
-
 +1 x7ab4a +1 x7ab4c +1 x7ab4e +1 x7ab50 -1 x7ab51 = +0
-
 +1 x7ab51 -1 x7ab52 -1 x7ab53 = +0
-
 +1 x7ab52 +1 x7ab53 -1 x7ac2a -1 x7ac2b = +0
-
 +1 x7ab5b -1 x7ab5c -1 x7ab5d = +0
-
 +1 x7ab5d -1 x7ab5f -1 x7ab60 = +0
-
 +1 x7ab5f -1 x7ab68 -1 x7ab69 = +0
-
 +1 x7ab60 -1 x7ab6a -1 x7ab6b = +0
-
 +1 x7ab68 -1 x7ab78 -1 x7ab7c = +0
-
 +1 x7ab6a -1 x7ab79 -1 x7ab7d = +0
-
 +1 x7ab7c -1 x7ac2c -1 x7ac2d = +0
-
 +1 x7ab7d -1 x7ac2e -1 x7ac2f = +0
-
 +1 x7ab5c -1 x7ab87 -1 x7ab88 = +0
-
 +1 x7ab88 -1 x7ab8e -1 x7ab8f = +0
-
 +1 x7ab87 -1 x7ab90 -1 x7ab91 = +0
-
 +1 x7ab8e +1 x7ab90 -1 x7aba3 = +0
-
 +1 x7ab8f +1 x7ab91 -1 x7ab92 = +0
-
 +1 x7ab92 -1 x7ab94 -1 x7ab95 = +0
-
 +1 x7ab94 -1 x7ab9c -1 x7ab9e = +0
-
 +1 x7ab9e -1 x7ac30 -1 x7ac31 = +0
-
 +1 x7aba3 -1 x7ac32 -1 x7ac33 = +0
-
 +1 x7ab0a -1 x7aba8 -1 x7aba9 = +0
-
 +1 x7aba7 -1 x7abaa -1 x7abab = +0
-
 +1 x7aba8 +1 x7abaa -1 x7abae = +0
-
 +1 x7aba9 +1 x7abab -1 x7abac = +0
-
 +1 x7abac -1 x7abd9 -1 x7abda = +0
-
 +1 x7abae -1 x7abaf -1 x7abb0 = +0
-
 +1 x7abb0 -1 x7abb3 -1 x7abb4 = +0
-
 +1 x7abb3 -1 x7abbb -1 x7abbd = +0
-
 +1 x7abbd -1 x7abdb -1 x7abdc = +0
-
 +1 x7abaf -1 x7abc3 -1 x7abc4 = +0
-
 +1 x7abc4 -1 x7abc7 -1 x7abc8 = +0
-
 +1 x7abc7 -1 x7abcf -1 x7abd1 = +0
-
 +1 x7abd1 -1 x7abdd -1 x7abde = +0
-
 +1 x7abc3 -1 x7abdf -1 x7abe0 = +0
-
 +1 x7abd9 +1 x7abdb +1 x7abdd +1 x7abdf -1 x7abec = +0
-
 +1 x7abda +1 x7abdc +1 x7abde +1 x7abe0 -1 x7abe1 = +0
-
 +1 x7abe1 -1 x7abe2 -1 x7abe3 = +0
-
 +1 x7abe2 +1 x7abe3 -1 x7abeb = +0
-
 +1 x7abeb -1 x7ac34 -1 x7ac35 = +0
-
 +1 x7abec -1 x7abed -1 x7abee = +0
-
 +1 x7abee -1 x7abf0 -1 x7abf1 = +0
-
 +1 x7abf0 +1 x7abf1 -1 x7abf9 -1 x7abfa = +0
-
 +1 x7abf9 -1 x7ac01 -1 x7ac03 = +0
-
 +1 x7ac03 -1 x7ac36 -1 x7ac37 = +0
-
 +1 x7abed -1 x7ac09 -1 x7ac0a = +0
-
 +1 x7ac0a -1 x7ac10 -1 x7ac11 = +0
-
 +1 x7ac09 -1 x7ac12 -1 x7ac13 = +0
-
 +1 x7ac10 +1 x7ac12 -1 x7ac25 = +0
-
 +1 x7ac11 +1 x7ac13 -1 x7ac14 = +0
-
 +1 x7ac14 -1 x7ac16 -1 x7ac17 = +0
-
 +1 x7ac16 -1 x7ac1e -1 x7ac20 = +0
-
 +1 x7ac20 -1 x7ac38 -1 x7ac39 = +0
-
 +1 x7ac25 -1 x7ac3a -1 x7ac3b = +0
-
 +1 x7ac28 +1 x7ac2a +1 x7ac2c +1 x7ac2e +1 x7ac30 +1 x7ac32 +1 x7ac34 +1 x7ac36
 +1 x7ac38 +1 x7ac3a -1 x7ac3e = +0
-
 +1 x7ac29 +1 x7ac2b +1 x7ac2d +1 x7ac2f +1 x7ac31 +1 x7ac33 +1 x7ac35 +1 x7ac37
 +1 x7ac39 +1 x7ac3b -1 x7ac3c = +0
-
 +1 x7ac3e -1 x7ac3f -1 x7ac40 = +0
-
 +1 x7ac40 -1 x7ac43 -1 x7ac44 = +0
-
 +1 x7ac43 -1 x7ac4b -1 x7ac4d = +0
-
 +1 x7ac3f -1 x7ac53 -1 x7ac54 = +0
-
 +1 x7ac54 -1 x7ac57 -1 x7ac58 = +0
-
 +1 x7ac57 -1 x7ac5f -1 x7ac61 = +0
-
 +1 x7ac4d +1 x7ac53 +1 x7ac61 -1 x7ac6e = +0
-
 +1 x7ac3c -1 x7ac76 +1 x7ae25 = +0
-
 +1 x7ac6e -1 x7ac77 +1 x7ae57 = +0
-
 +1 x7aa80 -1 x7ac78 +1 x7ac93 = +0
-
 +1 x7ac76 -1 x7ac79 -1 x7ac7a = +0
-
 +1 x7ac77 -1 x7ac7b -1 x7ac7c = +0
-
 +1 x7ac78 -1 x7ac7d -1 x7ac7e = +0
-
 +1 x7ac79 +1 x7ac7b -1 x7ac83 = +0
-
 +1 x7ac7a +1 x7ac7c -1 x7ac7f = +0
-
 +1 x7aa6d +1 x7ac7e -1 x7ae64 +0 x7ae65 = +0
-
 +1 x7ac7d +1 x7ac83 -1 x7ac8f = +0
-
 +1 x7ac8f -1 x7ac92 -1 x7ac93 = +0
-
 +1 x7ac92 -1 x7aca1 -1 x7aca2 = +0
-
 +1 x7aca2 -1 x7acab -1 x7acac = +0
-
 +1 x7acac -1 x7acae -1 x7acaf = +0
-
 +1 x7acae +1 x7acaf -1 x7acf3 -1 x7acf4 = +0
-
 +1 x7acab -1 x7acb8 -1 x7acb9 = +0
-
 +1 x7acb9 -1 x7acbb -1 x7acbc = +0
-
 +1 x7acbb +1 x7acbc -1 x7acc4 -1 x7acc5 = +0
-
 +1 x7acc4 -1 x7accc -1 x7acce = +0
-
 +1 x7acce -1 x7acf5 -1 x7acf6 = +0
-
 +1 x7acb8 -1 x7acd4 -1 x7acd5 = +0
-
 +1 x7acd5 -1 x7acdb -1 x7acdc = +0
-
 +1 x7acd4 -1 x7acdd -1 x7acde = +0
-
 +1 x7acdb +1 x7acdd -1 x7acf0 = +0
-
 +1 x7acdc +1 x7acde -1 x7acdf = +0
-
 +1 x7acdf -1 x7ace1 -1 x7ace2 = +0
-
 +1 x7ace1 -1 x7ace9 -1 x7aceb = +0
-
 +1 x7aceb -1 x7acf7 -1 x7acf8 = +0
-
 +1 x7acf0 -1 x7acf9 -1 x7acfa = +0
-
 +1 x7acf5 +1 x7acf7 +1 x7acf9 -1 x7ad90 = +0
-
 +1 x7acf6 +1 x7acf8 +1 x7acfa -1 x7acfc = +0
-
 +1 x7acf4 -1 x7acfd -1 x7acfe = +0
-
 +1 x7acfc -1 x7acff -1 x7ad00 = +0
-
 +1 x7acfd +1 x7acff -1 x7ad02 = +0
-
 +1 x7acfe +1 x7ad00 -1 x7ad01 = +0
-
 +1 x7ad01 -1 x7ae11 -1 x7ae12 = +0
-
 +1 x7ad02 -1 x7ad03 -1 x7ad04 = +0
-
 +1 x7ad04 -1 x7ad32 -1 x7ad33 = +0
-
 +1 x7ad03 -1 x7ad08 -1 x7ad09 = +0
-
 +1 x7ad09 -1 x7ad0c -1 x7ad0d = +0
-
 +1 x7ad0c -1 x7ad14 -1 x7ad16 = +0
-
 +1 x7ad16 -1 x7ad34 -1 x7ad35 = +0
-
 +1 x7ad08 -1 x7ad1c -1 x7ad1d = +0
-
 +1 x7ad1d -1 x7ad20 -1 x7ad21 = +0
-
 +1 x7ad20 -1 x7ad28 -1 x7ad2a = +0
-
 +1 x7ad2a -1 x7ad36 -1 x7ad37 = +0
-
 +1 x7ad1c -1 x7ad38 -1 x7ad39 = +0
-
 +1 x7ad32 +1 x7ad34 +1 x7ad36 +1 x7ad38 -1 x7ad44 = +0
-
 +1 x7ad33 +1 x7ad35 +1 x7ad37 +1 x7ad39 -1 x7ad3a = +0
-
 +1 x7ad3a -1 x7ad3b -1 x7ad3c = +0
-
 +1 x7ad3b +1 x7ad3c -1 x7ae13 -1 x7ae14 = +0
-
 +1 x7ad44 -1 x7ad45 -1 x7ad46 = +0
-
 +1 x7ad46 -1 x7ad48 -1 x7ad49 = +0
-
 +1 x7ad48 -1 x7ad51 -1 x7ad52 = +0
-
 +1 x7ad49 -1 x7ad53 -1 x7ad54 = +0
-
 +1 x7ad51 -1 x7ad61 -1 x7ad65 = +0
-
 +1 x7ad53 -1 x7ad62 -1 x7ad66 = +0
-
 +1 x7ad65 -1 x7ae15 -1 x7ae16 = +0
-
 +1 x7ad66 -1 x7ae17 -1 x7ae18 = +0
-
 +1 x7ad45 -1 x7ad70 -1 x7ad71 = +0
-
 +1 x7ad71 -1 x7ad77 -1 x7ad78 = +0
-
 +1 x7ad70 -1 x7ad79 -1 x7ad7a = +0
-
 +1 x7ad77 +1 x7ad79 -1 x7ad8c = +0
-
 +1 x7ad78 +1 x7ad7a -1 x7ad7b = +0
-
 +1 x7ad7b -1 x7ad7d -1 x7ad7e = +0
-
 +1 x7ad7d -1 x7ad85 -1 x7ad87 = +0
-
 +1 x7ad87 -1 x7ae19 -1 x7ae1a = +0
-
 +1 x7ad8c -1 x7ae1b -1 x7ae1c = +0
-
 +1 x7acf3 -1 x7ad91 -1 x7ad92 = +0
-
 +1 x7ad90 -1 x7ad93 -1 x7ad94 = +0
-
 +1 x7ad91 +1 x7ad93 -1 x7ad97 = +0
-
 +1 x7ad92 +1 x7ad94 -1 x7ad95 = +0
-
 +1 x7ad95 -1 x7adc2 -1 x7adc3 = +0
-
 +1 x7ad97 -1 x7ad98 -1 x7ad99 = +0
-
 +1 x7ad99 -1 x7ad9c -1 x7ad9d = +0
-
 +1 x7ad9c -1 x7ada4 -1 x7ada6 = +0
-
 +1 x7ada6 -1 x7adc4 -1 x7adc5 = +0
-
 +1 x7ad98 -1 x7adac -1 x7adad = +0
-
 +1 x7adad -1 x7adb0 -1 x7adb1 = +0
-
 +1 x7adb0 -1 x7adb8 -1 x7adba = +0
-
 +1 x7adba -1 x7adc6 -1 x7adc7 = +0
-
 +1 x7adac -1 x7adc8 -1 x7adc9 = +0
-
 +1 x7adc2 +1 x7adc4 +1 x7adc6 +1 x7adc8 -1 x7add5 = +0
-
 +1 x7adc3 +1 x7adc5 +1 x7adc7 +1 x7adc9 -1 x7adca = +0
-
 +1 x7adca -1 x7adcb -1 x7adcc = +0
-
 +1 x7adcb +1 x7adcc -1 x7add4 = +0
-
 +1 x7add4 -1 x7ae1d -1 x7ae1e = +0
-
 +1 x7add5 -1 x7add6 -1 x7add7 = +0
-
 +1 x7add7 -1 x7add9 -1 x7adda = +0
-
 +1 x7add9 +1 x7adda -1 x7ade2 -1 x7ade3 = +0
-
 +1 x7ade2 -1 x7adea -1 x7adec = +0
-
 +1 x7adec -1 x7ae1f -1 x7ae20 = +0
-
 +1 x7add6 -1 x7adf2 -1 x7adf3 = +0
-
 +1 x7adf3 -1 x7adf9 -1 x7adfa = +0
-
 +1 x7adf2 -1 x7adfb -1 x7adfc = +0
-
 +1 x7adf9 +1 x7adfb -1 x7ae0e = +0
-
 +1 x7adfa +1 x7adfc -1 x7adfd = +0
-
 +1 x7adfd -1 x7adff -1 x7ae00 = +0
-
 +1 x7adff -1 x7ae07 -1 x7ae09 = +0
-
 +1 x7ae09 -1 x7ae21 -1 x7ae22 = +0
-
 +1 x7ae0e -1 x7ae23 -1 x7ae24 = +0
-
 +1 x7ae11 +1 x7ae13 +1 x7ae15 +1 x7ae17 +1 x7ae19 +1 x7ae1b +1 x7ae1d +1 x7ae1f
 +1 x7ae21 +1 x7ae23 -1 x7ae27 = +0
-
 +1 x7ae12 +1 x7ae14 +1 x7ae16 +1 x7ae18 +1 x7ae1a +1 x7ae1c +1 x7ae1e +1 x7ae20
 +1 x7ae22 +1 x7ae24 -1 x7ae25 = +0
-
 +1 x7ae27 -1 x7ae28 -1 x7ae29 = +0
-
 +1 x7ae29 -1 x7ae2c -1 x7ae2d = +0
-
 +1 x7ae2c -1 x7ae34 -1 x7ae36 = +0
-
 +1 x7ae28 -1 x7ae3c -1 x7ae3d = +0
-
 +1 x7ae3d -1 x7ae40 -1 x7ae41 = +0
-
 +1 x7ae40 -1 x7ae48 -1 x7ae4a = +0
-
 +1 x7ae36 +1 x7ae3c +1 x7ae4a -1 x7ae57 = +0
-
 +1 x7ae62 +1 x7ae64 -1 x7ae74 = +0
-
 +1 x7ae74 -1 x7ae77 -1 x7ae78 = +0
-
 +1 x7ae77 -1 x7ae7f -1 x7ae81 = +0
-
 +1 x7ae81 -1 x7ae8a -1 x7ae8b = +0
-
 +1 x7ae8b +1 x7b4f4 -1 x7b71f +0 x7b720 = +0
-
 +1 x7ae8a -1 x7ae8e -1 x7ae8f = +0
-
 +1 x7ae8f -1 x7aea9 -1 x7aeaa = +0
-
 +1 x7ae8e -1 x7ae96 -1 x7ae97 = +0
-
 +1 x7ae97 -1 x7aea6 -1 x7aea7 = +0
-
 +1 x7aea7 -1 x7aeab -1 x7aeac = +0
-
 +1 x7aea9 +1 x7aeab -1 x7b4e5 = +0
-
 +1 x7aeaa +1 x7aeac -1 x7aead = +0
-
 +1 x7aead -1 x7aeb2 -1 x7aeb3 = +0
-
 +1 x7aeb2 +1 x7aeb3 -1 x7aecb = +0
-
 +1 x7aecb -1 x7aece -1 x7aecf = +0
-
 +1 x7aece -1 x7aedd -1 x7aede = +0
-
 +1 x7aedd -1 x7aee4 +1 x7b555 = +0
-
 +1 x7aee4 -1 x7aeed -1 x7aeee = +0
-
 +1 x7aeee +1 x7aefe -1 x7af06 +0 x7af07 = +0
-
 +1 x7aeed -1 x7aef4 +1 x7aefd = +0
-
 +1 x7aef4 -1 x7aefd -1 x7aefe = +0
-
 +1 x7aede -1 x7af0f -1 x7af10 = +0
-
 +1 x7af06 -1 x7af11 -1 x7af12 = +0
-
 +1 x7af0f +1 x7af11 -1 x7af1d = +0
-
 +1 x7af10 +1 x7af12 -1 x7af13 = +0
-
 +1 x7af13 -1 x7af14 -1 x7af15 = +0
-
 +1 x7af14 +1 x7af15 -1 x7af59 -1 x7af5a = +0
-
 +1 x7af1d -1 x7af1e -1 x7af1f = +0
-
 +1 x7af1f -1 x7af21 -1 x7af22 = +0
-
 +1 x7af21 +1 x7af22 -1 x7af2a -1 x7af2b = +0
-
 +1 x7af2a -1 x7af32 -1 x7af34 = +0
-
 +1 x7af34 -1 x7af5b -1 x7af5c = +0
-
 +1 x7af1e -1 x7af3a -1 x7af3b = +0
-
 +1 x7af3b -1 x7af41 -1 x7af42 = +0
-
 +1 x7af3a -1 x7af43 -1 x7af44 = +0
-
 +1 x7af41 +1 x7af43 -1 x7af56 = +0
-
 +1 x7af42 +1 x7af44 -1 x7af45 = +0
-
 +1 x7af45 -1 x7af47 -1 x7af48 = +0
-
 +1 x7af47 -1 x7af4f -1 x7af51 = +0
-
 +1 x7af51 -1 x7af5d -1 x7af5e = +0
-
 +1 x7af56 -1 x7af5f -1 x7af60 = +0
-
 +1 x7af5b +1 x7af5d +1 x7af5f -1 x7aff6 = +0
-
 +1 x7af5c +1 x7af5e +1 x7af60 -1 x7af62 = +0
-
 +1 x7af5a -1 x7af63 -1 x7af64 = +0
-
 +1 x7af62 -1 x7af65 -1 x7af66 = +0
-
 +1 x7af63 +1 x7af65 -1 x7af68 = +0
-
 +1 x7af64 +1 x7af66 -1 x7af67 = +0
-
 +1 x7af67 -1 x7b077 -1 x7b078 = +0
-
 +1 x7af68 -1 x7af69 -1 x7af6a = +0
-
 +1 x7af6a -1 x7af98 -1 x7af99 = +0
-
 +1 x7af69 -1 x7af6e -1 x7af6f = +0
-
 +1 x7af6f -1 x7af72 -1 x7af73 = +0
-
 +1 x7af72 -1 x7af7a -1 x7af7c = +0
-
 +1 x7af7c -1 x7af9a -1 x7af9b = +0
-
 +1 x7af6e -1 x7af82 -1 x7af83 = +0
-
 +1 x7af83 -1 x7af86 -1 x7af87 = +0
-
 +1 x7af86 -1 x7af8e -1 x7af90 = +0
-
 +1 x7af90 -1 x7af9c -1 x7af9d = +0
-
 +1 x7af82 -1 x7af9e -1 x7af9f = +0
-
 +1 x7af98 +1 x7af9a +1 x7af9c +1 x7af9e -1 x7afaa = +0
-
 +1 x7af99 +1 x7af9b +1 x7af9d +1 x7af9f -1 x7afa0 = +0
-
 +1 x7afa0 -1 x7afa1 -1 x7afa2 = +0
-
 +1 x7afa1 +1 x7afa2 -1 x7b079 -1 x7b07a = +0
-
 +1 x7afaa -1 x7afab -1 x7afac = +0
-
 +1 x7afac -1 x7afae -1 x7afaf = +0
-
 +1 x7afae -1 x7afb7 -1 x7afb8 = +0
-
 +1 x7afaf -1 x7afb9 -1 x7afba = +0
-
 +1 x7afb7 -1 x7afc7 -1 x7afcb = +0
-
 +1 x7afb9 -1 x7afc8 -1 x7afcc = +0
-
 +1 x7afcb -1 x7b07b -1 x7b07c = +0
-
 +1 x7afcc -1 x7b07d -1 x7b07e = +0
-
 +1 x7afab -1 x7afd6 -1 x7afd7 = +0
-
 +1 x7afd7 -1 x7afdd -1 x7afde = +0
-
 +1 x7afd6 -1 x7afdf -1 x7afe0 = +0
-
 +1 x7afdd +1 x7afdf -1 x7aff2 = +0
-
 +1 x7afde +1 x7afe0 -1 x7afe1 = +0
-
 +1 x7afe1 -1 x7afe3 -1 x7afe4 = +0
-
 +1 x7afe3 -1 x7afeb -1 x7afed = +0
-
 +1 x7afed -1 x7b07f -1 x7b080 = +0
-
 +1 x7aff2 -1 x7b081 -1 x7b082 = +0
-
 +1 x7af59 -1 x7aff7 -1 x7aff8 = +0
-
 +1 x7aff6 -1 x7aff9 -1 x7affa = +0
-
 +1 x7aff7 +1 x7aff9 -1 x7affd = +0
-
 +1 x7aff8 +1 x7affa -1 x7affb = +0
-
 +1 x7affb -1 x7b028 -1 x7b029 = +0
-
 +1 x7affd -1 x7affe -1 x7afff = +0
-
 +1 x7afff -1 x7b002 -1 x7b003 = +0
-
 +1 x7b002 -1 x7b00a -1 x7b00c = +0
-
 +1 x7b00c -1 x7b02a -1 x7b02b = +0
-
 +1 x7affe -1 x7b012 -1 x7b013 = +0
-
 +1 x7b013 -1 x7b016 -1 x7b017 = +0
-
 +1 x7b016 -1 x7b01e -1 x7b020 = +0
-
 +1 x7b020 -1 x7b02c -1 x7b02d = +0
-
 +1 x7b012 -1 x7b02e -1 x7b02f = +0
-
 +1 x7b028 +1 x7b02a +1 x7b02c +1 x7b02e -1 x7b03b = +0
-
 +1 x7b029 +1 x7b02b +1 x7b02d +1 x7b02f -1 x7b030 = +0
-
 +1 x7b030 -1 x7b031 -1 x7b032 = +0
-
 +1 x7b031 +1 x7b032 -1 x7b03a = +0
-
 +1 x7b03a -1 x7b083 -1 x7b084 = +0
-
 +1 x7b03b -1 x7b03c -1 x7b03d = +0
-
 +1 x7b03d -1 x7b03f -1 x7b040 = +0
-
 +1 x7b03f +1 x7b040 -1 x7b048 -1 x7b049 = +0
-
 +1 x7b048 -1 x7b050 -1 x7b052 = +0
-
 +1 x7b052 -1 x7b085 -1 x7b086 = +0
-
 +1 x7b03c -1 x7b058 -1 x7b059 = +0
-
 +1 x7b059 -1 x7b05f -1 x7b060 = +0
-
 +1 x7b058 -1 x7b061 -1 x7b062 = +0
-
 +1 x7b05f +1 x7b061 -1 x7b074 = +0
-
 +1 x7b060 +1 x7b062 -1 x7b063 = +0
-
 +1 x7b063 -1 x7b065 -1 x7b066 = +0
-
 +1 x7b065 -1 x7b06d -1 x7b06f = +0
-
 +1 x7b06f -1 x7b087 -1 x7b088 = +0
-
 +1 x7b074 -1 x7b089 -1 x7b08a = +0
-
 +1 x7b077 +1 x7b079 +1 x7b07b +1 x7b07d +1 x7b07f +1 x7b081 +1 x7b083 +1 x7b085
 +1 x7b087 +1 x7b089 -1 x7b08d = +0
-
 +1 x7b078 +1 x7b07a +1 x7b07c +1 x7b07e +1 x7b080 +1 x7b082 +1 x7b084 +1 x7b086
 +1 x7b088 +1 x7b08a -1 x7b08b = +0
-
 +1 x7b08d -1 x7b08e -1 x7b08f = +0
-
 +1 x7b08f -1 x7b092 -1 x7b093 = +0
-
 +1 x7b092 -1 x7b09a -1 x7b09c = +0
-
 +1 x7b08e -1 x7b0a2 -1 x7b0a3 = +0
-
 +1 x7b0a3 -1 x7b0a6 -1 x7b0a7 = +0
-
 +1 x7b0a6 -1 x7b0ae -1 x7b0b0 = +0
-
 +1 x7b09c +1 x7b0a2 +1 x7b0b0 -1 x7b0bd = +0
-
 +1 x7b08b -1 x7b0c5 +1 x7b6d9 = +0
-
 +1 x7b0bd -1 x7b0c6 +1 x7b70b = +0
-
 +1 x7aecf -1 x7b0c7 +1 x7b547 = +0
-
 +1 x7b0c5 -1 x7b0c8 -1 x7b0c9 = +0
-
 +1 x7b0c6 -1 x7b0ca -1 x7b0cb = +0
-
 +1 x7b0c7 -1 x7b0cc -1 x7b0cd = +0
-
 +1 x7b0c8 +1 x7b0ca -1 x7b0d0 = +0
-
 +1 x7b0c9 +1 x7b0cb -1 x7b0ce = +0
-
 +1 x7b0ce +1 x7b2df -1 x7b4c2 +0 x7b4c3 = +0
-
 +1 x7b0cc +1 x7b0d0 -1 x7b0dc = +0
-
 +1 x7b0dc -1 x7b0df -1 x7b0e0 = +0
-
 +1 x7b0df -1 x7b0ee -1 x7b0ef = +0
-
 +1 x7b0ee -1 x7b0f5 +1 x7b301 = +0
-
 +1 x7b0f5 -1 x7b0fe -1 x7b0ff = +0
-
 +1 x7b0ff +1 x7b10f -1 x7b117 +0 x7b118 = +0
-
 +1 x7b0fe -1 x7b105 +1 x7b10e = +0
-
 +1 x7b105 -1 x7b10e -1 x7b10f = +0
-
 +1 x7b0ef -1 x7b120 -1 x7b121 = +0
-
 +1 x7b117 -1 x7b122 -1 x7b123 = +0
-
 +1 x7b120 +1 x7b122 -1 x7b12e = +0
-
 +1 x7b121 +1 x7b123 -1 x7b124 = +0
-
 +1 x7b124 -1 x7b125 -1 x7b126 = +0
-
 +1 x7b125 +1 x7b126 -1 x7b16a -1 x7b16b = +0
-
 +1 x7b12e -1 x7b12f -1 x7b130 = +0
-
 +1 x7b130 -1 x7b132 -1 x7b133 = +0
-
 +1 x7b132 +1 x7b133 -1 x7b13b -1 x7b13c = +0
-
 +1 x7b13b -1 x7b143 -1 x7b145 = +0
-
 +1 x7b145 -1 x7b16c -1 x7b16d = +0
-
 +1 x7b12f -1 x7b14b -1 x7b14c = +0
-
 +1 x7b14c -1 x7b152 -1 x7b153 = +0
-
 +1 x7b14b -1 x7b154 -1 x7b155 = +0
-
 +1 x7b152 +1 x7b154 -1 x7b167 = +0
-
 +1 x7b153 +1 x7b155 -1 x7b156 = +0
-
 +1 x7b156 -1 x7b158 -1 x7b159 = +0
-
 +1 x7b158 -1 x7b160 -1 x7b162 = +0
-
 +1 x7b162 -1 x7b16e -1 x7b16f = +0
-
 +1 x7b167 -1 x7b170 -1 x7b171 = +0
-
 +1 x7b16c +1 x7b16e +1 x7b170 -1 x7b207 = +0
-
 +1 x7b16d +1 x7b16f +1 x7b171 -1 x7b173 = +0
-
 +1 x7b16b -1 x7b174 -1 x7b175 = +0
-
 +1 x7b173 -1 x7b176 -1 x7b177 = +0
-
 +1 x7b174 +1 x7b176 -1 x7b179 = +0
-
 +1 x7b175 +1 x7b177 -1 x7b178 = +0
-
 +1 x7b178 -1 x7b288 -1 x7b289 = +0
-
 +1 x7b179 -1 x7b17a -1 x7b17b = +0
-
 +1 x7b17b -1 x7b1a9 -1 x7b1aa = +0
-
 +1 x7b17a -1 x7b17f -1 x7b180 = +0
-
 +1 x7b180 -1 x7b183 -1 x7b184 = +0
-
 +1 x7b183 -1 x7b18b -1 x7b18d = +0
-
 +1 x7b18d -1 x7b1ab -1 x7b1ac = +0
-
 +1 x7b17f -1 x7b193 -1 x7b194 = +0
-
 +1 x7b194 -1 x7b197 -1 x7b198 = +0
-
 +1 x7b197 -1 x7b19f -1 x7b1a1 = +0
-
 +1 x7b1a1 -1 x7b1ad -1 x7b1ae = +0
-
 +1 x7b193 -1 x7b1af -1 x7b1b0 = +0
-
 +1 x7b1a9 +1 x7b1ab +1 x7b1ad +1 x7b1af -1 x7b1bb = +0
-
 +1 x7b1aa +1 x7b1ac +1 x7b1ae +1 x7b1b0 -1 x7b1b1 = +0
-
 +1 x7b1b1 -1 x7b1b2 -1 x7b1b3 = +0
-
 +1 x7b1b2 +1 x7b1b3 -1 x7b28a -1 x7b28b = +0
-
 +1 x7b1bb -1 x7b1bc -1 x7b1bd = +0
-
 +1 x7b1bd -1 x7b1bf -1 x7b1c0 = +0
-
 +1 x7b1bf -1 x7b1c8 -1 x7b1c9 = +0
-
 +1 x7b1c0 -1 x7b1ca -1 x7b1cb = +0
-
 +1 x7b1c8 -1 x7b1d8 -1 x7b1dc = +0
-
 +1 x7b1ca -1 x7b1d9 -1 x7b1dd = +0
-
 +1 x7b1dc -1 x7b28c -1 x7b28d = +0
-
 +1 x7b1dd -1 x7b28e -1 x7b28f = +0
-
 +1 x7b1bc -1 x7b1e7 -1 x7b1e8 = +0
-
 +1 x7b1e8 -1 x7b1ee -1 x7b1ef = +0
-
 +1 x7b1e7 -1 x7b1f0 -1 x7b1f1 = +0
-
 +1 x7b1ee +1 x7b1f0 -1 x7b203 = +0
-
 +1 x7b1ef +1 x7b1f1 -1 x7b1f2 = +0
-
 +1 x7b1f2 -1 x7b1f4 -1 x7b1f5 = +0
-
 +1 x7b1f4 -1 x7b1fc -1 x7b1fe = +0
-
 +1 x7b1fe -1 x7b290 -1 x7b291 = +0
-
 +1 x7b203 -1 x7b292 -1 x7b293 = +0
-
 +1 x7b16a -1 x7b208 -1 x7b209 = +0
-
 +1 x7b207 -1 x7b20a -1 x7b20b = +0
-
 +1 x7b208 +1 x7b20a -1 x7b20e = +0
-
 +1 x7b209 +1 x7b20b -1 x7b20c = +0
-
 +1 x7b20c -1 x7b239 -1 x7b23a = +0
-
 +1 x7b20e -1 x7b20f -1 x7b210 = +0
-
 +1 x7b210 -1 x7b213 -1 x7b214 = +0
-
 +1 x7b213 -1 x7b21b -1 x7b21d = +0
-
 +1 x7b21d -1 x7b23b -1 x7b23c = +0
-
 +1 x7b20f -1 x7b223 -1 x7b224 = +0
-
 +1 x7b224 -1 x7b227 -1 x7b228 = +0
-
 +1 x7b227 -1 x7b22f -1 x7b231 = +0
-
 +1 x7b231 -1 x7b23d -1 x7b23e = +0
-
 +1 x7b223 -1 x7b23f -1 x7b240 = +0
-
 +1 x7b239 +1 x7b23b +1 x7b23d +1 x7b23f -1 x7b24c = +0
-
 +1 x7b23a +1 x7b23c +1 x7b23e +1 x7b240 -1 x7b241 = +0
-
 +1 x7b241 -1 x7b242 -1 x7b243 = +0
-
 +1 x7b242 +1 x7b243 -1 x7b24b = +0
-
 +1 x7b24b -1 x7b294 -1 x7b295 = +0
-
 +1 x7b24c -1 x7b24d -1 x7b24e = +0
-
 +1 x7b24e -1 x7b250 -1 x7b251 = +0
-
 +1 x7b250 +1 x7b251 -1 x7b259 -1 x7b25a = +0
-
 +1 x7b259 -1 x7b261 -1 x7b263 = +0
-
 +1 x7b263 -1 x7b296 -1 x7b297 = +0
-
 +1 x7b24d -1 x7b269 -1 x7b26a = +0
-
 +1 x7b26a -1 x7b270 -1 x7b271 = +0
-
 +1 x7b269 -1 x7b272 -1 x7b273 = +0
-
 +1 x7b270 +1 x7b272 -1 x7b285 = +0
-
 +1 x7b271 +1 x7b273 -1 x7b274 = +0
-
 +1 x7b274 -1 x7b276 -1 x7b277 = +0
-
 +1 x7b276 -1 x7b27e -1 x7b280 = +0
-
 +1 x7b280 -1 x7b298 -1 x7b299 = +0
-
 +1 x7b285 -1 x7b29a -1 x7b29b = +0
-
 +1 x7b288 +1 x7b28a +1 x7b28c +1 x7b28e +1 x7b290 +1 x7b292 +1 x7b294 +1 x7b296
 +1 x7b298 +1 x7b29a -1 x7b29e = +0
-
 +1 x7b289 +1 x7b28b +1 x7b28d +1 x7b28f +1 x7b291 +1 x7b293 +1 x7b295 +1 x7b297
 +1 x7b299 +1 x7b29b -1 x7b29c = +0
-
 +1 x7b29e -1 x7b29f -1 x7b2a0 = +0
-
 +1 x7b2a0 -1 x7b2a3 -1 x7b2a4 = +0
-
 +1 x7b2a3 -1 x7b2ab -1 x7b2ad = +0
-
 +1 x7b29f -1 x7b2b3 -1 x7b2b4 = +0
-
 +1 x7b2b4 -1 x7b2b7 -1 x7b2b8 = +0
-
 +1 x7b2b7 -1 x7b2bf -1 x7b2c1 = +0
-
 +1 x7b2ad +1 x7b2b3 +1 x7b2c1 -1 x7b2ce = +0
-
 +1 x7b29c -1 x7b2d6 +1 x7b485 = +0
-
 +1 x7b2ce -1 x7b2d7 +1 x7b4b7 = +0
-
 +1 x7b0e0 -1 x7b2d8 +1 x7b2f3 = +0
-
 +1 x7b2d6 -1 x7b2d9 -1 x7b2da = +0
-
 +1 x7b2d7 -1 x7b2db -1 x7b2dc = +0
-
 +1 x7b2d8 -1 x7b2dd -1 x7b2de = +0
-
 +1 x7b2d9 +1 x7b2db -1 x7b2e3 = +0
-
 +1 x7b2da +1 x7b2dc -1 x7b2df = +0
-
 +1 x7b0cd +1 x7b2de -1 x7b4c4 +0 x7b4c5 = +0
-
 +1 x7b2dd +1 x7b2e3 -1 x7b2ef = +0
-
 +1 x7b2ef -1 x7b2f2 -1 x7b2f3 = +0
-
 +1 x7b2f2 -1 x7b301 -1 x7b302 = +0
-
 +1 x7b302 -1 x7b30b -1 x7b30c = +0
-
 +1 x7b30c -1 x7b30e -1 x7b30f = +0
-
 +1 x7b30e +1 x7b30f -1 x7b353 -1 x7b354 = +0
-
 +1 x7b30b -1 x7b318 -1 x7b319 = +0
-
 +1 x7b319 -1 x7b31b -1 x7b31c = +0
-
 +1 x7b31b +1 x7b31c -1 x7b324 -1 x7b325 = +0
-
 +1 x7b324 -1 x7b32c -1 x7b32e = +0
-
 +1 x7b32e -1 x7b355 -1 x7b356 = +0
-
 +1 x7b318 -1 x7b334 -1 x7b335 = +0
-
 +1 x7b335 -1 x7b33b -1 x7b33c = +0
-
 +1 x7b334 -1 x7b33d -1 x7b33e = +0
-
 +1 x7b33b +1 x7b33d -1 x7b350 = +0
-
 +1 x7b33c +1 x7b33e -1 x7b33f = +0
-
 +1 x7b33f -1 x7b341 -1 x7b342 = +0
-
 +1 x7b341 -1 x7b349 -1 x7b34b = +0
-
 +1 x7b34b -1 x7b357 -1 x7b358 = +0
-
 +1 x7b350 -1 x7b359 -1 x7b35a = +0
-
 +1 x7b355 +1 x7b357 +1 x7b359 -1 x7b3f0 = +0
-
 +1 x7b356 +1 x7b358 +1 x7b35a -1 x7b35c = +0
-
 +1 x7b354 -1 x7b35d -1 x7b35e = +0
-
 +1 x7b35c -1 x7b35f -1 x7b360 = +0
-
 +1 x7b35d +1 x7b35f -1 x7b362 = +0
-
 +1 x7b35e +1 x7b360 -1 x7b361 = +0
-
 +1 x7b361 -1 x7b471 -1 x7b472 = +0
-
 +1 x7b362 -1 x7b363 -1 x7b364 = +0
-
 +1 x7b364 -1 x7b392 -1 x7b393 = +0
-
 +1 x7b363 -1 x7b368 -1 x7b369 = +0
-
 +1 x7b369 -1 x7b36c -1 x7b36d = +0
-
 +1 x7b36c -1 x7b374 -1 x7b376 = +0
-
 +1 x7b376 -1 x7b394 -1 x7b395 = +0
-
 +1 x7b368 -1 x7b37c -1 x7b37d = +0
-
 +1 x7b37d -1 x7b380 -1 x7b381 = +0
-
 +1 x7b380 -1 x7b388 -1 x7b38a = +0
-
 +1 x7b38a -1 x7b396 -1 x7b397 = +0
-
 +1 x7b37c -1 x7b398 -1 x7b399 = +0
-
 +1 x7b392 +1 x7b394 +1 x7b396 +1 x7b398 -1 x7b3a4 = +0
-
 +1 x7b393 +1 x7b395 +1 x7b397 +1 x7b399 -1 x7b39a = +0
-
 +1 x7b39a -1 x7b39b -1 x7b39c = +0
-
 +1 x7b39b +1 x7b39c -1 x7b473 -1 x7b474 = +0
-
 +1 x7b3a4 -1 x7b3a5 -1 x7b3a6 = +0
-
 +1 x7b3a6 -1 x7b3a8 -1 x7b3a9 = +0
-
 +1 x7b3a8 -1 x7b3b1 -1 x7b3b2 = +0
-
 +1 x7b3a9 -1 x7b3b3 -1 x7b3b4 = +0
-
 +1 x7b3b1 -1 x7b3c1 -1 x7b3c5 = +0
-
 +1 x7b3b3 -1 x7b3c2 -1 x7b3c6 = +0
-
 +1 x7b3c5 -1 x7b475 -1 x7b476 = +0
-
 +1 x7b3c6 -1 x7b477 -1 x7b478 = +0
-
 +1 x7b3a5 -1 x7b3d0 -1 x7b3d1 = +0
-
 +1 x7b3d1 -1 x7b3d7 -1 x7b3d8 = +0
-
 +1 x7b3d0 -1 x7b3d9 -1 x7b3da = +0
-
 +1 x7b3d7 +1 x7b3d9 -1 x7b3ec = +0
-
 +1 x7b3d8 +1 x7b3da -1 x7b3db = +0
-
 +1 x7b3db -1 x7b3dd -1 x7b3de = +0
-
 +1 x7b3dd -1 x7b3e5 -1 x7b3e7 = +0
-
 +1 x7b3e7 -1 x7b479 -1 x7b47a = +0
-
 +1 x7b3ec -1 x7b47b -1 x7b47c = +0
-
 +1 x7b353 -1 x7b3f1 -1 x7b3f2 = +0
-
 +1 x7b3f0 -1 x7b3f3 -1 x7b3f4 = +0
-
 +1 x7b3f1 +1 x7b3f3 -1 x7b3f7 = +0
-
 +1 x7b3f2 +1 x7b3f4 -1 x7b3f5 = +0
-
 +1 x7b3f5 -1 x7b422 -1 x7b423 = +0
-
 +1 x7b3f7 -1 x7b3f8 -1 x7b3f9 = +0
-
 +1 x7b3f9 -1 x7b3fc -1 x7b3fd = +0
-
 +1 x7b3fc -1 x7b404 -1 x7b406 = +0
-
 +1 x7b406 -1 x7b424 -1 x7b425 = +0
-
 +1 x7b3f8 -1 x7b40c -1 x7b40d = +0
-
 +1 x7b40d -1 x7b410 -1 x7b411 = +0
-
 +1 x7b410 -1 x7b418 -1 x7b41a = +0
-
 +1 x7b41a -1 x7b426 -1 x7b427 = +0
-
 +1 x7b40c -1 x7b428 -1 x7b429 = +0
-
 +1 x7b422 +1 x7b424 +1 x7b426 +1 x7b428 -1 x7b435 = +0
-
 +1 x7b423 +1 x7b425 +1 x7b427 +1 x7b429 -1 x7b42a = +0
-
 +1 x7b42a -1 x7b42b -1 x7b42c = +0
-
 +1 x7b42b +1 x7b42c -1 x7b434 = +0
-
 +1 x7b434 -1 x7b47d -1 x7b47e = +0
-
 +1 x7b435 -1 x7b436 -1 x7b437 = +0
-
 +1 x7b437 -1 x7b439 -1 x7b43a = +0
-
 +1 x7b439 +1 x7b43a -1 x7b442 -1 x7b443 = +0
-
 +1 x7b442 -1 x7b44a -1 x7b44c = +0
-
 +1 x7b44c -1 x7b47f -1 x7b480 = +0
-
 +1 x7b436 -1 x7b452 -1 x7b453 = +0
-
 +1 x7b453 -1 x7b459 -1 x7b45a = +0
-
 +1 x7b452 -1 x7b45b -1 x7b45c = +0
-
 +1 x7b459 +1 x7b45b -1 x7b46e = +0
-
 +1 x7b45a +1 x7b45c -1 x7b45d = +0
-
 +1 x7b45d -1 x7b45f -1 x7b460 = +0
-
 +1 x7b45f -1 x7b467 -1 x7b469 = +0
-
 +1 x7b469 -1 x7b481 -1 x7b482 = +0
-
 +1 x7b46e -1 x7b483 -1 x7b484 = +0
-
 +1 x7b471 +1 x7b473 +1 x7b475 +1 x7b477 +1 x7b479 +1 x7b47b +1 x7b47d +1 x7b47f
 +1 x7b481 +1 x7b483 -1 x7b487 = +0
-
 +1 x7b472 +1 x7b474 +1 x7b476 +1 x7b478 +1 x7b47a +1 x7b47c +1 x7b47e +1 x7b480
 +1 x7b482 +1 x7b484 -1 x7b485 = +0
-
 +1 x7b487 -1 x7b488 -1 x7b489 = +0
-
 +1 x7b489 -1 x7b48c -1 x7b48d = +0
-
 +1 x7b48c -1 x7b494 -1 x7b496 = +0
-
 +1 x7b488 -1 x7b49c -1 x7b49d = +0
-
 +1 x7b49d -1 x7b4a0 -1 x7b4a1 = +0
-
 +1 x7b4a0 -1 x7b4a8 -1 x7b4aa = +0
-
 +1 x7b496 +1 x7b49c +1 x7b4aa -1 x7b4b7 = +0
-
 +1 x7b4c2 +1 x7b4c4 -1 x7b4d4 = +0
-
 +1 x7b4d4 -1 x7b4d7 -1 x7b4d8 = +0
-
 +1 x7b4d7 -1 x7b4df -1 x7b4e1 = +0
-
 +1 x7b4e5 +1 x7b716 -1 x7b721 +0 x7b722 = +0
-
 +1 x7aea6 -1 x7b4ef +1 x7b51c = +0
-
 +1 x7b4ef -1 x7b4f1 -1 x7b4f2 = +0
-
 +1 x7b4e1 -1 x7b4f3 -1 x7b4f4 = +0
-
 +1 x7b4f2 -1 x7b723 +0 x7b724 = +0
-
 +1 x7b4f1 -1 x7b4fa -1 x7b4fb = +0
-
 +1 x7b4f3 -1 x7b4fc -1 x7b4fd = +0
-
 +1 x7b4fd -1 x7b51f -1 x7b520 = +0
-
 +1 x7b4fb -1 x7b521 -1 x7b522 = +0
-
 +1 x7b4fc -1 x7b50a -1 x7b50b = +0
-
 +1 x7b4fa -1 x7b50c -1 x7b50d = +0
-
 +1 x7b50a +1 x7b50c -1 x7b514 = +0
-
 +1 x7b50b +1 x7b50d -1 x7b50e = +0
-
 +1 x7b50e -1 x7b51c -1 x7b51d = +0
-
 +1 x7b51d -1 x7b523 -1 x7b524 = +0
-
 +1 x7b51f +1 x7b521 +1 x7b523 -1 x7b716 = +0
-
 +1 x7b520 +1 x7b522 +1 x7b524 -1 x7b525 = +0
-
 +1 x7b525 -1 x7b52a -1 x7b52b = +0
-
 +1 x7b52a +1 x7b52b -1 x7b543 = +0
-
 +1 x7b543 -1 x7b546 -1 x7b547 = +0
-
 +1 x7b546 -1 x7b555 -1 x7b556 = +0
-
 +1 x7b556 -1 x7b55f -1 x7b560 = +0
-
 +1 x7b560 -1 x7b562 -1 x7b563 = +0
-
 +1 x7b562 +1 x7b563 -1 x7b5a7 -1 x7b5a8 = +0
-
 +1 x7b55f -1 x7b56c -1 x7b56d = +0
-
 +1 x7b56d -1 x7b56f -1 x7b570 = +0
-
 +1 x7b56f +1 x7b570 -1 x7b578 -1 x7b579 = +0
-
 +1 x7b578 -1 x7b580 -1 x7b582 = +0
-
 +1 x7b582 -1 x7b5a9 -1 x7b5aa = +0
-
 +1 x7b56c -1 x7b588 -1 x7b589 = +0
-
 +1 x7b589 -1 x7b58f -1 x7b590 = +0
-
 +1 x7b588 -1 x7b591 -1 x7b592 = +0
-
 +1 x7b58f +1 x7b591 -1 x7b5a4 = +0
-
 +1 x7b590 +1 x7b592 -1 x7b593 = +0
-
 +1 x7b593 -1 x7b595 -1 x7b596 = +0
-
 +1 x7b595 -1 x7b59d -1 x7b59f = +0
-
 +1 x7b59f -1 x7b5ab -1 x7b5ac = +0
-
 +1 x7b5a4 -1 x7b5ad -1 x7b5ae = +0
-
 +1 x7b5a9 +1 x7b5ab +1 x7b5ad -1 x7b644 = +0
-
 +1 x7b5aa +1 x7b5ac +1 x7b5ae -1 x7b5b0 = +0
-
 +1 x7b5a8 -1 x7b5b1 -1 x7b5b2 = +0
-
 +1 x7b5b0 -1 x7b5b3 -1 x7b5b4 = +0
-
 +1 x7b5b1 +1 x7b5b3 -1 x7b5b6 = +0
-
 +1 x7b5b2 +1 x7b5b4 -1 x7b5b5 = +0
-
 +1 x7b5b5 -1 x7b6c5 -1 x7b6c6 = +0
-
 +1 x7b5b6 -1 x7b5b7 -1 x7b5b8 = +0
-
 +1 x7b5b8 -1 x7b5e6 -1 x7b5e7 = +0
-
 +1 x7b5b7 -1 x7b5bc -1 x7b5bd = +0
-
 +1 x7b5bd -1 x7b5c0 -1 x7b5c1 = +0
-
 +1 x7b5c0 -1 x7b5c8 -1 x7b5ca = +0
-
 +1 x7b5ca -1 x7b5e8 -1 x7b5e9 = +0
-
 +1 x7b5bc -1 x7b5d0 -1 x7b5d1 = +0
-
 +1 x7b5d1 -1 x7b5d4 -1 x7b5d5 = +0
-
 +1 x7b5d4 -1 x7b5dc -1 x7b5de = +0
-
 +1 x7b5de -1 x7b5ea -1 x7b5eb = +0
-
 +1 x7b5d0 -1 x7b5ec -1 x7b5ed = +0
-
 +1 x7b5e6 +1 x7b5e8 +1 x7b5ea +1 x7b5ec -1 x7b5f8 = +0
-
 +1 x7b5e7 +1 x7b5e9 +1 x7b5eb +1 x7b5ed -1 x7b5ee = +0
-
 +1 x7b5ee -1 x7b5ef -1 x7b5f0 = +0
-
 +1 x7b5ef +1 x7b5f0 -1 x7b6c7 -1 x7b6c8 = +0
-
 +1 x7b5f8 -1 x7b5f9 -1 x7b5fa = +0
-
 +1 x7b5fa -1 x7b5fc -1 x7b5fd = +0
-
 +1 x7b5fc -1 x7b605 -1 x7b606 = +0
-
 +1 x7b5fd -1 x7b607 -1 x7b608 = +0
-
 +1 x7b605 -1 x7b615 -1 x7b619 = +0
-
 +1 x7b607 -1 x7b616 -1 x7b61a = +0
-
 +1 x7b619 -1 x7b6c9 -1 x7b6ca = +0
-
 +1 x7b61a -1 x7b6cb -1 x7b6cc = +0
-
 +1 x7b5f9 -1 x7b624 -1 x7b625 = +0
-
 +1 x7b625 -1 x7b62b -1 x7b62c = +0
-
 +1 x7b624 -1 x7b62d -1 x7b62e = +0
-
 +1 x7b62b +1 x7b62d -1 x7b640 = +0
-
 +1 x7b62c +1 x7b62e -1 x7b62f = +0
-
 +1 x7b62f -1 x7b631 -1 x7b632 = +0
-
 +1 x7b631 -1 x7b639 -1 x7b63b = +0
-
 +1 x7b63b -1 x7b6cd -1 x7b6ce = +0
-
 +1 x7b640 -1 x7b6cf -1 x7b6d0 = +0
-
 +1 x7b5a7 -1 x7b645 -1 x7b646 = +0
-
 +1 x7b644 -1 x7b647 -1 x7b648 = +0
-
 +1 x7b645 +1 x7b647 -1 x7b64b = +0
-
 +1 x7b646 +1 x7b648 -1 x7b649 = +0
-
 +1 x7b649 -1 x7b676 -1 x7b677 = +0
-
 +1 x7b64b -1 x7b64c -1 x7b64d = +0
-
 +1 x7b64d -1 x7b650 -1 x7b651 = +0
-
 +1 x7b650 -1 x7b658 -1 x7b65a = +0
-
 +1 x7b65a -1 x7b678 -1 x7b679 = +0
-
 +1 x7b64c -1 x7b660 -1 x7b661 = +0
-
 +1 x7b661 -1 x7b664 -1 x7b665 = +0
-
 +1 x7b664 -1 x7b66c -1 x7b66e = +0
-
 +1 x7b66e -1 x7b67a -1 x7b67b = +0
-
 +1 x7b660 -1 x7b67c -1 x7b67d = +0
-
 +1 x7b676 +1 x7b678 +1 x7b67a +1 x7b67c -1 x7b689 = +0
-
 +1 x7b677 +1 x7b679 +1 x7b67b +1 x7b67d -1 x7b67e = +0
-
 +1 x7b67e -1 x7b67f -1 x7b680 = +0
-
 +1 x7b67f +1 x7b680 -1 x7b688 = +0
-
 +1 x7b688 -1 x7b6d1 -1 x7b6d2 = +0
-
 +1 x7b689 -1 x7b68a -1 x7b68b = +0
-
 +1 x7b68b -1 x7b68d -1 x7b68e = +0
-
 +1 x7b68d +1 x7b68e -1 x7b696 -1 x7b697 = +0
-
 +1 x7b696 -1 x7b69e -1 x7b6a0 = +0
-
 +1 x7b6a0 -1 x7b6d3 -1 x7b6d4 = +0
-
 +1 x7b68a -1 x7b6a6 -1 x7b6a7 = +0
-
 +1 x7b6a7 -1 x7b6ad -1 x7b6ae = +0
-
 +1 x7b6a6 -1 x7b6af -1 x7b6b0 = +0
-
 +1 x7b6ad +1 x7b6af -1 x7b6c2 = +0
-
 +1 x7b6ae +1 x7b6b0 -1 x7b6b1 = +0
-
 +1 x7b6b1 -1 x7b6b3 -1 x7b6b4 = +0
-
 +1 x7b6b3 -1 x7b6bb -1 x7b6bd = +0
-
 +1 x7b6bd -1 x7b6d5 -1 x7b6d6 = +0
-
 +1 x7b6c2 -1 x7b6d7 -1 x7b6d8 = +0
-
 +1 x7b6c5 +1 x7b6c7 +1 x7b6c9 +1 x7b6cb +1 x7b6cd +1 x7b6cf +1 x7b6d1 +1 x7b6d3
 +1 x7b6d5 +1 x7b6d7 -1 x7b6db = +0
-
 +1 x7b6c6 +1 x7b6c8 +1 x7b6ca +1 x7b6cc +1 x7b6ce +1 x7b6d0 +1 x7b6d2 +1 x7b6d4
 +1 x7b6d6 +1 x7b6d8 -1 x7b6d9 = +0
-
 +1 x7b6db -1 x7b6dc -1 x7b6dd = +0
-
 +1 x7b6dd -1 x7b6e0 -1 x7b6e1 = +0
-
 +1 x7b6e0 -1 x7b6e8 -1 x7b6ea = +0
-
 +1 x7b6dc -1 x7b6f0 -1 x7b6f1 = +0
-
 +1 x7b6f1 -1 x7b6f4 -1 x7b6f5 = +0
-
 +1 x7b6f4 -1 x7b6fc -1 x7b6fe = +0
-
 +1 x7b6ea +1 x7b6f0 +1 x7b6fe -1 x7b70b = +0
-
 +1 x7a846 -1 x7b733 -1 x7b734 = +0
-
 +1 x7b71f -1 x7b737 -1 x7b738 = +0
-
 +1 x7b723 -1 x7b73b -1 x7b73c = +0
-
 +1 x7b734 +1 x7b969 +0 x7b984 = +0
-
 +1 x7a84b +1 x7b772 -1 x7b985 +0 x7b986 = +0
-
 +1 x7b738 +0 x7b988 = +0
-
 +1 x7b721 -1 x7b989 +0 x7b98a = +0
-
 +1 x7b73c +0 x7b98c = +0
-
 +1 x7b733 +1 x7b737 +1 x7b73b -1 x7b740 -1 x7b741 = +0
-
 +1 x7b740 -1 x7b748 -1 x7b74a = +0
-
 +1 x7a831 +1 x7b74a -1 x7b74f = +0
-
 +1 x7b74f -1 x7b751 +1 x7b97e = +0
-
 +1 x7b751 -1 x7b752 -1 x7b753 = +0
-
 +1 x7b752 -1 x7b757 -1 x7b758 = +0
-
 +1 x7b757 -1 x7b75c -1 x7b75d = +0
-
 +1 x7b75c -1 x7b764 -1 x7b766 = +0
-
 +1 x7b766 -1 x7b76c -1 x7b76d = +0
-
 +1 x7b76c -1 x7b772 -1 x7b773 = +0
-
 +1 x7b773 -1 x7b779 -1 x7b77a = +0
-
 +1 x7b779 +1 x7b77a -1 x7b792 = +0
-
 +1 x7b792 -1 x7b795 -1 x7b796 = +0
-
 +1 x7b795 -1 x7b7a4 -1 x7b7a5 = +0
-
 +1 x7b7a5 -1 x7b7ae -1 x7b7af = +0
-
 +1 x7b7af -1 x7b7b1 -1 x7b7b2 = +0
-
 +1 x7b7b1 +1 x7b7b2 -1 x7b7f6 -1 x7b7f7 = +0
-
 +1 x7b7ae -1 x7b7bb -1 x7b7bc = +0
-
 +1 x7b7bc -1 x7b7be -1 x7b7bf = +0
-
 +1 x7b7be +1 x7b7bf -1 x7b7c7 -1 x7b7c8 = +0
-
 +1 x7b7c7 -1 x7b7cf -1 x7b7d1 = +0
-
 +1 x7b7d1 -1 x7b7f8 -1 x7b7f9 = +0
-
 +1 x7b7bb -1 x7b7d7 -1 x7b7d8 = +0
-
 +1 x7b7d8 -1 x7b7de -1 x7b7df = +0
-
 +1 x7b7d7 -1 x7b7e0 -1 x7b7e1 = +0
-
 +1 x7b7de +1 x7b7e0 -1 x7b7f3 = +0
-
 +1 x7b7df +1 x7b7e1 -1 x7b7e2 = +0
-
 +1 x7b7e2 -1 x7b7e4 -1 x7b7e5 = +0
-
 +1 x7b7e4 -1 x7b7ec -1 x7b7ee = +0
-
 +1 x7b7ee -1 x7b7fa -1 x7b7fb = +0
-
 +1 x7b7f3 -1 x7b7fc -1 x7b7fd = +0
-
 +1 x7b7f8 +1 x7b7fa +1 x7b7fc -1 x7b893 = +0
-
 +1 x7b7f9 +1 x7b7fb +1 x7b7fd -1 x7b7ff = +0
-
 +1 x7b7f7 -1 x7b800 -1 x7b801 = +0
-
 +1 x7b7ff -1 x7b802 -1 x7b803 = +0
-
 +1 x7b800 +1 x7b802 -1 x7b805 = +0
-
 +1 x7b801 +1 x7b803 -1 x7b804 = +0
-
 +1 x7b804 -1 x7b914 -1 x7b915 = +0
-
 +1 x7b805 -1 x7b806 -1 x7b807 = +0
-
 +1 x7b807 -1 x7b835 -1 x7b836 = +0
-
 +1 x7b806 -1 x7b80b -1 x7b80c = +0
-
 +1 x7b80c -1 x7b80f -1 x7b810 = +0
-
 +1 x7b80f -1 x7b817 -1 x7b819 = +0
-
 +1 x7b819 -1 x7b837 -1 x7b838 = +0
-
 +1 x7b80b -1 x7b81f -1 x7b820 = +0
-
 +1 x7b820 -1 x7b823 -1 x7b824 = +0
-
 +1 x7b823 -1 x7b82b -1 x7b82d = +0
-
 +1 x7b82d -1 x7b839 -1 x7b83a = +0
-
 +1 x7b81f -1 x7b83b -1 x7b83c = +0
-
 +1 x7b835 +1 x7b837 +1 x7b839 +1 x7b83b -1 x7b847 = +0
-
 +1 x7b836 +1 x7b838 +1 x7b83a +1 x7b83c -1 x7b83d = +0
-
 +1 x7b83d -1 x7b83e -1 x7b83f = +0
-
 +1 x7b83e +1 x7b83f -1 x7b916 -1 x7b917 = +0
-
 +1 x7b847 -1 x7b848 -1 x7b849 = +0
-
 +1 x7b849 -1 x7b84b -1 x7b84c = +0
-
 +1 x7b84b -1 x7b854 -1 x7b855 = +0
-
 +1 x7b84c -1 x7b856 -1 x7b857 = +0
-
 +1 x7b854 -1 x7b864 -1 x7b868 = +0
-
 +1 x7b856 -1 x7b865 -1 x7b869 = +0
-
 +1 x7b868 -1 x7b918 -1 x7b919 = +0
-
 +1 x7b869 -1 x7b91a -1 x7b91b = +0
-
 +1 x7b848 -1 x7b873 -1 x7b874 = +0
-
 +1 x7b874 -1 x7b87a -1 x7b87b = +0
-
 +1 x7b873 -1 x7b87c -1 x7b87d = +0
-
 +1 x7b87a +1 x7b87c -1 x7b88f = +0
-
 +1 x7b87b +1 x7b87d -1 x7b87e = +0
-
 +1 x7b87e -1 x7b880 -1 x7b881 = +0
-
 +1 x7b880 -1 x7b888 -1 x7b88a = +0
-
 +1 x7b88a -1 x7b91c -1 x7b91d = +0
-
 +1 x7b88f -1 x7b91e -1 x7b91f = +0
-
 +1 x7b7f6 -1 x7b894 -1 x7b895 = +0
-
 +1 x7b893 -1 x7b896 -1 x7b897 = +0
-
 +1 x7b894 +1 x7b896 -1 x7b89a = +0
-
 +1 x7b895 +1 x7b897 -1 x7b898 = +0
-
 +1 x7b898 -1 x7b8c5 -1 x7b8c6 = +0
-
 +1 x7b89a -1 x7b89b -1 x7b89c = +0
-
 +1 x7b89c -1 x7b89f -1 x7b8a0 = +0
-
 +1 x7b89f -1 x7b8a7 -1 x7b8a9 = +0
-
 +1 x7b8a9 -1 x7b8c7 -1 x7b8c8 = +0
-
 +1 x7b89b -1 x7b8af -1 x7b8b0 = +0
-
 +1 x7b8b0 -1 x7b8b3 -1 x7b8b4 = +0
-
 +1 x7b8b3 -1 x7b8bb -1 x7b8bd = +0
-
 +1 x7b8bd -1 x7b8c9 -1 x7b8ca = +0
-
 +1 x7b8af -1 x7b8cb -1 x7b8cc = +0
-
 +1 x7b8c5 +1 x7b8c7 +1 x7b8c9 +1 x7b8cb -1 x7b8d8 = +0
-
 +1 x7b8c6 +1 x7b8c8 +1 x7b8ca +1 x7b8cc -1 x7b8cd = +0
-
 +1 x7b8cd -1 x7b8ce -1 x7b8cf = +0
-
 +1 x7b8ce +1 x7b8cf -1 x7b8d7 = +0
-
 +1 x7b8d7 -1 x7b920 -1 x7b921 = +0
-
 +1 x7b8d8 -1 x7b8d9 -1 x7b8da = +0
-
 +1 x7b8da -1 x7b8dc -1 x7b8dd = +0
-
 +1 x7b8dc +1 x7b8dd -1 x7b8e5 -1 x7b8e6 = +0
-
 +1 x7b8e5 -1 x7b8ed -1 x7b8ef = +0
-
 +1 x7b8ef -1 x7b922 -1 x7b923 = +0
-
 +1 x7b8d9 -1 x7b8f5 -1 x7b8f6 = +0
-
 +1 x7b8f6 -1 x7b8fc -1 x7b8fd = +0
-
 +1 x7b8f5 -1 x7b8fe -1 x7b8ff = +0
-
 +1 x7b8fc +1 x7b8fe -1 x7b911 = +0
-
 +1 x7b8fd +1 x7b8ff -1 x7b900 = +0
-
 +1 x7b900 -1 x7b902 -1 x7b903 = +0
-
 +1 x7b902 -1 x7b90a -1 x7b90c = +0
-
 +1 x7b90c -1 x7b924 -1 x7b925 = +0
-
 +1 x7b911 -1 x7b926 -1 x7b927 = +0
-
 +1 x7b914 +1 x7b916 +1 x7b918 +1 x7b91a +1 x7b91c +1 x7b91e +1 x7b920 +1 x7b922
 +1 x7b924 +1 x7b926 -1 x7b92a = +0
-
 +1 x7b915 +1 x7b917 +1 x7b919 +1 x7b91b +1 x7b91d +1 x7b91f +1 x7b921 +1 x7b923
 +1 x7b925 +1 x7b927 -1 x7b928 = +0
-
 +1 x7b92a -1 x7b92b -1 x7b92c = +0
-
 +1 x7b92c -1 x7b92f -1 x7b930 = +0
-
 +1 x7b92f -1 x7b937 -1 x7b939 = +0
-
 +1 x7b92b -1 x7b93f -1 x7b940 = +0
-
 +1 x7b940 -1 x7b943 -1 x7b944 = +0
-
 +1 x7b943 -1 x7b94b -1 x7b94d = +0
-
 +1 x7b939 +1 x7b93f +1 x7b94d -1 x7b95a = +0
-
 +1 x7b76d -1 x7b968 -1 x7b969 = +0
-
 +1 x7b968 -1 x7b96f -1 x7b970 = +0
-
 +1 x7b96f -1 x7b977 -1 x7b979 = +0
-
 +1 x7b758 +1 x7b979 -1 x7b97e = +0
-
 +1 x79926 +1 x7a7fc +1 x7b985 +1 x7b989 -1 x7b9c4 = +0
-
-
-
 -1 x77027 -1 x7706f -1 x7799a -1 x7826b <= +0
-
 -1 x768ad -1 x7695b -1 x770d8 -1 x77202 -1 x7796e -1 x7823c <= +0
-
 -1 x761bd -1 x76221 -1 x76283 -1 x768a4 -1 x768f4 -1 x76f14 -1 x76f6e -1 x77136
 -1 x77199 -1 x77942 -1 x7820d <= +0
-
 -1 x75433 -1 x7548a -1 x754da -1 x772c7 -1 x77318 -1 x77916 -1 x781de <= +0
-
 -1 x742e4 -1 x74392 -1 x75543 -1 x7737b -1 x774a5 -1 x778ea -1 x781af <= +0
-
 -1 x73bf4 -1 x73c58 -1 x73cba -1 x742db -1 x7432b -1 x7494b -1 x749a5 -1 x773d9
 -1 x7743c -1 x778be -1 x78180 <= +0
-
 -1 x7992d -1 x7992e +1 x79f3d +1 x79f3f <= +0
-
 -1 x79f8d -1 x79f8e +1 x7a59d +1 x7a59f -1 x7a605 -1 x7a606 <= +0
-
 -1 x7a852 -1 x7a853 +1 x7ae62 +1 x7ae64 -1 x7b779 -1 x7b77a <= +0
-
 -1 x7aeb2 -1 x7aeb3 +1 x7b4c2 +1 x7b4c4 -1 x7b52a -1 x7b52b <= +0
-
 -1 x5dd7b +1 x77238 <= +0
-
 +1 x749da -1 x7726b -1 x7726c +1 x774d6 <= +0
-
 +1 x71304 -1 x714e4 +1 x71653 -1 x71841 +1 x719b2 -1 x71ba0 +1 x71d11 -1 x71eff
 +1 x72070 -1 x7225e +1 x723cf -1 x725bd +1 x7272e -1 x7291c +1 x72a8d -1 x72c7b
 +1 x72deb -1 x7751c +1 x77689 -1 x77873 <= +0
-
 -1 x7133b -1 x7133c +1 x714a0 -1 x7168a -1 x7168b +1 x717fb -1 x719e9 -1 x719ea
 +1 x71b5a -1 x71d48 -1 x71d49 +1 x71eb9 -1 x720a7 -1 x720a8 +1 x72218 -1 x72406
 -1 x72407 +1 x72577 -1 x72765 -1 x72766 +1 x728d6 -1 x72ac4 -1 x72ac5 +1 x72c35
 -1 x72e22 -1 x72e23 +1 x72f92 -1 x776c0 -1 x776c1 +1 x7782e <= +0
-
 +1 x709b3 -1 x70bf6 +1 x70d61 -1 x70fa9 -1 x71006 -1 x71063 -1 x710c0 -1 x7111d
 -1 x7117a -1 x779f3 +1 x77b5d -1 x7810f <= +0
-
 -1 x709ea -1 x709eb +1 x70b48 -1 x70d98 -1 x70d99 +1 x70f01 -1 x77b94 -1 x77b95
 +1 x77cfb <= +0
-
 +1 x6eb9a -1 x6ed7a +1 x6eee9 -1 x6f0d7 +1 x6f248 -1 x6f436 +1 x6f5a7 -1 x6f795
 +1 x6f906 -1 x6faf4 +1 x6fc65 -1 x6fe53 +1 x6ffc4 -1 x701b2 +1 x70323 -1 x70511
 +1 x70681 -1 x70b8c -1 x70f46 -1 x77d40 +1 x77ead -1 x78097 <= +0
-
 -1 x6ebd1 -1 x6ebd2 +1 x6ed36 -1 x6ef20 -1 x6ef21 +1 x6f091 -1 x6f27f -1 x6f280
 +1 x6f3f0 -1 x6f5de -1 x6f5df +1 x6f74f -1 x6f93d -1 x6f93e +1 x6faae -1 x6fc9c
 -1 x6fc9d +1 x6fe0d -1 x6fffb -1 x6fffc +1 x7016c -1 x7035a -1 x7035b +1 x704cb
 -1 x706b8 -1 x706b9 +1 x70828 -1 x77ee4 -1 x77ee5 +1 x78052 <= +0
-
 +1 x6d882 -1 x6db3d +1 x6dca8 -1 x6ea0a -1 x782a9 <= +0
-
 -1 x6d8b9 -1 x6d8ba +1 x6da17 -1 x6dcdf -1 x6dce0 +1 x6de48 <= +0
-
 +1 x6ba69 -1 x6bc49 +1 x6bdb8 -1 x6bfa6 +1 x6c117 -1 x6c305 +1 x6c476 -1 x6c664
 +1 x6c7d5 -1 x6c9c3 +1 x6cb34 -1 x6cd22 +1 x6ce93 -1 x6d081 +1 x6d1f2 -1 x6d3e0
 +1 x6d550 -1 x6da5b -1 x6de8d +1 x6dffd -1 x6e1ea <= +0
-
 -1 x6baa0 -1 x6baa1 +1 x6bc05 -1 x6bdef -1 x6bdf0 +1 x6bf60 -1 x6c14e -1 x6c14f
 +1 x6c2bf -1 x6c4ad -1 x6c4ae +1 x6c61e -1 x6c80c -1 x6c80d +1 x6c97d -1 x6cb6b
 -1 x6cb6c +1 x6ccdc -1 x6ceca -1 x6cecb +1 x6d03b -1 x6d229 -1 x6d22a +1 x6d39a
 -1 x6d587 -1 x6d588 +1 x6d6f7 -1 x6e034 -1 x6e035 +1 x6e1a5 <= +0
-
 +1 x6b118 -1 x6b35b +1 x6b4c6 -1 x6b70e -1 x6b76b -1 x6b7c8 -1 x6b825 -1 x6b882
 -1 x6b8df -1 x6dac5 -1 x6e261 +1 x6e3ce -1 x6e989 <= +0
-
 -1 x6b14f -1 x6b150 +1 x6b2ad -1 x6b4fd -1 x6b4fe +1 x6b666 -1 x6e405 -1 x6e406
 +1 x6e56f <= +0
-
 +1 x692ff -1 x694df +1 x6964e -1 x6983c +1 x699ad -1 x69b9b +1 x69d0c -1 x69efa
 +1 x6a06b -1 x6a259 +1 x6a3ca -1 x6a5b8 +1 x6a729 -1 x6a917 +1 x6aa88 -1 x6ac76
 +1 x6ade6 -1 x6b2f1 -1 x6b6ab -1 x6e5b4 +1 x6e724 -1 x6e911 <= +0
-
 -1 x69336 -1 x69337 +1 x6949b -1 x69685 -1 x69686 +1 x697f6 -1 x699e4 -1 x699e5
 +1 x69b55 -1 x69d43 -1 x69d44 +1 x69eb4 -1 x6a0a2 -1 x6a0a3 +1 x6a213 -1 x6a401
 -1 x6a402 +1 x6a572 -1 x6a760 -1 x6a761 +1 x6a8d1 -1 x6aabf -1 x6aac0 +1 x6ac30
 -1 x6ae1d -1 x6ae1e +1 x6af8d -1 x6e75b -1 x6e75c +1 x6e8cc <= +0
-
 +1 x67e4f -1 x681d5 +1 x68340 -1 x6916f -1 x78379 <= +0
-
 -1 x67e86 -1 x67e87 +1 x67fe4 -1 x68377 -1 x68378 +1 x684e0 <= +0
-
 +1 x66036 -1 x66216 +1 x66385 -1 x66573 +1 x666e4 -1 x668d2 +1 x66a43 -1 x66c31
 +1 x66da2 -1 x66f90 +1 x67101 -1 x672ef +1 x67460 -1 x6764e +1 x677bf -1 x679ad
 +1 x67b1d -1 x68028 -1 x68525 +1 x68695 -1 x68882 <= +0
-
 -1 x6606d -1 x6606e +1 x661d2 -1 x663bc -1 x663bd +1 x6652d -1 x6671b -1 x6671c
 +1 x6688c -1 x66a7a -1 x66a7b +1 x66beb -1 x66dd9 -1 x66dda +1 x66f4a -1 x67138
 -1 x67139 +1 x672a9 -1 x67497 -1 x67498 +1 x67608 -1 x677f6 -1 x677f7 +1 x67967
 -1 x67b54 -1 x67b55 +1 x67cc4 -1 x686cc -1 x686cd +1 x6883d <= +0
-
 +1 x656e5 -1 x65928 +1 x65a93 -1 x65cdb -1 x65d38 -1 x65d95 -1 x65df2 -1 x65e4f
 -1 x65eac -1 x68092 -1 x688f9 +1 x68a66 -1 x69021 <= +0
-
 -1 x6571c -1 x6571d +1 x6587a -1 x65aca -1 x65acb +1 x65c33 -1 x68a9d -1 x68a9e
 +1 x68c07 <= +0
-
 +1 x638cc -1 x63aac +1 x63c1b -1 x63e09 +1 x63f7a -1 x64168 +1 x642d9 -1 x644c7
 +1 x64638 -1 x64826 +1 x64997 -1 x64b85 +1 x64cf6 -1 x64ee4 +1 x65055 -1 x65243
 +1 x653b3 -1 x658be -1 x65c78 -1 x68c4c +1 x68dbc -1 x68fa9 <= +0
-
 -1 x63903 -1 x63904 +1 x63a68 -1 x63c52 -1 x63c53 +1 x63dc3 -1 x63fb1 -1 x63fb2
 +1 x64122 -1 x64310 -1 x64311 +1 x64481 -1 x6466f -1 x64670 +1 x647e0 -1 x649ce
 -1 x649cf +1 x64b3f -1 x64d2d -1 x64d2e +1 x64e9e -1 x6508c -1 x6508d +1 x651fd
 -1 x653ea -1 x653eb +1 x6555a -1 x68df3 -1 x68df4 +1 x68f64 <= +0
-
 +1 x625b4 -1 x6286f +1 x629da -1 x6373c -1 x6810a -1 x690a1 <= +0
-
 -1 x625eb -1 x625ec +1 x62749 -1 x62a11 -1 x62a12 +1 x62b7a <= +0
-
 +1 x6079b -1 x6097b +1 x60aea -1 x60cd8 +1 x60e49 -1 x61037 +1 x611a8 -1 x61396
 +1 x61507 -1 x616f5 +1 x61866 -1 x61a54 +1 x61bc5 -1 x61db3 +1 x61f24 -1 x62112
 +1 x62282 -1 x6278d -1 x62bbf +1 x62d2f -1 x62f1c <= +0
-
 -1 x607d2 -1 x607d3 +1 x60937 -1 x60b21 -1 x60b22 +1 x60c92 -1 x60e80 -1 x60e81
 +1 x60ff1 -1 x611df -1 x611e0 +1 x61350 -1 x6153e -1 x6153f +1 x616af -1 x6189d
 -1 x6189e +1 x61a0e -1 x61bfc -1 x61bfd +1 x61d6d -1 x61f5b -1 x61f5c +1 x620cc
 -1 x622b9 -1 x622ba +1 x62429 -1 x62d66 -1 x62d67 +1 x62ed7 <= +0
-
 +1 x5fe4a -1 x6008d +1 x601f8 -1 x60440 -1 x6049d -1 x604fa -1 x60557 -1 x605b4
 -1 x60611 -1 x627f7 -1 x62f93 +1 x63100 -1 x636bb <= +0
-
 -1 x5fe81 -1 x5fe82 +1 x5ffdf -1 x6022f -1 x60230 +1 x60398 -1 x63137 -1 x63138
 +1 x632a1 <= +0
-
 +1 x5e031 -1 x5e211 +1 x5e380 -1 x5e56e +1 x5e6df -1 x5e8cd +1 x5ea3e -1 x5ec2c
 +1 x5ed9d -1 x5ef8b +1 x5f0fc -1 x5f2ea +1 x5f45b -1 x5f649 +1 x5f7ba -1 x5f9a8
 +1 x5fb18 -1 x60023 -1 x603dd -1 x632e6 +1 x63456 -1 x63643 <= +0
-
 -1 x5e068 -1 x5e069 +1 x5e1cd -1 x5e3b7 -1 x5e3b8 +1 x5e528 -1 x5e716 -1 x5e717
 +1 x5e887 -1 x5ea75 -1 x5ea76 +1 x5ebe6 -1 x5edd4 -1 x5edd5 +1 x5ef45 -1 x5f133
 -1 x5f134 +1 x5f2a4 -1 x5f492 -1 x5f493 +1 x5f603 -1 x5f7f1 -1 x5f7f2 +1 x5f962
 -1 x5fb4f -1 x5fb50 +1 x5fcbf -1 x6348d -1 x6348e +1 x635fe <= +0
-
 -1 x5dd6b <= +0
-
 -1 x70be6 -1 x70f99 -1 x70ff6 -1 x71053 -1 x710b0 -1 x7110d -1 x7116a -1 x779e3
 -1 x780ff <= +0
-
 -1 x6db2d -1 x6e9fa -1 x78299 <= +0
-
 -1 x6b34b -1 x6b6fe -1 x6b75b -1 x6b7b8 -1 x6b815 -1 x6b872 -1 x6b8cf -1 x6dab5
 -1 x6e251 -1 x6e979 <= +0
-
 -1 x681c5 -1 x6915f -1 x78369 <= +0
-
 -1 x65918 -1 x65ccb -1 x65d28 -1 x65d85 -1 x65de2 -1 x65e3f -1 x65e9c -1 x68082
 -1 x688e9 -1 x69011 <= +0
-
 -1 x6285f -1 x6372c -1 x680fa -1 x69091 <= +0
-
 -1 x6007d -1 x60430 -1 x6048d -1 x604ea -1 x60547 -1 x605a4 -1 x60601 -1 x627e7
 -1 x62f83 -1 x636ab <= +0
-
 -1 x7860d -1 x7864a -1 x78689 -1 x786c8 -1 x78707 -1 x78746 -1 x78785 -1 x787c4
 -1 x78859 <= +0
-
 -1 x788ef -1 x78934 <= +0
-
 -1 x788ff -1 x78944 <= +0
-
 -1 x7897c -1 x78a6c <= +0
-
 -1 x789ab -1 x78a9b <= +0
-
 -1 x789de -1 x78a23 <= +0
-
 -1 x789ee -1 x78a33 <= +0
-
 -1 x78e15 -1 x78e63 <= +0
-
 -1 x78f60 -1 x78fb6 <= +0
-
 -1 x78f70 -1 x78fc6 <= +0
-
 -1 x79025 -1 x79147 <= +0
-
 -1 x7903d -1 x7915f <= +0
-
 -1 x79071 -1 x790cf <= +0
-
 -1 x79081 -1 x790df <= +0
-
 -1 x79099 -1 x790f7 <= +0
-
 -1 x792f5 -1 x7933a -1 x79381 -1 x793c8 -1 x7940f -1 x79456 -1 x7949d -1 x794e4
 -1 x79517 -1 x795bc <= +0
-
 -1 x79305 -1 x7934a -1 x79391 -1 x793d8 -1 x7941f -1 x79466 -1 x794ad -1 x794f4
 -1 x7952f -1 x795cc <= +0
-
 -1 x7965a -1 x7969f <= +0
-
 -1 x7966a -1 x796af <= +0
-
 -1 x796e7 -1 x797d7 <= +0
-
 -1 x79706 -1 x797f6 <= +0
-
 -1 x79749 -1 x7978e <= +0
-
 -1 x79759 -1 x7979e <= +0
-
 -1 x79f71 -1 x7a5ef <= +0
-
 -1 x7ae96 -1 x7b514 <= +0
-
 -1 x7b9c4 <= +0
-
 -1 x79898 -1 x798cb +1 x798f6 +1 x798f8 = +0
-
 -1 x798f6 -1 x798f8 +1 x79926 +1 x7a7fc +1 x7b981 +1 x7b985 +1 x7b989 <= +0
-
 -1 x691b8 +1 x78b1e <= +0
-
 -1 x78b2a +1 x791e2 <= +0
-
 -1 x791ee +1 x79889 <= +0
-
 -1 x691b8 +1 x78b1e <= +0
-
 -1 x78b29 <= +0
-
 -1 x78b2a +1 x791e2 <= +0
-
 -1 x791ed <= +0
-
 -1 x791ee +1 x79889 <= +0
-
 -1 x79894 <= +0
-
 -1 x798b4 -1 x798b5 +1 x798be <= +0
-
 -1 x798a0 -1 x798a1 +1 x798aa <= +0
-
 -1 x79898 -1 x798cb +1 x7b981 <= +0
-
 -1 x5dcae +1 x5dd34 = +0
-
 -1 x5dd34 +1 x691b8 <= +0
-
 -1 x79958 +1 x79981 = +0
-
 -1 x79968 -1 x79978 +1 x79982 = +0
-
 -1 x79b69 +1 x79b92 -1 x79d7c = +0
-
 -1 x79b79 -1 x79b89 +1 x79b93 = +0
-
 -1 x79fb8 +1 x79fe1 -1 x7a630 = +0
-
 -1 x79fc8 -1 x79fd8 +1 x79fe2 = +0
-
 -1 x7a1c9 +1 x7a1f2 -1 x7a3dc = +0
-
 -1 x7a1d9 -1 x7a1e9 +1 x7a1f3 = +0
-
 -1 x7a87d +1 x7a8a6 -1 x7b7a4 = +0
-
 -1 x7a88d -1 x7a89d +1 x7a8a7 = +0
-
 -1 x7aa8e +1 x7aab7 -1 x7aca1 = +0
-
 -1 x7aa9e -1 x7aaae +1 x7aab8 = +0
-
 -1 x7aedd +1 x7af06 -1 x7b555 = +0
-
 -1 x7aeed -1 x7aefd +1 x7af07 = +0
-
 -1 x7b0ee +1 x7b117 -1 x7b301 = +0
-
 -1 x7b0fe -1 x7b10e +1 x7b118 = +0
-
 -1 x7992d -1 x7992e +1 x79946 = +0
-
 -1 x79b47 -1 x79b4b +1 x79b57 -1 x79d58 -1 x79d5e +1 x79d6a = +0
-
 -1 x79f8d -1 x79f8e +1 x79fa6 -1 x7a605 -1 x7a606 +1 x7a61e = +0
-
 -1 x7a1a7 -1 x7a1ab +1 x7a1b7 -1 x7a3b8 -1 x7a3be +1 x7a3ca = +0
-
 -1 x7a852 -1 x7a853 +1 x7a86b -1 x7b779 -1 x7b77a +1 x7b792 = +0
-
 -1 x7aa6c -1 x7aa70 +1 x7aa7c -1 x7ac7d -1 x7ac83 +1 x7ac8f = +0
-
 -1 x7aeb2 -1 x7aeb3 +1 x7aecb -1 x7b52a -1 x7b52b +1 x7b543 = +0
-
 -1 x7b0cc -1 x7b0d0 +1 x7b0dc -1 x7b2dd -1 x7b2e3 +1 x7b2ef = +0
-
 -1 x799c2 -1 x799c3 +1 x799cc <= +0
-
 -1 x79bd3 -1 x79bd4 +1 x79bdd -1 x79dbc -1 x79dbd +1 x79dc6 <= +0
-
 -1 x7a022 -1 x7a023 +1 x7a02c -1 x7a670 -1 x7a671 +1 x7a67a <= +0
-
 -1 x7a233 -1 x7a234 +1 x7a23d -1 x7a41c -1 x7a41d +1 x7a426 <= +0
-
 -1 x7a8e7 -1 x7a8e8 +1 x7a8f1 -1 x7b7e4 -1 x7b7e5 +1 x7b7ee <= +0
-
 -1 x7aaf8 -1 x7aaf9 +1 x7ab02 -1 x7ace1 -1 x7ace2 +1 x7aceb <= +0
-
 -1 x7af47 -1 x7af48 +1 x7af51 -1 x7b595 -1 x7b596 +1 x7b59f <= +0
-
 -1 x7b158 -1 x7b159 +1 x7b162 -1 x7b341 -1 x7b342 +1 x7b34b <= +0
-
 -1 x799a5 -1 x799a6 +1 x799af <= +0
-
 -1 x79bb6 -1 x79bb7 +1 x79bc0 -1 x79d9f -1 x79da0 +1 x79da9 <= +0
-
 -1 x7a005 -1 x7a006 +1 x7a00f -1 x7a653 -1 x7a654 +1 x7a65d <= +0
-
 -1 x7a216 -1 x7a217 +1 x7a220 -1 x7a3ff -1 x7a400 +1 x7a409 <= +0
-
 -1 x7a8ca -1 x7a8cb +1 x7a8d4 -1 x7b7c7 -1 x7b7c8 +1 x7b7d1 <= +0
-
 -1 x7aadb -1 x7aadc +1 x7aae5 -1 x7acc4 -1 x7acc5 +1 x7acce <= +0
-
 -1 x7af2a -1 x7af2b +1 x7af34 -1 x7b578 -1 x7b579 +1 x7b582 <= +0
-
 -1 x7b13b -1 x7b13c +1 x7b145 -1 x7b324 -1 x7b325 +1 x7b32e <= +0
-
 -1 x79a91 -1 x79a92 +1 x79a9b <= +0
-
 -1 x79ca2 -1 x79ca3 +1 x79cac -1 x79e8b -1 x79e8c +1 x79e95 <= +0
-
 -1 x7a0f1 -1 x7a0f2 +1 x7a0fb -1 x7a73f -1 x7a740 +1 x7a749 <= +0
-
 -1 x7a302 -1 x7a303 +1 x7a30c -1 x7a4eb -1 x7a4ec +1 x7a4f5 <= +0
-
 -1 x7a9b6 -1 x7a9b7 +1 x7a9c0 -1 x7b8b3 -1 x7b8b4 +1 x7b8bd <= +0
-
 -1 x7abc7 -1 x7abc8 +1 x7abd1 -1 x7adb0 -1 x7adb1 +1 x7adba <= +0
-
 -1 x7b016 -1 x7b017 +1 x7b020 -1 x7b664 -1 x7b665 +1 x7b66e <= +0
-
 -1 x7b227 -1 x7b228 +1 x7b231 -1 x7b410 -1 x7b411 +1 x7b41a <= +0
-
 -1 x79a7d -1 x79a7e +1 x79a87 <= +0
-
 -1 x79c8e -1 x79c8f +1 x79c98 -1 x79e77 -1 x79e78 +1 x79e81 <= +0
-
 -1 x7a0dd -1 x7a0de +1 x7a0e7 -1 x7a72b -1 x7a72c +1 x7a735 <= +0
-
 -1 x7a2ee -1 x7a2ef +1 x7a2f8 -1 x7a4d7 -1 x7a4d8 +1 x7a4e1 <= +0
-
 -1 x7a9a2 -1 x7a9a3 +1 x7a9ac -1 x7b89f -1 x7b8a0 +1 x7b8a9 <= +0
-
 -1 x7abb3 -1 x7abb4 +1 x7abbd -1 x7ad9c -1 x7ad9d +1 x7ada6 <= +0
-
 -1 x7b002 -1 x7b003 +1 x7b00c -1 x7b650 -1 x7b651 +1 x7b65a <= +0
-
 -1 x7b213 -1 x7b214 +1 x7b21d -1 x7b3fc -1 x7b3fd +1 x7b406 <= +0
-
 -1 x79ae0 -1 x79ae1 +1 x79aea <= +0
-
 -1 x79cf1 -1 x79cf2 +1 x79cfb -1 x79eda -1 x79edb +1 x79ee4 <= +0
-
 -1 x7a140 -1 x7a141 +1 x7a14a -1 x7a78e -1 x7a78f +1 x7a798 <= +0
-
 -1 x7a351 -1 x7a352 +1 x7a35b -1 x7a53a -1 x7a53b +1 x7a544 <= +0
-
 -1 x7aa05 -1 x7aa06 +1 x7aa0f -1 x7b902 -1 x7b903 +1 x7b90c <= +0
-
 -1 x7ac16 -1 x7ac17 +1 x7ac20 -1 x7adff -1 x7ae00 +1 x7ae09 <= +0
-
 -1 x7b065 -1 x7b066 +1 x7b06f -1 x7b6b3 -1 x7b6b4 +1 x7b6bd <= +0
-
 -1 x7b276 -1 x7b277 +1 x7b280 -1 x7b45f -1 x7b460 +1 x7b469 <= +0
-
 -1 x79ac3 -1 x79ac4 +1 x79acd <= +0
-
 -1 x79cd4 -1 x79cd5 +1 x79cde -1 x79ebd -1 x79ebe +1 x79ec7 <= +0
-
 -1 x7a123 -1 x7a124 +1 x7a12d -1 x7a771 -1 x7a772 +1 x7a77b <= +0
-
 -1 x7a334 -1 x7a335 +1 x7a33e -1 x7a51d -1 x7a51e +1 x7a527 <= +0
-
 -1 x7a9e8 -1 x7a9e9 +1 x7a9f2 -1 x7b8e5 -1 x7b8e6 +1 x7b8ef <= +0
-
 -1 x7abf9 -1 x7abfa +1 x7ac03 -1 x7ade2 -1 x7ade3 +1 x7adec <= +0
-
 -1 x7b048 -1 x7b049 +1 x7b052 -1 x7b696 -1 x7b697 +1 x7b6a0 <= +0
-
 -1 x7b259 -1 x7b25a +1 x7b263 -1 x7b442 -1 x7b443 +1 x7b44c <= +0
-
 -1 x79a01 -1 x79a02 +1 x79a0b <= +0
-
 -1 x79c12 -1 x79c13 +1 x79c1c -1 x79dfb -1 x79dfc +1 x79e05 <= +0
-
 -1 x7a061 -1 x7a062 +1 x7a06b -1 x7a6af -1 x7a6b0 +1 x7a6b9 <= +0
-
 -1 x7a272 -1 x7a273 +1 x7a27c -1 x7a45b -1 x7a45c +1 x7a465 <= +0
-
 -1 x7a926 -1 x7a927 +1 x7a930 -1 x7b823 -1 x7b824 +1 x7b82d <= +0
-
 -1 x7ab37 -1 x7ab38 +1 x7ab41 -1 x7ad20 -1 x7ad21 +1 x7ad2a <= +0
-
 -1 x7af86 -1 x7af87 +1 x7af90 -1 x7b5d4 -1 x7b5d5 +1 x7b5de <= +0
-
 -1 x7b197 -1 x7b198 +1 x7b1a1 -1 x7b380 -1 x7b381 +1 x7b38a <= +0
-
 -1 x799ed -1 x799ee +1 x799f7 <= +0
-
 -1 x79bfe -1 x79bff +1 x79c08 -1 x79de7 -1 x79de8 +1 x79df1 <= +0
-
 -1 x7a04d -1 x7a04e +1 x7a057 -1 x7a69b -1 x7a69c +1 x7a6a5 <= +0
-
 -1 x7a25e -1 x7a25f +1 x7a268 -1 x7a447 -1 x7a448 +1 x7a451 <= +0
-
 -1 x7a912 -1 x7a913 +1 x7a91c -1 x7b80f -1 x7b810 +1 x7b819 <= +0
-
 -1 x7ab23 -1 x7ab24 +1 x7ab2d -1 x7ad0c -1 x7ad0d +1 x7ad16 <= +0
-
 -1 x7af72 -1 x7af73 +1 x7af7c -1 x7b5c0 -1 x7b5c1 +1 x7b5ca <= +0
-
 -1 x7b183 -1 x7b184 +1 x7b18d -1 x7b36c -1 x7b36d +1 x7b376 <= +0
-
 -1 x79a5e -1 x79a5f +1 x79a68 <= +0
-
 -1 x79c6f -1 x79c70 +1 x79c79 -1 x79e58 -1 x79e59 +1 x79e62 <= +0
-
 -1 x7a0be -1 x7a0bf +1 x7a0c8 -1 x7a70c -1 x7a70d +1 x7a716 <= +0
-
 -1 x7a2cf -1 x7a2d0 +1 x7a2d9 -1 x7a4b8 -1 x7a4b9 +1 x7a4c2 <= +0
-
 -1 x7a983 -1 x7a984 +1 x7a98d -1 x7b880 -1 x7b881 +1 x7b88a <= +0
-
 -1 x7ab94 -1 x7ab95 +1 x7ab9e -1 x7ad7d -1 x7ad7e +1 x7ad87 <= +0
-
 -1 x7afe3 -1 x7afe4 +1 x7afed -1 x7b631 -1 x7b632 +1 x7b63b <= +0
-
 -1 x7b1f4 -1 x7b1f5 +1 x7b1fe -1 x7b3dd -1 x7b3de +1 x7b3e7 <= +0
-
 -1 x79a32 -1 x79a33 -1 x79a34 -1 x79a35 +1 x79a46 +1 x79a47 <= +0
-
 -1 x79c43 -1 x79c44 -1 x79c45 -1 x79c46 +1 x79c57 +1 x79c58 -1 x79e2c -1 x79e2d
 -1 x79e2e -1 x79e2f +1 x79e40 +1 x79e41 <= +0
-
 -1 x7a092 -1 x7a093 -1 x7a094 -1 x7a095 +1 x7a0a6 +1 x7a0a7 -1 x7a6e0 -1 x7a6e1
 -1 x7a6e2 -1 x7a6e3 +1 x7a6f4 +1 x7a6f5 <= +0
-
 -1 x7a2a3 -1 x7a2a4 -1 x7a2a5 -1 x7a2a6 +1 x7a2b7 +1 x7a2b8 -1 x7a48c -1 x7a48d
 -1 x7a48e -1 x7a48f +1 x7a4a0 +1 x7a4a1 <= +0
-
 -1 x7a957 -1 x7a958 -1 x7a959 -1 x7a95a +1 x7a96b +1 x7a96c -1 x7b854 -1 x7b855
 -1 x7b856 -1 x7b857 +1 x7b868 +1 x7b869 <= +0
-
 -1 x7ab68 -1 x7ab69 -1 x7ab6a -1 x7ab6b +1 x7ab7c +1 x7ab7d -1 x7ad51 -1 x7ad52
 -1 x7ad53 -1 x7ad54 +1 x7ad65 +1 x7ad66 <= +0
-
 -1 x7afb7 -1 x7afb8 -1 x7afb9 -1 x7afba +1 x7afcb +1 x7afcc -1 x7b605 -1 x7b606
 -1 x7b607 -1 x7b608 +1 x7b619 +1 x7b61a <= +0
-
 -1 x7b1c8 -1 x7b1c9 -1 x7b1ca -1 x7b1cb +1 x7b1dc +1 x7b1dd -1 x7b3b1 -1 x7b3b2
 -1 x7b3b3 -1 x7b3b4 +1 x7b3c5 +1 x7b3c6 <= +0
-
 -1 x79b21 -1 x79b22 +1 x79b2b <= +0
-
 -1 x79d32 -1 x79d33 +1 x79d3c -1 x79f1b -1 x79f1c +1 x79f25 <= +0
-
 -1 x7a181 -1 x7a182 +1 x7a18b -1 x7a7cf -1 x7a7d0 +1 x7a7d9 <= +0
-
 -1 x7a392 -1 x7a393 +1 x7a39c -1 x7a57b -1 x7a57c +1 x7a585 <= +0
-
 -1 x7aa46 -1 x7aa47 +1 x7aa50 -1 x7b943 -1 x7b944 +1 x7b94d <= +0
-
 -1 x7ac57 -1 x7ac58 +1 x7ac61 -1 x7ae40 -1 x7ae41 +1 x7ae4a <= +0
-
 -1 x7b0a6 -1 x7b0a7 +1 x7b0b0 -1 x7b6f4 -1 x7b6f5 +1 x7b6fe <= +0
-
 -1 x7b2b7 -1 x7b2b8 +1 x7b2c1 -1 x7b4a0 -1 x7b4a1 +1 x7b4aa <= +0
-
 -1 x79b0d -1 x79b0e +1 x79b17 <= +0
-
 -1 x79d1e -1 x79d1f +1 x79d28 -1 x79f07 -1 x79f08 +1 x79f11 <= +0
-
 -1 x7a16d -1 x7a16e +1 x7a177 -1 x7a7bb -1 x7a7bc +1 x7a7c5 <= +0
-
 -1 x7a37e -1 x7a37f +1 x7a388 -1 x7a567 -1 x7a568 +1 x7a571 <= +0
-
 -1 x7aa32 -1 x7aa33 +1 x7aa3c -1 x7b92f -1 x7b930 +1 x7b939 <= +0
-
 -1 x7ac43 -1 x7ac44 +1 x7ac4d -1 x7ae2c -1 x7ae2d +1 x7ae36 <= +0
-
 -1 x7b092 -1 x7b093 +1 x7b09c -1 x7b6e0 -1 x7b6e1 +1 x7b6ea <= +0
-
 -1 x7b2a3 -1 x7b2a4 +1 x7b2ad -1 x7b48c -1 x7b48d +1 x7b496 <= +0
-
 -1 x79949 +1 x79959 +1 x79981 = +0
-
 -1 x79b5a +1 x79b6a +1 x79b92 -1 x79d6d +1 x79d7d = +0
-
 -1 x79fa9 +1 x79fb9 +1 x79fe1 -1 x7a621 +1 x7a631 = +0
-
 -1 x7a1ba +1 x7a1ca +1 x7a1f2 -1 x7a3cd +1 x7a3dd = +0
-
 -1 x7a86e +1 x7a87e +1 x7a8a6 -1 x7b795 +1 x7b7a5 = +0
-
 -1 x7aa7f +1 x7aa8f +1 x7aab7 -1 x7ac92 +1 x7aca2 = +0
-
 -1 x7aece +1 x7aede +1 x7af06 -1 x7b546 +1 x7b556 = +0
-
 -1 x7b0df +1 x7b0ef +1 x7b117 -1 x7b2f2 +1 x7b302 = +0
-
 -1 x7994a -1 x79b06 -1 x79b38 +1 x79f3d +1 x79f3f <= +0
-
 -1 x79b5b -1 x79d17 -1 x79d49 -1 x79d6e -1 x79f00 -1 x79f32 +1 x79f3e +1 x79f40
 <= +0
-
 -1 x79faa -1 x7a166 -1 x7a198 +1 x7a59d +1 x7a59f -1 x7a622 -1 x7a7b4 -1 x7a7e6
 <= +0
-
 -1 x7a1bb -1 x7a377 -1 x7a3a9 -1 x7a3ce -1 x7a560 -1 x7a592 +1 x7a59e +1 x7a5a0
 <= +0
-
 -1 x7a86f -1 x7aa2b -1 x7aa5d +1 x7ae62 +1 x7ae64 -1 x7b796 -1 x7b928 -1 x7b95a
 <= +0
-
 -1 x7aa80 -1 x7ac3c -1 x7ac6e -1 x7ac93 -1 x7ae25 -1 x7ae57 +1 x7ae63 +1 x7ae65
 <= +0
-
 -1 x7aecf -1 x7b08b -1 x7b0bd +1 x7b4c2 +1 x7b4c4 -1 x7b547 -1 x7b6d9 -1 x7b70b
 <= +0
-
 -1 x7b0e0 -1 x7b29c -1 x7b2ce -1 x7b2f3 -1 x7b485 -1 x7b4b7 +1 x7b4c3 +1 x7b4c5
 <= +0
-
 +0 x5ddba -1 x77045 -1 x77047 +1 x77058 = +0
-
 -1 x761eb -1 x761ed +1 x761fd +0 x76255 +0 x768c7 +0 x76f47 +0 x77109 +0 x7716b
 = +0
-
 -1 x75461 -1 x75463 +1 x75473 +0 x754b9 +0 x772a7 +0 x772f7 = +0
-
 -1 x73c22 -1 x73c24 +1 x73c34 +0 x73c8c +0 x742fe +0 x7497e +0 x773ac +0 x7740e
 = +0
-
 -1 x5ddd0 +1 x5dede -1 x77065 <= +0
-
 +1 x763ef -1 x76951 +1 x7696e -1 x770ce -1 x771f8 <= +0
-
 +1 x756d9 +1 x75d05 -1 x7621e -1 x76280 -1 x768f1 -1 x76f6b -1 x77133 -1 x77196
 <= +0
-
 +1 x74b3b +1 x75071 -1 x75480 -1 x754d0 -1 x772bd -1 x7730e <= +0
-
 +1 x73e26 -1 x74388 +1 x74496 -1 x75539 -1 x77371 -1 x7749b <= +0
-
 +1 x73110 +1 x7373c -1 x73c55 -1 x73cb7 -1 x74328 -1 x749a2 -1 x773d6 -1 x77439
 <= +0
-
 +1 x5decf -1 x711ed -1 x71213 -1 x71538 -1 x71561 -1 x71897 -1 x718c0 -1 x71bf6
 -1 x71c1f -1 x71f55 -1 x71f7e -1 x722b4 -1 x722dd -1 x72613 -1 x7263c -1 x72972
 -1 x7299b -1 x72cd1 -1 x72cf9 -1 x77571 -1 x77599 <= +0
-
 -1 x71252 -1 x712f5 -1 x7159a -1 x71643 -1 x718f9 -1 x719a2 -1 x71c58 -1 x71d01
 -1 x71fb7 -1 x72060 -1 x72316 -1 x723bf -1 x72675 -1 x7271e -1 x729d4 -1 x72a7d
 -1 x72d32 -1 x72ddb +1 x763e0 +1 x7696d -1 x775d2 -1 x77679 <= +0
-
 -1 x7128a -1 x712c0 -1 x715d4 -1 x7160c -1 x71933 -1 x7196b -1 x71c92 -1 x71cca
 -1 x71ff1 -1 x72029 -1 x72350 -1 x72388 -1 x726af -1 x726e7 -1 x72a0e -1 x72a46
 -1 x72d6c -1 x72da4 +1 x756ca -1 x75bbf +1 x75cf6 -1 x7615f -1 x76849 -1 x76eb9
 -1 x7760b -1 x77642 <= +0
-
 -1 x71390 -1 x713b7 -1 x716e0 -1 x71709 -1 x71a3f -1 x71a68 -1 x71d9e -1 x71dc7
 -1 x720fd -1 x72126 -1 x7245c -1 x72485 -1 x727bb -1 x727e4 -1 x72b1a -1 x72b43
 -1 x72e78 -1 x72ea0 +1 x74b2c -1 x74f28 +1 x75062 -1 x753d2 -1 x77716 -1 x7773e
 <= +0
-
 -1 x713ee -1 x71491 -1 x71742 -1 x717eb -1 x71aa1 -1 x71b4a -1 x71e00 -1 x71ea9
 -1 x7215f -1 x72208 -1 x724be -1 x72567 -1 x7281d -1 x728c6 -1 x72b7c -1 x72c25
 -1 x72ed9 -1 x72f82 +1 x73e17 +1 x74487 -1 x77777 -1 x7781e <= +0
-
 -1 x71426 -1 x7145c -1 x7177c -1 x717b4 -1 x71adb -1 x71b13 -1 x71e3a -1 x71e72
 -1 x72199 -1 x721d1 -1 x724f8 -1 x72530 -1 x72857 -1 x7288f -1 x72bb6 -1 x72bee
 -1 x72f13 -1 x72f4b +1 x73101 -1 x735f6 +1 x7372d -1 x73b96 -1 x74280 -1 x748f0
 -1 x777b0 -1 x777e7 <= +0
-
 +1 x5dec0 -1 x708a0 -1 x708c3 -1 x70c4b -1 x70c70 -1 x77a49 -1 x77a6e <= +0
-
 -1 x70901 -1 x709a4 -1 x70ca8 -1 x70d51 +1 x763d1 +1 x7696c -1 x77aa6 -1 x77b4d
 <= +0
-
 -1 x70939 -1 x7096f -1 x70ce2 -1 x70d1a +1 x756bb -1 x75b6b +1 x75ce7 -1 x76115
 -1 x767ff -1 x76e6f -1 x77adf -1 x77b16 <= +0
-
 -1 x70a3c -1 x70a60 -1 x70deb -1 x70e10 +1 x74b1d -1 x74ee4 +1 x75053 -1 x75398
 -1 x77be7 -1 x77c0c <= +0
-
 -1 x70a96 -1 x70b39 -1 x70e48 -1 x70ef1 +1 x73e08 +1 x74478 -1 x77c44 -1 x77ceb
 <= +0
-
 -1 x70ace -1 x70b04 -1 x70e82 -1 x70eba +1 x730f2 -1 x735a2 +1 x7371e -1 x73b4c
 -1 x74236 -1 x748a6 -1 x77c7d -1 x77cb4 <= +0
-
 +1 x5deb1 -1 x6ea83 -1 x6eaa9 -1 x6edce -1 x6edf7 -1 x6f12d -1 x6f156 -1 x6f48c
 -1 x6f4b5 -1 x6f7eb -1 x6f814 -1 x6fb4a -1 x6fb73 -1 x6fea9 -1 x6fed2 -1 x70208
 -1 x70231 -1 x70567 -1 x7058f -1 x77d95 -1 x77dbd <= +0
-
 -1 x6eae8 -1 x6eb8b -1 x6ee30 -1 x6eed9 -1 x6f18f -1 x6f238 -1 x6f4ee -1 x6f597
 -1 x6f84d -1 x6f8f6 -1 x6fbac -1 x6fc55 -1 x6ff0b -1 x6ffb4 -1 x7026a -1 x70313
 -1 x705c8 -1 x70671 +1 x763c2 +1 x7696b -1 x77df6 -1 x77e9d <= +0
-
 -1 x6eb20 -1 x6eb56 -1 x6ee6a -1 x6eea2 -1 x6f1c9 -1 x6f201 -1 x6f528 -1 x6f560
 -1 x6f887 -1 x6f8bf -1 x6fbe6 -1 x6fc1e -1 x6ff45 -1 x6ff7d -1 x702a4 -1 x702dc
 -1 x70602 -1 x7063a +1 x756ac -1 x75b17 +1 x75cd8 -1 x760cb -1 x767b5 -1 x76e25
 -1 x77e2f -1 x77e66 <= +0
-
 -1 x6ec26 -1 x6ec4d -1 x6ef76 -1 x6ef9f -1 x6f2d5 -1 x6f2fe -1 x6f634 -1 x6f65d
 -1 x6f993 -1 x6f9bc -1 x6fcf2 -1 x6fd1b -1 x70051 -1 x7007a -1 x703b0 -1 x703d9
 -1 x7070e -1 x70736 +1 x74b0e -1 x74ea1 +1 x75044 -1 x7535f -1 x77f3a -1 x77f62
 <= +0
-
 -1 x6ec84 -1 x6ed27 -1 x6efd8 -1 x6f081 -1 x6f337 -1 x6f3e0 -1 x6f696 -1 x6f73f
 -1 x6f9f5 -1 x6fa9e -1 x6fd54 -1 x6fdfd -1 x700b3 -1 x7015c -1 x70412 -1 x704bb
 -1 x7076f -1 x70818 +1 x73df9 +1 x74469 -1 x77f9b -1 x78042 <= +0
-
 -1 x6ecbc -1 x6ecf2 -1 x6f012 -1 x6f04a -1 x6f371 -1 x6f3a9 -1 x6f6d0 -1 x6f708
 -1 x6fa2f -1 x6fa67 -1 x6fd8e -1 x6fdc6 -1 x700ed -1 x70125 -1 x7044c -1 x70484
 -1 x707a9 -1 x707e1 +1 x730e3 -1 x7354e +1 x7370f -1 x73b02 -1 x741ec -1 x7485c
 -1 x77fd4 -1 x7800b <= +0
-
 +1 x5dea2 -1 x6d76f -1 x6d792 -1 x6db92 -1 x6dbb7 <= +0
-
 -1 x6d7d0 -1 x6d873 -1 x6dbef -1 x6dc98 +1 x763b3 +1 x7696a <= +0
-
 -1 x6d808 -1 x6d83e -1 x6dc29 -1 x6dc61 +1 x7569d -1 x75ac3 +1 x75cc9 -1 x76081
 -1 x7676b -1 x76ddb <= +0
-
 -1 x6d90b -1 x6d92f -1 x6dd32 -1 x6dd57 +1 x74aff -1 x74e5d +1 x75035 -1 x75325
 <= +0
-
 -1 x6d965 -1 x6da08 -1 x6dd8f -1 x6de38 +1 x73dea +1 x7445a <= +0
-
 -1 x6d99d -1 x6d9d3 -1 x6ddc9 -1 x6de01 +1 x730d4 -1 x734fa +1 x73700 -1 x73ab8
 -1 x741a2 -1 x74812 <= +0
-
 +1 x5de93 -1 x6b952 -1 x6b978 -1 x6bc9d -1 x6bcc6 -1 x6bffc -1 x6c025 -1 x6c35b
 -1 x6c384 -1 x6c6ba -1 x6c6e3 -1 x6ca19 -1 x6ca42 -1 x6cd78 -1 x6cda1 -1 x6d0d7
 -1 x6d100 -1 x6d436 -1 x6d45e -1 x6dee2 -1 x6df0b <= +0
-
 -1 x6b9b7 -1 x6ba5a -1 x6bcff -1 x6bda8 -1 x6c05e -1 x6c107 -1 x6c3bd -1 x6c466
 -1 x6c71c -1 x6c7c5 -1 x6ca7b -1 x6cb24 -1 x6cdda -1 x6ce83 -1 x6d139 -1 x6d1e2
 -1 x6d497 -1 x6d540 -1 x6df44 -1 x6dfed +1 x763a4 +1 x76969 <= +0
-
 -1 x6b9ef -1 x6ba25 -1 x6bd39 -1 x6bd71 -1 x6c098 -1 x6c0d0 -1 x6c3f7 -1 x6c42f
 -1 x6c756 -1 x6c78e -1 x6cab5 -1 x6caed -1 x6ce14 -1 x6ce4c -1 x6d173 -1 x6d1ab
 -1 x6d4d1 -1 x6d509 -1 x6df7e -1 x6dfb6 +1 x7568e -1 x75a6f +1 x75cba -1 x76037
 -1 x76721 -1 x76d91 <= +0
-
 -1 x6baf5 -1 x6bb1c -1 x6be45 -1 x6be6e -1 x6c1a4 -1 x6c1cd -1 x6c503 -1 x6c52c
 -1 x6c862 -1 x6c88b -1 x6cbc1 -1 x6cbea -1 x6cf20 -1 x6cf49 -1 x6d27f -1 x6d2a8
 -1 x6d5dd -1 x6d605 -1 x6e08a -1 x6e0b3 +1 x74af0 -1 x74e1a +1 x75026 -1 x752ec
 <= +0
-
 -1 x6bb53 -1 x6bbf6 -1 x6bea7 -1 x6bf50 -1 x6c206 -1 x6c2af -1 x6c565 -1 x6c60e
 -1 x6c8c4 -1 x6c96d -1 x6cc23 -1 x6cccc -1 x6cf82 -1 x6d02b -1 x6d2e1 -1 x6d38a
 -1 x6d63e -1 x6d6e7 -1 x6e0ec -1 x6e195 +1 x73ddb +1 x7444b <= +0
-
 -1 x6bb8b -1 x6bbc1 -1 x6bee1 -1 x6bf19 -1 x6c240 -1 x6c278 -1 x6c59f -1 x6c5d7
 -1 x6c8fe -1 x6c936 -1 x6cc5d -1 x6cc95 -1 x6cfbc -1 x6cff4 -1 x6d31b -1 x6d353
 -1 x6d678 -1 x6d6b0 -1 x6e126 -1 x6e15e +1 x730c5 -1 x734a6 +1 x736f1 -1 x73a6e
 -1 x74158 -1 x747c8 <= +0
-
 +1 x5de84 -1 x6b005 -1 x6b028 -1 x6b3b0 -1 x6b3d5 -1 x6e2b7 -1 x6e2dd <= +0
-
 -1 x6b066 -1 x6b109 -1 x6b40d -1 x6b4b6 -1 x6e315 -1 x6e3be +1 x76395 +1 x76968
 <= +0
-
 -1 x6b09e -1 x6b0d4 -1 x6b447 -1 x6b47f -1 x6e34f -1 x6e387 +1 x7567f -1 x75a1b
 +1 x75cab -1 x75fed -1 x766d7 -1 x76d47 <= +0
-
 -1 x6b1a1 -1 x6b1c5 -1 x6b550 -1 x6b575 -1 x6e458 -1 x6e47e +1 x74ae1 -1 x74dd6
 +1 x75017 -1 x752b2 <= +0
-
 -1 x6b1fb -1 x6b29e -1 x6b5ad -1 x6b656 -1 x6e4b6 -1 x6e55f +1 x73dcc +1 x7443c
 <= +0
-
 -1 x6b233 -1 x6b269 -1 x6b5e7 -1 x6b61f -1 x6e4f0 -1 x6e528 +1 x730b6 -1 x73452
 +1 x736e2 -1 x73a24 -1 x7410e -1 x7477e <= +0
-
 +1 x5de75 -1 x691e8 -1 x6920e -1 x69533 -1 x6955c -1 x69892 -1 x698bb -1 x69bf1
 -1 x69c1a -1 x69f50 -1 x69f79 -1 x6a2af -1 x6a2d8 -1 x6a60e -1 x6a637 -1 x6a96d
 -1 x6a996 -1 x6accc -1 x6acf4 -1 x6e609 -1 x6e632 <= +0
-
 -1 x6924d -1 x692f0 -1 x69595 -1 x6963e -1 x698f4 -1 x6999d -1 x69c53 -1 x69cfc
 -1 x69fb2 -1 x6a05b -1 x6a311 -1 x6a3ba -1 x6a670 -1 x6a719 -1 x6a9cf -1 x6aa78
 -1 x6ad2d -1 x6add6 -1 x6e66b -1 x6e714 +1 x76386 +1 x76967 <= +0
-
 -1 x69285 -1 x692bb -1 x695cf -1 x69607 -1 x6992e -1 x69966 -1 x69c8d -1 x69cc5
 -1 x69fec -1 x6a024 -1 x6a34b -1 x6a383 -1 x6a6aa -1 x6a6e2 -1 x6aa09 -1 x6aa41
 -1 x6ad67 -1 x6ad9f -1 x6e6a5 -1 x6e6dd +1 x75670 -1 x759c7 +1 x75c9c -1 x75fa3
 -1 x7668d -1 x76cfd <= +0
-
 -1 x6938b -1 x693b2 -1 x696db -1 x69704 -1 x69a3a -1 x69a63 -1 x69d99 -1 x69dc2
 -1 x6a0f8 -1 x6a121 -1 x6a457 -1 x6a480 -1 x6a7b6 -1 x6a7df -1 x6ab15 -1 x6ab3e
 -1 x6ae73 -1 x6ae9b -1 x6e7b1 -1 x6e7da +1 x74ad2 -1 x74d93 +1 x75008 -1 x75279
 <= +0
-
 -1 x693e9 -1 x6948c -1 x6973d -1 x697e6 -1 x69a9c -1 x69b45 -1 x69dfb -1 x69ea4
 -1 x6a15a -1 x6a203 -1 x6a4b9 -1 x6a562 -1 x6a818 -1 x6a8c1 -1 x6ab77 -1 x6ac20
 -1 x6aed4 -1 x6af7d -1 x6e813 -1 x6e8bc +1 x73dbd +1 x7442d <= +0
-
 -1 x69421 -1 x69457 -1 x69777 -1 x697af -1 x69ad6 -1 x69b0e -1 x69e35 -1 x69e6d
 -1 x6a194 -1 x6a1cc -1 x6a4f3 -1 x6a52b -1 x6a852 -1 x6a88a -1 x6abb1 -1 x6abe9
 -1 x6af0e -1 x6af46 -1 x6e84d -1 x6e885 +1 x730a7 -1 x733fe +1 x736d3 -1 x739da
 -1 x740c4 -1 x74734 <= +0
-
 +1 x5de66 -1 x67d3c -1 x67d5f -1 x6822a -1 x6824f <= +0
-
 -1 x67d9d -1 x67e40 -1 x68287 -1 x68330 +1 x76377 +1 x76966 <= +0
-
 -1 x67dd5 -1 x67e0b -1 x682c1 -1 x682f9 +1 x75661 -1 x75973 +1 x75c8d -1 x75f59
 -1 x76643 -1 x76cb3 <= +0
-
 -1 x67ed8 -1 x67efc -1 x683ca -1 x683ef +1 x74ac3 -1 x74d4f +1 x74ff9 -1 x7523f
 <= +0
-
 -1 x67f32 -1 x67fd5 -1 x68427 -1 x684d0 +1 x73dae +1 x7441e <= +0
-
 -1 x67f6a -1 x67fa0 -1 x68461 -1 x68499 +1 x73098 -1 x733aa +1 x736c4 -1 x73990
 -1 x7407a -1 x746ea <= +0
-
 +1 x5de57 -1 x65f1f -1 x65f45 -1 x6626a -1 x66293 -1 x665c9 -1 x665f2 -1 x66928
 -1 x66951 -1 x66c87 -1 x66cb0 -1 x66fe6 -1 x6700f -1 x67345 -1 x6736e -1 x676a4
 -1 x676cd -1 x67a03 -1 x67a2b -1 x6857a -1 x685a3 <= +0
-
 -1 x65f84 -1 x66027 -1 x662cc -1 x66375 -1 x6662b -1 x666d4 -1 x6698a -1 x66a33
 -1 x66ce9 -1 x66d92 -1 x67048 -1 x670f1 -1 x673a7 -1 x67450 -1 x67706 -1 x677af
 -1 x67a64 -1 x67b0d -1 x685dc -1 x68685 +1 x76368 +1 x76965 <= +0
-
 -1 x65fbc -1 x65ff2 -1 x66306 -1 x6633e -1 x66665 -1 x6669d -1 x669c4 -1 x669fc
 -1 x66d23 -1 x66d5b -1 x67082 -1 x670ba -1 x673e1 -1 x67419 -1 x67740 -1 x67778
 -1 x67a9e -1 x67ad6 -1 x68616 -1 x6864e +1 x75652 -1 x7591f +1 x75c7e -1 x75f0f
 -1 x765f9 -1 x76c69 <= +0
-
 -1 x660c2 -1 x660e9 -1 x66412 -1 x6643b -1 x66771 -1 x6679a -1 x66ad0 -1 x66af9
 -1 x66e2f -1 x66e58 -1 x6718e -1 x671b7 -1 x674ed -1 x67516 -1 x6784c -1 x67875
 -1 x67baa -1 x67bd2 -1 x68722 -1 x6874b +1 x74ab4 -1 x74d0c +1 x74fea -1 x75206
 <= +0
-
 -1 x66120 -1 x661c3 -1 x66474 -1 x6651d -1 x667d3 -1 x6687c -1 x66b32 -1 x66bdb
 -1 x66e91 -1 x66f3a -1 x671f0 -1 x67299 -1 x6754f -1 x675f8 -1 x678ae -1 x67957
 -1 x67c0b -1 x67cb4 -1 x68784 -1 x6882d +1 x73d9f +1 x7440f <= +0
-
 -1 x66158 -1 x6618e -1 x664ae -1 x664e6 -1 x6680d -1 x66845 -1 x66b6c -1 x66ba4
 -1 x66ecb -1 x66f03 -1 x6722a -1 x67262 -1 x67589 -1 x675c1 -1 x678e8 -1 x67920
 -1 x67c45 -1 x67c7d -1 x687be -1 x687f6 +1 x73089 -1 x73356 +1 x736b5 -1 x73946
 -1 x74030 -1 x746a0 <= +0
-
 +1 x5de48 -1 x655d2 -1 x655f5 -1 x6597d -1 x659a2 -1 x6894f -1 x68975 <= +0
-
 -1 x65633 -1 x656d6 -1 x659da -1 x65a83 -1 x689ad -1 x68a56 +1 x76359 +1 x76964
 <= +0
-
 -1 x6566b -1 x656a1 -1 x65a14 -1 x65a4c -1 x689e7 -1 x68a1f +1 x75643 -1 x758cb
 +1 x75c6f -1 x75ec5 -1 x765af -1 x76c1f <= +0
-
 -1 x6576e -1 x65792 -1 x65b1d -1 x65b42 -1 x68af0 -1 x68b16 +1 x74aa5 -1 x74cc8
 +1 x74fdb -1 x751cc <= +0
-
 -1 x657c8 -1 x6586b -1 x65b7a -1 x65c23 -1 x68b4e -1 x68bf7 +1 x73d90 +1 x74400
 <= +0
-
 -1 x65800 -1 x65836 -1 x65bb4 -1 x65bec -1 x68b88 -1 x68bc0 +1 x7307a -1 x73302
 +1 x736a6 -1 x738fc -1 x73fe6 -1 x74656 <= +0
-
 +1 x5de39 -1 x637b5 -1 x637db -1 x63b00 -1 x63b29 -1 x63e5f -1 x63e88 -1 x641be
 -1 x641e7 -1 x6451d -1 x64546 -1 x6487c -1 x648a5 -1 x64bdb -1 x64c04 -1 x64f3a
 -1 x64f63 -1 x65299 -1 x652c1 -1 x68ca1 -1 x68cca <= +0
-
 -1 x6381a -1 x638bd -1 x63b62 -1 x63c0b -1 x63ec1 -1 x63f6a -1 x64220 -1 x642c9
 -1 x6457f -1 x64628 -1 x648de -1 x64987 -1 x64c3d -1 x64ce6 -1 x64f9c -1 x65045
 -1 x652fa -1 x653a3 -1 x68d03 -1 x68dac +1 x7634a +1 x76963 <= +0
-
 -1 x63852 -1 x63888 -1 x63b9c -1 x63bd4 -1 x63efb -1 x63f33 -1 x6425a -1 x64292
 -1 x645b9 -1 x645f1 -1 x64918 -1 x64950 -1 x64c77 -1 x64caf -1 x64fd6 -1 x6500e
 -1 x65334 -1 x6536c -1 x68d3d -1 x68d75 +1 x75634 -1 x75877 +1 x75c60 -1 x75e7b
 -1 x76565 -1 x76bd5 <= +0
-
 -1 x63958 -1 x6397f -1 x63ca8 -1 x63cd1 -1 x64007 -1 x64030 -1 x64366 -1 x6438f
 -1 x646c5 -1 x646ee -1 x64a24 -1 x64a4d -1 x64d83 -1 x64dac -1 x650e2 -1 x6510b
 -1 x65440 -1 x65468 -1 x68e49 -1 x68e72 +1 x74a96 -1 x74c85 +1 x74fcc -1 x75193
 <= +0
-
 -1 x639b6 -1 x63a59 -1 x63d0a -1 x63db3 -1 x64069 -1 x64112 -1 x643c8 -1 x64471
 -1 x64727 -1 x647d0 -1 x64a86 -1 x64b2f -1 x64de5 -1 x64e8e -1 x65144 -1 x651ed
 -1 x654a1 -1 x6554a -1 x68eab -1 x68f54 +1 x73d81 +1 x743f1 <= +0
-
 -1 x639ee -1 x63a24 -1 x63d44 -1 x63d7c -1 x640a3 -1 x640db -1 x64402 -1 x6443a
 -1 x64761 -1 x64799 -1 x64ac0 -1 x64af8 -1 x64e1f -1 x64e57 -1 x6517e -1 x651b6
 -1 x654db -1 x65513 -1 x68ee5 -1 x68f1d +1 x7306b -1 x732ae +1 x73697 -1 x738b2
 -1 x73f9c -1 x7460c <= +0
-
 +1 x5de2a -1 x624a1 -1 x624c4 -1 x628c4 -1 x628e9 <= +0
-
 -1 x62502 -1 x625a5 -1 x62921 -1 x629ca +1 x7633b +1 x76962 <= +0
-
 -1 x6253a -1 x62570 -1 x6295b -1 x62993 +1 x75625 -1 x75823 +1 x75c51 -1 x75e31
 -1 x7651b -1 x76b8b <= +0
-
 -1 x6263d -1 x62661 -1 x62a64 -1 x62a89 +1 x74a87 -1 x74c41 +1 x74fbd -1 x75159
 <= +0
-
 -1 x62697 -1 x6273a -1 x62ac1 -1 x62b6a +1 x73d72 +1 x743e2 <= +0
-
 -1 x626cf -1 x62705 -1 x62afb -1 x62b33 +1 x7305c -1 x7325a +1 x73688 -1 x73868
 -1 x73f52 -1 x745c2 <= +0
-
 +1 x5de1b -1 x60684 -1 x606aa -1 x609cf -1 x609f8 -1 x60d2e -1 x60d57 -1 x6108d
 -1 x610b6 -1 x613ec -1 x61415 -1 x6174b -1 x61774 -1 x61aaa -1 x61ad3 -1 x61e09
 -1 x61e32 -1 x62168 -1 x62190 -1 x62c14 -1 x62c3d <= +0
-
 -1 x606e9 -1 x6078c -1 x60a31 -1 x60ada -1 x60d90 -1 x60e39 -1 x610ef -1 x61198
 -1 x6144e -1 x614f7 -1 x617ad -1 x61856 -1 x61b0c -1 x61bb5 -1 x61e6b -1 x61f14
 -1 x621c9 -1 x62272 -1 x62c76 -1 x62d1f +1 x7632c +1 x76961 <= +0
-
 -1 x60721 -1 x60757 -1 x60a6b -1 x60aa3 -1 x60dca -1 x60e02 -1 x61129 -1 x61161
 -1 x61488 -1 x614c0 -1 x617e7 -1 x6181f -1 x61b46 -1 x61b7e -1 x61ea5 -1 x61edd
 -1 x62203 -1 x6223b -1 x62cb0 -1 x62ce8 +1 x75616 -1 x757cf +1 x75c42 -1 x75de7
 -1 x764d1 -1 x76b41 <= +0
-
 -1 x60827 -1 x6084e -1 x60b77 -1 x60ba0 -1 x60ed6 -1 x60eff -1 x61235 -1 x6125e
 -1 x61594 -1 x615bd -1 x618f3 -1 x6191c -1 x61c52 -1 x61c7b -1 x61fb1 -1 x61fda
 -1 x6230f -1 x62337 -1 x62dbc -1 x62de5 +1 x74a78 -1 x74bfe +1 x74fae -1 x75120
 <= +0
-
 -1 x60885 -1 x60928 -1 x60bd9 -1 x60c82 -1 x60f38 -1 x60fe1 -1 x61297 -1 x61340
 -1 x615f6 -1 x6169f -1 x61955 -1 x619fe -1 x61cb4 -1 x61d5d -1 x62013 -1 x620bc
 -1 x62370 -1 x62419 -1 x62e1e -1 x62ec7 +1 x73d63 +1 x743d3 <= +0
-
 -1 x608bd -1 x608f3 -1 x60c13 -1 x60c4b -1 x60f72 -1 x60faa -1 x612d1 -1 x61309
 -1 x61630 -1 x61668 -1 x6198f -1 x619c7 -1 x61cee -1 x61d26 -1 x6204d -1 x62085
 -1 x623aa -1 x623e2 -1 x62e58 -1 x62e90 +1 x7304d -1 x73206 +1 x73679 -1 x7381e
 -1 x73f08 -1 x74578 <= +0
-
 +1 x5de0c -1 x5fd37 -1 x5fd5a -1 x600e2 -1 x60107 -1 x62fe9 -1 x6300f <= +0
-
 -1 x5fd98 -1 x5fe3b -1 x6013f -1 x601e8 -1 x63047 -1 x630f0 +1 x7631d +1 x76960
 <= +0
-
 -1 x5fdd0 -1 x5fe06 -1 x60179 -1 x601b1 -1 x63081 -1 x630b9 +1 x75607 -1 x7577b
 +1 x75c33 -1 x75d9d -1 x76487 -1 x76af7 <= +0
-
 -1 x5fed3 -1 x5fef7 -1 x60282 -1 x602a7 -1 x6318a -1 x631b0 +1 x74a69 -1 x74bba
 +1 x74f9f -1 x750e6 <= +0
-
 -1 x5ff2d -1 x5ffd0 -1 x602df -1 x60388 -1 x631e8 -1 x63291 +1 x73d54 +1 x743c4
 <= +0
-
 -1 x5ff65 -1 x5ff9b -1 x60319 -1 x60351 -1 x63222 -1 x6325a +1 x7303e -1 x731b2
 +1 x7366a -1 x737d4 -1 x73ebe -1 x7452e <= +0
-
 +1 x5ddfd -1 x5df1a -1 x5df40 -1 x5e265 -1 x5e28e -1 x5e5c4 -1 x5e5ed -1 x5e923
 -1 x5e94c -1 x5ec82 -1 x5ecab -1 x5efe1 -1 x5f00a -1 x5f340 -1 x5f369 -1 x5f69f
 -1 x5f6c8 -1 x5f9fe -1 x5fa26 -1 x6333b -1 x63364 <= +0
-
 -1 x5df7f -1 x5e022 -1 x5e2c7 -1 x5e370 -1 x5e626 -1 x5e6cf -1 x5e985 -1 x5ea2e
 -1 x5ece4 -1 x5ed8d -1 x5f043 -1 x5f0ec -1 x5f3a2 -1 x5f44b -1 x5f701 -1 x5f7aa
 -1 x5fa5f -1 x5fb08 -1 x6339d -1 x63446 +1 x7630e +1 x7695f <= +0
-
 -1 x5dfb7 -1 x5dfed -1 x5e301 -1 x5e339 -1 x5e660 -1 x5e698 -1 x5e9bf -1 x5e9f7
 -1 x5ed1e -1 x5ed56 -1 x5f07d -1 x5f0b5 -1 x5f3dc -1 x5f414 -1 x5f73b -1 x5f773
 -1 x5fa99 -1 x5fad1 -1 x633d7 -1 x6340f +1 x755f8 -1 x75727 +1 x75c24 -1 x75d53
 -1 x7643d -1 x76aad <= +0
-
 -1 x5e0bd -1 x5e0e4 -1 x5e40d -1 x5e436 -1 x5e76c -1 x5e795 -1 x5eacb -1 x5eaf4
 -1 x5ee2a -1 x5ee53 -1 x5f189 -1 x5f1b2 -1 x5f4e8 -1 x5f511 -1 x5f847 -1 x5f870
 -1 x5fba5 -1 x5fbcd -1 x634e3 -1 x6350c +1 x74a5a -1 x74b77 +1 x74f90 -1 x750ad
 <= +0
-
 -1 x5e11b -1 x5e1be -1 x5e46f -1 x5e518 -1 x5e7ce -1 x5e877 -1 x5eb2d -1 x5ebd6
 -1 x5ee8c -1 x5ef35 -1 x5f1eb -1 x5f294 -1 x5f54a -1 x5f5f3 -1 x5f8a9 -1 x5f952
 -1 x5fc06 -1 x5fcaf -1 x63545 -1 x635ee +1 x73d45 +1 x743b5 <= +0
-
 -1 x5e153 -1 x5e189 -1 x5e4a9 -1 x5e4e1 -1 x5e808 -1 x5e840 -1 x5eb67 -1 x5eb9f
 -1 x5eec6 -1 x5eefe -1 x5f225 -1 x5f25d -1 x5f584 -1 x5f5bc -1 x5f8e3 -1 x5f91b
 -1 x5fc40 -1 x5fc78 -1 x6357f -1 x635b7 +1 x7302f -1 x7315e +1 x7365b -1 x7378a
 -1 x73e74 -1 x744e4 <= +0
-
 -1 x5ddb7 +1 x7709e +1 x770a0 <= +0
-
 -1 x5ddd1 -1 x5dede -1 x77066 +1 x7709f +1 x770a1 <= +0
-
 +1 x762b7 +1 x762b9 -1 x763ef -1 x7696e -1 x76f36 -1 x77105 +1 x771ce -1 x7722f
 <= +0
-
 -1 x756d9 -1 x75d05 -1 x76252 -1 x762b4 +1 x762b8 +1 x762ba -1 x76925 -1 x76f9f
 -1 x77167 -1 x771ca +1 x771cf <= +0
-
 +1 x75509 +1 x7550b -1 x772a4 +1 x77348 <= +0
-
 -1 x74b3b -1 x75071 -1 x75481 -1 x754d1 +1 x7550a +1 x7550c -1 x772be -1 x7730f
 +1 x77349 <= +0
-
 +1 x73cee +1 x73cf0 -1 x73e26 -1 x74496 -1 x7496d -1 x75570 -1 x773a8 +1 x77471
 -1 x774d2 <= +0
-
 -1 x73110 -1 x7373c -1 x73c89 -1 x73ceb +1 x73cef +1 x73cf1 -1 x7435c -1 x749d6
 -1 x7740a -1 x7746d +1 x77472 <= +0
-
 +1 x71222 +1 x71224 -1 x7151d +1 x71571 -1 x7187b +1 x718d0 -1 x71bda +1 x71c2f
 -1 x71f39 +1 x71f8e -1 x72298 +1 x722ed -1 x725f7 +1 x7264c -1 x72956 +1 x729ab
 -1 x72cb5 +1 x72d09 -1 x77555 +1 x775a9 -1 x778ad <= +0
-
 -1 x5decf -1 x711f8 -1 x7121f +1 x71223 +1 x71225 -1 x71544 -1 x7156d +1 x71572
 -1 x718a3 -1 x718cc +1 x718d1 -1 x71c02 -1 x71c2b +1 x71c30 -1 x71f61 -1 x71f8a
 +1 x71f8f -1 x722c0 -1 x722e9 +1 x722ee -1 x7261f -1 x72648 +1 x7264d -1 x7297e
 -1 x729a7 +1 x729ac -1 x72cdc -1 x72d05 +1 x72d0a -1 x7757c -1 x775a5 +1 x775aa
 <= +0
-
 -1 x7125d +1 x712cc -1 x71301 -1 x715a6 +1 x71619 -1 x7164f -1 x71905 +1 x71978
 -1 x719ae -1 x71c64 +1 x71cd7 -1 x71d0d -1 x71fc3 +1 x72036 -1 x7206c -1 x72322
 +1 x72395 -1 x723cb -1 x72681 +1 x726f4 -1 x7272a -1 x729e0 +1 x72a53 -1 x72a89
 -1 x72d3e +1 x72db1 -1 x72de7 +1 x75bca -1 x763e0 -1 x7696d -1 x775dd +1 x7764f
 -1 x77685 <= +0
-
 -1 x71292 -1 x712c9 +1 x712cd -1 x715dd -1 x71615 +1 x7161a -1 x7193c -1 x71974
 +1 x71979 -1 x71c9b -1 x71cd3 +1 x71cd8 -1 x71ffa -1 x72032 +1 x72037 -1 x72359
 -1 x72391 +1 x72396 -1 x726b8 -1 x726f0 +1 x726f5 -1 x72a17 -1 x72a4f +1 x72a54
 -1 x72d75 -1 x72dad +1 x72db2 -1 x756ca -1 x75bc7 +1 x75bcb -1 x75cf6 -1 x76167
 -1 x76851 -1 x76ec1 -1 x77613 -1 x7764b +1 x77650 <= +0
-
 -1 x71375 +1 x713c6 -1 x716c4 +1 x71719 -1 x71a23 +1 x71a78 -1 x71d82 +1 x71dd7
 -1 x720e1 +1 x72136 -1 x72440 +1 x72495 -1 x7279f +1 x727f4 -1 x72afe +1 x72b53
 -1 x72e5c +1 x72eb0 +1 x74f36 -1 x776fa +1 x7774e <= +0
-
 -1 x7139b -1 x713c3 +1 x713c7 -1 x716ec -1 x71715 +1 x7171a -1 x71a4b -1 x71a74
 +1 x71a79 -1 x71daa -1 x71dd3 +1 x71dd8 -1 x72109 -1 x72132 +1 x72137 -1 x72468
 -1 x72491 +1 x72496 -1 x727c7 -1 x727f0 +1 x727f5 -1 x72b26 -1 x72b4f +1 x72b54
 -1 x72e83 -1 x72eac +1 x72eb1 -1 x74b2c -1 x74f33 +1 x74f37 -1 x75062 -1 x753dd
 -1 x77721 -1 x7774a +1 x7774f <= +0
-
 -1 x713f9 +1 x71468 -1 x7149d -1 x7174e +1 x717c1 -1 x717f7 -1 x71aad +1 x71b20
 -1 x71b56 -1 x71e0c +1 x71e7f -1 x71eb5 -1 x7216b +1 x721de -1 x72214 -1 x724ca
 +1 x7253d -1 x72573 -1 x72829 +1 x7289c -1 x728d2 -1 x72b88 +1 x72bfb -1 x72c31
 -1 x72ee5 +1 x72f58 -1 x72f8e +1 x73601 -1 x73e17 -1 x74487 -1 x77782 +1 x777f4
 -1 x7782a <= +0
-
 -1 x7142e -1 x71465 +1 x71469 -1 x71785 -1 x717bd +1 x717c2 -1 x71ae4 -1 x71b1c
 +1 x71b21 -1 x71e43 -1 x71e7b +1 x71e80 -1 x721a2 -1 x721da +1 x721df -1 x72501
 -1 x72539 +1 x7253e -1 x72860 -1 x72898 +1 x7289d -1 x72bbf -1 x72bf7 +1 x72bfc
 -1 x72f1c -1 x72f54 +1 x72f59 -1 x73101 -1 x735fe +1 x73602 -1 x7372d -1 x73b9e
 -1 x74288 -1 x748f8 -1 x777b8 -1 x777f0 +1 x777f5 <= +0
-
 +1 x708d1 +1 x708d3 -1 x70c32 +1 x70c7f -1 x70fe5 -1 x71042 -1 x7109f -1 x710fc
 -1 x71159 -1 x711b6 -1 x77a2f +1 x77a7d -1 x7814b <= +0
-
 -1 x5dec0 -1 x708a1 -1 x708c4 +1 x708d2 +1 x708d4 -1 x70c4c -1 x70c71 +1 x70c80
 -1 x77a4a -1 x77a6f +1 x77a7e <= +0
-
 -1 x7090c +1 x7097b -1 x709b0 -1 x70cb4 +1 x70d27 -1 x70d5d +1 x75b76 -1 x763d1
 -1 x7696c -1 x77ab1 +1 x77b23 -1 x77b59 <= +0
-
 -1 x70941 -1 x70978 +1 x7097c -1 x70ceb -1 x70d23 +1 x70d28 -1 x756bb -1 x75b73
 +1 x75b77 -1 x75ce7 -1 x7611d -1 x76807 -1 x76e77 -1 x77ae7 -1 x77b1f +1 x77b24
 <= +0
-
 -1 x70a23 +1 x70a6e -1 x70dd1 +1 x70e1f +1 x74ef1 -1 x77bcd +1 x77c1b <= +0
-
 -1 x70a3d -1 x70a61 +1 x70a6f -1 x70dec -1 x70e11 +1 x70e20 -1 x74b1d -1 x74ee5
 +1 x74ef2 -1 x75053 -1 x75399 -1 x77be8 -1 x77c0d +1 x77c1c <= +0
-
 -1 x70aa1 +1 x70b10 -1 x70b45 -1 x70e54 +1 x70ec7 -1 x70efd +1 x735ad -1 x73e08
 -1 x74478 -1 x77c4f +1 x77cc1 -1 x77cf7 <= +0
-
 -1 x70ad6 -1 x70b0d +1 x70b11 -1 x70e8b -1 x70ec3 +1 x70ec8 -1 x730f2 -1 x735aa
 +1 x735ae -1 x7371e -1 x73b54 -1 x7423e -1 x748ae -1 x77c85 -1 x77cbd +1 x77cc2
 <= +0
-
 +1 x6eab8 +1 x6eaba -1 x6edb3 +1 x6ee07 -1 x6f111 +1 x6f166 -1 x6f470 +1 x6f4c5
 -1 x6f7cf +1 x6f824 -1 x6fb2e +1 x6fb83 -1 x6fe8d +1 x6fee2 -1 x701ec +1 x70241
 -1 x7054b +1 x7059f -1 x70bc5 -1 x70f7f -1 x77d79 +1 x77dcd -1 x780d1 <= +0
-
 -1 x5deb1 -1 x6ea8e -1 x6eab5 +1 x6eab9 +1 x6eabb -1 x6edda -1 x6ee03 +1 x6ee08
 -1 x6f139 -1 x6f162 +1 x6f167 -1 x6f498 -1 x6f4c1 +1 x6f4c6 -1 x6f7f7 -1 x6f820
 +1 x6f825 -1 x6fb56 -1 x6fb7f +1 x6fb84 -1 x6feb5 -1 x6fede +1 x6fee3 -1 x70214
 -1 x7023d +1 x70242 -1 x70572 -1 x7059b +1 x705a0 -1 x77da0 -1 x77dc9 +1 x77dce
 <= +0
-
 -1 x6eaf3 +1 x6eb62 -1 x6eb97 -1 x6ee3c +1 x6eeaf -1 x6eee5 -1 x6f19b +1 x6f20e
 -1 x6f244 -1 x6f4fa +1 x6f56d -1 x6f5a3 -1 x6f859 +1 x6f8cc -1 x6f902 -1 x6fbb8
 +1 x6fc2b -1 x6fc61 -1 x6ff17 +1 x6ff8a -1 x6ffc0 -1 x70276 +1 x702e9 -1 x7031f
 -1 x705d4 +1 x70647 -1 x7067d +1 x75b22 -1 x763c2 -1 x7696b -1 x77e01 +1 x77e73
 -1 x77ea9 <= +0
-
 -1 x6eb28 -1 x6eb5f +1 x6eb63 -1 x6ee73 -1 x6eeab +1 x6eeb0 -1 x6f1d2 -1 x6f20a
 +1 x6f20f -1 x6f531 -1 x6f569 +1 x6f56e -1 x6f890 -1 x6f8c8 +1 x6f8cd -1 x6fbef
 -1 x6fc27 +1 x6fc2c -1 x6ff4e -1 x6ff86 +1 x6ff8b -1 x702ad -1 x702e5 +1 x702ea
 -1 x7060b -1 x70643 +1 x70648 -1 x756ac -1 x75b1f +1 x75b23 -1 x75cd8 -1 x760d3
 -1 x767bd -1 x76e2d -1 x77e37 -1 x77e6f +1 x77e74 <= +0
-
 -1 x6ec0b +1 x6ec5c -1 x6ef5a +1 x6efaf -1 x6f2b9 +1 x6f30e -1 x6f618 +1 x6f66d
 -1 x6f977 +1 x6f9cc -1 x6fcd6 +1 x6fd2b -1 x70035 +1 x7008a -1 x70394 +1 x703e9
 -1 x706f2 +1 x70746 +1 x74eaf -1 x77f1e +1 x77f72 <= +0
-
 -1 x6ec31 -1 x6ec59 +1 x6ec5d -1 x6ef82 -1 x6efab +1 x6efb0 -1 x6f2e1 -1 x6f30a
 +1 x6f30f -1 x6f640 -1 x6f669 +1 x6f66e -1 x6f99f -1 x6f9c8 +1 x6f9cd -1 x6fcfe
 -1 x6fd27 +1 x6fd2c -1 x7005d -1 x70086 +1 x7008b -1 x703bc -1 x703e5 +1 x703ea
 -1 x70719 -1 x70742 +1 x70747 -1 x74b0e -1 x74eac +1 x74eb0 -1 x75044 -1 x7536a
 -1 x77f45 -1 x77f6e +1 x77f73 <= +0
-
 -1 x6ec8f +1 x6ecfe -1 x6ed33 -1 x6efe4 +1 x6f057 -1 x6f08d -1 x6f343 +1 x6f3b6
 -1 x6f3ec -1 x6f6a2 +1 x6f715 -1 x6f74b -1 x6fa01 +1 x6fa74 -1 x6faaa -1 x6fd60
 +1 x6fdd3 -1 x6fe09 -1 x700bf +1 x70132 -1 x70168 -1 x7041e +1 x70491 -1 x704c7
 -1 x7077b +1 x707ee -1 x70824 +1 x73559 -1 x73df9 -1 x74469 -1 x77fa6 +1 x78018
 -1 x7804e <= +0
-
 -1 x6ecc4 -1 x6ecfb +1 x6ecff -1 x6f01b -1 x6f053 +1 x6f058 -1 x6f37a -1 x6f3b2
 +1 x6f3b7 -1 x6f6d9 -1 x6f711 +1 x6f716 -1 x6fa38 -1 x6fa70 +1 x6fa75 -1 x6fd97
 -1 x6fdcf +1 x6fdd4 -1 x700f6 -1 x7012e +1 x70133 -1 x70455 -1 x7048d +1 x70492
 -1 x707b2 -1 x707ea +1 x707ef -1 x730e3 -1 x73556 +1 x7355a -1 x7370f -1 x73b0a
 -1 x741f4 -1 x74864 -1 x77fdc -1 x78014 +1 x78019 <= +0
-
 +1 x6d7a0 +1 x6d7a2 -1 x6db79 +1 x6dbc6 -1 x6ea46 -1 x782e5 <= +0
-
 -1 x5dea2 -1 x6d770 -1 x6d793 +1 x6d7a1 +1 x6d7a3 -1 x6db93 -1 x6dbb8 +1 x6dbc7
 <= +0
-
 -1 x6d7db +1 x6d84a -1 x6d87f -1 x6dbfb +1 x6dc6e -1 x6dca4 +1 x75ace -1 x763b3
 -1 x7696a <= +0
-
 -1 x6d810 -1 x6d847 +1 x6d84b -1 x6dc32 -1 x6dc6a +1 x6dc6f -1 x7569d -1 x75acb
 +1 x75acf -1 x75cc9 -1 x76089 -1 x76773 -1 x76de3 <= +0
-
 -1 x6d8f2 +1 x6d93d -1 x6dd18 +1 x6dd66 +1 x74e6a <= +0
-
 -1 x6d90c -1 x6d930 +1 x6d93e -1 x6dd33 -1 x6dd58 +1 x6dd67 -1 x74aff -1 x74e5e
 +1 x74e6b -1 x75035 -1 x75326 <= +0
-
 -1 x6d970 +1 x6d9df -1 x6da14 -1 x6dd9b +1 x6de0e -1 x6de44 +1 x73505 -1 x73dea
 -1 x7445a <= +0
-
 -1 x6d9a5 -1 x6d9dc +1 x6d9e0 -1 x6ddd2 -1 x6de0a +1 x6de0f -1 x730d4 -1 x73502
 +1 x73506 -1 x73700 -1 x73ac0 -1 x741aa -1 x7481a <= +0
-
 +1 x6b987 +1 x6b989 -1 x6bc82 +1 x6bcd6 -1 x6bfe0 +1 x6c035 -1 x6c33f +1 x6c394
 -1 x6c69e +1 x6c6f3 -1 x6c9fd +1 x6ca52 -1 x6cd5c +1 x6cdb1 -1 x6d0bb +1 x6d110
 -1 x6d41a +1 x6d46e -1 x6da94 -1 x6dec6 +1 x6df1b -1 x6e224 <= +0
-
 -1 x5de93 -1 x6b95d -1 x6b984 +1 x6b988 +1 x6b98a -1 x6bca9 -1 x6bcd2 +1 x6bcd7
 -1 x6c008 -1 x6c031 +1 x6c036 -1 x6c367 -1 x6c390 +1 x6c395 -1 x6c6c6 -1 x6c6ef
 +1 x6c6f4 -1 x6ca25 -1 x6ca4e +1 x6ca53 -1 x6cd84 -1 x6cdad +1 x6cdb2 -1 x6d0e3
 -1 x6d10c +1 x6d111 -1 x6d441 -1 x6d46a +1 x6d46f -1 x6deee -1 x6df17 +1 x6df1c
 <= +0
-
 -1 x6b9c2 +1 x6ba31 -1 x6ba66 -1 x6bd0b +1 x6bd7e -1 x6bdb4 -1 x6c06a +1 x6c0dd
 -1 x6c113 -1 x6c3c9 +1 x6c43c -1 x6c472 -1 x6c728 +1 x6c79b -1 x6c7d1 -1 x6ca87
 +1 x6cafa -1 x6cb30 -1 x6cde6 +1 x6ce59 -1 x6ce8f -1 x6d145 +1 x6d1b8 -1 x6d1ee
 -1 x6d4a3 +1 x6d516 -1 x6d54c -1 x6df50 +1 x6dfc3 -1 x6dff9 +1 x75a7a -1 x763a4
 -1 x76969 <= +0
-
 -1 x6b9f7 -1 x6ba2e +1 x6ba32 -1 x6bd42 -1 x6bd7a +1 x6bd7f -1 x6c0a1 -1 x6c0d9
 +1 x6c0de -1 x6c400 -1 x6c438 +1 x6c43d -1 x6c75f -1 x6c797 +1 x6c79c -1 x6cabe
 -1 x6caf6 +1 x6cafb -1 x6ce1d -1 x6ce55 +1 x6ce5a -1 x6d17c -1 x6d1b4 +1 x6d1b9
 -1 x6d4da -1 x6d512 +1 x6d517 -1 x6df87 -1 x6dfbf +1 x6dfc4 -1 x7568e -1 x75a77
 +1 x75a7b -1 x75cba -1 x7603f -1 x76729 -1 x76d99 <= +0
-
 -1 x6bada +1 x6bb2b -1 x6be29 +1 x6be7e -1 x6c188 +1 x6c1dd -1 x6c4e7 +1 x6c53c
 -1 x6c846 +1 x6c89b -1 x6cba5 +1 x6cbfa -1 x6cf04 +1 x6cf59 -1 x6d263 +1 x6d2b8
 -1 x6d5c1 +1 x6d615 -1 x6e06e +1 x6e0c3 +1 x74e28 <= +0
-
 -1 x6bb00 -1 x6bb28 +1 x6bb2c -1 x6be51 -1 x6be7a +1 x6be7f -1 x6c1b0 -1 x6c1d9
 +1 x6c1de -1 x6c50f -1 x6c538 +1 x6c53d -1 x6c86e -1 x6c897 +1 x6c89c -1 x6cbcd
 -1 x6cbf6 +1 x6cbfb -1 x6cf2c -1 x6cf55 +1 x6cf5a -1 x6d28b -1 x6d2b4 +1 x6d2b9
 -1 x6d5e8 -1 x6d611 +1 x6d616 -1 x6e096 -1 x6e0bf +1 x6e0c4 -1 x74af0 -1 x74e25
 +1 x74e29 -1 x75026 -1 x752f7 <= +0
-
 -1 x6bb5e +1 x6bbcd -1 x6bc02 -1 x6beb3 +1 x6bf26 -1 x6bf5c -1 x6c212 +1 x6c285
 -1 x6c2bb -1 x6c571 +1 x6c5e4 -1 x6c61a -1 x6c8d0 +1 x6c943 -1 x6c979 -1 x6cc2f
 +1 x6cca2 -1 x6ccd8 -1 x6cf8e +1 x6d001 -1 x6d037 -1 x6d2ed +1 x6d360 -1 x6d396
 -1 x6d64a +1 x6d6bd -1 x6d6f3 -1 x6e0f8 +1 x6e16b -1 x6e1a1 +1 x734b1 -1 x73ddb
 -1 x7444b <= +0
-
 -1 x6bb93 -1 x6bbca +1 x6bbce -1 x6beea -1 x6bf22 +1 x6bf27 -1 x6c249 -1 x6c281
 +1 x6c286 -1 x6c5a8 -1 x6c5e0 +1 x6c5e5 -1 x6c907 -1 x6c93f +1 x6c944 -1 x6cc66
 -1 x6cc9e +1 x6cca3 -1 x6cfc5 -1 x6cffd +1 x6d002 -1 x6d324 -1 x6d35c +1 x6d361
 -1 x6d681 -1 x6d6b9 +1 x6d6be -1 x6e12f -1 x6e167 +1 x6e16c -1 x730c5 -1 x734ae
 +1 x734b2 -1 x736f1 -1 x73a76 -1 x74160 -1 x747d0 <= +0
-
 +1 x6b036 +1 x6b038 -1 x6b397 +1 x6b3e4 -1 x6b74a -1 x6b7a7 -1 x6b804 -1 x6b861
 -1 x6b8be -1 x6b91b -1 x6db01 -1 x6e29d +1 x6e2ec -1 x6e9c5 <= +0
-
 -1 x5de84 -1 x6b006 -1 x6b029 +1 x6b037 +1 x6b039 -1 x6b3b1 -1 x6b3d6 +1 x6b3e5
 -1 x6e2b8 -1 x6e2de +1 x6e2ed <= +0
-
 -1 x6b071 +1 x6b0e0 -1 x6b115 -1 x6b419 +1 x6b48c -1 x6b4c2 -1 x6e321 +1 x6e394
 -1 x6e3ca +1 x75a26 -1 x76395 -1 x76968 <= +0
-
 -1 x6b0a6 -1 x6b0dd +1 x6b0e1 -1 x6b450 -1 x6b488 +1 x6b48d -1 x6e358 -1 x6e390
 +1 x6e395 -1 x7567f -1 x75a23 +1 x75a27 -1 x75cab -1 x75ff5 -1 x766df -1 x76d4f
 <= +0
-
 -1 x6b188 +1 x6b1d3 -1 x6b536 +1 x6b584 -1 x6e43e +1 x6e48d +1 x74de3 <= +0
-
 -1 x6b1a2 -1 x6b1c6 +1 x6b1d4 -1 x6b551 -1 x6b576 +1 x6b585 -1 x6e459 -1 x6e47f
 +1 x6e48e -1 x74ae1 -1 x74dd7 +1 x74de4 -1 x75017 -1 x752b3 <= +0
-
 -1 x6b206 +1 x6b275 -1 x6b2aa -1 x6b5b9 +1 x6b62c -1 x6b662 -1 x6e4c2 +1 x6e535
 -1 x6e56b +1 x7345d -1 x73dcc -1 x7443c <= +0
-
 -1 x6b23b -1 x6b272 +1 x6b276 -1 x6b5f0 -1 x6b628 +1 x6b62d -1 x6e4f9 -1 x6e531
 +1 x6e536 -1 x730b6 -1 x7345a +1 x7345e -1 x736e2 -1 x73a2c -1 x74116 -1 x74786
 <= +0
-
 +1 x6921d +1 x6921f -1 x69518 +1 x6956c -1 x69876 +1 x698cb -1 x69bd5 +1 x69c2a
 -1 x69f34 +1 x69f89 -1 x6a293 +1 x6a2e8 -1 x6a5f2 +1 x6a647 -1 x6a951 +1 x6a9a6
 -1 x6acb0 +1 x6ad04 -1 x6b32a -1 x6b6e4 -1 x6e5ed +1 x6e642 -1 x6e94b <= +0
-
 -1 x5de75 -1 x691f3 -1 x6921a +1 x6921e +1 x69220 -1 x6953f -1 x69568 +1 x6956d
 -1 x6989e -1 x698c7 +1 x698cc -1 x69bfd -1 x69c26 +1 x69c2b -1 x69f5c -1 x69f85
 +1 x69f8a -1 x6a2bb -1 x6a2e4 +1 x6a2e9 -1 x6a61a -1 x6a643 +1 x6a648 -1 x6a979
 -1 x6a9a2 +1 x6a9a7 -1 x6acd7 -1 x6ad00 +1 x6ad05 -1 x6e615 -1 x6e63e +1 x6e643
 <= +0
-
 -1 x69258 +1 x692c7 -1 x692fc -1 x695a1 +1 x69614 -1 x6964a -1 x69900 +1 x69973
 -1 x699a9 -1 x69c5f +1 x69cd2 -1 x69d08 -1 x69fbe +1 x6a031 -1 x6a067 -1 x6a31d
 +1 x6a390 -1 x6a3c6 -1 x6a67c +1 x6a6ef -1 x6a725 -1 x6a9db +1 x6aa4e -1 x6aa84
 -1 x6ad39 +1 x6adac -1 x6ade2 -1 x6e677 +1 x6e6ea -1 x6e720 +1 x759d2 -1 x76386
 -1 x76967 <= +0
-
 -1 x6928d -1 x692c4 +1 x692c8 -1 x695d8 -1 x69610 +1 x69615 -1 x69937 -1 x6996f
 +1 x69974 -1 x69c96 -1 x69cce +1 x69cd3 -1 x69ff5 -1 x6a02d +1 x6a032 -1 x6a354
 -1 x6a38c +1 x6a391 -1 x6a6b3 -1 x6a6eb +1 x6a6f0 -1 x6aa12 -1 x6aa4a +1 x6aa4f
 -1 x6ad70 -1 x6ada8 +1 x6adad -1 x6e6ae -1 x6e6e6 +1 x6e6eb -1 x75670 -1 x759cf
 +1 x759d3 -1 x75c9c -1 x75fab -1 x76695 -1 x76d05 <= +0
-
 -1 x69370 +1 x693c1 -1 x696bf +1 x69714 -1 x69a1e +1 x69a73 -1 x69d7d +1 x69dd2
 -1 x6a0dc +1 x6a131 -1 x6a43b +1 x6a490 -1 x6a79a +1 x6a7ef -1 x6aaf9 +1 x6ab4e
 -1 x6ae57 +1 x6aeab -1 x6e795 +1 x6e7ea +1 x74da1 <= +0
-
 -1 x69396 -1 x693be +1 x693c2 -1 x696e7 -1 x69710 +1 x69715 -1 x69a46 -1 x69a6f
 +1 x69a74 -1 x69da5 -1 x69dce +1 x69dd3 -1 x6a104 -1 x6a12d +1 x6a132 -1 x6a463
 -1 x6a48c +1 x6a491 -1 x6a7c2 -1 x6a7eb +1 x6a7f0 -1 x6ab21 -1 x6ab4a +1 x6ab4f
 -1 x6ae7e -1 x6aea7 +1 x6aeac -1 x6e7bd -1 x6e7e6 +1 x6e7eb -1 x74ad2 -1 x74d9e
 +1 x74da2 -1 x75008 -1 x75284 <= +0
-
 -1 x693f4 +1 x69463 -1 x69498 -1 x69749 +1 x697bc -1 x697f2 -1 x69aa8 +1 x69b1b
 -1 x69b51 -1 x69e07 +1 x69e7a -1 x69eb0 -1 x6a166 +1 x6a1d9 -1 x6a20f -1 x6a4c5
 +1 x6a538 -1 x6a56e -1 x6a824 +1 x6a897 -1 x6a8cd -1 x6ab83 +1 x6abf6 -1 x6ac2c
 -1 x6aee0 +1 x6af53 -1 x6af89 -1 x6e81f +1 x6e892 -1 x6e8c8 +1 x73409 -1 x73dbd
 -1 x7442d <= +0
-
 -1 x69429 -1 x69460 +1 x69464 -1 x69780 -1 x697b8 +1 x697bd -1 x69adf -1 x69b17
 +1 x69b1c -1 x69e3e -1 x69e76 +1 x69e7b -1 x6a19d -1 x6a1d5 +1 x6a1da -1 x6a4fc
 -1 x6a534 +1 x6a539 -1 x6a85b -1 x6a893 +1 x6a898 -1 x6abba -1 x6abf2 +1 x6abf7
 -1 x6af17 -1 x6af4f +1 x6af54 -1 x6e856 -1 x6e88e +1 x6e893 -1 x730a7 -1 x73406
 +1 x7340a -1 x736d3 -1 x739e2 -1 x740cc -1 x7473c <= +0
-
 +1 x67d6d +1 x67d6f -1 x68211 +1 x6825e -1 x691ab -1 x783b5 <= +0
-
 -1 x5de66 -1 x67d3d -1 x67d60 +1 x67d6e +1 x67d70 -1 x6822b -1 x68250 +1 x6825f
 <= +0
-
 -1 x67da8 +1 x67e17 -1 x67e4c -1 x68293 +1 x68306 -1 x6833c +1 x7597e -1 x76377
 -1 x76966 <= +0
-
 -1 x67ddd -1 x67e14 +1 x67e18 -1 x682ca -1 x68302 +1 x68307 -1 x75661 -1 x7597b
 +1 x7597f -1 x75c8d -1 x75f61 -1 x7664b -1 x76cbb <= +0
-
 -1 x67ebf +1 x67f0a -1 x683b0 +1 x683fe +1 x74d5c <= +0
-
 -1 x67ed9 -1 x67efd +1 x67f0b -1 x683cb -1 x683f0 +1 x683ff -1 x74ac3 -1 x74d50
 +1 x74d5d -1 x74ff9 -1 x75240 <= +0
-
 -1 x67f3d +1 x67fac -1 x67fe1 -1 x68433 +1 x684a6 -1 x684dc +1 x733b5 -1 x73dae
 -1 x7441e <= +0
-
 -1 x67f72 -1 x67fa9 +1 x67fad -1 x6846a -1 x684a2 +1 x684a7 -1 x73098 -1 x733b2
 +1 x733b6 -1 x736c4 -1 x73998 -1 x74082 -1 x746f2 <= +0
-
 +1 x65f54 +1 x65f56 -1 x6624f +1 x662a3 -1 x665ad +1 x66602 -1 x6690c +1 x66961
 -1 x66c6b +1 x66cc0 -1 x66fca +1 x6701f -1 x67329 +1 x6737e -1 x67688 +1 x676dd
 -1 x679e7 +1 x67a3b -1 x68061 -1 x6855e +1 x685b3 -1 x688bc <= +0
-
 -1 x5de57 -1 x65f2a -1 x65f51 +1 x65f55 +1 x65f57 -1 x66276 -1 x6629f +1 x662a4
 -1 x665d5 -1 x665fe +1 x66603 -1 x66934 -1 x6695d +1 x66962 -1 x66c93 -1 x66cbc
 +1 x66cc1 -1 x66ff2 -1 x6701b +1 x67020 -1 x67351 -1 x6737a +1 x6737f -1 x676b0
 -1 x676d9 +1 x676de -1 x67a0e -1 x67a37 +1 x67a3c -1 x68586 -1 x685af +1 x685b4
 <= +0
-
 -1 x65f8f +1 x65ffe -1 x66033 -1 x662d8 +1 x6634b -1 x66381 -1 x66637 +1 x666aa
 -1 x666e0 -1 x66996 +1 x66a09 -1 x66a3f -1 x66cf5 +1 x66d68 -1 x66d9e -1 x67054
 +1 x670c7 -1 x670fd -1 x673b3 +1 x67426 -1 x6745c -1 x67712 +1 x67785 -1 x677bb
 -1 x67a70 +1 x67ae3 -1 x67b19 -1 x685e8 +1 x6865b -1 x68691 +1 x7592a -1 x76368
 -1 x76965 <= +0
-
 -1 x65fc4 -1 x65ffb +1 x65fff -1 x6630f -1 x66347 +1 x6634c -1 x6666e -1 x666a6
 +1 x666ab -1 x669cd -1 x66a05 +1 x66a0a -1 x66d2c -1 x66d64 +1 x66d69 -1 x6708b
 -1 x670c3 +1 x670c8 -1 x673ea -1 x67422 +1 x67427 -1 x67749 -1 x67781 +1 x67786
 -1 x67aa7 -1 x67adf +1 x67ae4 -1 x6861f -1 x68657 +1 x6865c -1 x75652 -1 x75927
 +1 x7592b -1 x75c7e -1 x75f17 -1 x76601 -1 x76c71 <= +0
-
 -1 x660a7 +1 x660f8 -1 x663f6 +1 x6644b -1 x66755 +1 x667aa -1 x66ab4 +1 x66b09
 -1 x66e13 +1 x66e68 -1 x67172 +1 x671c7 -1 x674d1 +1 x67526 -1 x67830 +1 x67885
 -1 x67b8e +1 x67be2 -1 x68706 +1 x6875b +1 x74d1a <= +0
-
 -1 x660cd -1 x660f5 +1 x660f9 -1 x6641e -1 x66447 +1 x6644c -1 x6677d -1 x667a6
 +1 x667ab -1 x66adc -1 x66b05 +1 x66b0a -1 x66e3b -1 x66e64 +1 x66e69 -1 x6719a
 -1 x671c3 +1 x671c8 -1 x674f9 -1 x67522 +1 x67527 -1 x67858 -1 x67881 +1 x67886
 -1 x67bb5 -1 x67bde +1 x67be3 -1 x6872e -1 x68757 +1 x6875c -1 x74ab4 -1 x74d17
 +1 x74d1b -1 x74fea -1 x75211 <= +0
-
 -1 x6612b +1 x6619a -1 x661cf -1 x66480 +1 x664f3 -1 x66529 -1 x667df +1 x66852
 -1 x66888 -1 x66b3e +1 x66bb1 -1 x66be7 -1 x66e9d +1 x66f10 -1 x66f46 -1 x671fc
 +1 x6726f -1 x672a5 -1 x6755b +1 x675ce -1 x67604 -1 x678ba +1 x6792d -1 x67963
 -1 x67c17 +1 x67c8a -1 x67cc0 -1 x68790 +1 x68803 -1 x68839 +1 x73361 -1 x73d9f
 -1 x7440f <= +0
-
 -1 x66160 -1 x66197 +1 x6619b -1 x664b7 -1 x664ef +1 x664f4 -1 x66816 -1 x6684e
 +1 x66853 -1 x66b75 -1 x66bad +1 x66bb2 -1 x66ed4 -1 x66f0c +1 x66f11 -1 x67233
 -1 x6726b +1 x67270 -1 x67592 -1 x675ca +1 x675cf -1 x678f1 -1 x67929 +1 x6792e
 -1 x67c4e -1 x67c86 +1 x67c8b -1 x687c7 -1 x687ff +1 x68804 -1 x73089 -1 x7335e
 +1 x73362 -1 x736b5 -1 x7394e -1 x74038 -1 x746a8 <= +0
-
 +1 x65603 +1 x65605 -1 x65964 +1 x659b1 -1 x65d17 -1 x65d74 -1 x65dd1 -1 x65e2e
 -1 x65e8b -1 x65ee8 -1 x680ce -1 x68935 +1 x68984 -1 x6905d <= +0
-
 -1 x5de48 -1 x655d3 -1 x655f6 +1 x65604 +1 x65606 -1 x6597e -1 x659a3 +1 x659b2
 -1 x68950 -1 x68976 +1 x68985 <= +0
-
 -1 x6563e +1 x656ad -1 x656e2 -1 x659e6 +1 x65a59 -1 x65a8f -1 x689b9 +1 x68a2c
 -1 x68a62 +1 x758d6 -1 x76359 -1 x76964 <= +0
-
 -1 x65673 -1 x656aa +1 x656ae -1 x65a1d -1 x65a55 +1 x65a5a -1 x689f0 -1 x68a28
 +1 x68a2d -1 x75643 -1 x758d3 +1 x758d7 -1 x75c6f -1 x75ecd -1 x765b7 -1 x76c27
 <= +0
-
 -1 x65755 +1 x657a0 -1 x65b03 +1 x65b51 -1 x68ad6 +1 x68b25 +1 x74cd5 <= +0
-
 -1 x6576f -1 x65793 +1 x657a1 -1 x65b1e -1 x65b43 +1 x65b52 -1 x68af1 -1 x68b17
 +1 x68b26 -1 x74aa5 -1 x74cc9 +1 x74cd6 -1 x74fdb -1 x751cd <= +0
-
 -1 x657d3 +1 x65842 -1 x65877 -1 x65b86 +1 x65bf9 -1 x65c2f -1 x68b5a +1 x68bcd
 -1 x68c03 +1 x7330d -1 x73d90 -1 x74400 <= +0
-
 -1 x65808 -1 x6583f +1 x65843 -1 x65bbd -1 x65bf5 +1 x65bfa -1 x68b91 -1 x68bc9
 +1 x68bce -1 x7307a -1 x7330a +1 x7330e -1 x736a6 -1 x73904 -1 x73fee -1 x7465e
 <= +0
-
 +1 x637ea +1 x637ec -1 x63ae5 +1 x63b39 -1 x63e43 +1 x63e98 -1 x641a2 +1 x641f7
 -1 x64501 +1 x64556 -1 x64860 +1 x648b5 -1 x64bbf +1 x64c14 -1 x64f1e +1 x64f73
 -1 x6527d +1 x652d1 -1 x658f7 -1 x65cb1 -1 x68c85 +1 x68cda -1 x68fe3 <= +0
-
 -1 x5de39 -1 x637c0 -1 x637e7 +1 x637eb +1 x637ed -1 x63b0c -1 x63b35 +1 x63b3a
 -1 x63e6b -1 x63e94 +1 x63e99 -1 x641ca -1 x641f3 +1 x641f8 -1 x64529 -1 x64552
 +1 x64557 -1 x64888 -1 x648b1 +1 x648b6 -1 x64be7 -1 x64c10 +1 x64c15 -1 x64f46
 -1 x64f6f +1 x64f74 -1 x652a4 -1 x652cd +1 x652d2 -1 x68cad -1 x68cd6 +1 x68cdb
 <= +0
-
 -1 x63825 +1 x63894 -1 x638c9 -1 x63b6e +1 x63be1 -1 x63c17 -1 x63ecd +1 x63f40
 -1 x63f76 -1 x6422c +1 x6429f -1 x642d5 -1 x6458b +1 x645fe -1 x64634 -1 x648ea
 +1 x6495d -1 x64993 -1 x64c49 +1 x64cbc -1 x64cf2 -1 x64fa8 +1 x6501b -1 x65051
 -1 x65306 +1 x65379 -1 x653af -1 x68d0f +1 x68d82 -1 x68db8 +1 x75882 -1 x7634a
 -1 x76963 <= +0
-
 -1 x6385a -1 x63891 +1 x63895 -1 x63ba5 -1 x63bdd +1 x63be2 -1 x63f04 -1 x63f3c
 +1 x63f41 -1 x64263 -1 x6429b +1 x642a0 -1 x645c2 -1 x645fa +1 x645ff -1 x64921
 -1 x64959 +1 x6495e -1 x64c80 -1 x64cb8 +1 x64cbd -1 x64fdf -1 x65017 +1 x6501c
 -1 x6533d -1 x65375 +1 x6537a -1 x68d46 -1 x68d7e +1 x68d83 -1 x75634 -1 x7587f
 +1 x75883 -1 x75c60 -1 x75e83 -1 x7656d -1 x76bdd <= +0
-
 -1 x6393d +1 x6398e -1 x63c8c +1 x63ce1 -1 x63feb +1 x64040 -1 x6434a +1 x6439f
 -1 x646a9 +1 x646fe -1 x64a08 +1 x64a5d -1 x64d67 +1 x64dbc -1 x650c6 +1 x6511b
 -1 x65424 +1 x65478 -1 x68e2d +1 x68e82 +1 x74c93 <= +0
-
 -1 x63963 -1 x6398b +1 x6398f -1 x63cb4 -1 x63cdd +1 x63ce2 -1 x64013 -1 x6403c
 +1 x64041 -1 x64372 -1 x6439b +1 x643a0 -1 x646d1 -1 x646fa +1 x646ff -1 x64a30
 -1 x64a59 +1 x64a5e -1 x64d8f -1 x64db8 +1 x64dbd -1 x650ee -1 x65117 +1 x6511c
 -1 x6544b -1 x65474 +1 x65479 -1 x68e55 -1 x68e7e +1 x68e83 -1 x74a96 -1 x74c90
 +1 x74c94 -1 x74fcc -1 x7519e <= +0
-
 -1 x639c1 +1 x63a30 -1 x63a65 -1 x63d16 +1 x63d89 -1 x63dbf -1 x64075 +1 x640e8
 -1 x6411e -1 x643d4 +1 x64447 -1 x6447d -1 x64733 +1 x647a6 -1 x647dc -1 x64a92
 +1 x64b05 -1 x64b3b -1 x64df1 +1 x64e64 -1 x64e9a -1 x65150 +1 x651c3 -1 x651f9
 -1 x654ad +1 x65520 -1 x65556 -1 x68eb7 +1 x68f2a -1 x68f60 +1 x732b9 -1 x73d81
 -1 x743f1 <= +0
-
 -1 x639f6 -1 x63a2d +1 x63a31 -1 x63d4d -1 x63d85 +1 x63d8a -1 x640ac -1 x640e4
 +1 x640e9 -1 x6440b -1 x64443 +1 x64448 -1 x6476a -1 x647a2 +1 x647a7 -1 x64ac9
 -1 x64b01 +1 x64b06 -1 x64e28 -1 x64e60 +1 x64e65 -1 x65187 -1 x651bf +1 x651c4
 -1 x654e4 -1 x6551c +1 x65521 -1 x68eee -1 x68f26 +1 x68f2b -1 x7306b -1 x732b6
 +1 x732ba -1 x73697 -1 x738ba -1 x73fa4 -1 x74614 <= +0
-
 +1 x624d2 +1 x624d4 -1 x628ab +1 x628f8 -1 x63778 -1 x68146 -1 x690dd <= +0
-
 -1 x5de2a -1 x624a2 -1 x624c5 +1 x624d3 +1 x624d5 -1 x628c5 -1 x628ea +1 x628f9
 <= +0
-
 -1 x6250d +1 x6257c -1 x625b1 -1 x6292d +1 x629a0 -1 x629d6 +1 x7582e -1 x7633b
 -1 x76962 <= +0
-
 -1 x62542 -1 x62579 +1 x6257d -1 x62964 -1 x6299c +1 x629a1 -1 x75625 -1 x7582b
 +1 x7582f -1 x75c51 -1 x75e39 -1 x76523 -1 x76b93 <= +0
-
 -1 x62624 +1 x6266f -1 x62a4a +1 x62a98 +1 x74c4e <= +0
-
 -1 x6263e -1 x62662 +1 x62670 -1 x62a65 -1 x62a8a +1 x62a99 -1 x74a87 -1 x74c42
 +1 x74c4f -1 x74fbd -1 x7515a <= +0
-
 -1 x626a2 +1 x62711 -1 x62746 -1 x62acd +1 x62b40 -1 x62b76 +1 x73265 -1 x73d72
 -1 x743e2 <= +0
-
 -1 x626d7 -1 x6270e +1 x62712 -1 x62b04 -1 x62b3c +1 x62b41 -1 x7305c -1 x73262
 +1 x73266 -1 x73688 -1 x73870 -1 x73f5a -1 x745ca <= +0
-
 +1 x606b9 +1 x606bb -1 x609b4 +1 x60a08 -1 x60d12 +1 x60d67 -1 x61071 +1 x610c6
 -1 x613d0 +1 x61425 -1 x6172f +1 x61784 -1 x61a8e +1 x61ae3 -1 x61ded +1 x61e42
 -1 x6214c +1 x621a0 -1 x627c6 -1 x62bf8 +1 x62c4d -1 x62f56 <= +0
-
 -1 x5de1b -1 x6068f -1 x606b6 +1 x606ba +1 x606bc -1 x609db -1 x60a04 +1 x60a09
 -1 x60d3a -1 x60d63 +1 x60d68 -1 x61099 -1 x610c2 +1 x610c7 -1 x613f8 -1 x61421
 +1 x61426 -1 x61757 -1 x61780 +1 x61785 -1 x61ab6 -1 x61adf +1 x61ae4 -1 x61e15
 -1 x61e3e +1 x61e43 -1 x62173 -1 x6219c +1 x621a1 -1 x62c20 -1 x62c49 +1 x62c4e
 <= +0
-
 -1 x606f4 +1 x60763 -1 x60798 -1 x60a3d +1 x60ab0 -1 x60ae6 -1 x60d9c +1 x60e0f
 -1 x60e45 -1 x610fb +1 x6116e -1 x611a4 -1 x6145a +1 x614cd -1 x61503 -1 x617b9
 +1 x6182c -1 x61862 -1 x61b18 +1 x61b8b -1 x61bc1 -1 x61e77 +1 x61eea -1 x61f20
 -1 x621d5 +1 x62248 -1 x6227e -1 x62c82 +1 x62cf5 -1 x62d2b +1 x757da -1 x7632c
 -1 x76961 <= +0
-
 -1 x60729 -1 x60760 +1 x60764 -1 x60a74 -1 x60aac +1 x60ab1 -1 x60dd3 -1 x60e0b
 +1 x60e10 -1 x61132 -1 x6116a +1 x6116f -1 x61491 -1 x614c9 +1 x614ce -1 x617f0
 -1 x61828 +1 x6182d -1 x61b4f -1 x61b87 +1 x61b8c -1 x61eae -1 x61ee6 +1 x61eeb
 -1 x6220c -1 x62244 +1 x62249 -1 x62cb9 -1 x62cf1 +1 x62cf6 -1 x75616 -1 x757d7
 +1 x757db -1 x75c42 -1 x75def -1 x764d9 -1 x76b49 <= +0
-
 -1 x6080c +1 x6085d -1 x60b5b +1 x60bb0 -1 x60eba +1 x60f0f -1 x61219 +1 x6126e
 -1 x61578 +1 x615cd -1 x618d7 +1 x6192c -1 x61c36 +1 x61c8b -1 x61f95 +1 x61fea
 -1 x622f3 +1 x62347 -1 x62da0 +1 x62df5 +1 x74c0c <= +0
-
 -1 x60832 -1 x6085a +1 x6085e -1 x60b83 -1 x60bac +1 x60bb1 -1 x60ee2 -1 x60f0b
 +1 x60f10 -1 x61241 -1 x6126a +1 x6126f -1 x615a0 -1 x615c9 +1 x615ce -1 x618ff
 -1 x61928 +1 x6192d -1 x61c5e -1 x61c87 +1 x61c8c -1 x61fbd -1 x61fe6 +1 x61feb
 -1 x6231a -1 x62343 +1 x62348 -1 x62dc8 -1 x62df1 +1 x62df6 -1 x74a78 -1 x74c09
 +1 x74c0d -1 x74fae -1 x7512b <= +0
-
 -1 x60890 +1 x608ff -1 x60934 -1 x60be5 +1 x60c58 -1 x60c8e -1 x60f44 +1 x60fb7
 -1 x60fed -1 x612a3 +1 x61316 -1 x6134c -1 x61602 +1 x61675 -1 x616ab -1 x61961
 +1 x619d4 -1 x61a0a -1 x61cc0 +1 x61d33 -1 x61d69 -1 x6201f +1 x62092 -1 x620c8
 -1 x6237c +1 x623ef -1 x62425 -1 x62e2a +1 x62e9d -1 x62ed3 +1 x73211 -1 x73d63
 -1 x743d3 <= +0
-
 -1 x608c5 -1 x608fc +1 x60900 -1 x60c1c -1 x60c54 +1 x60c59 -1 x60f7b -1 x60fb3
 +1 x60fb8 -1 x612da -1 x61312 +1 x61317 -1 x61639 -1 x61671 +1 x61676 -1 x61998
 -1 x619d0 +1 x619d5 -1 x61cf7 -1 x61d2f +1 x61d34 -1 x62056 -1 x6208e +1 x62093
 -1 x623b3 -1 x623eb +1 x623f0 -1 x62e61 -1 x62e99 +1 x62e9e -1 x7304d -1 x7320e
 +1 x73212 -1 x73679 -1 x73826 -1 x73f10 -1 x74580 <= +0
-
 +1 x5fd68 +1 x5fd6a -1 x600c9 +1 x60116 -1 x6047c -1 x604d9 -1 x60536 -1 x60593
 -1 x605f0 -1 x6064d -1 x62833 -1 x62fcf +1 x6301e -1 x636f7 <= +0
-
 -1 x5de0c -1 x5fd38 -1 x5fd5b +1 x5fd69 +1 x5fd6b -1 x600e3 -1 x60108 +1 x60117
 -1 x62fea -1 x63010 +1 x6301f <= +0
-
 -1 x5fda3 +1 x5fe12 -1 x5fe47 -1 x6014b +1 x601be -1 x601f4 -1 x63053 +1 x630c6
 -1 x630fc +1 x75786 -1 x7631d -1 x76960 <= +0
-
 -1 x5fdd8 -1 x5fe0f +1 x5fe13 -1 x60182 -1 x601ba +1 x601bf -1 x6308a -1 x630c2
 +1 x630c7 -1 x75607 -1 x75783 +1 x75787 -1 x75c33 -1 x75da5 -1 x7648f -1 x76aff
 <= +0
-
 -1 x5feba +1 x5ff05 -1 x60268 +1 x602b6 -1 x63170 +1 x631bf +1 x74bc7 <= +0
-
 -1 x5fed4 -1 x5fef8 +1 x5ff06 -1 x60283 -1 x602a8 +1 x602b7 -1 x6318b -1 x631b1
 +1 x631c0 -1 x74a69 -1 x74bbb +1 x74bc8 -1 x74f9f -1 x750e7 <= +0
-
 -1 x5ff38 +1 x5ffa7 -1 x5ffdc -1 x602eb +1 x6035e -1 x60394 -1 x631f4 +1 x63267
 -1 x6329d +1 x731bd -1 x73d54 -1 x743c4 <= +0
-
 -1 x5ff6d -1 x5ffa4 +1 x5ffa8 -1 x60322 -1 x6035a +1 x6035f -1 x6322b -1 x63263
 +1 x63268 -1 x7303e -1 x731ba +1 x731be -1 x7366a -1 x737dc -1 x73ec6 -1 x74536
 <= +0
-
 +1 x5df4f +1 x5df51 -1 x5e24a +1 x5e29e -1 x5e5a8 +1 x5e5fd -1 x5e907 +1 x5e95c
 -1 x5ec66 +1 x5ecbb -1 x5efc5 +1 x5f01a -1 x5f324 +1 x5f379 -1 x5f683 +1 x5f6d8
 -1 x5f9e2 +1 x5fa36 -1 x6005c -1 x60416 -1 x6331f +1 x63374 -1 x6367d <= +0
-
 -1 x5ddfd -1 x5df25 -1 x5df4c +1 x5df50 +1 x5df52 -1 x5e271 -1 x5e29a +1 x5e29f
 -1 x5e5d0 -1 x5e5f9 +1 x5e5fe -1 x5e92f -1 x5e958 +1 x5e95d -1 x5ec8e -1 x5ecb7
 +1 x5ecbc -1 x5efed -1 x5f016 +1 x5f01b -1 x5f34c -1 x5f375 +1 x5f37a -1 x5f6ab
 -1 x5f6d4 +1 x5f6d9 -1 x5fa09 -1 x5fa32 +1 x5fa37 -1 x63347 -1 x63370 +1 x63375
 <= +0
-
 -1 x5df8a +1 x5dff9 -1 x5e02e -1 x5e2d3 +1 x5e346 -1 x5e37c -1 x5e632 +1 x5e6a5
 -1 x5e6db -1 x5e991 +1 x5ea04 -1 x5ea3a -1 x5ecf0 +1 x5ed63 -1 x5ed99 -1 x5f04f
 +1 x5f0c2 -1 x5f0f8 -1 x5f3ae +1 x5f421 -1 x5f457 -1 x5f70d +1 x5f780 -1 x5f7b6
 -1 x5fa6b +1 x5fade -1 x5fb14 -1 x633a9 +1 x6341c -1 x63452 +1 x75732 -1 x7630e
 -1 x7695f <= +0
-
 -1 x5dfbf -1 x5dff6 +1 x5dffa -1 x5e30a -1 x5e342 +1 x5e347 -1 x5e669 -1 x5e6a1
 +1 x5e6a6 -1 x5e9c8 -1 x5ea00 +1 x5ea05 -1 x5ed27 -1 x5ed5f +1 x5ed64 -1 x5f086
 -1 x5f0be +1 x5f0c3 -1 x5f3e5 -1 x5f41d +1 x5f422 -1 x5f744 -1 x5f77c +1 x5f781
 -1 x5faa2 -1 x5fada +1 x5fadf -1 x633e0 -1 x63418 +1 x6341d -1 x755f8 -1 x7572f
 +1 x75733 -1 x75c24 -1 x75d5b -1 x76445 -1 x76ab5 <= +0
-
 -1 x5e0a2 +1 x5e0f3 -1 x5e3f1 +1 x5e446 -1 x5e750 +1 x5e7a5 -1 x5eaaf +1 x5eb04
 -1 x5ee0e +1 x5ee63 -1 x5f16d +1 x5f1c2 -1 x5f4cc +1 x5f521 -1 x5f82b +1 x5f880
 -1 x5fb89 +1 x5fbdd -1 x634c7 +1 x6351c +1 x74b85 <= +0
-
 -1 x5e0c8 -1 x5e0f0 +1 x5e0f4 -1 x5e419 -1 x5e442 +1 x5e447 -1 x5e778 -1 x5e7a1
 +1 x5e7a6 -1 x5ead7 -1 x5eb00 +1 x5eb05 -1 x5ee36 -1 x5ee5f +1 x5ee64 -1 x5f195
 -1 x5f1be +1 x5f1c3 -1 x5f4f4 -1 x5f51d +1 x5f522 -1 x5f853 -1 x5f87c +1 x5f881
 -1 x5fbb0 -1 x5fbd9 +1 x5fbde -1 x634ef -1 x63518 +1 x6351d -1 x74a5a -1 x74b82
 +1 x74b86 -1 x74f90 -1 x750b8 <= +0
-
 -1 x5e126 +1 x5e195 -1 x5e1ca -1 x5e47b +1 x5e4ee -1 x5e524 -1 x5e7da +1 x5e84d
 -1 x5e883 -1 x5eb39 +1 x5ebac -1 x5ebe2 -1 x5ee98 +1 x5ef0b -1 x5ef41 -1 x5f1f7
 +1 x5f26a -1 x5f2a0 -1 x5f556 +1 x5f5c9 -1 x5f5ff -1 x5f8b5 +1 x5f928 -1 x5f95e
 -1 x5fc12 +1 x5fc85 -1 x5fcbb -1 x63551 +1 x635c4 -1 x635fa +1 x73169 -1 x73d45
 -1 x743b5 <= +0
-
 -1 x5e15b -1 x5e192 +1 x5e196 -1 x5e4b2 -1 x5e4ea +1 x5e4ef -1 x5e811 -1 x5e849
 +1 x5e84e -1 x5eb70 -1 x5eba8 +1 x5ebad -1 x5eecf -1 x5ef07 +1 x5ef0c -1 x5f22e
 -1 x5f266 +1 x5f26b -1 x5f58d -1 x5f5c5 +1 x5f5ca -1 x5f8ec -1 x5f924 +1 x5f929
 -1 x5fc49 -1 x5fc81 +1 x5fc86 -1 x63588 -1 x635c0 +1 x635c5 -1 x7302f -1 x73166
 +1 x7316a -1 x7365b -1 x73792 -1 x73e7c -1 x744ec <= +0
-
 -1 x5dd7b +1 x7709e +1 x770a0 <= +0
-
 +1 x762b7 +1 x762b9 -1 x76934 -1 x770b1 +1 x771ce -1 x771da <= +0
-
 +1 x75509 +1 x7550b -1 x7727e +1 x77348 <= +0
-
 +1 x73cee +1 x73cf0 -1 x7436b -1 x7551c -1 x77354 +1 x77471 -1 x7747d <= +0
-
 +1 x71222 +1 x71224 -1 x714e4 +1 x71571 -1 x71841 +1 x718d0 -1 x71ba0 +1 x71c2f
 -1 x71eff +1 x71f8e -1 x7225e +1 x722ed -1 x725bd +1 x7264c -1 x7291c +1 x729ab
 -1 x72c7b +1 x72d09 -1 x7751c +1 x775a9 -1 x77873 <= +0
-
 -1 x71235 +1 x712cc -1 x712d7 -1 x7157d +1 x71619 -1 x71625 -1 x718dc +1 x71978
 -1 x71984 -1 x71c3b +1 x71cd7 -1 x71ce3 -1 x71f9a +1 x72036 -1 x72042 -1 x722f9
 +1 x72395 -1 x723a1 -1 x72658 +1 x726f4 -1 x72700 -1 x729b7 +1 x72a53 -1 x72a5f
 -1 x72d15 +1 x72db1 -1 x72dbd +1 x75bca -1 x775b5 +1 x7764f -1 x7765b <= +0
-
 -1 x7134c +1 x713c6 -1 x7169b +1 x71719 -1 x719fa +1 x71a78 -1 x71d59 +1 x71dd7
 -1 x720b8 +1 x72136 -1 x72417 +1 x72495 -1 x72776 +1 x727f4 -1 x72ad5 +1 x72b53
 -1 x72e33 +1 x72eb0 +1 x74f36 -1 x776d1 +1 x7774e <= +0
-
 -1 x713d1 +1 x71468 -1 x71473 -1 x71725 +1 x717c1 -1 x717cd -1 x71a84 +1 x71b20
 -1 x71b2c -1 x71de3 +1 x71e7f -1 x71e8b -1 x72142 +1 x721de -1 x721ea -1 x724a1
 +1 x7253d -1 x72549 -1 x72800 +1 x7289c -1 x728a8 -1 x72b5f +1 x72bfb -1 x72c07
 -1 x72ebc +1 x72f58 -1 x72f64 +1 x73601 -1 x7775a +1 x777f4 -1 x77800 <= +0
-
 +1 x708d1 +1 x708d3 -1 x70bf6 +1 x70c7f -1 x70fa9 -1 x71006 -1 x71063 -1 x710c0
 -1 x7111d -1 x7117a -1 x779f3 +1 x77a7d -1 x7810f <= +0
-
 -1 x708e4 +1 x7097b -1 x70986 -1 x70c8b +1 x70d27 -1 x70d33 +1 x75b76 -1 x77a89
 +1 x77b23 -1 x77b2f <= +0
-
 -1 x709fd +1 x70a6e -1 x70dab +1 x70e1f +1 x74ef1 -1 x77ba7 +1 x77c1b <= +0
-
 -1 x70a79 +1 x70b10 -1 x70b1b -1 x70e2b +1 x70ec7 -1 x70ed3 +1 x735ad -1 x77c27
 +1 x77cc1 -1 x77ccd <= +0
-
 +1 x6eab8 +1 x6eaba -1 x6ed7a +1 x6ee07 -1 x6f0d7 +1 x6f166 -1 x6f436 +1 x6f4c5
 -1 x6f795 +1 x6f824 -1 x6faf4 +1 x6fb83 -1 x6fe53 +1 x6fee2 -1 x701b2 +1 x70241
 -1 x70511 +1 x7059f -1 x70b8c -1 x70f46 -1 x77d40 +1 x77dcd -1 x78097 <= +0
-
 -1 x6eacb +1 x6eb62 -1 x6eb6d -1 x6ee13 +1 x6eeaf -1 x6eebb -1 x6f172 +1 x6f20e
 -1 x6f21a -1 x6f4d1 +1 x6f56d -1 x6f579 -1 x6f830 +1 x6f8cc -1 x6f8d8 -1 x6fb8f
 +1 x6fc2b -1 x6fc37 -1 x6feee +1 x6ff8a -1 x6ff96 -1 x7024d +1 x702e9 -1 x702f5
 -1 x705ab +1 x70647 -1 x70653 +1 x75b22 -1 x77dd9 +1 x77e73 -1 x77e7f <= +0
-
 -1 x6ebe2 +1 x6ec5c -1 x6ef31 +1 x6efaf -1 x6f290 +1 x6f30e -1 x6f5ef +1 x6f66d
 -1 x6f94e +1 x6f9cc -1 x6fcad +1 x6fd2b -1 x7000c +1 x7008a -1 x7036b +1 x703e9
 -1 x706c9 +1 x70746 +1 x74eaf -1 x77ef5 +1 x77f72 <= +0
-
 -1 x6ec67 +1 x6ecfe -1 x6ed09 -1 x6efbb +1 x6f057 -1 x6f063 -1 x6f31a +1 x6f3b6
 -1 x6f3c2 -1 x6f679 +1 x6f715 -1 x6f721 -1 x6f9d8 +1 x6fa74 -1 x6fa80 -1 x6fd37
 +1 x6fdd3 -1 x6fddf -1 x70096 +1 x70132 -1 x7013e -1 x703f5 +1 x70491 -1 x7049d
 -1 x70752 +1 x707ee -1 x707fa +1 x73559 -1 x77f7e +1 x78018 -1 x78024 <= +0
-
 +1 x6d7a0 +1 x6d7a2 -1 x6db3d +1 x6dbc6 -1 x6ea0a -1 x782a9 <= +0
-
 -1 x6d7b3 +1 x6d84a -1 x6d855 -1 x6dbd2 +1 x6dc6e -1 x6dc7a +1 x75ace <= +0
-
 -1 x6d8cc +1 x6d93d -1 x6dcf2 +1 x6dd66 +1 x74e6a <= +0
-
 -1 x6d948 +1 x6d9df -1 x6d9ea -1 x6dd72 +1 x6de0e -1 x6de1a +1 x73505 <= +0
-
 +1 x6b987 +1 x6b989 -1 x6bc49 +1 x6bcd6 -1 x6bfa6 +1 x6c035 -1 x6c305 +1 x6c394
 -1 x6c664 +1 x6c6f3 -1 x6c9c3 +1 x6ca52 -1 x6cd22 +1 x6cdb1 -1 x6d081 +1 x6d110
 -1 x6d3e0 +1 x6d46e -1 x6da5b -1 x6de8d +1 x6df1b -1 x6e1ea <= +0
-
 -1 x6b99a +1 x6ba31 -1 x6ba3c -1 x6bce2 +1 x6bd7e -1 x6bd8a -1 x6c041 +1 x6c0dd
 -1 x6c0e9 -1 x6c3a0 +1 x6c43c -1 x6c448 -1 x6c6ff +1 x6c79b -1 x6c7a7 -1 x6ca5e
 +1 x6cafa -1 x6cb06 -1 x6cdbd +1 x6ce59 -1 x6ce65 -1 x6d11c +1 x6d1b8 -1 x6d1c4
 -1 x6d47a +1 x6d516 -1 x6d522 -1 x6df27 +1 x6dfc3 -1 x6dfcf +1 x75a7a <= +0
-
 -1 x6bab1 +1 x6bb2b -1 x6be00 +1 x6be7e -1 x6c15f +1 x6c1dd -1 x6c4be +1 x6c53c
 -1 x6c81d +1 x6c89b -1 x6cb7c +1 x6cbfa -1 x6cedb +1 x6cf59 -1 x6d23a +1 x6d2b8
 -1 x6d598 +1 x6d615 -1 x6e045 +1 x6e0c3 +1 x74e28 <= +0
-
 -1 x6bb36 +1 x6bbcd -1 x6bbd8 -1 x6be8a +1 x6bf26 -1 x6bf32 -1 x6c1e9 +1 x6c285
 -1 x6c291 -1 x6c548 +1 x6c5e4 -1 x6c5f0 -1 x6c8a7 +1 x6c943 -1 x6c94f -1 x6cc06
 +1 x6cca2 -1 x6ccae -1 x6cf65 +1 x6d001 -1 x6d00d -1 x6d2c4 +1 x6d360 -1 x6d36c
 -1 x6d621 +1 x6d6bd -1 x6d6c9 -1 x6e0cf +1 x6e16b -1 x6e177 +1 x734b1 <= +0
-
 +1 x6b036 +1 x6b038 -1 x6b35b +1 x6b3e4 -1 x6b70e -1 x6b76b -1 x6b7c8 -1 x6b825
 -1 x6b882 -1 x6b8df -1 x6dac5 -1 x6e261 +1 x6e2ec -1 x6e989 <= +0
-
 -1 x6b049 +1 x6b0e0 -1 x6b0eb -1 x6b3f0 +1 x6b48c -1 x6b498 -1 x6e2f8 +1 x6e394
 -1 x6e3a0 +1 x75a26 <= +0
-
 -1 x6b162 +1 x6b1d3 -1 x6b510 +1 x6b584 -1 x6e418 +1 x6e48d +1 x74de3 <= +0
-
 -1 x6b1de +1 x6b275 -1 x6b280 -1 x6b590 +1 x6b62c -1 x6b638 -1 x6e499 +1 x6e535
 -1 x6e541 +1 x7345d <= +0
-
 +1 x6921d +1 x6921f -1 x694df +1 x6956c -1 x6983c +1 x698cb -1 x69b9b +1 x69c2a
 -1 x69efa +1 x69f89 -1 x6a259 +1 x6a2e8 -1 x6a5b8 +1 x6a647 -1 x6a917 +1 x6a9a6
 -1 x6ac76 +1 x6ad04 -1 x6b2f1 -1 x6b6ab -1 x6e5b4 +1 x6e642 -1 x6e911 <= +0
-
 -1 x69230 +1 x692c7 -1 x692d2 -1 x69578 +1 x69614 -1 x69620 -1 x698d7 +1 x69973
 -1 x6997f -1 x69c36 +1 x69cd2 -1 x69cde -1 x69f95 +1 x6a031 -1 x6a03d -1 x6a2f4
 +1 x6a390 -1 x6a39c -1 x6a653 +1 x6a6ef -1 x6a6fb -1 x6a9b2 +1 x6aa4e -1 x6aa5a
 -1 x6ad10 +1 x6adac -1 x6adb8 -1 x6e64e +1 x6e6ea -1 x6e6f6 +1 x759d2 <= +0
-
 -1 x69347 +1 x693c1 -1 x69696 +1 x69714 -1 x699f5 +1 x69a73 -1 x69d54 +1 x69dd2
 -1 x6a0b3 +1 x6a131 -1 x6a412 +1 x6a490 -1 x6a771 +1 x6a7ef -1 x6aad0 +1 x6ab4e
 -1 x6ae2e +1 x6aeab -1 x6e76c +1 x6e7ea +1 x74da1 <= +0
-
 -1 x693cc +1 x69463 -1 x6946e -1 x69720 +1 x697bc -1 x697c8 -1 x69a7f +1 x69b1b
 -1 x69b27 -1 x69dde +1 x69e7a -1 x69e86 -1 x6a13d +1 x6a1d9 -1 x6a1e5 -1 x6a49c
 +1 x6a538 -1 x6a544 -1 x6a7fb +1 x6a897 -1 x6a8a3 -1 x6ab5a +1 x6abf6 -1 x6ac02
 -1 x6aeb7 +1 x6af53 -1 x6af5f -1 x6e7f6 +1 x6e892 -1 x6e89e +1 x73409 <= +0
-
 +1 x67d6d +1 x67d6f -1 x681d5 +1 x6825e -1 x6916f -1 x78379 <= +0
-
 -1 x67d80 +1 x67e17 -1 x67e22 -1 x6826a +1 x68306 -1 x68312 +1 x7597e <= +0
-
 -1 x67e99 +1 x67f0a -1 x6838a +1 x683fe +1 x74d5c <= +0
-
 -1 x67f15 +1 x67fac -1 x67fb7 -1 x6840a +1 x684a6 -1 x684b2 +1 x733b5 <= +0
-
 +1 x65f54 +1 x65f56 -1 x66216 +1 x662a3 -1 x66573 +1 x66602 -1 x668d2 +1 x66961
 -1 x66c31 +1 x66cc0 -1 x66f90 +1 x6701f -1 x672ef +1 x6737e -1 x6764e +1 x676dd
 -1 x679ad +1 x67a3b -1 x68028 -1 x68525 +1 x685b3 -1 x68882 <= +0
-
 -1 x65f67 +1 x65ffe -1 x66009 -1 x662af +1 x6634b -1 x66357 -1 x6660e +1 x666aa
 -1 x666b6 -1 x6696d +1 x66a09 -1 x66a15 -1 x66ccc +1 x66d68 -1 x66d74 -1 x6702b
 +1 x670c7 -1 x670d3 -1 x6738a +1 x67426 -1 x67432 -1 x676e9 +1 x67785 -1 x67791
 -1 x67a47 +1 x67ae3 -1 x67aef -1 x685bf +1 x6865b -1 x68667 +1 x7592a <= +0
-
 -1 x6607e +1 x660f8 -1 x663cd +1 x6644b -1 x6672c +1 x667aa -1 x66a8b +1 x66b09
 -1 x66dea +1 x66e68 -1 x67149 +1 x671c7 -1 x674a8 +1 x67526 -1 x67807 +1 x67885
 -1 x67b65 +1 x67be2 -1 x686dd +1 x6875b +1 x74d1a <= +0
-
 -1 x66103 +1 x6619a -1 x661a5 -1 x66457 +1 x664f3 -1 x664ff -1 x667b6 +1 x66852
 -1 x6685e -1 x66b15 +1 x66bb1 -1 x66bbd -1 x66e74 +1 x66f10 -1 x66f1c -1 x671d3
 +1 x6726f -1 x6727b -1 x67532 +1 x675ce -1 x675da -1 x67891 +1 x6792d -1 x67939
 -1 x67bee +1 x67c8a -1 x67c96 -1 x68767 +1 x68803 -1 x6880f +1 x73361 <= +0
-
 +1 x65603 +1 x65605 -1 x65928 +1 x659b1 -1 x65cdb -1 x65d38 -1 x65d95 -1 x65df2
 -1 x65e4f -1 x65eac -1 x68092 -1 x688f9 +1 x68984 -1 x69021 <= +0
-
 -1 x65616 +1 x656ad -1 x656b8 -1 x659bd +1 x65a59 -1 x65a65 -1 x68990 +1 x68a2c
 -1 x68a38 +1 x758d6 <= +0
-
 -1 x6572f +1 x657a0 -1 x65add +1 x65b51 -1 x68ab0 +1 x68b25 +1 x74cd5 <= +0
-
 -1 x657ab +1 x65842 -1 x6584d -1 x65b5d +1 x65bf9 -1 x65c05 -1 x68b31 +1 x68bcd
 -1 x68bd9 +1 x7330d <= +0
-
 +1 x637ea +1 x637ec -1 x63aac +1 x63b39 -1 x63e09 +1 x63e98 -1 x64168 +1 x641f7
 -1 x644c7 +1 x64556 -1 x64826 +1 x648b5 -1 x64b85 +1 x64c14 -1 x64ee4 +1 x64f73
 -1 x65243 +1 x652d1 -1 x658be -1 x65c78 -1 x68c4c +1 x68cda -1 x68fa9 <= +0
-
 -1 x637fd +1 x63894 -1 x6389f -1 x63b45 +1 x63be1 -1 x63bed -1 x63ea4 +1 x63f40
 -1 x63f4c -1 x64203 +1 x6429f -1 x642ab -1 x64562 +1 x645fe -1 x6460a -1 x648c1
 +1 x6495d -1 x64969 -1 x64c20 +1 x64cbc -1 x64cc8 -1 x64f7f +1 x6501b -1 x65027
 -1 x652dd +1 x65379 -1 x65385 -1 x68ce6 +1 x68d82 -1 x68d8e +1 x75882 <= +0
-
 -1 x63914 +1 x6398e -1 x63c63 +1 x63ce1 -1 x63fc2 +1 x64040 -1 x64321 +1 x6439f
 -1 x64680 +1 x646fe -1 x649df +1 x64a5d -1 x64d3e +1 x64dbc -1 x6509d +1 x6511b
 -1 x653fb +1 x65478 -1 x68e04 +1 x68e82 +1 x74c93 <= +0
-
 -1 x63999 +1 x63a30 -1 x63a3b -1 x63ced +1 x63d89 -1 x63d95 -1 x6404c +1 x640e8
 -1 x640f4 -1 x643ab +1 x64447 -1 x64453 -1 x6470a +1 x647a6 -1 x647b2 -1 x64a69
 +1 x64b05 -1 x64b11 -1 x64dc8 +1 x64e64 -1 x64e70 -1 x65127 +1 x651c3 -1 x651cf
 -1 x65484 +1 x65520 -1 x6552c -1 x68e8e +1 x68f2a -1 x68f36 +1 x732b9 <= +0
-
 +1 x624d2 +1 x624d4 -1 x6286f +1 x628f8 -1 x6373c -1 x6810a -1 x690a1 <= +0
-
 -1 x624e5 +1 x6257c -1 x62587 -1 x62904 +1 x629a0 -1 x629ac +1 x7582e <= +0
-
 -1 x625fe +1 x6266f -1 x62a24 +1 x62a98 +1 x74c4e <= +0
-
 -1 x6267a +1 x62711 -1 x6271c -1 x62aa4 +1 x62b40 -1 x62b4c +1 x73265 <= +0
-
 +1 x606b9 +1 x606bb -1 x6097b +1 x60a08 -1 x60cd8 +1 x60d67 -1 x61037 +1 x610c6
 -1 x61396 +1 x61425 -1 x616f5 +1 x61784 -1 x61a54 +1 x61ae3 -1 x61db3 +1 x61e42
 -1 x62112 +1 x621a0 -1 x6278d -1 x62bbf +1 x62c4d -1 x62f1c <= +0
-
 -1 x606cc +1 x60763 -1 x6076e -1 x60a14 +1 x60ab0 -1 x60abc -1 x60d73 +1 x60e0f
 -1 x60e1b -1 x610d2 +1 x6116e -1 x6117a -1 x61431 +1 x614cd -1 x614d9 -1 x61790
 +1 x6182c -1 x61838 -1 x61aef +1 x61b8b -1 x61b97 -1 x61e4e +1 x61eea -1 x61ef6
 -1 x621ac +1 x62248 -1 x62254 -1 x62c59 +1 x62cf5 -1 x62d01 +1 x757da <= +0
-
 -1 x607e3 +1 x6085d -1 x60b32 +1 x60bb0 -1 x60e91 +1 x60f0f -1 x611f0 +1 x6126e
 -1 x6154f +1 x615cd -1 x618ae +1 x6192c -1 x61c0d +1 x61c8b -1 x61f6c +1 x61fea
 -1 x622ca +1 x62347 -1 x62d77 +1 x62df5 +1 x74c0c <= +0
-
 -1 x60868 +1 x608ff -1 x6090a -1 x60bbc +1 x60c58 -1 x60c64 -1 x60f1b +1 x60fb7
 -1 x60fc3 -1 x6127a +1 x61316 -1 x61322 -1 x615d9 +1 x61675 -1 x61681 -1 x61938
 +1 x619d4 -1 x619e0 -1 x61c97 +1 x61d33 -1 x61d3f -1 x61ff6 +1 x62092 -1 x6209e
 -1 x62353 +1 x623ef -1 x623fb -1 x62e01 +1 x62e9d -1 x62ea9 +1 x73211 <= +0
-
 +1 x5fd68 +1 x5fd6a -1 x6008d +1 x60116 -1 x60440 -1 x6049d -1 x604fa -1 x60557
 -1 x605b4 -1 x60611 -1 x627f7 -1 x62f93 +1 x6301e -1 x636bb <= +0
-
 -1 x5fd7b +1 x5fe12 -1 x5fe1d -1 x60122 +1 x601be -1 x601ca -1 x6302a +1 x630c6
 -1 x630d2 +1 x75786 <= +0
-
 -1 x5fe94 +1 x5ff05 -1 x60242 +1 x602b6 -1 x6314a +1 x631bf +1 x74bc7 <= +0
-
 -1 x5ff10 +1 x5ffa7 -1 x5ffb2 -1 x602c2 +1 x6035e -1 x6036a -1 x631cb +1 x63267
 -1 x63273 +1 x731bd <= +0
-
 +1 x5df4f +1 x5df51 -1 x5e211 +1 x5e29e -1 x5e56e +1 x5e5fd -1 x5e8cd +1 x5e95c
 -1 x5ec2c +1 x5ecbb -1 x5ef8b +1 x5f01a -1 x5f2ea +1 x5f379 -1 x5f649 +1 x5f6d8
 -1 x5f9a8 +1 x5fa36 -1 x60023 -1 x603dd -1 x632e6 +1 x63374 -1 x63643 <= +0
-
 -1 x5df62 +1 x5dff9 -1 x5e004 -1 x5e2aa +1 x5e346 -1 x5e352 -1 x5e609 +1 x5e6a5
 -1 x5e6b1 -1 x5e968 +1 x5ea04 -1 x5ea10 -1 x5ecc7 +1 x5ed63 -1 x5ed6f -1 x5f026
 +1 x5f0c2 -1 x5f0ce -1 x5f385 +1 x5f421 -1 x5f42d -1 x5f6e4 +1 x5f780 -1 x5f78c
 -1 x5fa42 +1 x5fade -1 x5faea -1 x63380 +1 x6341c -1 x63428 +1 x75732 <= +0
-
 -1 x5e079 +1 x5e0f3 -1 x5e3c8 +1 x5e446 -1 x5e727 +1 x5e7a5 -1 x5ea86 +1 x5eb04
 -1 x5ede5 +1 x5ee63 -1 x5f144 +1 x5f1c2 -1 x5f4a3 +1 x5f521 -1 x5f802 +1 x5f880
 -1 x5fb60 +1 x5fbdd -1 x6349e +1 x6351c +1 x74b85 <= +0
-
 -1 x5e0fe +1 x5e195 -1 x5e1a0 -1 x5e452 +1 x5e4ee -1 x5e4fa -1 x5e7b1 +1 x5e84d
 -1 x5e859 -1 x5eb10 +1 x5ebac -1 x5ebb8 -1 x5ee6f +1 x5ef0b -1 x5ef17 -1 x5f1ce
 +1 x5f26a -1 x5f276 -1 x5f52d +1 x5f5c9 -1 x5f5d5 -1 x5f88c +1 x5f928 -1 x5f934
 -1 x5fbe9 +1 x5fc85 -1 x5fc91 -1 x63528 +1 x635c4 -1 x635d0 +1 x73169 <= +0
-
 +1 x76fa3 -1 x770ae +1 x77233 <= +0
-
 -1 x76931 +1 x76fa4 -1 x771ce +1 x77234 <= +0
-
 +1 x749da -1 x75519 -1 x77348 +1 x774d6 <= +0
-
 -1 x74368 +1 x749db -1 x77471 +1 x774d7 <= +0
-
 -1 x71232 +1 x71304 -1 x71571 +1 x71653 -1 x718d0 +1 x719b2 -1 x71c2f +1 x71d11
 -1 x71f8e +1 x72070 -1 x722ed +1 x723cf -1 x7264c +1 x7272e -1 x729ab +1 x72a8d
 -1 x72d09 +1 x72deb -1 x775a9 +1 x77689 <= +0
-
 -1 x712cc +1 x71305 -1 x71619 +1 x71654 -1 x71978 +1 x719b3 -1 x71cd7 +1 x71d12
 -1 x72036 +1 x72071 -1 x72395 +1 x723d0 -1 x726f4 +1 x7272f -1 x72a53 +1 x72a8e
 -1 x72db1 +1 x72dec -1 x75bca -1 x7764f +1 x7768a <= +0
-
 -1 x713c6 +1 x714a0 -1 x71719 +1 x717fb -1 x71a78 +1 x71b5a -1 x71dd7 +1 x71eb9
 -1 x72136 +1 x72218 -1 x72495 +1 x72577 -1 x727f4 +1 x728d6 -1 x72b53 +1 x72c35
 -1 x72eb0 +1 x72f92 -1 x74f36 -1 x7774e +1 x7782e <= +0
-
 -1 x71468 +1 x714a1 -1 x717c1 +1 x717fc -1 x71b20 +1 x71b5b -1 x71e7f +1 x71eba
 -1 x721de +1 x72219 -1 x7253d +1 x72578 -1 x7289c +1 x728d7 -1 x72bfb +1 x72c36
 -1 x72f58 +1 x72f93 -1 x73601 -1 x777f4 +1 x7782f <= +0
-
 -1 x708e1 +1 x709b3 -1 x70c7f +1 x70d61 -1 x77a7d +1 x77b5d <= +0
-
 -1 x7097b +1 x709b4 -1 x70d27 +1 x70d62 -1 x75b76 -1 x77b23 +1 x77b5e <= +0
-
 -1 x70a6e +1 x70b48 -1 x70e1f +1 x70f01 -1 x74ef1 -1 x77c1b +1 x77cfb <= +0
-
 -1 x70b10 +1 x70b49 -1 x70ec7 +1 x70f02 -1 x735ad -1 x77cc1 +1 x77cfc <= +0
-
 -1 x6eac8 +1 x6eb9a -1 x6ee07 +1 x6eee9 -1 x6f166 +1 x6f248 -1 x6f4c5 +1 x6f5a7
 -1 x6f824 +1 x6f906 -1 x6fb83 +1 x6fc65 -1 x6fee2 +1 x6ffc4 -1 x70241 +1 x70323
 -1 x7059f +1 x70681 -1 x77dcd +1 x77ead <= +0
-
 -1 x6eb62 +1 x6eb9b -1 x6eeaf +1 x6eeea -1 x6f20e +1 x6f249 -1 x6f56d +1 x6f5a8
 -1 x6f8cc +1 x6f907 -1 x6fc2b +1 x6fc66 -1 x6ff8a +1 x6ffc5 -1 x702e9 +1 x70324
 -1 x70647 +1 x70682 -1 x75b22 -1 x77e73 +1 x77eae <= +0
-
 -1 x6ec5c +1 x6ed36 -1 x6efaf +1 x6f091 -1 x6f30e +1 x6f3f0 -1 x6f66d +1 x6f74f
 -1 x6f9cc +1 x6faae -1 x6fd2b +1 x6fe0d -1 x7008a +1 x7016c -1 x703e9 +1 x704cb
 -1 x70746 +1 x70828 -1 x74eaf -1 x77f72 +1 x78052 <= +0
-
 -1 x6ecfe +1 x6ed37 -1 x6f057 +1 x6f092 -1 x6f3b6 +1 x6f3f1 -1 x6f715 +1 x6f750
 -1 x6fa74 +1 x6faaf -1 x6fdd3 +1 x6fe0e -1 x70132 +1 x7016d -1 x70491 +1 x704cc
 -1 x707ee +1 x70829 -1 x73559 -1 x78018 +1 x78053 <= +0
-
 -1 x6d7b0 +1 x6d882 -1 x6dbc6 +1 x6dca8 <= +0
-
 -1 x6d84a +1 x6d883 -1 x6dc6e +1 x6dca9 -1 x75ace <= +0
-
 -1 x6d93d +1 x6da17 -1 x6dd66 +1 x6de48 -1 x74e6a <= +0
-
 -1 x6d9df +1 x6da18 -1 x6de0e +1 x6de49 -1 x73505 <= +0
-
 -1 x6b997 +1 x6ba69 -1 x6bcd6 +1 x6bdb8 -1 x6c035 +1 x6c117 -1 x6c394 +1 x6c476
 -1 x6c6f3 +1 x6c7d5 -1 x6ca52 +1 x6cb34 -1 x6cdb1 +1 x6ce93 -1 x6d110 +1 x6d1f2
 -1 x6d46e +1 x6d550 -1 x6df1b +1 x6dffd <= +0
-
 -1 x6ba31 +1 x6ba6a -1 x6bd7e +1 x6bdb9 -1 x6c0dd +1 x6c118 -1 x6c43c +1 x6c477
 -1 x6c79b +1 x6c7d6 -1 x6cafa +1 x6cb35 -1 x6ce59 +1 x6ce94 -1 x6d1b8 +1 x6d1f3
 -1 x6d516 +1 x6d551 -1 x6dfc3 +1 x6dffe -1 x75a7a <= +0
-
 -1 x6bb2b +1 x6bc05 -1 x6be7e +1 x6bf60 -1 x6c1dd +1 x6c2bf -1 x6c53c +1 x6c61e
 -1 x6c89b +1 x6c97d -1 x6cbfa +1 x6ccdc -1 x6cf59 +1 x6d03b -1 x6d2b8 +1 x6d39a
 -1 x6d615 +1 x6d6f7 -1 x6e0c3 +1 x6e1a5 -1 x74e28 <= +0
-
 -1 x6bbcd +1 x6bc06 -1 x6bf26 +1 x6bf61 -1 x6c285 +1 x6c2c0 -1 x6c5e4 +1 x6c61f
 -1 x6c943 +1 x6c97e -1 x6cca2 +1 x6ccdd -1 x6d001 +1 x6d03c -1 x6d360 +1 x6d39b
 -1 x6d6bd +1 x6d6f8 -1 x6e16b +1 x6e1a6 -1 x734b1 <= +0
-
 -1 x6b046 +1 x6b118 -1 x6b3e4 +1 x6b4c6 -1 x6e2ec +1 x6e3ce <= +0
-
 -1 x6b0e0 +1 x6b119 -1 x6b48c +1 x6b4c7 -1 x6e394 +1 x6e3cf -1 x75a26 <= +0
-
 -1 x6b1d3 +1 x6b2ad -1 x6b584 +1 x6b666 -1 x6e48d +1 x6e56f -1 x74de3 <= +0
-
 -1 x6b275 +1 x6b2ae -1 x6b62c +1 x6b667 -1 x6e535 +1 x6e570 -1 x7345d <= +0
-
 -1 x6922d +1 x692ff -1 x6956c +1 x6964e -1 x698cb +1 x699ad -1 x69c2a +1 x69d0c
 -1 x69f89 +1 x6a06b -1 x6a2e8 +1 x6a3ca -1 x6a647 +1 x6a729 -1 x6a9a6 +1 x6aa88
 -1 x6ad04 +1 x6ade6 -1 x6e642 +1 x6e724 <= +0
-
 -1 x692c7 +1 x69300 -1 x69614 +1 x6964f -1 x69973 +1 x699ae -1 x69cd2 +1 x69d0d
 -1 x6a031 +1 x6a06c -1 x6a390 +1 x6a3cb -1 x6a6ef +1 x6a72a -1 x6aa4e +1 x6aa89
 -1 x6adac +1 x6ade7 -1 x6e6ea +1 x6e725 -1 x759d2 <= +0
-
 -1 x693c1 +1 x6949b -1 x69714 +1 x697f6 -1 x69a73 +1 x69b55 -1 x69dd2 +1 x69eb4
 -1 x6a131 +1 x6a213 -1 x6a490 +1 x6a572 -1 x6a7ef +1 x6a8d1 -1 x6ab4e +1 x6ac30
 -1 x6aeab +1 x6af8d -1 x6e7ea +1 x6e8cc -1 x74da1 <= +0
-
 -1 x69463 +1 x6949c -1 x697bc +1 x697f7 -1 x69b1b +1 x69b56 -1 x69e7a +1 x69eb5
 -1 x6a1d9 +1 x6a214 -1 x6a538 +1 x6a573 -1 x6a897 +1 x6a8d2 -1 x6abf6 +1 x6ac31
 -1 x6af53 +1 x6af8e -1 x6e892 +1 x6e8cd -1 x73409 <= +0
-
 -1 x67d7d +1 x67e4f -1 x6825e +1 x68340 <= +0
-
 -1 x67e17 +1 x67e50 -1 x68306 +1 x68341 -1 x7597e <= +0
-
 -1 x67f0a +1 x67fe4 -1 x683fe +1 x684e0 -1 x74d5c <= +0
-
 -1 x67fac +1 x67fe5 -1 x684a6 +1 x684e1 -1 x733b5 <= +0
-
 -1 x65f64 +1 x66036 -1 x662a3 +1 x66385 -1 x66602 +1 x666e4 -1 x66961 +1 x66a43
 -1 x66cc0 +1 x66da2 -1 x6701f +1 x67101 -1 x6737e +1 x67460 -1 x676dd +1 x677bf
 -1 x67a3b +1 x67b1d -1 x685b3 +1 x68695 <= +0
-
 -1 x65ffe +1 x66037 -1 x6634b +1 x66386 -1 x666aa +1 x666e5 -1 x66a09 +1 x66a44
 -1 x66d68 +1 x66da3 -1 x670c7 +1 x67102 -1 x67426 +1 x67461 -1 x67785 +1 x677c0
 -1 x67ae3 +1 x67b1e -1 x6865b +1 x68696 -1 x7592a <= +0
-
 -1 x660f8 +1 x661d2 -1 x6644b +1 x6652d -1 x667aa +1 x6688c -1 x66b09 +1 x66beb
 -1 x66e68 +1 x66f4a -1 x671c7 +1 x672a9 -1 x67526 +1 x67608 -1 x67885 +1 x67967
 -1 x67be2 +1 x67cc4 -1 x6875b +1 x6883d -1 x74d1a <= +0
-
 -1 x6619a +1 x661d3 -1 x664f3 +1 x6652e -1 x66852 +1 x6688d -1 x66bb1 +1 x66bec
 -1 x66f10 +1 x66f4b -1 x6726f +1 x672aa -1 x675ce +1 x67609 -1 x6792d +1 x67968
 -1 x67c8a +1 x67cc5 -1 x68803 +1 x6883e -1 x73361 <= +0
-
 -1 x65613 +1 x656e5 -1 x659b1 +1 x65a93 -1 x68984 +1 x68a66 <= +0
-
 -1 x656ad +1 x656e6 -1 x65a59 +1 x65a94 -1 x68a2c +1 x68a67 -1 x758d6 <= +0
-
 -1 x657a0 +1 x6587a -1 x65b51 +1 x65c33 -1 x68b25 +1 x68c07 -1 x74cd5 <= +0
-
 -1 x65842 +1 x6587b -1 x65bf9 +1 x65c34 -1 x68bcd +1 x68c08 -1 x7330d <= +0
-
 -1 x637fa +1 x638cc -1 x63b39 +1 x63c1b -1 x63e98 +1 x63f7a -1 x641f7 +1 x642d9
 -1 x64556 +1 x64638 -1 x648b5 +1 x64997 -1 x64c14 +1 x64cf6 -1 x64f73 +1 x65055
 -1 x652d1 +1 x653b3 -1 x68cda +1 x68dbc <= +0
-
 -1 x63894 +1 x638cd -1 x63be1 +1 x63c1c -1 x63f40 +1 x63f7b -1 x6429f +1 x642da
 -1 x645fe +1 x64639 -1 x6495d +1 x64998 -1 x64cbc +1 x64cf7 -1 x6501b +1 x65056
 -1 x65379 +1 x653b4 -1 x68d82 +1 x68dbd -1 x75882 <= +0
-
 -1 x6398e +1 x63a68 -1 x63ce1 +1 x63dc3 -1 x64040 +1 x64122 -1 x6439f +1 x64481
 -1 x646fe +1 x647e0 -1 x64a5d +1 x64b3f -1 x64dbc +1 x64e9e -1 x6511b +1 x651fd
 -1 x65478 +1 x6555a -1 x68e82 +1 x68f64 -1 x74c93 <= +0
-
 -1 x63a30 +1 x63a69 -1 x63d89 +1 x63dc4 -1 x640e8 +1 x64123 -1 x64447 +1 x64482
 -1 x647a6 +1 x647e1 -1 x64b05 +1 x64b40 -1 x64e64 +1 x64e9f -1 x651c3 +1 x651fe
 -1 x65520 +1 x6555b -1 x68f2a +1 x68f65 -1 x732b9 <= +0
-
 -1 x624e2 +1 x625b4 -1 x628f8 +1 x629da <= +0
-
 -1 x6257c +1 x625b5 -1 x629a0 +1 x629db -1 x7582e <= +0
-
 -1 x6266f +1 x62749 -1 x62a98 +1 x62b7a -1 x74c4e <= +0
-
 -1 x62711 +1 x6274a -1 x62b40 +1 x62b7b -1 x73265 <= +0
-
 -1 x606c9 +1 x6079b -1 x60a08 +1 x60aea -1 x60d67 +1 x60e49 -1 x610c6 +1 x611a8
 -1 x61425 +1 x61507 -1 x61784 +1 x61866 -1 x61ae3 +1 x61bc5 -1 x61e42 +1 x61f24
 -1 x621a0 +1 x62282 -1 x62c4d +1 x62d2f <= +0
-
 -1 x60763 +1 x6079c -1 x60ab0 +1 x60aeb -1 x60e0f +1 x60e4a -1 x6116e +1 x611a9
 -1 x614cd +1 x61508 -1 x6182c +1 x61867 -1 x61b8b +1 x61bc6 -1 x61eea +1 x61f25
 -1 x62248 +1 x62283 -1 x62cf5 +1 x62d30 -1 x757da <= +0
-
 -1 x6085d +1 x60937 -1 x60bb0 +1 x60c92 -1 x60f0f +1 x60ff1 -1 x6126e +1 x61350
 -1 x615cd +1 x616af -1 x6192c +1 x61a0e -1 x61c8b +1 x61d6d -1 x61fea +1 x620cc
 -1 x62347 +1 x62429 -1 x62df5 +1 x62ed7 -1 x74c0c <= +0
-
 -1 x608ff +1 x60938 -1 x60c58 +1 x60c93 -1 x60fb7 +1 x60ff2 -1 x61316 +1 x61351
 -1 x61675 +1 x616b0 -1 x619d4 +1 x61a0f -1 x61d33 +1 x61d6e -1 x62092 +1 x620cd
 -1 x623ef +1 x6242a -1 x62e9d +1 x62ed8 -1 x73211 <= +0
-
 -1 x5fd78 +1 x5fe4a -1 x60116 +1 x601f8 -1 x6301e +1 x63100 <= +0
-
 -1 x5fe12 +1 x5fe4b -1 x601be +1 x601f9 -1 x630c6 +1 x63101 -1 x75786 <= +0
-
 -1 x5ff05 +1 x5ffdf -1 x602b6 +1 x60398 -1 x631bf +1 x632a1 -1 x74bc7 <= +0
-
 -1 x5ffa7 +1 x5ffe0 -1 x6035e +1 x60399 -1 x63267 +1 x632a2 -1 x731bd <= +0
-
 -1 x5df5f +1 x5e031 -1 x5e29e +1 x5e380 -1 x5e5fd +1 x5e6df -1 x5e95c +1 x5ea3e
 -1 x5ecbb +1 x5ed9d -1 x5f01a +1 x5f0fc -1 x5f379 +1 x5f45b -1 x5f6d8 +1 x5f7ba
 -1 x5fa36 +1 x5fb18 -1 x63374 +1 x63456 <= +0
-
 -1 x5dff9 +1 x5e032 -1 x5e346 +1 x5e381 -1 x5e6a5 +1 x5e6e0 -1 x5ea04 +1 x5ea3f
 -1 x5ed63 +1 x5ed9e -1 x5f0c2 +1 x5f0fd -1 x5f421 +1 x5f45c -1 x5f780 +1 x5f7bb
 -1 x5fade +1 x5fb19 -1 x6341c +1 x63457 -1 x75732 <= +0
-
 -1 x5e0f3 +1 x5e1cd -1 x5e446 +1 x5e528 -1 x5e7a5 +1 x5e887 -1 x5eb04 +1 x5ebe6
 -1 x5ee63 +1 x5ef45 -1 x5f1c2 +1 x5f2a4 -1 x5f521 +1 x5f603 -1 x5f880 +1 x5f962
 -1 x5fbdd +1 x5fcbf -1 x6351c +1 x635fe -1 x74b85 <= +0
-
 -1 x5e195 +1 x5e1ce -1 x5e4ee +1 x5e529 -1 x5e84d +1 x5e888 -1 x5ebac +1 x5ebe7
 -1 x5ef0b +1 x5ef46 -1 x5f26a +1 x5f2a5 -1 x5f5c9 +1 x5f604 -1 x5f928 +1 x5f963
 -1 x5fc85 +1 x5fcc0 -1 x635c4 +1 x635ff -1 x73169 <= +0
-
 -1 x798d8 +1 x798f6 +1 x798f8 = +0
-
 -1 x798dd -1 x798e5 -1 x798ed +1 x798f7 +1 x798f9 = +0
-
 -1 x79f69 +1 x79f72 -1 x7a5d5 -1 x7a5d7 +1 x7a5e9 <= +0
-
 -1 x7ae8e +1 x7ae97 -1 x7b4fa -1 x7b4fc +1 x7b50e <= +0
-
 -1 x79927 +1 x79f4f <= +0
-
 -1 x79f88 +1 x7a5af -1 x7a600 <= +0
-
 -1 x7a84c +1 x7ae74 -1 x7b773 <= +0
-
 -1 x7aead +1 x7b4d4 -1 x7b525 <= +0
-
 -1 x79f52 -1 x79f53 +1 x79f5c <= +0
-
 -1 x7a5b2 -1 x7a5b3 +1 x7a5bc <= +0
-
 -1 x7ae77 -1 x7ae78 +1 x7ae81 <= +0
-
 -1 x7b4d7 -1 x7b4d8 +1 x7b4e1 <= +0
-
 -1 x79f5c +1 x7a7fa +1 x7a7fc +1 x7a7fe <= +0
-
 -1 x79f81 -1 x7a5bc -1 x7a5f7 +1 x7a7fb +1 x7a7fd +1 x7a7ff <= +0
-
 -1 x7ae81 +1 x7b71f +1 x7b721 +1 x7b723 <= +0
-
 -1 x7aea6 -1 x7b4e1 -1 x7b51c +1 x7b720 +1 x7b722 +1 x7b724 <= +0
-
 -1 x79910 -1 x79911 +1 x7991a <= +0
-
 -1 x7a835 -1 x7a836 +1 x7a83f -1 x7b75c -1 x7b75d +1 x7b766 <= +0
-
 -1 x7a81b -1 x7a81c +1 x7a825 <= +0
-
 -1 x7b740 -1 x7b741 +1 x7b74a -1 x7b96f -1 x7b970 +1 x7b979 <= +0
-
 -1 x7991a +1 x79921 +1 x79926 +1 x7a7fa +1 x7a7fc +1 x7a7fe <= +0
-
 -1 x7a83f +1 x7a846 +1 x7a84b +1 x7b71f +1 x7b721 +1 x7b723 -1 x7b766 +1 x7b76d
 +1 x7b772 <= +0
-
 -1 x7a825 +1 x7b981 +1 x7b985 +1 x7b989 <= +0
-
 -1 x7b74f -1 x7b97e +1 x7b982 +1 x7b984 +1 x7b986 +1 x7b988 +1 x7b98a +1 x7b98c
 <= +0
-
 -1 x785f3 -1 x785f5 +1 x78607 -1 x7862e -1 x78630 +1 x78644 -1 x7866d -1 x7866f
 +1 x78683 -1 x786ac -1 x786ae +1 x786c2 -1 x786eb -1 x786ed +1 x78701 -1 x7872a
 -1 x7872c +1 x78740 -1 x78769 -1 x7876b +1 x7877f -1 x787a8 -1 x787aa +1 x787be
 -1 x7883f -1 x78841 +1 x78853 <= +0
-
 -1 x788d5 -1 x788d7 +1 x788e9 -1 x78918 -1 x7891a +1 x7892e <= +0
-
 -1 x789c4 -1 x789c6 +1 x789d8 -1 x78a07 -1 x78a09 +1 x78a1d <= +0
-
 -1 x788f7 +1 x78900 -1 x7893c +1 x78945 <= +0
-
 -1 x789a3 +1 x789ac -1 x78a93 +1 x78a9c <= +0
-
 -1 x789e6 +1 x789ef -1 x78a2b +1 x78a34 <= +0
-
 -1 x783f5 -1 x783f6 +1 x785a7 = +0
-
 -1 x78420 -1 x78421 -1 x7844c -1 x7844d -1 x7847a -1 x7847b -1 x784a8 -1 x784a9
 -1 x784d6 -1 x784d7 -1 x78504 -1 x78505 -1 x78532 -1 x78533 -1 x78560 -1 x78561
 -1 x7858e -1 x7858f +1 x785a8 = +0
-
 -1 x785da -1 x785db +1 x787e5 +1 x787e7 -1 x78824 -1 x78825 <= +0
-
 -1 x78615 -1 x78616 -1 x78652 -1 x78653 -1 x78691 -1 x78692 -1 x786d0 -1 x786d1
 -1 x7870f -1 x78710 -1 x7874e -1 x7874f -1 x7878d -1 x7878e -1 x787cc -1 x787cd
 +1 x787e6 +1 x787e8 -1 x78861 -1 x78862 <= +0
-
 -1 x788bc -1 x788bd +1 x7895d +1 x7895f -1 x78af8 -1 x78af9 <= +0
-
 -1 x788f8 -1 x78900 -1 x7893d -1 x78945 +1 x7895e +1 x78960 <= +0
-
 -1 x789a4 -1 x789ac +1 x78a4c +1 x78a4e -1 x78a94 -1 x78a9c <= +0
-
 -1 x789e7 -1 x789ef -1 x78a2c -1 x78a34 +1 x78a4d +1 x78a4f <= +0
-
 -1 x78974 +1 x7897d -1 x78a63 +1 x78a6d <= +0
-
 -1 x783e0 +1 x785a7 = +0
-
 -1 x785c3 +1 x785cb +1 x787e5 +1 x787e7 -1 x7880d +1 x78815 <= +0
-
 -1 x788a5 +1 x788ad +1 x7895d +1 x7895f -1 x78ae1 +1 x78ae9 <= +0
-
 -1 x7898c +1 x78994 +1 x78a4c +1 x78a4e -1 x78a7c +1 x78a84 <= +0
-
 -1 x785b0 +1 x78883 <= +0
-
 -1 x787f9 -1 x78880 +1 x78884 <= +0
-
 -1 x78971 +1 x78abb -1 x78b15 <= +0
-
 -1 x78a60 -1 x78ab8 +1 x78abc <= +0
-
 -1 x691b8 +1 x78883 <= +0
-
 -1 x7888e +1 x78896 +1 x78abb -1 x78ac9 +1 x78ad2 <= +0
-
 -1 x78883 +1 x78b1e <= +0
-
 -1 x78ac6 -1 x78ad2 +1 x78b1f <= +0
-
 -1 x78b75 -1 x78b77 +1 x78b87 -1 x78bb8 -1 x78bba +1 x78bcc -1 x78bff -1 x78c01
 +1 x78c13 -1 x78c46 -1 x78c48 +1 x78c5a -1 x78c8d -1 x78c8f +1 x78ca1 -1 x78cd4
 -1 x78cd6 +1 x78ce8 -1 x78d1b -1 x78d1d +1 x78d2f -1 x78d62 -1 x78d64 +1 x78d76
 = +0
-
 -1 x78dfb -1 x78dfd +1 x78e0f -1 x78e47 -1 x78e49 +1 x78e5d <= +0
-
 -1 x78f46 -1 x78f48 +1 x78f5a -1 x78f9a -1 x78f9c +1 x78fb0 <= +0
-
 -1 x79057 -1 x79059 +1 x7906b -1 x790b3 -1 x790b5 +1 x790c9 <= +0
-
 -1 x78f68 +1 x78f71 -1 x78fbe +1 x78fc7 <= +0
-
 -1 x7901d +1 x79026 -1 x7913f +1 x79148 <= +0
-
 -1 x79079 +1 x79082 -1 x790d7 +1 x790e0 <= +0
-
 -1 x79035 +1 x7903e -1 x79157 +1 x79160 <= +0
-
 -1 x79091 +1 x7909a -1 x790ef +1 x790f8 <= +0
-
 -1 x78b5b -1 x78b70 +1 x78da7 +1 x78da9 = +0
-
 -1 x78b9e -1 x78bb3 -1 x78be3 -1 x78bf8 -1 x78c2a -1 x78c3f -1 x78c71 -1 x78c86
 -1 x78cb8 -1 x78ccd -1 x78cff -1 x78d14 -1 x78d46 -1 x78d5b -1 x78d8d -1 x78da2
 +1 x78da8 +1 x78daa = +0
-
 -1 x78de1 -1 x78df6 +1 x78e95 +1 x78e97 -1 x78ed3 -1 x78ee8 <= +0
-
 -1 x78e2d -1 x78e42 -1 x78e7b -1 x78e90 +1 x78e96 +1 x78e98 <= +0
-
 -1 x78f2c -1 x78f41 +1 x78ff0 +1 x78ff2 -1 x791bc -1 x791d1 <= +0
-
 -1 x78f80 -1 x78f95 -1 x78fd6 -1 x78feb +1 x78ff1 +1 x78ff3 <= +0
-
 -1 x7903e -1 x79052 +1 x79111 +1 x79113 -1 x79160 -1 x79174 <= +0
-
 -1 x7909a -1 x790ae -1 x790f8 -1 x7910c +1 x79112 +1 x79114 <= +0
-
 -1 x78b2a +1 x78da7 +1 x78da9 = +0
-
 -1 x78dba +1 x78dc2 +1 x78e95 +1 x78e97 -1 x78eab +1 x78eb4 <= +0
-
 -1 x78f05 +1 x78f0d +1 x78ff0 +1 x78ff2 -1 x79195 +1 x7919d <= +0
-
 -1 x79006 +1 x7900e +1 x79111 +1 x79113 -1 x79127 +1 x79130 <= +0
-
 -1 x78db7 +1 x78ef3 <= +0
-
 -1 x78ea8 -1 x78eb4 +1 x78ef4 <= +0
-
 -1 x79003 +1 x7917f -1 x7919d <= +0
-
 -1 x79124 -1 x79130 +1 x79180 <= +0
-
 -1 x78b2a +1 x78ef3 <= +0
-
 -1 x78efe +1 x78f06 +1 x7917f -1 x7918d +1 x79196 <= +0
-
 -1 x78ef3 +1 x791e2 <= +0
-
 -1 x7918a -1 x79196 +1 x791e3 <= +0
-
 -1 x792db -1 x792dd +1 x792ef -1 x7931e -1 x79320 +1 x79334 -1 x79365 -1 x79367
 +1 x7937b -1 x793ac -1 x793ae +1 x793c2 -1 x793f3 -1 x793f5 +1 x79409 -1 x7943a
 -1 x7943c +1 x79450 -1 x79481 -1 x79483 +1 x79497 -1 x794c8 -1 x794ca +1 x794de
 -1 x7950e +1 x79518 -1 x795a2 -1 x795a4 +1 x795b6 <= +0
-
 -1 x79640 -1 x79642 +1 x79654 -1 x79683 -1 x79685 +1 x79699 <= +0
-
 -1 x796fe +1 x79707 -1 x797ee +1 x797f7 <= +0
-
 -1 x7972f -1 x79731 +1 x79743 -1 x79772 -1 x79774 +1 x79788 <= +0
-
 -1 x792fd +1 x79306 -1 x79342 +1 x7934b -1 x79389 +1 x79392 -1 x793d0 +1 x793d9
 -1 x79417 +1 x79420 -1 x7945e +1 x79467 -1 x794a5 +1 x794ae -1 x794ec +1 x794f5
 -1 x79527 +1 x79530 -1 x795c4 +1 x795cd <= +0
-
 -1 x79662 +1 x7966b -1 x796a7 +1 x796b0 <= +0
-
 -1 x79751 +1 x7975a -1 x79796 +1 x7979f <= +0
-
 -1 x7921f -1 x79220 +1 x7928f = +0
-
 -1 x7924a -1 x7924b -1 x79276 -1 x79277 +1 x79290 = +0
-
 -1 x792c2 -1 x792c3 +1 x79548 +1 x7954a -1 x79587 -1 x79588 <= +0
-
 -1 x792fe -1 x79306 -1 x79343 -1 x7934b -1 x7938a -1 x79392 -1 x793d1 -1 x793d9
 -1 x79418 -1 x79420 -1 x7945f -1 x79467 -1 x794a6 -1 x794ae -1 x794ed -1 x794f5
 -1 x79528 -1 x79530 +1 x79549 +1 x7954b -1 x795c5 -1 x795cd <= +0
-
 -1 x79627 -1 x79628 +1 x796c8 +1 x796ca -1 x79863 -1 x79864 <= +0
-
 -1 x79663 -1 x7966b -1 x796a8 -1 x796b0 +1 x796c9 +1 x796cb <= +0
-
 -1 x79716 -1 x79717 +1 x797b7 +1 x797b9 -1 x79806 -1 x79807 <= +0
-
 -1 x79752 -1 x7975a -1 x79797 -1 x7979f +1 x797b8 +1 x797ba <= +0
-
 -1 x796df +1 x796e8 -1 x797ce +1 x797d8 <= +0
-
 -1 x7920a +1 x7928f = +0
-
 -1 x792ab +1 x792b3 +1 x79548 +1 x7954a -1 x79570 +1 x79578 <= +0
-
 -1 x79610 +1 x79618 +1 x796c8 +1 x796ca -1 x7984c +1 x79854 <= +0
-
 -1 x796f7 +1 x796ff +1 x797b7 +1 x797b9 -1 x797e7 +1 x797ef <= +0
-
 -1 x79298 +1 x795ee <= +0
-
 -1 x7955c -1 x795eb +1 x795ef <= +0
-
 -1 x796dc +1 x79826 -1 x79880 <= +0
-
 -1 x797cb -1 x79823 +1 x79827 <= +0
-
 -1 x791ee +1 x795ee <= +0
-
 -1 x795f9 +1 x79601 +1 x79826 -1 x79834 +1 x7983d <= +0
-
 -1 x795ee +1 x79889 <= +0
-
 -1 x79831 -1 x7983d +1 x7988a <= +0
-
 -1 x5dcae +1 x5dcd6 +1 x5dcd8 = +0
-
 -1 x5dcbd -1 x5dcc5 -1 x5dccd +1 x5dcd7 +1 x5dcd9 = +0
-
 -1 x5dcf0 +1 x5dd08 +1 x5dd0a -1 x5dd26 = +0
-
 -1 x5dcf8 -1 x5dd00 +1 x5dd09 +1 x5dd0b = +0
-
 -1 x5dcae +1 x5dcd6 +1 x5dcd8 = +0
-
 -1 x5dce9 +1 x5dcf1 +1 x5dd08 +1 x5dd0a -1 x5dd1e +1 x5dd27 = +0
-
 -1 x5dce6 +1 x5dd34 = +0
-
 -1 x5dd1b -1 x5dd27 +1 x5dd35 = +0
-
 -1 x5dd7b +1 x7725f +1 x77263 <= +0
-
 +1 x7132f +1 x71333 -1 x714e4 +1 x7167e +1 x71682 -1 x71841 +1 x719dd +1 x719e1
 -1 x71ba0 +1 x71d3c +1 x71d40 -1 x71eff +1 x7209b +1 x7209f -1 x7225e +1 x723fa
 +1 x723fe -1 x725bd +1 x72759 +1 x7275d -1 x7291c +1 x72ab8 +1 x72abc -1 x72c7b
 +1 x72e16 +1 x72e1a -1 x7751c +1 x776b4 +1 x776b8 -1 x77873 <= +0
-
 +1 x709de +1 x709e2 -1 x70bf6 +1 x70d8c +1 x70d90 -1 x70fa9 -1 x71006 -1 x71063
 -1 x710c0 -1 x7111d -1 x7117a -1 x779f3 +1 x77b88 +1 x77b8c -1 x7810f <= +0
-
 +1 x6ebc5 +1 x6ebc9 -1 x6ed7a +1 x6ef14 +1 x6ef18 -1 x6f0d7 +1 x6f273 +1 x6f277
 -1 x6f436 +1 x6f5d2 +1 x6f5d6 -1 x6f795 +1 x6f931 +1 x6f935 -1 x6faf4 +1 x6fc90
 +1 x6fc94 -1 x6fe53 +1 x6ffef +1 x6fff3 -1 x701b2 +1 x7034e +1 x70352 -1 x70511
 +1 x706ac +1 x706b0 -1 x70b8c -1 x70f46 -1 x77d40 +1 x77ed8 +1 x77edc -1 x78097
 <= +0
-
 +1 x6d8ad +1 x6d8b1 -1 x6db3d +1 x6dcd3 +1 x6dcd7 -1 x6ea0a -1 x782a9 <= +0
-
 +1 x6ba94 +1 x6ba98 -1 x6bc49 +1 x6bde3 +1 x6bde7 -1 x6bfa6 +1 x6c142 +1 x6c146
 -1 x6c305 +1 x6c4a1 +1 x6c4a5 -1 x6c664 +1 x6c800 +1 x6c804 -1 x6c9c3 +1 x6cb5f
 +1 x6cb63 -1 x6cd22 +1 x6cebe +1 x6cec2 -1 x6d081 +1 x6d21d +1 x6d221 -1 x6d3e0
 +1 x6d57b +1 x6d57f -1 x6da5b -1 x6de8d +1 x6e028 +1 x6e02c -1 x6e1ea <= +0
-
 +1 x6b143 +1 x6b147 -1 x6b35b +1 x6b4f1 +1 x6b4f5 -1 x6b70e -1 x6b76b -1 x6b7c8
 -1 x6b825 -1 x6b882 -1 x6b8df -1 x6dac5 -1 x6e261 +1 x6e3f9 +1 x6e3fd -1 x6e989
 <= +0
-
 +1 x6932a +1 x6932e -1 x694df +1 x69679 +1 x6967d -1 x6983c +1 x699d8 +1 x699dc
 -1 x69b9b +1 x69d37 +1 x69d3b -1 x69efa +1 x6a096 +1 x6a09a -1 x6a259 +1 x6a3f5
 +1 x6a3f9 -1 x6a5b8 +1 x6a754 +1 x6a758 -1 x6a917 +1 x6aab3 +1 x6aab7 -1 x6ac76
 +1 x6ae11 +1 x6ae15 -1 x6b2f1 -1 x6b6ab -1 x6e5b4 +1 x6e74f +1 x6e753 -1 x6e911
 <= +0
-
 +1 x67e7a +1 x67e7e -1 x681d5 +1 x6836b +1 x6836f -1 x6916f -1 x78379 <= +0
-
 +1 x66061 +1 x66065 -1 x66216 +1 x663b0 +1 x663b4 -1 x66573 +1 x6670f +1 x66713
 -1 x668d2 +1 x66a6e +1 x66a72 -1 x66c31 +1 x66dcd +1 x66dd1 -1 x66f90 +1 x6712c
 +1 x67130 -1 x672ef +1 x6748b +1 x6748f -1 x6764e +1 x677ea +1 x677ee -1 x679ad
 +1 x67b48 +1 x67b4c -1 x68028 -1 x68525 +1 x686c0 +1 x686c4 -1 x68882 <= +0
-
 +1 x65710 +1 x65714 -1 x65928 +1 x65abe +1 x65ac2 -1 x65cdb -1 x65d38 -1 x65d95
 -1 x65df2 -1 x65e4f -1 x65eac -1 x68092 -1 x688f9 +1 x68a91 +1 x68a95 -1 x69021
 <= +0
-
 +1 x638f7 +1 x638fb -1 x63aac +1 x63c46 +1 x63c4a -1 x63e09 +1 x63fa5 +1 x63fa9
 -1 x64168 +1 x64304 +1 x64308 -1 x644c7 +1 x64663 +1 x64667 -1 x64826 +1 x649c2
 +1 x649c6 -1 x64b85 +1 x64d21 +1 x64d25 -1 x64ee4 +1 x65080 +1 x65084 -1 x65243
 +1 x653de +1 x653e2 -1 x658be -1 x65c78 -1 x68c4c +1 x68de7 +1 x68deb -1 x68fa9
 <= +0
-
 +1 x625df +1 x625e3 -1 x6286f +1 x62a05 +1 x62a09 -1 x6373c -1 x6810a -1 x690a1
 <= +0
-
 +1 x607c6 +1 x607ca -1 x6097b +1 x60b15 +1 x60b19 -1 x60cd8 +1 x60e74 +1 x60e78
 -1 x61037 +1 x611d3 +1 x611d7 -1 x61396 +1 x61532 +1 x61536 -1 x616f5 +1 x61891
 +1 x61895 -1 x61a54 +1 x61bf0 +1 x61bf4 -1 x61db3 +1 x61f4f +1 x61f53 -1 x62112
 +1 x622ad +1 x622b1 -1 x6278d -1 x62bbf +1 x62d5a +1 x62d5e -1 x62f1c <= +0
-
 +1 x5fe75 +1 x5fe79 -1 x6008d +1 x60223 +1 x60227 -1 x60440 -1 x6049d -1 x604fa
 -1 x60557 -1 x605b4 -1 x60611 -1 x627f7 -1 x62f93 +1 x6312b +1 x6312f -1 x636bb
 <= +0
-
 +1 x5e05c +1 x5e060 -1 x5e211 +1 x5e3ab +1 x5e3af -1 x5e56e +1 x5e70a +1 x5e70e
 -1 x5e8cd +1 x5ea69 +1 x5ea6d -1 x5ec2c +1 x5edc8 +1 x5edcc -1 x5ef8b +1 x5f127
 +1 x5f12b -1 x5f2ea +1 x5f486 +1 x5f48a -1 x5f649 +1 x5f7e5 +1 x5f7e9 -1 x5f9a8
 +1 x5fb43 +1 x5fb47 -1 x60023 -1 x603dd -1 x632e6 +1 x63481 +1 x63485 -1 x63643
 <= +0
-
 +1 x755a4 +1 x755a8 -1 x77268 +1 x7750a +1 x7750e <= +0
-
 -1 x71338 +1 x714d4 +1 x714d8 -1 x71687 +1 x7182f +1 x71833 -1 x719e6 +1 x71b8e
 +1 x71b92 -1 x71d45 +1 x71eed +1 x71ef1 -1 x720a4 +1 x7224c +1 x72250 -1 x72403
 +1 x725ab +1 x725af -1 x72762 +1 x7290a +1 x7290e -1 x72ac1 +1 x72c69 +1 x72c6d
 -1 x72e1f +1 x72fc6 +1 x72fca -1 x776bd +1 x77862 +1 x77866 <= +0
-
 -1 x709e7 +1 x70b7c +1 x70b80 -1 x70d95 +1 x70f35 +1 x70f39 -1 x77b91 +1 x77d2f
 +1 x77d33 <= +0
-
 -1 x6ebce +1 x6ed6a +1 x6ed6e -1 x6ef1d +1 x6f0c5 +1 x6f0c9 -1 x6f27c +1 x6f424
 +1 x6f428 -1 x6f5db +1 x6f783 +1 x6f787 -1 x6f93a +1 x6fae2 +1 x6fae6 -1 x6fc99
 +1 x6fe41 +1 x6fe45 -1 x6fff8 +1 x701a0 +1 x701a4 -1 x70357 +1 x704ff +1 x70503
 -1 x706b5 +1 x7085c +1 x70860 -1 x77ee1 +1 x78086 +1 x7808a <= +0
-
 -1 x6d8b6 +1 x6da4b +1 x6da4f -1 x6dcdc +1 x6de7c +1 x6de80 <= +0
-
 -1 x6ba9d +1 x6bc39 +1 x6bc3d -1 x6bdec +1 x6bf94 +1 x6bf98 -1 x6c14b +1 x6c2f3
 +1 x6c2f7 -1 x6c4aa +1 x6c652 +1 x6c656 -1 x6c809 +1 x6c9b1 +1 x6c9b5 -1 x6cb68
 +1 x6cd10 +1 x6cd14 -1 x6cec7 +1 x6d06f +1 x6d073 -1 x6d226 +1 x6d3ce +1 x6d3d2
 -1 x6d584 +1 x6d72b +1 x6d72f -1 x6e031 +1 x6e1d9 +1 x6e1dd <= +0
-
 -1 x6b14c +1 x6b2e1 +1 x6b2e5 -1 x6b4fa +1 x6b69a +1 x6b69e -1 x6e402 +1 x6e5a3
 +1 x6e5a7 <= +0
-
 -1 x69333 +1 x694cf +1 x694d3 -1 x69682 +1 x6982a +1 x6982e -1 x699e1 +1 x69b89
 +1 x69b8d -1 x69d40 +1 x69ee8 +1 x69eec -1 x6a09f +1 x6a247 +1 x6a24b -1 x6a3fe
 +1 x6a5a6 +1 x6a5aa -1 x6a75d +1 x6a905 +1 x6a909 -1 x6aabc +1 x6ac64 +1 x6ac68
 -1 x6ae1a +1 x6afc1 +1 x6afc5 -1 x6e758 +1 x6e900 +1 x6e904 <= +0
-
 -1 x67e83 +1 x68018 +1 x6801c -1 x68374 +1 x68514 +1 x68518 <= +0
-
 -1 x6606a +1 x66206 +1 x6620a -1 x663b9 +1 x66561 +1 x66565 -1 x66718 +1 x668c0
 +1 x668c4 -1 x66a77 +1 x66c1f +1 x66c23 -1 x66dd6 +1 x66f7e +1 x66f82 -1 x67135
 +1 x672dd +1 x672e1 -1 x67494 +1 x6763c +1 x67640 -1 x677f3 +1 x6799b +1 x6799f
 -1 x67b51 +1 x67cf8 +1 x67cfc -1 x686c9 +1 x68871 +1 x68875 <= +0
-
 -1 x65719 +1 x658ae +1 x658b2 -1 x65ac7 +1 x65c67 +1 x65c6b -1 x68a9a +1 x68c3b
 +1 x68c3f <= +0
-
 -1 x63900 +1 x63a9c +1 x63aa0 -1 x63c4f +1 x63df7 +1 x63dfb -1 x63fae +1 x64156
 +1 x6415a -1 x6430d +1 x644b5 +1 x644b9 -1 x6466c +1 x64814 +1 x64818 -1 x649cb
 +1 x64b73 +1 x64b77 -1 x64d2a +1 x64ed2 +1 x64ed6 -1 x65089 +1 x65231 +1 x65235
 -1 x653e7 +1 x6558e +1 x65592 -1 x68df0 +1 x68f98 +1 x68f9c <= +0
-
 -1 x625e8 +1 x6277d +1 x62781 -1 x62a0e +1 x62bae +1 x62bb2 <= +0
-
 -1 x607cf +1 x6096b +1 x6096f -1 x60b1e +1 x60cc6 +1 x60cca -1 x60e7d +1 x61025
 +1 x61029 -1 x611dc +1 x61384 +1 x61388 -1 x6153b +1 x616e3 +1 x616e7 -1 x6189a
 +1 x61a42 +1 x61a46 -1 x61bf9 +1 x61da1 +1 x61da5 -1 x61f58 +1 x62100 +1 x62104
 -1 x622b6 +1 x6245d +1 x62461 -1 x62d63 +1 x62f0b +1 x62f0f <= +0
-
 -1 x5fe7e +1 x60013 +1 x60017 -1 x6022c +1 x603cc +1 x603d0 -1 x63134 +1 x632d5
 +1 x632d9 <= +0
-
 -1 x5e065 +1 x5e201 +1 x5e205 -1 x5e3b4 +1 x5e55c +1 x5e560 -1 x5e713 +1 x5e8bb
 +1 x5e8bf -1 x5ea72 +1 x5ec1a +1 x5ec1e -1 x5edd1 +1 x5ef79 +1 x5ef7d -1 x5f130
 +1 x5f2d8 +1 x5f2dc -1 x5f48f +1 x5f637 +1 x5f63b -1 x5f7ee +1 x5f996 +1 x5f99a
 -1 x5fb4c +1 x5fcf3 +1 x5fcf7 -1 x6348a +1 x63632 +1 x63636 <= +0
-
 +1 x72fd8 +1 x72fda -1 x77517 +1 x778b3 +1 x778b5 <= +0
-
 -1 x714df -1 x7183b -1 x71b9a -1 x71ef9 -1 x72258 -1 x725b7 -1 x72916 -1 x72c75
 -1 x72fd2 +1 x72fd9 +1 x72fdb -1 x7786d +1 x778b4 +1 x778b6 <= +0
-
 +1 x7086e +1 x70870 -1 x70b87 -1 x70f40 -1 x77d3a +1 x780d7 +1 x780d9 <= +0
-
 -1 x6ed75 -1 x6f0d1 -1 x6f430 -1 x6f78f -1 x6faee -1 x6fe4d -1 x701ac -1 x7050b
 -1 x70868 +1 x7086f +1 x70871 -1 x78091 +1 x780d8 +1 x780da <= +0
-
 +1 x6d73d +1 x6d73f -1 x6da56 -1 x6de87 +1 x6e22a +1 x6e22c <= +0
-
 -1 x6bc44 -1 x6bfa0 -1 x6c2ff -1 x6c65e -1 x6c9bd -1 x6cd1c -1 x6d07b -1 x6d3da
 -1 x6d737 +1 x6d73e +1 x6d740 -1 x6e1e4 +1 x6e22b +1 x6e22d <= +0
-
 +1 x6afd3 +1 x6afd5 -1 x6b2ec -1 x6b6a5 -1 x6e5ae +1 x6e951 +1 x6e953 <= +0
-
 -1 x694da -1 x69836 -1 x69b95 -1 x69ef4 -1 x6a253 -1 x6a5b2 -1 x6a911 -1 x6ac70
 -1 x6afcd +1 x6afd4 +1 x6afd6 -1 x6e90b +1 x6e952 +1 x6e954 <= +0
-
 +1 x67d0a +1 x67d0c -1 x68023 -1 x6851f +1 x688c2 +1 x688c4 <= +0
-
 -1 x66211 -1 x6656d -1 x668cc -1 x66c2b -1 x66f8a -1 x672e9 -1 x67648 -1 x679a7
 -1 x67d04 +1 x67d0b +1 x67d0d -1 x6887c +1 x688c3 +1 x688c5 <= +0
-
 +1 x655a0 +1 x655a2 -1 x658b9 -1 x65c72 -1 x68c46 +1 x68fe9 +1 x68feb <= +0
-
 -1 x63aa7 -1 x63e03 -1 x64162 -1 x644c1 -1 x64820 -1 x64b7f -1 x64ede -1 x6523d
 -1 x6559a +1 x655a1 +1 x655a3 -1 x68fa3 +1 x68fea +1 x68fec <= +0
-
 +1 x6246f +1 x62471 -1 x62788 -1 x62bb9 +1 x62f5c +1 x62f5e <= +0
-
 -1 x60976 -1 x60cd2 -1 x61031 -1 x61390 -1 x616ef -1 x61a4e -1 x61dad -1 x6210c
 -1 x62469 +1 x62470 +1 x62472 -1 x62f16 +1 x62f5d +1 x62f5f <= +0
-
 +1 x5fd05 +1 x5fd07 -1 x6001e -1 x603d7 -1 x632e0 +1 x63683 +1 x63685 <= +0
-
 -1 x5e20c -1 x5e568 -1 x5e8c7 -1 x5ec26 -1 x5ef85 -1 x5f2e4 -1 x5f643 -1 x5f9a2
 -1 x5fcff +1 x5fd06 +1 x5fd08 -1 x6363d +1 x63684 +1 x63686 <= +0
-
 -1 x5dd63 +1 x5dd6c <= +0
-
 -1 x70bde +1 x70be7 -1 x70f90 +1 x70f9a -1 x70fed +1 x70ff7 -1 x7104a +1 x71054
 -1 x710a7 +1 x710b1 -1 x71104 +1 x7110e -1 x71161 +1 x7116b -1 x779db +1 x779e4
 -1 x780f6 +1 x78100 <= +0
-
 -1 x6db25 +1 x6db2e -1 x6e9f2 +1 x6e9fb -1 x78291 +1 x7829a <= +0
-
 -1 x6b343 +1 x6b34c -1 x6b6f5 +1 x6b6ff -1 x6b752 +1 x6b75c -1 x6b7af +1 x6b7b9
 -1 x6b80c +1 x6b816 -1 x6b869 +1 x6b873 -1 x6b8c6 +1 x6b8d0 -1 x6daad +1 x6dab6
 -1 x6e249 +1 x6e252 -1 x6e970 +1 x6e97a <= +0
-
 -1 x681bd +1 x681c6 -1 x69157 +1 x69160 -1 x78361 +1 x7836a <= +0
-
 -1 x65910 +1 x65919 -1 x65cc2 +1 x65ccc -1 x65d1f +1 x65d29 -1 x65d7c +1 x65d86
 -1 x65dd9 +1 x65de3 -1 x65e36 +1 x65e40 -1 x65e93 +1 x65e9d -1 x6807a +1 x68083
 -1 x688e1 +1 x688ea -1 x69008 +1 x69012 <= +0
-
 -1 x62857 +1 x62860 -1 x63724 +1 x6372d -1 x680f2 +1 x680fb -1 x69089 +1 x69092
 <= +0
-
 -1 x60075 +1 x6007e -1 x60427 +1 x60431 -1 x60484 +1 x6048e -1 x604e1 +1 x604eb
 -1 x6053e +1 x60548 -1 x6059b +1 x605a5 -1 x605f8 +1 x60602 -1 x627df +1 x627e8
 -1 x62f7b +1 x62f84 -1 x636a2 +1 x636ac <= +0
-
 -1 x5dd7b +1 x779c5 +1 x779c6 +1 x779c7 <= +0
-
 +1 x7086e +1 x70870 +1 x70bcb -1 x70bf6 +1 x70f83 -1 x70fa9 -1 x71006 -1 x71063
 -1 x710c0 -1 x7111d -1 x7117a -1 x779f3 +1 x780d7 +1 x780d9 +1 x780e1 -1 x7810f
 <= +0
-
 +1 x6d73d +1 x6d73f +1 x6da9a -1 x6db3d +1 x6e22a +1 x6e22c +1 x6e234 -1 x6ea0a
 -1 x782a9 <= +0
-
 +1 x6afd3 +1 x6afd5 +1 x6b330 -1 x6b35b +1 x6b6e8 -1 x6b70e -1 x6b76b -1 x6b7c8
 -1 x6b825 -1 x6b882 -1 x6b8df -1 x6dac5 -1 x6e261 +1 x6e951 +1 x6e953 +1 x6e95b
 -1 x6e989 <= +0
-
 +1 x67d0a +1 x67d0c +1 x68067 -1 x681d5 +1 x688c2 +1 x688c4 +1 x688cc -1 x6916f
 -1 x78379 <= +0
-
 +1 x655a0 +1 x655a2 +1 x658fd -1 x65928 +1 x65cb5 -1 x65cdb -1 x65d38 -1 x65d95
 -1 x65df2 -1 x65e4f -1 x65eac -1 x68092 -1 x688f9 +1 x68fe9 +1 x68feb +1 x68ff3
 -1 x69021 <= +0
-
 +1 x6246f +1 x62471 +1 x627cc -1 x6286f +1 x62f5c +1 x62f5e +1 x62f66 -1 x6373c
 -1 x6810a -1 x690a1 <= +0
-
 +1 x5fd05 +1 x5fd07 +1 x60062 -1 x6008d +1 x6041a -1 x60440 -1 x6049d -1 x604fa
 -1 x60557 -1 x605b4 -1 x60611 -1 x627f7 -1 x62f93 +1 x63683 +1 x63685 +1 x6368d
 -1 x636bb <= +0
-
 +1 x711bd -1 x779d9 +1 x78153 <= +0
-
 -1 x70bdc -1 x70f8d -1 x70faa -1 x71007 -1 x71064 -1 x710c1 -1 x7111e -1 x7117b
 +1 x711be -1 x780f3 -1 x78110 +1 x78154 <= +0
-
 +1 x6b922 -1 x6daab -1 x6e246 +1 x6e9cd -1 x6ea0b -1 x782aa <= +0
-
 -1 x6b341 -1 x6b6f2 -1 x6b70f -1 x6b76c -1 x6b7c9 -1 x6b826 -1 x6b883 -1 x6b8e0
 +1 x6b923 -1 x6dac6 -1 x6e96d -1 x6e98a +1 x6e9ce <= +0
-
 +1 x65eef -1 x68078 -1 x688de +1 x69065 -1 x69170 -1 x7837a <= +0
-
 -1 x6590e -1 x65cbf -1 x65cdc -1 x65d39 -1 x65d96 -1 x65df3 -1 x65e50 -1 x65ead
 +1 x65ef0 -1 x68093 -1 x69005 -1 x69022 +1 x69066 <= +0
-
 +1 x60654 -1 x627dd -1 x62f78 +1 x636ff -1 x6373d -1 x6810b -1 x690a2 <= +0
-
 -1 x60073 -1 x60424 -1 x60441 -1 x6049e -1 x604fb -1 x60558 -1 x605b5 -1 x60612
 +1 x60655 -1 x627f8 -1 x6369f -1 x636bc +1 x63700 <= +0
-
 -1 x5dd53 -1 x5dd54 +1 x5dd5d <= +0
-
 -1 x6db15 -1 x6db16 +1 x6db1f -1 x6e9e2 -1 x6e9e3 +1 x6e9ec -1 x78281 -1 x78282
 +1 x7828b <= +0
-
 -1 x681ad -1 x681ae +1 x681b7 -1 x69147 -1 x69148 +1 x69151 -1 x78351 -1 x78352
 +1 x7835b <= +0
-
 -1 x62847 -1 x62848 +1 x62851 -1 x63714 -1 x63715 +1 x6371e -1 x680e2 -1 x680e3
 +1 x680ec -1 x69079 -1 x6907a +1 x69083 <= +0
-
 -1 x5dd5d +1 x5dd64 +1 x78272 <= +0
-
 +1 x6b922 -1 x6db1f +1 x6db26 +1 x6e9cd -1 x6e9ec +1 x6e9f3 -1 x7828b +1 x78292
 <= +0
-
 +1 x65eef -1 x681b7 +1 x681be +1 x69065 -1 x69151 +1 x69158 -1 x7835b +1 x78362
 <= +0
-
 +1 x60654 -1 x62851 +1 x62858 +1 x636ff -1 x6371e +1 x63725 -1 x680ec +1 x680f3
 -1 x69083 +1 x6908a <= +0
-
 +1 x6ea53 -1 x78279 +1 x782f3 <= +0
-
 -1 x6b922 -1 x6e9d8 -1 x6e9f3 +1 x6ea54 -1 x78292 +1 x782f4 <= +0
-
 +1 x63785 -1 x65eef -1 x69070 +1 x690eb -1 x69158 -1 x78362 <= +0
-
 -1 x60654 -1 x6370a -1 x63725 +1 x63786 -1 x680f3 -1 x6908a +1 x690ec <= +0
-
 -1 x5dd40 -1 x5dd41 +1 x5dd4a <= +0
-
 -1 x6819a -1 x6819b +1 x681a4 -1 x69134 -1 x69135 +1 x6913e -1 x7833e -1 x7833f
 +1 x78348 <= +0
-
 -1 x78319 -1 x7831a +1 x78323 <= +0
-
 -1 x68175 -1 x68176 +1 x6817f -1 x69110 -1 x69111 +1 x6911a <= +0
-
 -1 x78305 -1 x78306 +1 x7830f <= +0
-
 -1 x68161 -1 x68162 +1 x6816b -1 x690fc -1 x690fd +1 x69106 <= +0
-
 -1 x5dd4a +1 x782f8 <= +0
-
 +1 x63785 -1 x681a4 +1 x690eb -1 x6913e -1 x78348 <= +0
-
 +1 x691b8 -1 x782fc -1 x7830f -1 x78315 -1 x78323 <= +0
-
 -1 x68158 -1 x6816b -1 x68171 -1 x6817f -1 x690f3 -1 x69106 -1 x6910c -1 x6911a
 +1 x691b9 <= +0
-
-
-
-
 -3 x79949 +1 x79958 +1 x79968 +1 x79978 <= +0
-
 -2 x79958 +1 x79968 +1 x79978 <= +0
-
 -2 x79949 +1 x79968 +1 x79978 <= +0
-
 -3 x79b5a +1 x79b69 +1 x79b79 +1 x79b89 -3 x79d6d +1 x79d7c <= +0
-
 -2 x79b69 +1 x79b79 +1 x79b89 -2 x79d7c <= +0
-
 -2 x79b5a +1 x79b79 +1 x79b89 -2 x79d6d <= +0
-
 -3 x79fa9 +1 x79fb8 +1 x79fc8 +1 x79fd8 -3 x7a621 +1 x7a630 <= +0
-
 -2 x79fb8 +1 x79fc8 +1 x79fd8 -2 x7a630 <= +0
-
 -2 x79fa9 +1 x79fc8 +1 x79fd8 -2 x7a621 <= +0
-
 -3 x7a1ba +1 x7a1c9 +1 x7a1d9 +1 x7a1e9 -3 x7a3cd +1 x7a3dc <= +0
-
 -2 x7a1c9 +1 x7a1d9 +1 x7a1e9 -2 x7a3dc <= +0
-
 -2 x7a1ba +1 x7a1d9 +1 x7a1e9 -2 x7a3cd <= +0
-
 -3 x7a86e +1 x7a87d +1 x7a88d +1 x7a89d -3 x7b795 +1 x7b7a4 <= +0
-
 -2 x7a87d +1 x7a88d +1 x7a89d -2 x7b7a4 <= +0
-
 -2 x7a86e +1 x7a88d +1 x7a89d -2 x7b795 <= +0
-
 -3 x7aa7f +1 x7aa8e +1 x7aa9e +1 x7aaae -3 x7ac92 +1 x7aca1 <= +0
-
 -2 x7aa8e +1 x7aa9e +1 x7aaae -2 x7aca1 <= +0
-
 -2 x7aa7f +1 x7aa9e +1 x7aaae -2 x7ac92 <= +0
-
 -3 x7aece +1 x7aedd +1 x7aeed +1 x7aefd -3 x7b546 +1 x7b555 <= +0
-
 -2 x7aedd +1 x7aeed +1 x7aefd -2 x7b555 <= +0
-
 -2 x7aece +1 x7aeed +1 x7aefd -2 x7b546 <= +0
-
 -3 x7b0df +1 x7b0ee +1 x7b0fe +1 x7b10e -3 x7b2f2 +1 x7b301 <= +0
-
 -2 x7b0ee +1 x7b0fe +1 x7b10e -2 x7b301 <= +0
-
 -2 x7b0df +1 x7b0fe +1 x7b10e -2 x7b2f2 <= +0
-
-
 -3 x7992d -3 x7992e +1 x7994a +1 x79b06 +1 x79b38 +1 x79b5b +1 x79d17 +1 x79d49
 +1 x79d6e +1 x79f00 +1 x79f32 <= +0
-
 -2 x7994a -2 x79b06 -2 x79b38 +1 x79b5b +1 x79d17 +1 x79d49 +1 x79d6e +1 x79f00
 +1 x79f32 <= +0
-
 -2 x7992d -2 x7992e +1 x79b5b +1 x79d17 +1 x79d49 +1 x79d6e +1 x79f00 +1 x79f32
 <= +0
-
 -3 x79f8d -3 x79f8e +1 x79faa +1 x7a166 +1 x7a198 +1 x7a1bb +1 x7a377 +1 x7a3a9
 +1 x7a3ce +1 x7a560 +1 x7a592 -3 x7a605 -3 x7a606 +1 x7a622 +1 x7a7b4 +1 x7a7e6
 <= +0
-
 -2 x79faa -2 x7a166 -2 x7a198 +1 x7a1bb +1 x7a377 +1 x7a3a9 +1 x7a3ce +1 x7a560
 +1 x7a592 -2 x7a622 -2 x7a7b4 -2 x7a7e6 <= +0
-
 -2 x79f8d -2 x79f8e +1 x7a1bb +1 x7a377 +1 x7a3a9 +1 x7a3ce +1 x7a560 +1 x7a592
 -2 x7a605 -2 x7a606 <= +0
-
 -3 x7a852 -3 x7a853 +1 x7a86f +1 x7aa2b +1 x7aa5d +1 x7aa80 +1 x7ac3c +1 x7ac6e
 +1 x7ac93 +1 x7ae25 +1 x7ae57 -3 x7b779 -3 x7b77a +1 x7b796 +1 x7b928 +1 x7b95a
 <= +0
-
 -2 x7a86f -2 x7aa2b -2 x7aa5d +1 x7aa80 +1 x7ac3c +1 x7ac6e +1 x7ac93 +1 x7ae25
 +1 x7ae57 -2 x7b796 -2 x7b928 -2 x7b95a <= +0
-
 -2 x7a852 -2 x7a853 +1 x7aa80 +1 x7ac3c +1 x7ac6e +1 x7ac93 +1 x7ae25 +1 x7ae57
 -2 x7b779 -2 x7b77a <= +0
-
 -3 x7aeb2 -3 x7aeb3 +1 x7aecf +1 x7b08b +1 x7b0bd +1 x7b0e0 +1 x7b29c +1 x7b2ce
 +1 x7b2f3 +1 x7b485 +1 x7b4b7 -3 x7b52a -3 x7b52b +1 x7b547 +1 x7b6d9 +1 x7b70b
 <= +0
-
 -2 x7aecf -2 x7b08b -2 x7b0bd +1 x7b0e0 +1 x7b29c +1 x7b2ce +1 x7b2f3 +1 x7b485
 +1 x7b4b7 -2 x7b547 -2 x7b6d9 -2 x7b70b <= +0
-
 -2 x7aeb2 -2 x7aeb3 +1 x7b0e0 +1 x7b29c +1 x7b2ce +1 x7b2f3 +1 x7b485 +1 x7b4b7
 -2 x7b52a -2 x7b52b <= +0
-
-
 -9 x5dd7b +1 x5ddb7 +1 x5ddd1 +1 x5dede +1 x77066 <= +0
-
 -8 x5ddb7 +1 x5ddd1 +1 x5dede +1 x77066 <= +0
-
 -8 x5dd7b +1 x5ddd1 +1 x5dede +1 x77066 <= +0
-
 +1 x756d9 +1 x75d05 +1 x76252 +1 x762b4 +1 x763ef +1 x76925 -9 x76934 +1 x7696e
 +1 x76f36 +1 x76f9f -9 x770b1 +1 x77105 +1 x77167 +1 x771ca -9 x771da +1 x7722f
 <= +0
-
 +1 x756d9 +1 x75d05 +1 x76252 +1 x762b4 -8 x763ef +1 x76925 -8 x7696e -8 x76f36
 +1 x76f9f -8 x77105 +1 x77167 +1 x771ca -8 x7722f <= +0
-
 +1 x756d9 +1 x75d05 +1 x76252 +1 x762b4 +1 x76925 -8 x76934 +1 x76f9f -8 x770b1
 +1 x77167 +1 x771ca -8 x771da <= +0
-
 +1 x74b3b +1 x75071 +1 x75481 +1 x754d1 -9 x7727e +1 x772a4 +1 x772be +1 x7730f
 <= +0
-
 +1 x74b3b +1 x75071 +1 x75481 +1 x754d1 -8 x772a4 +1 x772be +1 x7730f <= +0
-
 +1 x74b3b +1 x75071 +1 x75481 +1 x754d1 -8 x7727e +1 x772be +1 x7730f <= +0
-
 +1 x73110 +1 x7373c +1 x73c89 +1 x73ceb +1 x73e26 +1 x7435c -9 x7436b +1 x74496
 +1 x7496d +1 x749d6 -9 x7551c +1 x75570 -9 x77354 +1 x773a8 +1 x7740a +1 x7746d
 -9 x7747d +1 x774d2 <= +0
-
 +1 x73110 +1 x7373c +1 x73c89 +1 x73ceb -8 x73e26 +1 x7435c -8 x74496 -8 x7496d
 +1 x749d6 -8 x75570 -8 x773a8 +1 x7740a +1 x7746d -8 x774d2 <= +0
-
 +1 x73110 +1 x7373c +1 x73c89 +1 x73ceb +1 x7435c -8 x7436b +1 x749d6 -8 x7551c
 -8 x77354 +1 x7740a +1 x7746d -8 x7747d <= +0
-
 +1 x5decf +1 x711f8 +1 x7121f -9 x714e4 +1 x7151d +1 x71544 +1 x7156d -9 x71841
 +1 x7187b +1 x718a3 +1 x718cc -9 x71ba0 +1 x71bda +1 x71c02 +1 x71c2b -9 x71eff
 +1 x71f39 +1 x71f61 +1 x71f8a -9 x7225e +1 x72298 +1 x722c0 +1 x722e9 -9 x725bd
 +1 x725f7 +1 x7261f +1 x72648 -9 x7291c +1 x72956 +1 x7297e +1 x729a7 -9 x72c7b
 +1 x72cb5 +1 x72cdc +1 x72d05 -9 x7751c +1 x77555 +1 x7757c +1 x775a5 -9 x77873
 +1 x778ad <= +0
-
 +1 x5decf +1 x711f8 +1 x7121f -8 x7151d +1 x71544 +1 x7156d -8 x7187b +1 x718a3
 +1 x718cc -8 x71bda +1 x71c02 +1 x71c2b -8 x71f39 +1 x71f61 +1 x71f8a -8 x72298
 +1 x722c0 +1 x722e9 -8 x725f7 +1 x7261f +1 x72648 -8 x72956 +1 x7297e +1 x729a7
 -8 x72cb5 +1 x72cdc +1 x72d05 -8 x77555 +1 x7757c +1 x775a5 -8 x778ad <= +0
-
 +1 x5decf +1 x711f8 +1 x7121f -8 x714e4 +1 x71544 +1 x7156d -8 x71841 +1 x718a3
 +1 x718cc -8 x71ba0 +1 x71c02 +1 x71c2b -8 x71eff +1 x71f61 +1 x71f8a -8 x7225e
 +1 x722c0 +1 x722e9 -8 x725bd +1 x7261f +1 x72648 -8 x7291c +1 x7297e +1 x729a7
 -8 x72c7b +1 x72cdc +1 x72d05 -8 x7751c +1 x7757c +1 x775a5 -8 x77873 <= +0
-
 -9 x71235 +1 x7125d +1 x71292 +1 x712c9 -9 x712d7 +1 x71301 -9 x7157d +1 x715a6
 +1 x715dd +1 x71615 -9 x71625 +1 x7164f -9 x718dc +1 x71905 +1 x7193c +1 x71974
 -9 x71984 +1 x719ae -9 x71c3b +1 x71c64 +1 x71c9b +1 x71cd3 -9 x71ce3 +1 x71d0d
@@ -41463,7 +23813,6 @@ o = 1
 -9 x72d15 +1 x72d3e +1 x72d75 +1 x72dad -9 x72dbd +1 x72de7 +1 x756ca +1 x75bc7
 +1 x75cf6 +1 x76167 +1 x763e0 +1 x76851 +1 x7696d +1 x76ec1 -9 x775b5 +1 x775dd
 +1 x77613 +1 x7764b -9 x7765b +1 x77685 <= +0
-
 -8 x7125d +1 x71292 +1 x712c9 -8 x71301 -8 x715a6 +1 x715dd +1 x71615 -8 x7164f
 -8 x71905 +1 x7193c +1 x71974 -8 x719ae -8 x71c64 +1 x71c9b +1 x71cd3 -8 x71d0d
 -8 x71fc3 +1 x71ffa +1 x72032 -8 x7206c -8 x72322 +1 x72359 +1 x72391 -8 x723cb
@@ -41471,33 +23820,28 @@ o = 1
 -8 x72d3e +1 x72d75 +1 x72dad -8 x72de7 +1 x756ca +1 x75bc7 +1 x75cf6 +1 x76167
 -8 x763e0 +1 x76851 -8 x7696d +1 x76ec1 -8 x775dd +1 x77613 +1 x7764b -8 x77685
 <= +0
-
 -8 x71235 +1 x71292 +1 x712c9 -8 x712d7 -8 x7157d +1 x715dd +1 x71615 -8 x71625
 -8 x718dc +1 x7193c +1 x71974 -8 x71984 -8 x71c3b +1 x71c9b +1 x71cd3 -8 x71ce3
 -8 x71f9a +1 x71ffa +1 x72032 -8 x72042 -8 x722f9 +1 x72359 +1 x72391 -8 x723a1
 -8 x72658 +1 x726b8 +1 x726f0 -8 x72700 -8 x729b7 +1 x72a17 +1 x72a4f -8 x72a5f
 -8 x72d15 +1 x72d75 +1 x72dad -8 x72dbd +1 x756ca +1 x75bc7 +1 x75cf6 +1 x76167
 +1 x76851 +1 x76ec1 -8 x775b5 +1 x77613 +1 x7764b -8 x7765b <= +0
-
 -9 x7134c +1 x71375 +1 x7139b +1 x713c3 -9 x7169b +1 x716c4 +1 x716ec +1 x71715
 -9 x719fa +1 x71a23 +1 x71a4b +1 x71a74 -9 x71d59 +1 x71d82 +1 x71daa +1 x71dd3
 -9 x720b8 +1 x720e1 +1 x72109 +1 x72132 -9 x72417 +1 x72440 +1 x72468 +1 x72491
 -9 x72776 +1 x7279f +1 x727c7 +1 x727f0 -9 x72ad5 +1 x72afe +1 x72b26 +1 x72b4f
 -9 x72e33 +1 x72e5c +1 x72e83 +1 x72eac +1 x74b2c +1 x74f33 +1 x75062 +1 x753dd
 -9 x776d1 +1 x776fa +1 x77721 +1 x7774a <= +0
-
 -8 x71375 +1 x7139b +1 x713c3 -8 x716c4 +1 x716ec +1 x71715 -8 x71a23 +1 x71a4b
 +1 x71a74 -8 x71d82 +1 x71daa +1 x71dd3 -8 x720e1 +1 x72109 +1 x72132 -8 x72440
 +1 x72468 +1 x72491 -8 x7279f +1 x727c7 +1 x727f0 -8 x72afe +1 x72b26 +1 x72b4f
 -8 x72e5c +1 x72e83 +1 x72eac +1 x74b2c +1 x74f33 +1 x75062 +1 x753dd -8 x776fa
 +1 x77721 +1 x7774a <= +0
-
 -8 x7134c +1 x7139b +1 x713c3 -8 x7169b +1 x716ec +1 x71715 -8 x719fa +1 x71a4b
 +1 x71a74 -8 x71d59 +1 x71daa +1 x71dd3 -8 x720b8 +1 x72109 +1 x72132 -8 x72417
 +1 x72468 +1 x72491 -8 x72776 +1 x727c7 +1 x727f0 -8 x72ad5 +1 x72b26 +1 x72b4f
 -8 x72e33 +1 x72e83 +1 x72eac +1 x74b2c +1 x74f33 +1 x75062 +1 x753dd -8 x776d1
 +1 x77721 +1 x7774a <= +0
-
 -9 x713d1 +1 x713f9 +1 x7142e +1 x71465 -9 x71473 +1 x7149d -9 x71725 +1 x7174e
 +1 x71785 +1 x717bd -9 x717cd +1 x717f7 -9 x71a84 +1 x71aad +1 x71ae4 +1 x71b1c
 -9 x71b2c +1 x71b56 -9 x71de3 +1 x71e0c +1 x71e43 +1 x71e7b -9 x71e8b +1 x71eb5
@@ -41507,7 +23851,6 @@ o = 1
 -9 x72ebc +1 x72ee5 +1 x72f1c +1 x72f54 -9 x72f64 +1 x72f8e +1 x73101 +1 x735fe
 +1 x7372d +1 x73b9e +1 x73e17 +1 x74288 +1 x74487 +1 x748f8 -9 x7775a +1 x77782
 +1 x777b8 +1 x777f0 -9 x77800 +1 x7782a <= +0
-
 -8 x713f9 +1 x7142e +1 x71465 -8 x7149d -8 x7174e +1 x71785 +1 x717bd -8 x717f7
 -8 x71aad +1 x71ae4 +1 x71b1c -8 x71b56 -8 x71e0c +1 x71e43 +1 x71e7b -8 x71eb5
 -8 x7216b +1 x721a2 +1 x721da -8 x72214 -8 x724ca +1 x72501 +1 x72539 -8 x72573
@@ -41515,82 +23858,65 @@ o = 1
 -8 x72ee5 +1 x72f1c +1 x72f54 -8 x72f8e +1 x73101 +1 x735fe +1 x7372d +1 x73b9e
 -8 x73e17 +1 x74288 -8 x74487 +1 x748f8 -8 x77782 +1 x777b8 +1 x777f0 -8 x7782a
 <= +0
-
 -8 x713d1 +1 x7142e +1 x71465 -8 x71473 -8 x71725 +1 x71785 +1 x717bd -8 x717cd
 -8 x71a84 +1 x71ae4 +1 x71b1c -8 x71b2c -8 x71de3 +1 x71e43 +1 x71e7b -8 x71e8b
 -8 x72142 +1 x721a2 +1 x721da -8 x721ea -8 x724a1 +1 x72501 +1 x72539 -8 x72549
 -8 x72800 +1 x72860 +1 x72898 -8 x728a8 -8 x72b5f +1 x72bbf +1 x72bf7 -8 x72c07
 -8 x72ebc +1 x72f1c +1 x72f54 -8 x72f64 +1 x73101 +1 x735fe +1 x7372d +1 x73b9e
 +1 x74288 +1 x748f8 -8 x7775a +1 x777b8 +1 x777f0 -8 x77800 <= +0
-
 +1 x5dec0 +1 x708a1 +1 x708c4 -9 x70bf6 +1 x70c32 +1 x70c4c +1 x70c71 -9 x70fa9
 +1 x70fe5 -9 x71006 +1 x71042 -9 x71063 +1 x7109f -9 x710c0 +1 x710fc -9 x7111d
 +1 x71159 -9 x7117a +1 x711b6 -9 x779f3 +1 x77a2f +1 x77a4a +1 x77a6f -9 x7810f
 +1 x7814b <= +0
-
 +1 x5dec0 +1 x708a1 +1 x708c4 -8 x70c32 +1 x70c4c +1 x70c71 -8 x70fe5 -8 x71042
 -8 x7109f -8 x710fc -8 x71159 -8 x711b6 -8 x77a2f +1 x77a4a +1 x77a6f -8 x7814b
 <= +0
-
 +1 x5dec0 +1 x708a1 +1 x708c4 -8 x70bf6 +1 x70c4c +1 x70c71 -8 x70fa9 -8 x71006
 -8 x71063 -8 x710c0 -8 x7111d -8 x7117a -8 x779f3 +1 x77a4a +1 x77a6f -8 x7810f
 <= +0
-
 -9 x708e4 +1 x7090c +1 x70941 +1 x70978 -9 x70986 +1 x709b0 -9 x70c8b +1 x70cb4
 +1 x70ceb +1 x70d23 -9 x70d33 +1 x70d5d +1 x756bb +1 x75b73 +1 x75ce7 +1 x7611d
 +1 x763d1 +1 x76807 +1 x7696c +1 x76e77 -9 x77a89 +1 x77ab1 +1 x77ae7 +1 x77b1f
 -9 x77b2f +1 x77b59 <= +0
-
 -8 x7090c +1 x70941 +1 x70978 -8 x709b0 -8 x70cb4 +1 x70ceb +1 x70d23 -8 x70d5d
 +1 x756bb +1 x75b73 +1 x75ce7 +1 x7611d -8 x763d1 +1 x76807 -8 x7696c +1 x76e77
 -8 x77ab1 +1 x77ae7 +1 x77b1f -8 x77b59 <= +0
-
 -8 x708e4 +1 x70941 +1 x70978 -8 x70986 -8 x70c8b +1 x70ceb +1 x70d23 -8 x70d33
 +1 x756bb +1 x75b73 +1 x75ce7 +1 x7611d +1 x76807 +1 x76e77 -8 x77a89 +1 x77ae7
 +1 x77b1f -8 x77b2f <= +0
-
 -9 x709fd +1 x70a23 +1 x70a3d +1 x70a61 -9 x70dab +1 x70dd1 +1 x70dec +1 x70e11
 +1 x74b1d +1 x74ee5 +1 x75053 +1 x75399 -9 x77ba7 +1 x77bcd +1 x77be8 +1 x77c0d
 <= +0
-
 -8 x70a23 +1 x70a3d +1 x70a61 -8 x70dd1 +1 x70dec +1 x70e11 +1 x74b1d +1 x74ee5
 +1 x75053 +1 x75399 -8 x77bcd +1 x77be8 +1 x77c0d <= +0
-
 -8 x709fd +1 x70a3d +1 x70a61 -8 x70dab +1 x70dec +1 x70e11 +1 x74b1d +1 x74ee5
 +1 x75053 +1 x75399 -8 x77ba7 +1 x77be8 +1 x77c0d <= +0
-
 -9 x70a79 +1 x70aa1 +1 x70ad6 +1 x70b0d -9 x70b1b +1 x70b45 -9 x70e2b +1 x70e54
 +1 x70e8b +1 x70ec3 -9 x70ed3 +1 x70efd +1 x730f2 +1 x735aa +1 x7371e +1 x73b54
 +1 x73e08 +1 x7423e +1 x74478 +1 x748ae -9 x77c27 +1 x77c4f +1 x77c85 +1 x77cbd
 -9 x77ccd +1 x77cf7 <= +0
-
 -8 x70aa1 +1 x70ad6 +1 x70b0d -8 x70b45 -8 x70e54 +1 x70e8b +1 x70ec3 -8 x70efd
 +1 x730f2 +1 x735aa +1 x7371e +1 x73b54 -8 x73e08 +1 x7423e -8 x74478 +1 x748ae
 -8 x77c4f +1 x77c85 +1 x77cbd -8 x77cf7 <= +0
-
 -8 x70a79 +1 x70ad6 +1 x70b0d -8 x70b1b -8 x70e2b +1 x70e8b +1 x70ec3 -8 x70ed3
 +1 x730f2 +1 x735aa +1 x7371e +1 x73b54 +1 x7423e +1 x748ae -8 x77c27 +1 x77c85
 +1 x77cbd -8 x77ccd <= +0
-
 +1 x5deb1 +1 x6ea8e +1 x6eab5 -9 x6ed7a +1 x6edb3 +1 x6edda +1 x6ee03 -9 x6f0d7
 +1 x6f111 +1 x6f139 +1 x6f162 -9 x6f436 +1 x6f470 +1 x6f498 +1 x6f4c1 -9 x6f795
 +1 x6f7cf +1 x6f7f7 +1 x6f820 -9 x6faf4 +1 x6fb2e +1 x6fb56 +1 x6fb7f -9 x6fe53
 +1 x6fe8d +1 x6feb5 +1 x6fede -9 x701b2 +1 x701ec +1 x70214 +1 x7023d -9 x70511
 +1 x7054b +1 x70572 +1 x7059b -9 x70b8c +1 x70bc5 -9 x70f46 +1 x70f7f -9 x77d40
 +1 x77d79 +1 x77da0 +1 x77dc9 -9 x78097 +1 x780d1 <= +0
-
 +1 x5deb1 +1 x6ea8e +1 x6eab5 -8 x6edb3 +1 x6edda +1 x6ee03 -8 x6f111 +1 x6f139
 +1 x6f162 -8 x6f470 +1 x6f498 +1 x6f4c1 -8 x6f7cf +1 x6f7f7 +1 x6f820 -8 x6fb2e
 +1 x6fb56 +1 x6fb7f -8 x6fe8d +1 x6feb5 +1 x6fede -8 x701ec +1 x70214 +1 x7023d
 -8 x7054b +1 x70572 +1 x7059b -8 x70bc5 -8 x70f7f -8 x77d79 +1 x77da0 +1 x77dc9
 -8 x780d1 <= +0
-
 +1 x5deb1 +1 x6ea8e +1 x6eab5 -8 x6ed7a +1 x6edda +1 x6ee03 -8 x6f0d7 +1 x6f139
 +1 x6f162 -8 x6f436 +1 x6f498 +1 x6f4c1 -8 x6f795 +1 x6f7f7 +1 x6f820 -8 x6faf4
 +1 x6fb56 +1 x6fb7f -8 x6fe53 +1 x6feb5 +1 x6fede -8 x701b2 +1 x70214 +1 x7023d
 -8 x70511 +1 x70572 +1 x7059b -8 x70b8c -8 x70f46 -8 x77d40 +1 x77da0 +1 x77dc9
 -8 x78097 <= +0
-
 -9 x6eacb +1 x6eaf3 +1 x6eb28 +1 x6eb5f -9 x6eb6d +1 x6eb97 -9 x6ee13 +1 x6ee3c
 +1 x6ee73 +1 x6eeab -9 x6eebb +1 x6eee5 -9 x6f172 +1 x6f19b +1 x6f1d2 +1 x6f20a
 -9 x6f21a +1 x6f244 -9 x6f4d1 +1 x6f4fa +1 x6f531 +1 x6f569 -9 x6f579 +1 x6f5a3
@@ -41600,7 +23926,6 @@ o = 1
 -9 x705ab +1 x705d4 +1 x7060b +1 x70643 -9 x70653 +1 x7067d +1 x756ac +1 x75b1f
 +1 x75cd8 +1 x760d3 +1 x763c2 +1 x767bd +1 x7696b +1 x76e2d -9 x77dd9 +1 x77e01
 +1 x77e37 +1 x77e6f -9 x77e7f +1 x77ea9 <= +0
-
 -8 x6eaf3 +1 x6eb28 +1 x6eb5f -8 x6eb97 -8 x6ee3c +1 x6ee73 +1 x6eeab -8 x6eee5
 -8 x6f19b +1 x6f1d2 +1 x6f20a -8 x6f244 -8 x6f4fa +1 x6f531 +1 x6f569 -8 x6f5a3
 -8 x6f859 +1 x6f890 +1 x6f8c8 -8 x6f902 -8 x6fbb8 +1 x6fbef +1 x6fc27 -8 x6fc61
@@ -41608,33 +23933,28 @@ o = 1
 -8 x705d4 +1 x7060b +1 x70643 -8 x7067d +1 x756ac +1 x75b1f +1 x75cd8 +1 x760d3
 -8 x763c2 +1 x767bd -8 x7696b +1 x76e2d -8 x77e01 +1 x77e37 +1 x77e6f -8 x77ea9
 <= +0
-
 -8 x6eacb +1 x6eb28 +1 x6eb5f -8 x6eb6d -8 x6ee13 +1 x6ee73 +1 x6eeab -8 x6eebb
 -8 x6f172 +1 x6f1d2 +1 x6f20a -8 x6f21a -8 x6f4d1 +1 x6f531 +1 x6f569 -8 x6f579
 -8 x6f830 +1 x6f890 +1 x6f8c8 -8 x6f8d8 -8 x6fb8f +1 x6fbef +1 x6fc27 -8 x6fc37
 -8 x6feee +1 x6ff4e +1 x6ff86 -8 x6ff96 -8 x7024d +1 x702ad +1 x702e5 -8 x702f5
 -8 x705ab +1 x7060b +1 x70643 -8 x70653 +1 x756ac +1 x75b1f +1 x75cd8 +1 x760d3
 +1 x767bd +1 x76e2d -8 x77dd9 +1 x77e37 +1 x77e6f -8 x77e7f <= +0
-
 -9 x6ebe2 +1 x6ec0b +1 x6ec31 +1 x6ec59 -9 x6ef31 +1 x6ef5a +1 x6ef82 +1 x6efab
 -9 x6f290 +1 x6f2b9 +1 x6f2e1 +1 x6f30a -9 x6f5ef +1 x6f618 +1 x6f640 +1 x6f669
 -9 x6f94e +1 x6f977 +1 x6f99f +1 x6f9c8 -9 x6fcad +1 x6fcd6 +1 x6fcfe +1 x6fd27
 -9 x7000c +1 x70035 +1 x7005d +1 x70086 -9 x7036b +1 x70394 +1 x703bc +1 x703e5
 -9 x706c9 +1 x706f2 +1 x70719 +1 x70742 +1 x74b0e +1 x74eac +1 x75044 +1 x7536a
 -9 x77ef5 +1 x77f1e +1 x77f45 +1 x77f6e <= +0
-
 -8 x6ec0b +1 x6ec31 +1 x6ec59 -8 x6ef5a +1 x6ef82 +1 x6efab -8 x6f2b9 +1 x6f2e1
 +1 x6f30a -8 x6f618 +1 x6f640 +1 x6f669 -8 x6f977 +1 x6f99f +1 x6f9c8 -8 x6fcd6
 +1 x6fcfe +1 x6fd27 -8 x70035 +1 x7005d +1 x70086 -8 x70394 +1 x703bc +1 x703e5
 -8 x706f2 +1 x70719 +1 x70742 +1 x74b0e +1 x74eac +1 x75044 +1 x7536a -8 x77f1e
 +1 x77f45 +1 x77f6e <= +0
-
 -8 x6ebe2 +1 x6ec31 +1 x6ec59 -8 x6ef31 +1 x6ef82 +1 x6efab -8 x6f290 +1 x6f2e1
 +1 x6f30a -8 x6f5ef +1 x6f640 +1 x6f669 -8 x6f94e +1 x6f99f +1 x6f9c8 -8 x6fcad
 +1 x6fcfe +1 x6fd27 -8 x7000c +1 x7005d +1 x70086 -8 x7036b +1 x703bc +1 x703e5
 -8 x706c9 +1 x70719 +1 x70742 +1 x74b0e +1 x74eac +1 x75044 +1 x7536a -8 x77ef5
 +1 x77f45 +1 x77f6e <= +0
-
 -9 x6ec67 +1 x6ec8f +1 x6ecc4 +1 x6ecfb -9 x6ed09 +1 x6ed33 -9 x6efbb +1 x6efe4
 +1 x6f01b +1 x6f053 -9 x6f063 +1 x6f08d -9 x6f31a +1 x6f343 +1 x6f37a +1 x6f3b2
 -9 x6f3c2 +1 x6f3ec -9 x6f679 +1 x6f6a2 +1 x6f6d9 +1 x6f711 -9 x6f721 +1 x6f74b
@@ -41644,7 +23964,6 @@ o = 1
 -9 x70752 +1 x7077b +1 x707b2 +1 x707ea -9 x707fa +1 x70824 +1 x730e3 +1 x73556
 +1 x7370f +1 x73b0a +1 x73df9 +1 x741f4 +1 x74469 +1 x74864 -9 x77f7e +1 x77fa6
 +1 x77fdc +1 x78014 -9 x78024 +1 x7804e <= +0
-
 -8 x6ec8f +1 x6ecc4 +1 x6ecfb -8 x6ed33 -8 x6efe4 +1 x6f01b +1 x6f053 -8 x6f08d
 -8 x6f343 +1 x6f37a +1 x6f3b2 -8 x6f3ec -8 x6f6a2 +1 x6f6d9 +1 x6f711 -8 x6f74b
 -8 x6fa01 +1 x6fa38 +1 x6fa70 -8 x6faaa -8 x6fd60 +1 x6fd97 +1 x6fdcf -8 x6fe09
@@ -41652,73 +23971,56 @@ o = 1
 -8 x7077b +1 x707b2 +1 x707ea -8 x70824 +1 x730e3 +1 x73556 +1 x7370f +1 x73b0a
 -8 x73df9 +1 x741f4 -8 x74469 +1 x74864 -8 x77fa6 +1 x77fdc +1 x78014 -8 x7804e
 <= +0
-
 -8 x6ec67 +1 x6ecc4 +1 x6ecfb -8 x6ed09 -8 x6efbb +1 x6f01b +1 x6f053 -8 x6f063
 -8 x6f31a +1 x6f37a +1 x6f3b2 -8 x6f3c2 -8 x6f679 +1 x6f6d9 +1 x6f711 -8 x6f721
 -8 x6f9d8 +1 x6fa38 +1 x6fa70 -8 x6fa80 -8 x6fd37 +1 x6fd97 +1 x6fdcf -8 x6fddf
 -8 x70096 +1 x700f6 +1 x7012e -8 x7013e -8 x703f5 +1 x70455 +1 x7048d -8 x7049d
 -8 x70752 +1 x707b2 +1 x707ea -8 x707fa +1 x730e3 +1 x73556 +1 x7370f +1 x73b0a
 +1 x741f4 +1 x74864 -8 x77f7e +1 x77fdc +1 x78014 -8 x78024 <= +0
-
 +1 x5dea2 +1 x6d770 +1 x6d793 -9 x6db3d +1 x6db79 +1 x6db93 +1 x6dbb8 -9 x6ea0a
 +1 x6ea46 -9 x782a9 +1 x782e5 <= +0
-
 +1 x5dea2 +1 x6d770 +1 x6d793 -8 x6db79 +1 x6db93 +1 x6dbb8 -8 x6ea46 -8 x782e5
 <= +0
-
 +1 x5dea2 +1 x6d770 +1 x6d793 -8 x6db3d +1 x6db93 +1 x6dbb8 -8 x6ea0a -8 x782a9
 <= +0
-
 -9 x6d7b3 +1 x6d7db +1 x6d810 +1 x6d847 -9 x6d855 +1 x6d87f -9 x6dbd2 +1 x6dbfb
 +1 x6dc32 +1 x6dc6a -9 x6dc7a +1 x6dca4 +1 x7569d +1 x75acb +1 x75cc9 +1 x76089
 +1 x763b3 +1 x76773 +1 x7696a +1 x76de3 <= +0
-
 -8 x6d7db +1 x6d810 +1 x6d847 -8 x6d87f -8 x6dbfb +1 x6dc32 +1 x6dc6a -8 x6dca4
 +1 x7569d +1 x75acb +1 x75cc9 +1 x76089 -8 x763b3 +1 x76773 -8 x7696a +1 x76de3
 <= +0
-
 -8 x6d7b3 +1 x6d810 +1 x6d847 -8 x6d855 -8 x6dbd2 +1 x6dc32 +1 x6dc6a -8 x6dc7a
 +1 x7569d +1 x75acb +1 x75cc9 +1 x76089 +1 x76773 +1 x76de3 <= +0
-
 -9 x6d8cc +1 x6d8f2 +1 x6d90c +1 x6d930 -9 x6dcf2 +1 x6dd18 +1 x6dd33 +1 x6dd58
 +1 x74aff +1 x74e5e +1 x75035 +1 x75326 <= +0
-
 -8 x6d8f2 +1 x6d90c +1 x6d930 -8 x6dd18 +1 x6dd33 +1 x6dd58 +1 x74aff +1 x74e5e
 +1 x75035 +1 x75326 <= +0
-
 -8 x6d8cc +1 x6d90c +1 x6d930 -8 x6dcf2 +1 x6dd33 +1 x6dd58 +1 x74aff +1 x74e5e
 +1 x75035 +1 x75326 <= +0
-
 -9 x6d948 +1 x6d970 +1 x6d9a5 +1 x6d9dc -9 x6d9ea +1 x6da14 -9 x6dd72 +1 x6dd9b
 +1 x6ddd2 +1 x6de0a -9 x6de1a +1 x6de44 +1 x730d4 +1 x73502 +1 x73700 +1 x73ac0
 +1 x73dea +1 x741aa +1 x7445a +1 x7481a <= +0
-
 -8 x6d970 +1 x6d9a5 +1 x6d9dc -8 x6da14 -8 x6dd9b +1 x6ddd2 +1 x6de0a -8 x6de44
 +1 x730d4 +1 x73502 +1 x73700 +1 x73ac0 -8 x73dea +1 x741aa -8 x7445a +1 x7481a
 <= +0
-
 -8 x6d948 +1 x6d9a5 +1 x6d9dc -8 x6d9ea -8 x6dd72 +1 x6ddd2 +1 x6de0a -8 x6de1a
 +1 x730d4 +1 x73502 +1 x73700 +1 x73ac0 +1 x741aa +1 x7481a <= +0
-
 +1 x5de93 +1 x6b95d +1 x6b984 -9 x6bc49 +1 x6bc82 +1 x6bca9 +1 x6bcd2 -9 x6bfa6
 +1 x6bfe0 +1 x6c008 +1 x6c031 -9 x6c305 +1 x6c33f +1 x6c367 +1 x6c390 -9 x6c664
 +1 x6c69e +1 x6c6c6 +1 x6c6ef -9 x6c9c3 +1 x6c9fd +1 x6ca25 +1 x6ca4e -9 x6cd22
 +1 x6cd5c +1 x6cd84 +1 x6cdad -9 x6d081 +1 x6d0bb +1 x6d0e3 +1 x6d10c -9 x6d3e0
 +1 x6d41a +1 x6d441 +1 x6d46a -9 x6da5b +1 x6da94 -9 x6de8d +1 x6dec6 +1 x6deee
 +1 x6df17 -9 x6e1ea +1 x6e224 <= +0
-
 +1 x5de93 +1 x6b95d +1 x6b984 -8 x6bc82 +1 x6bca9 +1 x6bcd2 -8 x6bfe0 +1 x6c008
 +1 x6c031 -8 x6c33f +1 x6c367 +1 x6c390 -8 x6c69e +1 x6c6c6 +1 x6c6ef -8 x6c9fd
 +1 x6ca25 +1 x6ca4e -8 x6cd5c +1 x6cd84 +1 x6cdad -8 x6d0bb +1 x6d0e3 +1 x6d10c
 -8 x6d41a +1 x6d441 +1 x6d46a -8 x6da94 -8 x6dec6 +1 x6deee +1 x6df17 -8 x6e224
 <= +0
-
 +1 x5de93 +1 x6b95d +1 x6b984 -8 x6bc49 +1 x6bca9 +1 x6bcd2 -8 x6bfa6 +1 x6c008
 +1 x6c031 -8 x6c305 +1 x6c367 +1 x6c390 -8 x6c664 +1 x6c6c6 +1 x6c6ef -8 x6c9c3
 +1 x6ca25 +1 x6ca4e -8 x6cd22 +1 x6cd84 +1 x6cdad -8 x6d081 +1 x6d0e3 +1 x6d10c
 -8 x6d3e0 +1 x6d441 +1 x6d46a -8 x6da5b -8 x6de8d +1 x6deee +1 x6df17 -8 x6e1ea
 <= +0
-
 -9 x6b99a +1 x6b9c2 +1 x6b9f7 +1 x6ba2e -9 x6ba3c +1 x6ba66 -9 x6bce2 +1 x6bd0b
 +1 x6bd42 +1 x6bd7a -9 x6bd8a +1 x6bdb4 -9 x6c041 +1 x6c06a +1 x6c0a1 +1 x6c0d9
 -9 x6c0e9 +1 x6c113 -9 x6c3a0 +1 x6c3c9 +1 x6c400 +1 x6c438 -9 x6c448 +1 x6c472
@@ -41728,7 +24030,6 @@ o = 1
 -9 x6d47a +1 x6d4a3 +1 x6d4da +1 x6d512 -9 x6d522 +1 x6d54c -9 x6df27 +1 x6df50
 +1 x6df87 +1 x6dfbf -9 x6dfcf +1 x6dff9 +1 x7568e +1 x75a77 +1 x75cba +1 x7603f
 +1 x763a4 +1 x76729 +1 x76969 +1 x76d99 <= +0
-
 -8 x6b9c2 +1 x6b9f7 +1 x6ba2e -8 x6ba66 -8 x6bd0b +1 x6bd42 +1 x6bd7a -8 x6bdb4
 -8 x6c06a +1 x6c0a1 +1 x6c0d9 -8 x6c113 -8 x6c3c9 +1 x6c400 +1 x6c438 -8 x6c472
 -8 x6c728 +1 x6c75f +1 x6c797 -8 x6c7d1 -8 x6ca87 +1 x6cabe +1 x6caf6 -8 x6cb30
@@ -41736,33 +24037,28 @@ o = 1
 -8 x6d4a3 +1 x6d4da +1 x6d512 -8 x6d54c -8 x6df50 +1 x6df87 +1 x6dfbf -8 x6dff9
 +1 x7568e +1 x75a77 +1 x75cba +1 x7603f -8 x763a4 +1 x76729 -8 x76969 +1 x76d99
 <= +0
-
 -8 x6b99a +1 x6b9f7 +1 x6ba2e -8 x6ba3c -8 x6bce2 +1 x6bd42 +1 x6bd7a -8 x6bd8a
 -8 x6c041 +1 x6c0a1 +1 x6c0d9 -8 x6c0e9 -8 x6c3a0 +1 x6c400 +1 x6c438 -8 x6c448
 -8 x6c6ff +1 x6c75f +1 x6c797 -8 x6c7a7 -8 x6ca5e +1 x6cabe +1 x6caf6 -8 x6cb06
 -8 x6cdbd +1 x6ce1d +1 x6ce55 -8 x6ce65 -8 x6d11c +1 x6d17c +1 x6d1b4 -8 x6d1c4
 -8 x6d47a +1 x6d4da +1 x6d512 -8 x6d522 -8 x6df27 +1 x6df87 +1 x6dfbf -8 x6dfcf
 +1 x7568e +1 x75a77 +1 x75cba +1 x7603f +1 x76729 +1 x76d99 <= +0
-
 -9 x6bab1 +1 x6bada +1 x6bb00 +1 x6bb28 -9 x6be00 +1 x6be29 +1 x6be51 +1 x6be7a
 -9 x6c15f +1 x6c188 +1 x6c1b0 +1 x6c1d9 -9 x6c4be +1 x6c4e7 +1 x6c50f +1 x6c538
 -9 x6c81d +1 x6c846 +1 x6c86e +1 x6c897 -9 x6cb7c +1 x6cba5 +1 x6cbcd +1 x6cbf6
 -9 x6cedb +1 x6cf04 +1 x6cf2c +1 x6cf55 -9 x6d23a +1 x6d263 +1 x6d28b +1 x6d2b4
 -9 x6d598 +1 x6d5c1 +1 x6d5e8 +1 x6d611 -9 x6e045 +1 x6e06e +1 x6e096 +1 x6e0bf
 +1 x74af0 +1 x74e25 +1 x75026 +1 x752f7 <= +0
-
 -8 x6bada +1 x6bb00 +1 x6bb28 -8 x6be29 +1 x6be51 +1 x6be7a -8 x6c188 +1 x6c1b0
 +1 x6c1d9 -8 x6c4e7 +1 x6c50f +1 x6c538 -8 x6c846 +1 x6c86e +1 x6c897 -8 x6cba5
 +1 x6cbcd +1 x6cbf6 -8 x6cf04 +1 x6cf2c +1 x6cf55 -8 x6d263 +1 x6d28b +1 x6d2b4
 -8 x6d5c1 +1 x6d5e8 +1 x6d611 -8 x6e06e +1 x6e096 +1 x6e0bf +1 x74af0 +1 x74e25
 +1 x75026 +1 x752f7 <= +0
-
 -8 x6bab1 +1 x6bb00 +1 x6bb28 -8 x6be00 +1 x6be51 +1 x6be7a -8 x6c15f +1 x6c1b0
 +1 x6c1d9 -8 x6c4be +1 x6c50f +1 x6c538 -8 x6c81d +1 x6c86e +1 x6c897 -8 x6cb7c
 +1 x6cbcd +1 x6cbf6 -8 x6cedb +1 x6cf2c +1 x6cf55 -8 x6d23a +1 x6d28b +1 x6d2b4
 -8 x6d598 +1 x6d5e8 +1 x6d611 -8 x6e045 +1 x6e096 +1 x6e0bf +1 x74af0 +1 x74e25
 +1 x75026 +1 x752f7 <= +0
-
 -9 x6bb36 +1 x6bb5e +1 x6bb93 +1 x6bbca -9 x6bbd8 +1 x6bc02 -9 x6be8a +1 x6beb3
 +1 x6beea +1 x6bf22 -9 x6bf32 +1 x6bf5c -9 x6c1e9 +1 x6c212 +1 x6c249 +1 x6c281
 -9 x6c291 +1 x6c2bb -9 x6c548 +1 x6c571 +1 x6c5a8 +1 x6c5e0 -9 x6c5f0 +1 x6c61a
@@ -41772,7 +24068,6 @@ o = 1
 -9 x6d621 +1 x6d64a +1 x6d681 +1 x6d6b9 -9 x6d6c9 +1 x6d6f3 -9 x6e0cf +1 x6e0f8
 +1 x6e12f +1 x6e167 -9 x6e177 +1 x6e1a1 +1 x730c5 +1 x734ae +1 x736f1 +1 x73a76
 +1 x73ddb +1 x74160 +1 x7444b +1 x747d0 <= +0
-
 -8 x6bb5e +1 x6bb93 +1 x6bbca -8 x6bc02 -8 x6beb3 +1 x6beea +1 x6bf22 -8 x6bf5c
 -8 x6c212 +1 x6c249 +1 x6c281 -8 x6c2bb -8 x6c571 +1 x6c5a8 +1 x6c5e0 -8 x6c61a
 -8 x6c8d0 +1 x6c907 +1 x6c93f -8 x6c979 -8 x6cc2f +1 x6cc66 +1 x6cc9e -8 x6ccd8
@@ -41780,82 +24075,65 @@ o = 1
 -8 x6d64a +1 x6d681 +1 x6d6b9 -8 x6d6f3 -8 x6e0f8 +1 x6e12f +1 x6e167 -8 x6e1a1
 +1 x730c5 +1 x734ae +1 x736f1 +1 x73a76 -8 x73ddb +1 x74160 -8 x7444b +1 x747d0
 <= +0
-
 -8 x6bb36 +1 x6bb93 +1 x6bbca -8 x6bbd8 -8 x6be8a +1 x6beea +1 x6bf22 -8 x6bf32
 -8 x6c1e9 +1 x6c249 +1 x6c281 -8 x6c291 -8 x6c548 +1 x6c5a8 +1 x6c5e0 -8 x6c5f0
 -8 x6c8a7 +1 x6c907 +1 x6c93f -8 x6c94f -8 x6cc06 +1 x6cc66 +1 x6cc9e -8 x6ccae
 -8 x6cf65 +1 x6cfc5 +1 x6cffd -8 x6d00d -8 x6d2c4 +1 x6d324 +1 x6d35c -8 x6d36c
 -8 x6d621 +1 x6d681 +1 x6d6b9 -8 x6d6c9 -8 x6e0cf +1 x6e12f +1 x6e167 -8 x6e177
 +1 x730c5 +1 x734ae +1 x736f1 +1 x73a76 +1 x74160 +1 x747d0 <= +0
-
 +1 x5de84 +1 x6b006 +1 x6b029 -9 x6b35b +1 x6b397 +1 x6b3b1 +1 x6b3d6 -9 x6b70e
 +1 x6b74a -9 x6b76b +1 x6b7a7 -9 x6b7c8 +1 x6b804 -9 x6b825 +1 x6b861 -9 x6b882
 +1 x6b8be -9 x6b8df +1 x6b91b -9 x6dac5 +1 x6db01 -9 x6e261 +1 x6e29d +1 x6e2b8
 +1 x6e2de -9 x6e989 +1 x6e9c5 <= +0
-
 +1 x5de84 +1 x6b006 +1 x6b029 -8 x6b397 +1 x6b3b1 +1 x6b3d6 -8 x6b74a -8 x6b7a7
 -8 x6b804 -8 x6b861 -8 x6b8be -8 x6b91b -8 x6db01 -8 x6e29d +1 x6e2b8 +1 x6e2de
 -8 x6e9c5 <= +0
-
 +1 x5de84 +1 x6b006 +1 x6b029 -8 x6b35b +1 x6b3b1 +1 x6b3d6 -8 x6b70e -8 x6b76b
 -8 x6b7c8 -8 x6b825 -8 x6b882 -8 x6b8df -8 x6dac5 -8 x6e261 +1 x6e2b8 +1 x6e2de
 -8 x6e989 <= +0
-
 -9 x6b049 +1 x6b071 +1 x6b0a6 +1 x6b0dd -9 x6b0eb +1 x6b115 -9 x6b3f0 +1 x6b419
 +1 x6b450 +1 x6b488 -9 x6b498 +1 x6b4c2 -9 x6e2f8 +1 x6e321 +1 x6e358 +1 x6e390
 -9 x6e3a0 +1 x6e3ca +1 x7567f +1 x75a23 +1 x75cab +1 x75ff5 +1 x76395 +1 x766df
 +1 x76968 +1 x76d4f <= +0
-
 -8 x6b071 +1 x6b0a6 +1 x6b0dd -8 x6b115 -8 x6b419 +1 x6b450 +1 x6b488 -8 x6b4c2
 -8 x6e321 +1 x6e358 +1 x6e390 -8 x6e3ca +1 x7567f +1 x75a23 +1 x75cab +1 x75ff5
 -8 x76395 +1 x766df -8 x76968 +1 x76d4f <= +0
-
 -8 x6b049 +1 x6b0a6 +1 x6b0dd -8 x6b0eb -8 x6b3f0 +1 x6b450 +1 x6b488 -8 x6b498
 -8 x6e2f8 +1 x6e358 +1 x6e390 -8 x6e3a0 +1 x7567f +1 x75a23 +1 x75cab +1 x75ff5
 +1 x766df +1 x76d4f <= +0
-
 -9 x6b162 +1 x6b188 +1 x6b1a2 +1 x6b1c6 -9 x6b510 +1 x6b536 +1 x6b551 +1 x6b576
 -9 x6e418 +1 x6e43e +1 x6e459 +1 x6e47f +1 x74ae1 +1 x74dd7 +1 x75017 +1 x752b3
 <= +0
-
 -8 x6b188 +1 x6b1a2 +1 x6b1c6 -8 x6b536 +1 x6b551 +1 x6b576 -8 x6e43e +1 x6e459
 +1 x6e47f +1 x74ae1 +1 x74dd7 +1 x75017 +1 x752b3 <= +0
-
 -8 x6b162 +1 x6b1a2 +1 x6b1c6 -8 x6b510 +1 x6b551 +1 x6b576 -8 x6e418 +1 x6e459
 +1 x6e47f +1 x74ae1 +1 x74dd7 +1 x75017 +1 x752b3 <= +0
-
 -9 x6b1de +1 x6b206 +1 x6b23b +1 x6b272 -9 x6b280 +1 x6b2aa -9 x6b590 +1 x6b5b9
 +1 x6b5f0 +1 x6b628 -9 x6b638 +1 x6b662 -9 x6e499 +1 x6e4c2 +1 x6e4f9 +1 x6e531
 -9 x6e541 +1 x6e56b +1 x730b6 +1 x7345a +1 x736e2 +1 x73a2c +1 x73dcc +1 x74116
 +1 x7443c +1 x74786 <= +0
-
 -8 x6b206 +1 x6b23b +1 x6b272 -8 x6b2aa -8 x6b5b9 +1 x6b5f0 +1 x6b628 -8 x6b662
 -8 x6e4c2 +1 x6e4f9 +1 x6e531 -8 x6e56b +1 x730b6 +1 x7345a +1 x736e2 +1 x73a2c
 -8 x73dcc +1 x74116 -8 x7443c +1 x74786 <= +0
-
 -8 x6b1de +1 x6b23b +1 x6b272 -8 x6b280 -8 x6b590 +1 x6b5f0 +1 x6b628 -8 x6b638
 -8 x6e499 +1 x6e4f9 +1 x6e531 -8 x6e541 +1 x730b6 +1 x7345a +1 x736e2 +1 x73a2c
 +1 x74116 +1 x74786 <= +0
-
 +1 x5de75 +1 x691f3 +1 x6921a -9 x694df +1 x69518 +1 x6953f +1 x69568 -9 x6983c
 +1 x69876 +1 x6989e +1 x698c7 -9 x69b9b +1 x69bd5 +1 x69bfd +1 x69c26 -9 x69efa
 +1 x69f34 +1 x69f5c +1 x69f85 -9 x6a259 +1 x6a293 +1 x6a2bb +1 x6a2e4 -9 x6a5b8
 +1 x6a5f2 +1 x6a61a +1 x6a643 -9 x6a917 +1 x6a951 +1 x6a979 +1 x6a9a2 -9 x6ac76
 +1 x6acb0 +1 x6acd7 +1 x6ad00 -9 x6b2f1 +1 x6b32a -9 x6b6ab +1 x6b6e4 -9 x6e5b4
 +1 x6e5ed +1 x6e615 +1 x6e63e -9 x6e911 +1 x6e94b <= +0
-
 +1 x5de75 +1 x691f3 +1 x6921a -8 x69518 +1 x6953f +1 x69568 -8 x69876 +1 x6989e
 +1 x698c7 -8 x69bd5 +1 x69bfd +1 x69c26 -8 x69f34 +1 x69f5c +1 x69f85 -8 x6a293
 +1 x6a2bb +1 x6a2e4 -8 x6a5f2 +1 x6a61a +1 x6a643 -8 x6a951 +1 x6a979 +1 x6a9a2
 -8 x6acb0 +1 x6acd7 +1 x6ad00 -8 x6b32a -8 x6b6e4 -8 x6e5ed +1 x6e615 +1 x6e63e
 -8 x6e94b <= +0
-
 +1 x5de75 +1 x691f3 +1 x6921a -8 x694df +1 x6953f +1 x69568 -8 x6983c +1 x6989e
 +1 x698c7 -8 x69b9b +1 x69bfd +1 x69c26 -8 x69efa +1 x69f5c +1 x69f85 -8 x6a259
 +1 x6a2bb +1 x6a2e4 -8 x6a5b8 +1 x6a61a +1 x6a643 -8 x6a917 +1 x6a979 +1 x6a9a2
 -8 x6ac76 +1 x6acd7 +1 x6ad00 -8 x6b2f1 -8 x6b6ab -8 x6e5b4 +1 x6e615 +1 x6e63e
 -8 x6e911 <= +0
-
 -9 x69230 +1 x69258 +1 x6928d +1 x692c4 -9 x692d2 +1 x692fc -9 x69578 +1 x695a1
 +1 x695d8 +1 x69610 -9 x69620 +1 x6964a -9 x698d7 +1 x69900 +1 x69937 +1 x6996f
 -9 x6997f +1 x699a9 -9 x69c36 +1 x69c5f +1 x69c96 +1 x69cce -9 x69cde +1 x69d08
@@ -41865,7 +24143,6 @@ o = 1
 -9 x6ad10 +1 x6ad39 +1 x6ad70 +1 x6ada8 -9 x6adb8 +1 x6ade2 -9 x6e64e +1 x6e677
 +1 x6e6ae +1 x6e6e6 -9 x6e6f6 +1 x6e720 +1 x75670 +1 x759cf +1 x75c9c +1 x75fab
 +1 x76386 +1 x76695 +1 x76967 +1 x76d05 <= +0
-
 -8 x69258 +1 x6928d +1 x692c4 -8 x692fc -8 x695a1 +1 x695d8 +1 x69610 -8 x6964a
 -8 x69900 +1 x69937 +1 x6996f -8 x699a9 -8 x69c5f +1 x69c96 +1 x69cce -8 x69d08
 -8 x69fbe +1 x69ff5 +1 x6a02d -8 x6a067 -8 x6a31d +1 x6a354 +1 x6a38c -8 x6a3c6
@@ -41873,33 +24150,28 @@ o = 1
 -8 x6ad39 +1 x6ad70 +1 x6ada8 -8 x6ade2 -8 x6e677 +1 x6e6ae +1 x6e6e6 -8 x6e720
 +1 x75670 +1 x759cf +1 x75c9c +1 x75fab -8 x76386 +1 x76695 -8 x76967 +1 x76d05
 <= +0
-
 -8 x69230 +1 x6928d +1 x692c4 -8 x692d2 -8 x69578 +1 x695d8 +1 x69610 -8 x69620
 -8 x698d7 +1 x69937 +1 x6996f -8 x6997f -8 x69c36 +1 x69c96 +1 x69cce -8 x69cde
 -8 x69f95 +1 x69ff5 +1 x6a02d -8 x6a03d -8 x6a2f4 +1 x6a354 +1 x6a38c -8 x6a39c
 -8 x6a653 +1 x6a6b3 +1 x6a6eb -8 x6a6fb -8 x6a9b2 +1 x6aa12 +1 x6aa4a -8 x6aa5a
 -8 x6ad10 +1 x6ad70 +1 x6ada8 -8 x6adb8 -8 x6e64e +1 x6e6ae +1 x6e6e6 -8 x6e6f6
 +1 x75670 +1 x759cf +1 x75c9c +1 x75fab +1 x76695 +1 x76d05 <= +0
-
 -9 x69347 +1 x69370 +1 x69396 +1 x693be -9 x69696 +1 x696bf +1 x696e7 +1 x69710
 -9 x699f5 +1 x69a1e +1 x69a46 +1 x69a6f -9 x69d54 +1 x69d7d +1 x69da5 +1 x69dce
 -9 x6a0b3 +1 x6a0dc +1 x6a104 +1 x6a12d -9 x6a412 +1 x6a43b +1 x6a463 +1 x6a48c
 -9 x6a771 +1 x6a79a +1 x6a7c2 +1 x6a7eb -9 x6aad0 +1 x6aaf9 +1 x6ab21 +1 x6ab4a
 -9 x6ae2e +1 x6ae57 +1 x6ae7e +1 x6aea7 -9 x6e76c +1 x6e795 +1 x6e7bd +1 x6e7e6
 +1 x74ad2 +1 x74d9e +1 x75008 +1 x75284 <= +0
-
 -8 x69370 +1 x69396 +1 x693be -8 x696bf +1 x696e7 +1 x69710 -8 x69a1e +1 x69a46
 +1 x69a6f -8 x69d7d +1 x69da5 +1 x69dce -8 x6a0dc +1 x6a104 +1 x6a12d -8 x6a43b
 +1 x6a463 +1 x6a48c -8 x6a79a +1 x6a7c2 +1 x6a7eb -8 x6aaf9 +1 x6ab21 +1 x6ab4a
 -8 x6ae57 +1 x6ae7e +1 x6aea7 -8 x6e795 +1 x6e7bd +1 x6e7e6 +1 x74ad2 +1 x74d9e
 +1 x75008 +1 x75284 <= +0
-
 -8 x69347 +1 x69396 +1 x693be -8 x69696 +1 x696e7 +1 x69710 -8 x699f5 +1 x69a46
 +1 x69a6f -8 x69d54 +1 x69da5 +1 x69dce -8 x6a0b3 +1 x6a104 +1 x6a12d -8 x6a412
 +1 x6a463 +1 x6a48c -8 x6a771 +1 x6a7c2 +1 x6a7eb -8 x6aad0 +1 x6ab21 +1 x6ab4a
 -8 x6ae2e +1 x6ae7e +1 x6aea7 -8 x6e76c +1 x6e7bd +1 x6e7e6 +1 x74ad2 +1 x74d9e
 +1 x75008 +1 x75284 <= +0
-
 -9 x693cc +1 x693f4 +1 x69429 +1 x69460 -9 x6946e +1 x69498 -9 x69720 +1 x69749
 +1 x69780 +1 x697b8 -9 x697c8 +1 x697f2 -9 x69a7f +1 x69aa8 +1 x69adf +1 x69b17
 -9 x69b27 +1 x69b51 -9 x69dde +1 x69e07 +1 x69e3e +1 x69e76 -9 x69e86 +1 x69eb0
@@ -41909,7 +24181,6 @@ o = 1
 -9 x6aeb7 +1 x6aee0 +1 x6af17 +1 x6af4f -9 x6af5f +1 x6af89 -9 x6e7f6 +1 x6e81f
 +1 x6e856 +1 x6e88e -9 x6e89e +1 x6e8c8 +1 x730a7 +1 x73406 +1 x736d3 +1 x739e2
 +1 x73dbd +1 x740cc +1 x7442d +1 x7473c <= +0
-
 -8 x693f4 +1 x69429 +1 x69460 -8 x69498 -8 x69749 +1 x69780 +1 x697b8 -8 x697f2
 -8 x69aa8 +1 x69adf +1 x69b17 -8 x69b51 -8 x69e07 +1 x69e3e +1 x69e76 -8 x69eb0
 -8 x6a166 +1 x6a19d +1 x6a1d5 -8 x6a20f -8 x6a4c5 +1 x6a4fc +1 x6a534 -8 x6a56e
@@ -41917,73 +24188,56 @@ o = 1
 -8 x6aee0 +1 x6af17 +1 x6af4f -8 x6af89 -8 x6e81f +1 x6e856 +1 x6e88e -8 x6e8c8
 +1 x730a7 +1 x73406 +1 x736d3 +1 x739e2 -8 x73dbd +1 x740cc -8 x7442d +1 x7473c
 <= +0
-
 -8 x693cc +1 x69429 +1 x69460 -8 x6946e -8 x69720 +1 x69780 +1 x697b8 -8 x697c8
 -8 x69a7f +1 x69adf +1 x69b17 -8 x69b27 -8 x69dde +1 x69e3e +1 x69e76 -8 x69e86
 -8 x6a13d +1 x6a19d +1 x6a1d5 -8 x6a1e5 -8 x6a49c +1 x6a4fc +1 x6a534 -8 x6a544
 -8 x6a7fb +1 x6a85b +1 x6a893 -8 x6a8a3 -8 x6ab5a +1 x6abba +1 x6abf2 -8 x6ac02
 -8 x6aeb7 +1 x6af17 +1 x6af4f -8 x6af5f -8 x6e7f6 +1 x6e856 +1 x6e88e -8 x6e89e
 +1 x730a7 +1 x73406 +1 x736d3 +1 x739e2 +1 x740cc +1 x7473c <= +0
-
 +1 x5de66 +1 x67d3d +1 x67d60 -9 x681d5 +1 x68211 +1 x6822b +1 x68250 -9 x6916f
 +1 x691ab -9 x78379 +1 x783b5 <= +0
-
 +1 x5de66 +1 x67d3d +1 x67d60 -8 x68211 +1 x6822b +1 x68250 -8 x691ab -8 x783b5
 <= +0
-
 +1 x5de66 +1 x67d3d +1 x67d60 -8 x681d5 +1 x6822b +1 x68250 -8 x6916f -8 x78379
 <= +0
-
 -9 x67d80 +1 x67da8 +1 x67ddd +1 x67e14 -9 x67e22 +1 x67e4c -9 x6826a +1 x68293
 +1 x682ca +1 x68302 -9 x68312 +1 x6833c +1 x75661 +1 x7597b +1 x75c8d +1 x75f61
 +1 x76377 +1 x7664b +1 x76966 +1 x76cbb <= +0
-
 -8 x67da8 +1 x67ddd +1 x67e14 -8 x67e4c -8 x68293 +1 x682ca +1 x68302 -8 x6833c
 +1 x75661 +1 x7597b +1 x75c8d +1 x75f61 -8 x76377 +1 x7664b -8 x76966 +1 x76cbb
 <= +0
-
 -8 x67d80 +1 x67ddd +1 x67e14 -8 x67e22 -8 x6826a +1 x682ca +1 x68302 -8 x68312
 +1 x75661 +1 x7597b +1 x75c8d +1 x75f61 +1 x7664b +1 x76cbb <= +0
-
 -9 x67e99 +1 x67ebf +1 x67ed9 +1 x67efd -9 x6838a +1 x683b0 +1 x683cb +1 x683f0
 +1 x74ac3 +1 x74d50 +1 x74ff9 +1 x75240 <= +0
-
 -8 x67ebf +1 x67ed9 +1 x67efd -8 x683b0 +1 x683cb +1 x683f0 +1 x74ac3 +1 x74d50
 +1 x74ff9 +1 x75240 <= +0
-
 -8 x67e99 +1 x67ed9 +1 x67efd -8 x6838a +1 x683cb +1 x683f0 +1 x74ac3 +1 x74d50
 +1 x74ff9 +1 x75240 <= +0
-
 -9 x67f15 +1 x67f3d +1 x67f72 +1 x67fa9 -9 x67fb7 +1 x67fe1 -9 x6840a +1 x68433
 +1 x6846a +1 x684a2 -9 x684b2 +1 x684dc +1 x73098 +1 x733b2 +1 x736c4 +1 x73998
 +1 x73dae +1 x74082 +1 x7441e +1 x746f2 <= +0
-
 -8 x67f3d +1 x67f72 +1 x67fa9 -8 x67fe1 -8 x68433 +1 x6846a +1 x684a2 -8 x684dc
 +1 x73098 +1 x733b2 +1 x736c4 +1 x73998 -8 x73dae +1 x74082 -8 x7441e +1 x746f2
 <= +0
-
 -8 x67f15 +1 x67f72 +1 x67fa9 -8 x67fb7 -8 x6840a +1 x6846a +1 x684a2 -8 x684b2
 +1 x73098 +1 x733b2 +1 x736c4 +1 x73998 +1 x74082 +1 x746f2 <= +0
-
 +1 x5de57 +1 x65f2a +1 x65f51 -9 x66216 +1 x6624f +1 x66276 +1 x6629f -9 x66573
 +1 x665ad +1 x665d5 +1 x665fe -9 x668d2 +1 x6690c +1 x66934 +1 x6695d -9 x66c31
 +1 x66c6b +1 x66c93 +1 x66cbc -9 x66f90 +1 x66fca +1 x66ff2 +1 x6701b -9 x672ef
 +1 x67329 +1 x67351 +1 x6737a -9 x6764e +1 x67688 +1 x676b0 +1 x676d9 -9 x679ad
 +1 x679e7 +1 x67a0e +1 x67a37 -9 x68028 +1 x68061 -9 x68525 +1 x6855e +1 x68586
 +1 x685af -9 x68882 +1 x688bc <= +0
-
 +1 x5de57 +1 x65f2a +1 x65f51 -8 x6624f +1 x66276 +1 x6629f -8 x665ad +1 x665d5
 +1 x665fe -8 x6690c +1 x66934 +1 x6695d -8 x66c6b +1 x66c93 +1 x66cbc -8 x66fca
 +1 x66ff2 +1 x6701b -8 x67329 +1 x67351 +1 x6737a -8 x67688 +1 x676b0 +1 x676d9
 -8 x679e7 +1 x67a0e +1 x67a37 -8 x68061 -8 x6855e +1 x68586 +1 x685af -8 x688bc
 <= +0
-
 +1 x5de57 +1 x65f2a +1 x65f51 -8 x66216 +1 x66276 +1 x6629f -8 x66573 +1 x665d5
 +1 x665fe -8 x668d2 +1 x66934 +1 x6695d -8 x66c31 +1 x66c93 +1 x66cbc -8 x66f90
 +1 x66ff2 +1 x6701b -8 x672ef +1 x67351 +1 x6737a -8 x6764e +1 x676b0 +1 x676d9
 -8 x679ad +1 x67a0e +1 x67a37 -8 x68028 -8 x68525 +1 x68586 +1 x685af -8 x68882
 <= +0
-
 -9 x65f67 +1 x65f8f +1 x65fc4 +1 x65ffb -9 x66009 +1 x66033 -9 x662af +1 x662d8
 +1 x6630f +1 x66347 -9 x66357 +1 x66381 -9 x6660e +1 x66637 +1 x6666e +1 x666a6
 -9 x666b6 +1 x666e0 -9 x6696d +1 x66996 +1 x669cd +1 x66a05 -9 x66a15 +1 x66a3f
@@ -41993,7 +24247,6 @@ o = 1
 -9 x67a47 +1 x67a70 +1 x67aa7 +1 x67adf -9 x67aef +1 x67b19 -9 x685bf +1 x685e8
 +1 x6861f +1 x68657 -9 x68667 +1 x68691 +1 x75652 +1 x75927 +1 x75c7e +1 x75f17
 +1 x76368 +1 x76601 +1 x76965 +1 x76c71 <= +0
-
 -8 x65f8f +1 x65fc4 +1 x65ffb -8 x66033 -8 x662d8 +1 x6630f +1 x66347 -8 x66381
 -8 x66637 +1 x6666e +1 x666a6 -8 x666e0 -8 x66996 +1 x669cd +1 x66a05 -8 x66a3f
 -8 x66cf5 +1 x66d2c +1 x66d64 -8 x66d9e -8 x67054 +1 x6708b +1 x670c3 -8 x670fd
@@ -42001,33 +24254,28 @@ o = 1
 -8 x67a70 +1 x67aa7 +1 x67adf -8 x67b19 -8 x685e8 +1 x6861f +1 x68657 -8 x68691
 +1 x75652 +1 x75927 +1 x75c7e +1 x75f17 -8 x76368 +1 x76601 -8 x76965 +1 x76c71
 <= +0
-
 -8 x65f67 +1 x65fc4 +1 x65ffb -8 x66009 -8 x662af +1 x6630f +1 x66347 -8 x66357
 -8 x6660e +1 x6666e +1 x666a6 -8 x666b6 -8 x6696d +1 x669cd +1 x66a05 -8 x66a15
 -8 x66ccc +1 x66d2c +1 x66d64 -8 x66d74 -8 x6702b +1 x6708b +1 x670c3 -8 x670d3
 -8 x6738a +1 x673ea +1 x67422 -8 x67432 -8 x676e9 +1 x67749 +1 x67781 -8 x67791
 -8 x67a47 +1 x67aa7 +1 x67adf -8 x67aef -8 x685bf +1 x6861f +1 x68657 -8 x68667
 +1 x75652 +1 x75927 +1 x75c7e +1 x75f17 +1 x76601 +1 x76c71 <= +0
-
 -9 x6607e +1 x660a7 +1 x660cd +1 x660f5 -9 x663cd +1 x663f6 +1 x6641e +1 x66447
 -9 x6672c +1 x66755 +1 x6677d +1 x667a6 -9 x66a8b +1 x66ab4 +1 x66adc +1 x66b05
 -9 x66dea +1 x66e13 +1 x66e3b +1 x66e64 -9 x67149 +1 x67172 +1 x6719a +1 x671c3
 -9 x674a8 +1 x674d1 +1 x674f9 +1 x67522 -9 x67807 +1 x67830 +1 x67858 +1 x67881
 -9 x67b65 +1 x67b8e +1 x67bb5 +1 x67bde -9 x686dd +1 x68706 +1 x6872e +1 x68757
 +1 x74ab4 +1 x74d17 +1 x74fea +1 x75211 <= +0
-
 -8 x660a7 +1 x660cd +1 x660f5 -8 x663f6 +1 x6641e +1 x66447 -8 x66755 +1 x6677d
 +1 x667a6 -8 x66ab4 +1 x66adc +1 x66b05 -8 x66e13 +1 x66e3b +1 x66e64 -8 x67172
 +1 x6719a +1 x671c3 -8 x674d1 +1 x674f9 +1 x67522 -8 x67830 +1 x67858 +1 x67881
 -8 x67b8e +1 x67bb5 +1 x67bde -8 x68706 +1 x6872e +1 x68757 +1 x74ab4 +1 x74d17
 +1 x74fea +1 x75211 <= +0
-
 -8 x6607e +1 x660cd +1 x660f5 -8 x663cd +1 x6641e +1 x66447 -8 x6672c +1 x6677d
 +1 x667a6 -8 x66a8b +1 x66adc +1 x66b05 -8 x66dea +1 x66e3b +1 x66e64 -8 x67149
 +1 x6719a +1 x671c3 -8 x674a8 +1 x674f9 +1 x67522 -8 x67807 +1 x67858 +1 x67881
 -8 x67b65 +1 x67bb5 +1 x67bde -8 x686dd +1 x6872e +1 x68757 +1 x74ab4 +1 x74d17
 +1 x74fea +1 x75211 <= +0
-
 -9 x66103 +1 x6612b +1 x66160 +1 x66197 -9 x661a5 +1 x661cf -9 x66457 +1 x66480
 +1 x664b7 +1 x664ef -9 x664ff +1 x66529 -9 x667b6 +1 x667df +1 x66816 +1 x6684e
 -9 x6685e +1 x66888 -9 x66b15 +1 x66b3e +1 x66b75 +1 x66bad -9 x66bbd +1 x66be7
@@ -42037,7 +24285,6 @@ o = 1
 -9 x67bee +1 x67c17 +1 x67c4e +1 x67c86 -9 x67c96 +1 x67cc0 -9 x68767 +1 x68790
 +1 x687c7 +1 x687ff -9 x6880f +1 x68839 +1 x73089 +1 x7335e +1 x736b5 +1 x7394e
 +1 x73d9f +1 x74038 +1 x7440f +1 x746a8 <= +0
-
 -8 x6612b +1 x66160 +1 x66197 -8 x661cf -8 x66480 +1 x664b7 +1 x664ef -8 x66529
 -8 x667df +1 x66816 +1 x6684e -8 x66888 -8 x66b3e +1 x66b75 +1 x66bad -8 x66be7
 -8 x66e9d +1 x66ed4 +1 x66f0c -8 x66f46 -8 x671fc +1 x67233 +1 x6726b -8 x672a5
@@ -42045,82 +24292,65 @@ o = 1
 -8 x67c17 +1 x67c4e +1 x67c86 -8 x67cc0 -8 x68790 +1 x687c7 +1 x687ff -8 x68839
 +1 x73089 +1 x7335e +1 x736b5 +1 x7394e -8 x73d9f +1 x74038 -8 x7440f +1 x746a8
 <= +0
-
 -8 x66103 +1 x66160 +1 x66197 -8 x661a5 -8 x66457 +1 x664b7 +1 x664ef -8 x664ff
 -8 x667b6 +1 x66816 +1 x6684e -8 x6685e -8 x66b15 +1 x66b75 +1 x66bad -8 x66bbd
 -8 x66e74 +1 x66ed4 +1 x66f0c -8 x66f1c -8 x671d3 +1 x67233 +1 x6726b -8 x6727b
 -8 x67532 +1 x67592 +1 x675ca -8 x675da -8 x67891 +1 x678f1 +1 x67929 -8 x67939
 -8 x67bee +1 x67c4e +1 x67c86 -8 x67c96 -8 x68767 +1 x687c7 +1 x687ff -8 x6880f
 +1 x73089 +1 x7335e +1 x736b5 +1 x7394e +1 x74038 +1 x746a8 <= +0
-
 +1 x5de48 +1 x655d3 +1 x655f6 -9 x65928 +1 x65964 +1 x6597e +1 x659a3 -9 x65cdb
 +1 x65d17 -9 x65d38 +1 x65d74 -9 x65d95 +1 x65dd1 -9 x65df2 +1 x65e2e -9 x65e4f
 +1 x65e8b -9 x65eac +1 x65ee8 -9 x68092 +1 x680ce -9 x688f9 +1 x68935 +1 x68950
 +1 x68976 -9 x69021 +1 x6905d <= +0
-
 +1 x5de48 +1 x655d3 +1 x655f6 -8 x65964 +1 x6597e +1 x659a3 -8 x65d17 -8 x65d74
 -8 x65dd1 -8 x65e2e -8 x65e8b -8 x65ee8 -8 x680ce -8 x68935 +1 x68950 +1 x68976
 -8 x6905d <= +0
-
 +1 x5de48 +1 x655d3 +1 x655f6 -8 x65928 +1 x6597e +1 x659a3 -8 x65cdb -8 x65d38
 -8 x65d95 -8 x65df2 -8 x65e4f -8 x65eac -8 x68092 -8 x688f9 +1 x68950 +1 x68976
 -8 x69021 <= +0
-
 -9 x65616 +1 x6563e +1 x65673 +1 x656aa -9 x656b8 +1 x656e2 -9 x659bd +1 x659e6
 +1 x65a1d +1 x65a55 -9 x65a65 +1 x65a8f -9 x68990 +1 x689b9 +1 x689f0 +1 x68a28
 -9 x68a38 +1 x68a62 +1 x75643 +1 x758d3 +1 x75c6f +1 x75ecd +1 x76359 +1 x765b7
 +1 x76964 +1 x76c27 <= +0
-
 -8 x6563e +1 x65673 +1 x656aa -8 x656e2 -8 x659e6 +1 x65a1d +1 x65a55 -8 x65a8f
 -8 x689b9 +1 x689f0 +1 x68a28 -8 x68a62 +1 x75643 +1 x758d3 +1 x75c6f +1 x75ecd
 -8 x76359 +1 x765b7 -8 x76964 +1 x76c27 <= +0
-
 -8 x65616 +1 x65673 +1 x656aa -8 x656b8 -8 x659bd +1 x65a1d +1 x65a55 -8 x65a65
 -8 x68990 +1 x689f0 +1 x68a28 -8 x68a38 +1 x75643 +1 x758d3 +1 x75c6f +1 x75ecd
 +1 x765b7 +1 x76c27 <= +0
-
 -9 x6572f +1 x65755 +1 x6576f +1 x65793 -9 x65add +1 x65b03 +1 x65b1e +1 x65b43
 -9 x68ab0 +1 x68ad6 +1 x68af1 +1 x68b17 +1 x74aa5 +1 x74cc9 +1 x74fdb +1 x751cd
 <= +0
-
 -8 x65755 +1 x6576f +1 x65793 -8 x65b03 +1 x65b1e +1 x65b43 -8 x68ad6 +1 x68af1
 +1 x68b17 +1 x74aa5 +1 x74cc9 +1 x74fdb +1 x751cd <= +0
-
 -8 x6572f +1 x6576f +1 x65793 -8 x65add +1 x65b1e +1 x65b43 -8 x68ab0 +1 x68af1
 +1 x68b17 +1 x74aa5 +1 x74cc9 +1 x74fdb +1 x751cd <= +0
-
 -9 x657ab +1 x657d3 +1 x65808 +1 x6583f -9 x6584d +1 x65877 -9 x65b5d +1 x65b86
 +1 x65bbd +1 x65bf5 -9 x65c05 +1 x65c2f -9 x68b31 +1 x68b5a +1 x68b91 +1 x68bc9
 -9 x68bd9 +1 x68c03 +1 x7307a +1 x7330a +1 x736a6 +1 x73904 +1 x73d90 +1 x73fee
 +1 x74400 +1 x7465e <= +0
-
 -8 x657d3 +1 x65808 +1 x6583f -8 x65877 -8 x65b86 +1 x65bbd +1 x65bf5 -8 x65c2f
 -8 x68b5a +1 x68b91 +1 x68bc9 -8 x68c03 +1 x7307a +1 x7330a +1 x736a6 +1 x73904
 -8 x73d90 +1 x73fee -8 x74400 +1 x7465e <= +0
-
 -8 x657ab +1 x65808 +1 x6583f -8 x6584d -8 x65b5d +1 x65bbd +1 x65bf5 -8 x65c05
 -8 x68b31 +1 x68b91 +1 x68bc9 -8 x68bd9 +1 x7307a +1 x7330a +1 x736a6 +1 x73904
 +1 x73fee +1 x7465e <= +0
-
 +1 x5de39 +1 x637c0 +1 x637e7 -9 x63aac +1 x63ae5 +1 x63b0c +1 x63b35 -9 x63e09
 +1 x63e43 +1 x63e6b +1 x63e94 -9 x64168 +1 x641a2 +1 x641ca +1 x641f3 -9 x644c7
 +1 x64501 +1 x64529 +1 x64552 -9 x64826 +1 x64860 +1 x64888 +1 x648b1 -9 x64b85
 +1 x64bbf +1 x64be7 +1 x64c10 -9 x64ee4 +1 x64f1e +1 x64f46 +1 x64f6f -9 x65243
 +1 x6527d +1 x652a4 +1 x652cd -9 x658be +1 x658f7 -9 x65c78 +1 x65cb1 -9 x68c4c
 +1 x68c85 +1 x68cad +1 x68cd6 -9 x68fa9 +1 x68fe3 <= +0
-
 +1 x5de39 +1 x637c0 +1 x637e7 -8 x63ae5 +1 x63b0c +1 x63b35 -8 x63e43 +1 x63e6b
 +1 x63e94 -8 x641a2 +1 x641ca +1 x641f3 -8 x64501 +1 x64529 +1 x64552 -8 x64860
 +1 x64888 +1 x648b1 -8 x64bbf +1 x64be7 +1 x64c10 -8 x64f1e +1 x64f46 +1 x64f6f
 -8 x6527d +1 x652a4 +1 x652cd -8 x658f7 -8 x65cb1 -8 x68c85 +1 x68cad +1 x68cd6
 -8 x68fe3 <= +0
-
 +1 x5de39 +1 x637c0 +1 x637e7 -8 x63aac +1 x63b0c +1 x63b35 -8 x63e09 +1 x63e6b
 +1 x63e94 -8 x64168 +1 x641ca +1 x641f3 -8 x644c7 +1 x64529 +1 x64552 -8 x64826
 +1 x64888 +1 x648b1 -8 x64b85 +1 x64be7 +1 x64c10 -8 x64ee4 +1 x64f46 +1 x64f6f
 -8 x65243 +1 x652a4 +1 x652cd -8 x658be -8 x65c78 -8 x68c4c +1 x68cad +1 x68cd6
 -8 x68fa9 <= +0
-
 -9 x637fd +1 x63825 +1 x6385a +1 x63891 -9 x6389f +1 x638c9 -9 x63b45 +1 x63b6e
 +1 x63ba5 +1 x63bdd -9 x63bed +1 x63c17 -9 x63ea4 +1 x63ecd +1 x63f04 +1 x63f3c
 -9 x63f4c +1 x63f76 -9 x64203 +1 x6422c +1 x64263 +1 x6429b -9 x642ab +1 x642d5
@@ -42130,7 +24360,6 @@ o = 1
 -9 x652dd +1 x65306 +1 x6533d +1 x65375 -9 x65385 +1 x653af -9 x68ce6 +1 x68d0f
 +1 x68d46 +1 x68d7e -9 x68d8e +1 x68db8 +1 x75634 +1 x7587f +1 x75c60 +1 x75e83
 +1 x7634a +1 x7656d +1 x76963 +1 x76bdd <= +0
-
 -8 x63825 +1 x6385a +1 x63891 -8 x638c9 -8 x63b6e +1 x63ba5 +1 x63bdd -8 x63c17
 -8 x63ecd +1 x63f04 +1 x63f3c -8 x63f76 -8 x6422c +1 x64263 +1 x6429b -8 x642d5
 -8 x6458b +1 x645c2 +1 x645fa -8 x64634 -8 x648ea +1 x64921 +1 x64959 -8 x64993
@@ -42138,33 +24367,28 @@ o = 1
 -8 x65306 +1 x6533d +1 x65375 -8 x653af -8 x68d0f +1 x68d46 +1 x68d7e -8 x68db8
 +1 x75634 +1 x7587f +1 x75c60 +1 x75e83 -8 x7634a +1 x7656d -8 x76963 +1 x76bdd
 <= +0
-
 -8 x637fd +1 x6385a +1 x63891 -8 x6389f -8 x63b45 +1 x63ba5 +1 x63bdd -8 x63bed
 -8 x63ea4 +1 x63f04 +1 x63f3c -8 x63f4c -8 x64203 +1 x64263 +1 x6429b -8 x642ab
 -8 x64562 +1 x645c2 +1 x645fa -8 x6460a -8 x648c1 +1 x64921 +1 x64959 -8 x64969
 -8 x64c20 +1 x64c80 +1 x64cb8 -8 x64cc8 -8 x64f7f +1 x64fdf +1 x65017 -8 x65027
 -8 x652dd +1 x6533d +1 x65375 -8 x65385 -8 x68ce6 +1 x68d46 +1 x68d7e -8 x68d8e
 +1 x75634 +1 x7587f +1 x75c60 +1 x75e83 +1 x7656d +1 x76bdd <= +0
-
 -9 x63914 +1 x6393d +1 x63963 +1 x6398b -9 x63c63 +1 x63c8c +1 x63cb4 +1 x63cdd
 -9 x63fc2 +1 x63feb +1 x64013 +1 x6403c -9 x64321 +1 x6434a +1 x64372 +1 x6439b
 -9 x64680 +1 x646a9 +1 x646d1 +1 x646fa -9 x649df +1 x64a08 +1 x64a30 +1 x64a59
 -9 x64d3e +1 x64d67 +1 x64d8f +1 x64db8 -9 x6509d +1 x650c6 +1 x650ee +1 x65117
 -9 x653fb +1 x65424 +1 x6544b +1 x65474 -9 x68e04 +1 x68e2d +1 x68e55 +1 x68e7e
 +1 x74a96 +1 x74c90 +1 x74fcc +1 x7519e <= +0
-
 -8 x6393d +1 x63963 +1 x6398b -8 x63c8c +1 x63cb4 +1 x63cdd -8 x63feb +1 x64013
 +1 x6403c -8 x6434a +1 x64372 +1 x6439b -8 x646a9 +1 x646d1 +1 x646fa -8 x64a08
 +1 x64a30 +1 x64a59 -8 x64d67 +1 x64d8f +1 x64db8 -8 x650c6 +1 x650ee +1 x65117
 -8 x65424 +1 x6544b +1 x65474 -8 x68e2d +1 x68e55 +1 x68e7e +1 x74a96 +1 x74c90
 +1 x74fcc +1 x7519e <= +0
-
 -8 x63914 +1 x63963 +1 x6398b -8 x63c63 +1 x63cb4 +1 x63cdd -8 x63fc2 +1 x64013
 +1 x6403c -8 x64321 +1 x64372 +1 x6439b -8 x64680 +1 x646d1 +1 x646fa -8 x649df
 +1 x64a30 +1 x64a59 -8 x64d3e +1 x64d8f +1 x64db8 -8 x6509d +1 x650ee +1 x65117
 -8 x653fb +1 x6544b +1 x65474 -8 x68e04 +1 x68e55 +1 x68e7e +1 x74a96 +1 x74c90
 +1 x74fcc +1 x7519e <= +0
-
 -9 x63999 +1 x639c1 +1 x639f6 +1 x63a2d -9 x63a3b +1 x63a65 -9 x63ced +1 x63d16
 +1 x63d4d +1 x63d85 -9 x63d95 +1 x63dbf -9 x6404c +1 x64075 +1 x640ac +1 x640e4
 -9 x640f4 +1 x6411e -9 x643ab +1 x643d4 +1 x6440b +1 x64443 -9 x64453 +1 x6447d
@@ -42174,7 +24398,6 @@ o = 1
 -9 x65484 +1 x654ad +1 x654e4 +1 x6551c -9 x6552c +1 x65556 -9 x68e8e +1 x68eb7
 +1 x68eee +1 x68f26 -9 x68f36 +1 x68f60 +1 x7306b +1 x732b6 +1 x73697 +1 x738ba
 +1 x73d81 +1 x73fa4 +1 x743f1 +1 x74614 <= +0
-
 -8 x639c1 +1 x639f6 +1 x63a2d -8 x63a65 -8 x63d16 +1 x63d4d +1 x63d85 -8 x63dbf
 -8 x64075 +1 x640ac +1 x640e4 -8 x6411e -8 x643d4 +1 x6440b +1 x64443 -8 x6447d
 -8 x64733 +1 x6476a +1 x647a2 -8 x647dc -8 x64a92 +1 x64ac9 +1 x64b01 -8 x64b3b
@@ -42182,73 +24405,56 @@ o = 1
 -8 x654ad +1 x654e4 +1 x6551c -8 x65556 -8 x68eb7 +1 x68eee +1 x68f26 -8 x68f60
 +1 x7306b +1 x732b6 +1 x73697 +1 x738ba -8 x73d81 +1 x73fa4 -8 x743f1 +1 x74614
 <= +0
-
 -8 x63999 +1 x639f6 +1 x63a2d -8 x63a3b -8 x63ced +1 x63d4d +1 x63d85 -8 x63d95
 -8 x6404c +1 x640ac +1 x640e4 -8 x640f4 -8 x643ab +1 x6440b +1 x64443 -8 x64453
 -8 x6470a +1 x6476a +1 x647a2 -8 x647b2 -8 x64a69 +1 x64ac9 +1 x64b01 -8 x64b11
 -8 x64dc8 +1 x64e28 +1 x64e60 -8 x64e70 -8 x65127 +1 x65187 +1 x651bf -8 x651cf
 -8 x65484 +1 x654e4 +1 x6551c -8 x6552c -8 x68e8e +1 x68eee +1 x68f26 -8 x68f36
 +1 x7306b +1 x732b6 +1 x73697 +1 x738ba +1 x73fa4 +1 x74614 <= +0
-
 +1 x5de2a +1 x624a2 +1 x624c5 -9 x6286f +1 x628ab +1 x628c5 +1 x628ea -9 x6373c
 +1 x63778 -9 x6810a +1 x68146 -9 x690a1 +1 x690dd <= +0
-
 +1 x5de2a +1 x624a2 +1 x624c5 -8 x628ab +1 x628c5 +1 x628ea -8 x63778 -8 x68146
 -8 x690dd <= +0
-
 +1 x5de2a +1 x624a2 +1 x624c5 -8 x6286f +1 x628c5 +1 x628ea -8 x6373c -8 x6810a
 -8 x690a1 <= +0
-
 -9 x624e5 +1 x6250d +1 x62542 +1 x62579 -9 x62587 +1 x625b1 -9 x62904 +1 x6292d
 +1 x62964 +1 x6299c -9 x629ac +1 x629d6 +1 x75625 +1 x7582b +1 x75c51 +1 x75e39
 +1 x7633b +1 x76523 +1 x76962 +1 x76b93 <= +0
-
 -8 x6250d +1 x62542 +1 x62579 -8 x625b1 -8 x6292d +1 x62964 +1 x6299c -8 x629d6
 +1 x75625 +1 x7582b +1 x75c51 +1 x75e39 -8 x7633b +1 x76523 -8 x76962 +1 x76b93
 <= +0
-
 -8 x624e5 +1 x62542 +1 x62579 -8 x62587 -8 x62904 +1 x62964 +1 x6299c -8 x629ac
 +1 x75625 +1 x7582b +1 x75c51 +1 x75e39 +1 x76523 +1 x76b93 <= +0
-
 -9 x625fe +1 x62624 +1 x6263e +1 x62662 -9 x62a24 +1 x62a4a +1 x62a65 +1 x62a8a
 +1 x74a87 +1 x74c42 +1 x74fbd +1 x7515a <= +0
-
 -8 x62624 +1 x6263e +1 x62662 -8 x62a4a +1 x62a65 +1 x62a8a +1 x74a87 +1 x74c42
 +1 x74fbd +1 x7515a <= +0
-
 -8 x625fe +1 x6263e +1 x62662 -8 x62a24 +1 x62a65 +1 x62a8a +1 x74a87 +1 x74c42
 +1 x74fbd +1 x7515a <= +0
-
 -9 x6267a +1 x626a2 +1 x626d7 +1 x6270e -9 x6271c +1 x62746 -9 x62aa4 +1 x62acd
 +1 x62b04 +1 x62b3c -9 x62b4c +1 x62b76 +1 x7305c +1 x73262 +1 x73688 +1 x73870
 +1 x73d72 +1 x73f5a +1 x743e2 +1 x745ca <= +0
-
 -8 x626a2 +1 x626d7 +1 x6270e -8 x62746 -8 x62acd +1 x62b04 +1 x62b3c -8 x62b76
 +1 x7305c +1 x73262 +1 x73688 +1 x73870 -8 x73d72 +1 x73f5a -8 x743e2 +1 x745ca
 <= +0
-
 -8 x6267a +1 x626d7 +1 x6270e -8 x6271c -8 x62aa4 +1 x62b04 +1 x62b3c -8 x62b4c
 +1 x7305c +1 x73262 +1 x73688 +1 x73870 +1 x73f5a +1 x745ca <= +0
-
 +1 x5de1b +1 x6068f +1 x606b6 -9 x6097b +1 x609b4 +1 x609db +1 x60a04 -9 x60cd8
 +1 x60d12 +1 x60d3a +1 x60d63 -9 x61037 +1 x61071 +1 x61099 +1 x610c2 -9 x61396
 +1 x613d0 +1 x613f8 +1 x61421 -9 x616f5 +1 x6172f +1 x61757 +1 x61780 -9 x61a54
 +1 x61a8e +1 x61ab6 +1 x61adf -9 x61db3 +1 x61ded +1 x61e15 +1 x61e3e -9 x62112
 +1 x6214c +1 x62173 +1 x6219c -9 x6278d +1 x627c6 -9 x62bbf +1 x62bf8 +1 x62c20
 +1 x62c49 -9 x62f1c +1 x62f56 <= +0
-
 +1 x5de1b +1 x6068f +1 x606b6 -8 x609b4 +1 x609db +1 x60a04 -8 x60d12 +1 x60d3a
 +1 x60d63 -8 x61071 +1 x61099 +1 x610c2 -8 x613d0 +1 x613f8 +1 x61421 -8 x6172f
 +1 x61757 +1 x61780 -8 x61a8e +1 x61ab6 +1 x61adf -8 x61ded +1 x61e15 +1 x61e3e
 -8 x6214c +1 x62173 +1 x6219c -8 x627c6 -8 x62bf8 +1 x62c20 +1 x62c49 -8 x62f56
 <= +0
-
 +1 x5de1b +1 x6068f +1 x606b6 -8 x6097b +1 x609db +1 x60a04 -8 x60cd8 +1 x60d3a
 +1 x60d63 -8 x61037 +1 x61099 +1 x610c2 -8 x61396 +1 x613f8 +1 x61421 -8 x616f5
 +1 x61757 +1 x61780 -8 x61a54 +1 x61ab6 +1 x61adf -8 x61db3 +1 x61e15 +1 x61e3e
 -8 x62112 +1 x62173 +1 x6219c -8 x6278d -8 x62bbf +1 x62c20 +1 x62c49 -8 x62f1c
 <= +0
-
 -9 x606cc +1 x606f4 +1 x60729 +1 x60760 -9 x6076e +1 x60798 -9 x60a14 +1 x60a3d
 +1 x60a74 +1 x60aac -9 x60abc +1 x60ae6 -9 x60d73 +1 x60d9c +1 x60dd3 +1 x60e0b
 -9 x60e1b +1 x60e45 -9 x610d2 +1 x610fb +1 x61132 +1 x6116a -9 x6117a +1 x611a4
@@ -42258,7 +24464,6 @@ o = 1
 -9 x621ac +1 x621d5 +1 x6220c +1 x62244 -9 x62254 +1 x6227e -9 x62c59 +1 x62c82
 +1 x62cb9 +1 x62cf1 -9 x62d01 +1 x62d2b +1 x75616 +1 x757d7 +1 x75c42 +1 x75def
 +1 x7632c +1 x764d9 +1 x76961 +1 x76b49 <= +0
-
 -8 x606f4 +1 x60729 +1 x60760 -8 x60798 -8 x60a3d +1 x60a74 +1 x60aac -8 x60ae6
 -8 x60d9c +1 x60dd3 +1 x60e0b -8 x60e45 -8 x610fb +1 x61132 +1 x6116a -8 x611a4
 -8 x6145a +1 x61491 +1 x614c9 -8 x61503 -8 x617b9 +1 x617f0 +1 x61828 -8 x61862
@@ -42266,33 +24471,28 @@ o = 1
 -8 x621d5 +1 x6220c +1 x62244 -8 x6227e -8 x62c82 +1 x62cb9 +1 x62cf1 -8 x62d2b
 +1 x75616 +1 x757d7 +1 x75c42 +1 x75def -8 x7632c +1 x764d9 -8 x76961 +1 x76b49
 <= +0
-
 -8 x606cc +1 x60729 +1 x60760 -8 x6076e -8 x60a14 +1 x60a74 +1 x60aac -8 x60abc
 -8 x60d73 +1 x60dd3 +1 x60e0b -8 x60e1b -8 x610d2 +1 x61132 +1 x6116a -8 x6117a
 -8 x61431 +1 x61491 +1 x614c9 -8 x614d9 -8 x61790 +1 x617f0 +1 x61828 -8 x61838
 -8 x61aef +1 x61b4f +1 x61b87 -8 x61b97 -8 x61e4e +1 x61eae +1 x61ee6 -8 x61ef6
 -8 x621ac +1 x6220c +1 x62244 -8 x62254 -8 x62c59 +1 x62cb9 +1 x62cf1 -8 x62d01
 +1 x75616 +1 x757d7 +1 x75c42 +1 x75def +1 x764d9 +1 x76b49 <= +0
-
 -9 x607e3 +1 x6080c +1 x60832 +1 x6085a -9 x60b32 +1 x60b5b +1 x60b83 +1 x60bac
 -9 x60e91 +1 x60eba +1 x60ee2 +1 x60f0b -9 x611f0 +1 x61219 +1 x61241 +1 x6126a
 -9 x6154f +1 x61578 +1 x615a0 +1 x615c9 -9 x618ae +1 x618d7 +1 x618ff +1 x61928
 -9 x61c0d +1 x61c36 +1 x61c5e +1 x61c87 -9 x61f6c +1 x61f95 +1 x61fbd +1 x61fe6
 -9 x622ca +1 x622f3 +1 x6231a +1 x62343 -9 x62d77 +1 x62da0 +1 x62dc8 +1 x62df1
 +1 x74a78 +1 x74c09 +1 x74fae +1 x7512b <= +0
-
 -8 x6080c +1 x60832 +1 x6085a -8 x60b5b +1 x60b83 +1 x60bac -8 x60eba +1 x60ee2
 +1 x60f0b -8 x61219 +1 x61241 +1 x6126a -8 x61578 +1 x615a0 +1 x615c9 -8 x618d7
 +1 x618ff +1 x61928 -8 x61c36 +1 x61c5e +1 x61c87 -8 x61f95 +1 x61fbd +1 x61fe6
 -8 x622f3 +1 x6231a +1 x62343 -8 x62da0 +1 x62dc8 +1 x62df1 +1 x74a78 +1 x74c09
 +1 x74fae +1 x7512b <= +0
-
 -8 x607e3 +1 x60832 +1 x6085a -8 x60b32 +1 x60b83 +1 x60bac -8 x60e91 +1 x60ee2
 +1 x60f0b -8 x611f0 +1 x61241 +1 x6126a -8 x6154f +1 x615a0 +1 x615c9 -8 x618ae
 +1 x618ff +1 x61928 -8 x61c0d +1 x61c5e +1 x61c87 -8 x61f6c +1 x61fbd +1 x61fe6
 -8 x622ca +1 x6231a +1 x62343 -8 x62d77 +1 x62dc8 +1 x62df1 +1 x74a78 +1 x74c09
 +1 x74fae +1 x7512b <= +0
-
 -9 x60868 +1 x60890 +1 x608c5 +1 x608fc -9 x6090a +1 x60934 -9 x60bbc +1 x60be5
 +1 x60c1c +1 x60c54 -9 x60c64 +1 x60c8e -9 x60f1b +1 x60f44 +1 x60f7b +1 x60fb3
 -9 x60fc3 +1 x60fed -9 x6127a +1 x612a3 +1 x612da +1 x61312 -9 x61322 +1 x6134c
@@ -42302,7 +24502,6 @@ o = 1
 -9 x62353 +1 x6237c +1 x623b3 +1 x623eb -9 x623fb +1 x62425 -9 x62e01 +1 x62e2a
 +1 x62e61 +1 x62e99 -9 x62ea9 +1 x62ed3 +1 x7304d +1 x7320e +1 x73679 +1 x73826
 +1 x73d63 +1 x73f10 +1 x743d3 +1 x74580 <= +0
-
 -8 x60890 +1 x608c5 +1 x608fc -8 x60934 -8 x60be5 +1 x60c1c +1 x60c54 -8 x60c8e
 -8 x60f44 +1 x60f7b +1 x60fb3 -8 x60fed -8 x612a3 +1 x612da +1 x61312 -8 x6134c
 -8 x61602 +1 x61639 +1 x61671 -8 x616ab -8 x61961 +1 x61998 +1 x619d0 -8 x61a0a
@@ -42310,82 +24509,65 @@ o = 1
 -8 x6237c +1 x623b3 +1 x623eb -8 x62425 -8 x62e2a +1 x62e61 +1 x62e99 -8 x62ed3
 +1 x7304d +1 x7320e +1 x73679 +1 x73826 -8 x73d63 +1 x73f10 -8 x743d3 +1 x74580
 <= +0
-
 -8 x60868 +1 x608c5 +1 x608fc -8 x6090a -8 x60bbc +1 x60c1c +1 x60c54 -8 x60c64
 -8 x60f1b +1 x60f7b +1 x60fb3 -8 x60fc3 -8 x6127a +1 x612da +1 x61312 -8 x61322
 -8 x615d9 +1 x61639 +1 x61671 -8 x61681 -8 x61938 +1 x61998 +1 x619d0 -8 x619e0
 -8 x61c97 +1 x61cf7 +1 x61d2f -8 x61d3f -8 x61ff6 +1 x62056 +1 x6208e -8 x6209e
 -8 x62353 +1 x623b3 +1 x623eb -8 x623fb -8 x62e01 +1 x62e61 +1 x62e99 -8 x62ea9
 +1 x7304d +1 x7320e +1 x73679 +1 x73826 +1 x73f10 +1 x74580 <= +0
-
 +1 x5de0c +1 x5fd38 +1 x5fd5b -9 x6008d +1 x600c9 +1 x600e3 +1 x60108 -9 x60440
 +1 x6047c -9 x6049d +1 x604d9 -9 x604fa +1 x60536 -9 x60557 +1 x60593 -9 x605b4
 +1 x605f0 -9 x60611 +1 x6064d -9 x627f7 +1 x62833 -9 x62f93 +1 x62fcf +1 x62fea
 +1 x63010 -9 x636bb +1 x636f7 <= +0
-
 +1 x5de0c +1 x5fd38 +1 x5fd5b -8 x600c9 +1 x600e3 +1 x60108 -8 x6047c -8 x604d9
 -8 x60536 -8 x60593 -8 x605f0 -8 x6064d -8 x62833 -8 x62fcf +1 x62fea +1 x63010
 -8 x636f7 <= +0
-
 +1 x5de0c +1 x5fd38 +1 x5fd5b -8 x6008d +1 x600e3 +1 x60108 -8 x60440 -8 x6049d
 -8 x604fa -8 x60557 -8 x605b4 -8 x60611 -8 x627f7 -8 x62f93 +1 x62fea +1 x63010
 -8 x636bb <= +0
-
 -9 x5fd7b +1 x5fda3 +1 x5fdd8 +1 x5fe0f -9 x5fe1d +1 x5fe47 -9 x60122 +1 x6014b
 +1 x60182 +1 x601ba -9 x601ca +1 x601f4 -9 x6302a +1 x63053 +1 x6308a +1 x630c2
 -9 x630d2 +1 x630fc +1 x75607 +1 x75783 +1 x75c33 +1 x75da5 +1 x7631d +1 x7648f
 +1 x76960 +1 x76aff <= +0
-
 -8 x5fda3 +1 x5fdd8 +1 x5fe0f -8 x5fe47 -8 x6014b +1 x60182 +1 x601ba -8 x601f4
 -8 x63053 +1 x6308a +1 x630c2 -8 x630fc +1 x75607 +1 x75783 +1 x75c33 +1 x75da5
 -8 x7631d +1 x7648f -8 x76960 +1 x76aff <= +0
-
 -8 x5fd7b +1 x5fdd8 +1 x5fe0f -8 x5fe1d -8 x60122 +1 x60182 +1 x601ba -8 x601ca
 -8 x6302a +1 x6308a +1 x630c2 -8 x630d2 +1 x75607 +1 x75783 +1 x75c33 +1 x75da5
 +1 x7648f +1 x76aff <= +0
-
 -9 x5fe94 +1 x5feba +1 x5fed4 +1 x5fef8 -9 x60242 +1 x60268 +1 x60283 +1 x602a8
 -9 x6314a +1 x63170 +1 x6318b +1 x631b1 +1 x74a69 +1 x74bbb +1 x74f9f +1 x750e7
 <= +0
-
 -8 x5feba +1 x5fed4 +1 x5fef8 -8 x60268 +1 x60283 +1 x602a8 -8 x63170 +1 x6318b
 +1 x631b1 +1 x74a69 +1 x74bbb +1 x74f9f +1 x750e7 <= +0
-
 -8 x5fe94 +1 x5fed4 +1 x5fef8 -8 x60242 +1 x60283 +1 x602a8 -8 x6314a +1 x6318b
 +1 x631b1 +1 x74a69 +1 x74bbb +1 x74f9f +1 x750e7 <= +0
-
 -9 x5ff10 +1 x5ff38 +1 x5ff6d +1 x5ffa4 -9 x5ffb2 +1 x5ffdc -9 x602c2 +1 x602eb
 +1 x60322 +1 x6035a -9 x6036a +1 x60394 -9 x631cb +1 x631f4 +1 x6322b +1 x63263
 -9 x63273 +1 x6329d +1 x7303e +1 x731ba +1 x7366a +1 x737dc +1 x73d54 +1 x73ec6
 +1 x743c4 +1 x74536 <= +0
-
 -8 x5ff38 +1 x5ff6d +1 x5ffa4 -8 x5ffdc -8 x602eb +1 x60322 +1 x6035a -8 x60394
 -8 x631f4 +1 x6322b +1 x63263 -8 x6329d +1 x7303e +1 x731ba +1 x7366a +1 x737dc
 -8 x73d54 +1 x73ec6 -8 x743c4 +1 x74536 <= +0
-
 -8 x5ff10 +1 x5ff6d +1 x5ffa4 -8 x5ffb2 -8 x602c2 +1 x60322 +1 x6035a -8 x6036a
 -8 x631cb +1 x6322b +1 x63263 -8 x63273 +1 x7303e +1 x731ba +1 x7366a +1 x737dc
 +1 x73ec6 +1 x74536 <= +0
-
 +1 x5ddfd +1 x5df25 +1 x5df4c -9 x5e211 +1 x5e24a +1 x5e271 +1 x5e29a -9 x5e56e
 +1 x5e5a8 +1 x5e5d0 +1 x5e5f9 -9 x5e8cd +1 x5e907 +1 x5e92f +1 x5e958 -9 x5ec2c
 +1 x5ec66 +1 x5ec8e +1 x5ecb7 -9 x5ef8b +1 x5efc5 +1 x5efed +1 x5f016 -9 x5f2ea
 +1 x5f324 +1 x5f34c +1 x5f375 -9 x5f649 +1 x5f683 +1 x5f6ab +1 x5f6d4 -9 x5f9a8
 +1 x5f9e2 +1 x5fa09 +1 x5fa32 -9 x60023 +1 x6005c -9 x603dd +1 x60416 -9 x632e6
 +1 x6331f +1 x63347 +1 x63370 -9 x63643 +1 x6367d <= +0
-
 +1 x5ddfd +1 x5df25 +1 x5df4c -8 x5e24a +1 x5e271 +1 x5e29a -8 x5e5a8 +1 x5e5d0
 +1 x5e5f9 -8 x5e907 +1 x5e92f +1 x5e958 -8 x5ec66 +1 x5ec8e +1 x5ecb7 -8 x5efc5
 +1 x5efed +1 x5f016 -8 x5f324 +1 x5f34c +1 x5f375 -8 x5f683 +1 x5f6ab +1 x5f6d4
 -8 x5f9e2 +1 x5fa09 +1 x5fa32 -8 x6005c -8 x60416 -8 x6331f +1 x63347 +1 x63370
 -8 x6367d <= +0
-
 +1 x5ddfd +1 x5df25 +1 x5df4c -8 x5e211 +1 x5e271 +1 x5e29a -8 x5e56e +1 x5e5d0
 +1 x5e5f9 -8 x5e8cd +1 x5e92f +1 x5e958 -8 x5ec2c +1 x5ec8e +1 x5ecb7 -8 x5ef8b
 +1 x5efed +1 x5f016 -8 x5f2ea +1 x5f34c +1 x5f375 -8 x5f649 +1 x5f6ab +1 x5f6d4
 -8 x5f9a8 +1 x5fa09 +1 x5fa32 -8 x60023 -8 x603dd -8 x632e6 +1 x63347 +1 x63370
 -8 x63643 <= +0
-
 -9 x5df62 +1 x5df8a +1 x5dfbf +1 x5dff6 -9 x5e004 +1 x5e02e -9 x5e2aa +1 x5e2d3
 +1 x5e30a +1 x5e342 -9 x5e352 +1 x5e37c -9 x5e609 +1 x5e632 +1 x5e669 +1 x5e6a1
 -9 x5e6b1 +1 x5e6db -9 x5e968 +1 x5e991 +1 x5e9c8 +1 x5ea00 -9 x5ea10 +1 x5ea3a
@@ -42395,7 +24577,6 @@ o = 1
 -9 x5fa42 +1 x5fa6b +1 x5faa2 +1 x5fada -9 x5faea +1 x5fb14 -9 x63380 +1 x633a9
 +1 x633e0 +1 x63418 -9 x63428 +1 x63452 +1 x755f8 +1 x7572f +1 x75c24 +1 x75d5b
 +1 x7630e +1 x76445 +1 x7695f +1 x76ab5 <= +0
-
 -8 x5df8a +1 x5dfbf +1 x5dff6 -8 x5e02e -8 x5e2d3 +1 x5e30a +1 x5e342 -8 x5e37c
 -8 x5e632 +1 x5e669 +1 x5e6a1 -8 x5e6db -8 x5e991 +1 x5e9c8 +1 x5ea00 -8 x5ea3a
 -8 x5ecf0 +1 x5ed27 +1 x5ed5f -8 x5ed99 -8 x5f04f +1 x5f086 +1 x5f0be -8 x5f0f8
@@ -42403,33 +24584,28 @@ o = 1
 -8 x5fa6b +1 x5faa2 +1 x5fada -8 x5fb14 -8 x633a9 +1 x633e0 +1 x63418 -8 x63452
 +1 x755f8 +1 x7572f +1 x75c24 +1 x75d5b -8 x7630e +1 x76445 -8 x7695f +1 x76ab5
 <= +0
-
 -8 x5df62 +1 x5dfbf +1 x5dff6 -8 x5e004 -8 x5e2aa +1 x5e30a +1 x5e342 -8 x5e352
 -8 x5e609 +1 x5e669 +1 x5e6a1 -8 x5e6b1 -8 x5e968 +1 x5e9c8 +1 x5ea00 -8 x5ea10
 -8 x5ecc7 +1 x5ed27 +1 x5ed5f -8 x5ed6f -8 x5f026 +1 x5f086 +1 x5f0be -8 x5f0ce
 -8 x5f385 +1 x5f3e5 +1 x5f41d -8 x5f42d -8 x5f6e4 +1 x5f744 +1 x5f77c -8 x5f78c
 -8 x5fa42 +1 x5faa2 +1 x5fada -8 x5faea -8 x63380 +1 x633e0 +1 x63418 -8 x63428
 +1 x755f8 +1 x7572f +1 x75c24 +1 x75d5b +1 x76445 +1 x76ab5 <= +0
-
 -9 x5e079 +1 x5e0a2 +1 x5e0c8 +1 x5e0f0 -9 x5e3c8 +1 x5e3f1 +1 x5e419 +1 x5e442
 -9 x5e727 +1 x5e750 +1 x5e778 +1 x5e7a1 -9 x5ea86 +1 x5eaaf +1 x5ead7 +1 x5eb00
 -9 x5ede5 +1 x5ee0e +1 x5ee36 +1 x5ee5f -9 x5f144 +1 x5f16d +1 x5f195 +1 x5f1be
 -9 x5f4a3 +1 x5f4cc +1 x5f4f4 +1 x5f51d -9 x5f802 +1 x5f82b +1 x5f853 +1 x5f87c
 -9 x5fb60 +1 x5fb89 +1 x5fbb0 +1 x5fbd9 -9 x6349e +1 x634c7 +1 x634ef +1 x63518
 +1 x74a5a +1 x74b82 +1 x74f90 +1 x750b8 <= +0
-
 -8 x5e0a2 +1 x5e0c8 +1 x5e0f0 -8 x5e3f1 +1 x5e419 +1 x5e442 -8 x5e750 +1 x5e778
 +1 x5e7a1 -8 x5eaaf +1 x5ead7 +1 x5eb00 -8 x5ee0e +1 x5ee36 +1 x5ee5f -8 x5f16d
 +1 x5f195 +1 x5f1be -8 x5f4cc +1 x5f4f4 +1 x5f51d -8 x5f82b +1 x5f853 +1 x5f87c
 -8 x5fb89 +1 x5fbb0 +1 x5fbd9 -8 x634c7 +1 x634ef +1 x63518 +1 x74a5a +1 x74b82
 +1 x74f90 +1 x750b8 <= +0
-
 -8 x5e079 +1 x5e0c8 +1 x5e0f0 -8 x5e3c8 +1 x5e419 +1 x5e442 -8 x5e727 +1 x5e778
 +1 x5e7a1 -8 x5ea86 +1 x5ead7 +1 x5eb00 -8 x5ede5 +1 x5ee36 +1 x5ee5f -8 x5f144
 +1 x5f195 +1 x5f1be -8 x5f4a3 +1 x5f4f4 +1 x5f51d -8 x5f802 +1 x5f853 +1 x5f87c
 -8 x5fb60 +1 x5fbb0 +1 x5fbd9 -8 x6349e +1 x634ef +1 x63518 +1 x74a5a +1 x74b82
 +1 x74f90 +1 x750b8 <= +0
-
 -9 x5e0fe +1 x5e126 +1 x5e15b +1 x5e192 -9 x5e1a0 +1 x5e1ca -9 x5e452 +1 x5e47b
 +1 x5e4b2 +1 x5e4ea -9 x5e4fa +1 x5e524 -9 x5e7b1 +1 x5e7da +1 x5e811 +1 x5e849
 -9 x5e859 +1 x5e883 -9 x5eb10 +1 x5eb39 +1 x5eb70 +1 x5eba8 -9 x5ebb8 +1 x5ebe2
@@ -42439,7 +24615,6 @@ o = 1
 -9 x5fbe9 +1 x5fc12 +1 x5fc49 +1 x5fc81 -9 x5fc91 +1 x5fcbb -9 x63528 +1 x63551
 +1 x63588 +1 x635c0 -9 x635d0 +1 x635fa +1 x7302f +1 x73166 +1 x7365b +1 x73792
 +1 x73d45 +1 x73e7c +1 x743b5 +1 x744ec <= +0
-
 -8 x5e126 +1 x5e15b +1 x5e192 -8 x5e1ca -8 x5e47b +1 x5e4b2 +1 x5e4ea -8 x5e524
 -8 x5e7da +1 x5e811 +1 x5e849 -8 x5e883 -8 x5eb39 +1 x5eb70 +1 x5eba8 -8 x5ebe2
 -8 x5ee98 +1 x5eecf +1 x5ef07 -8 x5ef41 -8 x5f1f7 +1 x5f22e +1 x5f266 -8 x5f2a0
@@ -42447,774 +24622,516 @@ o = 1
 -8 x5fc12 +1 x5fc49 +1 x5fc81 -8 x5fcbb -8 x63551 +1 x63588 +1 x635c0 -8 x635fa
 +1 x7302f +1 x73166 +1 x7365b +1 x73792 -8 x73d45 +1 x73e7c -8 x743b5 +1 x744ec
 <= +0
-
 -8 x5e0fe +1 x5e15b +1 x5e192 -8 x5e1a0 -8 x5e452 +1 x5e4b2 +1 x5e4ea -8 x5e4fa
 -8 x5e7b1 +1 x5e811 +1 x5e849 -8 x5e859 -8 x5eb10 +1 x5eb70 +1 x5eba8 -8 x5ebb8
 -8 x5ee6f +1 x5eecf +1 x5ef07 -8 x5ef17 -8 x5f1ce +1 x5f22e +1 x5f266 -8 x5f276
 -8 x5f52d +1 x5f58d +1 x5f5c5 -8 x5f5d5 -8 x5f88c +1 x5f8ec +1 x5f924 -8 x5f934
 -8 x5fbe9 +1 x5fc49 +1 x5fc81 -8 x5fc91 -8 x63528 +1 x63588 +1 x635c0 -8 x635d0
 +1 x7302f +1 x73166 +1 x7365b +1 x73792 +1 x73e7c +1 x744ec <= +0
-
-
 -9 x5dd7b +1 x76931 +1 x770ae +1 x771ce <= +0
-
 +1 x76931 -8 x770ae +1 x771ce <= +0
-
 -8 x5dd7b +1 x76931 +1 x771ce <= +0
-
 +1 x74368 +1 x75519 -9 x7726b -9 x7726c +1 x77348 +1 x77471 <= +0
-
 +1 x74368 -8 x75519 -8 x77348 +1 x77471 <= +0
-
 +1 x74368 -8 x7726b -8 x7726c +1 x77471 <= +0
-
 +1 x71232 +1 x712cc -9 x714e4 +1 x71571 +1 x71619 -9 x71841 +1 x718d0 +1 x71978
 -9 x71ba0 +1 x71c2f +1 x71cd7 -9 x71eff +1 x71f8e +1 x72036 -9 x7225e +1 x722ed
 +1 x72395 -9 x725bd +1 x7264c +1 x726f4 -9 x7291c +1 x729ab +1 x72a53 -9 x72c7b
 +1 x72d09 +1 x72db1 +1 x75bca -9 x7751c +1 x775a9 +1 x7764f -9 x77873 <= +0
-
 -8 x71232 +1 x712cc -8 x71571 +1 x71619 -8 x718d0 +1 x71978 -8 x71c2f +1 x71cd7
 -8 x71f8e +1 x72036 -8 x722ed +1 x72395 -8 x7264c +1 x726f4 -8 x729ab +1 x72a53
 -8 x72d09 +1 x72db1 +1 x75bca -8 x775a9 +1 x7764f <= +0
-
 +1 x712cc -8 x714e4 +1 x71619 -8 x71841 +1 x71978 -8 x71ba0 +1 x71cd7 -8 x71eff
 +1 x72036 -8 x7225e +1 x72395 -8 x725bd +1 x726f4 -8 x7291c +1 x72a53 -8 x72c7b
 +1 x72db1 +1 x75bca -8 x7751c +1 x7764f -8 x77873 <= +0
-
 -9 x7133b -9 x7133c +1 x713c6 +1 x71468 -9 x7168a -9 x7168b +1 x71719 +1 x717c1
 -9 x719e9 -9 x719ea +1 x71a78 +1 x71b20 -9 x71d48 -9 x71d49 +1 x71dd7 +1 x71e7f
 -9 x720a7 -9 x720a8 +1 x72136 +1 x721de -9 x72406 -9 x72407 +1 x72495 +1 x7253d
 -9 x72765 -9 x72766 +1 x727f4 +1 x7289c -9 x72ac4 -9 x72ac5 +1 x72b53 +1 x72bfb
 -9 x72e22 -9 x72e23 +1 x72eb0 +1 x72f58 +1 x73601 +1 x74f36 -9 x776c0 -9 x776c1
 +1 x7774e +1 x777f4 <= +0
-
 -8 x713c6 +1 x71468 -8 x71719 +1 x717c1 -8 x71a78 +1 x71b20 -8 x71dd7 +1 x71e7f
 -8 x72136 +1 x721de -8 x72495 +1 x7253d -8 x727f4 +1 x7289c -8 x72b53 +1 x72bfb
 -8 x72eb0 +1 x72f58 +1 x73601 -8 x74f36 -8 x7774e +1 x777f4 <= +0
-
 -8 x7133b -8 x7133c +1 x71468 -8 x7168a -8 x7168b +1 x717c1 -8 x719e9 -8 x719ea
 +1 x71b20 -8 x71d48 -8 x71d49 +1 x71e7f -8 x720a7 -8 x720a8 +1 x721de -8 x72406
 -8 x72407 +1 x7253d -8 x72765 -8 x72766 +1 x7289c -8 x72ac4 -8 x72ac5 +1 x72bfb
 -8 x72e22 -8 x72e23 +1 x72f58 +1 x73601 -8 x776c0 -8 x776c1 +1 x777f4 <= +0
-
 +1 x708e1 +1 x7097b -9 x70bf6 +1 x70c7f +1 x70d27 -9 x70fa9 -9 x71006 -9 x71063
 -9 x710c0 -9 x7111d -9 x7117a +1 x75b76 -9 x779f3 +1 x77a7d +1 x77b23 -9 x7810f
 <= +0
-
 -8 x708e1 +1 x7097b -8 x70c7f +1 x70d27 +1 x75b76 -8 x77a7d +1 x77b23 <= +0
-
 +1 x7097b -8 x70bf6 +1 x70d27 -8 x70fa9 -8 x71006 -8 x71063 -8 x710c0 -8 x7111d
 -8 x7117a +1 x75b76 -8 x779f3 +1 x77b23 -8 x7810f <= +0
-
 -9 x709ea -9 x709eb +1 x70a6e +1 x70b10 -9 x70d98 -9 x70d99 +1 x70e1f +1 x70ec7
 +1 x735ad +1 x74ef1 -9 x77b94 -9 x77b95 +1 x77c1b +1 x77cc1 <= +0
-
 -8 x70a6e +1 x70b10 -8 x70e1f +1 x70ec7 +1 x735ad -8 x74ef1 -8 x77c1b +1 x77cc1
 <= +0
-
 -8 x709ea -8 x709eb +1 x70b10 -8 x70d98 -8 x70d99 +1 x70ec7 +1 x735ad -8 x77b94
 -8 x77b95 +1 x77cc1 <= +0
-
 +1 x6eac8 +1 x6eb62 -9 x6ed7a +1 x6ee07 +1 x6eeaf -9 x6f0d7 +1 x6f166 +1 x6f20e
 -9 x6f436 +1 x6f4c5 +1 x6f56d -9 x6f795 +1 x6f824 +1 x6f8cc -9 x6faf4 +1 x6fb83
 +1 x6fc2b -9 x6fe53 +1 x6fee2 +1 x6ff8a -9 x701b2 +1 x70241 +1 x702e9 -9 x70511
 +1 x7059f +1 x70647 -9 x70b8c -9 x70f46 +1 x75b22 -9 x77d40 +1 x77dcd +1 x77e73
 -9 x78097 <= +0
-
 -8 x6eac8 +1 x6eb62 -8 x6ee07 +1 x6eeaf -8 x6f166 +1 x6f20e -8 x6f4c5 +1 x6f56d
 -8 x6f824 +1 x6f8cc -8 x6fb83 +1 x6fc2b -8 x6fee2 +1 x6ff8a -8 x70241 +1 x702e9
 -8 x7059f +1 x70647 +1 x75b22 -8 x77dcd +1 x77e73 <= +0
-
 +1 x6eb62 -8 x6ed7a +1 x6eeaf -8 x6f0d7 +1 x6f20e -8 x6f436 +1 x6f56d -8 x6f795
 +1 x6f8cc -8 x6faf4 +1 x6fc2b -8 x6fe53 +1 x6ff8a -8 x701b2 +1 x702e9 -8 x70511
 +1 x70647 -8 x70b8c -8 x70f46 +1 x75b22 -8 x77d40 +1 x77e73 -8 x78097 <= +0
-
 -9 x6ebd1 -9 x6ebd2 +1 x6ec5c +1 x6ecfe -9 x6ef20 -9 x6ef21 +1 x6efaf +1 x6f057
 -9 x6f27f -9 x6f280 +1 x6f30e +1 x6f3b6 -9 x6f5de -9 x6f5df +1 x6f66d +1 x6f715
 -9 x6f93d -9 x6f93e +1 x6f9cc +1 x6fa74 -9 x6fc9c -9 x6fc9d +1 x6fd2b +1 x6fdd3
 -9 x6fffb -9 x6fffc +1 x7008a +1 x70132 -9 x7035a -9 x7035b +1 x703e9 +1 x70491
 -9 x706b8 -9 x706b9 +1 x70746 +1 x707ee +1 x73559 +1 x74eaf -9 x77ee4 -9 x77ee5
 +1 x77f72 +1 x78018 <= +0
-
 -8 x6ec5c +1 x6ecfe -8 x6efaf +1 x6f057 -8 x6f30e +1 x6f3b6 -8 x6f66d +1 x6f715
 -8 x6f9cc +1 x6fa74 -8 x6fd2b +1 x6fdd3 -8 x7008a +1 x70132 -8 x703e9 +1 x70491
 -8 x70746 +1 x707ee +1 x73559 -8 x74eaf -8 x77f72 +1 x78018 <= +0
-
 -8 x6ebd1 -8 x6ebd2 +1 x6ecfe -8 x6ef20 -8 x6ef21 +1 x6f057 -8 x6f27f -8 x6f280
 +1 x6f3b6 -8 x6f5de -8 x6f5df +1 x6f715 -8 x6f93d -8 x6f93e +1 x6fa74 -8 x6fc9c
 -8 x6fc9d +1 x6fdd3 -8 x6fffb -8 x6fffc +1 x70132 -8 x7035a -8 x7035b +1 x70491
 -8 x706b8 -8 x706b9 +1 x707ee +1 x73559 -8 x77ee4 -8 x77ee5 +1 x78018 <= +0
-
 +1 x6d7b0 +1 x6d84a -9 x6db3d +1 x6dbc6 +1 x6dc6e -9 x6ea0a +1 x75ace -9 x782a9
 <= +0
-
 -8 x6d7b0 +1 x6d84a -8 x6dbc6 +1 x6dc6e +1 x75ace <= +0
-
 +1 x6d84a -8 x6db3d +1 x6dc6e -8 x6ea0a +1 x75ace -8 x782a9 <= +0
-
 -9 x6d8b9 -9 x6d8ba +1 x6d93d +1 x6d9df -9 x6dcdf -9 x6dce0 +1 x6dd66 +1 x6de0e
 +1 x73505 +1 x74e6a <= +0
-
 -8 x6d93d +1 x6d9df -8 x6dd66 +1 x6de0e +1 x73505 -8 x74e6a <= +0
-
 -8 x6d8b9 -8 x6d8ba +1 x6d9df -8 x6dcdf -8 x6dce0 +1 x6de0e +1 x73505 <= +0
-
 +1 x6b997 +1 x6ba31 -9 x6bc49 +1 x6bcd6 +1 x6bd7e -9 x6bfa6 +1 x6c035 +1 x6c0dd
 -9 x6c305 +1 x6c394 +1 x6c43c -9 x6c664 +1 x6c6f3 +1 x6c79b -9 x6c9c3 +1 x6ca52
 +1 x6cafa -9 x6cd22 +1 x6cdb1 +1 x6ce59 -9 x6d081 +1 x6d110 +1 x6d1b8 -9 x6d3e0
 +1 x6d46e +1 x6d516 -9 x6da5b -9 x6de8d +1 x6df1b +1 x6dfc3 -9 x6e1ea +1 x75a7a
 <= +0
-
 -8 x6b997 +1 x6ba31 -8 x6bcd6 +1 x6bd7e -8 x6c035 +1 x6c0dd -8 x6c394 +1 x6c43c
 -8 x6c6f3 +1 x6c79b -8 x6ca52 +1 x6cafa -8 x6cdb1 +1 x6ce59 -8 x6d110 +1 x6d1b8
 -8 x6d46e +1 x6d516 -8 x6df1b +1 x6dfc3 +1 x75a7a <= +0
-
 +1 x6ba31 -8 x6bc49 +1 x6bd7e -8 x6bfa6 +1 x6c0dd -8 x6c305 +1 x6c43c -8 x6c664
 +1 x6c79b -8 x6c9c3 +1 x6cafa -8 x6cd22 +1 x6ce59 -8 x6d081 +1 x6d1b8 -8 x6d3e0
 +1 x6d516 -8 x6da5b -8 x6de8d +1 x6dfc3 -8 x6e1ea +1 x75a7a <= +0
-
 -9 x6baa0 -9 x6baa1 +1 x6bb2b +1 x6bbcd -9 x6bdef -9 x6bdf0 +1 x6be7e +1 x6bf26
 -9 x6c14e -9 x6c14f +1 x6c1dd +1 x6c285 -9 x6c4ad -9 x6c4ae +1 x6c53c +1 x6c5e4
 -9 x6c80c -9 x6c80d +1 x6c89b +1 x6c943 -9 x6cb6b -9 x6cb6c +1 x6cbfa +1 x6cca2
 -9 x6ceca -9 x6cecb +1 x6cf59 +1 x6d001 -9 x6d229 -9 x6d22a +1 x6d2b8 +1 x6d360
 -9 x6d587 -9 x6d588 +1 x6d615 +1 x6d6bd -9 x6e034 -9 x6e035 +1 x6e0c3 +1 x6e16b
 +1 x734b1 +1 x74e28 <= +0
-
 -8 x6bb2b +1 x6bbcd -8 x6be7e +1 x6bf26 -8 x6c1dd +1 x6c285 -8 x6c53c +1 x6c5e4
 -8 x6c89b +1 x6c943 -8 x6cbfa +1 x6cca2 -8 x6cf59 +1 x6d001 -8 x6d2b8 +1 x6d360
 -8 x6d615 +1 x6d6bd -8 x6e0c3 +1 x6e16b +1 x734b1 -8 x74e28 <= +0
-
 -8 x6baa0 -8 x6baa1 +1 x6bbcd -8 x6bdef -8 x6bdf0 +1 x6bf26 -8 x6c14e -8 x6c14f
 +1 x6c285 -8 x6c4ad -8 x6c4ae +1 x6c5e4 -8 x6c80c -8 x6c80d +1 x6c943 -8 x6cb6b
 -8 x6cb6c +1 x6cca2 -8 x6ceca -8 x6cecb +1 x6d001 -8 x6d229 -8 x6d22a +1 x6d360
 -8 x6d587 -8 x6d588 +1 x6d6bd -8 x6e034 -8 x6e035 +1 x6e16b +1 x734b1 <= +0
-
 +1 x6b046 +1 x6b0e0 -9 x6b35b +1 x6b3e4 +1 x6b48c -9 x6b70e -9 x6b76b -9 x6b7c8
 -9 x6b825 -9 x6b882 -9 x6b8df -9 x6dac5 -9 x6e261 +1 x6e2ec +1 x6e394 -9 x6e989
 +1 x75a26 <= +0
-
 -8 x6b046 +1 x6b0e0 -8 x6b3e4 +1 x6b48c -8 x6e2ec +1 x6e394 +1 x75a26 <= +0
-
 +1 x6b0e0 -8 x6b35b +1 x6b48c -8 x6b70e -8 x6b76b -8 x6b7c8 -8 x6b825 -8 x6b882
 -8 x6b8df -8 x6dac5 -8 x6e261 +1 x6e394 -8 x6e989 +1 x75a26 <= +0
-
 -9 x6b14f -9 x6b150 +1 x6b1d3 +1 x6b275 -9 x6b4fd -9 x6b4fe +1 x6b584 +1 x6b62c
 -9 x6e405 -9 x6e406 +1 x6e48d +1 x6e535 +1 x7345d +1 x74de3 <= +0
-
 -8 x6b1d3 +1 x6b275 -8 x6b584 +1 x6b62c -8 x6e48d +1 x6e535 +1 x7345d -8 x74de3
 <= +0
-
 -8 x6b14f -8 x6b150 +1 x6b275 -8 x6b4fd -8 x6b4fe +1 x6b62c -8 x6e405 -8 x6e406
 +1 x6e535 +1 x7345d <= +0
-
 +1 x6922d +1 x692c7 -9 x694df +1 x6956c +1 x69614 -9 x6983c +1 x698cb +1 x69973
 -9 x69b9b +1 x69c2a +1 x69cd2 -9 x69efa +1 x69f89 +1 x6a031 -9 x6a259 +1 x6a2e8
 +1 x6a390 -9 x6a5b8 +1 x6a647 +1 x6a6ef -9 x6a917 +1 x6a9a6 +1 x6aa4e -9 x6ac76
 +1 x6ad04 +1 x6adac -9 x6b2f1 -9 x6b6ab -9 x6e5b4 +1 x6e642 +1 x6e6ea -9 x6e911
 +1 x759d2 <= +0
-
 -8 x6922d +1 x692c7 -8 x6956c +1 x69614 -8 x698cb +1 x69973 -8 x69c2a +1 x69cd2
 -8 x69f89 +1 x6a031 -8 x6a2e8 +1 x6a390 -8 x6a647 +1 x6a6ef -8 x6a9a6 +1 x6aa4e
 -8 x6ad04 +1 x6adac -8 x6e642 +1 x6e6ea +1 x759d2 <= +0
-
 +1 x692c7 -8 x694df +1 x69614 -8 x6983c +1 x69973 -8 x69b9b +1 x69cd2 -8 x69efa
 +1 x6a031 -8 x6a259 +1 x6a390 -8 x6a5b8 +1 x6a6ef -8 x6a917 +1 x6aa4e -8 x6ac76
 +1 x6adac -8 x6b2f1 -8 x6b6ab -8 x6e5b4 +1 x6e6ea -8 x6e911 +1 x759d2 <= +0
-
 -9 x69336 -9 x69337 +1 x693c1 +1 x69463 -9 x69685 -9 x69686 +1 x69714 +1 x697bc
 -9 x699e4 -9 x699e5 +1 x69a73 +1 x69b1b -9 x69d43 -9 x69d44 +1 x69dd2 +1 x69e7a
 -9 x6a0a2 -9 x6a0a3 +1 x6a131 +1 x6a1d9 -9 x6a401 -9 x6a402 +1 x6a490 +1 x6a538
 -9 x6a760 -9 x6a761 +1 x6a7ef +1 x6a897 -9 x6aabf -9 x6aac0 +1 x6ab4e +1 x6abf6
 -9 x6ae1d -9 x6ae1e +1 x6aeab +1 x6af53 -9 x6e75b -9 x6e75c +1 x6e7ea +1 x6e892
 +1 x73409 +1 x74da1 <= +0
-
 -8 x693c1 +1 x69463 -8 x69714 +1 x697bc -8 x69a73 +1 x69b1b -8 x69dd2 +1 x69e7a
 -8 x6a131 +1 x6a1d9 -8 x6a490 +1 x6a538 -8 x6a7ef +1 x6a897 -8 x6ab4e +1 x6abf6
 -8 x6aeab +1 x6af53 -8 x6e7ea +1 x6e892 +1 x73409 -8 x74da1 <= +0
-
 -8 x69336 -8 x69337 +1 x69463 -8 x69685 -8 x69686 +1 x697bc -8 x699e4 -8 x699e5
 +1 x69b1b -8 x69d43 -8 x69d44 +1 x69e7a -8 x6a0a2 -8 x6a0a3 +1 x6a1d9 -8 x6a401
 -8 x6a402 +1 x6a538 -8 x6a760 -8 x6a761 +1 x6a897 -8 x6aabf -8 x6aac0 +1 x6abf6
 -8 x6ae1d -8 x6ae1e +1 x6af53 -8 x6e75b -8 x6e75c +1 x6e892 +1 x73409 <= +0
-
 +1 x67d7d +1 x67e17 -9 x681d5 +1 x6825e +1 x68306 -9 x6916f +1 x7597e -9 x78379
 <= +0
-
 -8 x67d7d +1 x67e17 -8 x6825e +1 x68306 +1 x7597e <= +0
-
 +1 x67e17 -8 x681d5 +1 x68306 -8 x6916f +1 x7597e -8 x78379 <= +0
-
 -9 x67e86 -9 x67e87 +1 x67f0a +1 x67fac -9 x68377 -9 x68378 +1 x683fe +1 x684a6
 +1 x733b5 +1 x74d5c <= +0
-
 -8 x67f0a +1 x67fac -8 x683fe +1 x684a6 +1 x733b5 -8 x74d5c <= +0
-
 -8 x67e86 -8 x67e87 +1 x67fac -8 x68377 -8 x68378 +1 x684a6 +1 x733b5 <= +0
-
 +1 x65f64 +1 x65ffe -9 x66216 +1 x662a3 +1 x6634b -9 x66573 +1 x66602 +1 x666aa
 -9 x668d2 +1 x66961 +1 x66a09 -9 x66c31 +1 x66cc0 +1 x66d68 -9 x66f90 +1 x6701f
 +1 x670c7 -9 x672ef +1 x6737e +1 x67426 -9 x6764e +1 x676dd +1 x67785 -9 x679ad
 +1 x67a3b +1 x67ae3 -9 x68028 -9 x68525 +1 x685b3 +1 x6865b -9 x68882 +1 x7592a
 <= +0
-
 -8 x65f64 +1 x65ffe -8 x662a3 +1 x6634b -8 x66602 +1 x666aa -8 x66961 +1 x66a09
 -8 x66cc0 +1 x66d68 -8 x6701f +1 x670c7 -8 x6737e +1 x67426 -8 x676dd +1 x67785
 -8 x67a3b +1 x67ae3 -8 x685b3 +1 x6865b +1 x7592a <= +0
-
 +1 x65ffe -8 x66216 +1 x6634b -8 x66573 +1 x666aa -8 x668d2 +1 x66a09 -8 x66c31
 +1 x66d68 -8 x66f90 +1 x670c7 -8 x672ef +1 x67426 -8 x6764e +1 x67785 -8 x679ad
 +1 x67ae3 -8 x68028 -8 x68525 +1 x6865b -8 x68882 +1 x7592a <= +0
-
 -9 x6606d -9 x6606e +1 x660f8 +1 x6619a -9 x663bc -9 x663bd +1 x6644b +1 x664f3
 -9 x6671b -9 x6671c +1 x667aa +1 x66852 -9 x66a7a -9 x66a7b +1 x66b09 +1 x66bb1
 -9 x66dd9 -9 x66dda +1 x66e68 +1 x66f10 -9 x67138 -9 x67139 +1 x671c7 +1 x6726f
 -9 x67497 -9 x67498 +1 x67526 +1 x675ce -9 x677f6 -9 x677f7 +1 x67885 +1 x6792d
 -9 x67b54 -9 x67b55 +1 x67be2 +1 x67c8a -9 x686cc -9 x686cd +1 x6875b +1 x68803
 +1 x73361 +1 x74d1a <= +0
-
 -8 x660f8 +1 x6619a -8 x6644b +1 x664f3 -8 x667aa +1 x66852 -8 x66b09 +1 x66bb1
 -8 x66e68 +1 x66f10 -8 x671c7 +1 x6726f -8 x67526 +1 x675ce -8 x67885 +1 x6792d
 -8 x67be2 +1 x67c8a -8 x6875b +1 x68803 +1 x73361 -8 x74d1a <= +0
-
 -8 x6606d -8 x6606e +1 x6619a -8 x663bc -8 x663bd +1 x664f3 -8 x6671b -8 x6671c
 +1 x66852 -8 x66a7a -8 x66a7b +1 x66bb1 -8 x66dd9 -8 x66dda +1 x66f10 -8 x67138
 -8 x67139 +1 x6726f -8 x67497 -8 x67498 +1 x675ce -8 x677f6 -8 x677f7 +1 x6792d
 -8 x67b54 -8 x67b55 +1 x67c8a -8 x686cc -8 x686cd +1 x68803 +1 x73361 <= +0
-
 +1 x65613 +1 x656ad -9 x65928 +1 x659b1 +1 x65a59 -9 x65cdb -9 x65d38 -9 x65d95
 -9 x65df2 -9 x65e4f -9 x65eac -9 x68092 -9 x688f9 +1 x68984 +1 x68a2c -9 x69021
 +1 x758d6 <= +0
-
 -8 x65613 +1 x656ad -8 x659b1 +1 x65a59 -8 x68984 +1 x68a2c +1 x758d6 <= +0
-
 +1 x656ad -8 x65928 +1 x65a59 -8 x65cdb -8 x65d38 -8 x65d95 -8 x65df2 -8 x65e4f
 -8 x65eac -8 x68092 -8 x688f9 +1 x68a2c -8 x69021 +1 x758d6 <= +0
-
 -9 x6571c -9 x6571d +1 x657a0 +1 x65842 -9 x65aca -9 x65acb +1 x65b51 +1 x65bf9
 -9 x68a9d -9 x68a9e +1 x68b25 +1 x68bcd +1 x7330d +1 x74cd5 <= +0
-
 -8 x657a0 +1 x65842 -8 x65b51 +1 x65bf9 -8 x68b25 +1 x68bcd +1 x7330d -8 x74cd5
 <= +0
-
 -8 x6571c -8 x6571d +1 x65842 -8 x65aca -8 x65acb +1 x65bf9 -8 x68a9d -8 x68a9e
 +1 x68bcd +1 x7330d <= +0
-
 +1 x637fa +1 x63894 -9 x63aac +1 x63b39 +1 x63be1 -9 x63e09 +1 x63e98 +1 x63f40
 -9 x64168 +1 x641f7 +1 x6429f -9 x644c7 +1 x64556 +1 x645fe -9 x64826 +1 x648b5
 +1 x6495d -9 x64b85 +1 x64c14 +1 x64cbc -9 x64ee4 +1 x64f73 +1 x6501b -9 x65243
 +1 x652d1 +1 x65379 -9 x658be -9 x65c78 -9 x68c4c +1 x68cda +1 x68d82 -9 x68fa9
 +1 x75882 <= +0
-
 -8 x637fa +1 x63894 -8 x63b39 +1 x63be1 -8 x63e98 +1 x63f40 -8 x641f7 +1 x6429f
 -8 x64556 +1 x645fe -8 x648b5 +1 x6495d -8 x64c14 +1 x64cbc -8 x64f73 +1 x6501b
 -8 x652d1 +1 x65379 -8 x68cda +1 x68d82 +1 x75882 <= +0
-
 +1 x63894 -8 x63aac +1 x63be1 -8 x63e09 +1 x63f40 -8 x64168 +1 x6429f -8 x644c7
 +1 x645fe -8 x64826 +1 x6495d -8 x64b85 +1 x64cbc -8 x64ee4 +1 x6501b -8 x65243
 +1 x65379 -8 x658be -8 x65c78 -8 x68c4c +1 x68d82 -8 x68fa9 +1 x75882 <= +0
-
 -9 x63903 -9 x63904 +1 x6398e +1 x63a30 -9 x63c52 -9 x63c53 +1 x63ce1 +1 x63d89
 -9 x63fb1 -9 x63fb2 +1 x64040 +1 x640e8 -9 x64310 -9 x64311 +1 x6439f +1 x64447
 -9 x6466f -9 x64670 +1 x646fe +1 x647a6 -9 x649ce -9 x649cf +1 x64a5d +1 x64b05
 -9 x64d2d -9 x64d2e +1 x64dbc +1 x64e64 -9 x6508c -9 x6508d +1 x6511b +1 x651c3
 -9 x653ea -9 x653eb +1 x65478 +1 x65520 -9 x68df3 -9 x68df4 +1 x68e82 +1 x68f2a
 +1 x732b9 +1 x74c93 <= +0
-
 -8 x6398e +1 x63a30 -8 x63ce1 +1 x63d89 -8 x64040 +1 x640e8 -8 x6439f +1 x64447
 -8 x646fe +1 x647a6 -8 x64a5d +1 x64b05 -8 x64dbc +1 x64e64 -8 x6511b +1 x651c3
 -8 x65478 +1 x65520 -8 x68e82 +1 x68f2a +1 x732b9 -8 x74c93 <= +0
-
 -8 x63903 -8 x63904 +1 x63a30 -8 x63c52 -8 x63c53 +1 x63d89 -8 x63fb1 -8 x63fb2
 +1 x640e8 -8 x64310 -8 x64311 +1 x64447 -8 x6466f -8 x64670 +1 x647a6 -8 x649ce
 -8 x649cf +1 x64b05 -8 x64d2d -8 x64d2e +1 x64e64 -8 x6508c -8 x6508d +1 x651c3
 -8 x653ea -8 x653eb +1 x65520 -8 x68df3 -8 x68df4 +1 x68f2a +1 x732b9 <= +0
-
 +1 x624e2 +1 x6257c -9 x6286f +1 x628f8 +1 x629a0 -9 x6373c -9 x6810a -9 x690a1
 +1 x7582e <= +0
-
 -8 x624e2 +1 x6257c -8 x628f8 +1 x629a0 +1 x7582e <= +0
-
 +1 x6257c -8 x6286f +1 x629a0 -8 x6373c -8 x6810a -8 x690a1 +1 x7582e <= +0
-
 -9 x625eb -9 x625ec +1 x6266f +1 x62711 -9 x62a11 -9 x62a12 +1 x62a98 +1 x62b40
 +1 x73265 +1 x74c4e <= +0
-
 -8 x6266f +1 x62711 -8 x62a98 +1 x62b40 +1 x73265 -8 x74c4e <= +0
-
 -8 x625eb -8 x625ec +1 x62711 -8 x62a11 -8 x62a12 +1 x62b40 +1 x73265 <= +0
-
 +1 x606c9 +1 x60763 -9 x6097b +1 x60a08 +1 x60ab0 -9 x60cd8 +1 x60d67 +1 x60e0f
 -9 x61037 +1 x610c6 +1 x6116e -9 x61396 +1 x61425 +1 x614cd -9 x616f5 +1 x61784
 +1 x6182c -9 x61a54 +1 x61ae3 +1 x61b8b -9 x61db3 +1 x61e42 +1 x61eea -9 x62112
 +1 x621a0 +1 x62248 -9 x6278d -9 x62bbf +1 x62c4d +1 x62cf5 -9 x62f1c +1 x757da
 <= +0
-
 -8 x606c9 +1 x60763 -8 x60a08 +1 x60ab0 -8 x60d67 +1 x60e0f -8 x610c6 +1 x6116e
 -8 x61425 +1 x614cd -8 x61784 +1 x6182c -8 x61ae3 +1 x61b8b -8 x61e42 +1 x61eea
 -8 x621a0 +1 x62248 -8 x62c4d +1 x62cf5 +1 x757da <= +0
-
 +1 x60763 -8 x6097b +1 x60ab0 -8 x60cd8 +1 x60e0f -8 x61037 +1 x6116e -8 x61396
 +1 x614cd -8 x616f5 +1 x6182c -8 x61a54 +1 x61b8b -8 x61db3 +1 x61eea -8 x62112
 +1 x62248 -8 x6278d -8 x62bbf +1 x62cf5 -8 x62f1c +1 x757da <= +0
-
 -9 x607d2 -9 x607d3 +1 x6085d +1 x608ff -9 x60b21 -9 x60b22 +1 x60bb0 +1 x60c58
 -9 x60e80 -9 x60e81 +1 x60f0f +1 x60fb7 -9 x611df -9 x611e0 +1 x6126e +1 x61316
 -9 x6153e -9 x6153f +1 x615cd +1 x61675 -9 x6189d -9 x6189e +1 x6192c +1 x619d4
 -9 x61bfc -9 x61bfd +1 x61c8b +1 x61d33 -9 x61f5b -9 x61f5c +1 x61fea +1 x62092
 -9 x622b9 -9 x622ba +1 x62347 +1 x623ef -9 x62d66 -9 x62d67 +1 x62df5 +1 x62e9d
 +1 x73211 +1 x74c0c <= +0
-
 -8 x6085d +1 x608ff -8 x60bb0 +1 x60c58 -8 x60f0f +1 x60fb7 -8 x6126e +1 x61316
 -8 x615cd +1 x61675 -8 x6192c +1 x619d4 -8 x61c8b +1 x61d33 -8 x61fea +1 x62092
 -8 x62347 +1 x623ef -8 x62df5 +1 x62e9d +1 x73211 -8 x74c0c <= +0
-
 -8 x607d2 -8 x607d3 +1 x608ff -8 x60b21 -8 x60b22 +1 x60c58 -8 x60e80 -8 x60e81
 +1 x60fb7 -8 x611df -8 x611e0 +1 x61316 -8 x6153e -8 x6153f +1 x61675 -8 x6189d
 -8 x6189e +1 x619d4 -8 x61bfc -8 x61bfd +1 x61d33 -8 x61f5b -8 x61f5c +1 x62092
 -8 x622b9 -8 x622ba +1 x623ef -8 x62d66 -8 x62d67 +1 x62e9d +1 x73211 <= +0
-
 +1 x5fd78 +1 x5fe12 -9 x6008d +1 x60116 +1 x601be -9 x60440 -9 x6049d -9 x604fa
 -9 x60557 -9 x605b4 -9 x60611 -9 x627f7 -9 x62f93 +1 x6301e +1 x630c6 -9 x636bb
 +1 x75786 <= +0
-
 -8 x5fd78 +1 x5fe12 -8 x60116 +1 x601be -8 x6301e +1 x630c6 +1 x75786 <= +0
-
 +1 x5fe12 -8 x6008d +1 x601be -8 x60440 -8 x6049d -8 x604fa -8 x60557 -8 x605b4
 -8 x60611 -8 x627f7 -8 x62f93 +1 x630c6 -8 x636bb +1 x75786 <= +0
-
 -9 x5fe81 -9 x5fe82 +1 x5ff05 +1 x5ffa7 -9 x6022f -9 x60230 +1 x602b6 +1 x6035e
 -9 x63137 -9 x63138 +1 x631bf +1 x63267 +1 x731bd +1 x74bc7 <= +0
-
 -8 x5ff05 +1 x5ffa7 -8 x602b6 +1 x6035e -8 x631bf +1 x63267 +1 x731bd -8 x74bc7
 <= +0
-
 -8 x5fe81 -8 x5fe82 +1 x5ffa7 -8 x6022f -8 x60230 +1 x6035e -8 x63137 -8 x63138
 +1 x63267 +1 x731bd <= +0
-
 +1 x5df5f +1 x5dff9 -9 x5e211 +1 x5e29e +1 x5e346 -9 x5e56e +1 x5e5fd +1 x5e6a5
 -9 x5e8cd +1 x5e95c +1 x5ea04 -9 x5ec2c +1 x5ecbb +1 x5ed63 -9 x5ef8b +1 x5f01a
 +1 x5f0c2 -9 x5f2ea +1 x5f379 +1 x5f421 -9 x5f649 +1 x5f6d8 +1 x5f780 -9 x5f9a8
 +1 x5fa36 +1 x5fade -9 x60023 -9 x603dd -9 x632e6 +1 x63374 +1 x6341c -9 x63643
 +1 x75732 <= +0
-
 -8 x5df5f +1 x5dff9 -8 x5e29e +1 x5e346 -8 x5e5fd +1 x5e6a5 -8 x5e95c +1 x5ea04
 -8 x5ecbb +1 x5ed63 -8 x5f01a +1 x5f0c2 -8 x5f379 +1 x5f421 -8 x5f6d8 +1 x5f780
 -8 x5fa36 +1 x5fade -8 x63374 +1 x6341c +1 x75732 <= +0
-
 +1 x5dff9 -8 x5e211 +1 x5e346 -8 x5e56e +1 x5e6a5 -8 x5e8cd +1 x5ea04 -8 x5ec2c
 +1 x5ed63 -8 x5ef8b +1 x5f0c2 -8 x5f2ea +1 x5f421 -8 x5f649 +1 x5f780 -8 x5f9a8
 +1 x5fade -8 x60023 -8 x603dd -8 x632e6 +1 x6341c -8 x63643 +1 x75732 <= +0
-
 -9 x5e068 -9 x5e069 +1 x5e0f3 +1 x5e195 -9 x5e3b7 -9 x5e3b8 +1 x5e446 +1 x5e4ee
 -9 x5e716 -9 x5e717 +1 x5e7a5 +1 x5e84d -9 x5ea75 -9 x5ea76 +1 x5eb04 +1 x5ebac
 -9 x5edd4 -9 x5edd5 +1 x5ee63 +1 x5ef0b -9 x5f133 -9 x5f134 +1 x5f1c2 +1 x5f26a
 -9 x5f492 -9 x5f493 +1 x5f521 +1 x5f5c9 -9 x5f7f1 -9 x5f7f2 +1 x5f880 +1 x5f928
 -9 x5fb4f -9 x5fb50 +1 x5fbdd +1 x5fc85 -9 x6348d -9 x6348e +1 x6351c +1 x635c4
 +1 x73169 +1 x74b85 <= +0
-
 -8 x5e0f3 +1 x5e195 -8 x5e446 +1 x5e4ee -8 x5e7a5 +1 x5e84d -8 x5eb04 +1 x5ebac
 -8 x5ee63 +1 x5ef0b -8 x5f1c2 +1 x5f26a -8 x5f521 +1 x5f5c9 -8 x5f880 +1 x5f928
 -8 x5fbdd +1 x5fc85 -8 x6351c +1 x635c4 +1 x73169 -8 x74b85 <= +0
-
 -8 x5e068 -8 x5e069 +1 x5e195 -8 x5e3b7 -8 x5e3b8 +1 x5e4ee -8 x5e716 -8 x5e717
 +1 x5e84d -8 x5ea75 -8 x5ea76 +1 x5ebac -8 x5edd4 -8 x5edd5 +1 x5ef0b -8 x5f133
 -8 x5f134 +1 x5f26a -8 x5f492 -8 x5f493 +1 x5f5c9 -8 x5f7f1 -8 x5f7f2 +1 x5f928
 -8 x5fb4f -8 x5fb50 +1 x5fc85 -8 x6348d -8 x6348e +1 x635c4 +1 x73169 <= +0
-
-
 -256 x79898 -256 x798cb +1 x798d8 +1 x798dd +1 x798e5 +1 x798ed >= +0
-
 -256 x79898 -256 x798cb +1 x798d8 +1 x798dd +1 x798e5 +1 x798ed <= +0
-
 -255 x798d8 +1 x798dd +1 x798e5 +1 x798ed <= +0
-
 -255 x79898 -255 x798cb +1 x798dd +1 x798e5 +1 x798ed <= +0
-
-
 -3 x7991a +1 x79f5c +1 x79f81 +1 x7a5bc +1 x7a5f7 <= +0
-
 -2 x79f5c +1 x79f81 +1 x7a5bc +1 x7a5f7 <= +0
-
 -2 x7991a +1 x79f81 +1 x7a5bc +1 x7a5f7 <= +0
-
 -3 x7a83f +1 x7ae81 +1 x7aea6 +1 x7b4e1 +1 x7b51c -3 x7b766 <= +0
-
 -2 x7ae81 +1 x7aea6 +1 x7b4e1 +1 x7b51c <= +0
-
 -2 x7a83f +1 x7aea6 +1 x7b4e1 +1 x7b51c -2 x7b766 <= +0
-
-
 -3 x798f6 -3 x798f8 +1 x7a825 +1 x7b74f +1 x7b97e <= +0
-
 -2 x7a825 +1 x7b74f +1 x7b97e <= +0
-
 -2 x798f6 -2 x798f8 +1 x7b74f +1 x7b97e <= +0
-
-
 -254 x783e0 +1 x783f5 +1 x783f6 +1 x78420 +1 x78421 +1 x7844c +1 x7844d +1 x7847a
 +1 x7847b +1 x784a8 +1 x784a9 +1 x784d6 +1 x784d7 +1 x78504 +1 x78505 +1 x78532
 +1 x78533 +1 x78560 +1 x78561 +1 x7858e +1 x7858f >= +0
-
 -254 x783e0 +1 x783f5 +1 x783f6 +1 x78420 +1 x78421 +1 x7844c +1 x7844d +1 x7847a
 +1 x7847b +1 x784a8 +1 x784a9 +1 x784d6 +1 x784d7 +1 x78504 +1 x78505 +1 x78532
 +1 x78533 +1 x78560 +1 x78561 +1 x7858e +1 x7858f <= +0
-
 -253 x783f5 -253 x783f6 +1 x78420 +1 x78421 +1 x7844c +1 x7844d +1 x7847a +1 x7847b
 +1 x784a8 +1 x784a9 +1 x784d6 +1 x784d7 +1 x78504 +1 x78505 +1 x78532 +1 x78533
 +1 x78560 +1 x78561 +1 x7858e +1 x7858f <= +0
-
 -253 x783e0 +1 x78420 +1 x78421 +1 x7844c +1 x7844d +1 x7847a +1 x7847b +1 x784a8
 +1 x784a9 +1 x784d6 +1 x784d7 +1 x78504 +1 x78505 +1 x78532 +1 x78533 +1 x78560
 +1 x78561 +1 x7858e +1 x7858f <= +0
-
 -3 x785c3 +1 x785da +1 x785db +1 x78615 +1 x78616 +1 x78652 +1 x78653 +1 x78691
 +1 x78692 +1 x786d0 +1 x786d1 +1 x7870f +1 x78710 +1 x7874e +1 x7874f +1 x7878d
 +1 x7878e +1 x787cc +1 x787cd -3 x7880d +1 x78824 +1 x78825 +1 x78861 +1 x78862
 <= +0
-
 -2 x785da -2 x785db +1 x78615 +1 x78616 +1 x78652 +1 x78653 +1 x78691 +1 x78692
 +1 x786d0 +1 x786d1 +1 x7870f +1 x78710 +1 x7874e +1 x7874f +1 x7878d +1 x7878e
 +1 x787cc +1 x787cd -2 x78824 -2 x78825 +1 x78861 +1 x78862 <= +0
-
 -2 x785c3 +1 x78615 +1 x78616 +1 x78652 +1 x78653 +1 x78691 +1 x78692 +1 x786d0
 +1 x786d1 +1 x7870f +1 x78710 +1 x7874e +1 x7874f +1 x7878d +1 x7878e +1 x787cc
 +1 x787cd -2 x7880d +1 x78861 +1 x78862 <= +0
-
 -3 x788a5 +1 x788bc +1 x788bd +1 x788f8 +1 x78900 +1 x7893d +1 x78945 -3 x78ae1
 +1 x78af8 +1 x78af9 <= +0
-
 -2 x788bc -2 x788bd +1 x788f8 +1 x78900 +1 x7893d +1 x78945 -2 x78af8 -2 x78af9
 <= +0
-
 -2 x788a5 +1 x788f8 +1 x78900 +1 x7893d +1 x78945 -2 x78ae1 <= +0
-
 -3 x7898c +1 x789a4 +1 x789ac +1 x789e7 +1 x789ef +1 x78a2c +1 x78a34 -3 x78a7c
 +1 x78a94 +1 x78a9c <= +0
-
 -2 x789a4 -2 x789ac +1 x789e7 +1 x789ef +1 x78a2c +1 x78a34 -2 x78a94 -2 x78a9c
 <= +0
-
 -2 x7898c +1 x789e7 +1 x789ef +1 x78a2c +1 x78a34 -2 x78a7c <= +0
-
-
 -255 x691b8 +1 x785b0 +1 x787f9 +1 x78880 <= +0
-
 -254 x785b0 +1 x787f9 +1 x78880 <= +0
-
 -254 x691b8 +1 x787f9 +1 x78880 <= +0
-
 -3 x7888e +1 x78971 +1 x78a60 +1 x78ab8 -3 x78ac9 +1 x78b15 <= +0
-
 -2 x78971 +1 x78a60 +1 x78ab8 -2 x78b15 <= +0
-
 -2 x7888e +1 x78a60 +1 x78ab8 -2 x78ac9 <= +0
-
-
 -256 x691b8 +1 x78883 +1 x78ac6 +1 x78ad2 <= +0
-
 -255 x78883 +1 x78ac6 +1 x78ad2 <= +0
-
 -255 x691b8 +1 x78ac6 +1 x78ad2 <= +0
-
-
 -254 x78b2a +1 x78b5b +1 x78b70 +1 x78b9e +1 x78bb3 +1 x78be3 +1 x78bf8 +1 x78c2a
 +1 x78c3f +1 x78c71 +1 x78c86 +1 x78cb8 +1 x78ccd +1 x78cff +1 x78d14 +1 x78d46
 +1 x78d5b +1 x78d8d +1 x78da2 >= +0
-
 -254 x78b2a +1 x78b5b +1 x78b70 +1 x78b9e +1 x78bb3 +1 x78be3 +1 x78bf8 +1 x78c2a
 +1 x78c3f +1 x78c71 +1 x78c86 +1 x78cb8 +1 x78ccd +1 x78cff +1 x78d14 +1 x78d46
 +1 x78d5b +1 x78d8d +1 x78da2 <= +0
-
 -253 x78b5b -253 x78b70 +1 x78b9e +1 x78bb3 +1 x78be3 +1 x78bf8 +1 x78c2a +1 x78c3f
 +1 x78c71 +1 x78c86 +1 x78cb8 +1 x78ccd +1 x78cff +1 x78d14 +1 x78d46 +1 x78d5b
 +1 x78d8d +1 x78da2 <= +0
-
 -253 x78b2a +1 x78b9e +1 x78bb3 +1 x78be3 +1 x78bf8 +1 x78c2a +1 x78c3f +1 x78c71
 +1 x78c86 +1 x78cb8 +1 x78ccd +1 x78cff +1 x78d14 +1 x78d46 +1 x78d5b +1 x78d8d
 +1 x78da2 <= +0
-
 -3 x78dba +1 x78de1 +1 x78df6 +1 x78e2d +1 x78e42 +1 x78e7b +1 x78e90 -3 x78eab
 +1 x78ed3 +1 x78ee8 <= +0
-
 -2 x78de1 -2 x78df6 +1 x78e2d +1 x78e42 +1 x78e7b +1 x78e90 -2 x78ed3 -2 x78ee8
 <= +0
-
 -2 x78dba +1 x78e2d +1 x78e42 +1 x78e7b +1 x78e90 -2 x78eab <= +0
-
 -3 x78f05 +1 x78f2c +1 x78f41 +1 x78f80 +1 x78f95 +1 x78fd6 +1 x78feb -3 x79195
 +1 x791bc +1 x791d1 <= +0
-
 -2 x78f2c -2 x78f41 +1 x78f80 +1 x78f95 +1 x78fd6 +1 x78feb -2 x791bc -2 x791d1
 <= +0
-
 -2 x78f05 +1 x78f80 +1 x78f95 +1 x78fd6 +1 x78feb -2 x79195 <= +0
-
 -3 x79006 +1 x7903e +1 x79052 +1 x7909a +1 x790ae +1 x790f8 +1 x7910c -3 x79127
 +1 x79160 +1 x79174 <= +0
-
 -2 x7903e -2 x79052 +1 x7909a +1 x790ae +1 x790f8 +1 x7910c -2 x79160 -2 x79174
 <= +0
-
 -2 x79006 +1 x7909a +1 x790ae +1 x790f8 +1 x7910c -2 x79127 <= +0
-
-
 -255 x78b2a +1 x78db7 +1 x78ea8 +1 x78eb4 <= +0
-
 -254 x78db7 +1 x78ea8 +1 x78eb4 <= +0
-
 -254 x78b2a +1 x78ea8 +1 x78eb4 <= +0
-
 -3 x78efe +1 x79003 +1 x79124 +1 x79130 -3 x7918d +1 x7919d <= +0
-
 -2 x79003 +1 x79124 +1 x79130 -2 x7919d <= +0
-
 -2 x78efe +1 x79124 +1 x79130 -2 x7918d <= +0
-
-
 -256 x78b2a +1 x78ef3 +1 x7918a +1 x79196 <= +0
-
 -255 x78ef3 +1 x7918a +1 x79196 <= +0
-
 -255 x78b2a +1 x7918a +1 x79196 <= +0
-
-
 -254 x7920a +1 x7921f +1 x79220 +1 x7924a +1 x7924b +1 x79276 +1 x79277 >= +0
-
 -254 x7920a +1 x7921f +1 x79220 +1 x7924a +1 x7924b +1 x79276 +1 x79277 <= +0
-
 -253 x7921f -253 x79220 +1 x7924a +1 x7924b +1 x79276 +1 x79277 <= +0
-
 -253 x7920a +1 x7924a +1 x7924b +1 x79276 +1 x79277 <= +0
-
 -3 x792ab +1 x792c2 +1 x792c3 +1 x792fe +1 x79306 +1 x79343 +1 x7934b +1 x7938a
 +1 x79392 +1 x793d1 +1 x793d9 +1 x79418 +1 x79420 +1 x7945f +1 x79467 +1 x794a6
 +1 x794ae +1 x794ed +1 x794f5 +1 x79528 +1 x79530 -3 x79570 +1 x79587 +1 x79588
 +1 x795c5 +1 x795cd <= +0
-
 -2 x792c2 -2 x792c3 +1 x792fe +1 x79306 +1 x79343 +1 x7934b +1 x7938a +1 x79392
 +1 x793d1 +1 x793d9 +1 x79418 +1 x79420 +1 x7945f +1 x79467 +1 x794a6 +1 x794ae
 +1 x794ed +1 x794f5 +1 x79528 +1 x79530 -2 x79587 -2 x79588 +1 x795c5 +1 x795cd
 <= +0
-
 -2 x792ab +1 x792fe +1 x79306 +1 x79343 +1 x7934b +1 x7938a +1 x79392 +1 x793d1
 +1 x793d9 +1 x79418 +1 x79420 +1 x7945f +1 x79467 +1 x794a6 +1 x794ae +1 x794ed
 +1 x794f5 +1 x79528 +1 x79530 -2 x79570 +1 x795c5 +1 x795cd <= +0
-
 -3 x79610 +1 x79627 +1 x79628 +1 x79663 +1 x7966b +1 x796a8 +1 x796b0 -3 x7984c
 +1 x79863 +1 x79864 <= +0
-
 -2 x79627 -2 x79628 +1 x79663 +1 x7966b +1 x796a8 +1 x796b0 -2 x79863 -2 x79864
 <= +0
-
 -2 x79610 +1 x79663 +1 x7966b +1 x796a8 +1 x796b0 -2 x7984c <= +0
-
 -3 x796f7 +1 x79716 +1 x79717 +1 x79752 +1 x7975a +1 x79797 +1 x7979f -3 x797e7
 +1 x79806 +1 x79807 <= +0
-
 -2 x79716 -2 x79717 +1 x79752 +1 x7975a +1 x79797 +1 x7979f -2 x79806 -2 x79807
 <= +0
-
 -2 x796f7 +1 x79752 +1 x7975a +1 x79797 +1 x7979f -2 x797e7 <= +0
-
-
 -255 x791ee +1 x79298 +1 x7955c +1 x795eb <= +0
-
 -254 x79298 +1 x7955c +1 x795eb <= +0
-
 -254 x791ee +1 x7955c +1 x795eb <= +0
-
 -3 x795f9 +1 x796dc +1 x797cb +1 x79823 -3 x79834 +1 x79880 <= +0
-
 -2 x796dc +1 x797cb +1 x79823 -2 x79880 <= +0
-
 -2 x795f9 +1 x797cb +1 x79823 -2 x79834 <= +0
-
-
 -256 x791ee +1 x795ee +1 x79831 +1 x7983d <= +0
-
 -255 x795ee +1 x79831 +1 x7983d <= +0
-
 -255 x791ee +1 x79831 +1 x7983d <= +0
-
-
 -254 x5dcae +1 x5dcbd +1 x5dcc5 +1 x5dccd >= +0
-
 -254 x5dcae +1 x5dcbd +1 x5dcc5 +1 x5dccd <= +0
-
 -254 x5dcae +1 x5dcbd +1 x5dcc5 +1 x5dccd <= +0
-
 -254 x5dcae +1 x5dcbd +1 x5dcc5 +1 x5dccd <= +0
-
 -3 x5dce9 +1 x5dcf0 +1 x5dcf8 +1 x5dd00 -3 x5dd1e +1 x5dd26 <= +0
-
 -2 x5dcf0 +1 x5dcf8 +1 x5dd00 -2 x5dd26 <= +0
-
 -2 x5dce9 +1 x5dcf8 +1 x5dd00 -2 x5dd1e <= +0
-
-
 -256 x5dcae +1 x5dce6 +1 x5dd1b +1 x5dd27 >= +0
-
 -256 x5dcae +1 x5dce6 +1 x5dd1b +1 x5dd27 <= +0
-
 -255 x5dce6 +1 x5dd1b +1 x5dd27 <= +0
-
 -255 x5dcae +1 x5dd1b +1 x5dd27 <= +0
-
-
 -256 x5dd7b +1 x714df +1 x7183b +1 x71b9a +1 x71ef9 +1 x72258 +1 x725b7 +1 x72916
 +1 x72c75 +1 x72fd2 +1 x77517 +1 x7786d <= +0
-
 +1 x714df +1 x7183b +1 x71b9a +1 x71ef9 +1 x72258 +1 x725b7 +1 x72916 +1 x72c75
 +1 x72fd2 -255 x77517 +1 x7786d <= +0
-
 -255 x5dd7b +1 x714df +1 x7183b +1 x71b9a +1 x71ef9 +1 x72258 +1 x725b7 +1 x72916
 +1 x72c75 +1 x72fd2 +1 x7786d <= +0
-
 +1 x6ed75 +1 x6f0d1 +1 x6f430 +1 x6f78f +1 x6faee +1 x6fe4d +1 x701ac +1 x7050b
 +1 x70868 +1 x70b87 -256 x70bf6 +1 x70f40 -256 x70fa9 -256 x71006 -256 x71063 -256 x710c0
 -256 x7111d -256 x7117a -256 x779f3 +1 x77d3a +1 x78091 -256 x7810f <= +0
-
 +1 x6ed75 +1 x6f0d1 +1 x6f430 +1 x6f78f +1 x6faee +1 x6fe4d +1 x701ac +1 x7050b
 +1 x70868 -255 x70b87 -255 x70f40 -255 x77d3a +1 x78091 <= +0
-
 +1 x6ed75 +1 x6f0d1 +1 x6f430 +1 x6f78f +1 x6faee +1 x6fe4d +1 x701ac +1 x7050b
 +1 x70868 -255 x70bf6 -255 x70fa9 -255 x71006 -255 x71063 -255 x710c0 -255 x7111d -255 x7117a
 -255 x779f3 +1 x78091 -255 x7810f <= +0
-
 +1 x6bc44 +1 x6bfa0 +1 x6c2ff +1 x6c65e +1 x6c9bd +1 x6cd1c +1 x6d07b +1 x6d3da
 +1 x6d737 +1 x6da56 -256 x6db3d +1 x6de87 +1 x6e1e4 -256 x6ea0a -256 x782a9 <= +0
-
 +1 x6bc44 +1 x6bfa0 +1 x6c2ff +1 x6c65e +1 x6c9bd +1 x6cd1c +1 x6d07b +1 x6d3da
 +1 x6d737 -255 x6da56 -255 x6de87 +1 x6e1e4 <= +0
-
 +1 x6bc44 +1 x6bfa0 +1 x6c2ff +1 x6c65e +1 x6c9bd +1 x6cd1c +1 x6d07b +1 x6d3da
 +1 x6d737 -255 x6db3d +1 x6e1e4 -255 x6ea0a -255 x782a9 <= +0
-
 +1 x694da +1 x69836 +1 x69b95 +1 x69ef4 +1 x6a253 +1 x6a5b2 +1 x6a911 +1 x6ac70
 +1 x6afcd +1 x6b2ec -256 x6b35b +1 x6b6a5 -256 x6b70e -256 x6b76b -256 x6b7c8 -256 x6b825
 -256 x6b882 -256 x6b8df -256 x6dac5 -256 x6e261 +1 x6e5ae +1 x6e90b -256 x6e989 <= +0
-
 +1 x694da +1 x69836 +1 x69b95 +1 x69ef4 +1 x6a253 +1 x6a5b2 +1 x6a911 +1 x6ac70
 +1 x6afcd -255 x6b2ec -255 x6b6a5 -255 x6e5ae +1 x6e90b <= +0
-
 +1 x694da +1 x69836 +1 x69b95 +1 x69ef4 +1 x6a253 +1 x6a5b2 +1 x6a911 +1 x6ac70
 +1 x6afcd -255 x6b35b -255 x6b70e -255 x6b76b -255 x6b7c8 -255 x6b825 -255 x6b882 -255 x6b8df
 -255 x6dac5 -255 x6e261 +1 x6e90b -255 x6e989 <= +0
-
 +1 x66211 +1 x6656d +1 x668cc +1 x66c2b +1 x66f8a +1 x672e9 +1 x67648 +1 x679a7
 +1 x67d04 +1 x68023 -256 x681d5 +1 x6851f +1 x6887c -256 x6916f -256 x78379 <= +0
-
 +1 x66211 +1 x6656d +1 x668cc +1 x66c2b +1 x66f8a +1 x672e9 +1 x67648 +1 x679a7
 +1 x67d04 -255 x68023 -255 x6851f +1 x6887c <= +0
-
 +1 x66211 +1 x6656d +1 x668cc +1 x66c2b +1 x66f8a +1 x672e9 +1 x67648 +1 x679a7
 +1 x67d04 -255 x681d5 +1 x6887c -255 x6916f -255 x78379 <= +0
-
 +1 x63aa7 +1 x63e03 +1 x64162 +1 x644c1 +1 x64820 +1 x64b7f +1 x64ede +1 x6523d
 +1 x6559a +1 x658b9 -256 x65928 +1 x65c72 -256 x65cdb -256 x65d38 -256 x65d95 -256 x65df2
 -256 x65e4f -256 x65eac -256 x68092 -256 x688f9 +1 x68c46 +1 x68fa3 -256 x69021 <= +0
-
 +1 x63aa7 +1 x63e03 +1 x64162 +1 x644c1 +1 x64820 +1 x64b7f +1 x64ede +1 x6523d
 +1 x6559a -255 x658b9 -255 x65c72 -255 x68c46 +1 x68fa3 <= +0
-
 +1 x63aa7 +1 x63e03 +1 x64162 +1 x644c1 +1 x64820 +1 x64b7f +1 x64ede +1 x6523d
 +1 x6559a -255 x65928 -255 x65cdb -255 x65d38 -255 x65d95 -255 x65df2 -255 x65e4f -255 x65eac
 -255 x68092 -255 x688f9 +1 x68fa3 -255 x69021 <= +0
-
 +1 x60976 +1 x60cd2 +1 x61031 +1 x61390 +1 x616ef +1 x61a4e +1 x61dad +1 x6210c
 +1 x62469 +1 x62788 -256 x6286f +1 x62bb9 +1 x62f16 -256 x6373c -256 x6810a -256 x690a1
 <= +0
-
 +1 x60976 +1 x60cd2 +1 x61031 +1 x61390 +1 x616ef +1 x61a4e +1 x61dad +1 x6210c
 +1 x62469 -255 x62788 -255 x62bb9 +1 x62f16 <= +0
-
 +1 x60976 +1 x60cd2 +1 x61031 +1 x61390 +1 x616ef +1 x61a4e +1 x61dad +1 x6210c
 +1 x62469 -255 x6286f +1 x62f16 -255 x6373c -255 x6810a -255 x690a1 <= +0
-
 +1 x5e20c +1 x5e568 +1 x5e8c7 +1 x5ec26 +1 x5ef85 +1 x5f2e4 +1 x5f643 +1 x5f9a2
 +1 x5fcff +1 x6001e -256 x6008d +1 x603d7 -256 x60440 -256 x6049d -256 x604fa -256 x60557
 -256 x605b4 -256 x60611 -256 x627f7 -256 x62f93 +1 x632e0 +1 x6363d -256 x636bb <= +0
-
 +1 x5e20c +1 x5e568 +1 x5e8c7 +1 x5ec26 +1 x5ef85 +1 x5f2e4 +1 x5f643 +1 x5f9a2
 +1 x5fcff -255 x6001e -255 x603d7 -255 x632e0 +1 x6363d <= +0
-
 +1 x5e20c +1 x5e568 +1 x5e8c7 +1 x5ec26 +1 x5ef85 +1 x5f2e4 +1 x5f643 +1 x5f9a2
 +1 x5fcff -255 x6008d -255 x60440 -255 x6049d -255 x604fa -255 x60557 -255 x605b4 -255 x60611
 -255 x627f7 -255 x62f93 +1 x6363d -255 x636bb <= +0
-
-
 -3 x5dd5d +1 x70bdc +1 x70f8d +1 x70faa +1 x71007 +1 x71064 +1 x710c1 +1 x7111e
 +1 x7117b +1 x779d9 +1 x780f3 +1 x78110 <= +0
-
 +1 x70bdc +1 x70f8d +1 x70faa +1 x71007 +1 x71064 +1 x710c1 +1 x7111e +1 x7117b
 -2 x779d9 +1 x780f3 +1 x78110 <= +0
-
 -2 x5dd5d +1 x70bdc +1 x70f8d +1 x70faa +1 x71007 +1 x71064 +1 x710c1 +1 x7111e
 +1 x7117b +1 x780f3 +1 x78110 <= +0
-
 +1 x6b341 +1 x6b6f2 +1 x6b70f +1 x6b76c +1 x6b7c9 +1 x6b826 +1 x6b883 +1 x6b8e0
 +1 x6daab +1 x6dac6 -3 x6db1f +1 x6e246 +1 x6e96d +1 x6e98a -3 x6e9ec +1 x6ea0b
 -3 x7828b +1 x782aa <= +0
-
 +1 x6b341 +1 x6b6f2 +1 x6b70f +1 x6b76c +1 x6b7c9 +1 x6b826 +1 x6b883 +1 x6b8e0
 -2 x6daab +1 x6dac6 -2 x6e246 +1 x6e96d +1 x6e98a -2 x6ea0b -2 x782aa <= +0
-
 +1 x6b341 +1 x6b6f2 +1 x6b70f +1 x6b76c +1 x6b7c9 +1 x6b826 +1 x6b883 +1 x6b8e0
 +1 x6dac6 -2 x6db1f +1 x6e96d +1 x6e98a -2 x6e9ec -2 x7828b <= +0
-
 +1 x6590e +1 x65cbf +1 x65cdc +1 x65d39 +1 x65d96 +1 x65df3 +1 x65e50 +1 x65ead
 +1 x68078 +1 x68093 -3 x681b7 +1 x688de +1 x69005 +1 x69022 -3 x69151 +1 x69170
 -3 x7835b +1 x7837a <= +0
-
 +1 x6590e +1 x65cbf +1 x65cdc +1 x65d39 +1 x65d96 +1 x65df3 +1 x65e50 +1 x65ead
 -2 x68078 +1 x68093 -2 x688de +1 x69005 +1 x69022 -2 x69170 -2 x7837a <= +0
-
 +1 x6590e +1 x65cbf +1 x65cdc +1 x65d39 +1 x65d96 +1 x65df3 +1 x65e50 +1 x65ead
 +1 x68093 -2 x681b7 +1 x69005 +1 x69022 -2 x69151 -2 x7835b <= +0
-
 +1 x60073 +1 x60424 +1 x60441 +1 x6049e +1 x604fb +1 x60558 +1 x605b5 +1 x60612
 +1 x627dd +1 x627f8 -3 x62851 +1 x62f78 +1 x6369f +1 x636bc -3 x6371e +1 x6373d
 -3 x680ec +1 x6810b -3 x69083 +1 x690a2 <= +0
-
 +1 x60073 +1 x60424 +1 x60441 +1 x6049e +1 x604fb +1 x60558 +1 x605b5 +1 x60612
 -2 x627dd +1 x627f8 -2 x62f78 +1 x6369f +1 x636bc -2 x6373d -2 x6810b -2 x690a2
 <= +0
-
 +1 x60073 +1 x60424 +1 x60441 +1 x6049e +1 x604fb +1 x60558 +1 x605b5 +1 x60612
 +1 x627f8 -2 x62851 +1 x6369f +1 x636bc -2 x6371e -2 x680ec -2 x69083 <= +0
-
-
 -3 x5dd4a +1 x6b922 +1 x6e9d8 +1 x6e9f3 +1 x78279 +1 x78292 <= +0
-
 +1 x6b922 +1 x6e9d8 +1 x6e9f3 -2 x78279 +1 x78292 <= +0
-
 -2 x5dd4a +1 x6b922 +1 x6e9d8 +1 x6e9f3 +1 x78292 <= +0
-
 +1 x60654 +1 x6370a +1 x63725 +1 x65eef +1 x680f3 -3 x681a4 +1 x69070 +1 x6908a
 -3 x6913e +1 x69158 -3 x78348 +1 x78362 <= +0
-
 +1 x60654 +1 x6370a +1 x63725 -2 x65eef +1 x680f3 -2 x69070 +1 x6908a -2 x69158
 -2 x78362 <= +0
-
 +1 x60654 +1 x6370a +1 x63725 +1 x680f3 -2 x681a4 +1 x6908a -2 x6913e -2 x78348
 <= +0
-
-
 -3 x5dd34 +1 x68158 +1 x6816b +1 x68171 +1 x6817f +1 x690f3 +1 x69106 +1 x6910c
 +1 x6911a +1 x782fc +1 x7830f +1 x78315 +1 x78323 <= +0
-
 +1 x68158 +1 x6816b +1 x68171 +1 x6817f +1 x690f3 +1 x69106 +1 x6910c +1 x6911a
 -2 x782fc -2 x7830f -2 x78315 -2 x78323 <= +0
-
 -2 x5dd34 +1 x68158 +1 x6816b +1 x68171 +1 x6817f +1 x690f3 +1 x69106 +1 x6910c
 +1 x6911a <= +0
-
-
-
-
-
-
-
 general
 z
 o
@@ -73011,8 +54928,4 @@ x7b977
 x7b979
 x7b97e
 x7b9c4
-
 end
-
-
-

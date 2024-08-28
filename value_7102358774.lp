@@ -1,4 +1,3 @@
-
 maximize cost: 27 x2 + 29 x3 + 15 x4 + 29 x5
  + 1 xa + 1 xc + 28 x12 + 30 x13 + 18 x14
  + 16 x15 + 12 x18 + 20 x1c + 1 x1d + 21 x21
@@ -240,21 +239,11 @@ maximize cost: 27 x2 + 29 x3 + 15 x4 + 29 x5
  + 20 xacd + 22 xace + 5 xad5 + 4 xad6 + 18 xae0
  + 13 xae1 + 21 xae3 + 23 xae4 + 15 xaf1 + 4 xaf6
  + 13 xaf9
-
 subject to
-
 z = 0
-
-
 o = 1
-
-
 x1 = 1
-
-
 xb + xd + x19 + x1e + x86 + x97 + xe5 + x108 + x126 + x13b + x14e + x165 + x17c + x1d2 + x1e3 + x238 + x252 + x272 + x28c + x2a5 + x2b9 + x2d2 + x342 + x358 + x3af + x3c2 + x3d4 + x3e9 + x3fc + x413 + x42d + x495 + x4b0 + x4ff + x51a + x527 + x541 + x55a + x574 + x591 + x5f4 + x605 + x653 + x676 + x694 + x6a9 + x6bc + x6d3 + x6ea + x740 + x751 + x7a6 + x7c0 + x7e0 + x7fa + x813 + x827 + x840 + x8b0 + x8c6 + x91d + x930 + x942 + x957 + x96a + x981 + x99b + xa03 + xa1e + xa6d + xa88 + xa95 + xaaf + xac8 + xae2 + xafa = 1
-
-
 x1 - x2 - x3 = 0
 x2 - x4 = 0
 x3 - x5 = 0
@@ -2727,8 +2716,6 @@ xaf7 + xafc - xaf8 = 0
 xaf8 - xaf9 = 0
 xaf9 - xafa - xafb = 0
 xafb - xafc = 0
-
-
 +1 x939 -1 x91f = 0
 +1 xa91 -1 xa77 = 0
 +1 x68b -1 x677 = 0
@@ -3000,9 +2987,6 @@ xafb - xafc = 0
 +1 xadc -1 x583 <= 0
 +1 xaea -1 x57a <= 0
 +1 xaeb -1 xae8 <= 0
-
-
-
 +1 x9a2 +1 x9c3 -8 x986 >= 0
 +1 x9a2 +1 x9c3 -8 x986 <= 0
 +1 x9c3 -7 x9a2 <= 0
@@ -3067,7 +3051,6 @@ xafb - xafc = 0
 +1 x9b +1 xc2 -8 x7e <= 0
 +1 xc2 -7 x9b <= 0
 +1 xc2 -7 x7e <= 0
-
 +1 x9d5 +1 xa53 -8 x97b >= 0
 +1 x9d5 +1 xa53 -8 x97b <= 0
 +1 xa53 -7 x9d5 <= 0
@@ -3100,7 +3083,6 @@ xafb - xafc = 0
 +1 x74 +1 xe6 -8 x2c <= 0
 +1 xe6 -7 x74 <= 0
 +1 xe6 -7 x2c <= 0
-
 +1 x6b4 +1 x806 -255 x589 >= 0
 +1 x6b4 +1 x806 -255 x589 <= 0
 +1 x806 -254 x6b4 <= 0
@@ -3117,7 +3099,6 @@ xafb - xafc = 0
 +1 x3f4 +1 x54d -255 x2b6 <= 0
 +1 x54d -254 x3f4 <= 0
 +1 x54d -254 x2b6 <= 0
-
 +1 x2ad +1 x563 -255 x1f >= 0
 +1 x2ad +1 x563 -255 x1f <= 0
 +1 x563 -254 x2ad <= 0
@@ -3126,11 +3107,9 @@ xafb - xafc = 0
 +1 x81b +1 xad1 -255 x583 <= 0
 +1 xad1 -254 x81b <= 0
 +1 xad1 -254 x583 <= 0
-
 +1 x57a +1 xae8 -3 x16 <= 0
 +1 xae8 -2 x57a <= 0
 +1 xae8 -2 x16 <= 0
-
 +1 xaf7 +1 xafb -3 xaf4 <= 0
 +1 xafb -2 xaf7 <= 0
 +1 xafb -2 xaf4 <= 0
@@ -3203,8 +3182,6 @@ xafb - xafc = 0
 +1 xd7 +1 xee -3 xc1 <= 0
 +1 xee -2 xd7 <= 0
 +1 xee -2 xc1 <= 0
-
-
 general
 z
 o
@@ -6020,6 +5997,4 @@ xaf9
 xafa
 xafb
 xafc
-
-
 end

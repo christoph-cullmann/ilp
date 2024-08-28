@@ -1,5 +1,3 @@
-
-
 Maximize
 obj: 12 x14126 +10 x10ae1 +6 xb300 +10 xc768 +8 xe711 +6 xa91f +10 xd376
 	+11 x1043d +12 x12cd1 +6 xa98b +6 xa765 +13 x11bad +6 xafcd +6 xaf49 +10 x12820
@@ -3203,11 +3201,8 @@ obj: 12 x14126 +10 x10ae1 +6 xb300 +10 xc768 +8 xe711 +6 xa91f +10 xd376
 	+13 xca1c +30 x2f84 +24 x16854 +18 x4eb9 +56 x7e7f +37 x13639 +5 x7a54 +17 x79d0
 	+12 x5469 +4 xf998 +35 x8170 +105 xcf0d +134 xc178 +10 xf5d1 +5 x9ce5 +6 xb863
 	+8 x11d53 +8 xacb0 +25 xe90c +16 xe360 +3 x12e84 +69 x14caf
-
 Subject To
-
 x1 = 1089
-
 -x9c7c >= -1
 -xbf68 -x1988 +x9c7c = 0
 -xbf52 +x1988 -x19a0 = 0
@@ -23267,7 +23262,6 @@ x161f0 -28 x97c7 +x9857 = 0
 5 x8259 -x82e5 -x14763 >= 0
 x96bc +x15fdf >= 0
 -x96bc -x15fdf +4749 x962f >= 0
-
 Bounds
 x14126 >= 0
 x556e >= 0
@@ -54206,7 +54200,6 @@ xe90c >= 0
 xe360 >= 0
 x12e84 >= 0
 x14caf >= 0
-
 Generals
 x1
  x14126 x556e x480a x7dce x173b0 x10ae1 xb300 xc768 xe711 xcde
@@ -57303,7 +57296,4 @@ x1
  x2f84 x16854 x4eb9 x952 x7e7f x13639 x170f3 x71d2 x7a54 xf998
  x5469 x79d0 x1030 x17770 x8170 xcf0d xf5d1 xc178 x9ce5 xb863
  x11d53 xacb0 x4046 xe90c xe360 x12e84 x14caf
-
-
-
 End

@@ -1,4 +1,3 @@
-
 Maximize
 obj: 162 x60a +27 x592 +27 x575 +27 x4cf +20 x474 +55 x506 +26 x32b
 	+131 x2f1 +27 x58b +186 x3cd +66 x551 +41 x597 +27 x4cc +129 x427 +27 x591
@@ -26,11 +25,8 @@ obj: 162 x60a +27 x592 +27 x575 +27 x4cf +20 x474 +55 x506 +26 x32b
 	+168 x30c +100 x342 +x31c +255 x69 +178 x469 +41 x23c +70 x56d +26 x325
 	+76 x4bc +186 xee +110 x387 +21 x437 +84 x3bc +115 x3fa +104 x510 +186 x3ca
 	+120 x34e
-
 Subject To
-
 x1 = 1459
-
 x28f -xee -x3ca = 0
 -x3cd +x12 -x3c8 = 0
 -x60f +x28f -x60e = 0
@@ -288,7 +284,6 @@ x682 +x245 -9 x25a = 0
 -x4db +20 x54a -x4d1 >= 0
 -x12e +20 x468 -x42a +20 x469 >= 0
 -9 x2e4 +x5dc +x25a -9 x2e2 = 0
-
 Bounds
 x60a >= 0
 x592 >= 0
@@ -647,7 +642,6 @@ x510 >= 0
 x650 >= 0
 x3ca >= 0
 x34e >= 0
-
 Generals
 x1
  x60a x592 x575 x63e x63d x5e6 x42f x4cf x473 x639
@@ -686,7 +680,4 @@ x1
  x30c x342 x401 x31c x660 x5e0 x69 x469 x23c x56d
  x62f x4bc x325 x9c x437 x387 xee x675 x3bc x117
  x3fa x5e1 x662 x510 x650 x3ca x34e
-
-
-
 End

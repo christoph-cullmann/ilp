@@ -1,4 +1,3 @@
-
 Maximize
 obj: x1 +86 x13b +45 x142 +64 x148 +64 x14b +45 x14c +86 x14d
 	+26 x14e +26 x14f +11 x152 +55 x153 +62 x15b +82 x161 +82 x164 +62 x165
@@ -14,11 +13,8 @@ obj: x1 +86 x13b +45 x142 +64 x148 +64 x14b +45 x14c +86 x14d
 	+18 x29f +21 x2a1 +24 x2a2 +9 x2a5 +9 x2a8 +9 x2ae +24 x2c1 +9 x2c4
 	+9 x2c7 +42 x2ca +9 x2cd +9 x2d0 +9 x2d1 +41 x2d2 +70 x2d4 +105 x2d8
 	+45 x2df +561 x2fa +29 x2ff +136 x301 +29 x304
-
 Subject To
-
 x1 = 0
-
 -x16f -x2d8 = -1
 -x13b -x14d +x16f = 0
 -x142 -x14c +x14d = 0
@@ -142,7 +138,6 @@ x282 +x284 -255 x2ca -255 x2d2 = 0
 x246 +x248 -8 x250 -8 x270 = 0
 -x164 -x165 +20 x166 >= 0
 x2c7 -254 x2ca = 0
-
 Bounds
 x19 >= 0
 x1c >= 0
@@ -316,7 +311,6 @@ x31b >= 0
 x31c >= 0
 x31e >= 0
 x31f >= 0
-
 Generals
 x1
  x19 x1c x28 x9a xc8 xd9 xdb xf0 xf2 x13b
@@ -337,7 +331,4 @@ x1
  x308 x309 x30a x30b x30c x30d x30e x30f x310 x311
  x312 x313 x314 x315 x316 x317 x318 x31a x31b x31c
  x31e x31f
-
-
-
 End
